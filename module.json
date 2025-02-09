@@ -1,0 +1,32 @@
+{
+  "id": "lancer-compendium-zhtw",
+  "title": "lancer 繁體中文化",
+  "description": "《槍騎兵 Lancer》的中文化套件，需搭配 Babele 套件使用。",
+  "author": "Hazmole",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+
+  "relationships": {
+    "systems": [{
+      "id": "lancer",
+      "type": "system"
+    }],
+    "requires": [{
+      "id": "babele",
+      "type": "module"
+    }]
+  },
+
+  "esmodules": ["babele-register.js"],
+  "scripts": [],
+  "packs": [],
+
+  "languages": [{
+  	"lang": "zh-tw",
+    "name": "正體中文",
+    "path": "zhtw.json"
+  }]
+}
