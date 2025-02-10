@@ -1,0 +1,1451 @@
+{
+  "label": "NPC 彙編",
+  "folders": {
+    "NPC Class": "NPC 種類",
+    "NPC Feature": "NPC 特徵",
+    "NPC Template": "NPC 模板"
+  },
+  "mapping": {
+    "description": "system.description",
+    "system": {
+      "path": "system",
+      "converter": "lidShunt"
+    }
+  },
+  "entries": {
+    "ANTI-ARMOR WEAPON": {
+      "name": "ANTI-ARMOR WEAPON"
+    },
+    "ARMORED": {
+      "name": "ARMORED"
+    },
+    "CHAFF LAUNCHERS": {
+      "name": "CHAFF LAUNCHERS"
+    },
+    "CREW": {
+      "name": "機組人員",
+      "npcf_crew_ship": {
+        "effect": "星艦擁有至少 2 名機組人員。"
+      },
+      "npcf_crew_vehicle": {
+        "effect": "如果載具的大小超過 1/2，它可能會擁有機組人員；若有，則它會擁有數量至少與其大小等值的機組人員。"
+      }
+    },
+    "DATAVEIL": {
+      "name": "DATAVEIL"
+    },
+    "DEADLY": {
+      "name": "致命",
+      "npcf_deadly_pirate": {
+        "effect": "海盜在<b>會心一擊</b>時會造成 +1d6 額外傷害。"
+      },
+      "npcf_deadly_ultra": {
+        "effect": "超體在<b>會心一擊</b>時會造成 +1d6 額外傷害。"
+      },
+      "npcf_deadly_veteran": {
+        "effect": "老兵在<b>會心一擊</b>時會造成 +1d6 額外傷害。"
+      }
+    },
+    "FLIER": {
+      "name": "飛行器",
+      "npcf_flier_ship": {
+        "effect": "星艦可以在無重力環境中正常移動，也能在大氣層內懸浮。它對<b>固定</b>、<b>暈眩</b>和<b>伏臥</b>狀態免疫。"
+      },
+      "npcf_flier_vehicle": {
+        "effect": "載具在移動或<b>推進</b>時可以<b>飛行</b>。"
+      }
+    },
+    "FORTRESS": {
+      "name": "FORTRESS"
+    },
+    "GUARDIAN": {
+      "name": "GUARDIAN"
+    },
+    "HARDENED TARGET": {
+      "name": "安全固化目標",
+      "npcf_hardened_target_exotic": {
+        "effect": "異形在<b>系統豁免</b>得到 <b>+1 準度</b>，且對其進行的科技攻擊也都會受到 <b>+1 難度</b>。"
+      },
+      "npcf_hardened_target_priest": {
+        "effect": "祭司在<b>系統豁免</b>得到 <b>+1 準度</b>，且對其進行的科技攻擊也都會受到 <b>+1 難度</b>。"
+      },
+      "npcf_hardened_target_veteran": {
+        "effect": "老兵在<b>系統豁免</b>得到 <b>+1 準度</b>，且對其進行的科技攻擊也都會受到 <b>+1 難度</b>。"
+      }
+    },
+    "HEAVY FRAME": {
+      "name": "HEAVY FRAME"
+    },
+    "INSULATED": {
+      "name": "INSULATED"
+    },
+    "JUGGERNAUT": {
+      "name": "勢不可擋",
+      "npcf_juggernaut_ultra": {
+        "effect": "在超體的回合開始時，它清除自己身上的一個狀況。在它的回合結束時，它修復一個被摧毀的武器或系統。"
+      },
+      "npcf_juggernaut_berserker": {
+        "effect": "當狂戰士使用雪崩衝刺時，所有與其前進路徑或最終位置鄰接的角色，無論敵友，都必須通過<b>機體豁免</b>，否則被撞倒<b>伏臥</b>。"
+      }
+    },
+    "LEGENDARY": {
+      "name": "天選之人",
+      "npcf_legendary_veteran": {
+        "effect": "老兵進行的所有<b>結構傷害</b>和<b>過熱判定</b>都能骰兩次並選擇其中一個結果。"
+      },
+      "npcf_legendary_ultra": {
+        "effect": "超體進行的所有<b>結構傷害</b>和<b>過熱判定</b>都能骰兩次並選擇其中一個結果。"
+      }
+    },
+    "LIMITLESS": {
+      "name": "LIMITLESS"
+    },
+    "MOVING TARGET": {
+      "name": "MOVING TARGET"
+    },
+    "NO MANIPULATORS": {
+      "name": "缺乏操作臂",
+      "npcf_no_manipulators_ship": {
+        "effect": "星艦無法撿拾物件、或操作物件或環境、或進行<b>擒拿</b>。"
+      },
+      "npcf_no_manipulators_vehicle": {
+        "effect": "載具無法撿拾物件、或操作物件或環境、或進行<b>擒拿</b>。"
+      }
+    },
+    "RANK AND FILE": {
+      "name": "平凡無奇",
+      "npcf_rank_and_file_grunt": {
+        "effect": "嘍囉不能套用 <b>兵隊、老兵、精銳</b>、或<b>超體</b> 模板。"
+      },
+      "npcf_rank_and_file_squad": {
+        "effect": "兵隊不能套用 <b>嘍囉、老兵、精銳</b>、或<b>超體</b> 模板。"
+      }
+    },
+    "RAPID RESPONSE": {
+      "name": "RAPID RESPONSE"
+    },
+    "REINFORCED": {
+      "name": "機構強化",
+      "npcf_reinforced_ultra": {
+        "effect": "超體得到 <b>+3 結構</b> 和 <b>+3 壓力</b>。"
+      },
+      "npcf_reinforced_elite": {
+        "effect": "精銳得到 <b>+1 結構</b> 和 <b>+1 壓力</b>。"
+      },
+      "npcf_reinforced_commander": {
+        "effect": "指揮官得到 <b>+1 結構</b> 和 <b>+1 壓力</b>。"
+      },
+      "npcf_reinforced_veteran": {
+        "effect": "老兵得到 <b>+1 結構</b> 和 <b>+1 壓力</b>。"
+      }
+    },
+    "REGENERATOR": {
+      "name": "自然回復",
+      "npcf_regenerator_exotic": {
+        "effect": "在異形的回合結束時，它會回復最大HP的 1/4。如果它在該輪期間受到過<b>能量傷害</b>的話，則不會因此回復 HP。"
+      },
+      "npcf_regenerator_monstrosity": {
+        "effect": "在怪物的回合結束時，它會回復最大HP的 1/4。如果它在該輪期間受到過<b>能量傷害</b>的話，則不會因此回復 HP。"
+      }
+    },
+    "RETRIBUTION": {
+      "name": "RETRIBUTION"
+    },
+    "SAP": {
+      "name": "SAP"
+    },
+    "SHOCK ARMOR": {
+      "name": "衝擊裝甲",
+      "npcf_shock_armor_demolisher": {
+        "effect": "終結者對來自<b>肉搏武器</b>的所有傷害有<b>抗性</b>。"
+      },
+      "npcf_shock_armor_veteran": {
+        "effect": "老兵對來自<b>主武器</b>的所有傷害有<b>抗性</b>。"
+      }
+    },
+    "SIEGE ARMOR": {
+      "name": "SIEGE ARMOR"
+    },
+    "SIGHT": {
+      "name": "SIGHT"
+    },
+    "STEP": {
+      "name": "STEP"
+    },
+    "SUPERHOT": {
+      "name": "SUPERHOT"
+    },
+    "TRANSPORT": {
+      "name": "運輸機",
+      "npcf_transport_ship": {
+        "effect": "星艦可以運載大小總和低於其自身大小的兵隊或複數角色。"
+      },
+      "npcf_transport_vehicle": {
+        "effect": "載具可以運載大小總和低於其自身大小的兵隊或複數角色。"
+      }
+    },
+
+    "ACE": {
+      "name": "王牌"
+    },
+    "SSC FLIGHT SYSTEM": {
+      "name": "SSC FLIGHT SYSTEM"
+    },
+    "MISSILE LAUNCHER": {
+      "name": "MISSILE LAUNCHER"
+    },
+    "BARREL ROLL": {
+      "name": "BARREL ROLL"
+    },
+    "BOMBING BAY": {
+      "name": "BOMBING BAY"
+    },
+    "STRAFE": {
+      "name": "STRAFE"
+    },
+    "MISSILE SWARM": {
+      "name": "MISSILE SWARM"
+    },
+
+    "AEGIS": {
+      "name": "神盾"
+    },
+    "LIGHT LASER": {
+      "name": "LIGHT LASER"
+    },
+    "DEFENSE NET": {
+      "name": "DEFENSE NET"
+    },
+    "REGENERATIVE SHIELDING": {
+      "name": "REGENERATIVE SHIELDING"
+    },
+    "ADAPTIVE SHIELDING": {
+      "name": "ADAPTIVE SHIELDING"
+    },
+    "RING OF FIRE": {
+      "name": "RING OF FIRE"
+    },
+    "HARDLIGHT COVER SYSTEM": {
+      "name": "HARDLIGHT COVER SYSTEM"
+    },
+    "HA BLACKWALL SYSTEM": {
+      "name": "HA BLACKWALL SYSTEM"
+    },
+
+    "ARCHER": {
+      "name": "弓兵"
+    },
+    "LIGHT MACHINE GUN": {
+      "name": "LIGHT MACHINE GUN"
+    },
+    "SUPPRESS": {
+      "name": "SUPPRESS"
+    },
+    "SUPERIOR SENTINEL": {
+      "name": "SUPERIOR SENTINEL"
+    },
+    "BLINDING SHELLS": {
+      "name": "BLINDING SHELLS"
+    },
+    "IMPENDING THREAT": {
+      "name": "IMPENDING THREAT"
+    },
+    "COVERING FIRE": {
+      "name": "COVERING FIRE"
+    },
+    "GOT YOUR BACK": {
+      "name": "GOT YOUR BACK"
+    },
+    "HAIL OF FIRE": {
+      "name": "HAIL OF FIRE"
+    },
+
+    "ASSASSIN": {
+      "name": "刺客"
+    },
+    "KAI BIOPLATING": {
+      "name": "KAI BIOPLATING"
+    },
+    "HEATED BLADE": {
+      "name": "HEATED BLADE"
+    },
+    "ASSASSIN’S MARK": {
+      "name": "ASSASSIN’S MARK"
+    },
+    "LEAP": {
+      "name": "LEAP"
+    },
+    "“DEVIL’S COUGH” SHOTGUN": {
+      "name": "“DEVIL’S COUGH” SHOTGUN"
+    },
+    "SPINNING KICK": {
+      "name": "SPINNING KICK"
+    },
+    "CLOUD PROJECTOR": {
+      "name": "CLOUD PROJECTOR"
+    },
+    "EXPLOSIVE KNIVES": {
+      "name": "EXPLOSIVE KNIVES"
+    },
+
+    "ASSAULT": {
+      "name": "突擊兵"
+    },
+    "HEAVY ASSAULT RIFLE": {
+      "name": "HEAVY ASSAULT RIFLE"
+    },
+    "COMBAT KNIFE": {
+      "name": "COMBAT KNIFE"
+    },
+    "HUNKER DOWN": {
+      "name": "HUNKER DOWN"
+    },
+    "UNDERSLUNG GRENADE LAUNCHER": {
+      "name": "UNDERSLUNG GRENADE LAUNCHER"
+    },
+    "MICRO-MISSILE BARRAGE": {
+      "name": "MICRO-MISSILE BARRAGE"
+    },
+    "HIGH IMPACT ROUNDS": {
+      "name": "HIGH IMPACT ROUNDS"
+    },
+    "AUTO-TARGETING": {
+      "name": "AUTO-TARGETING"
+    },
+    "RANK DISCIPLINE": {
+      "name": "RANK DISCIPLINE"
+    },
+
+    "BARRICADE": {
+      "name": "高牆"
+    },
+    "GRAVITON LANCE": {
+      "name": "GRAVITON LANCE"
+    },
+    "MOBILE PRINTER": {
+      "name": "MOBILE PRINTER"
+    },
+    "SHOCK PLATING": {
+      "name": "SHOCK PLATING"
+    },
+    "BULWARK MODS": {
+      "name": "BULWARK MODS"
+    },
+    "DRAG DOWN": {
+      "name": "DRAG DOWN"
+    },
+    "SEISMIC REPULSOR": {
+      "name": "SEISMIC REPULSOR"
+    },
+    "EXTRUDITE": {
+      "name": "EXTRUDITE"
+    },
+    "HUNGER/PURSUIT LIMPETS": {
+      "name": "HUNGER/PURSUIT LIMPETS"
+    },
+    "TITAN-SNARE DRONE": {
+      "name": "TITAN-SNARE DRONE"
+    },
+
+    "BASTION": {
+      "name": "堡壘"
+    },
+    "ROTARY GRENADE LAUNCHER": {
+      "name": "ROTARY GRENADE LAUNCHER"
+    },
+    "HEAVY ASSAULT SHIELD": {
+      "name": "HEAVY ASSAULT SHIELD"
+    },
+    "FRIENDLY INTERDICTION": {
+      "name": "FRIENDLY INTERDICTION"
+    },
+    "NEAR-THREAT DENIAL SYSTEM": {
+      "name": "NEAR-THREAT DENIAL SYSTEM"
+    },
+    "SIEGE GUARDIAN": {
+      "name": "SIEGE GUARDIAN"
+    },
+    "“PAUSE” ENGINE": {
+      "name": "“PAUSE” ENGINE"
+    },
+    "FEARLESS DEFENDER": {
+      "name": "FEARLESS DEFENDER"
+    },
+    "DEATHCOUNTER": {
+      "name": "DEATHCOUNTER"
+    },
+
+    "BERSERKER": {
+      "name": "狂戰士"
+    },
+    "CHAIN AXE": {
+      "name": "CHAIN AXE"
+    },
+    "STAMPEDE DEFENSE": {
+      "name": "STAMPEDE DEFENSE"
+    },
+    "AGGRESSION": {
+      "name": "AGGRESSION"
+    },
+    "AVALANCHE CHARGE": {
+      "name": "AVALANCHE CHARGE"
+    },
+    "HARPOON CANNON": {
+      "name": "HARPOON CANNON"
+    },
+    "NAIL GUN": {
+      "name": "NAIL GUN"
+    },
+
+    "BOMBARD": {
+      "name": "炮兵"
+    },
+    "BOMBARD CANNON": {
+      "name": "BOMBARD CANNON"
+    },
+    "CLUSTER MUNITIONS": {
+      "name": "CLUSTER MUNITIONS"
+    },
+    "EARTHSHAKER SHELLS": {
+      "name": "EARTHSHAKER SHELLS"
+    },
+    "HIGH-IMPACT SHELLS": {
+      "name": "HIGH-IMPACT SHELLS"
+    },
+    "BUNKER BUSTER": {
+      "name": "BUNKER BUSTER"
+    },
+    "FLARE DRONE": {
+      "name": "FLARE DRONE"
+    },
+    "REPEATER CANNON": {
+      "name": "REPEATER CANNON"
+    },
+    "CLUSTER-SEEKER BOMBS": {
+      "name": "CLUSTER-SEEKER BOMBS"
+    },
+
+    "BREACHER": {
+      "name": "攻堅者"
+    },
+    "DUAL SHOTGUNS": {
+      "name": "DUAL SHOTGUNS"
+    },
+    "BREACH RAM": {
+      "name": "BREACH RAM"
+    },
+    "BREAK ARMOR": {
+      "name": "BREAK ARMOR"
+    },
+    "PAINMAKER": {
+      "name": "PAINMAKER"
+    },
+    "SUPERIOR RAM": {
+      "name": "SUPERIOR RAM"
+    },
+    "FOLLOWER COUNT": {
+      "name": "FOLLOWER COUNT"
+    },
+    "THERMAL CHARGE": {
+      "name": "THERMAL CHARGE"
+    },
+    "FLECHETTE SHOT": {
+      "name": "FLECHETTE SHOT"
+    },
+
+    "CATAPHRACT": {
+      "name": "重鐵騎"
+    },
+    "RAM CANNON": {
+      "name": "RAM CANNON"
+    },
+    "TRAMPLE": {
+      "name": "TRAMPLE"
+    },
+    "IMPALE": {
+      "name": "IMPALE"
+    },
+    "POINT-DEFENSE SHIELD": {
+      "name": "POINT-DEFENSE SHIELD"
+    },
+    "ELECTRIFIED LASSO": {
+      "name": "ELECTRIFIED LASSO"
+    },
+    "LANCE SHOT": {
+      "name": "LANCE SHOT"
+    },
+    "ELECTRIFIED BOLA": {
+      "name": "ELECTRIFIED BOLA"
+    },
+    "CAPACITOR DISCHARGE": {
+      "name": "CAPACITOR DISCHARGE"
+    },
+    "CHARGE": {
+      "name": "CHARGE"
+    },
+
+    "DEMOLISHER": {
+      "name": "終結者"
+    },
+    "DEMOLITION HAMMER": {
+      "name": "DEMOLITION HAMMER"
+    },
+    "DIG IN": {
+      "name": "DIG IN"
+    },
+    "BROAD-SWEEP HAFT": {
+      "name": "BROAD-SWEEP HAFT"
+    },
+    "KINETIC COMPENSATION": {
+      "name": "KINETIC COMPENSATION"
+    },
+    "CONCUSSION MISSILES": {
+      "name": "CONCUSSION MISSILES"
+    },
+    "SEISMIC DESTROYER": {
+      "name": "SEISMIC DESTROYER"
+    },
+
+    "ENGINEER": {
+      "name": "工程師"
+    },
+    "FLAK CANNON": {
+      "name": "FLAK CANNON"
+    },
+    "DEPLOYABLE TURRET": {
+      "name": "DEPLOYABLE TURRET"
+    },
+    "ENGINEER’S MARK": {
+      "name": "ENGINEER’S MARK"
+    },
+    "POWER DEPLOYER": {
+      "name": "POWER DEPLOYER"
+    },
+    "SKYSHIELD PROTOCOL": {
+      "name": "SKYSHIELD PROTOCOL"
+    },
+    "SHEPHERD FIELD": {
+      "name": "SHEPHERD FIELD"
+    },
+    "MOBILE TURRETS": {
+      "name": "MOBILE TURRETS"
+    },
+    "ARSENAL": {
+      "name": "ARSENAL"
+    },
+
+    "GOLIATH": {
+      "name": "巨人"
+    },
+    "DRUM SHOTGUN": {
+      "name": "DRUM SHOTGUN"
+    },
+    "CRUSH TARGETING": {
+      "name": "CRUSH TARGETING"
+    },
+    "POWER KNUCKLE": {
+      "name": "POWER KNUCKLE"
+    },
+    "PIN": {
+      "name": "PIN"
+    },
+    "CRUSHING EMBRACE": {
+      "name": "CRUSHING EMBRACE"
+    },
+    "WATCHFUL GUARDIAN": {
+      "name": "WATCHFUL GUARDIAN"
+    },
+
+    "HIVE": {
+      "name": "巢穴"
+    },
+    "HUNTER-KILLER NEXUS": {
+      "name": "HUNTER-KILLER NEXUS"
+    },
+    "DRONE BARRAGE": {
+      "name": "DRONE BARRAGE"
+    },
+    "RAZOR SWARMS": {
+      "name": "RAZOR SWARMS"
+    },
+    "ELECTRO-NANITE CLOUD": {
+      "name": "ELECTRO-NANITE CLOUD"
+    },
+    "MOTILE SWARM": {
+      "name": "MOTILE SWARM"
+    },
+    "DRIVING SWARM": {
+      "name": "DRIVING SWARM"
+    },
+    "GRIND MANIPLE": {
+      "name": "GRIND MANIPLE"
+    },
+    "SEEKER CLOUD": {
+      "name": "SEEKER CLOUD"
+    },
+
+    "HORNET": {
+      "name": "胡蜂"
+    },
+    "STINGER PISTOL": {
+      "name": "STINGER PISTOL"
+    },
+    "SSC TOTAL SUITE": {
+      "name": "SSC TOTAL SUITE"
+    },
+    "WEAVE": {
+      "name": "WEAVE"
+    },
+    "IMPALE SYSTEMS": {
+      "name": "IMPALE SYSTEMS"
+    },
+    "ADAPT/EVADE/DISENGAGE": {
+      "name": "ADAPT/EVADE/DISENGAGE"
+    },
+    "UMBRAL INTERDICTION": {
+      "name": "UMBRAL INTERDICTION"
+    },
+    "SUPERSONIC": {
+      "name": "SUPERSONIC"
+    },
+    "HEX MISSILES": {
+      "name": "HEX MISSILES"
+    },
+    "LOCK/HOLD JAVELINS": {
+      "name": "LOCK/HOLD JAVELINS"
+    },
+
+    "MIRAGE": {
+      "name": "幻象"
+    },
+    "WARP SENSORS": {
+      "name": "WARP SENSORS"
+    },
+    "REALITY FLICKER": {
+      "name": "REALITY FLICKER"
+    },
+    "GLITCH SCANNERS": {
+      "name": "GLITCH SCANNERS"
+    },
+    "BLIP": {
+      "name": "BLIP"
+    },
+    "ILLUSORY SUBROUTINES": {
+      "name": "ILLUSORY SUBROUTINES"
+    },
+    "WARP TARGETING": {
+      "name": "WARP TARGETING"
+    },
+    "METAFOLD SHOVE": {
+      "name": "METAFOLD SHOVE"
+    },
+    "MANIFEST FALSE IDOLS": {
+      "name": "MANIFEST FALSE IDOLS"
+    },
+    "MULTIPLICITY": {
+      "name": "MULTIPLICITY"
+    },
+
+    "OPERATOR": {
+      "name": "操作者"
+    },
+    "RAPTOR PLASMA RIFLE": {
+      "name": "RAPTOR PLASMA RIFLE"
+    },
+    "TRACE DRIVE": {
+      "name": "TRACE DRIVE"
+    },
+    "SELF-ERASURE": {
+      "name": "SELF-ERASURE"
+    },
+    "FADE GENERATOR": {
+      "name": "FADE GENERATOR"
+    },
+    "TELEFRAG": {
+      "name": "TELEFRAG"
+    },
+    "SKIRMISHER": {
+      "name": "SKIRMISHER"
+    },
+    "NOVA MISSILES": {
+      "name": "NOVA MISSILES"
+    },
+
+    "PRIEST": {
+      "name": "祭司"
+    },
+    "ABJURE": {
+      "name": "ABJURE"
+    },
+    "INVESTITURE": {
+      "name": "INVESTITURE"
+    },
+    "DISPERSAL SHIELD": {
+      "name": "DISPERSAL SHIELD"
+    },
+    "GREATER INVESTITURE": {
+      "name": "GREATER INVESTITURE"
+    },
+    "EMPOWERED SHIELD": {
+      "name": "EMPOWERED SHIELD"
+    },
+    "SANCTUARY": {
+      "name": "SANCTUARY"
+    },
+    "FRACTAL ASSAULT": {
+      "name": "FRACTAL ASSAULT"
+    },
+
+    "PYRO": {
+      "name": "火焰兵"
+    },
+    "FLAMETHROWER": {
+      "name": "FLAMETHROWER"
+    },
+    "EXPLOSIVE VENT": {
+      "name": "EXPLOSIVE VENT"
+    },
+    "FIREBREAK SHIELD": {
+      "name": "FIREBREAK SHIELD"
+    },
+    "UNSHIELDED REACTOR": {
+      "name": "UNSHIELDED REACTOR"
+    },
+    "NAPALM BOMB": {
+      "name": "NAPALM BOMB"
+    },
+    "EXPLOSIVE JET": {
+      "name": "EXPLOSIVE JET"
+    },
+
+    "RAINMAKER": {
+      "name": "求雨者"
+    },
+    "MISSILE PODS": {
+      "name": "MISSILE PODS"
+    },
+    "JAVELIN ROCKETS": {
+      "name": "JAVELIN ROCKETS"
+    },
+    "HUNTSMAN": {
+      "name": "HUNTSMAN"
+    },
+    "HADES MISSILES": {
+      "name": "HADES MISSILES"
+    },
+    "HOUND MISSILES": {
+      "name": "HOUND MISSILES"
+    },
+    "ENDLESS RAIN": {
+      "name": "ENDLESS RAIN"
+    },
+    "VOLLEY": {
+      "name": "VOLLEY"
+    },
+    "ATLAS MISSILES": {
+      "name": "ATLAS MISSILES"
+    },
+
+    "RONIN": {
+      "name": "浪人"
+    },
+    "CARBON FIBER SWORD": {
+      "name": "CARBON FIBER SWORD"
+    },
+    "REBOUND": {
+      "name": "REBOUND"
+    },
+    "CHARGED SLASH": {
+      "name": "CHARGED SLASH"
+    },
+    "ECHO EDGE": {
+      "name": "ECHO EDGE"
+    },
+    "INSTINCT MODE": {
+      "name": "INSTINCT MODE"
+    },
+    "EXTENDED BLADE": {
+      "name": "EXTENDED BLADE"
+    },
+
+    "SCOURER": {
+      "name": "淨化者"
+    },
+    "THERMAL LANCE": {
+      "name": "THERMAL LANCE"
+    },
+    "FOCUS DOWN": {
+      "name": "FOCUS DOWN"
+    },
+    "COOLING MODULE": {
+      "name": "COOLING MODULE"
+    },
+    "ABLATIVE SHIELDING": {
+      "name": "ABLATIVE SHIELDING"
+    },
+    "SUPERCHARGED": {
+      "name": "SUPERCHARGED"
+    },
+    "EMERGENCY VENT": {
+      "name": "EMERGENCY VENT"
+    },
+    "PULSE LASER": {
+      "name": "PULSE LASER"
+    },
+    "FLASH LENS": {
+      "name": "FLASH LENS"
+    },
+    "MELT": {
+      "name": "MELT"
+    },
+
+    "SCOUT": {
+      "name": "斥候"
+    },
+    "MARKER RIFLE": {
+      "name": "MARKER RIFLE"
+    },
+    "REBOUND SCAN": {
+      "name": "REBOUND SCAN"
+    },
+    "CLOAKING FIELD": {
+      "name": "CLOAKING FIELD"
+    },
+    "SYSTEM FLAYER": {
+      "name": "SYSTEM FLAYER"
+    },
+    "SPOTTER": {
+      "name": "SPOTTER"
+    },
+    "EXPOSE WEAKNESS": {
+      "name": "EXPOSE WEAKNESS"
+    },
+    "ORBITAL STRIKE": {
+      "name": "ORBITAL STRIKE"
+    },
+
+    "SEEDER": {
+      "name": "播種者"
+    },
+    "LAY MINES": {
+      "name": "LAY MINES"
+    },
+    "GRAV-GRENADE LAUNCHER": {
+      "name": "GRAV-GRENADE LAUNCHER"
+    },
+    "HOPPING MINES": {
+      "name": "HOPPING MINES"
+    },
+    "TRIPWIRES": {
+      "name": "TRIPWIRES"
+    },
+    "SPEED DEPLOYER": {
+      "name": "SPEED DEPLOYER"
+    },
+    "GRAV SPIKE": {
+      "name": "GRAV SPIKE"
+    },
+    "DET SPIKE": {
+      "name": "DET SPIKE"
+    },
+
+    "SENTINEL": {
+      "name": "哨兵"
+    },
+    
+    "COMBAT SHOTGUN": {
+      "name": "COMBAT SHOTGUN"
+    },
+    "RETRACTABLE SWORD": {
+      "name": "RETRACTABLE SWORD"
+    },
+    "EYE OF MIDNIGHT": {
+      "name": "EYE OF MIDNIGHT"
+    },
+    "PUNISHER AMMUNITION": {
+      "name": "PUNISHER AMMUNITION"
+    },
+    "WRATH-LOCK": {
+      "name": "WRATH-LOCK"
+    },
+    "IMPALER": {
+      "name": "IMPALER"
+    },
+    "BODYGUARD": {
+      "name": "BODYGUARD"
+    },
+    "REFLEXIVE BLOW": {
+      "name": "REFLEXIVE BLOW"
+    },
+
+    "SNIPER": {
+      "name": "狙擊手"
+    },
+    "ANTI-MATERIEL RIFLE": {
+      "name": "ANTI-MATERIEL RIFLE"
+    },
+    "SNIPER’S MARK": {
+      "name": "SNIPER’S MARK"
+    },
+    "CLIMBER": {
+      "name": "CLIMBER"
+    },
+    "SELECTIVE LOADER": {
+      "name": "SELECTIVE LOADER"
+    },
+    "DEFENSIVE GRAPPLE": {
+      "name": "DEFENSIVE GRAPPLE"
+    },
+    "RELOCATION": {
+      "name": "RELOCATION"
+    },
+    "SHROUD CHARGE": {
+      "name": "SHROUD CHARGE"
+    },
+    "DEADMETAL ROUNDS": {
+      "name": "DEADMETAL ROUNDS"
+    },
+
+    "SPECTER": {
+      "name": "幽靈"
+    },
+    "MONOWIRE SWORD": {
+      "name": "MONOWIRE SWORD"
+    },
+    "PROWL": {
+      "name": "PROWL"
+    },
+    "TACTICAL CLOAK": {
+      "name": "TACTICAL CLOAK"
+    },
+    "HUNT": {
+      "name": "HUNT"
+    },
+    "DRAIN SYSTEMS": {
+      "name": "DRAIN SYSTEMS"
+    },
+    "MACHINE PISTOL": {
+      "name": "MACHINE PISTOL"
+    },
+    "WEAKNESS ANALYZER": {
+      "name": "WEAKNESS ANALYZER"
+    },
+
+    "SUPPORT": {
+      "name": "後盾"
+    },
+    "SEALANT GUN": {
+      "name": "SEALANT GUN"
+    },
+    "RESTOCK DRONE": {
+      "name": "RESTOCK DRONE"
+    },
+    "NANO-REPAIR CLOUD": {
+      "name": "NANO-REPAIR CLOUD"
+    },
+    "REMOTE REBOOT": {
+      "name": "REMOTE REBOOT"
+    },
+    "EMPOWERED CLOUD": {
+      "name": "EMPOWERED CLOUD"
+    },
+    "REMOTE CLOUD": {
+      "name": "REMOTE CLOUD"
+    },
+    "DEFENSIVE PULSE": {
+      "name": "DEFENSIVE PULSE"
+    },
+    "LATCH DRONE": {
+      "name": "LATCH DRONE"
+    },
+
+    "WITCH": {
+      "name": "女巫"
+    },
+    "TEAR DOWN": {
+      "name": "TEAR DOWN"
+    },
+    "BLIND": {
+      "name": "BLIND"
+    },
+    "PREDATORY LOGIC": {
+      "name": "PREDATORY LOGIC"
+    },
+    "BLUR": {
+      "name": "BLUR"
+    },
+    "SPREAD SUFFERING": {
+      "name": "SPREAD SUFFERING"
+    },
+    "DARK CLOUD": {
+      "name": "DARK CLOUD"
+    },
+    "CHAIN": {
+      "name": "CHAIN"
+    },
+    "PETRIFY": {
+      "name": "PETRIFY"
+    },
+    "PAIN TRANSFERENCE": {
+      "name": "PAIN TRANSFERENCE"
+    },
+
+    "HUMAN": {
+      "name": "人類"
+    },
+    "RANGED WEAPON": {
+      "name": "RANGED WEAPON"
+    },
+    "MELEE WEAPON": {
+      "name": "MELEE WEAPON"
+    },
+
+    "SQUAD": {
+      "name": "兵隊"
+    },
+    "SOLDIERS": {
+      "name": "SOLDIERS"
+    },
+    "STRENGTH IN NUMBERS": {
+      "name": "STRENGTH IN NUMBERS"
+    },
+    "SPREAD OUT": {
+      "name": "SPREAD OUT"
+    },
+    "UNDERSIZE": {
+      "name": "UNDERSIZE"
+    },
+    "PRIMARY WEAPON": {
+      "name": "PRIMARY WEAPON"
+    },
+    "AMBUSHERS": {
+      "name": "AMBUSHERS"
+    },
+    "DUCK AND COVER": {
+      "name": "DUCK AND COVER"
+    },
+    "RAPID INSERTION": {
+      "name": "RAPID INSERTION"
+    },
+    "DISCIPLINED": {
+      "name": "DISCIPLINED"
+    },
+
+    "MONSTROSITY": {
+      "name": "怪物"
+    },
+    "UNIQUE PHYSIOLOGY": {
+      "name": "UNIQUE PHYSIOLOGY"
+    },
+    "DEADLIEST GAME": {
+      "name": "DEADLIEST GAME"
+    },
+    "CLAWS": {
+      "name": "CLAWS"
+    },
+    "ACID SPITTLE": {
+      "name": "ACID SPITTLE"
+    },
+    "ADHESIVE SECRETIONS": {
+      "name": "ADHESIVE SECRETIONS"
+    },
+    "BURROWER": {
+      "name": "BURROWER"
+    },
+    "CORROSIVE BITE": {
+      "name": "CORROSIVE BITE"
+    },
+    "GRASPING CLAWS": {
+      "name": "GRASPING CLAWS"
+    },
+    "NATURAL CAMOUFLAGE": {
+      "name": "NATURAL CAMOUFLAGE"
+    },
+    "RAMPAGE": {
+      "name": "RAMPAGE"
+    },
+    "SPINED": {
+      "name": "SPINED"
+    },
+    "SWIFT": {
+      "name": "SWIFT"
+    },
+    "TEMPERED HIDE": {
+      "name": "TEMPERED HIDE"
+    },
+    "WINGED": {
+      "name": "WINGED"
+    },
+
+    "COMMANDER": {
+      "name": "指揮官",
+      "description": "指揮官注重於大局戰略層面，操縱橫跨星球和星海的艦隊和軍隊。他們也許不是最致命的士兵，但他們能讓底下的部隊展現出最優秀的一面。"
+    },
+    "VOICE OF AUTHORITY": {
+      "name": "權威之聲",
+      "trigger": "一名隊友在攻擊、判定、或豁免中失敗，且指揮官不處於<b>受擾</b>狀態時。",
+      "effect": "該隊友可以重新擲骰。"
+    },
+    "COMMANDER TRAITS": {
+      "name": "指揮官特徵",
+      "effect": "指揮官可以從 指揮官特徵清單 中選擇一個。該特徵在指揮官陷入<b>受擾</b>狀態時不會生效。"
+    },
+    "BOLSTER NETWORK": {
+      "name": "增強網路",
+      "effect": "除了指揮官本身外，所有在視線範圍內的隊友角色在系統豁免上都獲得 <b>+1 準度</b>，且對他們進行的科技攻擊也都會受到 <b>+1 難度</b>。"
+    },
+    "PRESS THE ATTACK": {
+      "name": "強行進攻",
+      "trigger": "目標對隊友造成傷害時。",
+      "effect": "指揮官可以對該目標進行攻擊，命中時造成的傷害、熱度、和燃燒減半。"
+    },
+    "PRESS ON!": {
+      "name": "繼續前進！",
+      "effect": "指揮官清除視線範圍內一名隊友角色的<b>暈眩</b>或<b>受擾</b>狀況。"
+    },
+    "QUICK MARCH": {
+      "name": "急行軍",
+      "effect": "視線範圍內一名隊友角色可以進行<b>推進</b>。"
+    },
+    "MILITARY DISCIPLINE": {
+      "name": "軍事紀律",
+      "effect": "與指揮官鄰近的隊友角色在所有攻擊、判定、和豁免中都獲得 <b>+1 準度</b>。"
+    },
+
+    "RPV": {
+      "name": "遙控機",
+      "description": "遙控機（Remote-pilot Vehicles, RPV）泛指任何由 NHP、異地駕駛或助理伴侶單元操縱的機甲。它們犧牲了電子戰安全性來換取個體強度，且可以無視為了顧慮有機體駕駛員而對系統施加的限制進行操作。"
+    },
+    "BONUS HP": {
+      "name": "額外 HP",
+      "effect": "遙控機得到 +5 HP，它能夠忽略會炸穿駕駛艙並殺死人類的傷害。"
+    },
+    "NO PILOT": {
+      "name": "無人駕駛"
+    },
+    "VULNERABLE TO TECH": {
+      "name": "VULNERABLE TO TECH"
+    },
+
+    "ELITE": {
+      "name": "精銳",
+      "description": "Elite enemies are tougher and more powerful than most – just a step down from Ultras. They might be especially tough or experienced pilots, special forces, or foes using a higher level of technology or better quality gear than the rank and file. Elites can act several times each round and get additional Structure, which effectively doubles their HP and allows them to make structure damage checks like PCs."
+    },
+    "READY AND WAITING": {
+      "name": "READY AND WAITING"
+    },
+    "CAREER SOLDIER": {
+      "name": "CAREER SOLDIER"
+    },
+    "SPECIALIST KIT": {
+      "name": "SPECIALIST KIT"
+    },
+
+    "EXOTIC": {
+      "name": "異形",
+      "description": "Even in a galaxy of wonders, Exotics are strange and dangerous enemies. Some feature unique technologies not yet available to the wider galaxy or wield archaic weapon styles updated to the modern day, while others carry equipment or adopt tactics that are totally alien to Union doctrine."
+    },
+    "XENOTECH": {
+      "name": "XENOTECH"
+    },
+    "EXOTIC SYSTEMS": {
+      "name": "EXOTIC SYSTEMS"
+    },
+    "LIVING CHASSIS": {
+      "name": "LIVING CHASSIS"
+    },
+    "BLINKSPACE CARVER": {
+      "name": "BLINKSPACE CARVER"
+    },
+    "REALSPACE EXTRUSION": {
+      "name": "REALSPACE EXTRUSION"
+    },
+    "LIVING WEAPONRY": {
+      "name": "LIVING WEAPONRY"
+    },
+    "PARACAUSAL WEAPON": {
+      "name": "PARACAUSAL WEAPON"
+    },
+    "CHRONOTORUS": {
+      "name": "CHRONOTORUS"
+    },
+
+    "GRUNT": {
+      "name": "嘍囉",
+      "description": "嘍囉只比炮灰好一點點。它們通常會以量產機或庫存品的形式登場，訓練也更重視紀律而非卓越表現。單獨的嘍囉也許不成威脅，然而一旦集結成群，它們將化為洪水猛獸，用槍林彈雨威脅最強大的敵人。"
+    },
+    "CHAFF": {
+      "name": "糠糟",
+      "effect": "嘍囉只有 <b>1 HP</b>，且無法得到更多 HP。和其他角色不同，它在成功通過豁免時（無論是來自武器或系統）永遠不會因此受到傷害，但除此之外的情況，它仍會如常受到傷害。"
+    },
+    "WEAK": {
+      "name": "脆弱",
+      "effect": "嘍囉永遠不會有多於 <b>1 點結構</b>和 <b>1 點壓力</b>，且在受到來源於自己的系統或武器之外的熱度時將會立即被毀。"
+    },
+
+    "MERCENARY": {
+      "name": "傭兵",
+      "description": "Mercenaries offer their services to the highest bidder. They may have an attachment to a faith or flag, but when it comes to doing business, they’re loyal only to the highest bidder."
+    },
+    "OPPORTUNIST": {
+      "name": "OPPORTUNIST"
+    },
+    "MERCENARY SYSTEMS AND TRAITS": {
+      "name": "MERCENARY SYSTEMS AND TRAITS"
+    },
+    "BOUNTY HUNTER": {
+      "name": "BOUNTY HUNTER"
+    },
+    "EFFICIENT KILLER": {
+      "name": "EFFICIENT KILLER"
+    },
+    "FAVORS OWED": {
+      "name": "FAVORS OWED"
+    },
+    "SCOUT DRONE": {
+      "name": "SCOUT DRONE"
+    },
+    "LAST WORD": {
+      "name": "LAST WORD"
+    },
+
+
+    "PIRATE": {
+      "name": "海盜",
+      "description": "Pirates live on the boundaries—the forgotten bolt-holes of occupied space. They range far, operating around blink gates, interstellar shipping lanes, and worlds that are yet to be settled. They can be found wherever resources are kept or moved, people are desperate, and the law is stretched thin."
+    },
+    "PIRATE SYSTEMS AND TRAITS": {
+      "name": "PIRATE SYSTEMS AND TRAITS"
+    },
+    "BOARDING LEASH": {
+      "name": "BOARDING LEASH"
+    },
+    "SPLINTER ROUNDS": {
+      "name": "SPLINTER ROUNDS"
+    },
+    "COREWORM ROCKETS": {
+      "name": "COREWORM ROCKETS"
+    },
+    "PRYING CLAWS": {
+      "name": "PRYING CLAWS"
+    },
+    "SLAVER SIGNAL": {
+      "name": "SLAVER SIGNAL"
+    },
+
+    "SHIP": {
+      "name": "星艦",
+      "description": "不論是民船還是軍艦，星艦的標誌性特徵在於其卓越的航行能力和為太空旅行的設計。儘管它們通常用於大氣層之外，但大部份的型號都能在必要時降到貼近地面的高度運作。<br><br>這個模板適用於任何機甲 NPC。它們會失去<b>機甲</b>標籤並變成<b>星艦</b>。"
+    },
+    "MASSIVE SIZE": {
+      "name": "龐然大物",
+      "effect": "星艦的<b>大小</b>為 4。雖然比大部份機甲還要大，但以星艦標準來說偏小——更大型星艦搭載的裝甲太過厚重，機甲規模的武器無法對其造成傷害。"
+    },
+    "ARMORED HULL": {
+      "name": "裝甲艦體",
+      "effect": "星艦得到 +5 HP。"
+    },
+    "LIMITED MELEE ATTACKS": {
+      "name": "受限肉搏能力",
+      "effect": "星艦無法進行除<b>衝撞</b>以外的肉搏攻擊。"
+    },
+
+    "SPACER": {
+      "name": "虛空住民",
+      "description": "Spacers are those born and bred in the hard vacuum of the endless void. They are adept at maneuvering in and around the difficult, low-g environments found only in space and low orbit – blink and space stations, asteroid fields, and the emptiness between ships in military and commercial fleets."
+    },
+    "MANEUVERABLE": {
+      "name": "MANEUVERABLE"
+    },
+    "SPACER SYSTEMS": {
+      "name": "SPACER SYSTEMS"
+    },
+    "CONCUSSION GUN": {
+      "name": "CONCUSSION GUN"
+    },
+    "GRAVITY RIFLE": {
+      "name": "GRAVITY RIFLE"
+    },
+    "SEALANT TRAP": {
+      "name": "SEALANT TRAP"
+    },
+    "THUMPER GRENADES": {
+      "name": "THUMPER GRENADES"
+    },
+
+    "ULTRA": {
+      "name": "超體",
+      "description": "Ultras are the most dangerous individual foes a lancer might face on the battlefield – the champions, favored soldiers, chosen ones, and other mighty warriors of a fighting force. An Ultra might command a small retinue or lead an army from the front, but they are no grand strategists. Their primary tasks are always direct engagement with the enemy, holding or breaking lines, and ensuring through heroic efforts that their side wins the day.<br>Ultras are powerful enemies capable of taking on multiple mechs at once, along the lines of “boss” characters in video games. Like Elites, they have extra Structure, meaning they roll on the structure damage table and are much more resilient than most NPCs. Because they’re so much more powerful than regular NPCs (and keeping track of them is much more complex), it’s recommended you only use one Ultra in any given combat encounter."
+    },
+    "BEST OF THE BEST": {
+      "name": "BEST OF THE BEST"
+    },
+    "SHOCK AND AWE": {
+      "name": "SHOCK AND AWE"
+    },
+    "ADVANCED KIT": {
+      "name": "ADVANCED KIT"
+    },
+    "RESILIENT": {
+      "name": "RESILIENT"
+    },
+    "REFLEX": {
+      "name": "REFLEX"
+    },
+    "ULTRA SYSTEMS AND TRAITS": {
+      "name": "ULTRA SYSTEMS AND TRAITS"
+    },
+    "HOVER PROPULSION": {
+      "name": "HOVER PROPULSION"
+    },
+    "REPULSION FIELD": {
+      "name": "REPULSION FIELD"
+    },
+    "SIEGE SHIELD": {
+      "name": "SIEGE SHIELD"
+    },
+    "SLIVERSHIELDING": {
+      "name": "SLIVERSHIELDING"
+    },
+    "SHORT-CYCLE LANCE": {
+      "name": "SHORT-CYCLE LANCE"
+    },
+    "VOLLEY MODULE": {
+      "name": "VOLLEY MODULE"
+    },
+    "WOLFHOUND MISSILE": {
+      "name": "WOLFHOUND MISSILE"
+    },
+    "ARGUS ARMOR": {
+      "name": "ARGUS ARMOR"
+    },
+    "DEVASTATOR": {
+      "name": "DEVASTATOR"
+    },
+    "EVASIVE": {
+      "name": "EVASIVE"
+    },
+    "EXTRA DEADLY": {
+      "name": "EXTRA DEADLY"
+    },
+    "LEAD THE CHARGE": {
+      "name": "LEAD THE CHARGE"
+    },
+    "LEGION": {
+      "name": "LEGION"
+    },
+    "SUPERIOR CONSTRUCTION": {
+      "name": "SUPERIOR CONSTRUCTION"
+    },
+    "SUPERIOR FRAME": {
+      "name": "SUPERIOR FRAME"
+    },
+    "SUPERIOR REACTOR": {
+      "name": "SUPERIOR REACTOR"
+    },
+    "SUPERIOR TARGETING": {
+      "name": "SUPERIOR TARGETING"
+    },
+    "SUPREME MAINTENANCE": {
+      "name": "SUPREME MAINTENANCE"
+    },
+    "SUPREME MELEE": {
+      "name": "SUPREME MELEE"
+    },
+    "UNSTOPPABLE": {
+      "name": "UNSTOPPABLE"
+    },
+    "HELLFIRE PROJECTOR": {
+      "name": "HELLFIRE PROJECTOR"
+    },
+    "RAVAGER TURRET": {
+      "name": "RAVAGER TURRET"
+    },
+
+    "VETERAN": {
+      "name": "老兵",
+      "description": "老兵是身經百戰，從無數生死衝突中倖存的老練戰士。他們見過大風大浪，在逆風挫敗中重振士氣的能力也遠高於未經考驗的新兵。他們在調度佈署的經驗以及堅守前線的可靠存在，就是他們在戰場上最大的價值。<br><br>使用老兵模板來創造令人難忘的角色。"
+    },
+    "VETERANCY": {
+      "name": "資深",
+      "effect": "老兵在其中一個<b>機甲能力</b>（創建時選擇）的<b>所有判定和豁免</b>中都得到<b> +1 準度</b>：<b>機體、敏捷、系統</b>、或<b>工程</b>。"
+    },
+    "VETERAN TRAITS": {
+      "name": "老兵特徵",
+      "effect": "老兵得到數量與其<b>等級</b>相同的老兵特徵。"
+    },
+    "ACROBAT": {
+      "name": "花式飛行",
+      "effect": "在老兵移動或<b>推進</b>之後，它可以<b>飛行 3 格</b>。這個飛行忽略交戰，且不會觸發反應。"
+    },
+    "FEIGN DEATH": {
+      "name": "FEIGN DEATH",
+      "effect": "The first time that the Veteran is destroyed each combat, they are actually feigning death – they appear to be destroyed, but have 1 HP. Characters adjacent to the Veteran can reveal this with a successful Systems check or pilot skill check; otherwise, the Veteran remains unnoticed until they move or take an action."
+    },
+    "HACKER": {
+      "name": "HACKER",
+      "effect": "The Veteran deals +2 heat on successful tech attacks."
+    },
+    "HEADSHOT": {
+      "name": "HEADSHOT",
+      "effect": "1/round, on a critical hit, the Veteran’s target must pass a Hull save or only be able to draw line of sight to adjacent spaces until the end of their next turn."
+    },
+    "LESSER SIGHT": {
+      "name": "LESSER SIGHT",
+      "effect": "The Veteran ignores Invisible for characters within range 3, and hostile characters in range 3 can’t Hide successfully (though they remain Hidden if they were already)."
+    },
+    "LIGHTNING REFLEXES": {
+      "name": "LIGHTNING REFLEXES",
+      "effect": "Whenever the Veteran is attacked using any Heavy or Superheavy weapon, first roll 1d6. On 5+, the attack automatically misses."
+    },
+    "NHP CO-PILOT": {
+      "name": "NHP CO-PILOT",
+      "effect": "The Veteran gains the AI tag. Their mech or vehicle is autonomous and can even function without a pilot. The NHP can enter cascade, using the same rules as PC AIs."
+    },
+    "PARTING GIFT": {
+      "name": "PARTING GIFT",
+      "effect": "The Veteran can Self-Destruct (see p. 72)."
+    },
+    "RODEO MASTER": {
+      "name": "RODEO MASTER",
+      "effect": "The Veteran can Dismount. While on foot, the Veteran uses the Human class and can take all actions available to PC pilots, including Jockey."
+    },
+    "SELF REPAIR": {
+      "name": "SELF REPAIR",
+      "effect": "1/scene, as a Full Action, the Veteran regains all HP and clears all conditions."
+    },
+    "SLIPPERY": {
+      "name": "SLIPPERY",
+      "effect": "The Veteran’s standard moves ignore engagement and don’t provoke reactions."
+    },
+    "STEEL JAW": {
+      "name": "STEEL JAW",
+      "effect": "Auxiliary weapons can’t do more than 1 damage to the Veteran."
+    },
+    "VIPER’S SPEED": {
+      "name": "VIPER’S SPEED",
+      "effect": "The Veteran always takes the first turn, even acting before PCs. Whenever there is a question about who acts first – in both narrative play and mech combat – it is always the Veteran. If multiple characters have this trait, only one gets to use it each time."
+    },
+
+    "VEHICLE": {
+      "name": "載具",
+      "description": "儘管機甲已經相當普及，大部份的武裝戰鬥、運輸、偵察、以及各式各樣的民用和軍用工作仍然是由平凡無奇的履帶或車輪載具負責的。無論動力來自核融合、內燃機、電池、氫電池、風力、人力、非因果律引擎還是其他千奇百怪的能源，這些載具都能運載人類、輸送武器、搭載武裝、或是用其他方法快速達成其簡單的設計目標：將人和物快速完好地從一點運到另一點。<br><br>這個模板適用於任何機甲 NPC。它們會失去<b>機甲</b>標籤並變成<b>載具</b>。"
+    },
+    "LIMITED HANDLING": {
+      "name": "受限操作",
+      "effect": "載具永遠只能直線移動，但可以分別朝不同方向進行移動和<b>推進</b>。此外，載具無法攀爬或游泳，且只能在隊友角色與其鄰接時才能夠清除<b>伏臥</b>狀態。"
+    },
+    "LIMITED MELEE": {
+      "name": "受限肉搏能力",
+      "effect": "載具無法進行除<b>衝撞</b>以外的肉搏攻擊。"
+    },
+    "TYPE": {
+      "name": "類型",
+      "effect": "載具可以從載具特徵清單中選擇一個或多個選項。"
+    },
+    "TREADS OR HOVER": {
+      "name": "履帶或懸浮",
+      "effect": "載具忽略<b>困難地形</b>的影響。"
+    }
+  }
+}
