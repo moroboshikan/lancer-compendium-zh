@@ -14,13 +14,27 @@
   },
   "entries": {
     "ANTI-ARMOR WEAPON": {
-      "name": "ANTI-ARMOR WEAPON"
+      "name": "反裝甲武器",
+      "npcf_anti_armor_weapon_squad": {},
+      "npcf_anti_armor_weapon_human": {}
     },
     "ARMORED": {
-      "name": "ARMORED"
+      "name": "裝甲",
+      "npcf_armored_squad": {
+        "effect": "兵隊得到 +1 裝甲。"
+      },
+      "npcf_armored_human": {
+        "effect": "人類得到 +1~2 裝甲。"
+      }
     },
     "CHAFF LAUNCHERS": {
-      "name": "CHAFF LAUNCHERS"
+      "name": "金屬箔片發射器",
+      "npcf_chaff_launchers_ace": {
+        "effect": "在使用<b>空中側翻</b>後，王牌視作處於<b>軟性掩護</b>中，直至其下一回合結束為止；此外，空中側翻變得能對科技攻擊使用。"
+      },
+      "npcf_chaff_launchers_ronin": {
+        "effect": "每當浪人<b>推進</b>，它獲得<b>軟性掩護</b>，直至其下一回合開始為止。"
+      }
     },
     "CREW": {
       "name": "機組人員",
@@ -32,7 +46,13 @@
       }
     },
     "DATAVEIL": {
-      "name": "DATAVEIL"
+      "name": "數據面紗",
+      "npcf_dataveil_mirage": {
+        "effect": "在預設狀況下，幻象處於<b>隱形</b>狀態，並能以<b>快速動作</b>將這個狀態轉移到視線範圍內的另一名角色。當它這樣做後，幻象將不再處於<b>隱形</b>狀態；它能夠以<b>快速動作</b>將該狀態轉移回自己或是另一名角色身上；否則，這個效果會維持直到幻象被毀為止。"
+      },
+      "npcf_dataveil_scout": {
+        "effect": "在預設狀況下，斥候處於<b>隱形</b>狀態，並能以<b>快速動作</b>將這個狀態轉移到視線範圍內的另一名角色。當它這樣做後，斥候將不再處於<b>隱形</b>狀態；它能夠以<b>快速動作</b>將該狀態轉移回自己或是另一名角色身上；否則，這個效果會維持直到斥候被毀為止。"
+      }
     },
     "DEADLY": {
       "name": "致命",
@@ -71,7 +91,19 @@
       }
     },
     "GUARDIAN": {
-      "name": "GUARDIAN"
+      "name": "守護者",
+      "npcf_guardian_aegis": {
+        "effect": "隊友角色可以把神盾當作​<b>硬性掩護​</b>。"
+      },
+      "npcf_guardian_bastion": {
+        "effect": "隊友角色可以把堡壘當作​<b>硬性掩護​</b>。"
+      },
+      "npcf_guardian_goliath": {
+        "effect": "隊友角色可以把巨人當作​<b>硬性掩護​</b>。"
+      },
+      "npcf_guardian_sentinel": {
+        "effect": "隊友角色可以把哨兵當作​<b>硬性掩護​</b>。"
+      }
     },
     "HARDENED TARGET": {
       "name": "安全固化目標",
@@ -86,7 +118,13 @@
       }
     },
     "HEAVY FRAME": {
-      "name": "HEAVY FRAME"
+      "name": "沉重骨架",
+      "npcf_heavy_frame_demolisher": {
+        "effect": "終結者不會被大小比它小的角色<b>推動</b>、<b>拉動</b>、撞倒<b>​伏臥​</b>或<b>擊退</b>。"
+      },
+      "npcf_heavy_frame_goliath": {
+        "effect": "巨人不會被大小比它小的角色<b>推動</b>、<b>拉動</b>、撞倒<b>​伏臥​</b>或<b>擊退</b>。"
+      }
     },
     "INSULATED": {
       "name": "隔熱",
@@ -125,7 +163,15 @@
       }
     },
     "MOVING TARGET": {
-      "name": "MOVING TARGET"
+      "name": "移動目標",
+      "npcf_moving_target_archer": {
+        "trigger": "當弓兵使用<b>壓制</b>的目標開始移動時。",
+        "effect": "使用一次武器攻擊攔截。"
+      },
+      "npcf_moving_target_sniper": {
+        "trigger": "當 ⌿20 範圍和視線範圍內的角色進行移動時。",
+        "effect": "狙擊手攔截這次移動。該角色必須選擇放棄進行觸發這個效果的動作或移動，或者立刻被狙擊手以反物資步槍攻擊。如果步槍尚未裝填，則狙擊手改為裝填步槍。"
+      }
     },
     "NO MANIPULATORS": {
       "name": "缺乏操作臂",
@@ -146,7 +192,19 @@
       }
     },
     "RAPID RESPONSE": {
-      "name": "RAPID RESPONSE"
+      "name": "快速回應",
+      "npcf_rapid_response_ace": {
+        "trigger": "當一名視線範圍內的敵人角色移動時。",
+        "effect": "王牌可以進行<b>推進</b>。"
+      },
+      "npcf_rapid_response_archer": {
+        "trigger": "當一名視線範圍內的敵人角色移動時。",
+        "effect": "弓兵可以進行<b>推進</b>。"
+      },
+      "npcf_rapid_response_sentinel": {
+        "trigger": "當一名視線範圍內的敵人角色移動時。",
+        "effect": "哨兵可以在該移動後進行<b>推進</b>。"
+      }
     },
     "REINFORCED": {
       "name": "機構強化",
@@ -173,7 +231,13 @@
       }
     },
     "RETRIBUTION": {
-      "name": "RETRIBUTION"
+      "name": "報仇",
+      "npcf_retribution_berserker": {
+        "effect": "每當狂戰士受到傷害，它的下一次攻擊會造成 +{2/3/4} 額外傷害。這個加成最高可以疊加至 +8。這個額外傷害會在狂戰士進行攻擊，或其下個回合結束時歸零。"
+      },
+      "npcf_retribution_goliath": {
+        "effect": "每當巨人受到傷害，它的下一次攻擊會造成 +{2/3/4} 額外傷害。這個加成最高可以疊加至 +8。這個額外傷害會在巨人進行攻擊，或其下個回合結束時歸零。"
+      }
     },
     "SAP": {
       "name": "SAP"
@@ -216,25 +280,33 @@
     },
 
     "ACE": {
-      "name": "王牌"
+      "name": "王牌",
+      "flavor": "首位成為「王牌」典型代表的人物名為殷愛玲：一名在維丹納解放戰爭時活躍的輔助駕駛員。身為機殼與天空的騎士，王牌在駕著機甲投身戰場時經常會伴隨著高速砲火掃射、靈巧花俏的機動位移、以及大膽過人的飛行特技。態度高傲自大，王牌們總是渴望著一場好決鬥。",
+      "tactics": "Aces are very fast and reactive strikers that can use Evasive Maneuvers to mitigate dangerous or high-damage attacks. Barrel Roll is most effective against heavy weapons. Their Seeking weapons ignore cover and don’t require line of sight, allowing them to deal consistent damage. Relatively low HP makes Aces vulnerable to sustained damage, and they are relatively weak against tech attacks."
     },
     "SSC FLIGHT SYSTEM": {
-      "name": "SSC FLIGHT SYSTEM"
+      "name": "SSC FLIGHT SYSTEM",
+      "effect": "The Ace can fly whenever they move or Boost."
     },
     "MISSILE LAUNCHER": {
       "name": "MISSILE LAUNCHER"
     },
     "BARREL ROLL": {
-      "name": "BARREL ROLL"
+      "name": "BARREL ROLL",
+      "trigger": "A melee or ranged attack hits the Ace.",
+      "effect": "The Ace performs a barrel roll, flying 6 spaces in any direction and causing the attack to miss. This movement ignores engagement and does not provoke reactions."
     },
     "BOMBING BAY": {
-      "name": "BOMBING BAY"
+      "name": "BOMBING BAY",
+      "effect": "If the Ace is flying when they move or Boost, they may drop a bomb on one character below or adjacent to the path taken. This causes a Blast 1 explosion that must overlap with at least 1 space occupied by their target. Characters within the affected area must succeed on an Agility save or take {6/8/10} Explosive damage and be knocked Prone."
     },
     "STRAFE": {
-      "name": "STRAFE"
+      "name": "STRAFE",
+      "effect": "1/round, as a quick action, the Ace can fly spaces equal to Speed in any direction, automatically dealing {3/4/6} Kinetic damage to one character below or adjacent to the path taken."
     },
     "MISSILE SWARM": {
-      "name": "MISSILE SWARM"
+      "name": "MISSILE SWARM",
+      "effect": "This weapon deals double damage to characters with Lock On and doesn’t affect allied characters."
     },
 
     "AEGIS": {
@@ -244,22 +316,28 @@
       "name": "LIGHT LASER"
     },
     "DEFENSE NET": {
-      "name": "DEFENSE NET"
+      "name": "DEFENSE NET",
+      "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a Burst 3 area. While active, the Aegis is Immobilized, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive +2 Difficulty and cannot result in critical hits. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain Immunity to Impaired and Slowed, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a protocol, or until the Aegis is Stunned, Jammed, or destroyed. Involuntary movement causes the shield to move with the Aegis."
     },
     "REGENERATIVE SHIELDING": {
-      "name": "REGENERATIVE SHIELDING"
+      "name": "REGENERATIVE SHIELDING",
+      "effect": "The Aegis has Immunity to Impaired and Slowed and can’t be critically hit."
     },
     "ADAPTIVE SHIELDING": {
-      "name": "ADAPTIVE SHIELDING"
+      "name": "ADAPTIVE SHIELDING",
+      "effect": "The first time each round an ally affected by Defense Net takes damage, all allies within the Net gain Resistance to the damage type taken. This lasts until the end of the Aegis’s next turn."
     },
     "RING OF FIRE": {
-      "name": "RING OF FIRE"
+      "name": "RING OF FIRE",
+      "effect": "Any hostile characters that start their turn inside the area affected by the Defense Net or that enter it for the first time in a round take 2 heat and become Shredded until they leave the area."
     },
     "HARDLIGHT COVER SYSTEM": {
-      "name": "HARDLIGHT COVER SYSTEM"
+      "name": "HARDLIGHT COVER SYSTEM",
+      "effect": "As a quick action, deploy a line3 hardlight wall. The wall is immune to damage and effects and grants hard cover. Characters that receive this cover gain Resistance to damage from Line, Blast, Burst, and Cone attacks."
     },
     "HA BLACKWALL SYSTEM": {
-      "name": "HA BLACKWALL SYSTEM"
+      "name": "HA BLACKWALL SYSTEM",
+      "effect": "As a full action, the Aegis generates a pitch-black wall of blinkspace 5 spaces high covering a line10 area starting within range 5. All spaces must be free. The wall blocks line of sight, effects or attacks and provides hard cover. Characters that start their turn in the wall or who enter it on their turn roll 1d6. On a 4+ they are removed from play until the end of their next turn, when they reappear in a free space of their choice in Range 10 of the wall. If there are no free spaces, they return when a space becomes free. The wall lasts until the Aegis ends it as a quick action, or is destroyed. When it ends, characters remaining in blinkspace reappear."
     },
 
     "ARCHER": {
@@ -269,57 +347,77 @@
       "name": "LIGHT MACHINE GUN"
     },
     "SUPPRESS": {
-      "name": "SUPPRESS"
+      "name": "SUPPRESS",
+      "effect": "The Archer chooses a target within line of sight and Range 10: they become Impaired and the Archer gains the Moving Target reaction.<br>This effect lasts until the Archer uses Moving Target; the target damages the Archer or leaves the Archer’s line of sight; the Archer is Stunned, Jammed, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action."
     },
     "SUPERIOR SENTINEL": {
-      "name": "SUPERIOR SENTINEL"
+      "name": "SUPERIOR SENTINEL",
+      "effect": "The Archer gains +1 Accuracy on all attacks made as reactions (e.g., Overwatch)."
     },
     "BLINDING SHELLS": {
-      "name": "BLINDING SHELLS"
+      "name": "BLINDING SHELLS",
+      "effect": "After the Archer makes a successful attack, they force their target to make an Engineering save. On a failure, the target only has line of sight to adjacent spaces until their next turn ends."
     },
     "IMPENDING THREAT": {
-      "name": "IMPENDING THREAT"
+      "name": "IMPENDING THREAT",
+      "trigger": "A hostile character in line of sight and Range 10 from the Archer moves or takes action.",
+      "effect": "The character must choose: lose the triggering action/movement, or continue but let the Archer immediately attack them with a single weapon."
     },
     "COVERING FIRE": {
-      "name": "COVERING FIRE"
+      "name": "COVERING FIRE",
+      "effect": "The Archer chooses a Blast 3 area within line of sight and Range 10 and gains the Got Your Back reaction."
     },
     "GOT YOUR BACK": {
-      "name": "GOT YOUR BACK"
+      "name": "GOT YOUR BACK",
+      "trigger": "A character in the area makes an attack.",
+      "effect": "The Archer may attack that character."
     },
     "HAIL OF FIRE": {
-      "name": "HAIL OF FIRE"
+      "name": "HAIL OF FIRE",
+      "effect": "The Archer chooses an enemy character within Range 10: they become Immobilized and Impaired until the end of their next turn, until the Archer is Stunned or Jammed, or until the target allows the Archer to attack them with a single weapon as a reaction."
     },
 
     "ASSASSIN": {
-      "name": "刺客"
+      "name": "刺客",
+      "flavor": "Assassins tend towards agility, damage, and speed. These pilots sacrifice comfort for efficiency, stripping out everything from life-support to comms systems and replacing them with increased processing power and stealth capabilities. Assassins work alone or in small groups, piloting their small, sleek mechs through near-impenetrable terrain to catch their targets off-guard.",
+      "tactics": "Assassins are true experts at punishing single characters. Use Assassin’s Mark to choose a target, and then make the most of the Assassin’s high speed and Leap to close the distance. For a nasty combination, pair an Assassin with NPCs that inflict mobility-reducing conditions like Stunned or Prone. Without optional systems like the “Devil’s Cough” Shotgun, Assassins only have access to melee attacks and are fairly vulnerable to sustained damage."
     },
     "KAI BIOPLATING": {
-      "name": "KAI BIOPLATING"
+      "name": "KAI BIOPLATING",
+      "effect": "The Assassin gains +1 Accuracy on all Agility checks; additionally, they climb and swim at normal speed, ignore difficult terrain, and, when making a standard move, can jump horizontally up to their Speed and vertically up to half their Speed (in any combination)."
     },
     "HEATED BLADE": {
-      "name": "HEATED BLADE"
+      "name": "HEATED BLADE",
+      "effect": "Deals double damage to Prone, Shredded, Immobilized, or Stunned targets."
     },
     "ASSASSIN’S MARK": {
-      "name": "ASSASSIN’S MARK"
+      "name": "ASSASSIN’S MARK",
+      "effect": "The Assassin chooses a character in line of sight. For the rest of the scene, these effects apply:<ul><li>It has Resistance to that target’s damage.</li><li>Damage it deals to that target cannot be reduced.</li><li>It gains +1 Accuracy on all saves forced by that target.</li></ul><br>The Assassin can only choose a new target if the current target is destroyed."
     },
     "LEAP": {
-      "name": "LEAP"
+      "name": "LEAP",
+      "effect": "The Assassin flies 6 spaces in any direction but must land on a surface. When they land, characters adjacent to the Assassin must succeed on an Agility save or be knocked Prone."
     },
     "“DEVIL’S COUGH” SHOTGUN": {
-      "name": "“DEVIL’S COUGH” SHOTGUN"
+      "name": "「魔吠」散彈槍"
     },
     "SPINNING KICK": {
-      "name": "SPINNING KICK"
+      "name": "SPINNING KICK",
+      "effect": "The Assassin chooses a character next to them: they must pass a Hull save or be pushed 4 spaces away from the Assassin and knocked Prone."
     },
     "CLOUD PROJECTOR": {
-      "name": "CLOUD PROJECTOR"
+      "name": "CLOUD PROJECTOR",
+      "effect": "The Assassin sets off a charge, creating a Burst 3 area of smoke, haze, or some other kind of concealing shroud. The Assassin gains soft cover within the affected area, and characters other than the Assassin fully inside or outside the area cannot draw line of sight into or out of the area. Characters partially within the area are not affected. This effect lasts until the end of the Assassin’s next turn, or until the Assassin uses this system again."
     },
     "EXPLOSIVE KNIVES": {
-      "name": "EXPLOSIVE KNIVES"
+      "name": "EXPLOSIVE KNIVES",
+      "effect": "The Assassin expends a charge to throw an Explosive damage knife at a character within range 3, making a ranged attack at +{2/4/6}. On a hit, the knife embeds itself in the target and explodes at the end of their next turn, dealing {6/8/10} Explosive damage in a Burst 1 area."
     },
 
     "ASSAULT": {
-      "name": "突擊兵"
+      "name": "突擊兵",
+      "flavor": "Assault mechs are the most common primary battle frames found throughout the galaxy. Fitted with a heavy rifle, a sidearm, and a suite of systems that enhance movement, targeting, and defensibility, they are straightforward, reliable, and hardy combatants. The pilots of Assault mechs are also the cheapest to train and outfit, but that doesn’t make them any less dangerous.",
+      "tactics": "Assaults are straightforward, damage-dealing strikers. Put them somewhere their toughness and decent range can be used effectively, and Hunker Down against damage to maximize their survivability."
     },
     "HEAVY ASSAULT RIFLE": {
       "name": "HEAVY ASSAULT RIFLE"
@@ -347,7 +445,9 @@
     },
 
     "BARRICADE": {
-      "name": "高牆"
+      "name": "高牆",
+      "flavor": "Veld Systems’ Keeper Pattern 5 is a common guard mech made famous after the platform’s performance during the Battle of Sing Rama Sing. During the battle, Audrey Reimaus of the Seraphs’ Company used a Keeper P5 to singlehandedly secure Rama City’s main uplift tower, thus guaranteeing an evacuation corridor for the city’s civilian population.",
+      "tactics": "Barricades are at their best when locking down fast-moving targets. They can use their Mobile Printer to create hard cover for allies or to prevent melee mechs from moving through an area."
     },
     "GRAVITON LANCE": {
       "name": "GRAVITON LANCE"
@@ -378,7 +478,9 @@
     },
 
     "BASTION": {
-      "name": "堡壘"
+      "name": "堡壘",
+      "flavor": "Bastions trade the pure defensive edge of Aegis-archetype mechs for greater mobility. They blend area-denial offensive capabilities with hardened defense systems and advanced communication suites. These mechs are favorites of many strong squadron commanders. The efficacy of the pairing was best displayed by the actions of Zander Reeves, a field-promoted auxiliary officer, during engagements with the “Space Between” interstellar pirate guild in the Dromeda system.",
+      "tactics": "Bastions are hardy defenders that use their bulk and size to protect themselves and nearby. Use Friendly Interdiction to defend against distant enemies, like artillery and snipers. Bastions (and their wards) are vulnerable to Knockback and forced movement, as these effects break many of their abilities."
     },
     "ROTARY GRENADE LAUNCHER": {
       "name": "ROTARY GRENADE LAUNCHER"
@@ -406,7 +508,9 @@
     },
 
     "BERSERKER": {
-      "name": "狂戰士"
+      "name": "狂戰士",
+      "flavor": "Berserker mechs are built to take advantage of advanced heat-cycling systems that allow them to shunt heat - as it is generated - into pure offensive force, increasing their weapon output by orders of magnitude. The archetype, best-known for its use by Gen’Dal Merlos’s Knights of Imminent Destruction, is preferred by pure combat-focus organizations, PMCs, and deniable-asset corps in established states.",
+      "tactics": "Berserkers are excellent melee duelists that are very scary up close. Their potential is greatest when they are as close to enemy forces as possible. Due to their terrible Heat Cap and E-Defense, Berserkers are vulnerable to tech attacks. Savvy opponents will use Aggression to their own advantage, turning Berserkers against their allies, so it’s best to keep them away from friendly forces."
     },
     "CHAIN AXE": {
       "name": "CHAIN AXE"
@@ -428,7 +532,9 @@
     },
 
     "BOMBARD": {
-      "name": "炮兵"
+      "name": "炮兵",
+      "flavor": "Alta All-Theater Ballistics’ archetypal Bombard chassis and their licensed facsimiles are a common sight in flashpoints across the galaxy. Built for staying power across long-uptime deployments, Bombard-type mechs are an accessible solution for armed forces looking to quickly deploy artillery to a theater. Chassis configured to the parameters of this class are usually positioned in fortified positions miles behind the line; one especially asymmetrical deployment strategy involves placing Bombard batteries above the theater of operations – typically on a local moon, locked-orbit natural satellite, or on a purpose-built orbital platform. From their vantage point, the battery can then rain shells down upon the world below, far removed from the dangers of combat.",
+      "tactics": "Bombards are very long-range artillery mechs designed to punish characters that stay close together to take advantage of adjacency bonuses. They are relatively fragile up close, but resilient at a distance, so place them far back to maximize their effectiveness. Bombards’ Earthshaker Shells are great for preventing enemy movement and providing cover, but can harm allies as well."
     },
     "BOMBARD CANNON": {
       "name": "BOMBARD CANNON"
@@ -456,7 +562,9 @@
     },
 
     "BREACHER": {
-      "name": "攻堅者"
+      "name": "攻堅者",
+      "flavor": "Notoriously effective in boarding operations, the Campbell Orbital Dynamics C-O MkIII is often seen in the arsenals of suborbital planetary defense forces and their pirate counterparts. Officially, the CO designation is an abbreviation of “CombatOrbital”, but unofficially, the CO3 goes by a different name: the “Can Opener”, inspired by the callsign of Valeria Rojas-Sarnik, one of the most storied CO3 pilots.",
+      "tactics": "Breachers can deal out significant Burst damage, but they aren’t especially accurate. To boost their capabilities, use Lock On or pair them with support NPCs. The Breach Ram makes short work of cover; however, it lacks speed and range, and risks provoking reactions."
     },
     "DUAL SHOTGUNS": {
       "name": "DUAL SHOTGUNS"
@@ -484,7 +592,9 @@
     },
 
     "CATAPHRACT": {
-      "name": "重鐵騎"
+      "name": "重鐵騎",
+      "flavor": "Cataphract squadrons are made up of rapid-strike mechs that emphasize mobility, shock, and tenacity; it follows, then, that Cataphract archetypes are feared across the galaxy for their ability to overwhelm defenses in moments. There are few things more terrifying (or inspiring) than a squadron of Cataphracts punching through a static battle line, heavy cannons and point-defense weapons wiping out previously immovable defenders. The flagship Cataphract-class chassis is the Sine Die Systems END-44, an angular beast of a mech outfitted with SDS’s fearsome Ram Cannon. The enduring popularity of the chassis can be attributed to the success of Catherine “C-80” Need, who made their name piloting an END-44 to victory in the defense of Carina-Proximal.",
+      "tactics": "Cataphracts are mobile strikers. Trample allows them to move through enemies and get them to the rear lines, where they can use Impale to force vulnerable targets into disadvantageous positions. Position Cataphracts so that they are closer to individual hostile characters, as Point-Defense Shield doesn’t work if several enemies are an equal distance away. Note that Cataphracts still provoke reactions when they move, so use their abilities carefully."
     },
     "RAM CANNON": {
       "name": "RAM CANNON"
@@ -515,7 +625,9 @@
     },
 
     "DEMOLISHER": {
-      "name": "終結者"
+      "name": "終結者",
+      "flavor": "The lengthy siege of Jadigmora City saw the development of the first true Demolisher frames. Based on antique Berserker mechs, Demolishers swapped dramatic heat flows for more sustainable systems, improved hydraulic strength, and stabilizers for supermassive melee weapons. Demolisher pilots soon discovered a range of new applications for their concussion-wave ordnance. A lancer named Hayes Rothford and their NHP, Clarke, were the first pilot/co-pilot team to truly show the power of the platform, singlehandedly bringing down a siege frigate in low orbit.",
+      "tactics": "Demolishers are slow, resilient defenders that dish out plenty of damage and stuns when they get close to the enemy. Use their size and power in melee combat to force enemy characters to move away instead of fighting them, and Dig In to shrug off heavy hits."
     },
     "DEMOLITION HAMMER": {
       "name": "DEMOLITION HAMMER"
@@ -537,7 +649,9 @@
     },
 
     "ENGINEER": {
-      "name": "工程師"
+      "name": "工程師",
+      "flavor": "Various types of localized Engineer-class mechs are common throughout the galaxy, unique to the worlds or theaters in which they operate. The Engineer has long existed as an archetype, but it remained largely undefined until a full design doctrine was laid out by Corrida Isolde-Nollet, an Armory civil service director on Ras Shamra. In all cases, the mission of Engineers is the same: defend, maintain, secure. Engineers operate best in the middle or rear of the battle line, coordinating the defense of important positions and overseeing comprehensive deployment of all operational assets. Remember: if you can’t get to the enemy, you lose.",
+      "tactics": "Engineers’ Deployable Turrets make them potent force multipliers, as they can deploy one every turn. If enemies don’t deal with an Engineer's turrets quickly, their potential damage quickly skyrockets – even more when they target characters with Engineer’s Mark. Without Engineer’s Mark, turrets attack the nearest target, which players can use to control who takes damage."
     },
     "FLAK CANNON": {
       "name": "FLAK CANNON"
@@ -565,7 +679,9 @@
     },
 
     "GOLIATH": {
-      "name": "巨人"
+      "name": "巨人",
+      "flavor": "Along the Sierra Madre Line – the eighth ring of territory out from Cradle – the Dangun frame is a familiar sight. Manufactured by Park Armored Systems and popularized by the Dagger Squadron mercenary company, the Dangun is popular for its toughness, kinetic damage-trade ability, and reliable all-theater performance. The Dangun is a mech to build strike forces around – a Goliath-class frame capable of mounting powerful magtech, with a design that’s tough to counter in kinetic damage combat.<br>With a number of small fleet contracts in its portfolio, Park Armored Systems is a manufacturer worth keeping an eye on; indeed, Harrison Armory has taken particular notice, and omninet rumors suggest a possible partnership in the near future.",
+      "tactics": "Goliaths are relatively mobile defenders that can bring enemies to them. With Crush Targeting, Goliaths force dangerous enemies to focus attacks on them; all it needs is line of sight, allowing Goliaths to target even fast or hard-to-hit characters. The prodigious size of Goliaths also lets them provide cover for their allies."
     },
     "DRUM SHOTGUN": {
       "name": "DRUM SHOTGUN"
@@ -587,7 +703,9 @@
     },
 
     "HIVE": {
-      "name": "巢穴"
+      "name": "巢穴",
+      "flavor": "In theory, drones and drone swarms developed after the Deimos Event are not too different from their older cousins: they establish a local omninetwork; fabricate and deploy a century or half-century of drones; and then coordinate them to achieve their objectives. Still, the complex handler–trainer relationships that allow pilots to segue between direct control and autonomous operation cause psychological trauma after a month of continuous drone operation. It is recommended that they cycle their paired hive nexus every two weeks.",
+      "tactics": "Hives use Razor Swarm to control the battlefield, granting soft cover to their allies and denying areas to their enemies. Deploy swarms and use Drone Barrage to lock down enemies, or move them into the range of swarms and allies."
     },
     "HUNTER-KILLER NEXUS": {
       "name": "HUNTER-KILLER NEXUS"
@@ -615,7 +733,9 @@
     },
 
     "HORNET": {
-      "name": "胡蜂"
+      "name": "胡蜂",
+      "flavor": "SatriaBarong’s Espada range of half-frame mechs has long been a popular choice in the chassis racing circuit; notably, Espadas are the mechs of choice for the vaunted SatriaBarong–ShimanoLUX chassis racing team. Recently, SatriaBarong – with the blessing of SSC – has moved to create a mil-spec, de-licensed variant of the Espada without the ShimanoLUX branding, giving rise to the Hornet archetype, a platform open for other companies to adapt and improve. The most notable of these competitors is Chandrasekhar & Herschel, the primary sponsor of the new Blueshift Grand Prix racing circuit.",
+      "tactics": "Hornets are small, fast controllers that are extremely hard to hit and incredibly annoying. They deal limited damage, but their ability to inflict mobility-reducing conditions is great for locking down enemy strikers. Fortunately for their enemies, Hornets have a low E-Defense that makes them vulnerable to smart weaponry and tech attacks."
     },
     "STINGER PISTOL": {
       "name": "STINGER PISTOL"
@@ -646,7 +766,9 @@
     },
 
     "MIRAGE": {
-      "name": "幻象"
+      "name": "幻象",
+      "flavor": "Mirage-class mechs are often found in the employ of HORIZON-aligned militant groups. With no originating manufacturer, they are one of the few open-source non-HORUS pattern groups available to cells that know where to look. Mirages deploy advanced liturgicode to wrap themselves and their allies in veils of illusion and misdirection. While it’s clear that the warping effects that surround these mechs are caused by sensor distortion, they are powerful enough to affect even organic systems – exercise caution when engaging.",
+      "tactics": "Mirages are potent support mechs, able to teleport their allies around at will and shut down ranged attackers with Warp Sensors. They can make allied characters Invisible, but become vulnerable while doing so. These strengths come at a price: weapons and systems that ignore cover – such as Seeking weapons – can get around Warp Sensors, and Mirages don’t deal any damage on their own."
     },
     "WARP SENSORS": {
       "name": "WARP SENSORS"
@@ -677,7 +799,9 @@
     },
 
     "OPERATOR": {
-      "name": "操作者"
+      "name": "操作者",
+      "flavor": "Operators are known-unknowns, rarely encountered on the front lines, but this should not be mistaken for fragility. Operators are dangerous and deadly in every way. Like their mechs, Operators’ bodies are loaded with the most advanced tech available. When they die in combat, it’s not unknown for their bodies – and their mechs — to self-immolate, rendering any technology and data into ash.",
+      "tactics": "Operators are elite and extremely mobile artillery mechs. They aren’t particularly hardy, but can use Trace Drive to teleport around the battlefield and put themselves in advantageous positions: on top of obstructions or terrain, or in cover – anywhere they can snipe at enemies with their highly accurate Raptor Plasma Rifles."
     },
     "RAPTOR PLASMA RIFLE": {
       "name": "RAPTOR PLASMA RIFLE"
@@ -702,7 +826,9 @@
     },
 
     "PRIEST": {
-      "name": "祭司"
+      "name": "祭司",
+      "flavor": "Priest-archetype mechs are found among the ranks of technozealot cults, transhumanist movements, and states or corporations that prioritize technological supremacy. These frames are configured to network their sensitive core systems with sympathetic mechs, creating digital super-constructs in order to establish and maintain total theater control. The use of Priest-archetype chassis and strategies were pioneered by a small, esoteric group known as the Messengers of MAIA. Ostensibly a courier group, the Messengers push all systems – synthetic and organic – to their theoretical limits. They even go so far as to share sensory input between linked pilots – an experience known to produce hyper-perception fugues and other ascendant mental states.",
+      "tactics": "Priests are powerful support mechs that function best when partnered with another character they can empower with Investiture. Use their Dispersal Shield to protect vulnerable targets and Investiture to empower an allied striker or defender. Enemies can disarm Investiture by separating Priests from their partners, at which point both become vulnerable to conditions."
     },
     "ABJURE": {
       "name": "ABJURE"
@@ -727,7 +853,9 @@
     },
 
     "PYRO": {
-      "name": "火焰兵"
+      "name": "火焰兵",
+      "flavor": "First popularized in the wake of the Hercynian Crisis by the lancer Flama and their aptly named Devil Corps, Pyro frames are reviled across the galaxy as the embodiment of the pure destructive power held by militarized states and corpro-states. Their use is common within organizations for which the ends justify the means. Pyros are well-armored, and better insulated than most chassis of similar gross weight, designed to manage incredible internal heat while projecting volatile mixes of chemicals and flame toward their enemies. Pyros are often used in urban and jungle warfare, where they can be used to root out entrenched defenders.",
+      "tactics": "Pyros are slow, resilient mechs that are especially potent against characters already suffering from Burn. If players don’t keep their distance, Pyros can use Explosive Vent to dump an enormous amount of heat on right on them. Position Pyros so they can protect allies against incoming fire with Firebreak Shield. Note, however, that players can move around shields to reduce their effectiveness to zero, or they can deactivate them by hitting Pyros with Stunned or Knockback weapons."
     },
     "FLAMETHROWER": {
       "name": "FLAMETHROWER"
@@ -749,7 +877,9 @@
     },
 
     "RAINMAKER": {
-      "name": "求雨者"
+      "name": "求雨者",
+      "flavor": "The tongue-in-cheek “Rainmaker” nickname describes mechs and pilots that specialize in the use of rockets and missiles. Favored by flexible combat units, Rainmakers are mobile platforms loaded with ordnance and capable of handling engagements at any range, against any target.",
+      "tactics": "Rainmakers are one part artillery and one part controller. Their Javelin Rockets force characters to avoid certain areas or take guaranteed damage. They can also dish out delayed damage through optional systems like Hound Missiles and Atlas Missiles. Like other artillery mechs, Rainmakers are relatively vulnerable on their own."
     },
     "MISSILE PODS": {
       "name": "MISSILE PODS"
@@ -777,7 +907,9 @@
     },
 
     "RONIN": {
-      "name": "浪人"
+      "name": "浪人",
+      "flavor": "Ronin frames differ from those favored by Berserkers and Demolishers in that they aren’t retrofitted or improvised for creative tactical applications – they are purpose-built to excel in melee combat by boutique fabricators. Although they are seen as somewhat antique by many commentators, the rise of stasis- and mag-based defensive technologies has made Ronins more viable in modern combat.<br>Ronin are common among both martial cultures and performance-combat firms, where their superb melee abilities elevate them above the competition. They see less use in cultures that have a preference for ranged combat, but there is a certain prestige accorded to pilots who adopt ancient weapons and survive to do it again. The mythic lancer Susanoo elevated this archetype to legendary status when she endorsed the GRAMtech Strike-1 chassis, which she piloted alongside numerous Albatross wings during the Neo-Celestine Disappointment.",
+      "tactics": "Ronins are no-nonsense, high-damage melee strikers. Rebound makes it dangerous for enemies to attack Ronins with ranged weapons, but they tend to suffer against armored enemies and are heavily reliant on Accuracy."
     },
     "CARBON FIBER SWORD": {
       "name": "CARBON FIBER SWORD"
@@ -799,7 +931,9 @@
     },
 
     "SCOURER": {
-      "name": "淨化者"
+      "name": "淨化者",
+      "flavor": "Scourer-class mechs are distinctive for carrying deadly Energy damage weapons powered by massive-output recursive power plants. These mechs are found across the galaxy in specialist roles, supporting conventional ground troops with powerful beam attacks that stop electronic threats as easily as they stop enemy soldiers.",
+      "tactics": "Scourers deal a great deal of damage when they focus on single targets, attacking them multiple times. They can be used to crack tough or slow moving opponents very easily. However, they are much less effective when forced to switch targets, and need to stay still to make the most of their weapons."
     },
     "THERMAL LANCE": {
       "name": "THERMAL LANCE"
@@ -830,7 +964,9 @@
     },
 
     "SCOUT": {
-      "name": "斥候"
+      "name": "斥候",
+      "flavor": "The most devastating mechanized-warfare strategies call for the active, close, and aggressive application of orbital, atmospheric, and terrestrial fire-support. Enter Scout-class mechs and their pilots. Using advanced targeting systems, Scouts are equal parts tactical coordinator and artillery commander, working with allies to map the battlescape and accurately place direct-targeted and autonomous fire.",
+      "tactics": "Scouts are support mechs designed to increase the damage dealt by their allies. They deal no damage themselves, but Marker Rifle and Cloaking Field allow them to both keep allied characters alive and prevent enemies from hiding. They are especially adept at revealing Invisible characters but need to get close to their targets to take full advantage of this ability. Like most support mechs, Scouts aren’t especially resilient on their own."
     },
     "MARKER RIFLE": {
       "name": "MARKER RIFLE"
@@ -855,7 +991,9 @@
     },
 
     "SEEDER": {
-      "name": "播種者"
+      "name": "播種者",
+      "flavor": "Seeder-archetype mechs are sappers, adept at deploying defensive nets of mines and traps. Laden with ordnance and bristling with sensor suites, Seeders operate in small teams: together, they blanket battlefields in traps and pitfalls, planting mines and other area-denial systems to guide the enemy into kill-boxes.",
+      "tactics": "Seeders specialize in area denial, controlling enemy movement with their mines. Since Seeders can place a mine each turn, they can quickly turn part of the battlefield into a mess when left to their own devices. Allied characters don’t trigger Seeders’ mines, but are affected by them if they’re caught in the explosion. Seeders can take optional systems that force characters to spread out or take additional damage."
     },
     "LAY MINES": {
       "name": "LAY MINES"
@@ -880,9 +1018,10 @@
     },
 
     "SENTINEL": {
-      "name": "哨兵"
+      "name": "哨兵",
+      "flavor": "Sentinel archetypes are typically employed as guards and escorts, often in the retinues of commanders or posted in defense of artillery. These mechs and their pilots employ advanced suites of technology to ensure their wards stay alive and operational, even if that costs their own chassis – or lives. Unlike the heavier Bastion archetypes, Sentinels are quick and light: they practice active defense, preemptively striking with suites of advanced technical, systemic, and direct weaponry to protect their charges.",
+      "tactics": "Sentinels are fast defenders that focus on protecting their allies with Overwatch. They are fairly short-range attackers, relying on positioning to get the most from their kit, and aren’t as resilient as other defenders."
     },
-    
     "COMBAT SHOTGUN": {
       "name": "COMBAT SHOTGUN"
     },
@@ -909,7 +1048,9 @@
     },
 
     "SNIPER": {
-      "name": "狙擊手"
+      "name": "狙擊手",
+      "flavor": "The reason some pilots haven’t seen a Sniper on the battlefield is that those pilots are dead. These mechs are built for stability, targeting, and extremely long-range  kinetic damage weapons at the cost of mobility, and they tend to operate in small, self-sufficient teams far removed from direct combat. Sniper pilots are a proud breed, emphasizing economy and elegance over destructive power.",
+      "tactics": "Rightly feared, Snipers are devastating when it comes to dealing focused damage. Using Sniper’s Mark, they can deal direct structure damage, making short work of almost any character. Opponents can avoid this with clever use of cover, or by dropping Prone. Snipers’ main downside is that they need to be fairly stationary to do their best work, as their rifle requires a full action to fire."
     },
     "ANTI-MATERIEL RIFLE": {
       "name": "ANTI-MATERIEL RIFLE"
@@ -937,7 +1078,9 @@
     },
 
     "SPECTER": {
-      "name": "幽靈"
+      "name": "幽靈",
+      "flavor": "The principle behind the development of Specter-archetype mechs is a simple one: not being hit is better than the strongest armor. Specters employ cutting-edge optical-electronic camouflage to vanish from the battlefield and enemy scans. They flicker in and out of vision, confusing the eye and the radar. That’s what makes them so deadly, though their weapons certainly help.",
+      "tactics": "Specters are mobile strikers that shine against foes that make the mistake of being caught alone. Use Prowl along with their high Threat and Speed to get them across the front lines so they can find vulnerable solo targets, like snipers and artillery. Specters are permanently Invisible, which is key to their survivability; they aren’t very resilient, but they can Hide any time."
     },
     "MONOWIRE SWORD": {
       "name": "MONOWIRE SWORD"
@@ -962,7 +1105,9 @@
     },
 
     "SUPPORT": {
-      "name": "後盾"
+      "name": "後盾",
+      "flavor": "Support-archetype mechs keep their allies alive and operational with a broad library of immediate triage systems, from basic flash-weld plating through to shallow–medium structural reinforcement packs and whitewash nanite slurry. From the famed Laughter of a Solemn God, working the front lines of Boundary Garden’s battlefields, to the precision actions undertaken by the rogue-world hunters of ExtraSolar Acquisitions, Inc., the efficacy of Support-archetype mechs is unparalleled when mech teams need to stay alive longer than deployment.",
+      "tactics": "Supports are bulky mechs that can’t deal any damage but have access to powerful healing and condition-clearing effects. Despite their resilience, they have no way to defend themselves and need to get close to their allies in order to be effective. Savvy players will shoot and destroy their Restock Drones before they are activated, denying an opportunity for healing."
     },
     "SEALANT GUN": {
       "name": "SEALANT GUN"
@@ -990,7 +1135,9 @@
     },
 
     "WITCH": {
-      "name": "女巫"
+      "name": "女巫",
+      "flavor": "Witch-archetype chassis can always be found in the eye of a systemic storm, where they are adept at generating realspace and legionspace terrors to blanket battlefields. At any given time, they are likely to be operating in both the physical battlefield and the tempest of the omninet. To handle the chaotic swirl of inputs and outputs that results from this split perception, Witches often pair with personality-clone NHPs, splitting tasks along parallel tracks to increase combat efficacy.",
+      "tactics": "Witches are no-nonsense controllers that use Tear Down to inflict heat and Blind to shut down ranged attackers. Predatory Logic gives them a tool to use against characters with heavy weapons, which can also aid their allies. Targets generally have an opportunity to mitigate their heat somewhat, since Witches deal most of their heat on their next turn."
     },
     "TEAR DOWN": {
       "name": "TEAR DOWN"
@@ -1021,7 +1168,8 @@
     },
 
     "HUMAN": {
-      "name": "人類"
+      "name": "人類",
+      "flavor": "All kinds of people end up on the battlefield, including pilots, VIPs, and bystanders.<br>You will mostly use Human NPCs when someone climbs out of their mech mid-battle; if you want a proper group of infantry, use the Squad class instead. Humans can never take other templates, and cannot gain structure."
     },
     "RANGED WEAPON": {
       "name": "RANGED WEAPON"
@@ -1031,7 +1179,8 @@
     },
 
     "SQUAD": {
-      "name": "兵隊"
+      "name": "兵隊",
+      "flavor": "Although individual pilots and other non-mechanized soldiers might not present much of a threat to most mechs, a squad of infantry with the right gear and training can be dangerous in their own right.<br>Squads are exactly what they sound like: small groups of five to ten armed and armored soldiers represented as one character on the battlefield."
     },
     "SOLDIERS": {
       "name": "SOLDIERS"
@@ -1062,7 +1211,8 @@
     },
 
     "MONSTROSITY": {
-      "name": "怪物"
+      "name": "怪物",
+      "flavor": "Monstrosities are especially large or horrifying natural predators. Although they are usually wild, some monstrosities can be domesticated and trained for combat: such creatures are in high demand along the furthest reaches of the galaxy."
     },
     "UNIQUE PHYSIOLOGY": {
       "name": "UNIQUE PHYSIOLOGY"
