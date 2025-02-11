@@ -56,7 +56,19 @@
       }
     },
     "FORTRESS": {
-      "name": "FORTRESS"
+      "name": "要塞",
+      "npcf_fortress_priest": {
+        "effect": "安全固化目標改為讓<b>系統豁免</b>得到 <b>+3 準度</b>，科技攻擊也改為施加<b> +3 難度</b>，而非原本的 +1。"
+      },
+      "npcf_fortress_operator": {
+        "effect": "操作者在<b>系統豁免</b>得到 <b>+3 準度</b>，且對其進行的科技攻擊也都會得到<b> +3 難度</b>。"
+      },
+      "npcf_fortress_specter": {
+        "effect": "幽靈在<b>系統豁免</b>得到 <b>+3 準度</b>，且對其進行的科技攻擊也都會得到<b> +3 難度</b>。"
+      },
+      "npcf_fortress_ultra": {
+        "effect": "超體在<b>系統豁免</b>得到 <b>+3 準度</b>，且對其進行的科技攻擊也都會得到<b> +3 難度</b>。"
+      }
     },
     "GUARDIAN": {
       "name": "GUARDIAN"
@@ -77,7 +89,13 @@
       "name": "HEAVY FRAME"
     },
     "INSULATED": {
-      "name": "INSULATED"
+      "name": "隔熱",
+      "npcf_insulated_veteran": {
+        "effect": "老兵免疫於<b>燃燒</b>。"
+      },
+      "npcf_insulated_pyro": {
+        "effect": "火焰兵免疫於<b>燃燒</b>。"
+      }
     },
     "JUGGERNAUT": {
       "name": "勢不可擋",
@@ -98,7 +116,13 @@
       }
     },
     "LIMITLESS": {
-      "name": "LIMITLESS"
+      "name": "無限",
+      "npcf_limitless_veteran": {
+        "effect": "老兵可以<b>超限</b>。它超限的代價不遵循原本的規則，永遠會是 1d6。"
+      },
+      "npcf_limitless_ultra": {
+        "effect": "超體可以<b>超限</b>。它超限的代價不遵循原本的規則，永遠會是 1d6。"
+      }
     },
     "MOVING TARGET": {
       "name": "MOVING TARGET"
@@ -167,7 +191,13 @@
       "name": "SIEGE ARMOR"
     },
     "SIGHT": {
-      "name": "SIGHT"
+      "name": "真視",
+      "npcf_sight_scout": {
+        "effect": "斥候忽略<b>隱形</b>和<b>匿跡</b>狀態──它知道感應範圍內所有角色的確切位置。"
+      },
+      "npcf_sight_ultra": {
+        "effect": "超體忽略<b>隱形</b>狀態，且感應範圍內的敵對角色將無法進行<b>躲藏</b>。"
+      }
     },
     "STEP": {
       "name": "STEP"
@@ -1121,53 +1151,67 @@
       "effect": "遙控機得到 +5 HP，它能夠忽略會炸穿駕駛艙並殺死人類的傷害。"
     },
     "NO PILOT": {
-      "name": "無人駕駛"
+      "name": "無人駕駛",
+      "effect": "遙控機免疫於任何會直接影響駕駛員的系統和動作；然而，它始終處於<b>受損</b>狀態，且無法進行複雜決定或道德判斷。"
     },
     "VULNERABLE TO TECH": {
-      "name": "VULNERABLE TO TECH"
+      "name": "科技弱點",
+      "effect": "對遙控機進行的敵意<b>科技動作</b>將得到<b> +1 準度</b>。"
     },
 
     "ELITE": {
       "name": "精銳",
-      "description": "Elite enemies are tougher and more powerful than most – just a step down from Ultras. They might be especially tough or experienced pilots, special forces, or foes using a higher level of technology or better quality gear than the rank and file. Elites can act several times each round and get additional Structure, which effectively doubles their HP and allows them to make structure damage checks like PCs."
+      "description": "精銳敵人比大部份敵人來得堅韌且強大，只略遜於超體。它們可能是特別強韌或經驗豐富的駕駛員、特種部隊，或使用了更先進科技或高級裝備的敵人。精銳每輪可以進行多次行動，且擁有額外的結構，這不僅使它的實際 HP 加倍，也讓它們能和 PC 一樣進行結構傷害判定。"
     },
     "READY AND WAITING": {
-      "name": "READY AND WAITING"
+      "name": "準備就緒",
+      "effect": "精銳每輪有兩個分別的回合。"
     },
     "CAREER SOLDIER": {
-      "name": "CAREER SOLDIER"
+      "name": "專業軍人",
+      "effect": "精銳不能套用 <b>嘍囉</b> 或 <b>超體</b> 模板。"
     },
     "SPECIALIST KIT": {
-      "name": "SPECIALIST KIT"
+      "name": "專家套件",
+      "effect": "精銳額外選擇一個其NPC種類的可選系統。"
     },
 
     "EXOTIC": {
       "name": "異形",
-      "description": "Even in a galaxy of wonders, Exotics are strange and dangerous enemies. Some feature unique technologies not yet available to the wider galaxy or wield archaic weapon styles updated to the modern day, while others carry equipment or adopt tactics that are totally alien to Union doctrine."
+      "description": "即使在充滿驚奇的銀河中，異形也是特別怪異且危險的敵人。它們有些擁有尚未普及於銀河系的獨特科技，配備著經過現代化改造的古老武器，或可能配備著與聯盟教義徹底相異的裝備或戰術。"
     },
     "XENOTECH": {
-      "name": "XENOTECH"
+      "name": "外星科技",
+      "effect": "<b>掃描</b>無法揭露任何關於<b>異形系統</b>的情報。"
     },
     "EXOTIC SYSTEMS": {
-      "name": "EXOTIC SYSTEMS"
+      "name": "異形系統",
+      "effect": "異形可以從其可選特徵清單中選擇最多 2 個選項。"
     },
     "LIVING CHASSIS": {
-      "name": "LIVING CHASSIS"
+      "name": "活體骨架",
+      "effect": "這個特徵只能在異形是<b>機甲</b>時才能選擇。該異形變為<b>生物</b>。"
     },
     "BLINKSPACE CARVER": {
-      "name": "BLINKSPACE CARVER"
+      "name": "霎間行者",
+      "effect": "異形在移動時會<b>瞬間轉移</b>。"
     },
     "REALSPACE EXTRUSION": {
-      "name": "REALSPACE EXTRUSION"
+      "name": "異維擠製物",
+      "effect": "這個異形實際上是位於非物理空間的高維度存在在現實的擠製物，且只有一部分為有形實體。異形得到對<b>所有傷害的抗性</b>；然而，它<b>造成傷害也會減半</b>，且其他角色能夠自由穿過它或在其佔據空間結束回合，就如同它不在該處一樣。"
     },
     "LIVING WEAPONRY": {
-      "name": "LIVING WEAPONRY"
+      "name": "活體武器",
+      "effect": "異形免疫於<b>受擾</b>狀態。此外，其武器具有能自動產生彈藥的生物科技或半有機部件。當異形裝填<b>裝填</b>武器時，它將會回復 1d6 HP。"
     },
     "PARACAUSAL WEAPON": {
-      "name": "PARACAUSAL WEAPON"
+      "name": "超因果律兵器",
+      "effect": "選擇一個異形擁有的武器。該武器造成的傷害將無法被任何方式（包括裝甲、抗性或其他原因）給減少。"
     },
     "CHRONOTORUS": {
-      "name": "CHRONOTORUS"
+      "name": "時間環",
+      "trigger": "當異形或其他視線範圍內的角色擲 d20 時。",
+      "effect": "異形對時間流造成局部性扭曲。它能夠以<b>反應</b>，使自己或強迫視線範圍內的一個其他角色重擲 1d20，且必須使用新的擲骰結果。"
     },
 
     "GRUNT": {
@@ -1185,52 +1229,66 @@
 
     "MERCENARY": {
       "name": "傭兵",
-      "description": "Mercenaries offer their services to the highest bidder. They may have an attachment to a faith or flag, but when it comes to doing business, they’re loyal only to the highest bidder."
+      "description": "傭兵為出價高者提供服務。它們也許會對特定的信仰和勢力有所偏好，但在商言商，他們永遠只效忠於那個出價最高的人。"
     },
     "OPPORTUNIST": {
-      "name": "OPPORTUNIST"
+      "name": "機會主義",
+      "effect": "當傭兵的攻擊目標與其他隊友角色<b>交戰</b>時，它的攻擊得到<b> +1 準度</b>。"
     },
     "MERCENARY SYSTEMS AND TRAITS": {
-      "name": "MERCENARY SYSTEMS AND TRAITS"
+      "name": "傭兵系統與特徵",
+      "effect": "當選擇額外系統時，傭兵也可以從傭兵系統和特徵清單中選擇。"
     },
     "BOUNTY HUNTER": {
-      "name": "BOUNTY HUNTER"
+      "name": "賞金獵人",
+      "effect": "在戰鬥開始前，GM 選擇一名玩家角色：他的人頭被懸賞了。戰鬥中的所有傭兵在對該角色（包括駕駛員和機甲）進行的所有攻擊、判定、和豁免都得到<b> +1 準度</b>。"
     },
     "EFFICIENT KILLER": {
-      "name": "EFFICIENT KILLER"
+      "name": "高效殺手",
+      "effect": "傭兵對結構值 2 或以下的角色進行的攻擊，會得到<b> +1 準度</b> 和 <b>AP</b>。"
     },
     "FAVORS OWED": {
-      "name": "FAVORS OWED"
+      "name": "償還人情",
+      "effect": "傭兵要求某人償還人情：以軌道砲或火力砲轟的形式。對 <b>⌿30 範圍</b>且位於視線內的 <b>爆發 2 區域</b> 進行轟炸，影響範圍內的角色必須成功通過一次<b>敏捷豁免</b>，否則受到 {6/8/12} 爆炸傷害，且被擊倒<b>伏臥</b>。若豁免成功，則只受到一半傷害且不會伏臥。"
     },
     "SCOUT DRONE": {
-      "name": "SCOUT DRONE"
+      "name": "斥候無人機",
+      "effect": "<b>斥候無人機（大小 1/2、HP 10、迴避 10、電子防禦 10、標籤：無人機）</b><br><br>傭兵在感應範圍內的空間展開無人機。該無人機將產生一個 <b>爆發 2</b> 的影響範圍，在範圍內的角色將無法獲得<b>隱形</b>和<b>匿跡</b>狀態，也會因此失去該狀態。傭兵對在影響範圍內的角色進行的攻擊也會得到<b> +1 準度</b>。該無人機能以一個協定動作佈署到另一個空間。"
     },
     "LAST WORD": {
-      "name": "LAST WORD"
+      "name": "遺言",
+      "trigger": "當傭兵的 HP 被降到其總和的一半以下時。",
+      "effect": "在 <b>爆發 1</b> 範圍內的角色必須通過一次敏捷豁免，否則受到 2 點動能傷害，並陷入<b>受擾</b>狀態直至其下個回合結束。然後，傭兵朝任意方向移動等同其速度的格數。這個移動忽略交戰且不會觸發反應。"
     },
 
 
     "PIRATE": {
       "name": "海盜",
-      "description": "Pirates live on the boundaries—the forgotten bolt-holes of occupied space. They range far, operating around blink gates, interstellar shipping lanes, and worlds that are yet to be settled. They can be found wherever resources are kept or moved, people are desperate, and the law is stretched thin."
+      "description": "海盜活躍於已開發宇宙的邊陲，生活在那些被遺忘的藏身窩點。他們遠渡星海，在霎間閘門、星際航線和未殖民星球上活動。在資源被儲藏或運送之處、人們走投無路、或法理不彰之地，都能看到他們的蹤跡。"
     },
     "PIRATE SYSTEMS AND TRAITS": {
-      "name": "PIRATE SYSTEMS AND TRAITS"
+      "name": "海盜系統和特徵",
+      "effect": "當選擇額外系統時，海盜也可以從海盜系統和特徵清單中選擇。"
     },
     "BOARDING LEASH": {
-      "name": "BOARDING LEASH"
+      "name": "登舷索",
+      "on_hit": "目標必須通過<b>機體豁免</b>，否則被直接拉到與海盜鄰接，並自動被其<b>擒拿</b>。"
     },
     "SPLINTER ROUNDS": {
-      "name": "SPLINTER ROUNDS"
+      "name": "破片彈",
+      "effect": "海盜在<b>會心一擊</b>時會造成 +3 額外傷害。"
     },
     "COREWORM ROCKETS": {
-      "name": "COREWORM ROCKETS"
+      "name": "蠕蟲火箭",
+      "effect": "1d3 部微型無人機附著在 <b>⌿10 範圍</b>和視線內的一名角色上，並開始鑽進目標的駕駛艙。在 1d3+2 輪後，如果仍有任何蠕蟲附著於該角色，則它們將闖入駕駛艙，撕咬駕駛員，使其 <b>HP 歸零</b>。目標會知道無人機還需要多少輪才能鑽入駕駛艙，以及還有多少部無人機附著其上。<br><br>目標和與其鄰接的隊友角色能以<b>快速動作</b>並通過<b>系統或工程判定</b>來移除其中 1 部無人機。此外，如果目標<b>關機</b>的話，蠕蟲會陷入混亂並暫停倒數。"
     },
     "PRYING CLAWS": {
-      "name": "PRYING CLAWS"
+      "name": "撬爪",
+      "effect": "海盜試圖撬開鄰接角色的駕駛艙。目標必須通過<b>機體豁免</b>，否則將被強迫以下馬立刻離開其機甲。"
     },
     "SLAVER SIGNAL": {
-      "name": "SLAVER SIGNAL"
+      "name": "奴役訊號",
+      "effect": "在 <b>⌿10 範圍</b>內的一部有駕駛員的機甲或載具必須通過<b>系統豁免</b>，若失敗，則目標內部的駕駛員和生物角色將被訊號影響，並陷入<b>暈眩</b>狀態。除非該機甲或載具擁有 AI，否則也會一起陷入<b>暈眩</b>狀態。如果被影響的角色或其機甲或載具受到傷害的話，則他們將因為驚醒而結束這個效果。與目標鄰接的其他角色也能以<b>完整動作</b>並通過<b>系統判定</b>來消除訊號並解除這個效果。否則，這效果將持續直到海盜被毀為止。"
     },
 
     "SHIP": {
@@ -1252,114 +1310,148 @@
 
     "SPACER": {
       "name": "虛空住民",
-      "description": "Spacers are those born and bred in the hard vacuum of the endless void. They are adept at maneuvering in and around the difficult, low-g environments found only in space and low orbit – blink and space stations, asteroid fields, and the emptiness between ships in military and commercial fleets."
+      "description": "虛空住民生於長於無盡虛空的真空之中。他們擅長在太空和低軌道中寸步難移的低重力環境中移動，像是霎間、太空站、小行星帶、軍艦以及商船之間的虛空。"
     },
     "MANEUVERABLE": {
-      "name": "MANEUVERABLE"
+      "name": "機動性",
+      "effect": "虛空住民能夠在無重力環境下如常移動。"
     },
     "SPACER SYSTEMS": {
-      "name": "SPACER SYSTEMS"
+      "name": "虛空住民系統",
+      "effect": "當選擇額外系統時，虛空住民也可以從虛空住民系統清單中選擇。"
     },
     "CONCUSSION GUN": {
-      "name": "CONCUSSION GUN"
+      "name": "震波槍"
     },
     "GRAVITY RIFLE": {
-      "name": "GRAVITY RIFLE"
+      "name": "重力步槍",
+      "on_hit": "目標必須通過一次<b>機體豁免</b>，否則被以直線拉向虛空住民，直到移動了 10 格或撞到障礙物為止。如果目標因此撞到障礙物，則它還會被撞倒<b>伏臥</b>。"
     },
     "SEALANT TRAP": {
-      "name": "SEALANT TRAP"
+      "name": "封膠陷阱",
+      "effect": "當敵對角色移動到與該地雷鄰接的空間時，在 <b>爆發 1</b> 範圍內的角色將被噴灑而出的厚實快乾封膠給沾黏，陷入<b>固定</b>狀態。它們將維持固定直至封膠因為受到足夠傷害而破裂為止。封膠擁有 <b>{5/10/15} HP</b> 和 <b>迴避 5</b>。"
     },
     "THUMPER GRENADES": {
-      "name": "THUMPER GRENADES"
+      "name": "衝擊手榴彈",
+      "effect": "虛空住民消耗 1 發來得到以下效果：<br><b>衝擊手榴彈（手榴彈、射程 5、爆發 1）</b>：影響範圍內的角色必須通過一次<b>敏捷豁免</b>，否則被從爆發中心擊退 3 格。如果這讓它撞到障礙物，則它將因此被撞倒<b>伏臥</b>。"
     },
 
     "ULTRA": {
       "name": "超體",
-      "description": "Ultras are the most dangerous individual foes a lancer might face on the battlefield – the champions, favored soldiers, chosen ones, and other mighty warriors of a fighting force. An Ultra might command a small retinue or lead an army from the front, but they are no grand strategists. Their primary tasks are always direct engagement with the enemy, holding or breaking lines, and ensuring through heroic efforts that their side wins the day.<br>Ultras are powerful enemies capable of taking on multiple mechs at once, along the lines of “boss” characters in video games. Like Elites, they have extra Structure, meaning they roll on the structure damage table and are much more resilient than most NPCs. Because they’re so much more powerful than regular NPCs (and keeping track of them is much more complex), it’s recommended you only use one Ultra in any given combat encounter."
+      "description": "超體是槍騎兵在戰場上可能面對的敵人中最危險的存在——冠軍鬥士、受恩寵的軍人、天選之人，和其他戰鬥部隊的強大戰士等。超體或許會指揮隨行小隊，或是在前線率領大批軍隊，但他們並不是什麼大戰略家。他們最主要的任務永遠是直接和敵人交戰、突破或守住戰線、以及透過達成英勇事蹟來確保己方勢力取得勝利。<br><br>就和電子遊戲中的「頭目」一樣，超體是能夠同時對付多架機甲的強大敵人。和精銳一樣，他們也擁有額外的結構，意味著他們能擲骰進行結構傷害判定，且遠比絕大部份的 NPC 來得堅韌。由於他們比尋常 NPC 要強上許多（且數據追蹤起來也更為複雜），因此我們建議在一場戰鬥中最多只安排一架超體就好。"
     },
     "BEST OF THE BEST": {
-      "name": "BEST OF THE BEST"
+      "name": "國士無雙",
+      "effect": "超體不能套用 <b>精銳</b> 或 <b>嘍囉</b> 模板。"
     },
     "SHOCK AND AWE": {
-      "name": "SHOCK AND AWE"
+      "name": "威懾四方",
+      "effect": "超體每輪有兩個分別的回合，且在每次輪到他的回合時會恢復所有已消耗的反應。<br><br>如果超體在戰鬥開始時要面對至少 5 個或以上的敵對角色，則超體改為每輪有三個回合。"
     },
     "ADVANCED KIT": {
-      "name": "ADVANCED KIT"
+      "name": "先進套裝",
+      "effect": "超體額外選擇 1~2 個其NPC種類的可選系統。"
     },
     "RESILIENT": {
-      "name": "RESILIENT"
+      "name": "強韌",
+      "effect": "超體得到 <b>+5 HP</b>。"
     },
     "REFLEX": {
-      "name": "REFLEX"
+      "name": "反射動作",
+      "effect": "超體每輪可以進行無限次數的<b>守望</b>反應。"
     },
     "ULTRA SYSTEMS AND TRAITS": {
-      "name": "ULTRA SYSTEMS AND TRAITS"
+      "name": "超體系統和特徵",
+      "effect": "超體從超體系統和特徵清單中選擇 1~3 個選項。"
     },
     "HOVER PROPULSION": {
-      "name": "HOVER PROPULSION"
+      "name": "懸浮推進",
+      "effect": "超體在移動或<b>推進</b>時可以<b>懸浮</b>。"
     },
     "REPULSION FIELD": {
-      "name": "REPULSION FIELD"
+      "name": "排斥力場",
+      "effect": "當敵對角色在與超體鄰接的位置開始回合，或在其回合期間第一次與超體鄰接時，該角色將受到 <b>{2/4/6} 能量傷害</b> + <b>2 熱度</b>，且必須成功通過一次<b>系統豁免</b>，否則陷入<b>受損</b>狀態直至其下個回合結束。"
     },
     "SIEGE SHIELD": {
-      "name": "SIEGE SHIELD"
+      "name": "護城盾甲",
+      "effect": "超體對所有<b>來自 ⌿3 範圍外的攻擊</b>所造成的傷害具有<b>抗性</b>。"
     },
     "SLIVERSHIELDING": {
-      "name": "SLIVERSHIELDING"
+      "name": "裂片屏蔽",
+      "effect": "這個系統會取代<b>強韌</b>。超體將永遠維持<b>隱形</b>狀態。"
     },
     "SHORT-CYCLE LANCE": {
-      "name": "SHORT-CYCLE LANCE"
+      "name": "短週期光矛",
+      "effect": "在 <b>線性 30</b> 範圍內的角色必須成功通過一次<b>敏捷豁免</b>，否則受到 1 點結構傷害。若豁免成功，則 HP 被降低到 1。大小低於 5 的物件將會被徹底灰飛煙滅。"
     },
     "VOLLEY MODULE": {
-      "name": "VOLLEY MODULE"
+      "name": "齊射模組",
+      "effect": "超體擺出穩固的姿勢，準備其中一件武器。在它的下個回合，超體能以一個<b>協定</b>使用該武器對任意數量，位於射程範圍內，且不受<b>掩護</b>或<b>伏臥</b>的角色進行攻擊。所有角色都知道這個攻擊會發生，因此可以在自己的回合以<b>免費動作</b>進行<b>伏臥</b>來避免成為攻擊目標。<br><br>作為這個效果的一部份，超體可以使用該武器進行不限次數的攻擊，即使該武器具有<b>裝填</b>標籤也一樣。"
     },
     "WOLFHOUND MISSILE": {
-      "name": "WOLFHOUND MISSILE"
+      "name": "狼獵導彈",
+      "effect": "<b>狼獵導彈（大小 1、HP {10/15/20}、迴避 10、電子防禦 10、標籤：無人機）</b><br><br>超體選擇 <b>⌿30 範圍</b>和視線內的一名角色，接著在自己的鄰接空間展開狼獵導彈。在超體之後的每個回合開始時，狼獵導彈都會朝著目標<b>飛行移動 3 格</b>，若目標被<b>鎖定</b>則改為 6 格。狼獵導彈會盡可能以直線朝目標飛行，但會在有需要時繞過掩護和障礙物。導彈會在與其他角色相撞或抵達目標時引爆，<b>爆發 1</b> 範圍內的角色必須進行一次<b>敏捷豁免</b>。若豁免失敗，則會受到 {14/20/28} 能量傷害；成功則只受到一半的傷害。<br><br>超體同時只能展開一枚狼獵導彈，且這個系統只有在導彈引爆後才能重新充能。"
     },
     "ARGUS ARMOR": {
-      "name": "ARGUS ARMOR"
+      "name": "阿爾戈裝甲",
+      "effect": "超體擁有 <b>6 點裝甲</b>。每當它進行結構傷害判定或過熱判定時，它就會失去 2 點裝甲，最低降到 0。"
     },
     "DEVASTATOR": {
-      "name": "DEVASTATOR"
+      "name": "蹂躪",
+      "effect": "每輪一次，當超體的攻擊命中時，視線範圍內的所有角色都會受到 {2/4/6} 點<b>動能</b>、<b>爆炸</b>、或<b>能量傷害</b>。"
     },
     "EVASIVE": {
-      "name": "EVASIVE"
+      "name": "靈巧閃避",
+      "effect": "超體得到 +4 迴避（上限為 20）和 -1 結構。"
     },
     "EXTRA DEADLY": {
-      "name": "EXTRA DEADLY"
+      "name": "格外致命",
+      "effect": "超體在每回合造成的第一次<b>會心一擊</b>，在等級 2 時會造成 +2d6 額外傷害；在等級 3 時會造成 +3d6 額外傷害。"
     },
     "LEAD THE CHARGE": {
-      "name": "LEAD THE CHARGE"
+      "name": "一馬當先",
+      "trigger": "當視線範圍內的敵對角色移動時。",
+      "effect": "超體可以<b>推進</b>。這個反應可以在一輪中被使用任意次數。"
     },
     "LEGION": {
-      "name": "LEGION"
+      "name": "軍團群集",
+      "effect": "超體得到 +4 電子防禦（上限為 20），且所有<b>科技攻擊</b>得到<b> +1 準度</b>。"
     },
     "SUPERIOR CONSTRUCTION": {
-      "name": "SUPERIOR CONSTRUCTION"
+      "name": "優越造工",
+      "effect": "這個特徵會取代<b>強韌</b>。超體得到對以下其中一種傷害的<b>抗性</b>：<b>動能</b>、<b>能量</b>、或<b>爆炸傷害</b>。然而，無論是因為這個特徵或其他系統的效果，它都無法得到對兩種傷害類型的永久<b>抗性</b>。"
     },
     "SUPERIOR FRAME": {
-      "name": "SUPERIOR FRAME"
+      "name": "優越骨架",
+      "effect": "超體免疫於<b>緩慢</b>、<b>離散</b>、和<b>固定</b>狀態。"
     },
     "SUPERIOR REACTOR": {
-      "name": "SUPERIOR REACTOR"
+      "name": "優越反應爐",
+      "effect": "超體免疫於<b>暈眩</b>和<b>曝露</b>狀態。"
     },
     "SUPERIOR TARGETING": {
-      "name": "SUPERIOR TARGETING"
+      "name": "優越瞄準",
+      "effect": "超體在進行遠距攻擊時忽略<b>掩護</b>。"
     },
     "SUPREME MAINTENANCE": {
-      "name": "SUPREME MAINTENANCE"
+      "name": "頂尖維護",
+      "effect": "超體免疫於<b>受擾</b>狀態；此外，超體能夠在自己的回合以一個<b>免費動作</b>裝填一件裝填武器，且能以一個<b>快速動作</b>修理一個被毀的武器或系統。"
     },
     "SUPREME MELEE": {
-      "name": "SUPREME MELEE"
+      "name": "頂尖肉搏",
+      "effect": "超體在所有肉搏攻擊上得到<b> +1 準度</b>；此外，在每個自己的回合一次，超體能以一個<b>免費動作</b>進行<b>擒拿</b>、<b>衝撞</b>、或進行一次肉搏攻擊。"
     },
     "UNSTOPPABLE": {
-      "name": "UNSTOPPABLE"
+      "name": "所向披靡",
+      "effect": "超體免疫於所有<b>強制移動</b>，包括<b>擊退</b>和<b>伏臥</b>。"
     },
     "HELLFIRE PROJECTOR": {
-      "name": "HELLFIRE PROJECTOR"
+      "name": "地獄火噴射器",
+      "effect": "這件武器能夠同時進行兩次攻擊，但兩次攻擊的範圍不能重疊。"
     },
     "RAVAGER TURRET": {
-      "name": "RAVAGER TURRET"
+      "name": "劫毀炮塔",
+      "effect": "這件武器會同時攻擊射程和視線範圍內的所有敵對角色。"
     },
 
     "VETERAN": {
@@ -1379,52 +1471,52 @@
       "effect": "在老兵移動或<b>推進</b>之後，它可以<b>飛行 3 格</b>。這個飛行忽略交戰，且不會觸發反應。"
     },
     "FEIGN DEATH": {
-      "name": "FEIGN DEATH",
-      "effect": "The first time that the Veteran is destroyed each combat, they are actually feigning death – they appear to be destroyed, but have 1 HP. Characters adjacent to the Veteran can reveal this with a successful Systems check or pilot skill check; otherwise, the Veteran remains unnoticed until they move or take an action."
+      "name": "詐死",
+      "effect": "在每場戰鬥中，老兵的第一次被毀實際上是詐死。儘管看起來已經被毀，它仍然保有 1 HP。與老兵鄰接的角色能透過通過<b>系統判定</b>或<b>駕駛員技能判定</b>來察覺這件事。否則，老兵將維持這個狀態不被發現，直到其移動或動作為止。"
     },
     "HACKER": {
-      "name": "HACKER",
-      "effect": "The Veteran deals +2 heat on successful tech attacks."
+      "name": "駭客",
+      "effect": "老兵的<b>科技攻擊</b>命中時會造成 <b>+2 熱度</b>。"
     },
     "HEADSHOT": {
-      "name": "HEADSHOT",
-      "effect": "1/round, on a critical hit, the Veteran’s target must pass a Hull save or only be able to draw line of sight to adjacent spaces until the end of their next turn."
+      "name": "爆頭",
+      "effect": "每輪一次，老兵在<b>會心一擊</b>時，其目標必須通過一次<b>機體豁免</b>，否則其視線範圍會被縮減到只剩下其鄰接空間的距離，持續直至其下一回合結束為止。"
     },
     "LESSER SIGHT": {
-      "name": "LESSER SIGHT",
-      "effect": "The Veteran ignores Invisible for characters within range 3, and hostile characters in range 3 can’t Hide successfully (though they remain Hidden if they were already)."
+      "name": "次級真視",
+      "effect": "老兵忽略 <b>⌿3 範圍</b>內角色的<b>隱形</b>狀態，且敵對角色在 <b>⌿3 範圍</b>內無法成功<b>躲藏</b>（但已經躲藏進入<b>匿跡</b>狀態的角色不受影響）。"
     },
     "LIGHTNING REFLEXES": {
-      "name": "LIGHTNING REFLEXES",
-      "effect": "Whenever the Veteran is attacked using any Heavy or Superheavy weapon, first roll 1d6. On 5+, the attack automatically misses."
+      "name": "閃電反射",
+      "effect": "每當老兵被<b>重型</b>或<b>超重型武器</b>攻擊時，先擲 1d6。如果骰出 5 或以上，則該攻擊自動失手。"
     },
     "NHP CO-PILOT": {
-      "name": "NHP CO-PILOT",
-      "effect": "The Veteran gains the AI tag. Their mech or vehicle is autonomous and can even function without a pilot. The NHP can enter cascade, using the same rules as PC AIs."
+      "name": "NHP 副駕駛",
+      "effect": "老兵得到<b> AI 標籤</b>。它的機甲或載具即使沒有駕駛員也能自律運作。這個 NHP 同樣會崩潰，並適用 PC 的 AI 相同的規則。"
     },
     "PARTING GIFT": {
-      "name": "PARTING GIFT",
-      "effect": "The Veteran can Self-Destruct (see p. 72)."
+      "name": "臨別贈禮",
+      "effect": "老兵可以進行<b>自爆</b>。"
     },
     "RODEO MASTER": {
-      "name": "RODEO MASTER",
-      "effect": "The Veteran can Dismount. While on foot, the Veteran uses the Human class and can take all actions available to PC pilots, including Jockey."
+      "name": "騎技專家",
+      "effect": "老兵可以進行<b>下馬</b>。當徒步行動時，老兵使用<b>人類</b>種類的數據，並能夠進行所有 PC 駕駛員能進行的行動，包括<b>騎乘</b>。"
     },
     "SELF REPAIR": {
-      "name": "SELF REPAIR",
-      "effect": "1/scene, as a Full Action, the Veteran regains all HP and clears all conditions."
+      "name": "自我修復",
+      "effect": "每場景一次，老兵能以<b>完整動作</b>回復所有 HP，並清除所有狀況。"
     },
     "SLIPPERY": {
-      "name": "SLIPPERY",
-      "effect": "The Veteran’s standard moves ignore engagement and don’t provoke reactions."
+      "name": "狡詐滑溜",
+      "effect": "老兵的普通移動忽略交戰，且不會觸發反應。"
     },
     "STEEL JAW": {
-      "name": "STEEL JAW",
-      "effect": "Auxiliary weapons can’t do more than 1 damage to the Veteran."
+      "name": "鋼牙",
+      "effect": "副武器無法對老兵造成超過 1 點的傷害。"
     },
     "VIPER’S SPEED": {
-      "name": "VIPER’S SPEED",
-      "effect": "The Veteran always takes the first turn, even acting before PCs. Whenever there is a question about who acts first – in both narrative play and mech combat – it is always the Veteran. If multiple characters have this trait, only one gets to use it each time."
+      "name": "蝰蛇之速",
+      "effect": "老兵永遠會最先進行回合，甚至能在 PC 們之前行動。每當需要釐清誰會先採取行動時（無論是故事描述層面或機甲戰鬥層面），老兵永遠會優先行動。如果有複數角色擁有這個特徵，則同時只會有其中一個生效。"
     },
 
     "VEHICLE": {
