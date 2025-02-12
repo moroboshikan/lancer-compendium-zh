@@ -717,22 +717,28 @@
       "tactics": "Goliaths are relatively mobile defenders that can bring enemies to them. With Crush Targeting, Goliaths force dangerous enemies to focus attacks on them; all it needs is line of sight, allowing Goliaths to target even fast or hard-to-hit characters. The prodigious size of Goliaths also lets them provide cover for their allies."
     },
     "DRUM SHOTGUN": {
-      "name": "DRUM SHOTGUN"
+      "name": "彈鼓散彈槍",
+      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，可以分別選擇相同角色或兩個不同的目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
     },
     "CRUSH TARGETING": {
-      "name": "CRUSH TARGETING"
+      "name": "威懾目標",
+      "effect": "選擇一個位於視線和感應範圍內的角色，直到巨人的下一回合開始前，該角色對除了巨人以外的其他角色進行的攻擊都將得到<b> +3 難度</b>。"
     },
     "POWER KNUCKLE": {
-      "name": "POWER KNUCKLE"
+      "name": "動力指虎",
+      "effect": "在<b> ⌿2 範圍</b>內的一名角色必須成功通過<b>機體豁免</b>，否則受到 {4/5/6} 動能傷害，並被擊退推離巨人 5 格後，被擊倒<b>伏臥</b>。"
     },
     "PIN": {
-      "name": "PIN"
+      "name": "壓制",
+      "effect": "​在<b> ⌿2 </b>範圍內的一名角色陷入<b>固定</b>和<b>受損</b>狀態，直到目標對巨人造成傷害、巨人陷入<b>暈眩</b>或被毀、或巨人對其他角色再次使用這個效果為止。巨人在這個效果生效期間也會陷入<b>固定</b>狀態。"
     },
     "CRUSHING EMBRACE": {
-      "name": "CRUSHING EMBRACE"
+      "name": "輾壓擁抱",
+      "effect": "與巨人鄰接的一名角色必須成功通過<b>敏捷豁免</b>，否則自動被巨人給<b>擒拿</b>，並在解除<b>擒拿</b>前同時陷入<b>受擾</b>狀態。巨人同時只能用這個方法擒拿一名角色。"
     },
     "WATCHFUL GUARDIAN": {
-      "name": "WATCHFUL GUARDIAN"
+      "name": "警醒守護者",
+      "effect": "受益於巨人提供的掩護的隊友角色，還會得到對所有傷害的<b>抗性</b>。"
     },
 
     "HIVE": {
