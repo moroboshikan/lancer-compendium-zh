@@ -771,31 +771,40 @@
       "tactics": "Hornets are small, fast controllers that are extremely hard to hit and incredibly annoying. They deal limited damage, but their ability to inflict mobility-reducing conditions is great for locking down enemy strikers. Fortunately for their enemies, Hornets have a low E-Defense that makes them vulnerable to smart weaponry and tech attacks."
     },
     "STINGER PISTOL": {
-      "name": "STINGER PISTOL"
+      "name": "螫針手槍",
+      "on_hit": "目標陷入<b>受損</b>狀態直至其下一回合結束為止。"
     },
     "SSC TOTAL SUITE": {
-      "name": "SSC TOTAL SUITE"
+      "name": "SSC 全地形套裝",
+      "effect": "胡蜂在移動或<b>推進</b>時可以<b>懸浮</b>。"
     },
     "WEAVE": {
-      "name": "WEAVE"
+      "name": "織絲",
+      "effect": "每一輪中，第一個使用反應對胡蜂進行的攻擊會自動失敗。"
     },
     "IMPALE SYSTEMS": {
-      "name": "IMPALE SYSTEMS"
+      "name": "貫穿系統",
+      "effect": "胡蜂對感應範圍內的一名角色進行<b>科技攻擊</b>。命中時，目標受到 {3/4/5} 熱度，並陷入<b>受干</b>狀態直到其下一回合結束為止。"
     },
     "ADAPT/EVADE/DISENGAGE": {
-      "name": "ADAPT/EVADE/DISENGAGE"
+      "name": "適應/迴避/脫離",
+      "effect": "胡蜂免疫於<b>擒拿</b>，且永遠能忽略交戰。"
     },
     "UMBRAL INTERDICTION": {
-      "name": "UMBRAL INTERDICTION"
+      "name": "陰影阻截",
+      "trigger": "當位於視線和感應範圍內的一名角色試圖進行攻擊時。",
+      "effect": "目標必須成功通過一次<b>系統判定</b>，否則該攻擊自動失手。"
     },
     "SUPERSONIC": {
-      "name": "SUPERSONIC"
+      "name": "超音速",
+      "effect": "胡蜂以離譜高速飛到 <b>⌿50 範圍</b>且位於視線內的任意空間，這個速度快到被視為<b>瞬間轉移</b>。"
     },
     "HEX MISSILES": {
-      "name": "HEX MISSILES"
+      "name": "毒咒飛彈"
     },
     "LOCK/HOLD JAVELINS": {
-      "name": "LOCK/HOLD JAVELINS"
+      "name": "鎖定/固定標槍",
+      "effect": "胡蜂對 <b>⌿5 範圍</b>且位於視線內的一名角色發射標槍。目標必須通過<b>機體豁免</b>，否則遭到貫穿，在此同時標槍會把自己和目標拴繫在地面（或其他表面），使其陷入<b>固定</b>和<b>離散</b>狀態。目標或任何其他鄰接角色能以一個<b>完整動作</b>並成功通過<b>機體豁免</b>來將標槍移除。否則，這個效果會維持直到場景結束、或是胡蜂再次使用這個動作為止。"
     },
 
     "MIRAGE": {
