@@ -240,7 +240,13 @@
       }
     },
     "SAP": {
-      "name": "SAP"
+      "name": "衰竭",
+      "npcf_sap_assassin": {
+        "effect": "刺客選擇一個鄰接角色。目標必須通過<b>工程豁免</b>，否則陷入<b>暈眩</b>狀態直至其下一回合結束為止。"
+      },
+      "npcf_sap_demolisher": {
+        "effect": "終結者選擇一個鄰接角色。目標必須通過<b>工程豁免</b>，否則陷入<b>暈眩</b>狀態直至其下一回合結束為止。"
+      }
     },
     "SHOCK ARMOR": {
       "name": "衝擊裝甲",
@@ -252,7 +258,16 @@
       }
     },
     "SIEGE ARMOR": {
-      "name": "SIEGE ARMOR"
+      "name": "護城裝甲",
+      "npcf_siege_armor_bombard": {
+        "effect": "炮兵對所有<b>來自 ⌿3 範圍外的攻擊</b>所造成的傷害具有<b>抗性</b>。"
+      },
+      "npcf_siege_armor_goliath": {
+        "effect": "巨人對所有<b>來自 ⌿3 範圍外的攻擊</b>所造成的傷害具有<b>抗性</b>。"
+      },
+      "npcf_siege_armor_pyro": {
+        "effect": "火焰兵對所有<b>來自 ⌿3 範圍外的攻擊</b>所造成的傷害具有<b>抗性</b>。"
+      }
     },
     "SIGHT": {
       "name": "真視",
@@ -264,10 +279,24 @@
       }
     },
     "STEP": {
-      "name": "STEP"
+      "name": "瞬步",
+      "npcf_step_specter": {
+        "effect": "​幽靈<b>瞬間轉移</b>至視線範圍內和 <b>⌿50 範圍</b>內的一個任意空間。"
+      },
+      "npcf_step_operator": {
+        "effect": "​操作者<b>瞬間轉移</b>至視線範圍內和 <b>⌿50 範圍</b>內的一個任意空間。"
+      }
     },
     "SUPERHOT": {
-      "name": "SUPERHOT"
+      "name": "爆熱",
+      "npcf_superhot_berserker": {
+        "trigger": "當狂戰士受到肉搏攻擊造成的傷害時。",
+        "effect": "狂戰士得到對該攻擊傷害的<b>抗性</b>，且攻擊者必須通過<b>工程豁免</b>，否則受到 {2/4/6} 燃燒。"
+      },
+      "npcf_superhot_pyro": {
+        "trigger": "當火焰兵受到肉搏攻擊造成的傷害時。",
+        "effect": "火焰兵得到對該攻擊所有傷害的<b>抗性</b>，且攻擊者必須通過<b>工程豁免</b>，否則受到 {2/4/6} 燃燒。"
+      }
     },
     "TRANSPORT": {
       "name": "運輸機",
@@ -285,63 +314,67 @@
       "tactics": "Aces are very fast and reactive strikers that can use Evasive Maneuvers to mitigate dangerous or high-damage attacks. Barrel Roll is most effective against heavy weapons. Their Seeking weapons ignore cover and don’t require line of sight, allowing them to deal consistent damage. Relatively low HP makes Aces vulnerable to sustained damage, and they are relatively weak against tech attacks."
     },
     "SSC FLIGHT SYSTEM": {
-      "name": "SSC FLIGHT SYSTEM",
-      "effect": "The Ace can fly whenever they move or Boost."
+      "name": "SSC 飛行系統",
+      "effect": "王牌在移動或<b>推進</b>時可以<b>飛行</b>。"
     },
     "MISSILE LAUNCHER": {
-      "name": "MISSILE LAUNCHER"
+      "name": "導彈發射器"
     },
     "BARREL ROLL": {
-      "name": "BARREL ROLL",
-      "trigger": "A melee or ranged attack hits the Ace.",
-      "effect": "The Ace performs a barrel roll, flying 6 spaces in any direction and causing the attack to miss. This movement ignores engagement and does not provoke reactions."
+      "name": "空中側翻",
+      "trigger": "當肉搏或遠距攻擊命中王牌時。",
+      "effect": "王牌進行空中側翻特技，朝任意方向<b>飛行 6 格</b>並使該攻擊失手。這個移動忽略交戰且不會觸發反應。"
     },
     "BOMBING BAY": {
-      "name": "BOMBING BAY",
-      "effect": "If the Ace is flying when they move or Boost, they may drop a bomb on one character below or adjacent to the path taken. This causes a Blast 1 explosion that must overlap with at least 1 space occupied by their target. Characters within the affected area must succeed on an Agility save or take {6/8/10} Explosive damage and be knocked Prone."
+      "name": "炸彈艙",
+      "effect": "如果王牌在移動或<b>推進</b>時進行飛行，則它可以對在飛行路徑上或與之鄰接的一個角色投彈。這會產生一個<b>至少要有一格與目標佔據空間重疊</b>的 <b>爆發 1 </b>範圍。在影響範圍內的角色必須成功通過一次<b>敏捷豁免</b>，否則受到 {6/8/10} 爆炸傷害並被炸倒<b>伏臥</b>。"
     },
     "STRAFE": {
-      "name": "STRAFE",
-      "effect": "1/round, as a quick action, the Ace can fly spaces equal to Speed in any direction, automatically dealing {3/4/6} Kinetic damage to one character below or adjacent to the path taken."
+      "name": "砲火掃射",
+      "effect": "每輪一次，王牌能以<b>快速動作</b>往任意方向飛行與速度等值的格數，並自動對在飛行路徑上或與之鄰接的一個角色造成 {3/4/6} 動能傷害。"
     },
     "MISSILE SWARM": {
-      "name": "MISSILE SWARM",
-      "effect": "This weapon deals double damage to characters with Lock On and doesn’t affect allied characters."
+      "name": "集群導彈",
+      "effect": "這個武器對被<b>鎖定</b>的角色造成雙倍傷害，且不會影響到隊友角色。"
     },
 
     "AEGIS": {
-      "name": "神盾"
+      "name": "神盾",
+      "flavor": "Aegis-archetype mechs are built to hold ground, support their allies, and suppress enemies. First used to great effect during the Comorrand Action by a Karrakin pilot, Lady Gloria of House MacLennan, Aegis’s are known for their powerful defensive measures. Their pilots can expertly make a bulwark out of the smallest barricade with anything from conventional tools to cutting-edge technologies.",
+      "tactics": "Aegises are tough and defensive support units. They are most effective when positioned so that their Defense Net can cover as many allies as possible since they can be difficult to redeploy. Regenerative Shielding also protects the Aegis from mobility-reducing effects."
     },
     "LIGHT LASER": {
-      "name": "LIGHT LASER"
+      "name": "輕型雷射"
     },
     "DEFENSE NET": {
-      "name": "DEFENSE NET",
-      "effect": "The Aegis spreads a powerful, shimmering repulsion shield over a Burst 3 area. While active, the Aegis is Immobilized, but all ranged, melee, and tech attacks against characters or objects within the affected area that originate outside the area receive +2 Difficulty and cannot result in critical hits. Characters within the affected area may attack characters within and outside of the area normally.<br>Allied characters within the affected area also gain Immunity to Impaired and Slowed, and remove these conditions when they enter the area if they already have them.<br>This effect lasts until the Aegis ends it as a protocol, or until the Aegis is Stunned, Jammed, or destroyed. Involuntary movement causes the shield to move with the Aegis."
+      "name": "防衛網",
+      "effect": "神盾在<b>爆發 3 </b>範圍展開一道閃爍著的強大斥力護盾。在護盾運作期間，神盾會陷入<b>固定</b>狀態，並使所有源自於影響範圍外，以範圍內的角色和物件為目標的遠距、肉搏、和科技攻擊都受到<b> +2 難度</b>且無法造成<b>會心一擊</b>。位於防衛網範圍內的角色可以如常攻擊位於防衛網內側或外側的目標。<br><br>在影響範圍內的隊友角色還會免疫於<b>受損</b>和<b>緩慢</b>狀態，若已經獲得該狀態，則在進入範圍內時將其解除。<br><br>這個效果會維持直到神盾以<b>協定</b>動作將其解除，或是神盾陷入<b>暈眩</b>、<b>干擾</b>狀態，或是被毀為止。當神盾被強制移動時，護盾也會隨之一起移動。"
     },
     "REGENERATIVE SHIELDING": {
-      "name": "REGENERATIVE SHIELDING",
-      "effect": "The Aegis has Immunity to Impaired and Slowed and can’t be critically hit."
+      "name": "再生屏障",
+      "effect": "神盾免疫於<b>受損</b>和<b>緩慢</b>狀態，且不會被<b>會心一擊</b>。"
     },
     "ADAPTIVE SHIELDING": {
-      "name": "ADAPTIVE SHIELDING",
-      "effect": "The first time each round an ally affected by Defense Net takes damage, all allies within the Net gain Resistance to the damage type taken. This lasts until the end of the Aegis’s next turn."
+      "name": "適應性屏障",
+      "effect": "每輪第一次有被<b>防衛網</b>影響的隊友受到傷害時，在防衛網範圍內的所有隊友都會得到對該傷害類型的<b>抗性</b>。這個效果會維持直至神盾下一回合結束為止。"
     },
     "RING OF FIRE": {
-      "name": "RING OF FIRE",
-      "effect": "Any hostile characters that start their turn inside the area affected by the Defense Net or that enter it for the first time in a round take 2 heat and become Shredded until they leave the area."
+      "name": "火環",
+      "effect": "任何在防護網影響範圍內開始其回合，或是每輪第一次進入影響範圍的敵對角色，都會受到<b> 2 熱度</b>，並在離開影響範圍前受到<b>離散</b>狀況。"
     },
     "HARDLIGHT COVER SYSTEM": {
-      "name": "HARDLIGHT COVER SYSTEM",
-      "effect": "As a quick action, deploy a line3 hardlight wall. The wall is immune to damage and effects and grants hard cover. Characters that receive this cover gain Resistance to damage from Line, Blast, Burst, and Cone attacks."
+      "name": "硬光掩護系統",
+      "effect": "以<b>快速動作</b>，神盾展開一座 <b>線性 3</b> 範圍的硬光牆體。這座牆體免疫於所有傷害和效果，並能夠提供<b>硬性掩護</b>。受益於這個掩護的角色還會得到對 <b>線性</b>、<b>濺射</b>、<b>爆發</b>、和<b>錐形</b>攻擊的傷害<b>抗性</b>。"
     },
     "HA BLACKWALL SYSTEM": {
-      "name": "HA BLACKWALL SYSTEM",
-      "effect": "As a full action, the Aegis generates a pitch-black wall of blinkspace 5 spaces high covering a line10 area starting within range 5. All spaces must be free. The wall blocks line of sight, effects or attacks and provides hard cover. Characters that start their turn in the wall or who enter it on their turn roll 1d6. On a 4+ they are removed from play until the end of their next turn, when they reappear in a free space of their choice in Range 10 of the wall. If there are no free spaces, they return when a space becomes free. The wall lasts until the Aegis ends it as a quick action, or is destroyed. When it ends, characters remaining in blinkspace reappear."
+      "name": "HA 黑牆系統",
+      "effect": "以<b>完整動作</b>，神盾能以 <b>⌿5</b> 範圍內的任意一點為起點，產生一座 <b>5 格高，線性 10 </b>範圍的純黑霎間牆體。所有這座牆體將要佔據的空間都必須未被佔據。這座牆體會遮擋視線、效果和攻擊，並能夠提供<b>硬性掩護</b>。在牆體範圍內開始其回合，或在其回合進入牆體範圍內的角色都必須擲 1d6。若骰出 4+，角色會從遊戲中消失，直至其下個回合結束時才重新出現在距離牆體 ⌿10 範圍內的任意一個未佔據空間。如果範圍內沒有任何未佔據空間，則該角色會在範圍內出現未佔據空間時才重新出現。這座牆體會維持直到神盾以<b>快速動作</b>將之解除，或直到神盾被毀為止。當這個效果結束時，原本處於霎間的角色會立即重新出現。"
     },
 
     "ARCHER": {
-      "name": "弓兵"
+      "name": "弓兵",
+      "flavor": "The basis of the Archer archetype, Ursa Major’s Gatekeeper Key-II, was popularized by Ichabod Carden’s heroic actions in the Battle of Terramoto. Archer-archetype mechs sacrifice armor for powerful targeting and superpositional maneuvering systems, making them especially popular with pilots who prefer to have control over the precise destination of each shot.",
+      "tactics": "Archers excel at inflicting “choice punishment” on their enemies – they make characters choose between taking certain actions or letting the Archer attack them. Use Archers to lock down mobile or hard-hitting PCs or to cover for more vulnerable allies. Keep in mind that Archers are most effective when they can get fairly close to their targets, but they aren’t especially durable."
     },
     "LIGHT MACHINE GUN": {
       "name": "LIGHT MACHINE GUN"
@@ -399,7 +432,7 @@
       "effect": "The Assassin flies 6 spaces in any direction but must land on a surface. When they land, characters adjacent to the Assassin must succeed on an Agility save or be knocked Prone."
     },
     "“DEVIL’S COUGH” SHOTGUN": {
-      "name": "「魔吠」散彈槍"
+      "name": "「魔鬼吠咳」散彈槍"
     },
     "SPINNING KICK": {
       "name": "SPINNING KICK",
@@ -703,7 +736,7 @@
     },
 
     "HIVE": {
-      "name": "巢穴",
+      "name": "蟲巢",
       "flavor": "In theory, drones and drone swarms developed after the Deimos Event are not too different from their older cousins: they establish a local omninetwork; fabricate and deploy a century or half-century of drones; and then coordinate them to achieve their objectives. Still, the complex handler–trainer relationships that allow pilots to segue between direct control and autonomous operation cause psychological trauma after a month of continuous drone operation. It is recommended that they cycle their paired hive nexus every two weeks.",
       "tactics": "Hives use Razor Swarm to control the battlefield, granting soft cover to their allies and denying areas to their enemies. Deploy swarms and use Drone Barrage to lock down enemies, or move them into the range of swarms and allies."
     },
@@ -1172,10 +1205,10 @@
       "flavor": "All kinds of people end up on the battlefield, including pilots, VIPs, and bystanders.<br>You will mostly use Human NPCs when someone climbs out of their mech mid-battle; if you want a proper group of infantry, use the Squad class instead. Humans can never take other templates, and cannot gain structure."
     },
     "RANGED WEAPON": {
-      "name": "RANGED WEAPON"
+      "name": "遠距武器"
     },
     "MELEE WEAPON": {
-      "name": "MELEE WEAPON"
+      "name": "肉搏武器"
     },
 
     "SQUAD": {
@@ -1399,16 +1432,16 @@
     },
     "FAVORS OWED": {
       "name": "償還人情",
-      "effect": "傭兵要求某人償還人情：以軌道砲或火力砲轟的形式。對 <b>⌿30 範圍</b>且位於視線內的 <b>爆發 2 區域</b> 進行轟炸，影響範圍內的角色必須成功通過一次<b>敏捷豁免</b>，否則受到 {6/8/12} 爆炸傷害，且被擊倒<b>伏臥</b>。若豁免成功，則只受到一半傷害且不會伏臥。"
+      "effect": "傭兵要求某人償還人情：以軌道砲或火力砲轟的形式。對 <b>⌿30 範圍</b>且位於視線內的 <b>爆發 2 </b>區域進行轟炸，影響範圍內的角色必須成功通過一次<b>敏捷豁免</b>，否則受到 {6/8/12} 爆炸傷害，且被擊倒<b>伏臥</b>。若豁免成功，則只受到一半傷害且不會伏臥。"
     },
     "SCOUT DRONE": {
       "name": "斥候無人機",
-      "effect": "<b>斥候無人機（大小 1/2、HP 10、迴避 10、電子防禦 10、標籤：無人機）</b><br><br>傭兵在感應範圍內的空間展開無人機。該無人機將產生一個 <b>爆發 2</b> 的影響範圍，在範圍內的角色將無法獲得<b>隱形</b>和<b>匿跡</b>狀態，也會因此失去該狀態。傭兵對在影響範圍內的角色進行的攻擊也會得到<b> +1 準度</b>。該無人機能以一個協定動作佈署到另一個空間。"
+      "effect": "<b>斥候無人機（大小 1/2、HP 10、迴避 10、電子防禦 10、標籤：無人機）</b><br><br>傭兵在感應範圍內的空間展開無人機。該無人機將產生一個 <b>爆發 2 </b>的影響範圍，在範圍內的角色將無法獲得<b>隱形</b>和<b>匿跡</b>狀態，也會因此失去該狀態。傭兵對在影響範圍內的角色進行的攻擊也會得到<b> +1 準度</b>。該無人機能以一個協定動作佈署到另一個空間。"
     },
     "LAST WORD": {
       "name": "遺言",
       "trigger": "當傭兵的 HP 被降到其總和的一半以下時。",
-      "effect": "在 <b>爆發 1</b> 範圍內的角色必須通過一次敏捷豁免，否則受到 2 點動能傷害，並陷入<b>受擾</b>狀態直至其下個回合結束。然後，傭兵朝任意方向移動等同其速度的格數。這個移動忽略交戰且不會觸發反應。"
+      "effect": "在 <b>爆發 1 </b>範圍內的角色必須通過一次敏捷豁免，否則受到 2 點動能傷害，並陷入<b>受擾</b>狀態直至其下個回合結束。然後，傭兵朝任意方向移動等同其速度的格數。這個移動忽略交戰且不會觸發反應。"
     },
 
 
@@ -1479,7 +1512,7 @@
     },
     "SEALANT TRAP": {
       "name": "封膠陷阱",
-      "effect": "當敵對角色移動到與該地雷鄰接的空間時，在 <b>爆發 1</b> 範圍內的角色將被噴灑而出的厚實快乾封膠給沾黏，陷入<b>固定</b>狀態。它們將維持固定直至封膠因為受到足夠傷害而破裂為止。封膠擁有 <b>{5/10/15} HP</b> 和 <b>迴避 5</b>。"
+      "effect": "當敵對角色移動到與該地雷鄰接的空間時，在 <b>爆發 1 </b>範圍內的角色將被噴灑而出的厚實快乾封膠給沾黏，陷入<b>固定</b>狀態。它們將維持固定直至封膠因為受到足夠傷害而破裂為止。封膠擁有 <b>{5/10/15} HP</b> 和 <b>迴避 5</b>。"
     },
     "THUMPER GRENADES": {
       "name": "衝擊手榴彈",
@@ -1540,7 +1573,7 @@
     },
     "WOLFHOUND MISSILE": {
       "name": "狼獵導彈",
-      "effect": "<b>狼獵導彈（大小 1、HP {10/15/20}、迴避 10、電子防禦 10、標籤：無人機）</b><br><br>超體選擇 <b>⌿30 範圍</b>和視線內的一名角色，接著在自己的鄰接空間展開狼獵導彈。在超體之後的每個回合開始時，狼獵導彈都會朝著目標<b>飛行移動 3 格</b>，若目標被<b>鎖定</b>則改為 6 格。狼獵導彈會盡可能以直線朝目標飛行，但會在有需要時繞過掩護和障礙物。導彈會在與其他角色相撞或抵達目標時引爆，<b>爆發 1</b> 範圍內的角色必須進行一次<b>敏捷豁免</b>。若豁免失敗，則會受到 {14/20/28} 能量傷害；成功則只受到一半的傷害。<br><br>超體同時只能展開一枚狼獵導彈，且這個系統只有在導彈引爆後才能重新充能。"
+      "effect": "<b>狼獵導彈（大小 1、HP {10/15/20}、迴避 10、電子防禦 10、標籤：無人機）</b><br><br>超體選擇 <b>⌿30 範圍</b>和視線內的一名角色，接著在自己的鄰接空間展開狼獵導彈。在超體之後的每個回合開始時，狼獵導彈都會朝著目標<b>飛行移動 3 格</b>，若目標被<b>鎖定</b>則改為 6 格。狼獵導彈會盡可能以直線朝目標飛行，但會在有需要時繞過掩護和障礙物。導彈會在與其他角色相撞或抵達目標時引爆，<b>爆發 1 </b>範圍內的角色必須進行一次<b>敏捷豁免</b>。若豁免失敗，則會受到 {14/20/28} 能量傷害；成功則只受到一半的傷害。<br><br>超體同時只能展開一枚狼獵導彈，且這個系統只有在導彈引爆後才能重新充能。"
     },
     "ARGUS ARMOR": {
       "name": "阿爾戈裝甲",
