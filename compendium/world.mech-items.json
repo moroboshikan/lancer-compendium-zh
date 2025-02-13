@@ -1,0 +1,53 @@
+{
+  "label": "lancer.compendium.mech-items",
+  "mapping": {
+    "system": {
+      "path": "system",
+      "converter": "mechFrame"
+    }
+  },
+  "entries": {
+    "Everest": {
+      "name": "埃佛勒斯",
+      "description": "絕大部份的人們不會去思考他們飲用的水、他們行走的大地，或是他們呼吸空氣的歷史。但是，沒有水、大地和空氣，人類就沒有地方能建立家園。<br><br>同樣地，人們已經把 GMS-SP1「埃佛勒斯」視作理所當然的存在，它的重要性早已被其他更加特化的骨架取代。這款機甲樸實無華，線條簡單，功能優美、具有全宇宙通用的兼容性以及堅固的外殼，埃佛勒斯對現代機械化骨架的重要性就和自然世界對人類的生存一樣。或許埃佛勒斯不是最突出的機甲，但它是我們擴張的基礎。站在它的肩膀上，人類文明才得以前行。<br><br>在 GMS 正式採用這個名字前，「埃佛勒斯」只是其駕駛員為這具骨架取的暱稱。埃佛勒斯峰——或是在比較古老的語言裡又被稱為薩加瑪塔峰或是珠穆朗瑪峰——是搖籃上最高的山，儘管不是已知世界中最高的山，甚至不是搖籃星系裡最大的山，但駕駛員仍繼續使用這古老的名字稱呼他們的 SP1。為甚麼呢？<br><br>比較多愁善感的答案是，因為這個名字讓人回想起人類曾經的耐力極限——以及人類成就的最高峰。登上埃佛勒斯峰意味著與死神對抗以及立足於世界最高點——也代表著數以月計，甚至年計的訓練、投資和努力的成果。登上埃佛勒斯峰同樣代表著登山者背後的人們、體制和組織的勝利，而這些功績通常太容易被忽略，甚至刻意被抹消遺忘。<br><br>薩加瑪塔。珠穆朗瑪。<br><br>即使在大崩壞前，當人們建造瑪西芙儲藏庫時，有些名字，有些故事，也比起其它事物更為優先。<br><br>埃佛勒斯這個名字背後真正的故事大概沒有考慮那麼多。也許只是在某時某地，某個新晉駕駛員對 GMS 的乏味命名系統不滿，因此在自己的 SP1 上寫下了「埃佛勒斯」這個名字。這也許是呼號，也許只是代表著那個人成功時的喜悅。無論如何，這名字在歷史上留下了足跡：其他人也開始使用這個名字，然後在之後的五個世紀裡，它成為了 SP1 機甲支架官方的非官方稱號。<br><br>資深的駕駛員也許永遠也不會再回到埃佛勒斯的駕駛艙中，但他們永遠會記得他們登上的第一個高峰——證明他們能在世界之巔插上自己旗幟的的峰頂。<br><br>薩加瑪塔。珠穆朗瑪。<br><br>埃佛勒斯——你永遠不會忘記它。",
+      "traits": {
+        "Initiative": {
+          "name": "先制",
+          "description": "<b>每場景一次</b>，埃佛勒斯可以用<b>免費動作</b>進行任何的<b>快速動作</b>。"
+        },
+        "Replaceable parts": {
+          "name": "替換組件",
+          "description": "在休息時，埃佛勒斯每修復 1 點結構傷害需要花費<b> 1 維修</b>而非原本的<b> 2 維修</b>。"
+        }
+      },
+      "core_system": {
+        "name": "高能燃油噴嘴",
+        "active_name": "增強出力",
+        "active_effect": "在該場景中，你進行的所有攻擊、判定、和豁免都得到<b> +1 準度</b>；此外，每回合一次，你能以<b>免費動作</b>進行<b>推進</b>。"
+      }
+    },
+    "Sagarmatha": {
+      "name": "薩加瑪塔",
+      "description": "<p>The SAGARMATHA is a SIZE 2 legacy GMS chassis that all characters have access to from LL0 onwards. This variant FRAME is not mutually exclusive with the EVEREST.</p><p>The Sagarmatha is of an older pattern than the Everest, sturdier and bulkier by necessity more than design. It is seen as somewhat antiquated through the lens of modern manufacturing standards. Nevertheless, it enjoys some use in border colonies, in the Baronies, and with the Albatross.</p>",
+      "traits": {
+        "Guardian": {
+          "name": "守護者",
+          "description": "鄰接的隊友角色可以把薩加瑪塔當作​<b>硬性掩護​</b>。"
+        },
+        "Heroism": {
+          "name": "勇武",
+          "description": "每場景一次，薩加瑪塔能進行<b>受身</b>，且在其下一回合不用犧牲任何動作或移動。"
+        },
+        "Replaceable Parts": {
+          "name": "替換組件",
+          "description": "在休息時，薩加瑪塔每修復 1 點結構傷害需要花費<b> 1 維修</b>而非原本的<b> 2 維修</b>。"
+        }
+      },
+      "core_system": {
+        "name": "號召戰吼",
+        "active_name": "舉旗",
+        "active_effect": "你舉起旗幟。所有在當你這樣做時位於你機甲視線範圍內的隊友角色都會得到對<b>所有傷害和熱度</b>的<b>抗性</b>，並在所有判定和豁免中得到<b> +1 準度</b>。這些效果會維持直到你的下一回合結束為止。"
+      }
+    }
+  }
+}

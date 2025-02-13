@@ -9,7 +9,8 @@ Hooks.once('init', () => {
 		});
 
 		Babele.get().registerConverters({
-			"lidShunt": lidShunt
+			"lidShunt": lidShunt,
+			"mechFrame": mechShunt
 		});
 	}
 });
@@ -35,4 +36,38 @@ function lidShunt(value, _trans, data, compendium) {
 	}
 
 	return retObj;
+}
+
+function mechShunt(value, trans, data, compendium) {
+	if (data.type === "frame") return mechFrameConverter(value, trans, data, compendium);
+	
+	return value;
+}
+function mechFrameConverter(value, _trans, data, compendium) {
+	let entry = compendium.translations[data.name];
+	if (!entry) return value;
+
+	let retObj = Object.assign({}, value);
+	return objectConvert(retObj, entry);
+}
+
+function objectConvert(source, translate) {
+	if (translate == undefined) return source;
+	
+	for (const key of Object.keys(translate)) {
+		if (source[key] == undefined) {
+			continue;
+		}
+
+		if (Array.isArray(source[key])) {
+			for (const entry of source[key]) {
+				objectConvert(entry, translate[key][entry.name]);
+			}
+		} else if (typeof source[key] === "object") {
+			objectConvert(source[key], translate[key]);
+		} else {
+			source[key] = translate[key];
+		}
+	}
+	return source;
 }
