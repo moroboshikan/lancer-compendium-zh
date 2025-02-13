@@ -69,7 +69,7 @@
     "FLIER": {
       "name": "飛行器",
       "npcf_flier_ship": {
-        "effect": "星艦可以在無重力環境中正常移動，也能在大氣層內懸浮。它對<b>固定</b>、<b>暈眩</b>和<b>伏臥</b>狀態免疫。"
+        "effect": "星艦可以在無重力環境中正常移動，也能在大氣層內懸浮。它對<b>固定</b>、<b>暈眩</b>狀況、以及<b>伏臥</b>狀態免疫。"
       },
       "npcf_flier_vehicle": {
         "effect": "載具在移動或<b>推進</b>時可以<b>飛行</b>。"
@@ -242,10 +242,10 @@
     "SAP": {
       "name": "衰竭",
       "npcf_sap_assassin": {
-        "effect": "刺客選擇一個鄰接角色。目標必須通過<b>工程豁免</b>，否則陷入<b>暈眩</b>狀態直至其下一回合結束為止。"
+        "effect": "刺客選擇一個鄰接角色。目標必須通過<b>工程豁免</b>，否則陷入<b>暈眩</b>狀況直至其下一回合結束為止。"
       },
       "npcf_sap_demolisher": {
-        "effect": "終結者選擇一個鄰接角色。目標必須通過<b>工程豁免</b>，否則陷入<b>暈眩</b>狀態直至其下一回合結束為止。"
+        "effect": "終結者選擇一個鄰接角色。目標必須通過<b>工程豁免</b>，否則陷入<b>暈眩</b>狀況直至其下一回合結束為止。"
       }
     },
     "SHOCK ARMOR": {
@@ -348,11 +348,11 @@
     },
     "DEFENSE NET": {
       "name": "防衛網",
-      "effect": "神盾在<b>爆發 3 </b>範圍展開一道閃爍著的強大斥力護盾。在護盾運作期間，神盾會陷入<b>固定</b>狀態，並使所有源自於影響範圍外，以範圍內的角色和物件為目標的遠距、肉搏、和科技攻擊都受到<b> +2 難度</b>且無法造成<b>會心一擊</b>。位於防衛網範圍內的角色可以如常攻擊位於防衛網內側或外側的目標。<br><br>在影響範圍內的隊友角色還會免疫於<b>受損</b>和<b>緩慢</b>狀態，若已經獲得該狀態，則在進入範圍內時將其解除。<br><br>這個效果會維持直到神盾以<b>協定</b>動作將其解除，或是神盾陷入<b>暈眩</b>、<b>干擾</b>狀態，或是被毀為止。當神盾被強制移動時，護盾也會隨之一起移動。"
+      "effect": "神盾在<b>爆發 3 </b>範圍展開一道閃爍著的強大斥力護盾。在護盾運作期間，神盾會陷入<b>固定</b>狀況，並使所有源自於影響範圍外，以範圍內的角色和物件為目標的遠距、肉搏、和科技攻擊都受到<b> +2 難度</b>且無法造成<b>會心一擊</b>。位於防衛網範圍內的角色可以如常攻擊位於防衛網內側或外側的目標。<br><br>在影響範圍內的隊友角色還會免疫於<b>受損</b>和<b>緩慢</b>狀況，若已經獲得該狀況，則在進入範圍內時將其解除。<br><br>這個效果會維持直到神盾以<b>協定</b>動作將其解除，或是神盾陷入<b>暈眩</b>、<b>干擾</b>狀況，或是被毀為止。當神盾被強制移動時，護盾也會隨之一起移動。"
     },
     "REGENERATIVE SHIELDING": {
       "name": "再生屏障",
-      "effect": "神盾免疫於<b>受損</b>和<b>緩慢</b>狀態，且不會被<b>會心一擊</b>。"
+      "effect": "神盾免疫於<b>受損</b>和<b>緩慢</b>狀況，且不會被<b>會心一擊</b>。"
     },
     "ADAPTIVE SHIELDING": {
       "name": "適應性屏障",
@@ -432,7 +432,7 @@
       "effect": "The Assassin flies 6 spaces in any direction but must land on a surface. When they land, characters adjacent to the Assassin must succeed on an Agility save or be knocked Prone."
     },
     "“DEVIL’S COUGH” SHOTGUN": {
-      "name": "「魔鬼吠咳」散彈槍"
+      "name": "「魔吠」散彈槍"
     },
     "SPINNING KICK": {
       "name": "SPINNING KICK",
@@ -730,11 +730,11 @@
     },
     "PIN": {
       "name": "壓制",
-      "effect": "​在<b> ⌿2 </b>範圍內的一名角色陷入<b>固定</b>和<b>受損</b>狀態，直到目標對巨人造成傷害、巨人陷入<b>暈眩</b>或被毀、或巨人對其他角色再次使用這個效果為止。巨人在這個效果生效期間也會陷入<b>固定</b>狀態。"
+      "effect": "​在<b> ⌿2 </b>範圍內的一名角色陷入<b>固定</b>和<b>受損</b>狀況，直到目標對巨人造成傷害、巨人陷入<b>暈眩</b>或被毀、或巨人對其他角色再次使用這個效果為止。巨人在這個效果生效期間也會陷入<b>固定</b>狀況。"
     },
     "CRUSHING EMBRACE": {
       "name": "輾壓擁抱",
-      "effect": "與巨人鄰接的一名角色必須成功通過<b>敏捷豁免</b>，否則自動被巨人給<b>擒拿</b>，並在解除<b>擒拿</b>前同時陷入<b>受擾</b>狀態。巨人同時只能用這個方法擒拿一名角色。"
+      "effect": "與巨人鄰接的一名角色必須成功通過<b>敏捷豁免</b>，否則自動被巨人給<b>擒拿</b>，並在解除<b>擒拿</b>前同時陷入<b>受擾</b>狀況。巨人同時只能用這個方法擒拿一名角色。"
     },
     "WATCHFUL GUARDIAN": {
       "name": "警醒守護者",
@@ -747,28 +747,36 @@
       "tactics": "Hives use Razor Swarm to control the battlefield, granting soft cover to their allies and denying areas to their enemies. Deploy swarms and use Drone Barrage to lock down enemies, or move them into the range of swarms and allies."
     },
     "HUNTER-KILLER NEXUS": {
-      "name": "HUNTER-KILLER NEXUS"
+      "name": "獵殺巢房",
+      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，可以分別選擇相同角色或兩個不同的目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
     },
     "DRONE BARRAGE": {
-      "name": "DRONE BARRAGE"
+      "name": "無人機火網",
+      "effect": "蟲巢對感應範圍內的一名角色進行<b>科技攻擊</b>。若命中，目標必須選擇一項：<ul><li>目標陷入<b>固定</b>和<b>受損</b>狀況，持續直到其下一回合結束為止。</li><li>目標立即向蟲巢決定的方向移動最多 5 格距離。這個移動忽略交戰且不會觸發反應。</li></ul>"
     },
     "RAZOR SWARMS": {
-      "name": "RAZOR SWARMS"
+      "name": "剃刀蟲群",
+      "effect": "蟲巢在感應範圍內的未佔據空間展開一個 <b>爆發 1</b> 區域的剃刀蟲群。隊友角色只要至少有一部份處於被影響區域內，就會得到<b>軟性掩護</b>。敵對角色如果在至少有一部份處於被影響區域內的情況下開始其回合，或在每輪第一次進入該區域時，都會受到<b> {2/4/6} 燃燒</b>。蟲巢可以展開任意數量的剃刀蟲群，並會維持直到場景結束、或蟲巢被毀為止。"
     },
     "ELECTRO-NANITE CLOUD": {
-      "name": "ELECTRO-NANITE CLOUD"
+      "name": "帶電奈米雲霧",
+      "effect": "每個 <b>⌿3</b> 範圍內的敵對角色在開始其回合時，都會受到<b> 2 燃燒</b>；此外，直到其移離 <b>⌿3</b> 的範圍之外前，它們的所有<b>系統檢定和豁免</b>，以及所有<b>科技攻擊</b>都會得到<b> +{1/2/3} 難度</b>。"
     },
     "MOTILE SWARM": {
-      "name": "MOTILE SWARM"
+      "name": "遊走蟲群",
+      "effect": "在蟲巢的回合開始時，它可以讓所有展開的<b>剃刀蟲群</b>往任意方向移動最多 2 格，包括移動到其他角色佔據的空間。"
     },
     "DRIVING SWARM": {
-      "name": "DRIVING SWARM"
+      "name": "驅駕蟲群",
+      "effect": "每當角色受到<b>剃刀蟲群</b>造成的<b>燃燒</b>時，它必須成功通過<b>系統豁免</b>，否則在受到傷害後立即往蟲巢決定的任意方向移動 4 格。這個移動忽略交戰且不會觸發反應。"
     },
     "GRIND MANIPLE": {
-      "name": "GRIND MANIPLE"
+      "name": "輾磨軍團",
+      "effect": "蟲巢釋放出大群微型且難以截擊的無人機，並對一個位於視線和感應範圍內的角色進行<b>科技攻擊</b>。若命中，這群無人機將會附著在目標上，讓它在每次進行任何<b>動作</b>或<b>反應</b>時受到<b> 2 燃燒</b>，持續直到其下一回合結束為止。"
     },
     "SEEKER CLOUD": {
-      "name": "SEEKER CLOUD"
+      "name": "追跡者雲霧",
+      "effect": "被這件武器傷害的角色得到<b>鎖定</b>。"
     },
 
     "HORNET": {
@@ -778,7 +786,7 @@
     },
     "STINGER PISTOL": {
       "name": "螫針手槍",
-      "on_hit": "目標陷入<b>受損</b>狀態直至其下一回合結束為止。"
+      "on_hit": "目標陷入<b>受損</b>狀況直至其下一回合結束為止。"
     },
     "SSC TOTAL SUITE": {
       "name": "SSC 全地形套裝",
@@ -790,7 +798,7 @@
     },
     "IMPALE SYSTEMS": {
       "name": "貫穿系統",
-      "effect": "胡蜂對感應範圍內的一名角色進行<b>科技攻擊</b>。命中時，目標受到 {3/4/5} 熱度，並陷入<b>受干</b>狀態直到其下一回合結束為止。"
+      "effect": "胡蜂對感應範圍內的一名角色進行<b>科技攻擊</b>。命中時，目標受到 {3/4/5} 熱度，並陷入<b>受擾</b>狀況直到其下一回合結束為止。"
     },
     "ADAPT/EVADE/DISENGAGE": {
       "name": "適應/迴避/脫離",
@@ -810,7 +818,7 @@
     },
     "LOCK/HOLD JAVELINS": {
       "name": "鎖定/固定標槍",
-      "effect": "胡蜂對 <b>⌿5 範圍</b>且位於視線內的一名角色發射標槍。目標必須通過<b>機體豁免</b>，否則遭到貫穿，在此同時標槍會把自己和目標拴繫在地面（或其他表面），使其陷入<b>固定</b>和<b>離散</b>狀態。目標或任何其他鄰接角色能以一個<b>完整動作</b>並成功通過<b>機體豁免</b>來將標槍移除。否則，這個效果會維持直到場景結束、或是胡蜂再次使用這個動作為止。"
+      "effect": "胡蜂對 <b>⌿5 範圍</b>且位於視線內的一名角色發射標槍。目標必須通過<b>機體豁免</b>，否則遭到貫穿，在此同時標槍會把自己和目標拴繫在地面（或其他表面），使其陷入<b>固定</b>和<b>離散</b>狀況。目標或任何其他鄰接角色能以一個<b>完整動作</b>並成功通過<b>機體豁免</b>來將標槍移除。否則，這個效果會維持直到場景結束、或是胡蜂再次使用這個動作為止。"
     },
 
     "MIRAGE": {
@@ -819,31 +827,42 @@
       "tactics": "Mirages are potent support mechs, able to teleport their allies around at will and shut down ranged attackers with Warp Sensors. They can make allied characters Invisible, but become vulnerable while doing so. These strengths come at a price: weapons and systems that ignore cover – such as Seeking weapons – can get around Warp Sensors, and Mirages don’t deal any damage on their own."
     },
     "WARP SENSORS": {
-      "name": "WARP SENSORS"
+      "name": "WARP SENSORS",
+      "effect": "The Mirage makes a tech attack against a target within Sensors. On a success, they take {2/3/4} Heat and all attacks they make until the end of their next turn treat their targets as having soft cover."
     },
     "REALITY FLICKER": {
-      "name": "REALITY FLICKER"
+      "name": "REALITY FLICKER",
+      "effect": "The Mirage teleports when they make a standard move."
     },
     "GLITCH SCANNERS": {
-      "name": "GLITCH SCANNERS"
+      "name": "GLITCH SCANNERS",
+      "effect": "The Mirage’s advanced electronic countermeasures play havoc with enemy systems, causing them to register false positives on the battlefield. They may teleport up to two allied characters within Sensors, moving them 5 spaces in any direction – revealing their “true” locations. This movement ignores engagement and doesn’t provoke reactions.<br>The Mirage also gains the Blip reaction."
     },
     "BLIP": {
-      "name": "BLIP"
+      "name": "BLIP",
+      "trigger": "A hostile character takes action in line of sight.",
+      "effect": "The Mirage may teleport one allied character within Sensors 5 spaces in any direction."
     },
     "ILLUSORY SUBROUTINES": {
-      "name": "ILLUSORY SUBROUTINES"
+      "name": "ILLUSORY SUBROUTINES",
+      "effect": "The Mirage makes a tech attack against a target within Sensors. On a success, the target treats all characters allied to the Mirage as Invisible until the start of their next turn."
     },
     "WARP TARGETING": {
-      "name": "WARP TARGETING"
+      "name": "WARP TARGETING",
+      "effect": "All allied characters within range 50 benefit from soft cover. If the Mirage takes damage, this effect ends until the start of their next turn."
     },
     "METAFOLD SHOVE": {
-      "name": "METAFOLD SHOVE"
+      "name": "METAFOLD SHOVE",
+      "effect": "The Mirage makes a tech attack against a hostile character within range 5. On a success, the target swaps position with an allied character within the Mirage’s line of sight and chosen by the Mirage, both teleporting. Flying characters can’t be swapped with characters that aren’t flying, and vice versa."
     },
     "MANIFEST FALSE IDOLS": {
-      "name": "MANIFEST FALSE IDOLS"
+      "name": "MANIFEST FALSE IDOLS",
+      "effect": "The Mirage creates three Size 1 data constructs in free spaces within line of sight and range 5. These constructs provide soft cover but can be passed through. When hostile characters pass through a construct, the construct disappears and they must succeed on a Systems save or take 2 heat and become Jammed until the end of their next turn. At any point during the Mirage’s turn, they can teleport an allied character within line of sight to the location of a data construct as a quick action, causing the construct to disappear, as long as there is space to do so."
     },
     "MULTIPLICITY": {
-      "name": "MULTIPLICITY"
+      "name": "MULTIPLICITY",
+      "trigger": "A allied character in line of sight is hit.",
+      "effect": "The attacker must make a Systems save. On a failure, the Mirage’s ally gains Immunity to the attack’s damage and effects and may teleport up to 5 spaces in the direction of their choice."
     },
 
     "OPERATOR": {
@@ -1131,70 +1150,70 @@
       "tactics": "Specters are mobile strikers that shine against foes that make the mistake of being caught alone. Use Prowl along with their high Threat and Speed to get them across the front lines so they can find vulnerable solo targets, like snipers and artillery. Specters are permanently Invisible, which is key to their survivability; they aren’t very resilient, but they can Hide any time."
     },
     "MONOWIRE SWORD": {
-      "name": "MONOWIRE SWORD",
-      "effect": "At T2, this weapon can make two attacks at a time, targeting either the same character or two different ones. At T3, it can make three attacks at a time."
+      "name": "單分子劍",
+      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，可以分別選擇相同角色或兩個不同的目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
     },
     "PROWL": {
-      "name": "PROWL",
-      "effect": "The Specter moves spaces equal to Speed, then becomes Hidden. This movement ignores engagement and doesn’t provoke reactions."
+      "name": "潛行",
+      "effect": "幽靈移動等同其速度的格數，然後獲得<b>匿蹤</b>狀態。這個移動忽略交戰且不會觸發反應。"
     },
     "TACTICAL CLOAK": {
-      "name": "TACTICAL CLOAK",
-      "effect": "The Specter is permanently Invisible."
+      "name": "戰術斗篷",
+      "effect": "幽靈常時處於<b>隱形</b>狀態。"
     },
     "HUNT": {
-      "name": "HUNT",
-      "effect": "The Specter’s melee attacks deal +5 damage when no other characters are adjacent to their target."
+      "name": "獵殺",
+      "effect": "幽靈的肉搏攻擊對沒有與其他角色鄰接的目標會造成 +5 傷害。"
     },
     "DRAIN SYSTEMS": {
-      "name": "DRAIN SYSTEMS",
-      "effect": "The Specter makes a tech attack against an adjacent character. On a success, the target becomes Stunned. This effect lasts until a character other than the Specter starts their turn adjacent to the target or moves adjacent to the target."
+      "name": "系統枯竭",
+      "effect": "幽靈對一名鄰接角色進行<b>科技攻擊</b>。若命中，目標陷入<b>暈眩</b>狀況。這個效果會持續直到除了幽靈以外的其他角色在與目標鄰接時開始其回合、或移動到與目標鄰接的位置為止。"
     },
     "MACHINE PISTOL": {
-      "name": "MACHINE PISTOL",
-      "effect": "At T2, this weapon can make two attacks at a time, targeting either the same character or two different ones. At T3, it can make three attacks at a time."
+      "name": "衝鋒手槍",
+      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，可以分別選擇相同角色或兩個不同的目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
     },
     "WEAKNESS ANALYZER": {
-      "name": "WEAKNESS ANALYZER",
-      "effect": "When the Specter starts the turn Hidden, their next attack (while Hidden) gains +{1/2/3} Accuracy and deals +1d6 Kinetic damage on a critical hit."
+      "name": "弱點分析儀",
+      "effect": "當幽靈以<b>匿蹤</b>狀態開始其回合，它在<b>匿蹤</b>狀態中進行的下一次攻擊獲得<b> +{1/2/3} 準度</b>，並在<b>會心一擊</b>時額外造成 +1d6 動能傷害。"
     },
 
     "SUPPORT": {
-      "name": "後盾",
+      "name": "援助者",
       "flavor": "Support-archetype mechs keep their allies alive and operational with a broad library of immediate triage systems, from basic flash-weld plating through to shallow–medium structural reinforcement packs and whitewash nanite slurry. From the famed Laughter of a Solemn God, working the front lines of Boundary Garden’s battlefields, to the precision actions undertaken by the rogue-world hunters of ExtraSolar Acquisitions, Inc., the efficacy of Support-archetype mechs is unparalleled when mech teams need to stay alive longer than deployment.",
       "tactics": "Supports are bulky mechs that can’t deal any damage but have access to powerful healing and condition-clearing effects. Despite their resilience, they have no way to defend themselves and need to get close to their allies in order to be effective. Savvy players will shoot and destroy their Restock Drones before they are activated, denying an opportunity for healing."
     },
     "SEALANT GUN": {
-      "name": "SEALANT GUN",
-      "effect": "The Support chooses a character within line of sight and Range 5, allied or hostile:<ul><li>Allied: The target clears all Burn, but becomes Slowed until the end of their next turn.</li><li>Hostile: The target must succeed on an Agility save or become Slowed until the end of their next turn. Succeed or fail, a Burst 1 area around them becomes difficult terrain for the rest of the scene.</li></ul>"
+      "name": "封膠槍",
+      "effect": "援助者選擇一名 <b>⌿5 範圍</b>且位於視線內的角色：<ul><li><b>若為隊友</b>：目標清除所有<b>燃燒</b>，但陷入<b>緩慢</b>狀況直至其下一回合結束為止。</li><li><b>若為敵人</b>：目標必須成功通過<b>敏捷豁免</b>，否則陷入<b>緩慢</b>狀況直至其下一回合結束為止。無論成功與否，其周遭<b> 爆發 1 </b>範圍的區域將變為<b>困難地形</b>，維持整個場景。</li></ul>"
     },
     "RESTOCK DRONE": {
-      "name": "RESTOCK DRONE",
-      "effect": "Restock Drone (Size 1/2, HP {5/8/10}, Evasion {10/12/14}, E-Defense {10/12/14}, Tags: Drone)<br>This drone can be deployed hovering in a space within range 5. The next time an allied character moves through or next to the drone, it clamps on and discharges its reserves, letting them regain {5/10/15} HP."
+      "name": "補給無人機",
+      "effect": "<b>補給無人機（大小 1/2、HP {5/8/10}、迴避 {10/12/14}、電子防禦 {10/12/14}、標籤：無人機）</b><br><br>這個無人機可以被展開並<b>懸浮</b>在 ⌿5 範圍內的一處空間。當下一次隊友角色移動穿過無人機或與無人機鄰接時，它將會附著在角色上並消耗其儲備，使該角色回復 {5/10/15} HP。"
     },
     "NANO-REPAIR CLOUD": {
-      "name": "NANO-REPAIR CLOUD",
-      "effect": "While they are adjacent to the Support, allied characters roll twice on all saves and mech skill checks and choose the higher result."
+      "name": "奈米維修雲霧",
+      "effect": "當隊友角色與援助者鄰接時，隊友角色的所有<b>豁免和機甲能力判定</b>都可以骰兩次並取較高的結果。"
     },
     "REMOTE REBOOT": {
-      "name": "REMOTE REBOOT",
-      "effect": "The Support clears any two of the following conditions currently affecting an allied character in range 5: Impaired, Jammed, Stunned, and Slowed."
+      "name": "遙距重啟",
+      "effect": "援助者選擇一名 <b>⌿5 範圍</b>內的隊友角色，並清除它身上的其中兩個以下狀況：<b>受損</b>、<b>受擾</b>、<b>暈眩</b>、和<b>緩慢</b>。"
     },
     "EMPOWERED CLOUD": {
-      "name": "EMPOWERED CLOUD",
-      "effect": "When they start their turn adjacent to the Support, allied characters may clear one condition."
+      "name": "強化雲霧",
+      "effect": "當隊友角色在與援助者鄰接的情況下開始其回合，它可以清除自己身上的一個<b>狀況</b>。"
     },
     "REMOTE CLOUD": {
-      "name": "REMOTE CLOUD",
-      "effect": "The Support releases a Blast 2 nanite cloud within range 5. Allied characters that start their turn in the area or move into it for the first time on their turn regain {2/4/6} HP. The cloud disperses at the start of the Support’s next turn."
+      "name": "遙控雲霧",
+      "effect": "援助者在 <b>⌿5 範圍</b>內展開一團 <b>爆發 2</b> 範圍區域的奈米雲霧。當隊友角色在該區域內開始其回合、或是在其回合第一次進入該區域時，它都能回復 {2/4/6} HP。這團雲霧會在援助者的下一回合開始時消散。"
     },
     "DEFENSIVE PULSE": {
-      "name": "DEFENSIVE PULSE",
-      "effect": "All allied characters within range 3 clear Jammed and<br>Lock On."
+      "name": "防禦性脈衝",
+      "effect": "所有在 <b>⌿3</b> 範圍內的隊友清除<b>受擾</b>狀況和<b>鎖定</b>。"
     },
     "LATCH DRONE": {
-      "name": "LATCH DRONE",
-      "effect": "Latch Drone (Size 1/2, HP {5/10/15}, Evasion 10, E-Defense 10, Tags: Drone)<br>This self-deploying drone clamps onto a character within Range 3, occupying the same space and moving with them. While the drone is attached, the target regains {5/8/10} HP at the start of each of their turns and gains +1 Accuracy on all checks, saves, and attacks. Enemies can target the drone with attacks."
+      "name": "拴鎖無人機",
+      "effect": "<b>拴鎖無人機（大小 1/2、HP {5/10/15}、迴避 10、電子防禦 10、標籤：無人機）</b><br><br>這個會自我展開的無人機會附著在 <b>⌿3</b> 範圍內的一名角色，與其共享空間，並會跟著其一起移動。在這個無人機附著期間，目標會在它的每個回合開始時回復 {5/8/10} HP，並在所有判定、豁免、和攻擊都得到<b> +1 準度</b>。敵人可以指定這個無人機為攻擊目標。"
     },
 
     "WITCH": {
@@ -1228,11 +1247,11 @@
     },
     "CHAIN": {
       "name": "縛鍊",
-      "effect": "女巫對感應範圍內的一名角色進行<b>科技攻擊</b>。若命中，女巫將把目標的系統和<b> ⌿3 </b>範圍內的一個空間鎖在一起。如果目標移動到距離該位置超過 ⌿3 的位置（無論自願與否），目標就會受到 {2/3/4} <b>熱度</b>，並陷入<b>受擾</b>直至其下一回合結束為止，但這個效果也會因此結束。除此之外的情況，這個效果會維持直到女巫陷入<b>暈眩</b>狀態或被毀，或直到場景結束為止。"
+      "effect": "女巫對感應範圍內的一名角色進行<b>科技攻擊</b>。若命中，女巫將把目標的系統和<b> ⌿3 </b>範圍內的一個空間鎖在一起。如果目標移動到距離該位置超過 ⌿3 的位置（無論自願與否），目標就會受到 {2/3/4} <b>熱度</b>，並陷入<b>受擾</b>直至其下一回合結束為止，但這個效果也會因此結束。除此之外的情況，這個效果會維持直到女巫陷入<b>暈眩</b>狀況或被毀，或直到場景結束為止。"
     },
     "PETRIFY": {
       "name": "石化",
-      "effect": "女巫對感應範圍內的一名角色進行<b>科技攻擊</b>。若命中，目標陷入<b>緩慢</b>狀態。在其下一回合，目標會再陷入<b>固定</b>狀態。再在其下一回合，目標還會再陷入<b>暈眩</b>狀態。這些狀態全都會在其回合結束時跟著解除。"
+      "effect": "女巫對感應範圍內的一名角色進行<b>科技攻擊</b>。若命中，目標陷入<b>緩慢</b>狀況。在其下一回合，目標會再陷入<b>固定</b>狀況。再在其下一回合，目標還會再陷入<b>暈眩</b>狀況。這些狀況全都會在其回合結束時跟著解除。"
     },
     "PAIN TRANSFERENCE": {
       "name": "苦痛移情",
@@ -1335,12 +1354,12 @@
     },
     "VOICE OF AUTHORITY": {
       "name": "權威之聲",
-      "trigger": "一名隊友在攻擊、判定、或豁免中失敗，且指揮官不處於<b>受擾</b>狀態時。",
+      "trigger": "一名隊友在攻擊、判定、或豁免中失敗，且指揮官不處於<b>受擾</b>狀況時。",
       "effect": "該隊友可以重新擲骰。"
     },
     "COMMANDER TRAITS": {
       "name": "指揮官特徵",
-      "effect": "指揮官可以從 指揮官特徵清單 中選擇一個。該特徵在指揮官陷入<b>受擾</b>狀態時不會生效。"
+      "effect": "指揮官可以從 指揮官特徵清單 中選擇一個。該特徵在指揮官陷入<b>受擾</b>狀況時不會生效。"
     },
     "BOLSTER NETWORK": {
       "name": "增強網路",
@@ -1374,7 +1393,7 @@
     },
     "NO PILOT": {
       "name": "無人駕駛",
-      "effect": "遙控機免疫於任何會直接影響駕駛員的系統和動作；然而，它始終處於<b>受損</b>狀態，且無法進行複雜決定或道德判斷。"
+      "effect": "遙控機免疫於任何會直接影響駕駛員的系統和動作；然而，它始終處於<b>受損</b>狀況，且無法進行複雜決定或道德判斷。"
     },
     "VULNERABLE TO TECH": {
       "name": "科技弱點",
@@ -1424,7 +1443,7 @@
     },
     "LIVING WEAPONRY": {
       "name": "活體武器",
-      "effect": "異形免疫於<b>受擾</b>狀態。此外，其武器具有能自動產生彈藥的生物科技或半有機部件。當異形裝填<b>裝填</b>武器時，它將會回復 1d6 HP。"
+      "effect": "異形免疫於<b>受擾</b>狀況。此外，其武器具有能自動產生彈藥的生物科技或半有機部件。當異形裝填<b>裝填</b>武器時，它將會回復 1d6 HP。"
     },
     "PARACAUSAL WEAPON": {
       "name": "超因果律兵器",
@@ -1480,7 +1499,7 @@
     "LAST WORD": {
       "name": "遺言",
       "trigger": "當傭兵的 HP 被降到其總和的一半以下時。",
-      "effect": "在 <b>爆發 1 </b>範圍內的角色必須通過一次敏捷豁免，否則受到 2 點動能傷害，並陷入<b>受擾</b>狀態直至其下個回合結束。然後，傭兵朝任意方向移動等同其速度的格數。這個移動忽略交戰且不會觸發反應。"
+      "effect": "在 <b>爆發 1 </b>範圍內的角色必須通過一次敏捷豁免，否則受到 2 點動能傷害，並陷入<b>受擾</b>狀況直至其下個回合結束。然後，傭兵朝任意方向移動等同其速度的格數。這個移動忽略交戰且不會觸發反應。"
     },
 
 
@@ -1510,7 +1529,7 @@
     },
     "SLAVER SIGNAL": {
       "name": "奴役訊號",
-      "effect": "在 <b>⌿10 範圍</b>內的一部有駕駛員的機甲或載具必須通過<b>系統豁免</b>，若失敗，則目標內部的駕駛員和生物角色將被訊號影響，並陷入<b>暈眩</b>狀態。除非該機甲或載具擁有 AI，否則也會一起陷入<b>暈眩</b>狀態。如果被影響的角色或其機甲或載具受到傷害的話，則他們將因為驚醒而結束這個效果。與目標鄰接的其他角色也能以<b>完整動作</b>並通過<b>系統判定</b>來消除訊號並解除這個效果。否則，這效果將持續直到海盜被毀為止。"
+      "effect": "在 <b>⌿10 範圍</b>內的一部有駕駛員的機甲或載具必須通過<b>系統豁免</b>，若失敗，則目標內部的駕駛員和生物角色將被訊號影響，並陷入<b>暈眩</b>狀況。除非該機甲或載具擁有 AI，否則也會一起陷入<b>暈眩</b>狀況。如果被影響的角色或其機甲或載具受到傷害的話，則他們將因為驚醒而結束這個效果。與目標鄰接的其他角色也能以<b>完整動作</b>並通過<b>系統判定</b>來消除訊號並解除這個效果。否則，這效果將持續直到海盜被毀為止。"
     },
 
     "SHIP": {
@@ -1551,7 +1570,7 @@
     },
     "SEALANT TRAP": {
       "name": "封膠陷阱",
-      "effect": "當敵對角色移動到與該地雷鄰接的空間時，在 <b>爆發 1 </b>範圍內的角色將被噴灑而出的厚實快乾封膠給沾黏，陷入<b>固定</b>狀態。它們將維持固定直至封膠因為受到足夠傷害而破裂為止。封膠擁有 <b>{5/10/15} HP</b> 和 <b>迴避 5</b>。"
+      "effect": "當敵對角色移動到與該地雷鄰接的空間時，在 <b>爆發 1 </b>範圍內的角色將被噴灑而出的厚實快乾封膠給沾黏，陷入<b>固定</b>狀況。它們將維持固定直至封膠因為受到足夠傷害而破裂為止。封膠擁有 <b>{5/10/15} HP</b> 和 <b>迴避 5</b>。"
     },
     "THUMPER GRENADES": {
       "name": "衝擊手榴彈",
@@ -1592,7 +1611,7 @@
     },
     "REPULSION FIELD": {
       "name": "排斥力場",
-      "effect": "當敵對角色在與超體鄰接的位置開始回合，或在其回合期間第一次與超體鄰接時，該角色將受到 <b>{2/4/6} 能量傷害</b> + <b>2 熱度</b>，且必須成功通過一次<b>系統豁免</b>，否則陷入<b>受損</b>狀態直至其下個回合結束。"
+      "effect": "當敵對角色在與超體鄰接的位置開始回合，或在其回合期間第一次與超體鄰接時，該角色將受到 <b>{2/4/6} 能量傷害</b> + <b>2 熱度</b>，且必須成功通過一次<b>系統豁免</b>，否則陷入<b>受損</b>狀況直至其下個回合結束。"
     },
     "SIEGE SHIELD": {
       "name": "護城盾甲",
@@ -1645,11 +1664,11 @@
     },
     "SUPERIOR FRAME": {
       "name": "優越骨架",
-      "effect": "超體免疫於<b>緩慢</b>、<b>離散</b>、和<b>固定</b>狀態。"
+      "effect": "超體免疫於<b>緩慢</b>、<b>離散</b>、和<b>固定</b>狀況。"
     },
     "SUPERIOR REACTOR": {
       "name": "優越反應爐",
-      "effect": "超體免疫於<b>暈眩</b>和<b>曝露</b>狀態。"
+      "effect": "超體免疫於<b>暈眩</b>狀況和<b>曝露</b>狀態。"
     },
     "SUPERIOR TARGETING": {
       "name": "優越瞄準",
@@ -1657,7 +1676,7 @@
     },
     "SUPREME MAINTENANCE": {
       "name": "頂尖維護",
-      "effect": "超體免疫於<b>受擾</b>狀態；此外，超體能夠在自己的回合以一個<b>免費動作</b>裝填一件裝填武器，且能以一個<b>快速動作</b>修理一個被毀的武器或系統。"
+      "effect": "超體免疫於<b>受擾</b>狀況；此外，超體能夠在自己的回合以一個<b>免費動作</b>裝填一件裝填武器，且能以一個<b>快速動作</b>修理一個被毀的武器或系統。"
     },
     "SUPREME MELEE": {
       "name": "頂尖肉搏",
@@ -1694,7 +1713,7 @@
     },
     "FEIGN DEATH": {
       "name": "詐死",
-      "effect": "在每場戰鬥中，老兵的第一次被毀實際上是詐死。儘管看起來已經被毀，它仍然保有 1 HP。與老兵鄰接的角色能透過通過<b>系統判定</b>或<b>駕駛員技能判定</b>來察覺這件事。否則，老兵將維持這個狀態不被發現，直到其移動或動作為止。"
+      "effect": "在每場戰鬥中，老兵的第一次被毀實際上是詐死。儘管看起來已經被毀，它仍然保有 1 HP。與老兵鄰接的角色能透過通過<b>系統判定</b>或<b>駕駛員技能判定</b>來察覺這件事。否則，老兵將維持詐死不被發現，直到其移動或動作為止。"
     },
     "HACKER": {
       "name": "駭客",
