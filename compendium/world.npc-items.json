@@ -1274,31 +1274,41 @@
       "flavor": "Although individual pilots and other non-mechanized soldiers might not present much of a threat to most mechs, a squad of infantry with the right gear and training can be dangerous in their own right.<br>Squads are exactly what they sound like: small groups of five to ten armed and armored soldiers represented as one character on the battlefield."
     },
     "SOLDIERS": {
-      "name": "SOLDIERS"
+      "name": "軍隊士兵",
+      "effect": "兵隊會被當成單一個角色進行動作，但它實際上代表著一群共同行動的士兵。當兵隊受到一定傷害時，會造成其中一部份士兵在敘事上陣亡，並會減少兵隊在每回合所能進行的攻擊次數，參照相應武器中的說明。一般來說，兵隊的每 1 點 HP 代表著 10 名成員。"
     },
     "STRENGTH IN NUMBERS": {
-      "name": "STRENGTH IN NUMBERS"
+      "name": "團結就是力量",
+      "effect": "兵隊對於所有不是來自於 <b>線性</b>、<b>錐形</b>、<b>爆發</b>、和<b>濺射</b>攻擊造成的傷害具有<b>抗性</b>，且免疫於<b>擒拿</b>、<b>衝撞</b>、<b>擊退</b>、和<b>暈眩</b>狀況。"
     },
     "SPREAD OUT": {
-      "name": "SPREAD OUT"
+      "name": "散開",
+      "effect": "兵隊的成員被當作會在其佔據空間的範圍內自由移動，而不用各別追蹤每個士兵的位置。其他角色能夠隨意移動穿過兵隊佔據的空間，也能在該位置結束其回合。只要兵隊佔據至少<b> 2 個未被其他東西佔據的空間</b>，他們就能在與障礙物、掩護、或其他角色重疊的情況下結束其回合。由於兵隊的大小不反映其實際質量，因此兵隊不能進行<b>擒拿</b>和<b>衝撞</b>行動。"
     },
     "UNDERSIZE": {
-      "name": "UNDERSIZE"
+      "name": "游擊體型",
+      "effect": "兵隊中的每個士兵都能輕易躲在掩體後，但機甲規模武器的龐大威力也限制了他們實際得到的防護效果。即使在平地，兵隊也永遠受益於<b>軟性掩護</b>，但他們將無法受益於<b>硬性掩護</b>。"
     },
     "PRIMARY WEAPON": {
-      "name": "PRIMARY WEAPON"
+      "name": "主武器",
+      "effect": "這件武器能同時進行二次攻擊；如果兵隊失去超過一半的 HP，則改為只能攻擊一次。"
     },
     "AMBUSHERS": {
-      "name": "AMBUSHERS"
+      "name": "埋伏",
+      "effect": "在戰鬥的第一輪期間，兵隊進行的所有攻擊、豁免、和判定都得到<b> +2 準度</b>。"
     },
     "DUCK AND COVER": {
-      "name": "DUCK AND COVER"
+      "name": "臥倒掩護",
+      "trigger": "當兵隊被攻擊命中時。",
+      "effect": "兵隊得到對該傷害的<b>抗性</b>，但陷入<b>固定</b>狀況直到其下一回合結束為止。"
     },
     "RAPID INSERTION": {
-      "name": "RAPID INSERTION"
+      "name": "快速突入",
+      "effect": "兵隊在移動或<b>推進</b>時可以<b>飛行</b>。"
     },
     "DISCIPLINED": {
-      "name": "DISCIPLINED"
+      "name": "紀律",
+      "effect": "失去 HP 並不會影響兵隊在每回合所能進行的攻擊次數。"
     },
 
     "MONSTROSITY": {
@@ -1306,46 +1316,59 @@
       "flavor": "Monstrosities are especially large or horrifying natural predators. Although they are usually wild, some monstrosities can be domesticated and trained for combat: such creatures are in high demand along the furthest reaches of the galaxy."
     },
     "UNIQUE PHYSIOLOGY": {
-      "name": "UNIQUE PHYSIOLOGY"
+      "name": "獨特生理",
+      "effect": "如果怪物擁有<b>結構值</b>（比如說套用了<b>精銳</b>或<b>超體</b>模板），則牠在受到結構傷害時改為使用<b>怪物結構傷害表</b>，如下：<br><br><b>怪物結構傷害表</b><ul><li>5~6：<b>擦傷</b>：怪物在痛苦中退縮；牠受到<b>受損</b>狀況直到其下一回合結束。</li><li>3~4：<b>重擊</b>：怪物被這一擊的力量擊倒<b>伏臥</b>。</li><li>2：<b>肢解</b>：這一擊炸飛了怪物的一條肢體或身體部位；牠受到 1d6 動能傷害，並陷入<b>緩慢</b>狀況直到這個場景結束。</li><li>1：<b>直擊</b>：結果取決於怪物剩餘的結構值：<ul><li>3+ 結構：怪物被重擊腦袋，陷入<b>暈眩</b>狀況直到其下一回合結束。</li><li>2 結構：怪物必須成功通過<b>機體豁免</b>，否則被毀。</li><li>1 結構：怪物被毀。</li></ul></li><li>複數 1：<b>致命一擊</b>：怪物被毀。</li></ul>"
     },
     "DEADLIEST GAME": {
-      "name": "DEADLIEST GAME"
+      "name": "最危險的獵物",
+      "effect": "怪物擁有至少一項可選特徵。"
     },
     "CLAWS": {
-      "name": "CLAWS"
+      "name": "利爪"
     },
     "ACID SPITTLE": {
-      "name": "ACID SPITTLE"
+      "name": "噴吐強酸",
+      "on_hit": "目標陷入<b>離散</b>狀況直到其下一回合結束為止。"
     },
     "ADHESIVE SECRETIONS": {
-      "name": "ADHESIVE SECRETIONS"
+      "name": "黏性分泌",
+      "effect": "每回合第一個受到怪物造成傷害的角色必須成功通過<b>工程豁免</b>，否則陷入<b>緩慢</b>狀況。這個效果會持續到該場景結束，或直到目標回復任何 HP 為止。"
     },
     "BURROWER": {
-      "name": "BURROWER"
+      "name": "掘穴者",
+      "effect": "只要地表具有足夠的可塑性，怪物就能掘挖鑽進地下。在處於地下的期間，牠視為擁有<b>隱形</b>狀態，且能夠隨意移動穿過被任何角色和障礙物佔據的空間；然而，牠在這期間只能進行移動、<b>推進</b>、或以一個<b>快速動作</b>鑽出地面到未被佔據的空間中。當怪物鑽出地面時，所有與其鄰接的角色必須成功通過<b>機體豁免</b>，否則被撞倒<b>伏臥</b>。"
     },
     "CORROSIVE BITE": {
-      "name": "CORROSIVE BITE"
+      "name": "腐蝕咬啃",
+      "effect": "與怪物鄰接的一名角色必須成功通過<b>機體豁免</b>，否則受到 {4/5/6} 燃燒。無論豁免成功與否，它都會陷入<b>離散</b>狀況直到其回復任何 HP 為止。"
     },
     "GRASPING CLAWS": {
-      "name": "GRASPING CLAWS"
+      "name": "攫抓利爪",
+      "effect": "怪物在進行<b>擒拿</b>，以及對正被其<b>擒拿</b>的目標進行攻擊時都得到<b> +1 準度</b>，並得到能在擒拿期間進行<b>推進</b>和<b>反應</b>的能力。"
     },
     "NATURAL CAMOUFLAGE": {
-      "name": "NATURAL CAMOUFLAGE"
+      "name": "天然迷彩",
+      "effect": "怪物在與任何地形或掩護鄰接時會得到<b>隱形</b>狀態，並能把<b>軟性掩護</b>當作<b>硬性掩護</b>。"
     },
     "RAMPAGE": {
-      "name": "RAMPAGE"
+      "name": "橫衝直撞",
+      "effect": "​怪物以直線移動等同其速度的格數，忽略交戰且不會觸發反應，並能夠自由穿過其他角色佔據的空間。所有與其移動路徑上或與之鄰接的角色必須成功通過<b>敏捷豁免</b>，否則受到 {4/6/8} 動能傷害。"
     },
     "SPINED": {
-      "name": "SPINED"
+      "name": "脊柱背刺",
+      "effect": "在怪物受到<b>肉搏武器</b>造成的傷害後，牠會自動對攻擊者造成 {1/2/3} 帶有穿甲效果的動能傷害。"
     },
     "SWIFT": {
-      "name": "SWIFT"
+      "name": "過人迅敏",
+      "effect": "每輪一次，怪物能在牠的回合期間以一個<b>免費動作</b>進行<b>推進</b>。"
     },
     "TEMPERED HIDE": {
-      "name": "TEMPERED HIDE"
+      "name": "淬鍊外皮",
+      "effect": "怪物得到以下其中兩種傷害的<b>抗性</b>：<b>動能</b>、<b>能量</b>、和<b>爆炸</b>。如果牠的 HP 被降到最大值的一半或以下，則牠失去這個<b>抗性</b>。如果牠擁有<b>結構值</b>，則這個抗性會在其 HP 完全回復後再次生效。"
     },
     "WINGED": {
-      "name": "WINGED"
+      "name": "飛翼",
+      "effect": "無論何時，怪物在移動時都能<b>飛行</b>，且不需要在移動結束時著地。"
     },
 
     "COMMANDER": {
