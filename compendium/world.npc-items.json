@@ -546,22 +546,28 @@
       "tactics": "Berserkers are excellent melee duelists that are very scary up close. Their potential is greatest when they are as close to enemy forces as possible. Due to their terrible Heat Cap and E-Defense, Berserkers are vulnerable to tech attacks. Savvy opponents will use Aggression to their own advantage, turning Berserkers against their allies, so it’s best to keep them away from friendly forces."
     },
     "CHAIN AXE": {
-      "name": "CHAIN AXE"
+      "name": "鏈斧",
+      "effect": "<b>會心一擊</b>時：目標陷入<b>離散</b>狀況直至其下一回合結束為止。"
     },
     "STAMPEDE DEFENSE": {
-      "name": "STAMPEDE DEFENSE"
+      "name": "狂暴防禦",
+      "effect": "除非陷入<b>受損</b>、<b>暈眩</b>、<b>固定</b>、<b>離散</b>、<b>緩慢</b>、或<b>曝露</b>狀態，否則狂戰士擁有對所有傷害的<b>抗性</b>。"
     },
     "AGGRESSION": {
-      "name": "AGGRESSION"
+      "name": "侵略性",
+      "effect": "在每輪第一次受到傷害後，狂戰士必須使用<b>鏈斧</b>立即攻擊隨機一個與它鄰接的角色（無論敵友）。"
     },
     "AVALANCHE CHARGE": {
-      "name": "AVALANCHE CHARGE"
+      "name": "雪崩衝刺",
+      "effect": "狂戰士以直線移動等同其速度的格數，忽略交戰且不會觸發反應，接著使用<b>鏈斧</b>立即攻擊隨機一個與它鄰接的角色（無論敵友）。"
     },
     "HARPOON CANNON": {
-      "name": "HARPOON CANNON"
+      "name": "魚叉大炮",
+      "on_hit": "大小與狂戰士相同或更小的目標將被以直線拉到盡可能與狂戰士鄰接的位置。如果目標的大小比狂戰士還大的話，則狂戰士會反過來拉到與目標鄰接的位置。如果目標在移動後與狂戰士鄰接的話，狂戰士對目標進行<b>擒拿</b>。"
     },
     "NAIL GUN": {
-      "name": "NAIL GUN"
+      "name": "釘槍",
+      "on_hit": "目標進行<b>敏捷豁免</b>。若失敗，則目標陷入<b>固定</b>狀況直至其下一回合結束為止。"
     },
 
     "BOMBARD": {
@@ -979,22 +985,29 @@
       "tactics": "Ronins are no-nonsense, high-damage melee strikers. Rebound makes it dangerous for enemies to attack Ronins with ranged weapons, but they tend to suffer against armored enemies and are heavily reliant on Accuracy."
     },
     "CARBON FIBER SWORD": {
-      "name": "CARBON FIBER SWORD"
+      "name": "碳纖維劍",
+      "effect": "<b>會心一擊</b>時：額外造成 +1d6 動能傷害。<br>在等級 2 時，這件武器能同時進行二次攻擊，可以分別選擇相同角色或兩個不同的目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
     },
     "REBOUND": {
-      "name": "REBOUND"
+      "name": "反彈",
+      "trigger": "當浪人受到遠距攻擊造成的傷害時。",
+      "effect": "浪人擲 1d6：骰出 4+ 時，它獲得對該攻擊傷害的<b>抗性</b>，且攻擊者必須以自己為目標再重複進行一次該攻擊。"
     },
     "CHARGED SLASH": {
-      "name": "CHARGED SLASH"
+      "name": "衝刺橫斬",
+      "effect": "所有與浪人鄰接的角色必須成功通過<b>敏捷豁免</b>，否則受到 {6/9/12} 動能傷害；若成功則只受到一半傷害。"
     },
     "ECHO EDGE": {
-      "name": "ECHO EDGE"
+      "name": "回音刀鋒",
+      "effect": "受到浪人造成的傷害的角色將獲得<b>浪人印記</b>。在浪人的回合開始時，浪人能以一個<b>自由動作</b>清除所有<b>浪人印記</b>，並自動對所有擁有<b>浪人印記</b>的角色造成 1d6 帶有穿甲(AP)效果的動能傷害。"
     },
     "INSTINCT MODE": {
-      "name": "INSTINCT MODE"
+      "name": "本能模式",
+      "effect": "直到浪人的下一回合結束前，當浪人在每個回合中第一次成為攻擊的目標時，浪人能先以<b>反應</b>使用<b>碳纖維劍</b>對其射程範圍內的一個角色進行攻擊。"
     },
     "EXTENDED BLADE": {
-      "name": "EXTENDED BLADE"
+      "name": "刀刃展延",
+      "effect": "浪人的<b>碳纖維劍</b>變為<b>威脅 3</b>。當浪人在每個回合中第一次造成<b>會心一擊</b>時，所有處於威脅範圍內的角色（包含原本的目標）都會受到 {2/3/4} 動能傷害。"
     },
 
     "SCOURER": {
@@ -1356,7 +1369,7 @@
     },
     "SPINED": {
       "name": "脊柱背刺",
-      "effect": "在怪物受到<b>肉搏武器</b>造成的傷害後，牠會自動對攻擊者造成 {1/2/3} 帶有穿甲效果的動能傷害。"
+      "effect": "在怪物受到<b>肉搏武器</b>造成的傷害後，牠會自動對攻擊者造成 {1/2/3} 帶有穿甲(AP)效果的動能傷害。"
     },
     "SWIFT": {
       "name": "過人迅敏",
