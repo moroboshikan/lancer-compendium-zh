@@ -934,25 +934,33 @@
       "tactics": "Priests are powerful support mechs that function best when partnered with another character they can empower with Investiture. Use their Dispersal Shield to protect vulnerable targets and Investiture to empower an allied striker or defender. Enemies can disarm Investiture by separating Priests from their partners, at which point both become vulnerable to conditions."
     },
     "ABJURE": {
-      "name": "ABJURE"
+      "name": "戒棄",
+      "effect": "祭司對感應範圍內的一名目標進行<b>科技攻擊</b>。若命中，則直到目標的下一回合結束為止，目標每次進行任何攻擊時都會受到 {2/3/4} 熱度。"
     },
     "INVESTITURE": {
-      "name": "INVESTITURE"
+      "name": "授職",
+      "effect": "祭司把系統連接上在<b> ⌿5 </b>範圍內的一名隊友<b>機甲</b>或<b>載具</b>。只要它們在彼此<b> ⌿5 </b>範圍內維持連線，目標在所有攻擊中都能得到<b> +{1/2/3} 準度</b>，且能夠改為使用祭司的<b>系統</b>值，而非自己的。然而，若任一角色陷入<b>受擾</b>、<b>受損</b>、或<b>暈眩</b>狀況，則另一個角色也會因此同樣的狀況，持續直到該狀況被解除或連線中斷為止。這道連線會在任一角色被毀，或是移離<b> ⌿5 </b>範圍時被停用。祭司同時只能與一個角色連線。"
     },
     "DISPERSAL SHIELD": {
-      "name": "DISPERSAL SHIELD"
+      "name": "分散護盾",
+      "effect": "祭司釋放出一團微型無人機籠罩附近的一名機甲，為其提供保護。祭司或一名位於感應範圍內的隊友角色，將得到對之後 1d3 次成功命中的攻擊造成的傷害和熱度的<b>抗性</b>。這個效果不會累積。"
     },
     "GREATER INVESTITURE": {
-      "name": "GREATER INVESTITURE"
+      "name": "強化授職",
+      "effect": "<b>授職</b>會使目標得到對所有傷害的<b>抗性</b>，但祭司會在連線時陷入<b>固定</b>狀況。"
     },
     "EMPOWERED SHIELD": {
-      "name": "EMPOWERED SHIELD"
+      "name": "賦能護盾",
+      "effect": "<b>分散護盾</b>還會再提供<b>護盾 {5/6/8}</b>效果。"
     },
     "SANCTUARY": {
-      "name": "SANCTUARY"
+      "name": "聖殿",
+      "effect": "祭司選擇一名位於感應範圍內的隊友角色。其他角色在攻擊該目標之前，必須先成功通過<b>系統豁免</b>。若豁免失敗，則直到攻擊者的下一回合開始前，攻擊者都不能再指定該目標作為攻擊目標。"
     },
     "FRACTAL ASSAULT": {
-      "name": "FRACTAL ASSAULT"
+      "name": "碎形突擊",
+      "trigger": "當被<b>授職</b>連線的角色受到傷害時。",
+      "effect": "攻擊者進行<b>系統豁免</b>。若豁免失敗，則攻擊者陷入<b>暈眩</b>狀況直到其下一回合結束為止。"
     },
 
     "PYRO": {
