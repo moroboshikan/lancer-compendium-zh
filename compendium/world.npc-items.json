@@ -453,28 +453,34 @@
       "tactics": "Assaults are straightforward, damage-dealing strikers. Put them somewhere their toughness and decent range can be used effectively, and Hunker Down against damage to maximize their survivability."
     },
     "HEAVY ASSAULT RIFLE": {
-      "name": "HEAVY ASSAULT RIFLE"
+      "name": "重型突擊步槍"
     },
     "COMBAT KNIFE": {
-      "name": "COMBAT KNIFE"
+      "name": "戰鬥匕首"
     },
     "HUNKER DOWN": {
-      "name": "HUNKER DOWN"
+      "name": "蹲伏",
+      "trigger": "當攻擊命中突擊兵，但尚未擲骰決定傷害時。",
+      "effect": "突擊兵獲得對該攻擊的所有傷害的<b>抗性</b>。"
     },
     "UNDERSLUNG GRENADE LAUNCHER": {
-      "name": "UNDERSLUNG GRENADE LAUNCHER"
+      "name": "下懸式榴彈發射器"
     },
     "MICRO-MISSILE BARRAGE": {
-      "name": "MICRO-MISSILE BARRAGE"
+      "name": "微飛彈彈幕",
+      "effect": "突擊兵發射一輪覆蓋 <b>線性 8</b> 範圍的微型飛彈彈幕。在影響範圍內的所有角色必須成功通過<b>機體豁免</b>，否則受到 {6/8/10} 動能傷害。若豁免成功，則只受到一半的傷害。"
     },
     "HIGH IMPACT ROUNDS": {
-      "name": "HIGH IMPACT ROUNDS"
+      "name": "高能衝擊彈藥",
+      "effect": "這些大口徑彈藥只能用於<b>重型突擊步槍</b>。當發射這些子彈時，突擊兵的攻擊得到<b>穿甲(AP)效果</b>和 +4 動能傷害，但<b>重型突擊步槍</b>必須要<b>裝填</b>之後才能再次使用（如同帶有<b>裝填</b>標籤）。"
     },
     "AUTO-TARGETING": {
-      "name": "AUTO-TARGETING"
+      "name": "自動瞄準",
+      "effect": "突擊兵在攻擊時忽略<b>掩護</b>，但仍需要目標位於視線範圍內才能進行攻擊。"
     },
     "RANK DISCIPLINE": {
-      "name": "RANK DISCIPLINE"
+      "name": "部隊紀律",
+      "effect": "當突擊兵與至少一名擁有<b>機甲</b>標籤的隊友角色鄰接時，突擊兵在所有攻擊、判定、和豁免上獲得<b> +1 準度</b>。"
     },
 
     "BARRICADE": {
@@ -636,31 +642,40 @@
       "tactics": "Cataphracts are mobile strikers. Trample allows them to move through enemies and get them to the rear lines, where they can use Impale to force vulnerable targets into disadvantageous positions. Position Cataphracts so that they are closer to individual hostile characters, as Point-Defense Shield doesn’t work if several enemies are an equal distance away. Note that Cataphracts still provoke reactions when they move, so use their abilities carefully."
     },
     "RAM CANNON": {
-      "name": "RAM CANNON"
+      "name": "攻城炮",
+      "effect": "這把騎槍可以被當成遠距或肉搏武器使用，但不能在同一回合同時這麼做。在等級 2~3 時，這件武器能同時進行二次攻擊，選擇同一個或兩個不同角色為目標。"
     },
     "TRAMPLE": {
-      "name": "TRAMPLE"
+      "name": "踐踏",
+      "effect": "重鐵騎忽略<b>交戰</b>並能夠穿過其他角色佔據的空間（但不能停留在該空間），對這些角色造成每回合一次的 {2/3/4} 動能傷害。"
     },
     "IMPALE": {
-      "name": "IMPALE"
+      "name": "穿刺",
+      "effect": "重鐵騎以直線移動最多 8 格。選擇一名位於移動路經上、或與移動終點鄰接的角色；目標必須進行 +1 難度的<b>機體豁免</b>，若失敗，則目標將被重鐵騎<b>擒拿</b>，並被一併拖行到其移動終點。"
     },
     "POINT-DEFENSE SHIELD": {
-      "name": "POINT-DEFENSE SHIELD"
+      "name": "定點防禦護盾",
+      "effect": "重鐵騎對最接近它的敵對角色造成的所有傷害有<b>抗性</b>。如果有複數個同樣接近重鐵騎的角色，則這個效果不會生效。"
     },
     "ELECTRIFIED LASSO": {
-      "name": "ELECTRIFIED LASSO"
+      "name": "電流套索",
+      "effect": "位於視線和 <b>⌿5</b> 範圍內的一個角色必須成功通過<b>機體豁免</b>，否則被拉至盡可能接近重鐵騎的位置；如果目標因此與重鐵騎鄰接，則重鐵騎會自動<b>擒拿</b>目標。"
     },
     "LANCE SHOT": {
-      "name": "LANCE SHOT"
+      "name": "騎槍砲擊",
+      "effect": "重鐵騎發射一發貫穿 <b>線性 5</b> 範圍的電流騎槍。所有範圍內的角色必須成功通過<b>工程豁免</b>，否則陷入<b>受擾</b>狀況直到其下一回結束為止。"
     },
     "ELECTRIFIED BOLA": {
-      "name": "ELECTRIFIED BOLA"
+      "name": "電流絆索",
+      "effect": "位於 <b>⌿10</b> 範圍內一名<b>飛行</b>角色必須進行<b>敏捷豁免</b>。若失敗，則立即著陸並陷入<b>固定</b>狀況直到其下一回合結束為止。這個過程被視為<b>墜落</b>，但不會造成傷害。"
     },
     "CAPACITOR DISCHARGE": {
-      "name": "CAPACITOR DISCHARGE"
+      "name": "電容放電",
+      "effect": "只要重鐵騎不處於<b>緩慢</b>或<b>固定</b>狀況，它就擁有對<b>能量</b>傷害和<b>熱度</b>的抗性。在重鐵騎的回合結束時，所有與其鄰接的角色都會受到 {2/3/4} 熱度。"
     },
     "CHARGE": {
-      "name": "CHARGE"
+      "name": "衝刺",
+      "effect": "​重鐵騎以直線移動等同其速度的格數，忽略交戰且不會觸發反應，然後使用<b>攻城炮</b>攻擊一個位於射程範圍內的角色。"
     },
 
     "DEMOLISHER": {
@@ -669,22 +684,29 @@
       "tactics": "Demolishers are slow, resilient defenders that dish out plenty of damage and stuns when they get close to the enemy. Use their size and power in melee combat to force enemy characters to move away instead of fighting them, and Dig In to shrug off heavy hits."
     },
     "DEMOLITION HAMMER": {
-      "name": "DEMOLITION HAMMER"
+      "name": "爆破鎚",
+      "on_hit": "目標必須成功通過<b>機體豁免</b>，否則陷入<b>暈眩</b>狀況直到其下一回合結束。"
     },
     "DIG IN": {
-      "name": "DIG IN"
+      "name": "掘建掩體",
+      "trigger": "當攻擊命中終結者，但尚未擲骰決定傷害時。",
+      "effect": "終結者獲得對該攻擊的所有傷害的<b>抗性</b>，但陷入<b>緩慢<b>狀況直到其下一回合結束為止。"
     },
     "BROAD-SWEEP HAFT": {
-      "name": "BROAD-SWEEP HAFT"
+      "name": "長柄橫掃",
+      "effect": "終結者揮舞<b>爆破鎚</b>，橫掃 <b>爆發 2</b> 範圍內的所有敵人，而非進行正常的攻擊。對範圍內終結者所選擇的任意數量角色各自進行肉搏攻擊。若命中，則目標受到 {4/6/8} 爆炸傷害並陷入<b>受損</b>狀況直到其下一回合結束為止。"
     },
     "KINETIC COMPENSATION": {
-      "name": "KINETIC COMPENSATION"
+      "name": "動能補償",
+      "effect": "每當終結者使用<b>爆破鎚</b>進行的攻擊失手，它所有後續的攻擊都會得到<b> +1 準度</b>，持續直到它下次攻擊命中為止。這個準度可以被重複獲得並疊加。"
     },
     "CONCUSSION MISSILES": {
-      "name": "CONCUSSION MISSILES"
+      "name": "震撼飛彈",
+      "effect": "所有在終結者<b> ⌿5 </b>範圍和視線範圍內，所有終結者所選擇的角色必須成功通過<b>機體豁免</b>，否則陷入<b>緩慢</b>和<b>受損</b>狀況直到其下一回合結束為止。"
     },
     "SEISMIC DESTROYER": {
-      "name": "SEISMIC DESTROYER"
+      "name": "地震破壞者",
+      "effect": "所有位於 <b>錐形 3</b> 或 <b>線性 5</b> 範圍內的角色，除非會<b>飛行</b>，不然都必須成功通過<b>敏捷豁免</b>。豁免失敗的角色會陷入<b>暈眩</b>狀況直到其下一回合結束為止。"
     },
 
     "ENGINEER": {
@@ -693,28 +715,36 @@
       "tactics": "Engineers’ Deployable Turrets make them potent force multipliers, as they can deploy one every turn. If enemies don’t deal with an Engineer's turrets quickly, their potential damage quickly skyrockets – even more when they target characters with Engineer’s Mark. Without Engineer’s Mark, turrets attack the nearest target, which players can use to control who takes damage."
     },
     "FLAK CANNON": {
-      "name": "FLAK CANNON"
+      "name": "防空炮",
+      "effect": "這件武器對<b>飛行</b>目標進行的攻擊獲得<b> +2 準度</b>。"
     },
     "DEPLOYABLE TURRET": {
-      "name": "DEPLOYABLE TURRET"
+      "name": "部署型炮塔",
+      "effect": "<b>部署型炮塔（大小 1/2、HP {5/8/10}、迴避 10、電子防禦 10、標籤：無人機）<br><br>這種能自行建造的炮塔可以在任何鄰接且未被占據的空間被展開。在工程師的回合中，部署型炮塔會對 <b>⌿10</b> 範圍內最接近的一名敵對角色。這個攻擊有 +{1/2/3} 加值且會造成 {4/5/6} 動能傷害。工程師能同時有最多 6 架展開的炮塔，且它們全都會在工程師被毀時停止運作。"
     },
     "ENGINEER’S MARK": {
-      "name": "ENGINEER’S MARK"
+      "name": "工程師印記",
+      "effect": "直到工程師的下一回合結束為止，工程師的<b>部署型炮塔</b>能夠自行選擇（射程內）要攻擊的目標，而非直接攻擊最接近的敵對角色。"
     },
     "POWER DEPLOYER": {
-      "name": "POWER DEPLOYER"
+      "name": "能源展開器",
+      "effect": "工程師能夠使用<b>部署型炮塔</b>同時展開 2 架炮塔。如果它這麼做，則該系統被視為擁有<b> 充能 4+ </b>標籤，持續直到其下一次成功充能為止。"
     },
     "SKYSHIELD PROTOCOL": {
-      "name": "SKYSHIELD PROTOCOL"
+      "name": "穹盾協定",
+      "effect": "<b>部署型炮塔</b>對<b>飛行</b>目標進行的攻擊獲得<b> +2 準度</b>。"
     },
     "SHEPHERD FIELD": {
-      "name": "SHEPHERD FIELD"
+      "name": "牧人力場",
+      "effect": "​與工程師鄰接的<b>無人機</b>、<b>物件</b>和<b>掩護</b>都得到對所有傷害的<b>抗性</b>。"
     },
     "MOBILE TURRETS": {
-      "name": "MOBILE TURRETS"
+      "name": "機動炮塔",
+      "effect": "​在工程師的回合開始時，它能讓任意數量的<b>部署型炮塔</b>往任意方向移動最多 3 格。"
     },
     "ARSENAL": {
-      "name": "ARSENAL"
+      "name": "軍火庫",
+      "effect": "當工程師使用<b>部署型炮塔</b>時，它可以為它的炮塔選擇以下其中一個改造：<ul><li><b>業火</b>：炮塔的攻擊變為<b> 錐形 3 </b>範圍，造成 {2/3/4} 燃燒。</li><li><b>獄嵐</b>：炮塔的攻擊變為<b> ⌿3 </b>射程，<b>爆發 1 </b>範圍，造成 {2/3/4} 爆炸傷害。</li><li><b>獵人</b>：炮塔的攻擊獲得 <b>可靠 1</b> 效果。</li><li><b>蓄爆</b>：當該炮塔或工程師被毀時，該炮塔會爆炸，席捲<b> 爆發 1 </b>範圍內的區域。範圍區域內的角色必須成功通過<b>敏捷豁免</b>，否則受到 {7/9/11} 爆炸傷害。</li></ul>"
     },
 
     "GOLIATH": {
@@ -724,7 +754,7 @@
     },
     "DRUM SHOTGUN": {
       "name": "彈鼓散彈槍",
-      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，可以分別選擇相同角色或兩個不同的目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
+      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，選擇同一個或兩個不同角色為目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
     },
     "CRUSH TARGETING": {
       "name": "威懾目標",
@@ -754,7 +784,7 @@
     },
     "HUNTER-KILLER NEXUS": {
       "name": "獵殺巢房",
-      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，可以分別選擇相同角色或兩個不同的目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
+      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，選擇同一個或兩個不同角色為目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
     },
     "DRONE BARRAGE": {
       "name": "無人機火網",
@@ -986,7 +1016,7 @@
     },
     "CARBON FIBER SWORD": {
       "name": "碳纖維劍",
-      "effect": "<b>會心一擊</b>時：額外造成 +1d6 動能傷害。<br>在等級 2 時，這件武器能同時進行二次攻擊，可以分別選擇相同角色或兩個不同的目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
+      "effect": "<b>會心一擊</b>時：額外造成 +1d6 動能傷害。<br>在等級 2 時，這件武器能同時進行二次攻擊，選擇同一個或兩個不同角色為目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
     },
     "REBOUND": {
       "name": "反彈",
@@ -1164,7 +1194,7 @@
     },
     "MONOWIRE SWORD": {
       "name": "單分子劍",
-      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，可以分別選擇相同角色或兩個不同的目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
+      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，選擇同一個或兩個不同角色為目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
     },
     "PROWL": {
       "name": "潛行",
@@ -1184,7 +1214,7 @@
     },
     "MACHINE PISTOL": {
       "name": "衝鋒手槍",
-      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，可以分別選擇相同角色或兩個不同的目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
+      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，選擇同一個或兩個不同角色為目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
     },
     "WEAKNESS ANALYZER": {
       "name": "弱點分析儀",
@@ -1522,7 +1552,7 @@
     },
     "EFFICIENT KILLER": {
       "name": "高效殺手",
-      "effect": "傭兵對結構值 2 或以下的角色進行的攻擊，會得到<b> +1 準度</b> 和 <b>AP</b>。"
+      "effect": "傭兵對結構值 2 或以下的角色進行的攻擊，會得到<b> +1 準度</b> 和<b>穿甲(AP)效果</b>。"
     },
     "FAVORS OWED": {
       "name": "償還人情",
