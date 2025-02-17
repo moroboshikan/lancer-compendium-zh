@@ -1,0 +1,198 @@
+{
+  "label": "lancer.compendium.player-actors",
+  "mapping": {
+    "detail": "system.detail"
+  },
+  "entries": {
+    "Aegis Shield Generator": {
+      "name": "Aegis Shield Generator",
+      "tokenName": "Aegis Shield Generator",
+      "detail": "Set out three d6s to represent the generator’s remaining power. As a reaction when any character or object of your choice at least partly in the area takes damage, you may roll one of the d6s to reduce the damage by the amount rolled.<br>This effect lasts for the rest of the scene, until all dice have been rolled and the generator loses power, or the generator is destroyed."
+    },
+    "Armor Pack": {
+      "name": "Armor Pack",
+      "tokenName": "Armor Pack",
+      "detail": "When finished, this pack latches onto the next allied character that moves adjacent to it and fuses onto them. The project is destroyed, but they gain +1 ARMOR for the rest of the scene. This could temporarily put them over the armor maximum."
+    },
+    "Assassin Drone": {
+      "name": "Assassin Drone",
+      "tokenName": "Assassin Drone",
+      "detail": "Upon deployment, it targets a blast 2 area of your choice within line of sight and Sensors and you gain the Area Denial reaction (usable any number of times a round).<br>You may recall or redeploy the assassin drone as a quick action. Until recalled or destroyed, it remains deployed until the end of the scene."
+    },
+    "Autoloader Drone": {
+      "name": "Autoloader Drone",
+      "tokenName": "Autoloader Drone",
+      "detail": "1/round, one character adjacent to it may reload a Loading weapon as a quick action. It deactivates at the end of the scene."
+    },
+    "Bouncing Mine": {
+      "name": "Bouncing Mine",
+      "tokenName": "Bouncing Mine",
+      "detail": "This mine detonates when a flying character passes over or adjacent to it, up to 10 spaces high. The mine launches itself upwards and detonates: all characters within the affected area must succeed on a Systems save or take 2d6 explosive damage and immediately land (this counts as falling without any damage); additionally, they can’t fly until the end of their next turn. On a success, they take half damage and are otherwise unaffected."
+    },
+    "Breaching Charge": {
+      "name": "Breaching Charge",
+      "tokenName": "Breaching Charge",
+      "detail": "In addition to adjacent free spaces, this mine can also be planted on adjacent walls, pieces of cover, and terrain. Once armed, this mine must be detonated with a quick action. Characters within the affected area must succeed on an Agility save or take 2d6 AP explosive damage. On a success, they take half damage. Objects and terrain are hit automatically and take 30 AP explosive damage."
+    },
+    "Damping Station": {
+      "name": "Damping Station",
+      "tokenName": "Damping Station",
+      "detail": "When finished, this repair station generates a Burst 1 field within which allied characters gain IMMUNITY to burn and clear any burn currently affecting them."
+    },
+    "Deployable Shield (Reserve)": {
+      "name": "Deployable Shield (Reserve)",
+      "tokenName": "Deployable Shield (Reserve)",
+      "detail": "Grants soft cover to all friendly characters in a BURST 2 radius"
+    },
+    "Emplacement": {
+      "name": "Emplacement",
+      "tokenName": "Emplacement",
+      "detail": "When finished, this elevated emplacement is SIZE 1 and 3 spaces high. The top third is a is a shielded platform that can fit characters up to a combined SIZE 1 (the rest is solid metal or plastic). Firing slits allow line of sight both into and out of the emplacement but give characters within hard cover from all directions. Characters can enter or exit the emplacement from any adjacent space as a quick action. Upon entering, they move into the shielded platform. Characters and DEPLOYABLES can stand on the flat roof of the structure, but don’t gain cover."
+    },
+    "Explosive Mine": {
+      "name": "Explosive Mine",
+      "tokenName": "Explosive Mine",
+      "detail": "All characters within a Burst 1 area must pass an Agility save or take 2d6 Explosive damage. On a success, they take half damage."
+    },
+    "Flash Mine": {
+      "name": "Flash Mine",
+      "tokenName": "Flash Mine",
+      "detail": "This mine detonates in a Burst 1 area when a character moves adjacent to or over it. Characters within the affected area must succeed on an Agility save or they only have line of sight to adjacent spaces until the end of their next turn."
+    },
+    "Ghast Drone": {
+      "name": "Ghast Drone",
+      "tokenName": "Ghast Drone",
+      "detail": "This Ghast nexus can be deployed to a free space within Sensors and line of sight as a free action, where it becomes a stationary, hovering Drone. Once deployed, you may still use it for Skirmish and Barrage attacks as though it is still a weapon, but with line of sight and Range traced from its location.<br>You may recall or redeploy the Ghast nexus as a quick action. Until recalled or destroyed, it remains deployed until the end of the scene. If destroyed, it follows the rules for destroyed Drones and can’t be used until repaired."
+    },
+    "Grounding Mine": {
+      "name": "Grounding Mine",
+      "tokenName": "Grounding Mine",
+      "detail": "This mine must be detonated remotely as a quick action, affecting a single character within range 5 of the mine: they must succeed on a Hull save or be pulled as far as possible toward the mine and knocked Prone. Flying characters that fail the save are affected the same way, except they are also forced to land (this counts as falling but without damage)."
+    },
+    "Guardian OROCHI Drone": {
+      "name": "Guardian OROCHI Drone",
+      "tokenName": "Guardian OROCHI Drone",
+      "detail": "This drone projects a shield. Ranged attacks against adjacent allied characters receive +1 difficulty."
+    },
+    "HAVOK Mine": {
+      "name": "HAVOK Mine",
+      "tokenName": "HAVOK Mine",
+      "detail": "When a character moves over or adjacent to this mine, it detonates with a focused explosion in a line 5 path in the direction of the character who triggered it. Characters within the affected area must succeed on an Agility save or take 4 burn. On a success, they take 2 burn."
+    },
+    "Hive Drone": {
+      "name": "Hive Drone",
+      "tokenName": "Hive Drone",
+      "detail": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action."
+    },
+    "Hunter OROCHI Drone": {
+      "name": "Hunter OROCHI Drone",
+      "tokenName": "Hunter OROCHI Drone",
+      "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make a Systems save. On a failure, they receive Lock On."
+    },
+    "ICEOUT Drone": {
+      "name": "ICEOUT Drone",
+      "tokenName": "ICEOUT Drone",
+      "detail": "Characters at least partially within the ICEOUT drone's Burst 1 area gain Immunity to all tech actions, and can’t make tech actions. Existing conditions and effects caused by tech actions are not cleared but characters have Immunity to them while they are in the area, and they can be saved against normally.<br>The ICEOUT drone can be moved to any point within Sensors as a quick action. It cannot be recalled and expires at the end of the scene."
+    },
+    "Jericho Deployable Cover": {
+      "name": "耶利哥展開掩體",
+      "tokenName": "耶利哥展開掩體",
+      "detail": "你與你鄰接的兩個未佔據空間中展開兩個<b>大小 1 </b>的<b>硬性掩護</b>。每一個掩體都是<b> 5 迴避 </b>和<b> 10 HP </b>的物件，且能各自被選為目標或被毀。這些掩體可以透過<b>完整動作</b>被撿起。"
+    },
+    "Lotus Projector": {
+      "name": "Lotus Projector",
+      "tokenName": "Lotus Projector",
+      "detail": "This scout drone can be deployed to a space within Sensors and line of sight, where it emits a Burst 2 field with the following effects:<ul><li>You know the current location, HP, Evasion, E-Defense, and Heat of all characters within the affected area.</li><li>Hostile characters cannot Hide in the area, and if they end their turn in the affected area they cease to be Hidden.</li><li>Hostile characters can’t benefit from being Invisible while in the affected area.</li></ul>You can recall and redeploy your scout drone as a quick action."
+    },
+    "Lurker Mine": {
+      "name": "Lurker Mine",
+      "tokenName": "Lurker Mine",
+      "detail": "This mine does not detonate as normal. Instead, gain the Selective Detonation reaction, which can be performed once per deployed lurker mine."
+    },
+    "Markey’s Fusebox": {
+      "name": "Markey’s Fusebox",
+      "tokenName": "Markey’s Fusebox",
+      "detail": "Expend a charge to set an explosive charge in a free adjacent space. It arms at the end of the round; once armed, it explodes if it takes any damage or heat. Characters within Burst 3 must succeed on an AGILITY save or take 2d6 Explosive damage and be pushed out of the affected area, or as far as possible. On a success, they are still pushed but take half damage."
+    },
+    "Mesmer Mine": {
+      "name": "Mesmer Mine",
+      "tokenName": "Mesmer Mine",
+      "detail": "Characters within the affected Burst 2 area must succeed on a Systems save or become Immobilized until the end of their next turn."
+    },
+    "Omnibus Plate": {
+      "name": "Omnibus Plate",
+      "tokenName": "Omnibus Plate",
+      "detail": "The plate cannot be moved, is flat, and does not block movement. It is large enough to hold a single SIZE 1 or smaller DRONE or DEPLOYABLE at a time. DRONES and DEPLOYABLES placed on the plate gain RESISTANCE to all damage and gain +1 to the size of any BURST or BLAST effects they generate. Additionally, any of their effects that require adjacency can now be activated from within Range 2."
+    },
+    "Perimeter Command Plate": {
+      "name": "Perimeter Command Plate",
+      "tokenName": "Perimeter Command Plate",
+      "detail": "The plate activates for a character the first time that character enters its space during a round, or if they end their turn there.<br>Upon printing, choose a setting:<ul><li><b>Repulse:</b> Hostile characters that move onto the PCP must succeed on a Hull save or be pushed 3 spaces in the direction of your choice. If this causes them to collide with an obstruction, they are knocked Prone. Allied characters that enter the space may immediately fly 3 spaces in any direction as a free action.</li><li><b>Attract:</b> Characters that move onto the PCP must succeed on a Hull save or become Immobilized. They can clear Immobilized by successfully repeating the save as a quick action; it is also cleared if the PCP is destroyed."
+    },
+    "Portable Bunker": {
+      "name": "Portable Bunker",
+      "tokenName": "Portable Bunker",
+      "detail": "All characters completely within the bunker's 4x4 area gain hard cover against all attacks from outside the bunker from all directions and Resistance to damage from Blast, Line, Burst, and Cone attacks that originate outside the bunker.<br>The bunker is open topped, and characters may enter or exit at will. It can’t be moved or deactivated once deployed."
+    },
+    "Restock Drone": {
+      "name": "Restock Drone",
+      "tokenName": "Restock Drone",
+      "detail": "While adjacent to this drone, allied characters can activate it as a quick action, clearing 1d6 heat and one condition, and reloading one Loading weapon. After being activated, the drone immediately disintegrates."
+    },
+    "Sentinel Drone": {
+      "name": "Sentinel Drone",
+      "tokenName": "Sentinel Drone",
+      "detail": "The sentinel drone can be deployed to any free space within Sensors and line of sight, where it establishes a burst 2 security perimeter. Hostile characters within the affected area take 3 kinetic damage from the drone’s automatic fire before making any attack.<br>The sentinel drone can be redeployed to a new location or recalled as a quick action."
+    },
+    "Shredder OROCHI Drone": {
+      "name": "Shredder OROCHI Drone",
+      "tokenName": "Shredder OROCHI Drone",
+      "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make a Hull save. On a failure, they take 1 kinetic damage and become Shredded until the end of their next turn."
+    },
+    "Smoke Mine": {
+      "name": "煙霧地雷",
+      "tokenName": "煙霧地雷",
+      "detail": "這個地雷會在任何隊友角色移動到它所在或鄰接空間時引爆。所有處於其<b> 爆發 3 </b>範圍內的角色和物件都會得到<b>軟性掩護</b>，持續直到將其引爆的角色的下一回合結束為止。"
+    },
+    "SMOKESTACK Heat Sink": {
+      "name": "SMOKESTACK Heat Sink",
+      "tokenName": "SMOKESTACK Heat Sink",
+      "detail": "Expend a charge to deploy a pylon that absorbs heat in a Burst 2 area around itself. It absorbs any heat dealt to characters at least partially within the affected area from any source (before reductions, including RESISTANCE). Once the pylon has absorbed 6 Heat, it explodes. Characters within the affected area must succeed on an AGILITY save or take 1d6+3 AP Energy Damage. On a success, they take half damage. Objects and DEPLOYABLES are hit automatically. Any excess heat absorbed by the pylon as part of the same action or effect that caused it to explode disperses with no effect."
+    },
+    "Snare Foam": {
+      "name": "Snare Foam",
+      "tokenName": "Snare Foam",
+      "detail": "When finished, this project continually sprays foam around it, creating a Burst 2 area of difficult terrain. Destroying it removes the effect."
+    },
+    "Snare OROCHI Drone": {
+      "name": "Snare OROCHI Drone",
+      "tokenName": "Snare OROCHI Drone",
+      "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make an Agility save. On a failure, they become Immobilized. They only cease to be Immobilized when the drone is destroyed or no longer adjacent, or they succeed on an Agility save as a quick action."
+    },
+    "Stasis Barrier": {
+      "name": "Stasis Barrier",
+      "tokenName": "Stasis Barrier",
+      "detail": "Generate a line 4 barrier 4 spaces high in free spaces with at least one space adjacent to you. It counts as an obstruction and provides soft cover, but doesn’t block line of sight.<br>When an attack is made against a character that benefits from this barrier’s soft cover, roll 1d6: on 4+, the attack is consumed by the barrier and has no effect whatsoever. The barrier lasts for the rest of the scene, or until you deactivate it as a quick action. This effect does not stack with Invisible."
+    },
+    "Tempest Drone": {
+      "name": "Tempest Drone",
+      "tokenName": "Tempest Drone",
+      "detail": "Any character that starts their turn adjacent to the tempest drone or moves adjacent to it for the first time in a round must succeed on a Hull save or take 4 energy damage and be knocked 3 spaces directly away from the drone.<br>You may recall or redeploy the tempest drone as a quick action. Until recalled or destroyed, it remains deployed until the end of the scene."
+    },
+    "Thermite Charge": {
+      "name": "Thermite Charge",
+      "tokenName": "Thermite Charge",
+      "detail": "This charge must be remotely detonated as a quick action. Affected characters must succeed on an Engineering save or take 3 Energy AP. Thermal charges automatically hit objects, dealing 10 Energy AP."
+    },
+    "Turret Drone": {
+      "name": "Turret Drone",
+      "tokenName": "Turret Drone",
+      "detail": "Gain the Turret Attack reaction, which can be taken once for each deployed turret drone. Turret drones cannot be recalled and expire at the end of the scene."
+    },
+    "Webjaw Snare": {
+      "name": "Webjaw Snare",
+      "tokenName": "Webjaw Snare",
+      "detail": "The Webjaw Snare does not obstruct movement, and can’t be attacked until it is triggered.<br>The snare is triggered when any character moves over it. They must succeed on a Hull save or take 1d6 AP kinetic damage and become Immobilized. This effect lasts until the snare is destroyed."
+    }
+  }
+}
