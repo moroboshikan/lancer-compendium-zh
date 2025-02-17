@@ -1,7 +1,10 @@
 {
   "label": "lancer.compendium.player-actors",
   "mapping": {
-    "detail": "system.detail"
+    "system": {
+      "path": "system",
+      "converter": "generalConverter"
+    }
   },
   "entries": {
     "Aegis Shield Generator": {
@@ -50,9 +53,9 @@
       "detail": "When finished, this elevated emplacement is SIZE 1 and 3 spaces high. The top third is a is a shielded platform that can fit characters up to a combined SIZE 1 (the rest is solid metal or plastic). Firing slits allow line of sight both into and out of the emplacement but give characters within hard cover from all directions. Characters can enter or exit the emplacement from any adjacent space as a quick action. Upon entering, they move into the shielded platform. Characters and DEPLOYABLES can stand on the flat roof of the structure, but don’t gain cover."
     },
     "Explosive Mine": {
-      "name": "Explosive Mine",
-      "tokenName": "Explosive Mine",
-      "detail": "All characters within a Burst 1 area must pass an Agility save or take 2d6 Explosive damage. On a success, they take half damage."
+      "name": "爆裂地雷",
+      "tokenName": "爆裂地雷",
+      "detail": "所有位於其<b> 爆發 1 </b>範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 2d6 爆炸傷害。豁免成功則只受到一半的傷害。"
     },
     "Flash Mine": {
       "name": "Flash Mine",
@@ -185,9 +188,16 @@
       "detail": "This charge must be remotely detonated as a quick action. Affected characters must succeed on an Engineering save or take 3 Energy AP. Thermal charges automatically hit objects, dealing 10 Energy AP."
     },
     "Turret Drone": {
-      "name": "Turret Drone",
-      "tokenName": "Turret Drone",
-      "detail": "Gain the Turret Attack reaction, which can be taken once for each deployed turret drone. Turret drones cannot be recalled and expire at the end of the scene."
+      "name": "無人炮塔",
+      "tokenName": "無人炮塔",
+      "detail": "得到<b>炮塔攻擊</b>反應，每展開一個無人炮塔就能使用這個反應一次。無人炮塔無法回收，且會在場景結束時停止運作。",
+      "actions": {
+        "Turret Attack": {
+          "name": "炮塔攻擊",
+          "trigger": "當無人炮塔的 ⌿10 範圍內有隊友角色進行攻擊並命中時。",
+          "detail": "無人炮塔對在視線範圍內的目標造成 3 動能傷害。"
+        }
+      }
     },
     "Webjaw Snare": {
       "name": "Webjaw Snare",

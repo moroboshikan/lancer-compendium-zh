@@ -112,6 +112,10 @@
       "name": "穩定結構",
       "effect": "你在對抗<b>伏臥</b>和<b>擊退</b>的豁免中得到<b> +1 準度</b>。"
     },
+    "Armament Redundancy": {
+      "name": "武裝冗餘",
+      "effect": "當你受到<b>結構傷害</b>時，可以選擇忽略因<b>系統創傷</b>導致的武器毀壞。<br>這個系統在每次<b>全面維修</b>前只能使用一次，且它不會成為<b>系統破壞</b>的目標。"
+    },
     "Pattern-A Jericho Deployable Cover": {
       "name": "A型耶利哥展開掩體",
       "effect": "你在與你鄰接的兩個未佔據空間中展開兩個<b>大小 1 </b>的<b>硬性掩護</b>。每一個掩體都是<b> 5 迴避 </b>和<b> 10 HP </b>的物件，且能各自被選為目標或被毀。這些掩體可以透過<b>完整動作</b>被撿起。<br>維修這個系統會恢復所有已經展開的掩體額度。"
@@ -126,7 +130,13 @@
       }
     },
     "Pattern-B HEX Charges": {
-      "name": "B型毒咒炸彈"
+      "name": "B型毒咒炸彈",
+      "actions": {
+        "Frag Grenade": {
+          "name": "破片手榴彈",
+          "detail": "往 ⌿5 射程範圍內投擲一顆破片手榴彈。所有在其<b> 爆發 1 </b>範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 1d6 爆炸傷害。豁免成功則只受到一半的傷害。"
+        }
+      }
     },
     "Turret Drones": {
       "name": "無人炮塔",
@@ -219,6 +229,12 @@
     },
     "Thermal Rifle": {
       "name": "高熱步槍"
+    },
+    "Hurricane Cluster Projector": {
+      "name": "颶風集束投射器"
+    },
+    "Tempest Charged Blade": {
+      "name": "暴風充能劍"
     }
   }
 }

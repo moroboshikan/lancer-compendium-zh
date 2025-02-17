@@ -10,7 +10,8 @@ Hooks.once('init', () => {
 
 		Babele.get().registerConverters({
 			"lidShunt": lidShunt,
-			"mechFrame": mechShunt
+			"mechFrame": mechShunt,
+			"generalConverter": generalConverter
 		});
 	}
 });
