@@ -3,7 +3,7 @@
   "title": "lancer 繁體中文化",
   "description": "《槍騎兵 Lancer》的中文化套件，需搭配 Babele 套件使用。",
   "author": "Hazmole",
-  "version": "1.0.0",
+  "version": "0.0.5",
   "compatibility": {
     "minimum": "11",
     "verified": "11"

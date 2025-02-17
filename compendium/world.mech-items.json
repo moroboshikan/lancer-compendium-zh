@@ -28,7 +28,7 @@
     },
     "Sagarmatha": {
       "name": "薩加瑪塔",
-      "description": "<p>The SAGARMATHA is a SIZE 2 legacy GMS chassis that all characters have access to from LL0 onwards. This variant FRAME is not mutually exclusive with the EVEREST.</p><p>The Sagarmatha is of an older pattern than the Everest, sturdier and bulkier by necessity more than design. It is seen as somewhat antiquated through the lens of modern manufacturing standards. Nevertheless, it enjoys some use in border colonies, in the Baronies, and with the Albatross.</p>",
+      "description": "<p>薩加瑪塔是一架大小為 2 的舊型 GMS 骨架，自 LL0 起的所有角色都能夠輕易駕馭。這個變體骨架與埃佛勒斯的存在並不互斥。</p><p>薩加瑪塔的結構模板比埃佛勒斯更為古老，且基於實際需求而非設計考量，顯得更加堅固與笨重。以現代製造標準來看，薩加瑪塔顯得有些過時。但儘管如此，它在邊境殖民地、男爵領、以及信天翁聯隊中仍有一定的使用率。</p>",
       "traits": {
         "Guardian": {
           "name": "守護者",
@@ -47,6 +47,41 @@
         "name": "號召戰吼",
         "active_name": "舉旗",
         "active_effect": "你舉起旗幟。所有在當你這樣做時位於你機甲視線範圍內的隊友角色都會得到對<b>所有傷害和熱度</b>的<b>抗性</b>，並在所有判定和豁免中得到<b> +1 準度</b>。這些效果會維持直到你的下一回合結束為止。"
+      }
+    },
+    "Chomolungma": {
+      "name": "珠穆朗瑪",
+      "description": "<p>儘管大眾對於 GMS 的印象可能就是間了無新意、作風保守的生產商，聯盟仍投入了大量資源在新型軍備研發和技術突破，試圖讓 GMS 的影響力地位能並肩或超越其他銀河級組織，像哈里遜兵工廠（HA）或卡拉金貿易男爵領。在聯盟的高級專案特殊研究機構與通用重型系統（GMS）的聯合開發下，以 GMS 一號標準樣式為基礎設計，使用了更新技術，擁有更進階科技能力的骨架：珠穆朗瑪就此問世。</p><p>珠穆朗瑪屬於特化型骨架，捨棄了原有的武器掛載點容量，換取額外的感應器、通訊／傳輸陣列、以及先進的 GMS 電戰系統，包括最尖端的系統入侵軟體套件與遞迴織維超處理器。鑑於近期發生的衝突，聯盟已經開始提升正規軍和輔助部隊間的珠穆朗瑪牌照分發率，試圖跟上戰術與技術演變的發展節奏。</p>",
+      "traits": {
+        "Brilliance": {
+          "name": "睿智輝光",
+          "description": "一個場景一次，珠穆朗瑪能以一個<b>免費動作</b>進行任何<b>快速科技</b>動作，然後再以一個<b>免費動作</b>進行<b>強化</b>或<b>鎖定</b>。"
+        },
+        "Data Siphon": {
+          "name": "數據虹吸",
+          "description": "當珠穆朗瑪對敵對角色進行<b>科技攻擊</b>時，可以再自動對目標進行<b>掃描</b>。"
+        },
+        "Replaceable Parts": {
+          "name": "替換組件",
+          "description": "在休息時，埃佛勒斯每修復 1 點結構傷害需要花費<b> 1 維修</b>而非原本的<b> 2 維修</b>。"
+        }
+      },
+      "core_system": {
+        "name": "進階入侵套件",
+        "active_name": "廣域編碼脈衝",
+        "active_effect": "選擇位於感應範圍內任意數量的敵對角色做為目標，忽略<b>隱形</b>狀況和視線範圍限制，對其進行特殊的<b>入侵</b>科技攻擊。若命中，則如常適用<b>入侵</b>的效果，為每個獨立目標各自選擇其適用的入侵選項。若失手，則目標陷入<b>受損</b>狀況直到其下一回合結束為止。",
+        "passive_name": "進階入侵套件",
+        "passive_effect": "獲得以下入侵選項：",
+        "passive_actions": {
+          "Balance Control Lockout": {
+            "name": "姿態控制閉鎖",
+            "detail": "把你的目標往任意方向推動 2 格，並將其擊倒陷入<b>伏臥</b>狀況。若目標已經處於<b>伏臥</b>狀況，則其陷入<b>固定</b>狀況直到其下一回合結束為止。每個角色在同個場景中只能因為這個方式陷入<b>固定</b>狀況一次。"
+          },
+          "System Crusher": {
+            "name": "系統崩潰器",
+            "detail": "你的目標額外得到<b> 2 熱度</b>，總計為 4 熱度。如果這次<b>入侵</b>導致目標超過其熱度上限，則目標還會受到 4 燃燒。每個角色在同個場景中只會被這個效果影響一次。"
+          }
+        }
       }
     }
   }
