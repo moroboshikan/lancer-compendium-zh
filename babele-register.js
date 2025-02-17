@@ -39,11 +39,12 @@ function lidShunt(value, _trans, data, compendium) {
 }
 
 function mechShunt(value, trans, data, compendium) {
-	if (data.type === "frame") return mechFrameConverter(value, trans, data, compendium);
+	if (data.type === "frame")       return generalConverter(value, trans, data, compendium);
+	if (data.type === "mech_system") return generalConverter(value, trans, data, compendium);
 	
 	return value;
 }
-function mechFrameConverter(value, _trans, data, compendium) {
+function generalConverter(value, _trans, data, compendium) {
 	let entry = compendium.translations[data.name];
 	if (!entry) return value;
 
