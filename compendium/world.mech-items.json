@@ -3,7 +3,7 @@
   "mapping": {
     "system": {
       "path": "system",
-      "converter": "mechFrame"
+      "converter": "generalConverter"
     }
   },
   "entries": {

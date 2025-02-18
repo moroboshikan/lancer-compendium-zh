@@ -9,47 +9,30 @@ Hooks.once('init', () => {
 		});
 
 		Babele.get().registerConverters({
-			"lidShunt": lidShunt,
-			"mechFrame": mechShunt,
 			"generalConverter": generalConverter
 		});
 	}
 });
 
-function lidShunt(value, _trans, data, compendium) {
-	let entry = compendium.translations[data.name];
-
-	if (!entry) return value;
-
-	let retObj = Object.assign({}, value);
-	if (entry[value.lid]) {
-		let specEntry = entry[value.lid];
-		for (const [key, value] of Object.entries(specEntry)) {
-			retObj[key] = value;
-		}
-		return retObj;
-	}
-
-	for (const [key, value] of Object.entries(entry)) {
-		if (retObj[key] != undefined) {
-			retObj[key] = value;
-		}
-	}
-
-	return retObj;
-}
-
-function mechShunt(value, trans, data, compendium) {
-	if (data.type === "frame")       return generalConverter(value, trans, data, compendium);
-	if (data.type === "mech_system") return generalConverter(value, trans, data, compendium);
+function generalConverter(system, _trans, data, compendium) {
+	const id = data._id;
+	const name = data.name;
 	
-	return value;
-}
-function generalConverter(value, _trans, data, compendium) {
-	let entry = compendium.translations[data.name];
-	if (!entry) return value;
+	// Check TranslationEntry
+	let entry = (compendium.translations[name] || compendium.translations[id]);
+	if (!entry) return system;
 
-	let retObj = Object.assign({}, value);
+	// Copy ReturnValue
+	let retObj = Object.assign({}, system);
+	
+	// LID Shunt
+	const lid  = system.lid;
+	if (entry[lid]) {
+		if (entry[lid].name) {
+			data.name = entry[lid].name;
+		}
+		return objectConvert(retObj, entry[lid]);
+	}
 	return objectConvert(retObj, entry);
 }
 

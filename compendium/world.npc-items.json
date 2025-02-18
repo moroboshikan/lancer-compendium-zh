@@ -6,10 +6,9 @@
     "NPC Template": "NPC 模板"
   },
   "mapping": {
-    "description": "system.description",
     "system": {
       "path": "system",
-      "converter": "lidShunt"
+      "converter": "generalConverter"
     }
   },
   "entries": {
