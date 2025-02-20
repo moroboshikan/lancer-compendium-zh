@@ -9,10 +9,29 @@ Hooks.once('init', () => {
 		});
 
 		Babele.get().registerConverters({
+			"nameShunt": nameShunt,
 			"generalConverter": generalConverter
 		});
 	}
 });
+
+function nameShunt(value, _trans, data, compendium) {
+	const id = data._id;
+	const name = data.name;
+	const type = data.type;
+	
+	// Check TranslationEntry
+	let entry = (compendium.translations[name] || compendium.translations[id]);
+	if (!entry) return value;
+
+	if (entry.name) {
+		return entry.name;
+	}
+	if (type && entry[type]) {
+		return entry[type];
+	}
+	return name;
+}
 
 function generalConverter(system, _trans, data, compendium) {
 	const id = data._id;
@@ -28,9 +47,6 @@ function generalConverter(system, _trans, data, compendium) {
 	// LID Shunt
 	const lid  = system.lid;
 	if (entry[lid]) {
-		if (entry[lid].name) {
-			data.name = entry[lid].name;
-		}
 		return objectConvert(retObj, entry[lid]);
 	}
 	return objectConvert(retObj, entry);
