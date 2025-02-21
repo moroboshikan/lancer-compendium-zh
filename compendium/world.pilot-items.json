@@ -554,120 +554,120 @@
       }
     },
     "Siege Specialist": {
-      "name": "Siege Specialist",
-      "description": "No wall can withstand you; no bunker can stay sealed. Your skill with cannon and blast is uncanny: after-action reports describe ordnance tagged with your firing signature hitting targets with accuracy greater than if it had been fired by an AI – a stat written off as an anomaly by your commanders. Still, they always seem to pick you for missions that call for the big guns.",
-      "terse": "Destroy terrain and force enemy movement with Cannon weapons",
+      "name": "攻城專家",
+      "description": "沒有高牆能在你面前屹立；沒有碉堡能將你拒諸門外。你對炮火和爆破的精通近乎異常，戰後報告顯示，你的炮擊命中率甚至遠遠超過了 AI 的精密計算，讓你的指揮官只能將其歸咎於「異常數據」。盡管如此，每當他們的任務需要大炮時，你仍然是他們的首選。",
+      "terse": "使用大炮武器摧毀地形，迫使敵人移動。",
       "ranks": {
         "Jackhammer": {
-          "name": "Jackhammer",
-          "description": "If you have a Cannon, as a quick action, you can fire a jackhammer round from an underslung launcher, automatically dealing 10 AP Kinetic damage to a Size 1 section of any object within Range (e.g., cover, deployable equipment, buildings, or terrain). Any characters adjacent to your target are knocked back from it by 2 spaces and take 2 Kinetic damage.",
+          "name": "風鑽",
+          "description": "如果你的機甲裝載著大炮，則你能以<b>快速動作</b>使用下懸於大炮的發射器來發射一枚風鑽彈，對一個在射程範圍內，大小為 1 的物件區塊（例如掩護、展開裝備、建築物、或地形）自動造成帶有穿甲（AP）效果的 10 動能傷害。所有與你目標鄰接的角色也會被擊退 2 格，並受到 2 動能傷害。",
           "actions": {
             "Jackhammer Round": {
-              "name": "Jackhammer Round",
-              "detail": "Fire a jackhammer round from an underslung launcher, automatically dealing 10 AP Kinetic damage to a Size 1 section of any object within Range (e.g., cover, deployable equipment, buildings, or terrain). Any characters adjacent to your target are knocked back from it by 2 spaces and take 2 Kinetic damage."
+              "name": "風鑽彈",
+              "detail": "從下懸式發射器發射一枚風鑽彈，對一個在射程範圍內，大小為 1 的物件區塊（例如掩護、展開裝備、建築物、或地形）自動造成帶有穿甲（AP）效果的 10 動能傷害。所有與你目標鄰接的角色也會被擊退 2 格，並受到 2 動能傷害。"
             }
           }
         },
         "Impact": {
-          "name": "Impact",
-          "description": "1/round, before rolling an attack with a Cannon, all characters adjacent to you must succeed on a Hull save or be knocked back by 1 space and knocked Prone. You are then pushed 1 space in any direction."
+          "name": "反衝",
+          "description": "每輪一次，在你使用大炮進行的攻擊擲骰之前，所有與你鄰接的角色都必須成功通過<b>機體豁免</b>，否則被擊退 1 格並被擊倒<b>伏臥</b>。然後，你被往任意方向推行 1 格。"
         },
         "Collateral Damage": {
-          "name": "Collateral Damage",
-          "description": "1/round, when you perform a critical hit on a character or object with a Cannon, you may choose to cause an explosion of secondary munitions, causing a Burst 2 explosion around your target. Characters within the affected area must either drop Prone as a reaction, or take 2 Explosive damage and be knocked back by 2 spaces from the center of the attack."
+          "name": "附帶破壞",
+          "description": "每輪一次，當你用大炮對角色或物件造成<b>會心一擊</b>時，你可以選擇讓次要彈藥引爆，在你目標周圍的<b> 爆發 2 </b>範圍內產生爆炸。所有範圍內的角色都必須選擇以<b>反應</b>撲倒<b>伏臥</b>，或是受到 2 爆炸傷害並從爆炸中心被擊退 2 格。"
         }
       }
     },
     "Skirmisher": {
-      "name": "Skirmisher",
-      "description": "What is the best defense? Armor? No. The key to avoiding a messy death in the field, as you learned early, is to stay low, stay mobile, and stay fast. Your mech reflects this philosophy: light, quick, bristling with force-multiplying weapons. You live to push your machine beyond expected parameters, shaking target locks and incoming fire while keeping your own targeting true.",
-      "terse": "Improve your survivability by automatically gaining cover and evading attacks",
+      "name": "散兵",
+      "description": "最好的防禦是什麼？裝甲？不。你很早就明白，避免戰死沙場的要訣在於隱藏身形、維持機動，全速移動。這套哲學也反映在你的機甲：輕盈、迅捷，搭載了各樣的高乘數火力兵器。你活著的意義就在於把這台機器的潛能發揮到淋漓盡致，甩開敵人的鎖定和槍林彈雨，同時讓你的每一擊都能穩穩命中目標。",
+      "terse": "透過自動得到掩護和閃避攻擊來提升你的生存能力。",
       "ranks": {
         "Integrated Chaff Launchers": {
-          "name": "Integrated Chaff Launchers",
-          "description": "At the start of your turn, you gain soft cover. You lose this cover if you attack or force another character to make a save."
+          "name": "內建金屬箔片發射器",
+          "description": "在你的回合開始時，你得到<b>軟性掩護</b>。你會在進行攻擊或強迫其他角色進行豁免時失去這個掩護。"
         },
         "Lockbreaker": {
-          "name": "Lockbreaker",
-          "description": "Before or after you Skirmish (including as a reaction, e.g. from Overwatch), you may move 2 spaces. This movement ignores engagement and doesn’t provoke reactions."
+          "name": "突破鎖定",
+          "description": "在你進行交火（包括以<b>反應</b>進行，像是透過<b>守望</b>反應）之前或之後，你可以移動 2 格。這個移動忽略交戰且不會觸發反應。"
         },
         "Weave": {
-          "name": "Weave",
-          "description": "The first attack taken as a reaction against you in any round automatically misses."
+          "name": "織絲",
+          "description": "每一輪以<b>反應</b>對你進行的第一次攻擊會自動失敗。"
         }
       }
     },
     "Spotter": {
-      "name": "Spotter",
-      "description": "To see all; to divide each object you perceive from its unit or cohesion, pulled apart like individual fibers in a vast sheet; to count them as individuals; to make human and fragile the force you face – this is to know how to beat them.<br>Break apart the monolith. See the grains that make the stone. Crush them all into yet smaller dust.",
-      "terse": "Improve your Lock On Quick Tech action to empower your allies",
+      "name": "探子",
+      "description": "看清一切；將你所見之物拆解，看它們為無數分離的碎片。如同將巨網抽絲剝繭成一條條獨立的絲線；把它們視為個體，讓你面對的力量解體為一個個脆弱的人類——這就是戰勝之道。<br><br>擊毀巨石。看見構成磐石的每一粒砂礫，然後將它們全部粉碎，化作更細微的塵埃。",
+      "terse": "強化你的鎖定科技動作，藉此幫助你的隊友。",
       "ranks": {
         "Particularize": {
-          "name": "Particularize",
-          "description": "When an allied character adjacent to you attacks a target and consumes Lock On, they may roll twice and choose either result."
+          "name": "入微",
+          "description": "當一名與你鄰接的隊友角色進行攻擊並消耗了<b>鎖定</b>，他可以擲兩次骰並選擇任一結果。"
         },
         "Panopticon": {
-          "name": "Panopticon",
-          "description": "At the end of your turn, if you did not move and took the Lock On Quick Tech action, you may Lock On once as a free action. Additionally, when you Lock On, you learn your target’s Armor, Speed, Evasion, E-Defense, Mech Skills, and current HP, and can share this information with allies."
+          "name": "全視",
+          "description": "在你的回合結束時，如果你在該回合期間沒有移動，且進行過<b>鎖定</b>科技動作的話，你能以<b>免費動作</b>再進行一次<b>鎖定</b>。此外，當你進行<b>鎖定</b>時，你會得知目標的裝甲、速度、迴避、電子防禦、機甲能力、以及當前 HP，且能夠與隊友分享這些情報。"
         },
         "Bentham/Foucault Elimination": {
-          "name": "Bentham/Foucault Elimination",
-          "description": "As a quick action when you Lock On, you may nominate an allied character adjacent to you: they may immediately make any quick action as a reaction, consuming your target’s Lock On condition. Their action does not need to be an attack, but they benefit from consuming the Lock On condition if they do choose to attack.",
+          "name": "邊沁/傅柯對消",
+          "description": "當你進行<b>鎖定</b>時，你能以<b>快速動作</b>指定一名與你鄰接的隊友角色：他能夠立即以<b>反應</b>進行任何快速動作，並消耗你目標身上的<b>鎖定</b>狀況。該角色採取的動作不一定要是攻擊，但如果他選擇攻擊，則仍然能夠受益於被消耗的<b>鎖定</b>狀況。",
           "actions": {
             "Bentham/Foucault Elimination": {
-              "name": "Bentham/Foucault Elimination",
-              "detail": "When you Lock On, nominate an allied character adjacent to you: they may immediately make any quick action as a reaction, consuming your target’s Lock On condition. Their action does not need to be an attack, but they benefit from consuming the Lock On condition if they do choose to attack."
+              "name": "邊沁/傅柯對消",
+              "detail": "當你進行<b>鎖定</b>時，指定一名與你鄰接的隊友角色：他能夠立即以<b>反應</b>進行任何快速動作，並消耗你目標身上的<b>鎖定</b>狀況。該角色採取的動作不一定要是攻擊，但如果他選擇攻擊，則仍然能夠受益於被消耗的<b>鎖定</b>狀況。"
             }
           }
         }
       }
     },
     "Stormbringer": {
-      "name": "Stormbringer",
-      "description": "On Old Spinrock, MJ Martinez used to dream of rain.<br>He’d wake in the dim morning, wipe the sleep from his eyes as warm safelight lifted his dormitory from darkness, and try to remember the sound of rain as he’d imagined it: a patter, like fingers tapping the visor of his EVA helm.<br>What he didn’t think about was the feeling of rain. How each drop hit like a pebble, how you had to close your eyes and tuck your shoulders. The pressure. The impact.<br>The way drops of water, when taken together, can carve away the earth.",
-      "terse": "Improve your Launcher weapons and unlock the Torrent Die",
+      "name": "風暴使者",
+      "description": "在老斯賓洛克，MJ．馬汀尼茲曾經夢見過大雨。<br><br>他在昏暗的晨光中醒轉，揉去眼中的睡意，隨著溫暖的安全燈驅散了宿舍的黑暗，他試著回憶他幻想中的雨聲──啪嗒啪嗒，就像是用指尖輕扣他的 EVA 頭盔一樣。<br><br>但他從未真正想像過雨的觸感。每一滴雨點落下，都像是石子一樣砸在身上，你不得不閉上眼，縮起肩膀來承受它的衝擊，去感受那股壓力，那股衝擊。<br><br>當雨水落下，匯聚成河，其勢甚至能鑿開山麓大地。",
+      "terse": "強化你的發射器武器，並解鎖激流骰。",
       "ranks": {
         "Seismic Deluge": {
-          "name": "Seismic Deluge",
-          "description": "1/round, when you successfully attack with a Launcher and consume Lock On, you may also knock your target Prone."
+          "name": "毀蕩暴雨",
+          "description": "每輪一次，當你使用<b>發射器</b>進行攻擊，消耗了<b>鎖定</b>且成功命中時，你還能把目標擊倒<b>伏臥</b>。"
         },
         "Stormbending": {
-          "name": "Stormbending",
-          "description": "You have customized your mech with auxiliary concussive missile systems. 1/round, when you hit a character or object with a Launcher, you can choose one of the following effects:<ul><li><b>Lightning:</b> You fire a concentrated blast of missiles at that character. They must succeed on a Hull save or be knocked away from you by 3 spaces; the force of firing then knocks you back by 3 spaces, away from the direction of fire.</li><li><b>Thunder:</b> You fire a spray of missiles at a Burst 2 area around that target. Characters in the area must succeed on an Agility save or be knocked back by 1 space, away from the target. The primary target is unaffected.</li></ul>"
+          "name": "馭雷神通",
+          "description": "你為你的機甲特製了一組輔助衝擊飛彈系統。每輪一次，當你使用<b>發射器</b>進行攻擊並命中了一個角色或物件時，你可以選擇以下其中一個效果：<ul><li><b>閃電：</b>你對該角色集中發射大量的飛彈，他必須成功通過<b>機體豁免</b>，否則會被往遠離你的方向擊退 3 格；發射飛彈的後座力也會把你往遠離目標的方向擊退 3 格。</li><li><b>雷霆：</b>你往發射目標周圍<b> 爆發 2 </b>範圍內的區域分散發射大量的飛彈。所有範圍內的角色必須成功通過<b>敏捷豁免</b>，否則被往遠離目標的方向擊退 1 格。主目標不會受到這個效果影響。</li></ul>"
         },
         "Torrent": {
-          "name": "Torrent",
-          "description": "Gain a Torrent Die, 1d6 starting at 6. Whenever you use Stormbending, lower the value of the Torrent Die by 1, to a minimum of 1.<br>When the Torrent Die reaches 1, you may reset it to 6 and make a Massive Attack as a full action.<br>The value of your Torrent Die persists between scenes, but it resets when you rest or perform a Full Repair.",
+          "name": "激流",
+          "description": "你獲得一顆<b>激流骰</b>，一顆起始數字為 6 的 d6 骰。<br>每當你使用<b>馭雷神通</b>時，將激流骰的數字 -1。當激流骰的數字為 1 時，你可以將其重設為 6，並以<b>完整動作</b>使用<b>全面侵襲</b>。你的<b>激流骰</b>在場景結束時不會發生變化，但會在你<b>休息</b>或是進行<b>全面維修</b>時重設為 6。",
           "actions": {
             "Massive Attack": {
-              "name": "Massive Attack",
-              "detail": "Reset your Torrent Die to 6, then target a character within line of sight and Range 15: they must succeed on an Agility save or take 2d6 Explosive damage, become Stunned until the end of their next turn, and be knocked Prone. On a success, they take half damage and are knocked Prone but not Stunned.<br>This action can only be taken when the value of your Torrent Die is 1."
+              "name": "全面侵襲",
+              "detail": "把你的<b>激流骰</b>重設為 6，然後選擇一名位於視線範圍和 ⌿15 範圍內的角色：目標必須成功通過<b>敏捷豁免</b>，否則受到 2d6 爆炸傷害，陷入<b>暈眩</b>狀況直到其下一回合結束為止，並被擊倒<b>伏臥</b>。若豁免成功，則只會受到原本一半的傷害，被擊倒<b>伏臥</b>，但不會陷入<b>暈眩</b>狀況。<br><br>這個動作只能在你的激流骰為 1 時使用。"
             }
           }
         }
       }
     },
     "Tactician": {
-      "name": "Tactician",
-      "description": "There are two kinds of soldiers: the ones who die for a cause, and the ones who kill for it. The enigmatic pilot only known as “Gail” was one of those who killed for a cause. She demonstrated her expertise whenever she approached the field: high ground, cover, the sun in her enemy’s eyes, fire and move. More than just a seasoned veteran, she was a smart one – one who could read the field as easy as a book – and one who lived long enough to disappear.",
-      "terse": "Gain an advantage when attacking occupied enemies or shooting from higher ground",
+      "name": "戰術家",
+      "description": "這個世界有兩種軍人：一種會為了大義犧牲，另一種則為了大義而殺生。被稱為「蓋兒」的神秘駕駛員就屬於後者。每當她踏上戰場，她就會展現出她卓越的戰術天賦：高地、掩護、直射敵人雙眼的刺眼日光、打帶跑。她不只是身經百戰的老兵，更是個聰明的戰士──她能像翻書一樣讀懂戰場走向，更能活得夠久，久到足以從戰火中隱退。",
+      "terse": "在攻擊被包圍的敵人、或從高處射擊時獲得優勢。",
       "ranks": {
         "Opportunist": {
-          "name": "Opportunist",
-          "description": "1/round, gain +1 Accuracy on any melee attack if at least one allied character is Engaged with your target."
+          "name": "乘虛而入",
+          "description": "每輪一次，當你對已經和至少一名隊友<b>交戰</b>的目標進行肉搏攻擊時，你得到<b> +1 準度</b>。"
         },
         "Solar Backdrop": {
-          "name": "Solar Backdrop",
-          "description": "1/round, gain +1 Accuracy on any ranged attack made while you are at a higher elevation than your target."
+          "name": "背光",
+          "description": "每輪一次，當你從比你的目標更高的位置對其進行遠距攻擊時，你得到<b> +1 準度</b>。"
         },
         "Overlapping Fire": {
-          "name": "Overlapping Fire",
-          "description": "Gain the <b>Flank</b> Reaction.",
+          "name": "集火",
+          "description": "你得到<b>夾擊</b>反應。",
           "actions": {
             "Flank": {
-              "name": "Flank",
-              "trigger": "A character who doesn’t have cover from your position is successfully attacked by an allied character.",
-              "detail": "You may target them with Overwatch, dealing half damage, heat or burn on a hit"
+              "name": "夾擊",
+              "trigger": "當隊友角色成功命中對你而言沒有掩護的角色時。",
+              "detail": "你能以該角色為目標使用<b>守望</b>反應，但在命中時只造成原本一半的傷害、熱度、和燃燒。"
             }
           }
         }
