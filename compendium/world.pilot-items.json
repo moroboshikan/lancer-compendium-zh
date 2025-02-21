@@ -1242,95 +1242,113 @@
 
     "Corrective": {
       "name": "修復膠",
-      "description": "這種透明，宛如塑膠般的膠片可以被貼在重傷駕駛員的傷口上。它會立即讓傷勢穩定下來，並且注入藥物和奈米機器來修服傷口。<br>消耗一發來對<b>昏迷</b>的駕駛員使用，立即將他回復至 1 HP 並讓其清醒過來。"
+      "description": "這種透明，宛如塑膠般的膠片可以被貼在重傷駕駛員的傷口上。它會立即讓傷勢穩定下來，並且注入藥物和奈米機器來修服傷口。<br>消耗一發來對<b>昏迷</b>的駕駛員使用，立即將他回復至 1 HP 並讓其清醒過來。",
+      "actions": {
+        "Use Corrective": {
+          "name": "使用修復膠",
+          "detail": "消耗一發來對<b>昏迷</b>的駕駛員使用，立即將他回復至 1 HP 並讓其清醒過來。"
+        }
+      }
     },
     "Frag Grenades": {
       "name": "破片手榴彈",
-      "description": "Expend a charge for the following effect:<ul><li><b>Frag Grenade</b> (Grenade, Range 5, Blast 1): Affected characters must succeed on an Agility save or take 2 Explosive damage.</li></ul>"
+      "description": "消耗一發來造成以下效果：<ul><li><b>破片手榴彈</b>（手榴彈，射程 5，濺射 1）：影響範圍內的所有角色必須成功通過<b>敏捷豁免</b>，否則受到 2 爆炸傷害。</li></ul>",
+      "actions": {
+        "Use Frag Grenade": {
+          "name": "使用破片手榴彈",
+          "detail": "對射程 5 範圍內的一處投擲手榴彈。所有位於 濺射 1 範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 2 爆炸傷害。"
+        }
+      }
     },
     "Stims": {
       "name": "戰鬥藥",
-      "description": "These chemical stimulants are sometimes administered automatically by injectors built into a pilot’s suit, or even implanted within their body. Uncontrolled use can be addictive and dangerous to health in the long-term and is a problem for some pilots.<br>Expend a charge for one of the following effects:<ul><li><b>Kick:</b> Keeps a pilot awake and alert for up to 30 hours.</li><li><b>Freeze:</b> Keeps a pilot calm and emotionally stable; deadens fear and other strong reactions.</li><li><b>Juice:</b> Heighten senses and alertness, reduce fatigue, and shorten reaction times. Juice occasionally provokes rage in some users.</li></ul>"
+      "description": "這種化學興奮劑有時會透過駕駛員套裝被自動注入，或甚至直接植入在其體內。過度的使用可能會導致上癮和造成長期健康問題，且對某些駕駛員來說是個不小的麻煩。<br>消耗一發來得到以下效果：<ul><li><b>精力：</b>讓駕駛員精神充沛、維持警戒最多 30 小時。</li><li><b>沉寂：</b>讓駕駛員心如止水，抑制恐懼和其他強烈情感。</li><li><b>興奮：</b>強化感官和警覺，緩和疲勞，縮短反應時間。偶爾會引發某些使用者的狂怒症狀。</li></ul>",
+      "actions": {
+        "Use Stim": {
+          "name": "使用戰鬥藥",
+          "detail": "消耗一發來得到以下效果：<ul><li><b>精力：</b>讓駕駛員精神充沛、維持警戒最多 30 小時。</li><li><b>沉寂：</b>讓駕駛員心如止水，抑制恐懼和其他強烈情感。</li><li><b>興奮：</b>強化感官和警覺，緩和疲勞，縮短反應時間。偶爾會引發某些使用者的狂怒症狀。</li></ul>"
+        }
+      }
     },
     "Thermite Charge": {
       "name": "鋁熱炸彈",
-      "description": "Expend a charge for the following effect:<ul><li><b>Thermite Charge</b> (Mine, Burst 1): This charge must be remotely detonated as a quick action. Affected characters must succeed on an Engineering save or take 3 Energy AP. Thermal charges automatically hit objects, dealing 10 Energy AP.</li></ul>"
+      "description": "消耗一發來得到以下效果：<ul><li><b>鋁熱炸彈</b>（地雷，爆發 1）：這枚炸彈必須以<b>快速動作</b>來遙控引爆。影響範圍內的所有角色必須成功通過<b>工程豁免</b>，否則受到 3 能量傷害。鋁熱炸彈會自動命中物件，並造成帶有穿甲（AP）效果的 10 能量傷害。</li></ul>"
     },
     "Antiphoton Visor": {
       "name": "遮光眼罩",
-      "description": "Designed to protect the wearer’s eyes from intense bursts of light, antiphoton visors are commonly found among breach teams and solar-forward operators. They are effective against flash weapons, intense UV light, and incidental charges from energy weapons."
+      "description": "被設計來保護佩戴者的雙眼不受強光所傷，遮光眼罩常見於突入部隊和向日操作員。它能有效抵擋閃光武器、強烈紫外線和能量武器意外走火等情況。"
     },
     "Camo Cloth": {
       "name": "光學迷彩",
-      "description": "A square of reactive material that slowly shifts to reflect the surrounding environment, enough to cover a human comfortably. The transition takes about 10 seconds and makes anything hidden underneath very difficult to spot."
+      "description": "一塊由反應性材質構成的方形布料，能根據周遭環境緩慢變化，其尺寸足以舒適地蓋住一個人。它變化的過程大約需要 10 秒，能讓躲在底下的事物難以被其他人發現。"
     },
     "Dataplating": {
       "name": "內置電腦",
-      "description": "Dataplating is a general term for any comm-linked jewelry, subdermal netting, wearable jaw, brow, or maxillary plates, etc., that allows subvocal communication and persistent heads-up and augmented reality displays without wearing a helm. Dataplates can quickly translate nearly any language, and allow users to communicate with each other all but silently."
+      "description": "內置電腦是一種統稱，用以概括任何像是通訊連結珠寶、皮下網絡、佩帶式下顎、前額或上頜骨植入物等裝置。它讓使用者即使在未佩帶頭盔的情況下，也能使用擴增實境顯示以及無聲通訊。內置電腦可以快速翻譯幾乎所有語言，並讓使用者能與彼此溝通而不發出聲音。"
     },
     "Extra Rations": {
       "name": "額外糧食",
-      "description": "Pilot rations aren’t much better than their nautical forerunners – both are variants on hardtack and nutrient paste. Pilots often carry a stash of extra food, or luxuries like chocolate, coffee, alcohol, or preserved goods from their homeworld. These rations can be used to barter or boost morale."
+      "description": "駕駛員的配給糧食並沒有比舊時代的水手好上多少——兩者都是硬餅乾和營養劑的各種變體。因此駕駛員通常會自行攜帶額外的食物，或是像巧克力、咖啡、酒、和來自母星的保存食品之類的奢侈品。這些糧食能被用來交易或是提升士氣。"
     },
     "Flexsuit": {
       "name": "循環服",
-      "description": "A strong base-layer suit that recycles water, generates nutrients, and adapts very rapidly to hostile environs, maintaining a stable condition and extending survivability. Flexsuit wearers can go for roughly a week without eating or drink thanks to the ambrosia paste generated by their suit before its systems are depleted; however, they don’t prevent feelings of hunger. Removing the suit for a day or two is enough to replenish its reserves. Flexsuits also maintain a steady temperature within acceptable parameters."
+      "description": "循環服是一套強韌的貼身套裝，能夠回收水份、產生營養、並迅速適應惡劣環境，維持穩定的環境條件以延長生存時間。循環服的穿戴者可以在不吃不喝的情況下，透過服裝供應的「仙饌貼劑」來維持大約一個星期的活動，直到系統耗盡資源為止。然而，這並不會抑制飢餓感。脫下這套衣服一兩天的時間就足以恢復其中的儲備。循環服也能在可接受的範圍內讓穿戴者維持穩定的體溫。"
     },
     "Handheld Printer": {
       "name": "手提列印機",
-      "description": "A miniaturized version of Union’s full-scale printers, handheld printers can be used to make simple objects out of flexible and durable plastic – as long as you have the right pattern chip."
+      "description": "這台小型化的聯盟製列印機能夠使用彈性且耐用的塑膠材料來列印簡單的物件——只要你有適當的模板晶片的話。"
     },
     "Subjectivity-Enhancement Suite": {
       "name": "主觀性強化套裝",
-      "description": "A subjectivity-enhancement suite is a set of cybernetic implants allowing users to hack systems without a rig. Users of these suites blend the organic with the synthetic, gaining the ability to extrude implanted universal-plug cables from within their body to make hardline connections with terminals. When plugged in, users can access a comprehensive, fully interactive alternate-reality interface with direct omninet access, making navigating – or hacking – local and networked systems as easy as wishing it so (of course, you must be careful: by opening up your mind to the digital, you may face dangers other, less enhanced people are ignorant of)."
+      "description": "主觀性強化套裝是一組神經機械植入物，讓使用者不用其他裝備就能直接入侵電子系統。這個套裝的使用者將自身的有機體與合成物交融，得到了能從體內伸出通用連接纜線來與其他終端進行有線連線的能力。在連線期間，使用者能夠以全互動式虛擬實境介面的形式連上萬物網。這讓瀏覽網路和入侵系統變得易如反掌。（當然，務必小心謹慎：像這樣對電子世界敞開心靈，很可能會讓你遭遇普通人無法察覺的危險。）"
     },
     "Infoskin": {
       "name": "電子外皮",
-      "description": "A reactive, synthetic polymer with advanced qualities, infoskin bonds quickly to real skin and hair. Once applied, it responds to electronic signals delivered by linked software, rapidly changing its color and texture – even contorting and distorting its form – allowing wearers to make minor changes to their appearance. With infoskin, it’s a simple matter to alter facial features, hair color, or makeup patterns."
+      "description": "電子外皮是一種高品質的反應性合成聚合物，能夠迅速與天然的皮膚和毛髮相結合。一旦穿上，它就會對相應軟體發出的電子信號作出反應，迅速改變其顏色和質感──甚至扭曲形狀──讓穿戴者能對自己的外觀進行細微的調整。只要利用電子外皮，無論要改變外貌、髮色、或妝容樣式都易如反掌。"
     },
     "Mag-Clamps": {
       "name": "磁力鉗",
-      "description": "These clamps attach easily to any metal surface, enhancing maneuverability in zero-g environments or when repairing mechs. They can be carried or fitted to boots."
+      "description": "這對鉗子能輕易吸附在任何金屬表面上，讓維修機甲或是在無重力環境移動變得更容易。它們可以被隨身攜帶或安裝在鞋子上。"
     },
     "Nanite Spray": {
       "name": "奈米機器噴劑",
-      "description": "A spray paint that can be applied to any surface. Nanite spray is invisible to the naked eye but able to transmit simple messages or small data packets when scanned."
+      "description": "這罐噴劑能用在任何的表面上。奈米機器噴劑的材質無法被肉眼看見，但會在被掃描時發送簡單的訊息或是少量的數據包。"
     },
     "Omnihook": {
       "name": "萬用終端",
-      "description": "A portable – if bulky – omninet terminal that allows for communication, data transfer, and limited hot-spotting. Omnihooks are extremely valuable, although most mech squads have at least one. Tuning an omnihook requires a high level of skill, so they are usually mounted or carried by designated operators."
+      "description": "這個雖然有些笨重，但勉強可以隨身攜帶的萬物網終端裝置能讓使用者進行通訊、數據傳送、和有限度地架設無線網絡。儘管萬用終端相當貴重，絕大部份的機甲隊伍都至少會配有一台。調整萬用終端需要相當高的技巧，因此通常都會由指定的操作者負責攜帶。"
     },
     "Personal Drone": {
       "name": "個人無人機",
-      "description": "Small, non-combat drones are a common sight in the field. They’re fairly noisy but can fly about half a mile with good maneuverability before losing signal, relaying audio and visual information as they go."
+      "description": "小型的非戰鬥用無人機是戰場上常見的光景。它們有點吵，不過能飛行到半哩之外後才會失去聯絡，並在活動範圍內維持相當良好的機定性，傳送畫面和聲音情報。"
     },
     "Prosocollar": {
       "name": "全息項圈",
-      "description": "A collar-like device that fits snugly around its wearer’s neck, projecting a holographic image over their face and head. Prosocollars can change their wearer’s voice and scramble or change their appearance. The projection won’t stand up to close inspection, but it can easily fool electronic systems and distant observers."
+      "description": "這個項圈樣式的裝置能服貼地戴在穿戴者的頸項上，在他們的頭和臉上投射全息影像。全息項圈可以改變佩戴者的聲音，並且遮掩或是改變其外表。儘管這道投影禁不起細心觀察的檢視，但能夠輕易騙過電子系統和一段距離外的觀察者。"
     },
     "Smart Scope": {
       "name": "智能望遠鏡",
-      "description": "A powerful electronic scope that provides high-resolution magnification up to two miles, and automatically adjusts its reticle for wind, gravity, and pressure. Smart scopes can project their field of vision and all data to the HUD of any networked user. They can also pair with other thermal, optical, or simulated-vision devices to further enhance targeting."
+      "description": "這個強大的電子望遠鏡能夠提供最遠兩哩外的高解析度影像，並能夠針對風向、重力和氣壓自動調節其刻線。智能望遠鏡可以將其畫面和數據投射至任何連線使用者的介面上。它也可以配合其他的熱能、光學、或是視覺模擬裝置來強化鎖定目標的能力。"
     },
     "Sleeping Bag": {
       "name": "睡袋",
-      "description": "Coming in a variety of sizes, sleeping bags are a field necessity. They’re designed to fold out from a hardsuit, fit within a mech’s cockpit, resist fire and changes in temperature, and – when necessary – seal against vacuum.<br>You can climb into your sleeping bag, gaining Immunity to burn, protection against vacuum, and enough air to last an hour; however, while in the sleeping bag you are Stunned and can’t take actions other than to exit the bag as a full action."
+      "description": "睡袋有著各種不同大小的款式，是戰場上不可或缺的存在。它們被設計成能從衛士服中展開，安裝在機甲駕駛艙內，抵禦火焰和溫度變化，甚至在必要時密封起來以對抗真空環境。<br><br>你可以爬進你的睡袋，得到對燃燒的免疫、對真空的保護，以及足以支撐一個小時的新鮮空氣。不過，你待在睡袋內的期間視為陷入<b>暈眩</b>狀況，且唯一能做的動作是以<b>完整動作</b>離開睡袋。"
     },
     "SSC Sylph Undersuit": {
       "name": "SSC 風精內衣",
-      "description": "Discovered on Acrimea IV, a biome cultivar world controlled by Smith-Shimano Corpro (SSC), the sylph is an organic lifeform that can seemingly survive in nearly any environment. Using breeding-analogous methods defined by established bioengineering doctrines, SSC developed the sylph undersuit – sterile, living sylphs grown as envelopes and fitted to their owners. The sylph bonds to its wearer, forming a symbiotic relationship: the sylph is sustained by the host’s waste products, in return protecting the host from a range of hostile environmental factors.<br>These semi-biological, skin-tight undersuits can be worn for extended periods. They are translucent, semi-liquid, and able to be stored when not in use, conforming to whatever container they are placed in. They clean the host’s body, aid natural healing processes, and eliminate waste. As desired, segments can become opaque, change color, or take on a new texture. Sylph undersuits can cover the host’s head, sealing against vacuum, providing protection against radiation, and filtering air or liquids, even providing the ability to breathe water for a limited time."
+      "description": "在史密斯—島野財團（SSC）旗下的生境培養星體「阿克里梅亞四號星」被發現，風精是一種似乎能在任何環境中生存的有機體生命。利用現有的生物工程學說，SSC 透過擬似育種法開發出了風精內衣 —— 一種會像外套一樣附著在穿戴者身上的不育活性風精集合物。風精會緊貼著穿戴者的身體，形成一種互利共生的關係：風精以寄主的代謝物維生，並保護寄主免受各種惡劣環境的影響。<br><br>這些半生物性的緊身內衣可以長期穿著，它呈現透明的類液體形態，且可以在不需要時被收藏在容器中。風精會清潔寄主的身體、協助其自然回復過程並消滅代謝廢物。如果有需要的話，它甚至能讓部份變為不透明、改變顏色、或變成不同的質地。風精內衣能包裹寄主的頭部，為其提供氣密性能、輻射保護、以及過濾空氣和液體的能力，甚至能夠讓穿戴者短時間內在水下呼吸。"
     },
     "Sound System": {
       "name": "音響系統",
-      "description": "Though their tactical utility is questionable, many pilots set up internal speaker systems in their cockpits. This gives them a clear line to their compatriots during combat, along with the ability to play music."
+      "description": "儘管其戰術實用性有待商榷，許多駕駛員還是會在駕駛艙安裝內部音響系統。這讓他們能夠在戰鬥中直接與隊友對話，也能夠播放音樂。"
     },
     "Tertiary Arm": {
       "name": "第三隻手",
-      "description": "A powered third arm mounted on a bracket on the hardsuit. Tertiary arms are powered and controlled using the same neural bridge processes that allow hardsuits to respond to user input. They can be equipped with manipulators to allow for fine motor control, weapons to enhance combat efficacy, or specialty tools."
+      "description": "一隻安裝在衛士服上的額外動力手臂。第三隻手使用與衛士服相同的神經橋接裝置，讓其能接收使用者的指示。這隻手臂可以加裝額外的操控器以進行更精細的駕駛操作，配備武器來強化戰鬥能力，或安裝其他的特殊工具。"
     },
     "Wilderness Survival Kit": {
-      "name": "野外求生套裝",
-      "description": "This kit contains many essentials for surviving in hostile environments: a rebreather, water filters, hardsuit patches, backup thermals, a bivouac kit, and so on."
+      "name": "野外求生套組",
+      "description": "這個套組包括了許多在惡劣環境求生的必要工具：呼吸器、濾水器、衛士服修服貼、備用熱能產生器、露營套組等。"
     }
   }
 }
