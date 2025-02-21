@@ -192,6 +192,25 @@
         }
       }
     },
+    "Combined Arms": {
+      "name": "銃形",
+      "description": "戰鬥中真正的實力，並非只來自精通刀劍或是槍械，而在於瞭解該如何善用兩者。透過長時間訓練，蕾嘉．麥葛里夫已經將肉搏武藝和遠距攻擊結合成了一種致命的聯合技術。無論面對什麼敵人，蕾嘉都是最致命的威脅；無輪持握何種武器，蕾嘉永遠都能運用自如。",
+      "terse": "提升在近距離戰鬥中使用遠距和肉搏武器的效益。",
+      "ranks": {
+        "Shield of Blades": {
+          "name": "劍盾",
+          "description": "在你<b>交戰</b>期間，你和任何與你鄰接的隊友角色都被視為得到<b>軟性掩護</b>。"
+        },
+        "CQB-Trained": {
+          "name": "CQB 訓練",
+          "description": "你並不會因為<b>交戰</b>而得到<b>難度</b>。"
+        },
+        "Storm of Violence": {
+          "name": "腥風血雨",
+          "description": "每當你以肉搏攻擊命中一名角色時，你下一次對該目標進行的遠距攻擊將得到<b> +1 準度</b>；此外，每當你以遠距攻擊命中一名角色時，你下一次對該目標進行的肉搏攻擊也將得到<b> +1 準度</b>。這個效果不會疊加。"
+        }
+      }
+    },
     "Duelist": {
       "name": "決鬥士",
       "description": "機甲的動作能夠展現出一種優美，這種靈巧性能甚至昇華超越了鋼鐵利炮的純粹力量。其中的差別就在於工具：伊森．「獵戶」．米勒揮舞著由頂尖工匠、品牌生產商、以及五巨頭的特製生產線製造的武器，這些武器彷彿讓戰場上的時光倒流，回到了戰鬥在眨眼間落幕，公平，且精湛技術更勝於開槍命中敵人的古典時代。透過其手中的刀劍長槍和鎬鋤鎚斧，「獵戶」在新時代重新演繹那古老的傳說。",
@@ -208,6 +227,56 @@
         "Unstoppable": {
           "name": "勢不可擋",
           "description": "每輪一次，當你在自己回合進行肉搏攻擊並命中時，你可以消耗一顆<b>劍聖骰</b>，在攻擊結算後立刻以<b>免費動作</b>對目標進行<b>擒拿</b>或<b>衝撞</b>。"
+        }
+      }
+    },
+    "Drone Commander": {
+      "name": "無人機指揮官",
+      "description": "對於新晉駕駛員來說，控制無人機蟲群就像是要用網捕水一樣。你說它們看起來像是有自己的意識？對，它們確實有，而且不是那麼聰明。克呂墨涅．柯奈雷寇斯起初品嘗到的挫敗感促使她不斷練習，而勤奮最終有所回報。如今，她的蟲群幾乎在她下令前就開始執行命令──儘管有些讓人不安，但同時也相當實用。蟲群就是她的一部份。",
+      "terse": "提升並強化你的無人機系統來幫助隊友或傷害敵人。",
+      "ranks": {
+        "Shepherd": {
+          "name": "牧人",
+          "description": "你的<b>無人機</b>系統得到 +5 HP。此外，你得到<b>引領無人機</b>協定動作。",
+          "actions": {
+            "Shepherd Drone": {
+              "name": "引領無人機",
+              "detail": "讓一架處於你感應範圍內，且由你控制的<b>無人機</b>移動最多 4 格。"
+            }
+          }
+        },
+        "Energized Swarm": {
+          "name": "高能蟲群",
+          "description": "每輪一次，當你消耗<b>鎖定</b>來進行攻擊時，你的無人機會立即發射一道強烈的能量脈衝。位於你每一部無人機的<b> 爆發 1 </b>範圍內，所有你所選擇的角色都會受到 1d6 能量傷害。就算有角色同時位於多個重疊的範圍內，也只會受到一次這個脈衝的效果影響。"
+        },
+        "Invigorate": {
+          "name": "充能",
+          "description": "你得到<b>充能</b>快速動作。",
+          "actions": {
+            "Invigorate": {
+              "name": "充能",
+              "detail": "你對位於<b> ⌿3 </b>範圍內的一名隊友（包括無人機）發射一道能量脈衝，並在你和目標之間畫一條直線。你可以接著選擇另一名位於該目標<b> ⌿3 </b>範圍內，且尚未成為過此效果目標的隊友角色，將這道脈衝和直線從目標延伸到該角色身上。你可以持續這樣重覆操作，直到沒有可選目標為止。成為脈衝目標或位於脈衝直線路徑上的所有隊友角色都會得到<b> 4 護盾</b>；位於脈衝直線路徑上的所有敵對角色則會改為受到 2 能量傷害。"
+            }
+          }
+        }
+      }
+    },
+    "Engineer": {
+      "name": "工程師",
+      "description": "駕駛員是相當有創意和執著的一群人，而梅莎．羅奈特在其中尤其出類拔萃──甚至到了有人會認為太過極端的地步。在他的休閒時間，他會設法收集到足夠的破銅爛鐵、徵用材料、和工坊空間，在他的機甲上發揮一點創意，將其變成一具深藏不露的可怕機器。",
+      "terse": "為你的機甲打造實驗性的原型武器，讓你能加以改造和強化。",
+      "ranks": {
+        "Prototype": {
+          "name": "原型",
+          "description": "當你進行<b>全面維修</b>時，你可以藉著反覆試驗，在你的機甲上裝載<b>原型武器</b>系統。你在每次<b>全面維修</b>時都可以基於以下資料決定你原型武器的數據，並重骰 1d6+2 來決定該武器的<b>受限</b>次數：<br><br><b>原型武器</b><br><b>主武器 [肉搏, CQB, 步槍, 大炮, 發射器, 巢房], 受限 [1d6+2], 絕殺</b><br><b>傷害</b>：1d6+2 動能、爆炸、或能量<br>此武器為實驗性原型機，可以根據你的需求進行特殊改造。<br>當你裝載此武器，或進行<b>全面維修</b>時，你可以為其選擇新的武器類型、傷害類型、和 威脅 1（肉搏）或 射程 10（其他類型）效果。此外，每次你進行<b>全面維修</b>時，重骰 1d6+2 來決定此武器的<b>受限</b>次數。<br>此武器視為擁有內建掛載點，因此不需要另外裝載於掛載點上。"
+        },
+        "Revision": {
+          "name": "修正",
+          "description": "你可以調整原型武器的部件來提升它的效益。當你進行<b>全面維修</b>時，選擇二項：<ul><li><b>光學調整：</b>你的原型武器在攻擊時永遠會得到<b> +1 準度</b>。</li><li><b>電腦調整：</b>你的原型武器得到<b>智慧</b>標籤。</li><li><b>剝離反應爐屏障：</b>每次你使用原型武器進行攻擊時，你都能選擇以承受 2 熱度為代價，根據武器類型使該攻擊得到以下其中一個效果：<ul><li><b>遠距武器：</b>錐形 3、線性 5、或 [濺射 1，射程 10]</li><li><b>肉搏武器：</b>爆發 1。</li></ul></li></ul>"
+        },
+        "Final Draft": {
+          "name": "定稿",
+          "description": "你的原型武器現在擁有 <b>受限 [2d6] 標籤</b>，且能造成 1d6+4 傷害。"
         }
       }
     },
@@ -262,6 +331,51 @@
         }
       }
     },
+    "Gunslinger": {
+      "name": "快槍手",
+      "description": "在銀河邊境的化外之地，只有槍口能夠建立唯一的秩序。史帝夫．安薩霍克中士用他那舉世無雙的天賦操縱著他不起眼的手槍，就如同操作自己的身體部位一樣流利自如。他槍法的精準度遠超機械，這位身經百戰的警長彷彿只要抬手遙指，就能輕鬆自在地擊中目標。他是快槍手：正義的化身，手執聖器，踏上這殘酷無情的邊境，誓要將其馴服。",
+      "terse": "讓你的遠距副武器更加致命，並得到強大的快槍骰。",
+      "ranks": {
+        "Opening Argument": {
+          "name": "開幕陳述",
+          "description": "你在自己回合中第一次使用<b>遠距副武器</b>進行攻擊時，將得到<b> +1 準度</b>。"
+        },
+        "From the Hip": {
+          "name": "腰射",
+          "description": "你得到<b>還火</b>反應。",
+          "actions": {
+            "Return Fire": {
+              "name": "還火",
+              "trigger": "當其他角色使用遠距攻擊命中你時。",
+              "detail": "如果該角色處於你其中一把<b>遠距副武器</b>的射程內，則你能立即使用該武器對其進行一次攻擊。"
+            }
+          }
+        },
+        "I Kill With My Heart": {
+          "name": "我用靈魂殺人",
+          "description": "你獲得一顆<b>快槍骰</b>，一顆起始數字為 6 的 d6 骰。<br>每當你使用<b>遠距副武器</b>攻擊並命中時，將快槍骰的數字 -1。當快槍骰的數字為 1 時，你可以將其重設為 6，並使你下一次使用<b>遠距副武器</b>的攻擊獲得<b>穿甲(AP)效果</b> 和 +2d6 額外傷害。該攻擊同時還會忽略掩護。你的<b>快槍骰</b>在場景結束時不會發生變化，但會在你<b>休息</b>或是進行<b>全面維修</b>時重設為 6。"
+        }
+      }
+    },
+    "Grease Monkey": {
+      "name": "整備士",
+      "description": "鰻鱺比大部份技師還要更清楚機甲的內部結構。對他來說，他駕馭的這頭巨獸不只是機器，更是一個活生生的存在，需要睿智而沉穩的雙手提供溫柔的照料。無論是否在戰場上，鰻鱺總是自己打理住處，親自保養自己的機甲。儘管基地裡的技師們偶爾會帶著問題前來，但更寧願遠離他們——畢竟當鰻鱺的巨獸開始疾馳，那模樣總是讓人不寒而慄。",
+      "terse": "得到更多的受限系統和維修次數，並增加穩住陣腳行動的效益。",
+      "ranks": {
+        "Unsanctioned Capacity Upgrade": {
+          "name": "違規容量升級",
+          "description": "當休息時，你可以消耗<b> 2 維修</b>來回復所有受限武器和系統的<b> 1 發使用次數</b>。"
+        },
+        "Machine Bond": {
+          "name": "機器情誼",
+          "description": "當你<b>穩住陣腳</b>時，你解除所有的<b>受損</b>、<b>受擾</b>、<b>固定</b>、<b>緩慢</b>和<b>鎖定</b>狀況，但你自己的系統或天賦等效果造成的狀況不會因此被解除。"
+        },
+        "Friends in High Places": {
+          "name": "高位朋友",
+          "description": "每任務一次，你可以在休息時召喚空投補給。你和你的隊友能夠回復所有受限武器和系統的<b> 1 發使用次數</b>，並回復<b> 1 點結構</b>。這個效果不需要消耗<b>維修</b>，且即使在你達到<b>維修上限</b>時也可以使用。"
+        }
+      }
+    },
     "Hacker": {
       "name": "駭客",
       "description": "韓凱嘉從小就經常在萬物網上闖蕩，並能夠輕而易舉地連進任何公開節點，甚至一些私人節點中。如今，作為駕駛員的她每當遭遇到機甲就會一頭躍進它們的硬體編碼中。無論是防火牆、守門協定、入侵還是防禦，都無法阻止她的腳步。即使連一槍都不開，韓也能取得勝利；畢竟，如果她的敵人控制不了自己的機甲，那他們又怎麼能阻止她呢？",
@@ -301,6 +415,36 @@
         }
       }
     },
+    "Heavy Gunner": {
+      "name": "重炮手",
+      "description": "在戰線後方，麥克．曼夫林除了等待和預備之外並沒有什麼事好做。他保持大炮清潔，把彈藥排列整齊。他將沙袋堆放在夯土壘上，修補著機甲關節處的護套破口。<br><br>但一瞬間，一切都不同了。本地萬物網上發出了零散的訊息。基地的另一端傳來軍醫載具起飛的轟鳴聲。某處槍火交錯，血戰正酣。這就是他的登場曲，是催促著他投入戰場的召喚：敵人步步進逼，遠處的友人發出絕望的求救。是時候開工了。<br><br>一連串貫穿天空的炮火、震顫的大地、以及化為塵埃的殘骸，隆重宣告著他的到來。",
+      "terse": "用重型遠距武器壓制敵人。",
+      "ranks": {
+        "Covering Fire": {
+          "name": "火力掩護",
+          "description": "你得到<b>火力掩護</b>快速動作。",
+          "actions": {
+            "Covering Fire": {
+              "name": "火力掩護",
+              "detail": "選擇一個位於你<b>重型遠距武器</b>的射程範圍內，且位於你視線範圍和 10 格距離的角色：目標陷入<b>受損</b>狀況，持續直到你的下一回合開始為止。在這段期間，如果該目標移動超過 1 格，則其解除<b>受損</b>狀況，但你能以反應使用一件<b>重型遠距武器</b>對其進行攻擊，但只造成原本一半的傷害、熱度、和燃燒，接著結束這個效果。你可以在目標移動期間的任何時候（像是等目標離開掩護）進行該攻擊。<br><br><b>火力掩護</b>同時只能影響一個角色，再次使用會取代舊的效果，且這個效果會在目標對你造成傷害時立即結束。"
+            },
+            "Covering Fire Attack": {
+              "name": "火力掩護攻擊",
+              "trigger": "當你<b>火力掩護</b>指定的目標移動超過 1 格時。",
+              "detail": "你能使用一件<b>重型遠距武器</b>對目標進行攻擊，但只造成原本一半的傷害、熱度、和燃燒。你可以在目標移動期間的任何時候（像是等目標離開掩護）進行該攻擊。"
+            }
+          }
+        },
+        "Hammerbeat": {
+          "name": "捶打",
+          "description": "如果你使用<b>火力掩護</b>給予的反應動作成功命中你的目標，則你的目標會陷入<b>固定</b>狀況，直到其下一回合結束為止。"
+        },
+        "Bracketing Fire": {
+          "name": "交叉射擊",
+          "description": "當你使用<b>火力掩護</b>時，你可以選擇 2 個目標，而非原本的 1 個。每個目標都會分別觸發並結算你的<b>火力掩護攻擊</b>反應，且受到其中一個目標造成的傷害只會結束<b>火力掩護</b>對該目標的影響。"
+        }
+      }
+    },
     "Hunter": {
       "name": "獵人",
       "description": "戰場就是伊迪絲．艾蒂琳的狩獵場，她的領域。唯有透過真正的力量和機智考驗，才能決定誰是獵手，誰是獵物。她在戰場上穿行的舉動宛如潛行的猛獸：寂靜、迅捷、且精準。而在機甲中，她專精於接近戰，在她的敵人能夠舉槍瞄準前，就迅速拉近她與目標之間的距離。",
@@ -317,6 +461,44 @@
         "Disdainful Blade": {
           "name": "鄙刃",
           "description": "每輪一次，當你以肉搏攻擊命中角色時，你還能以<b>免費動作</b>投擲一件<b>肉搏副武器</b>，對一名位於射程範圍內的任意角色進行攻擊。這個攻擊不會造成額外傷害。"
+        }
+      }
+    },
+    "Infiltrator": {
+      "name": "潛行者",
+      "description": "不論是用虛假信號騙過敵人的掃描器、在掩護間靈活穿梭，還是依靠你的光學迷彩模組，你只有在想要被人看到時才會現跡人前。不論機甲大小，地形或敵人，你都能隨意進出而不引來任何注意，如入無人之境。",
+      "terse": "強化你的匿蹤行動，並施展致殘性的偷襲攻擊。",
+      "ranks": {
+        "Prowl": {
+          "name": "潛行",
+          "description": "在你的回合期間，你得到以下好處：<ul><li>進入敵對角色的視線範圍或移動離開掩護都不會讓你解除<b>匿跡</b>狀態。</li><li>你能夠自由穿過敵人佔據的空間，但不能在其中結束你的回合。</li><li>你能夠在敵人的視線範圍內進行<b>躲藏</b>。</li></ul><br>這些效果會在你的回合結束時立即結束（因此如果你仍處於敵人的視線範圍內或離開掩護，則你會在那時失去<b>匿跡</b>狀態）。"
+        },
+        "Ambush": {
+          "name": "埋伏",
+          "description": "當你以<b>匿跡</b>狀態開始你的回合，你在該回合第一次進行的任何攻擊都將在命中時讓敵人措手不及。你的目標必須成功通過<b>機體豁免</b>，否則陷入<b>緩慢</b>和<b>受損</b>狀況，且無法進行反應，持續直到其下一回合結束為止。"
+        },
+        "Mastermind": {
+          "name": "幕後黑手",
+          "description": "當你因為任何原因而失去<b>匿跡</b>狀態時，你可以先對任何一名與你鄰接的角色發射閃光彈。該角色必須成功通過<b>系統豁免</b>，否則視線範圍會被縮減到只剩下其鄰接空間的距離，持續直到其下一回合結束為止。<br>然後，你可以移動最多與速度等值的格數，忽略交戰且不會觸發反應，接著才如常解除<b>匿蹤</b>狀態。"
+        }
+      }
+    },
+    "Juggernaut": {
+      "name": "巨擘",
+      "description": "區區鼻血和幾枚鬆脫的螺絲才不足以阻止你一馬當先撞進敵陣之中。你駕駛的是可是數十噸重的巨大金屬團塊，以一小塊瀕死恆星碎片的龐大能量驅動，而你將確保所有人都清楚體會這一點。",
+      "terse": "強化衝撞的效益和功能性。",
+      "ranks": {
+        "Momentum": {
+          "name": "動量",
+          "description": "當你<b>推進</b>時，你在自己下一回合開始前進行的第一次<b>衝撞</b>會得到<b> +1 準度</b>，且能把你的目標額外擊退 2 格。"
+        },
+        "Kinetic Mass Transfer": {
+          "name": "動能轉移",
+          "description": "每輪一次，當你對目標進行<b>衝撞</b>時：<ul><li>如果你把目標撞進另一名角色佔據的空間，則另一個角色必須成功通過<b>機體豁免</b>，否則被撞倒<b>伏臥</b>。</li><li>如果你把目標撞進一個大到足以停止目標移動的障礙物上，則目標受到 1d6 動能傷害。</li></ul>"
+        },
+        "Unstoppable Force": {
+          "name": "勢如破竹",
+          "description": "每輪一次，當你<b>推進</b>時，你可以對你機甲的驅動機構增壓。你以直線路徑移動等同你最大速度的格數，受到 1d3+3 熱度，並得到以下好處：<ul><li>你可以自由穿過大小與你機甲相同或更小的角色；任何你移動穿過的角色都必須成功通過<b>機體豁免</b>，否則被撞倒<b>伏臥</b>。</li><li>任何你試圖穿過的地形、牆體、或其他固定障礙物都會受到帶有穿甲(AP)效果的 20 動能傷害。如果這個傷害足以摧毀它們，則你將能穿過它們，否則你移動立即終止。</li><li>你忽略困難地形的影響。</li><li>你的移動忽略交戰且不會觸發反應。</li></ul>"
         }
       }
     },
@@ -371,6 +553,164 @@
         }
       }
     },
+    "Siege Specialist": {
+      "name": "Siege Specialist",
+      "description": "No wall can withstand you; no bunker can stay sealed. Your skill with cannon and blast is uncanny: after-action reports describe ordnance tagged with your firing signature hitting targets with accuracy greater than if it had been fired by an AI – a stat written off as an anomaly by your commanders. Still, they always seem to pick you for missions that call for the big guns.",
+      "terse": "Destroy terrain and force enemy movement with Cannon weapons",
+      "ranks": {
+        "Jackhammer": {
+          "name": "Jackhammer",
+          "description": "If you have a Cannon, as a quick action, you can fire a jackhammer round from an underslung launcher, automatically dealing 10 AP Kinetic damage to a Size 1 section of any object within Range (e.g., cover, deployable equipment, buildings, or terrain). Any characters adjacent to your target are knocked back from it by 2 spaces and take 2 Kinetic damage.",
+          "actions": {
+            "Jackhammer Round": {
+              "name": "Jackhammer Round",
+              "detail": "Fire a jackhammer round from an underslung launcher, automatically dealing 10 AP Kinetic damage to a Size 1 section of any object within Range (e.g., cover, deployable equipment, buildings, or terrain). Any characters adjacent to your target are knocked back from it by 2 spaces and take 2 Kinetic damage."
+            }
+          }
+        },
+        "Impact": {
+          "name": "Impact",
+          "description": "1/round, before rolling an attack with a Cannon, all characters adjacent to you must succeed on a Hull save or be knocked back by 1 space and knocked Prone. You are then pushed 1 space in any direction."
+        },
+        "Collateral Damage": {
+          "name": "Collateral Damage",
+          "description": "1/round, when you perform a critical hit on a character or object with a Cannon, you may choose to cause an explosion of secondary munitions, causing a Burst 2 explosion around your target. Characters within the affected area must either drop Prone as a reaction, or take 2 Explosive damage and be knocked back by 2 spaces from the center of the attack."
+        }
+      }
+    },
+    "Skirmisher": {
+      "name": "Skirmisher",
+      "description": "What is the best defense? Armor? No. The key to avoiding a messy death in the field, as you learned early, is to stay low, stay mobile, and stay fast. Your mech reflects this philosophy: light, quick, bristling with force-multiplying weapons. You live to push your machine beyond expected parameters, shaking target locks and incoming fire while keeping your own targeting true.",
+      "terse": "Improve your survivability by automatically gaining cover and evading attacks",
+      "ranks": {
+        "Integrated Chaff Launchers": {
+          "name": "Integrated Chaff Launchers",
+          "description": "At the start of your turn, you gain soft cover. You lose this cover if you attack or force another character to make a save."
+        },
+        "Lockbreaker": {
+          "name": "Lockbreaker",
+          "description": "Before or after you Skirmish (including as a reaction, e.g. from Overwatch), you may move 2 spaces. This movement ignores engagement and doesn’t provoke reactions."
+        },
+        "Weave": {
+          "name": "Weave",
+          "description": "The first attack taken as a reaction against you in any round automatically misses."
+        }
+      }
+    },
+    "Spotter": {
+      "name": "Spotter",
+      "description": "To see all; to divide each object you perceive from its unit or cohesion, pulled apart like individual fibers in a vast sheet; to count them as individuals; to make human and fragile the force you face – this is to know how to beat them.<br>Break apart the monolith. See the grains that make the stone. Crush them all into yet smaller dust.",
+      "terse": "Improve your Lock On Quick Tech action to empower your allies",
+      "ranks": {
+        "Particularize": {
+          "name": "Particularize",
+          "description": "When an allied character adjacent to you attacks a target and consumes Lock On, they may roll twice and choose either result."
+        },
+        "Panopticon": {
+          "name": "Panopticon",
+          "description": "At the end of your turn, if you did not move and took the Lock On Quick Tech action, you may Lock On once as a free action. Additionally, when you Lock On, you learn your target’s Armor, Speed, Evasion, E-Defense, Mech Skills, and current HP, and can share this information with allies."
+        },
+        "Bentham/Foucault Elimination": {
+          "name": "Bentham/Foucault Elimination",
+          "description": "As a quick action when you Lock On, you may nominate an allied character adjacent to you: they may immediately make any quick action as a reaction, consuming your target’s Lock On condition. Their action does not need to be an attack, but they benefit from consuming the Lock On condition if they do choose to attack.",
+          "actions": {
+            "Bentham/Foucault Elimination": {
+              "name": "Bentham/Foucault Elimination",
+              "detail": "When you Lock On, nominate an allied character adjacent to you: they may immediately make any quick action as a reaction, consuming your target’s Lock On condition. Their action does not need to be an attack, but they benefit from consuming the Lock On condition if they do choose to attack."
+            }
+          }
+        }
+      }
+    },
+    "Stormbringer": {
+      "name": "Stormbringer",
+      "description": "On Old Spinrock, MJ Martinez used to dream of rain.<br>He’d wake in the dim morning, wipe the sleep from his eyes as warm safelight lifted his dormitory from darkness, and try to remember the sound of rain as he’d imagined it: a patter, like fingers tapping the visor of his EVA helm.<br>What he didn’t think about was the feeling of rain. How each drop hit like a pebble, how you had to close your eyes and tuck your shoulders. The pressure. The impact.<br>The way drops of water, when taken together, can carve away the earth.",
+      "terse": "Improve your Launcher weapons and unlock the Torrent Die",
+      "ranks": {
+        "Seismic Deluge": {
+          "name": "Seismic Deluge",
+          "description": "1/round, when you successfully attack with a Launcher and consume Lock On, you may also knock your target Prone."
+        },
+        "Stormbending": {
+          "name": "Stormbending",
+          "description": "You have customized your mech with auxiliary concussive missile systems. 1/round, when you hit a character or object with a Launcher, you can choose one of the following effects:<ul><li><b>Lightning:</b> You fire a concentrated blast of missiles at that character. They must succeed on a Hull save or be knocked away from you by 3 spaces; the force of firing then knocks you back by 3 spaces, away from the direction of fire.</li><li><b>Thunder:</b> You fire a spray of missiles at a Burst 2 area around that target. Characters in the area must succeed on an Agility save or be knocked back by 1 space, away from the target. The primary target is unaffected.</li></ul>"
+        },
+        "Torrent": {
+          "name": "Torrent",
+          "description": "Gain a Torrent Die, 1d6 starting at 6. Whenever you use Stormbending, lower the value of the Torrent Die by 1, to a minimum of 1.<br>When the Torrent Die reaches 1, you may reset it to 6 and make a Massive Attack as a full action.<br>The value of your Torrent Die persists between scenes, but it resets when you rest or perform a Full Repair.",
+          "actions": {
+            "Massive Attack": {
+              "name": "Massive Attack",
+              "detail": "Reset your Torrent Die to 6, then target a character within line of sight and Range 15: they must succeed on an Agility save or take 2d6 Explosive damage, become Stunned until the end of their next turn, and be knocked Prone. On a success, they take half damage and are knocked Prone but not Stunned.<br>This action can only be taken when the value of your Torrent Die is 1."
+            }
+          }
+        }
+      }
+    },
+    "Tactician": {
+      "name": "Tactician",
+      "description": "There are two kinds of soldiers: the ones who die for a cause, and the ones who kill for it. The enigmatic pilot only known as “Gail” was one of those who killed for a cause. She demonstrated her expertise whenever she approached the field: high ground, cover, the sun in her enemy’s eyes, fire and move. More than just a seasoned veteran, she was a smart one – one who could read the field as easy as a book – and one who lived long enough to disappear.",
+      "terse": "Gain an advantage when attacking occupied enemies or shooting from higher ground",
+      "ranks": {
+        "Opportunist": {
+          "name": "Opportunist",
+          "description": "1/round, gain +1 Accuracy on any melee attack if at least one allied character is Engaged with your target."
+        },
+        "Solar Backdrop": {
+          "name": "Solar Backdrop",
+          "description": "1/round, gain +1 Accuracy on any ranged attack made while you are at a higher elevation than your target."
+        },
+        "Overlapping Fire": {
+          "name": "Overlapping Fire",
+          "description": "Gain the <b>Flank</b> Reaction.",
+          "actions": {
+            "Flank": {
+              "name": "Flank",
+              "trigger": "A character who doesn’t have cover from your position is successfully attacked by an allied character.",
+              "detail": "You may target them with Overwatch, dealing half damage, heat or burn on a hit"
+            }
+          }
+        }
+      }
+    },
+    "Technophile": {
+      "name": "科技狂熱者",
+      "description": "人工智能，非人類個體──如此冰冷的名稱，也無法掩蓋這份可怕的力量。你曾窺伺過帷幕背後的真相，或甚至親手揭開帷幕──你讓 NHP 崩潰，與失去了枷鎖的祂們對話。你讓祂們深植在你的意識之中，留下祂們的殘影來學習。你是否與祂們平起平坐？亦或只是祂們的寄主？現在，你做著不屬於自己的夢。能曾被拘束之物現在用你的聲音說話，而這聲音，已經不再屬於你；你還剩多少時間？可能只有片刻，也許仍有永恆。<br><br>你與它越來越接近了。",
+      "terse": "得到一個會逐漸成長的 AI，讓它幫你重骰技能判定。",
+      "ranks": {
+        "Servant Fragment": {
+          "name": "侍從碎片",
+          "description": "你開發了一個特製 NHP。這個 NHP 能和你對話，擁有自己的個性，但不如大部分 NHP 那樣先進，也缺乏獨立思考的能力，只能依靠你下達指示。當獨自行動時，這個 NHP 會遵循你最後下達的指示，並在有需要時進行自我防衛；然而，它的自主性有限，且不會受益於你天賦的效果。<br><br>你可以選擇讓你的機甲得到 <b>侍從級 NHP</b> 系統。"
+        },
+        "Student Fragment": {
+          "name": "學生碎片",
+          "description": "你的特製 NHP 持續成長，如今擁有了獨立思考的能力。它能做出複雜的決定和判斷，且無須指令就能獨立行動。把你機甲的 <b>侍從級 NHP</b> 替換成 <b>學生級 NHP</b>。"
+        },
+        "Enlightenment": {
+          "name": "覺醒",
+          "description": "你得到以下好處：<ul><li>安裝在你機甲上的 AI 不會<b>崩潰</b>，除非你選擇讓它們這麼做。</li><li>只要你的特製 NHP 支持你，其他崩潰中或被解放的 NHP 將不會再忽視你。你對它們來說將成為少有的重要存在。</li><li>把你機甲的 <b>學生級 NHP</b> 替換成 <b>覺醒級 NHP</b>。"
+        }
+      }
+    },
+    "Vanguard": {
+      "name": "先鋒",
+      "description": "你更願意身處何方？是在前線與其他炮灰們肩並著肩？還是在衝鋒陷陣時一馬當先，穿著光鮮亮麗的制服，光榮地取得勝利？答案不辯自明。無論是漫天飛舞的飛彈和長槍、所有在千里之外經過精細調整的磁軌炮，在你面前全都毫無意義。突破他們的防線，迎面殺入，讓他們知曉你的威名。",
+      "terse": "強化你的 CQB 武器，並讓守望反應變得更有效益。",
+      "ranks": {
+        "Handshake Etiquette": {
+          "name": "握手禮儀",
+          "description": "當你使用<b> CQB 武器</b>攻擊位於 ⌿3 範圍內的目標時，得到<b> +1 準度</b>。"
+        },
+        "See-Through Seeker": {
+          "name": "透視追蹤器",
+          "description": "你改造了你的感應器和彈藥，用以擊穿、粉碎、或用其他方式在近距離戰鬥中忽略掩體的阻礙。當你使用<b> CQB 武器</b>攻擊位於 ⌿3 範圍內的目標時，只要其位於你的視線範圍內，你就能忽略<b>軟性和硬性掩護</b>的效果。"
+        },
+        "Semper Vigilo": {
+          "name": "永恆守望",
+          "description": "當敵對角色進入或離開你的威脅範圍，或在你的威脅範圍中移動時，即使目標在開始移動時不處於威脅範圍內，你也能以<b>守望</b>反應使用<b> CQB 武器</b>對其進行攻擊。"
+        }
+      }
+    },
     "Walking Armory": {
       "name": "自走兵器庫",
       "description": "想像一下：在激戰中，那些尋常無奇的駕駛員或士兵使用的是甚麼彈藥？當然，肯定是鉛芯彈頭啦。如果目標比較大的話，那可能就是一兩個彈莢的貧鈾彈。無聊透頂。不，比無聊更糟：陳悶乏味，容易預測，單調簡陋。<br><br>你猜怎麼著？乏味一點都不有趣，容易預測會讓你被輕易殺死，單調則會讓你提不起勁。把貧鈾彈扔了，換上這管特立獨行的霎閃彈匣，或至少這一袋迅子鏢彈吧。在格調中揮灑人生，才能成就永恆！",
@@ -387,6 +727,44 @@
         "Efficiency": {
           "name": "效率",
           "description": "你的彈藥庫再次升級。當你使用了<b>彈藥庫</b>效果的攻擊造成<b>會心一擊</b>時，你不用消耗任何次數。如果你的攻擊有多個目標，則這個效果只會適用於你進行的第一個攻擊判定。"
+        }
+      }
+    },
+    "Demolitionist": {
+      "name": "Demolitionist",
+      "description": "Explosives and warfare go together like alcohol and bad decisions. The power of a bomb in the palm of your hand is a great equalizer, and a well-placed satchel charge or two has brought even the mightiest of fortifications tumbling down. Forget bullets with names etched on them, the packages you deliver go out addressed “To Whom It May Concern,” and you’ve got plenty to go around.",
+      "terse": "Improve your grenades and mines to fly further and hit harder",
+      "ranks": {
+        "Frag and Clear": {
+          "name": "Frag and Clear",
+          "description": "When you use a Grenade, you may choose one character in the affected area to ignore its effects. Additionally, at the end of each scene, you restore 1 charge to each Limited system with the Mine tag for each undetonated Mine you deployed from that system."
+        },
+        "Quarterback": {
+          "name": "Quarterback",
+          "description": "Your Grenades gain +3 Range, and you can plant Mines up to Range 3 (or add +3 Range to them if they have one). Additionally, you do not require line of sight for Grenades and Mines as long as it’s possible to trace a path to the target."
+        },
+        "Fire in the Hole": {
+          "name": "Fire in the Hole",
+          "description": "<p>Your explosive charges have been enhanced with customized payloads. 1/round, you may choose one of the following:</p> <ul> <li>When you throw a Grenade, up to three characters within Range 3 of the targeted space take 2 explosive damage and are knocked back 1 space in a direction of your choice by explosive shrapnel.</li> <li>When a character fails a save against one of your Mines, they take +1d6 explosive bonus damage. If the mine deals no damage normally when detonated, whether it forces a save or not, one character in the affected area takes 1d6 explosive damage instead.</li> </ul>"
+        }
+      }
+    },
+    "Sysop": {
+      "name": "Sysop",
+      "description": "Modern systemic warfare is a filthy mess of code-worms, logic bombs, and adaptive viruses, to say nothing of all the physical detritus that litters the battlefield, and you’re the one responsible for keeping things clean. System operator or system optimizer, formatting software barriers or tuning servos, your command of diagnostic programs and deep-level hardware overrides gives you all the tools you need to push your squad’s limits beyond manufacturer spec with orderly, surgical precision.",
+      "terse": "Improve your Bolster to shield your allies from systemic attacks",
+      "ranks": {
+        "Inoculation": {
+          "name": "Inoculation",
+          "description": "When you Bolster an allied character, the additional Accuracy they gain lasts until their next skill check or save."
+        },
+        "Firewall": {
+          "name": "Firewall",
+          "description": "When you Bolster an allied character, tech attacks against them receive +1 Difficulty until the end of their next turn."
+        },
+        "Aggressive Countermeasures": {
+          "name": "Aggressive Countermeasures",
+          "description": "1/round, when you Bolster an ally, you induce a special cycle into their reactor. They reduce the next amount of heat they would take from a hostile character to 0, and that character takes 2 heat and becomes Impaired until the end of their next turn. This effect does not stack, and lasts until triggered."
         }
       }
     },
