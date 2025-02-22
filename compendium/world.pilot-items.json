@@ -1349,6 +1349,182 @@
     "Wilderness Survival Kit": {
       "name": "野外求生套組",
       "description": "這個套組包括了許多在惡劣環境求生的必要工具：呼吸器、濾水器、衛士服修服貼、備用熱能產生器、露營套組等。"
+    },
+
+    "Access": {
+      "name": "門路",
+      "description": "能進入特定地點的鑰匙卡、邀請、賄賂或內應。",
+      "label": "Resource"
+    },
+    "Backing": {
+      "name": "後盾",
+      "description": "透過有力人士的政治支持而得到的實用影響力。",
+      "label": "Contact"
+    },
+    "Supplies": {
+      "name": "補給",
+      "description": "能使穿過危險地區或敵陣更為容易的裝備。",
+      "label": "Resource"
+    },
+    "Disguise": {
+      "name": "偽裝",
+      "description": "有效的偽裝或是假身份，讓人能安然地進入特定地點。",
+      "label": "Identity"
+    },
+    "Diversion": {
+      "name": "分心",
+      "description": "引開注意而不用擔心後果，爭取更多的行動時間。",
+      "label": "Diversion"
+    },
+    "Blackmail": {
+      "name": "黑函",
+      "description": "關於某個特定人物的勒索材料或敏感情報。",
+      "label": "Target"
+    },
+    "Reputation": {
+      "name": "聲望",
+      "description": "在任務區域的好名聲，能讓當地人對你有良好的第一印象。",
+      "label": "Status"
+    },
+    "Safe Harbor": {
+      "name": "安身",
+      "description": "一個能用來會面、計劃和休息的絕對安全地點。",
+      "label": "Location"
+    },
+    "Tracking": {
+      "name": "追蹤",
+      "description": "關於重要物件或人物所在位置的詳情。",
+      "label": "Target"
+    },
+    "Knowledge": {
+      "name": "知識",
+      "description": "對當地歷史、習俗、文化或禮儀的理解。",
+      "label": "Subject"
+    },
+    "Ammo": {
+      "name": "額外彈藥",
+      "description": "一件<b>受限</b>武器或系統得到額外 +1 或 +2 的使用次數。",
+      "label": "Ammo"
+    },
+    "Rented gear": {
+      "name": "租借裝備",
+      "description": "暫時能夠使用一件新武器或是機甲裝備。",
+      "label": "Gear"
+    },
+    "Extra repairs": {
+      "name": "額外維修",
+      "description": "能為機甲提供<b> +2 維修上限</b>的補給。",
+      "label": "Resource"
+    },
+    "CORE battery": {
+      "name": "核心電池",
+      "description": "一組額外的電池，能讓機甲再次使用其<b>核心系統</b>。",
+      "label": "Battery"
+    },
+    "Deployable Shield": {
+      "name": "展開護盾",
+      "description": "一個一次性的部署型護盾產生器（大小 1 的可展開物件），能為其<b>爆發 2 </b>範圍內的所有隊友角色提供<b>軟性掩護</b>。",
+      "label": "Shield"
+    },
+    "Redundant repair": {
+      "name": "冗餘維修",
+      "description": "能讓你以<b>免費動作</b>進行<b>穩住陣腳</b>的能力，每場任務限定一次。",
+      "label": "Resource"
+    },
+    "Systems reinforcement": {
+      "name": "系統強化",
+      "description": "從<b>機體</b>、<b>敏捷</b>、<b>系統</b>或<b>工程</b>中選擇一項，使用該能力進行的技能判定得到 +1 準度。",
+      "label": "Resource"
+    },
+    "Smart ammo": {
+      "name": "智慧彈藥",
+      "description": "所有你所選擇的武器在攻擊時都可以視為擁有<b>智慧</b>標籤。",
+      "label": "Ammo"
+    },
+    "Boosted servos": {
+      "name": "強化驅動器",
+      "description": "你的機甲對<b>緩慢</b>狀況免疫。",
+      "label": "Resource"
+    },
+    "Jump jets": {
+      "name": "跳躍噴嘴",
+      "description": "在這場任務期間，你的機甲在移動時可以<b>飛行</b>，但必須在結束移動時著陸。",
+      "label": "Resource"
+    },
+    "Scouting": {
+      "name": "斥候",
+      "description": "得知你在任務中將要面對的機甲和威脅的詳細資料，包括其數量、類型和數據。",
+      "label": "Location"
+    },
+    "Vehicle": {
+      "name": "載具",
+      "description": "讓你能使用一艘運輸用載具或星艦（使用載具或星艦模板的 1 級 NPC）。",
+      "label": "Designation"
+    },
+    "Reinforcements": {
+      "name": "援軍",
+      "description": "讓你能召喚一個任意等級隊友 NPC 機甲的能力，每場任務限定一次。",
+      "label": "Designation"
+    },
+    "Environmental shielding": {
+      "name": "環境防護",
+      "description": "能讓你忽略特定戰場危害或危險地形的裝備，像是高熱或極寒。",
+      "label": "Environment"
+    },
+    "Accuracy": {
+      "name": "準度",
+      "description": "接受訓練或強化，讓你在這場任務期間，在某個特定的機甲能力或行動中得到 +1 準度。",
+      "label": "Skill/Action"
+    },
+    "Bombardment": {
+      "name": "轟炸",
+      "description": "呼叫砲兵部隊或軌道炮進行轟炸的能力。在機甲戰期間限定一次，以<b>完整動作</b>對<b>射程 30 </b>和視線範圍內的<b> 濺射 2 </b>範圍造成 3d6 爆炸傷害。",
+      "label": "Resource"
+    },
+    "Extended Harness": {
+      "name": "額外繫帶",
+      "description": "這條繫帶能讓你在這場任務期間額外攜帶一件駕駛員武器和兩件駕駛員裝備。",
+      "label": "Resource"
+    },
+    "Ambush": {
+      "name": "埋伏",
+      "description": "這個情報讓你能選擇下一場戰鬥發生的地點，並決定戰場上的地形和掩護分佈狀況。",
+      "label": "Location"
+    },
+    "Orbital Drop": {
+      "name": "軌道空降",
+      "description": "讓你能透過衛星軌道空降的方式，從守備森嚴或難以抵達地點開始任務的能力。",
+      "label": "Location"
+    },
+    "NHP Assistant": {
+      "name": "NHP 助手",
+      "description": "一個非人類個體（NHP），這個由 GM 控制的先進人工智能可以為你當前的情況提供建議。",
+      "label": "Designation"
+    },
+    "Skill Point": {
+      "name": "追加技能觸發",
+      "description": "增加一點技能點，用來提升或獲得新的技能觸發等級。通常透過「集中精神」休息行動取得。",
+      "label": "Bonus"
+    },
+    "Talent Point": {
+      "name": "追加天賦",
+      "description": "增加一點天賦點，用來提升或獲得新的天賦等級。",
+      "label": "Bonus"
+    },
+    "Extra CORE Bonus": {
+      "name": "追加核心加成",
+      "description": "增加一個額外的核心加成。",
+      "label": "Bonus"
+    },
+    "License Point": {
+      "name": "追加牌照",
+      "description": "增加一級牌照等級，用來提升或解鎖新的牌照。",
+      "label": "Bonus"
+    },
+    "Mech Skill Point": {
+      "name": "追加機甲技能",
+      "description": "增加一點機甲技能點，用來提升駕駛員的機體、敏捷、系統、或工程評級。",
+      "label": "Bonus"
     }
   }
 }
