@@ -448,8 +448,8 @@
 
     "ASSAULT": {
       "name": "突擊兵",
-      "flavor": "Assault mechs are the most common primary battle frames found throughout the galaxy. Fitted with a heavy rifle, a sidearm, and a suite of systems that enhance movement, targeting, and defensibility, they are straightforward, reliable, and hardy combatants. The pilots of Assault mechs are also the cheapest to train and outfit, but that doesn’t make them any less dangerous.",
-      "tactics": "Assaults are straightforward, damage-dealing strikers. Put them somewhere their toughness and decent range can be used effectively, and Hunker Down against damage to maximize their survivability."
+      "flavor": "突擊兵型機甲是整個銀河中最常見的主力戰鬥機甲。配備著重型步槍，副武器，以及用來強化移動、瞄準和防衛能力的輔助系統，它們的強大簡單明瞭，是穩定可靠且強韌堅固的戰鬥員。儘管突擊兵型機甲的駕駛員在訓練和裝備成本上也是最便宜的，但這並不代表他們比較不危險。",
+      "tactics": "突擊兵是最簡單直接，專精於造成傷害的攻擊型單位。把他們部署在能充分發揮其堅韌耐久性以及中等射程特性的地方，並利用<b>蹲伏</b>來抵禦傷害，最大化其生存能力。"
     },
     "HEAVY ASSAULT RIFLE": {
       "name": "重型突擊步槍"
@@ -483,72 +483,89 @@
     },
 
     "BARRICADE": {
-      "name": "高牆",
-      "flavor": "Veld Systems’ Keeper Pattern 5 is a common guard mech made famous after the platform’s performance during the Battle of Sing Rama Sing. During the battle, Audrey Reimaus of the Seraphs’ Company used a Keeper P5 to singlehandedly secure Rama City’s main uplift tower, thus guaranteeing an evacuation corridor for the city’s civilian population.",
-      "tactics": "Barricades are at their best when locking down fast-moving targets. They can use their Mobile Printer to create hard cover for allies or to prevent melee mechs from moving through an area."
+      "name": "路障",
+      "flavor": "維爾德系統的守衛五號樣式是一款常見的護衛機甲，因為其在「高歌拉馬之戰」中的優越表現而揚名整個銀河。在那場戰役中，熾天使中隊的奧黛麗．雷瑪斯駕駛著守衛五號，單槍匹馬守住了拉瑪城的主升降塔，從而確保城內的平民能夠安全撤離。",
+      "tactics": "路障型機甲最擅長封鎖高速移動的敵人，它們能使用<b>攜帶型列印機</b>來為隊友創造硬性掩護，或阻止其他肉搏型機甲穿越特定區域。"
     },
     "GRAVITON LANCE": {
-      "name": "GRAVITON LANCE"
+      "name": "重力子長槍",
+      "on_hit": "目標陷入<b>緩慢</b>狀況直至其下一回合結束為止。",
+      "effect": "在等級 2~3 時，這件武器能同時進行二次攻擊，選擇同一個或兩個不同角色為目標。"
     },
     "MOBILE PRINTER": {
-      "name": "MOBILE PRINTER"
+      "name": "攜帶型列印機",
+      "effect": "路障在一個鄰近且未被佔據的區域列印出一個<b>大小 2 </b>的立方體。這個立方體是一個擁有 20 HP 和 迴避 5 的物件，且能提供<b>硬性掩護</b>。"
     },
     "SHOCK PLATING": {
-      "name": "SHOCK PLATING"
+      "name": "衝擊裝甲",
+      "effect": "路障對動能傷害有<b>抗性</b>。"
     },
     "BULWARK MODS": {
-      "name": "BULWARK MODS"
+      "name": "壁壘模組",
+      "effect": "路障忽略<b>困難地形</b>和<b>危險地形</b>。"
     },
     "DRAG DOWN": {
-      "name": "DRAG DOWN"
+      "name": "拖垮",
+      "effect": "路障對一名位於感應範圍內的角色進行科技攻擊。若攻擊成功，則目標直到其下一回合結束前，每自願移動一格就會受到帶有穿甲(AP)效果的 2 能量傷害。"
     },
     "SEISMIC REPULSOR": {
-      "name": "SEISMIC REPULSOR"
+      "name": "地震排斥力場",
+      "effect": "所有在<b> 爆發 3 </b>範圍內且不在飛行中的角色必須成功通過<b>機體豁免</b>，否則被往遠離路障的方向擊退 3 格，並被擊倒<b>伏臥</b>。此外，在該場景結束之前，影響範圍內的區域將變為困難地型。"
     },
     "EXTRUDITE": {
-      "name": "EXTRUDITE"
+      "name": "精煉觸媒",
+      "effect": "路障使用<b>攜帶型列印機</b>時能夠同時列印二個立方體，而非原本的一個。"
     },
     "HUNGER/PURSUIT LIMPETS": {
-      "name": "HUNGER/PURSUIT LIMPETS"
+      "name": "飢餓／追逐吸附雷",
+      "effect": "路障迅速列印出一大片微型機動地雷，將其展開在一處與路障鄰接且未被占據的<b>大小 4 </b>的範圍。在影響範圍內的區域變為<b>困難地形</b>；此外，當敵對角色在每一輪第一次進入該區域、或在其中開始其回合時，它都必須成功通過<b>系統豁免</b>，否則陷入<b>緩慢</b>狀況直到其下一回合結束為止。"
     },
     "TITAN-SNARE DRONE": {
-      "name": "TITAN-SNARE DRONE"
+      "name": "泰坦羅網無人機",
+      "effect": "羅網無人機（大小 1/2、HP {5/10/15}、迴避 {10/12/14}、電子防禦 {10/12/14}、標籤：無人機）<br><br>這個無人機可以被列印並展開在任意的鄰接空間。當敵對角色移動進入該無人機<b> ⌿3 範圍</b>內，或在該區域內開始其回合，無人機將會發射一道脈衝，使目標陷入<b>固定</b>狀況，直到無人機被毀為止。"
     },
 
     "BASTION": {
       "name": "堡壘",
-      "flavor": "Bastions trade the pure defensive edge of Aegis-archetype mechs for greater mobility. They blend area-denial offensive capabilities with hardened defense systems and advanced communication suites. These mechs are favorites of many strong squadron commanders. The efficacy of the pairing was best displayed by the actions of Zander Reeves, a field-promoted auxiliary officer, during engagements with the “Space Between” interstellar pirate guild in the Dromeda system.",
-      "tactics": "Bastions are hardy defenders that use their bulk and size to protect themselves and nearby. Use Friendly Interdiction to defend against distant enemies, like artillery and snipers. Bastions (and their wards) are vulnerable to Knockback and forced movement, as these effects break many of their abilities."
+      "flavor": "堡壘型機甲犧牲了神盾型機甲的完全防禦優勢，轉而換取了更高的機動性。它們搭載的區域封鎖級攻擊能力、加固防禦系統、以及先進通訊套裝彼此相輔相成，深受許多精銳中隊指揮官的喜愛。而最能體現這種機甲戰術價值的案例，無疑是贊德．里夫斯，這位因著赫赫軍功而在戰地升格的輔佐軍官，於卓米達星系與星際海盜公會「空宇之間」交戰時的英勇表現。",
+      "tactics": "堡壘是堅韌難毀的防禦者，利用其龐大的機體來保護自己和周遭的隊友。使用<b>友善攔截</b>來抵禦來自遠處敵人的炮火，像是炮兵和狙擊手。堡壘（和其保護者）相當懼怕擊退和強制移動的效果，因為這些效果會導致他們的許多能力因此被中斷。"
     },
     "ROTARY GRENADE LAUNCHER": {
-      "name": "ROTARY GRENADE LAUNCHER"
+      "name": "轉輪榴彈發射器"
     },
     "HEAVY ASSAULT SHIELD": {
-      "name": "HEAVY ASSAULT SHIELD"
+      "name": "重型突擊盾牌"
     },
     "FRIENDLY INTERDICTION": {
-      "name": "FRIENDLY INTERDICTION"
+      "name": "友善攔截",
+      "effect": "堡壘選擇一名位於視線範圍內的角色為目標，堡壘和另一個與其鄰接的隊友角色得到該目標造成的所有傷害的<b>抗性</b>。堡壘能以<b>協定</b>選擇一個新的目標或隊友角色。該隊友角色會在不與堡壘鄰接時失去這個<b>抗性</b>。"
     },
     "NEAR-THREAT DENIAL SYSTEM": {
-      "name": "NEAR-THREAT DENIAL SYSTEM"
+      "name": "近威脅拒阻系統",
+      "effect": "當<b> ⌿3 範圍</b>內的角色對堡壘進行攻擊時，該角色會在擲骰之前受到帶有穿甲(AP)效果的 {2/3/4} 爆炸傷害。"
     },
     "SIEGE GUARDIAN": {
-      "name": "SIEGE GUARDIAN"
+      "name": "護城兵",
+      "effect": "與堡壘鄰接的所有隊友對所有來自 <b>線性</b>、<b>錐形</b>、<b>爆發</b>、和<b>濺射</b>攻擊造成的傷害具有<b>抗性</b>。"
     },
     "“PAUSE” ENGINE": {
-      "name": "“PAUSE” ENGINE"
+      "name": "「間歇」引擎",
+      "effect": "堡壘和一名與其鄰接的隊友角色被一道閃爍著的攜帶式霎間方板給暫時屏蔽，使其免疫所有傷害和效果，持續直到堡壘的下一回合開始為止。該隊友角色會在不與堡壘鄰接時失去這個<b>免疫</b>能力。在堡壘的下一回合開始時，他們會陷入<b>暈眩</b>狀況，持續直到其下一回合開始為止。"
     },
     "FEARLESS DEFENDER": {
-      "name": "FEARLESS DEFENDER"
+      "name": "無懼衛士",
+      "trigger": "當位於<b> ⌿5 範圍</b>內的隊友角色受到傷害，且堡壘不處於<b>固定</b>、<b>緩慢</b>、<b>暈眩</b>狀況或因為任何原因無法移動時。",
+      "effect": "堡壘可以移動到與該隊友角色鄰接的空間，並代為承受傷害。"
     },
     "DEATHCOUNTER": {
-      "name": "DEATHCOUNTER"
+      "name": "拒死",
+      "effect": "堡壘在每輪第一次被遠距或肉搏攻擊成功命中時，所有受到的傷害都會被降到 0。"
     },
 
     "BERSERKER": {
       "name": "狂戰士",
-      "flavor": "Berserker mechs are built to take advantage of advanced heat-cycling systems that allow them to shunt heat - as it is generated - into pure offensive force, increasing their weapon output by orders of magnitude. The archetype, best-known for its use by Gen’Dal Merlos’s Knights of Imminent Destruction, is preferred by pure combat-focus organizations, PMCs, and deniable-asset corps in established states.",
-      "tactics": "Berserkers are excellent melee duelists that are very scary up close. Their potential is greatest when they are as close to enemy forces as possible. Due to their terrible Heat Cap and E-Defense, Berserkers are vulnerable to tech attacks. Savvy opponents will use Aggression to their own advantage, turning Berserkers against their allies, so it’s best to keep them away from friendly forces."
+      "flavor": "狂戰士型機甲的設計利用其先進的熱循環系統，將運轉產生的廢熱化成純粹的攻擊力，使武器的輸出能力提升數個量級。這種機型最知名的使用者是根達爾．梅洛斯率領的「破滅將臨騎士團」，並深受純戰鬥取向的組織、私人軍事公司、以及各國的白手套部隊的青睞。",
+      "tactics": "狂戰士是優秀的肉搏決鬥家，在近距離交戰時極具威脅性。他們距離敵人越近，就越能把他們的戰鬥潛力發揮得淋漓盡致。然而，其低劣的熱度上限和電子防禦數值使它們在面對科技攻擊時格外脆弱。精明的對手會轉為利用其<b>侵略性</b>特徵，讓狂戰士轉為攻擊自己的隊友，因此最好盡可能讓它們遠離友軍。"
     },
     "CHAIN AXE": {
       "name": "鏈斧",
@@ -584,25 +601,31 @@
       "name": "BOMBARD CANNON"
     },
     "CLUSTER MUNITIONS": {
-      "name": "CLUSTER MUNITIONS"
+      "name": "CLUSTER MUNITIONS",
+      "effect": "The Bombard’s attacks deal +{2/3/4} damage to all targets for each target beyond the first."
     },
     "EARTHSHAKER SHELLS": {
-      "name": "EARTHSHAKER SHELLS"
+      "name": "EARTHSHAKER SHELLS",
+      "effect": "When attacking with the Bombard Cannon, the Bombard may also fire a special earthshaker shell. In addition to any damage, characters within Burst 3 of the targeted space must succeed on a Hull save or be knocked Prone. Debris or broken earth is thrown up by the impact, creating two Size 1 segments of hard cover in free spaces of the Bombard’s choice (within the affected area)."
     },
     "HIGH-IMPACT SHELLS": {
-      "name": "HIGH-IMPACT SHELLS"
+      "name": "HIGH-IMPACT SHELLS",
+      "effect": "On a hit, the Bombard Cannon knocks targets 3 spaces away from the Bombard."
     },
     "BUNKER BUSTER": {
-      "name": "BUNKER BUSTER"
+      "name": "BUNKER BUSTER",
+      "effect": "The Bombard Cannon deals {10/15/20} AP Explosive damage to objects and terrain in the affected area, no roll required."
     },
     "FLARE DRONE": {
-      "name": "FLARE DRONE"
+      "name": "FLARE DRONE",
+      "effect": "Flare Drone (Size 1/2, HP {10/20/30}, Evasion 10, E-Defense 10, Tags: Drone)<br>This drone can be deployed to a space within line of sight and range 25, where it hovers in place and begins projecting bright light in a Burst 2 area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose Invisible and Hidden, and cannot Hide or turn Invisible within the area. Additionally, the Bombard gains +1 Accuracy to attacks against characters within the affected area.<br>The drone can take damage from the Bombard’s attacks, and the Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates."
     },
     "REPEATER CANNON": {
       "name": "REPEATER CANNON"
     },
     "CLUSTER-SEEKER BOMBS": {
-      "name": "CLUSTER-SEEKER BOMBS"
+      "name": "CLUSTER-SEEKER BOMBS",
+      "effect": "When the Bombard attacks with the Bombard Cannon, three characters of their choice within range 3 of the targeted space take {2/3/4} Explosive damage, hit or miss."
     },
 
     "BREACHER": {
@@ -611,28 +634,36 @@
       "tactics": "Breachers can deal out significant Burst damage, but they aren’t especially accurate. To boost their capabilities, use Lock On or pair them with support NPCs. The Breach Ram makes short work of cover; however, it lacks speed and range, and risks provoking reactions."
     },
     "DUAL SHOTGUNS": {
-      "name": "DUAL SHOTGUNS"
+      "name": "DUAL SHOTGUNS",
+      "effect": "This weapon can make two attacks at once, targeting either the same character or different ones."
     },
     "BREACH RAM": {
-      "name": "BREACH RAM"
+      "name": "BREACH RAM",
+      "effect": "The Breacher moves up to 6 spaces in a straight line, ignoring engagement and passing through – but not stopping in – spaces occupied by other characters. Obstructions and objects in the Breacher’s path take {10/20/30} AP kinetic damage. The Breacher passes through any obstructions destroyed this way and continues moving until they have moved 6 spaces or fail to destroy an obstruction. Any characters in the Breacher’s path must succeed on an Agility save or be pushed out of the way as directly as possible and knocked Prone."
     },
     "BREAK ARMOR": {
-      "name": "BREAK ARMOR"
+      "name": "BREAK ARMOR",
+      "effect": "Characters that are successfully attacked more than once in a turn by the Breacher’s Dual Shotguns become Shredded for the rest of the scene."
     },
     "PAINMAKER": {
-      "name": "PAINMAKER"
+      "name": "PAINMAKER",
+      "effect": "The Breacher chooses a character within range 3. Their next turn is delayed until after their target’s. At the start of the Breacher’s turn, if the target is still within range 3, the Breacher may attack them four times with Dual Shotguns – instead of twice – as a free action."
     },
     "SUPERIOR RAM": {
-      "name": "SUPERIOR RAM"
+      "name": "SUPERIOR RAM",
+      "effect": "When using Breach Ram the Breacher moves 4 more spaces, and targets have +1 Difficulty on the Agility save."
     },
     "FOLLOWER COUNT": {
-      "name": "FOLLOWER COUNT"
+      "name": "FOLLOWER COUNT",
+      "effect": "The Breacher makes a tech attack against a character within Sensors. On a success, the Breacher gains +{1/2/3} Accuracy on all attacks against their target, and may Boost once per turn as a free action so long as it moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target."
     },
     "THERMAL CHARGE": {
-      "name": "THERMAL CHARGE"
+      "name": "THERMAL CHARGE",
+      "effect": "The Breacher may expend a charge to throw a grenade to a space within range 5. Characters in the ensuing Blast 2 explosion take {2/4/6} Burn if they fail an Agility save, half on a success. Objects, terrain, and Deployables take {10/20/30} AP kinetic damage."
     },
     "FLECHETTE SHOT": {
-      "name": "FLECHETTE SHOT"
+      "name": "FLECHETTE SHOT",
+      "effect": "Attacks with this weapon take the form of a Cone 3 shrapnel attack starting from the edge of the targeted space, attacking all characters within both the targeted space and the affected area. The Cone cannot change directions."
     },
 
     "CATAPHRACT": {
@@ -1255,7 +1286,7 @@
     },
     "REMOTE CLOUD": {
       "name": "遙控雲霧",
-      "effect": "援助者在 <b>⌿5 範圍</b>內展開一團 <b>爆發 2</b> 範圍區域的奈米雲霧。當隊友角色在該區域內開始其回合、或是在其回合第一次進入該區域時，它都能回復 {2/4/6} HP。這團雲霧會在援助者的下一回合開始時消散。"
+      "effect": "援助者在<b> ⌿5 範圍</b>內展開一團 <b>爆發 2</b> 範圍區域的奈米雲霧。當隊友角色在該區域內開始其回合、或是在其回合第一次進入該區域時，它都能回復 {2/4/6} HP。這團雲霧會在援助者的下一回合開始時消散。"
     },
     "DEFENSIVE PULSE": {
       "name": "防禦性脈衝",
