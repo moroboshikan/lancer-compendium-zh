@@ -309,8 +309,8 @@
 
     "ACE": {
       "name": "王牌",
-      "flavor": "首位成為「王牌」典型代表的人物名為殷愛玲：一名在維丹納解放戰爭時活躍的輔助駕駛員。身為機殼與天空的騎士，王牌在駕著機甲投身戰場時經常會伴隨著高速砲火掃射、靈巧花俏的機動位移、以及大膽過人的飛行特技。態度高傲自大，王牌們總是渴望著一場好決鬥。",
-      "tactics": "Aces are very fast and reactive strikers that can use Evasive Maneuvers to mitigate dangerous or high-damage attacks. Barrel Roll is most effective against heavy weapons. Their Seeking weapons ignore cover and don’t require line of sight, allowing them to deal consistent damage. Relatively low HP makes Aces vulnerable to sustained damage, and they are relatively weak against tech attacks."
+      "flavor": "首位成為「王牌」典型代表的人物名為殷愛玲：一名在維丹納解放戰爭時活躍的輔助駕駛員。身為機殼與天空的騎士，王牌在駕著機甲投身戰場時經常會伴隨著高速砲火掃射、靈巧花俏的機動位移、以及大膽過人的飛行特技。王牌們的態度高傲自大，且總是渴望著一場好決鬥。",
+      "tactics": "王牌是非常快速且反應迅速的突擊者，能透過迴避機動來躲開危險或高傷害的攻擊。<b>空中側翻</b>在面對重型武器時最為有效。他的導引武器不需要視線，且能夠忽略掩護的效果，讓他能夠穩定地造成傷害。然而，王牌偏低的 HP 讓持續性傷害成為了他的致命弱點，在面對科技攻擊時也顯得相對脆弱。"
     },
     "SSC FLIGHT SYSTEM": {
       "name": "SSC 飛行系統",
@@ -339,8 +339,8 @@
 
     "AEGIS": {
       "name": "神盾",
-      "flavor": "Aegis-archetype mechs are built to hold ground, support their allies, and suppress enemies. First used to great effect during the Comorrand Action by a Karrakin pilot, Lady Gloria of House MacLennan, Aegis’s are known for their powerful defensive measures. Their pilots can expertly make a bulwark out of the smallest barricade with anything from conventional tools to cutting-edge technologies.",
-      "tactics": "Aegises are tough and defensive support units. They are most effective when positioned so that their Defense Net can cover as many allies as possible since they can be difficult to redeploy. Regenerative Shielding also protects the Aegis from mobility-reducing effects."
+      "flavor": "神盾型機甲設計用於固守陣地、支援隊友，以及壓制敵人。在科莫蘭行動中，它們在卡拉金駕駛，貴族瑪克倫南家族的葛洛莉雅女士的操作下首次嶄露頭角，從此以極為驚人的防禦能力廣為人知。其駕駛員擅長利用一切可用資源，從傳統工事到最尖端科技，將哪怕是最微小的掩體變成堅不可摧的堡壘。",
+      "tactics": "神盾是強韌的防禦支援單位。由於他們的低機動性使其難以重新調整站位佈局，因此最佳的戰術策略是把他們佈署在<b>防衛網</b>能夠覆蓋最多的隊友的位置，從而發揮最大效益。<b>再生屏障</b>同時能保護神盾不受到進一步降低機動性的負面效果影響。"
     },
     "LIGHT LASER": {
       "name": "輕型雷射"
@@ -372,78 +372,78 @@
 
     "ARCHER": {
       "name": "弓兵",
-      "flavor": "The basis of the Archer archetype, Ursa Major’s Gatekeeper Key-II, was popularized by Ichabod Carden’s heroic actions in the Battle of Terramoto. Archer-archetype mechs sacrifice armor for powerful targeting and superpositional maneuvering systems, making them especially popular with pilots who prefer to have control over the precise destination of each shot.",
-      "tactics": "Archers excel at inflicting “choice punishment” on their enemies – they make characters choose between taking certain actions or letting the Archer attack them. Use Archers to lock down mobile or hard-hitting PCs or to cover for more vulnerable allies. Keep in mind that Archers are most effective when they can get fairly close to their targets, but they aren’t especially durable."
+      "flavor": "弓兵型機甲的原型，由大熊星生產商開發的守門者秘鑰二代，因為伊卡博德·卡登在特拉莫托戰役的英勇戰績而聲名大噪。弓兵型機甲犧牲了裝甲以換取強大的瞄準能力和疊加態機動系統，這讓它們成為了那些喜歡精準長掌控每一發攻擊的著彈點的駕駛員們的首選。",
+      "tactics": "弓兵擅長對其敵人施加「選擇性懲罰」──迫使對方在進行特定動作時決定要遭到弓手的痛擊，或是選擇放棄行動。你可以使用弓兵來壓制擁有高機動性或高迴避能力的 PC，或是用來掩護其他較脆弱的隊友。要注意的是，雖然弓兵要在相當靠近目標的情況下才能發揮最大效益，但它們不是特別耐打。"
     },
     "LIGHT MACHINE GUN": {
-      "name": "LIGHT MACHINE GUN"
+      "name": "輕型機槍"
     },
     "SUPPRESS": {
-      "name": "SUPPRESS",
-      "effect": "The Archer chooses a target within line of sight and Range 10: they become Impaired and the Archer gains the Moving Target reaction.<br>This effect lasts until the Archer uses Moving Target; the target damages the Archer or leaves the Archer’s line of sight; the Archer is Stunned, Jammed, or destroyed; the Archer chooses a new target for this action; or, the Archer ends it as a free action."
+      "name": "壓制",
+      "effect": "弓兵選擇位於視線和 <b>⌿10</b> 範圍內的一名目標：目標陷入<b>受損</b>狀況，且弓兵得到<b>移動目標</b>反應。<br><br>這個效果會持續直到弓兵使用了<b>移動目標</b>反應、目標對弓兵造成傷害、目標離開弓兵的視線範圍、弓兵陷入<b>暈眩</b>、<b>受擾</b>狀況或被毀、弓兵使用這個行動選擇了一個新目標、或是弓兵以一個<b>免費動作</b>將其結束為止。"
     },
     "SUPERIOR SENTINEL": {
-      "name": "SUPERIOR SENTINEL",
-      "effect": "The Archer gains +1 Accuracy on all attacks made as reactions (e.g., Overwatch)."
+      "name": "精銳哨兵",
+      "effect": "弓兵以<b>反應</b>進行的所有攻擊（例如<b>守望</b>）都會得到<b> +1 準度</b>。"
     },
     "BLINDING SHELLS": {
-      "name": "BLINDING SHELLS",
-      "effect": "After the Archer makes a successful attack, they force their target to make an Engineering save. On a failure, the target only has line of sight to adjacent spaces until their next turn ends."
+      "name": "致盲彈",
+      "effect": "在弓兵進行攻擊並成功命中之後，他可以迫使目標進行一次<b>工程豁免</b>。若豁免失敗，則目標的視線範圍會被縮減到只剩下其鄰接空間的距離，持續直至其下一回合結束為止。"
     },
     "IMPENDING THREAT": {
-      "name": "IMPENDING THREAT",
-      "trigger": "A hostile character in line of sight and Range 10 from the Archer moves or takes action.",
-      "effect": "The character must choose: lose the triggering action/movement, or continue but let the Archer immediately attack them with a single weapon."
+      "name": "步步進逼",
+      "trigger": "當一名位於視線和 <b>⌿10</b> 範圍內的敵對角色移動或進行動作時。",
+      "effect": "該角色必須選擇：放棄觸發此反應的動作或移動；或是繼續執行該行動，但讓弓兵立即使用一件武器對其進行攻擊。"
     },
     "COVERING FIRE": {
-      "name": "COVERING FIRE",
-      "effect": "The Archer chooses a Blast 3 area within line of sight and Range 10 and gains the Got Your Back reaction."
+      "name": "掩護射擊",
+      "effect": "弓兵選擇位於視線和 <b>⌿10</b> 射程內的一個<b> 濺射 3 </b>範圍，並得到<b>照應友軍</b>反應。"
     },
     "GOT YOUR BACK": {
-      "name": "GOT YOUR BACK",
-      "trigger": "A character in the area makes an attack.",
-      "effect": "The Archer may attack that character."
+      "name": "照應友軍",
+      "trigger": "當範圍內的一名角色進行攻擊時。",
+      "effect": "弓兵可以對該角色進行攻擊。"
     },
     "HAIL OF FIRE": {
-      "name": "HAIL OF FIRE",
-      "effect": "The Archer chooses an enemy character within Range 10: they become Immobilized and Impaired until the end of their next turn, until the Archer is Stunned or Jammed, or until the target allows the Archer to attack them with a single weapon as a reaction."
+      "name": "集中炮火",
+      "effect": "弓兵選擇一名位於 <b>⌿10</b> 範圍內的敵對角色：目標陷入<b>固定</b>和<b>受損</b>狀況，持續直到目標的下一回合結束、弓兵陷入<b>暈眩</b>、<b>受擾</b>狀況、或是目標允許弓兵以<b>反應</b>使用一件武器對其進行攻擊為止。"
     },
 
     "ASSASSIN": {
       "name": "刺客",
-      "flavor": "Assassins tend towards agility, damage, and speed. These pilots sacrifice comfort for efficiency, stripping out everything from life-support to comms systems and replacing them with increased processing power and stealth capabilities. Assassins work alone or in small groups, piloting their small, sleek mechs through near-impenetrable terrain to catch their targets off-guard.",
-      "tactics": "Assassins are true experts at punishing single characters. Use Assassin’s Mark to choose a target, and then make the most of the Assassin’s high speed and Leap to close the distance. For a nasty combination, pair an Assassin with NPCs that inflict mobility-reducing conditions like Stunned or Prone. Without optional systems like the “Devil’s Cough” Shotgun, Assassins only have access to melee attacks and are fairly vulnerable to sustained damage."
+      "flavor": "刺客型機甲通常專注於敏捷、傷害和速度。這些駕駛員犧牲了舒適性以換取最極限的效率，他們將機甲的維生系統、通訊系統等設備拆除，改為安裝更強大的處理器和隱形能力。刺客通常單獨行動或被編入小隊，駕駛著這些小巧靈活的機甲穿過近乎無法穿越的陣線，殺個目標措手不及。",
+      "tactics": "刺客在殲滅單一目標的領域中是真正的專家。使用<b>刺客印記</b>來標記獵物，然後盡可能利用刺客的高額速度和<b>跳躍</b>能力來接近目標。讓刺客與其它能造成像<b>暈眩</b>或<b>伏臥</b>狀況的 NPC 一起出現，將能構成特別噁心的組合。假如沒有裝載「魔咳」散彈槍這個額外系統，刺客就只能使用肉搏攻擊，並在面對連續火力攻擊的壓制下顯得特別脆弱。"
     },
     "KAI BIOPLATING": {
-      "name": "KAI BIOPLATING",
-      "effect": "The Assassin gains +1 Accuracy on all Agility checks; additionally, they climb and swim at normal speed, ignore difficult terrain, and, when making a standard move, can jump horizontally up to their Speed and vertically up to half their Speed (in any combination)."
+      "name": "快式生物裝甲",
+      "effect": "刺客的所有<b>敏捷判定</b>得到 +1 準度。此外，它能以正常速度進行攀爬和游泳，忽略困難地形，並在進行普通移動時可以進行跳躍，這個跳躍跨越的水平距離最多等同其速度，垂直距離則最多等同其速度的一半（可任意組合）。"
     },
     "HEATED BLADE": {
-      "name": "HEATED BLADE",
-      "effect": "Deals double damage to Prone, Shredded, Immobilized, or Stunned targets."
+      "name": "高熱刀",
+      "effect": "對處於<b>伏臥</b>、<b>離散</b>、<b>固定</b>、或<b>暈眩</b>的目標造成雙倍傷害。"
     },
     "ASSASSIN’S MARK": {
-      "name": "ASSASSIN’S MARK",
-      "effect": "The Assassin chooses a character in line of sight. For the rest of the scene, these effects apply:<ul><li>It has Resistance to that target’s damage.</li><li>Damage it deals to that target cannot be reduced.</li><li>It gains +1 Accuracy on all saves forced by that target.</li></ul><br>The Assassin can only choose a new target if the current target is destroyed."
+      "name": "刺客印記",
+      "effect": "刺客選擇位於視線範圍內的一名角色。在該場景結束前，得到以下效果：<ul><li>刺客對目標造成的傷害具有<b>抗性</b>。</li><li>刺客對目標造成的傷害無法被減免。</li><li>刺客在進行目標造成的所有豁免判定時獲得 +1 準度。</li></ul><br>刺客只能在當前目標被毀後，才能再選擇新的目標。"
     },
     "LEAP": {
-      "name": "LEAP",
-      "effect": "The Assassin flies 6 spaces in any direction but must land on a surface. When they land, characters adjacent to the Assassin must succeed on an Agility save or be knocked Prone."
+      "name": "跳躍",
+      "effect": "刺客向任意方向<b>飛行</b> 6 格，但必須降落在表面上。在刺客降落時，與刺客鄰接的所有角色必須通過<b>敏捷豁免</b>，否則被擊倒<b>伏臥</b>。"
     },
     "“DEVIL’S COUGH” SHOTGUN": {
       "name": "「魔吠」散彈槍"
     },
     "SPINNING KICK": {
-      "name": "SPINNING KICK",
-      "effect": "The Assassin chooses a character next to them: they must pass a Hull save or be pushed 4 spaces away from the Assassin and knocked Prone."
+      "name": "迴旋踢",
+      "effect": "刺客選擇一個與其鄰接的角色：目標必須成功通過<b>機體豁免</b>，否則被往遠離刺客的方向擊退 4 格，並摔倒<b>伏臥</b>。"
     },
     "CLOUD PROJECTOR": {
-      "name": "CLOUD PROJECTOR",
-      "effect": "The Assassin sets off a charge, creating a Burst 3 area of smoke, haze, or some other kind of concealing shroud. The Assassin gains soft cover within the affected area, and characters other than the Assassin fully inside or outside the area cannot draw line of sight into or out of the area. Characters partially within the area are not affected. This effect lasts until the end of the Assassin’s next turn, or until the Assassin uses this system again."
+      "name": "雲煙投射器",
+      "effect": "刺客引爆炸藥，創造出一團籠罩<b> 爆發 3 </b>範圍的濃煙、霧霾、或其它會遮蔽視線的遮幕。刺客在影響範圍內時得到<b>軟性掩護</b>，且除了刺客以外的角色在完全處於範圍內或外時，其視線將無法穿過影響範圍。部份處於範圍內的角色不受這個效果影響。這個效果會持續直到刺客的下一回合結束、或直到刺客再次使用這個系統為止。"
     },
     "EXPLOSIVE KNIVES": {
-      "name": "EXPLOSIVE KNIVES",
-      "effect": "The Assassin expends a charge to throw an Explosive damage knife at a character within range 3, making a ranged attack at +{2/4/6}. On a hit, the knife embeds itself in the target and explodes at the end of their next turn, dealing {6/8/10} Explosive damage in a Burst 1 area."
+      "name": "爆炸匕首",
+      "effect": "刺客消耗一發使用次數，對一名位於 <b>⌿3 範圍</b> 的角色投擲爆炸匕首，進行 +{2/4/6} 的遠距攻擊。若命中，則匕首會嵌在目標身上，並在其下一回合結束時爆炸，對<b> 爆發 1 </b>範圍造成 {6/8/10} 爆炸傷害。"
     },
 
     "ASSAULT": {
@@ -1310,7 +1310,7 @@
 
     "HUMAN": {
       "name": "人類",
-      "flavor": "All kinds of people end up on the battlefield, including pilots, VIPs, and bystanders.<br>You will mostly use Human NPCs when someone climbs out of their mech mid-battle; if you want a proper group of infantry, use the Squad class instead. Humans can never take other templates, and cannot gain structure."
+      "flavor": "泛指各種出現在戰場上的人們，包括駕駛員、重要人物、和被捲入的路人等。<br><br>在機甲戰期間，你通常會駕駛員從自己的機甲中爬出時使用人類 NPC 的數據；如果你想要一隊訓練有素的士兵，那麼請改為使用<b>兵隊</b>種類。人類永遠無法套用其它模板，也無法得到任何結構值。"
     },
     "RANGED WEAPON": {
       "name": "遠距武器"
@@ -1321,7 +1321,7 @@
 
     "SQUAD": {
       "name": "兵隊",
-      "flavor": "Although individual pilots and other non-mechanized soldiers might not present much of a threat to most mechs, a squad of infantry with the right gear and training can be dangerous in their own right.<br>Squads are exactly what they sound like: small groups of five to ten armed and armored soldiers represented as one character on the battlefield."
+      "flavor": "雖然單個駕駛員或未機甲化士兵在大部份機甲面前都不堪一擊，但一支裝備精良，訓練有素的步兵小隊仍然能構成相當程度的威脅。<br><br>兵隊正如其名：這個單位通常由一群約五到十個裝備齊全的武裝步兵構成，並在戰場上以單一個角色的形式呈現。"
     },
     "SOLDIERS": {
       "name": "軍隊士兵",
@@ -1363,7 +1363,7 @@
 
     "MONSTROSITY": {
       "name": "怪物",
-      "flavor": "Monstrosities are especially large or horrifying natural predators. Although they are usually wild, some monstrosities can be domesticated and trained for combat: such creatures are in high demand along the furthest reaches of the galaxy."
+      "flavor": "怪物是特別龐大或恐怖的自然捕獵者。儘管牠們大多是野生的，有些怪物仍能被馴化並接受戰鬥訓練：這類生物在銀河系最遙遠的疆域極為搶手。"
     },
     "UNIQUE PHYSIOLOGY": {
       "name": "獨特生理",
