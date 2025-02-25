@@ -594,76 +594,76 @@
 
     "BOMBARD": {
       "name": "炮兵",
-      "flavor": "Alta All-Theater Ballistics’ archetypal Bombard chassis and their licensed facsimiles are a common sight in flashpoints across the galaxy. Built for staying power across long-uptime deployments, Bombard-type mechs are an accessible solution for armed forces looking to quickly deploy artillery to a theater. Chassis configured to the parameters of this class are usually positioned in fortified positions miles behind the line; one especially asymmetrical deployment strategy involves placing Bombard batteries above the theater of operations – typically on a local moon, locked-orbit natural satellite, or on a purpose-built orbital platform. From their vantage point, the battery can then rain shells down upon the world below, far removed from the dangers of combat.",
-      "tactics": "Bombards are very long-range artillery mechs designed to punish characters that stay close together to take advantage of adjacency bonuses. They are relatively fragile up close, but resilient at a distance, so place them far back to maximize their effectiveness. Bombards’ Earthshaker Shells are great for preventing enemy movement and providing cover, but can harm allies as well."
+      "flavor": "在銀河系各處的衝突熱點中，由阿爾塔全戰場彈道開發的原型炮兵機甲，以及其授權製造的仿製品可說是相當常見的存在。炮兵型機甲專門為了在長時間交戰中保持輸出火力而製造，為想要將炮兵部隊迅速投放到戰場的武裝勢力提供了一個相對便捷的方案。這種類型的機甲通常會被部署在距離戰線數哩外的防禦工事中；而其中一種特別不對稱的戰術部署策略，甚至會把炮兵配置在作戰區域的上方──例如當地的天然或人工衛星、或是特製的軌道平台上。這麼一來，炮兵隊就能遠離戰火的威脅，從優勢位置單方面朝地表傾瀉毀滅性的炮火轟炸。",
+      "tactics": "炮兵是超長程的炮擊型機甲，專門用來懲罰那些為了獲取鄰接加值而擠在一起的角色。他們在接近戰中相當脆弱，但在遠距離作戰時則擁有相當的韌性，因此盡可能地把他們配置在大後方，發揮出他們的最大效益。炮兵的<b>地震彈</b>能有效限制敵人的移動並提供掩護，但同時也可能對友軍造成傷害。"
     },
     "BOMBARD CANNON": {
-      "name": "BOMBARD CANNON"
+      "name": "轟擊火炮"
     },
     "CLUSTER MUNITIONS": {
-      "name": "CLUSTER MUNITIONS",
-      "effect": "The Bombard’s attacks deal +{2/3/4} damage to all targets for each target beyond the first."
+      "name": "集束彈",
+      "effect": "炮兵的攻擊每有一個額外目標（不包括第一個目標），就會對所有目標造成 +{2/3/4} 額外傷害。"
     },
     "EARTHSHAKER SHELLS": {
-      "name": "EARTHSHAKER SHELLS",
-      "effect": "When attacking with the Bombard Cannon, the Bombard may also fire a special earthshaker shell. In addition to any damage, characters within Burst 3 of the targeted space must succeed on a Hull save or be knocked Prone. Debris or broken earth is thrown up by the impact, creating two Size 1 segments of hard cover in free spaces of the Bombard’s choice (within the affected area)."
+      "name": "地震彈",
+      "effect": "當使用<b>轟擊火炮</b>進行攻擊時，炮兵可以同時發射一枚特殊的地震彈。除了原本的傷害之外，位於著彈點<b> 爆發 3 </b>範圍內的所有角色都必須成功通過<b>機體豁免</b>，否則被擊倒<b>伏臥</b>。瓦礫和土塊將因為衝擊揚起，讓炮兵在影響範圍內的未佔據空間上創造出二個<b>大小 1 </b>的<b>硬性掩護</b>。"
     },
     "HIGH-IMPACT SHELLS": {
-      "name": "HIGH-IMPACT SHELLS",
-      "effect": "On a hit, the Bombard Cannon knocks targets 3 spaces away from the Bombard."
+      "name": "高能衝擊彈",
+      "effect": "當使用<b>轟擊火炮</b>進行的攻擊命中時，目標將被往遠離炮兵的方向被擊退 3 格。"
     },
     "BUNKER BUSTER": {
-      "name": "BUNKER BUSTER",
-      "effect": "The Bombard Cannon deals {10/15/20} AP Explosive damage to objects and terrain in the affected area, no roll required."
+      "name": "碉堡剋星",
+      "effect": "炮兵可以對影響範圍內的物件和地形造成帶有穿甲(AP)效果的 {10/15/20} 爆炸傷害，無須擲骰。"
     },
     "FLARE DRONE": {
-      "name": "FLARE DRONE",
-      "effect": "Flare Drone (Size 1/2, HP {10/20/30}, Evasion 10, E-Defense 10, Tags: Drone)<br>This drone can be deployed to a space within line of sight and range 25, where it hovers in place and begins projecting bright light in a Burst 2 area. All characters in the affected area – including those that move into the affected area or start their turn within it – lose Invisible and Hidden, and cannot Hide or turn Invisible within the area. Additionally, the Bombard gains +1 Accuracy to attacks against characters within the affected area.<br>The drone can take damage from the Bombard’s attacks, and the Bombard can only have one drone deployed at a time; if a new drone is deployed, the old one disintegrates."
+      "name": "閃焰無人機",
+      "effect": "<b>閃焰無人機（大小 1/2、HP {10/20/30}、迴避 10、電子防禦 10、標籤：無人機）</b><br><br>這個無人機可以被展開在位於視線範圍和<b> ⌿25 範圍</b>內的空間，它會在原地懸浮並開始對<b> 爆發 2 </b>範圍內的區域投射強光。範圍區域內的所有角色（包括移動進入該區域，和在該區域內開始其回合的角色）都會失去<b>匿跡</b>和<b>隱形</b>狀態，且無法在該區域內進行<b>躲藏</b>或得到<b>隱形</b>狀態。此外，炮兵對影響範圍內的角色進行的攻擊會得到 +1 準度。<br><br>這個無人機一樣會因為炮兵的攻擊而受到傷害，且炮兵同時只能有一個展開的閃焰無人機；如果炮兵展開了新的無人機，則舊的將會立即解體。"
     },
     "REPEATER CANNON": {
-      "name": "REPEATER CANNON"
+      "name": "連珠炮"
     },
     "CLUSTER-SEEKER BOMBS": {
-      "name": "CLUSTER-SEEKER BOMBS",
-      "effect": "When the Bombard attacks with the Bombard Cannon, three characters of their choice within range 3 of the targeted space take {2/3/4} Explosive damage, hit or miss."
+      "name": "集束追蹤炸彈",
+      "effect": "當炮兵使用<b>轟擊火炮</b>進行攻擊時，無論攻擊命中與否，距離著彈點<b> ⌿3 </b>範圍內的三個由炮兵選擇的角色都會受到 {2/3/4} 爆炸傷害。"
     },
 
     "BREACHER": {
       "name": "攻堅者",
-      "flavor": "Notoriously effective in boarding operations, the Campbell Orbital Dynamics C-O MkIII is often seen in the arsenals of suborbital planetary defense forces and their pirate counterparts. Officially, the CO designation is an abbreviation of “CombatOrbital”, but unofficially, the CO3 goes by a different name: the “Can Opener”, inspired by the callsign of Valeria Rojas-Sarnik, one of the most storied CO3 pilots.",
-      "tactics": "Breachers can deal out significant Burst damage, but they aren’t especially accurate. To boost their capabilities, use Lock On or pair them with support NPCs. The Breach Ram makes short work of cover; however, it lacks speed and range, and risks provoking reactions."
+      "flavor": "以登舷戰中的優異效能而惡名昭彰，坎貝爾軌道動力出品的 CO 三型 經常出現在亞軌道行星防禦部隊和其海盜對手的軍火庫中。根據官方說法，CO 這個縮寫代表的是「戰鬥軌道（Combat Orbital）」，但在非正式場合， CO 三型有另一個外號：「開罐器（Can Opener）」，這個稱號源自於那位傳奇 CO3 駕駛員，瓦萊利亞．羅哈斯-薩爾尼克的呼號。",
+      "tactics": "攻堅者能造成可觀的爆發傷害，但準度卻不怎麼樣。如果要提升其作戰能力，則需要使用<b>鎖定</b>或搭配其他支援型 NPC。攻堅者的<b>攻城錘</b>能輕易摧毀掩體；然而，該能力的速度和範圍有限，且可能會觸發敵人的反應。"
     },
     "DUAL SHOTGUNS": {
-      "name": "DUAL SHOTGUNS",
-      "effect": "This weapon can make two attacks at once, targeting either the same character or different ones."
+      "name": "雙管霰彈槍",
+      "effect": "這件武器能同時進行二次攻擊，選擇同一個或兩個不同角色為目標。"
     },
     "BREACH RAM": {
-      "name": "BREACH RAM",
-      "effect": "The Breacher moves up to 6 spaces in a straight line, ignoring engagement and passing through – but not stopping in – spaces occupied by other characters. Obstructions and objects in the Breacher’s path take {10/20/30} AP kinetic damage. The Breacher passes through any obstructions destroyed this way and continues moving until they have moved 6 spaces or fail to destroy an obstruction. Any characters in the Breacher’s path must succeed on an Agility save or be pushed out of the way as directly as possible and knocked Prone."
+      "name": "攻城鎚",
+      "effect": "攻堅者以直線移動最多 6 格，忽略交戰且能夠穿過其他角色佔據的空間（但不能停留在該空間）。在移動路徑上的障礙物和物件會受到帶有穿甲(AP)效果的 {10/20/30} 動能傷害。攻堅者能移動穿過任何因此被摧毀的障礙物，並繼續移動直到其移動了 6 格，或碰到摧毀不了的障礙物為止。任何在攻堅者移動路徑上的角色必須成功通過<b>敏捷豁免</b>，否則被從路徑上推離後並摔倒<b>伏臥</b>。"
     },
     "BREAK ARMOR": {
-      "name": "BREAK ARMOR",
-      "effect": "Characters that are successfully attacked more than once in a turn by the Breacher’s Dual Shotguns become Shredded for the rest of the scene."
+      "name": "破甲",
+      "effect": "在同一回合中被攻堅者使用<b>雙管霰彈槍</b>成功命中超過一次的角色將陷入<b>離散</b>狀況，持續直到該場景結束。"
     },
     "PAINMAKER": {
-      "name": "PAINMAKER",
-      "effect": "The Breacher chooses a character within range 3. Their next turn is delayed until after their target’s. At the start of the Breacher’s turn, if the target is still within range 3, the Breacher may attack them four times with Dual Shotguns – instead of twice – as a free action."
+      "name": "痛苦製造者",
+      "effect": "攻堅者選擇一名位於<b> ⌿3 </b>範圍內的角色。攻堅者的下一回合將被延後到該目標之後。在攻堅者的該回合開始之前，如果目標仍然位於攻堅者的<b> ⌿3 </b>範圍內，則攻堅者能以<b>免費動作</b>使用<b>雙管霰彈槍</b>對該目標進行四次攻擊，而非原本的二次。"
     },
     "SUPERIOR RAM": {
-      "name": "SUPERIOR RAM",
-      "effect": "When using Breach Ram the Breacher moves 4 more spaces, and targets have +1 Difficulty on the Agility save."
+      "name": "強化攻城錘",
+      "effect": "當使用<b>攻城鎚</b>時，攻堅者可以額外移動 4 格，且目標進行的<b>敏捷豁免</b>得到<b> +1 難度</b>。"
     },
     "FOLLOWER COUNT": {
-      "name": "FOLLOWER COUNT",
-      "effect": "The Breacher makes a tech attack against a character within Sensors. On a success, the Breacher gains +{1/2/3} Accuracy on all attacks against their target, and may Boost once per turn as a free action so long as it moves them directly towards their target. This lasts until either character is destroyed and cannot be changed to a new target."
+      "name": "跟隨計數",
+      "effect": "攻堅者對感應範圍內的一名角色進行<b>科技攻擊</b>。若命中，則攻堅者對目標進行的所有攻擊都將得到 +{1/2/3} 準度，且每回合能以<b>免費動作</b>朝目標的方向進行<b>推進</b>。這個效果會持續直到其中一方被毀，且這個效果無法重新選擇新的目標。"
     },
     "THERMAL CHARGE": {
-      "name": "THERMAL CHARGE",
-      "effect": "The Breacher may expend a charge to throw a grenade to a space within range 5. Characters in the ensuing Blast 2 explosion take {2/4/6} Burn if they fail an Agility save, half on a success. Objects, terrain, and Deployables take {10/20/30} AP kinetic damage."
+      "name": "高熱炸彈",
+      "effect": "攻堅者可以消耗一發，往<b> ⌿5 </b>範圍內的一個空間投擲手榴彈，在其產生<b> 爆發 2 </b>範圍的爆炸。在影響範圍內的角色必須進行<b>敏捷豁免</b>，失敗則受到 {2/4/6} 燃燒，成功則只受到一半的傷害。範圍內的物件、地形、和可展開物體會受到帶有穿甲(AP)效果的 {10/20/30} 動能傷害。"
     },
     "FLECHETTE SHOT": {
-      "name": "FLECHETTE SHOT",
-      "effect": "Attacks with this weapon take the form of a Cone 3 shrapnel attack starting from the edge of the targeted space, attacking all characters within both the targeted space and the affected area. The Cone cannot change directions."
+      "name": "鏢彈",
+      "effect": "使用這件武器進行的攻擊會從著彈點的邊緣產生一個<b> 錐形 3 </b>範圍的彈片爆發區域，同時攻擊位於著彈點和範圍區域內的所有角色。使用者不能改變這個錐形範圍的方向。"
     },
 
     "CATAPHRACT": {
@@ -705,7 +705,7 @@
     },
     "CHARGE": {
       "name": "衝刺",
-      "effect": "​重鐵騎以直線移動等同其速度的格數，忽略交戰且不會觸發反應，然後使用<b>攻城炮</b>攻擊一個位於射程範圍內的角色。"
+      "effect": "重鐵騎以直線移動等同其速度的格數，忽略交戰且不會觸發反應，然後使用<b>攻城炮</b>攻擊一個位於射程範圍內的角色。"
     },
 
     "DEMOLISHER": {
@@ -826,7 +826,7 @@
     },
     "ELECTRO-NANITE CLOUD": {
       "name": "帶電奈米雲霧",
-      "effect": "每個 <b>⌿3</b> 範圍內的敵對角色在開始其回合時，都會受到<b> 2 燃燒</b>；此外，直到其移離 <b>⌿3</b> 的範圍之外前，它們的所有<b>系統檢定和豁免</b>，以及所有<b>科技攻擊</b>都會得到<b> +{1/2/3} 難度</b>。"
+      "effect": "每個 <b>⌿3</b> 範圍內的敵對角色在開始其回合時，都會受到<b> 2 燃燒</b>；此外，直到其移離<b> ⌿3 </b>的範圍之外前，它們的所有<b>系統檢定和豁免</b>，以及所有<b>科技攻擊</b>都會得到<b> +{1/2/3} 難度</b>。"
     },
     "MOTILE SWARM": {
       "name": "遊走蟲群",
@@ -937,22 +937,28 @@
       "tactics": "Operators are elite and extremely mobile artillery mechs. They aren’t particularly hardy, but can use Trace Drive to teleport around the battlefield and put themselves in advantageous positions: on top of obstructions or terrain, or in cover – anywhere they can snipe at enemies with their highly accurate Raptor Plasma Rifles."
     },
     "RAPTOR PLASMA RIFLE": {
-      "name": "RAPTOR PLASMA RIFLE"
+      "name": "RAPTOR PLASMA RIFLE",
+      "effect": "At T2, this weapon can make two attacks at a time, targeting either the same character or two different ones. At T3, it can make three attacks at a time."
     },
     "TRACE DRIVE": {
-      "name": "TRACE DRIVE"
+      "name": "TRACE DRIVE",
+      "effect": "The Operator teleports when they make their standard move."
     },
     "SELF-ERASURE": {
-      "name": "SELF-ERASURE"
+      "name": "SELF-ERASURE",
+      "effect": "When the Operator’s mech is destroyed, it immediately self-immolates in a wave of superheated plasma. All characters adjacent to the Operator when this takes place must succeed on an Agility save or take {4/6/8} Energy damage. On a success, they take half damage. This mech is then removed from the battlefield – it is utterly annihilated."
     },
     "FADE GENERATOR": {
-      "name": "FADE GENERATOR"
+      "name": "FADE GENERATOR",
+      "effect": "At the end of the Operator’s turn, they become Invisible until the start of their next turn. This immediately ceases if they take damage or make a reaction."
     },
     "TELEFRAG": {
-      "name": "TELEFRAG"
+      "name": "TELEFRAG",
+      "effect": "The Operator teleports into a space occupied by another character within line of sight and range 15. The target must succeed on an Agility save or take {4/8/12} AP Energy damage and become Jammed until the end of their next turn. On a successful save, they take half damage and aren’t Jammed. Succeed or fail, the Operator takes 1d6 AP Energy damage and is placed into a free space next to the target."
     },
     "SKIRMISHER": {
-      "name": "SKIRMISHER"
+      "name": "SKIRMISHER",
+      "effect": "Once per turn, at any point during the Operator’s turn, they may Boost as a free action."
     },
     "NOVA MISSILES": {
       "name": "NOVA MISSILES"
@@ -1100,28 +1106,36 @@
       "name": "THERMAL LANCE"
     },
     "FOCUS DOWN": {
-      "name": "FOCUS DOWN"
+      "name": "FOCUS DOWN",
+      "effect": "When the Scourer hits with the Thermal Lance, targets take {5/7/8} Burn if they were also successfully hit with the Thermal Lance in the previous round."
     },
     "COOLING MODULE": {
-      "name": "COOLING MODULE"
+      "name": "COOLING MODULE",
+      "effect": "At the start of their turn, the Scourer clears all heat if they haven’t moved – including involuntary movement – since the end of their previous turn."
     },
     "ABLATIVE SHIELDING": {
-      "name": "ABLATIVE SHIELDING"
+      "name": "ABLATIVE SHIELDING",
+      "effect": "The Scourer has Resistance to Energy damage."
     },
     "SUPERCHARGED": {
-      "name": "SUPERCHARGED"
+      "name": "SUPERCHARGED",
+      "effect": "Characters affected by Focus Down are also Shredded and Slowed until the end of their next turn."
     },
     "EMERGENCY VENT": {
-      "name": "EMERGENCY VENT"
+      "name": "EMERGENCY VENT",
+      "effect": "When the Scourer exceeds their Heat Cap or becomes Stunned, they become Invisible until the start of their next turn."
     },
     "PULSE LASER": {
-      "name": "PULSE LASER"
+      "name": "PULSE LASER",
+      "effect": "At T2–3 this weapon can make two attacks at a time, targeting the same character or two different ones."
     },
     "FLASH LENS": {
-      "name": "FLASH LENS"
+      "name": "FLASH LENS",
+      "effect": "All characters in a Cone 5 area drawn from the Scourer must pass a Systems save or become Jammed until the start of the Scourer’s next turn."
     },
     "MELT": {
-      "name": "MELT"
+      "name": "MELT",
+      "effect": "The Scourer makes a ranged attack against an object, deployable or Drone within Range 10, dealing 20 AP Energy damage on a success."
     },
 
     "SCOUT": {
@@ -1164,25 +1178,31 @@
       "tactics": "Seeders specialize in area denial, controlling enemy movement with their mines. Since Seeders can place a mine each turn, they can quickly turn part of the battlefield into a mess when left to their own devices. Allied characters don’t trigger Seeders’ mines, but are affected by them if they’re caught in the explosion. Seeders can take optional systems that force characters to spread out or take additional damage."
     },
     "LAY MINES": {
-      "name": "LAY MINES"
+      "name": "LAY MINES",
+      "effect": "The Seeder deploys one of the mines below in a free space within range 3. Once deployed, the Seeder’s mines detonate when a hostile character moves over them, creating a Blast 1 explosion that affects both allied and hostile characters.<ul><li>Stun Mine: Characters in the area that fail an Engineering save become Stunned until the end of their next turn.</li><li>Explosive Mine: Characters in the area take {8/12/16} Explosive damage, or half if they pass an Agility save.</li><li>Sealant Mine: Characters in the area that fail a Hull save become Immobilized until the end of their next turn, then Slowed until the end of their subsequent turn.</li><li>Shock Mine: Characters in the area that fail a Systems save become Jammed until the end of their next turn, then Impaired until the end of their subsequent turn.</li></ul><br>The Seeder’s mines are Invisible and cannot be targeted, but hostile characters within Sensors can reveal them by succeeding on a Systems check. Characters can disarm them by succeeding on a Systems check as a quick action while in the same space; however, on a failure, the mine detonates."
     },
     "GRAV-GRENADE LAUNCHER": {
       "name": "GRAV-GRENADE LAUNCHER"
     },
     "HOPPING MINES": {
-      "name": "HOPPING MINES"
+      "name": "HOPPING MINES",
+      "effect": "Mines deployed with Lay Mines also activate when hostile characters fly or move up to 10 spaces above them, jumping up to 10 spaces high to detonate next to the first character they run into."
     },
     "TRIPWIRES": {
-      "name": "TRIPWIRES"
+      "name": "TRIPWIRES",
+      "effect": "Lay Mines gains Recharge 5+. Mines deployed with Lay Mines now occupy a line3 area and detonate from the closest space when hostile characters move into or across the affected area."
     },
     "SPEED DEPLOYER": {
-      "name": "SPEED DEPLOYER"
+      "name": "SPEED DEPLOYER",
+      "effect": "Lay Mines deploys two mines at a time, not one."
     },
     "GRAV SPIKE": {
-      "name": "GRAV SPIKE"
+      "name": "GRAV SPIKE",
+      "effect": "A character within line of sight and range 5 must succeed on a Systems save, or a grav spike attaches itself to them. The Seeder can detonate all grav spikes as a protocol, causing targets to automatically take {4/6/8} AP Explosive damage and be pulled 3 spaces in a direction chosen by the Seeder. A quick action and passed Systems save removes a grav spike."
     },
     "DET SPIKE": {
-      "name": "DET SPIKE"
+      "name": "DET SPIKE",
+      "effect": "Up to three characters in line of sight and range 5 must succeed on an Systems save, or a det spike attaches itself to them. At the start of the Seeder’s next turn, all det spikes detonate, creating Burst 1 explosions that deals {3/5/7} Explosive damage to all affected characters. Characters can take damage from more than one spike if the affected areas overlap."
     },
 
     "SENTINEL": {
@@ -1197,22 +1217,29 @@
       "name": "RETRACTABLE SWORD"
     },
     "EYE OF MIDNIGHT": {
-      "name": "EYE OF MIDNIGHT"
+      "name": "EYE OF MIDNIGHT",
+      "effect": "The Sentinel becomes Slowed but can take Overwatch 1/turn, instead of 1/round. Once activated, this effect lasts until it is deactivated as a quick action."
     },
     "PUNISHER AMMUNITION": {
-      "name": "PUNISHER AMMUNITION"
+      "name": "PUNISHER AMMUNITION",
+      "effect": "Characters damaged by the Sentinel’s Overwatch attacks also become Slowed until the end of their next turn."
     },
     "WRATH-LOCK": {
-      "name": "WRATH-LOCK"
+      "name": "WRATH-LOCK",
+      "effect": "The Sentinel arms this system. Once armed, the Sentinel attacks twice the next time they attack with their Combat Shotgun, instead of one."
     },
     "IMPALER": {
-      "name": "IMPALER"
+      "name": "IMPALER",
+      "effect": "When the Sentinel hits with Overwatch, their target must pass a Hull save or become Immobilized and Jammed until the end of their next turn."
     },
     "BODYGUARD": {
-      "name": "BODYGUARD"
+      "name": "BODYGUARD",
+      "effect": "The Sentinel chooses an allied character within range 5 as their ward and gains the Reflexive Blow reaction."
     },
     "REFLEXIVE BLOW": {
-      "name": "REFLEXIVE BLOW"
+      "name": "REFLEXIVE BLOW",
+      "trigger": "Someone attacks the Sentinel’s ward.",
+      "effect": "The Sentinel first attacks the inciting character with Overwatch."
     },
 
     "SNIPER": {
@@ -1221,28 +1248,36 @@
       "tactics": "Rightly feared, Snipers are devastating when it comes to dealing focused damage. Using Sniper’s Mark, they can deal direct structure damage, making short work of almost any character. Opponents can avoid this with clever use of cover, or by dropping Prone. Snipers’ main downside is that they need to be fairly stationary to do their best work, as their rifle requires a full action to fire."
     },
     "ANTI-MATERIEL RIFLE": {
-      "name": "ANTI-MATERIEL RIFLE"
+      "name": "反物資步槍"
     },
     "SNIPER’S MARK": {
-      "name": "SNIPER’S MARK"
+      "name": "SNIPER’S MARK",
+      "effect": "A character within line of sight and range 25 gains the Sniper’s Mark. Against targets with the Sniper’s Mark, the Anti-Materiel Rifle deals 1 structure damage instead of its usual damage.<br>Characters know when they have the Sniper’s Mark. They ignore it and take damage normally if they are in cover or Prone. On their turn, characters with the Sniper’s Mark may drop Prone as a free action.<br>The Sniper can only mark one character at a time but can transfer the Sniper’s Mark to another character as a full action."
     },
     "CLIMBER": {
-      "name": "CLIMBER"
+      "name": "CLIMBER",
+      "effect": "The Sniper can climb and remain stationary on any surface without penalty, including overhanging and vertical surfaces."
     },
     "SELECTIVE LOADER": {
-      "name": "SELECTIVE LOADER"
+      "name": "SELECTIVE LOADER",
+      "effect": "The Sniper can choose a special ammunition type before attacking with the Anti-Materiel Rifle. Attacks made with this ammunition function as usual, with an additional effect on a successful attack.<br>The Sniper may choose from the following:<ul><li>Electromagnetic: Targets must must pass an Systems save or become Jammed until the end of their next turn.</li><li>Flare: Targets lose Hide or Invisible and cannot gain those statuses until the end of their next turn.</li><li>Impact: Targets must pass an Hull save or be knocked Prone.</li><li>Molten: Targets must pass an Engineering save or become Shredded until the end of their next turn.</li></ul>"
     },
     "DEFENSIVE GRAPPLE": {
-      "name": "DEFENSIVE GRAPPLE"
+      "name": "DEFENSIVE GRAPPLE",
+      "effect": "The Sniper pulls themselves to any point within range 5 with a grappling hook as though they are flying. The Sniper also has the Relocation reaction."
     },
     "RELOCATION": {
-      "name": "RELOCATION"
+      "name": "RELOCATION",
+      "trigger": "An enemy character in line of sight moves.",
+      "effect": "The Sniper uses Defensive Grapple."
     },
     "SHROUD CHARGE": {
-      "name": "SHROUD CHARGE"
+      "name": "SHROUD CHARGE",
+      "effect": "The Sniper sets off a charge, creating a Burst 3 area of smoke, haze, or some other kind of concealing shroud. The Sniper gains soft cover within the affected area, and characters other than the Sniper cannot draw line of sight into or out of the area. Characters partially within the area have line of sight to characters within and outside the area.<br>This effect lasts until the end of the Sniper’s next turn, or until the Sniper uses this system again."
     },
     "DEADMETAL ROUNDS": {
-      "name": "DEADMETAL ROUNDS"
+      "name": "DEADMETAL ROUNDS",
+      "effect": "The Sniper loads the Anti-Materiel Rifle with a special, over-penetrating round: the next attack they make with it becomes line 20."
     },
 
     "SPECTER": {
