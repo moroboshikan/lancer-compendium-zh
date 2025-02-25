@@ -1126,29 +1126,36 @@
 
     "SCOUT": {
       "name": "斥候",
-      "flavor": "The most devastating mechanized-warfare strategies call for the active, close, and aggressive application of orbital, atmospheric, and terrestrial fire-support. Enter Scout-class mechs and their pilots. Using advanced targeting systems, Scouts are equal parts tactical coordinator and artillery commander, working with allies to map the battlescape and accurately place direct-targeted and autonomous fire.",
-      "tactics": "Scouts are support mechs designed to increase the damage dealt by their allies. They deal no damage themselves, but Marker Rifle and Cloaking Field allow them to both keep allied characters alive and prevent enemies from hiding. They are especially adept at revealing Invisible characters but need to get close to their targets to take full advantage of this ability. Like most support mechs, Scouts aren’t especially resilient on their own."
+      "flavor": "最具破壞性的機甲戰爭策略需要積極、近距離、且積極地運用來自軌道、空中和地面的火力支援。而這正是斥候型機甲和其駕駛員的職責所在。憑藉其先進的目標定位系統，斥候既是戰術協調者，也是炮擊指揮官，他們與隊友合作繪製戰場地圖，精準地指引直擊目標和自律火力打擊。",
+      "tactics": "斥候是專為提升隊友傷害輸出而設計的支援型機甲。他們本身無法造成傷害，但<b>信標步槍</b>和<b>隱形力場</b>能讓他們在保護隊友的同時阻止敵人躲藏起來。斥候尤其擅長揭露出隱形角色的位置，但需要靠近其目標才能充分發揮這項能力。跟大部分的支援型機甲相同，斥候本身並不具備特別強的生存能力。"
     },
     "MARKER RIFLE": {
-      "name": "MARKER RIFLE"
+      "name": "信標步槍",
+      "on_hit": "目標受到<b>鎖定</b>。只要目標還擁有<b>鎖定</b>，就會同時陷入<b>離散</b>狀況，且無法進行躲藏或得到<b>隱形</b>狀態。"
     },
     "REBOUND SCAN": {
-      "name": "REBOUND SCAN"
+      "name": "反彈掃描",
+      "effect": "在<b> ⌿5 範圍</b>內所有斥候所選擇的角色必須進行<b>系統豁免</b>。若豁免失敗，目標將立即失去<b>匿跡</b>和<b>隱形</b>狀態，且直到斥候的下一回合開始前，都無法再得到這兩個狀態，也不能受益於任何<b>掩護</b>。"
     },
     "CLOAKING FIELD": {
-      "name": "CLOAKING FIELD"
+      "name": "隱形力場",
+      "effect": "斥候產生一個覆蓋<b> 爆發 3 </b>範圍區域的隱形力場，持續直到其下一回合結束為止。斥候和所有處於該區域內的隊友角色得到<b>隱形</b>狀態，但斥候在這個效果生效期間也會陷入<b>固定</b>狀況。"
     },
     "SYSTEM FLAYER": {
-      "name": "SYSTEM FLAYER"
+      "name": "系統剝掠者",
+      "effect": "在進行<b>反彈掃描</b>的豁免判定中失敗的角色，還會被<b>鎖定</b>，並受到 {2/3/4} 熱度。"
     },
     "SPOTTER": {
-      "name": "SPOTTER"
+      "name": "著彈觀測",
+      "effect": "當隊友角色與斥候鄰接時，其進行的所有攻擊都會得到<b> +1 準度</b>。"
     },
     "EXPOSE WEAKNESS": {
-      "name": "EXPOSE WEAKNESS"
+      "name": "暴露弱點",
+      "effect": "被<b>信標步槍</b>命中的角色，在下一次被遠距或肉搏攻擊命中時會受到 +{4/6/8} 額外傷害。這個效果會持續到被觸發、或直到該場景結束為止。"
     },
     "ORBITAL STRIKE": {
-      "name": "ORBITAL STRIKE"
+      "name": "軌道轟炸",
+      "effect": "斥候選擇在<b> ⌿20 </b>範圍和視線範圍內的 1 格地面空間；所有角色都會知道該空間被選中。斥候呼叫軌道砲對該區域進行轟炸，在下一輪結束時於該處製造一個<b> 爆發 2 </b>範圍的爆炸。所有在影響範圍內的角色都必須進行<b>敏捷豁免</b>。若豁免失敗，則受到 {12/16/20} 能量傷害，並被擊倒<b>伏臥</b>。若豁免成功，則只受到一半傷害且維持站立。"
     },
 
     "SEEDER": {
