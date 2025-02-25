@@ -720,7 +720,7 @@
     "DIG IN": {
       "name": "掘建掩體",
       "trigger": "當攻擊命中終結者，但尚未擲骰決定傷害時。",
-      "effect": "終結者獲得對該攻擊的所有傷害的<b>抗性</b>，但陷入<b>緩慢<b>狀況直到其下一回合結束為止。"
+      "effect": "終結者獲得對該攻擊的所有傷害的<b>抗性</b>，但陷入<b>緩慢</b>狀況直到其下一回合結束為止。"
     },
     "BROAD-SWEEP HAFT": {
       "name": "長柄橫掃",
@@ -741,8 +741,8 @@
 
     "ENGINEER": {
       "name": "工程師",
-      "flavor": "Various types of localized Engineer-class mechs are common throughout the galaxy, unique to the worlds or theaters in which they operate. The Engineer has long existed as an archetype, but it remained largely undefined until a full design doctrine was laid out by Corrida Isolde-Nollet, an Armory civil service director on Ras Shamra. In all cases, the mission of Engineers is the same: defend, maintain, secure. Engineers operate best in the middle or rear of the battle line, coordinating the defense of important positions and overseeing comprehensive deployment of all operational assets. Remember: if you can’t get to the enemy, you lose.",
-      "tactics": "Engineers’ Deployable Turrets make them potent force multipliers, as they can deploy one every turn. If enemies don’t deal with an Engineer's turrets quickly, their potential damage quickly skyrockets – even more when they target characters with Engineer’s Mark. Without Engineer’s Mark, turrets attack the nearest target, which players can use to control who takes damage."
+      "flavor": "在銀河系中能廣泛見到各式各樣的工程師級機甲，它們通常會因應當地環境或特定戰地需求而經過獨特的在地化改造。工程師這種機甲類型已經存在許久，但一直到拉斯．沙姆拉的兵工廠民事服務主任，柯莉妲．伊索德－諾萊制定了完整的設計準則之後，它才真正有了明確的獨立規格。無論如何，工程師的職責始終如一：防衛、維護、掌控戰場。工程師最適合被部署在戰線中段或後方，負責協調重要據點的防禦分配，並監督整個作戰資產的使用和佈署。記住：如果你無法影響敵人，那你就輸了。",
+      "tactics": "工程師每回合都能展開一座<b>部署型炮塔</b>，讓它們成為了強大的力量乘數單位。如果敵人不及時摧毀這些炮塔，它們輸出的傷害量將會迅速攀升──當它們攻擊被<b>工程師印記</b>標記的目標時更是如此。在沒有<b>工程師印記</b>的狀況下，炮塔會攻擊最接近的目標，玩家可以利用這一點來控制要讓誰受到傷害。"
     },
     "FLAK CANNON": {
       "name": "防空炮",
@@ -750,7 +750,7 @@
     },
     "DEPLOYABLE TURRET": {
       "name": "部署型炮塔",
-      "effect": "<b>部署型炮塔（大小 1/2、HP {5/8/10}、迴避 10、電子防禦 10、標籤：無人機）<br><br>這種能自行建造的炮塔可以在任何鄰接且未被占據的空間被展開。在工程師的回合中，部署型炮塔會對 <b>⌿10</b> 範圍內最接近的一名敵對角色。這個攻擊有 +{1/2/3} 加值且會造成 {4/5/6} 動能傷害。工程師能同時有最多 6 架展開的炮塔，且它們全都會在工程師被毀時停止運作。"
+      "effect": "<b>部署型炮塔（大小 1/2、HP {5/8/10}、迴避 10、電子防禦 10、標籤：無人機）</b><br><br>這種能自行建造的炮塔可以在任何鄰接且未被占據的空間被展開。在工程師的回合中，部署型炮塔會對 <b>⌿10</b> 範圍內最接近的一名敵對角色。這個攻擊有 +{1/2/3} 加值且會造成 {4/5/6} 動能傷害。工程師能同時有最多 6 架展開的炮塔，且它們全都會在工程師被毀時停止運作。"
     },
     "ENGINEER’S MARK": {
       "name": "工程師印記",
@@ -779,8 +779,8 @@
 
     "GOLIATH": {
       "name": "巨人",
-      "flavor": "Along the Sierra Madre Line – the eighth ring of territory out from Cradle – the Dangun frame is a familiar sight. Manufactured by Park Armored Systems and popularized by the Dagger Squadron mercenary company, the Dangun is popular for its toughness, kinetic damage-trade ability, and reliable all-theater performance. The Dangun is a mech to build strike forces around – a Goliath-class frame capable of mounting powerful magtech, with a design that’s tough to counter in kinetic damage combat.<br>With a number of small fleet contracts in its portfolio, Park Armored Systems is a manufacturer worth keeping an eye on; indeed, Harrison Armory has taken particular notice, and omninet rumors suggest a possible partnership in the near future.",
-      "tactics": "Goliaths are relatively mobile defenders that can bring enemies to them. With Crush Targeting, Goliaths force dangerous enemies to focus attacks on them; all it needs is line of sight, allowing Goliaths to target even fast or hard-to-hit characters. The prodigious size of Goliaths also lets them provide cover for their allies."
+      "flavor": "沿著賽拉馬德雷防線──搖籃外的第八環地帶──到處都能看到檀君機甲的身影。由帕克裝甲系統生產，並因為匕首中隊傭兵公司而聲名大噪，檀君因為其堅韌耐打、動能傷害交換能力、以及可靠的全戰場適應性而廣受歡迎。檀君是組建突擊部隊的核心單位──這類巨人型機甲能夠搭載強大的磁能科技，其設計在動能戰鬥中相當難以應付。<br><br>憑藉多筆與小型艦隊的合約，帕克裝甲系統已經成為了一家備受矚目的生產商；事實上，哈里遜兵工廠已經對此表現出濃厚的興趣，萬物網上也已經有傳言指稱雙方很可能即將展開合作。",
+      "tactics": "巨人是擁有較高機動性的防禦者，能主動讓敵人面對他們。透過<b>威懾目標</b>，巨人能迫使強敵把攻擊集中在自己身上；而這一切只需要巨人看見對方，讓巨人甚至能輕易指定行動快速或難以命中的角色為目標。巨人的龐大體型還能讓其為隊友們提供掩護。"
     },
     "DRUM SHOTGUN": {
       "name": "彈鼓散彈槍",
@@ -889,46 +889,46 @@
 
     "MIRAGE": {
       "name": "幻象",
-      "flavor": "Mirage-class mechs are often found in the employ of HORIZON-aligned militant groups. With no originating manufacturer, they are one of the few open-source non-HORUS pattern groups available to cells that know where to look. Mirages deploy advanced liturgicode to wrap themselves and their allies in veils of illusion and misdirection. While it’s clear that the warping effects that surround these mechs are caused by sensor distortion, they are powerful enough to affect even organic systems – exercise caution when engaging.",
-      "tactics": "Mirages are potent support mechs, able to teleport their allies around at will and shut down ranged attackers with Warp Sensors. They can make allied characters Invisible, but become vulnerable while doing so. These strengths come at a price: weapons and systems that ignore cover – such as Seeking weapons – can get around Warp Sensors, and Mirages don’t deal any damage on their own."
+      "flavor": "幻象型機甲通常會出現在受雇於地平線陣營的軍事團體。由於沒有特定的原生產商，只要你知到去哪裡找，幻象型機甲是少數能被輕易取得的，非荷魯斯出品的開源模板機甲之一。幻象型機甲使用了先進的禮拜編碼為自己和隊友披上幻影與誤導的面紗中。儘管圍繞著這些機甲的扭曲效果很明顯是源於感測器干擾，但它們卻強大到甚至能影響有機體的感知系統──在與之交戰時請務必小心謹慎。",
+      "tactics": "幻象是強力的支援型機甲，能夠隨意瞬間轉移其隊友，並利用<b>扭曲感應器</b>來封鎖遠距攻擊手。他們能夠讓隊友<b>隱形</b>，但在這麼做的同時也會使自己暴露在敵火下。但這些強項也有相應的代價：能夠忽略掩護的武器和系統（像是導引武器）能夠無視<b>扭曲感應器</b>的影響，且幻象本身無法主動造成任何傷害。"
     },
     "WARP SENSORS": {
-      "name": "WARP SENSORS",
-      "effect": "The Mirage makes a tech attack against a target within Sensors. On a success, they take {2/3/4} Heat and all attacks they make until the end of their next turn treat their targets as having soft cover."
+      "name": "扭曲感應器",
+      "effect": "幻象對感應範圍內的一名角色進行<b>科技攻擊</b>。命中時，目標受到 {2/3/4} 熱度，且直到其下一回合結束為止，目標進行的所有攻擊都被視為其攻擊對象擁有<b>軟性掩護</b>。"
     },
     "REALITY FLICKER": {
-      "name": "REALITY FLICKER",
-      "effect": "The Mirage teleports when they make a standard move."
+      "name": "現實閃現",
+      "effect": "幻象以<b>瞬間轉移</b>的形式進行普通移動。"
     },
     "GLITCH SCANNERS": {
-      "name": "GLITCH SCANNERS",
-      "effect": "The Mirage’s advanced electronic countermeasures play havoc with enemy systems, causing them to register false positives on the battlefield. They may teleport up to two allied characters within Sensors, moving them 5 spaces in any direction – revealing their “true” locations. This movement ignores engagement and doesn’t provoke reactions.<br>The Mirage also gains the Blip reaction."
+      "name": "故障掃描器",
+      "effect": "幻象的先進電子反制系統蹂躪著敵人的系統，讓其對於戰場單位的位置分佈產生錯亂。幻象可以將位於感應範圍內的最多二名隊友角色，以<b>瞬間轉移</b>的方式往任意方向移動 5 格，揭露出它們「真正」的位置。這個移動忽略交戰且不會觸發反應。<br><br>幻象也得到<b>光點一閃</b>反應。"
     },
     "BLIP": {
-      "name": "BLIP",
-      "trigger": "A hostile character takes action in line of sight.",
-      "effect": "The Mirage may teleport one allied character within Sensors 5 spaces in any direction."
+      "name": "光點一閃",
+      "trigger": "當視線範圍內的敵對角色進行動作時。",
+      "effect": "幻象可以將位於感應範圍內的一名隊友角色，以<b>瞬間轉移</b>的方式往任意方向移動 5 格。"
     },
     "ILLUSORY SUBROUTINES": {
-      "name": "ILLUSORY SUBROUTINES",
-      "effect": "The Mirage makes a tech attack against a target within Sensors. On a success, the target treats all characters allied to the Mirage as Invisible until the start of their next turn."
+      "name": "幻象副程式",
+      "effect": "幻象對感應範圍內的一名角色進行<b>科技攻擊</b>。若命中，則幻象的所有隊友角色對目標而言都被視為處於<b>隱形</b>狀況，持續直到其下一回合開始為止。"
     },
     "WARP TARGETING": {
-      "name": "WARP TARGETING",
-      "effect": "All allied characters within range 50 benefit from soft cover. If the Mirage takes damage, this effect ends until the start of their next turn."
+      "name": "扭曲鎖定",
+      "effect": "所有位於<b> ⌿50 </b>範圍內的隊友角色都將受益於<b>軟性掩護</b>。如果幻象受到傷害，則這個效果會暫時失效，直到其下一回合開始才重新生效。"
     },
     "METAFOLD SHOVE": {
-      "name": "METAFOLD SHOVE",
-      "effect": "The Mirage makes a tech attack against a hostile character within range 5. On a success, the target swaps position with an allied character within the Mirage’s line of sight and chosen by the Mirage, both teleporting. Flying characters can’t be swapped with characters that aren’t flying, and vice versa."
+      "name": "空間摺疊擁塞",
+      "effect": "幻象對<b> ⌿5 </b>範圍內的一名角色進行<b>科技攻擊</b>。若命中，則目標與一名位於幻象視線範圍內的任意隊友角色透過<b>瞬間轉移</b>交換位置。飛行中的角色不能和非飛行中的角色交換位置，反之亦然。"
     },
     "MANIFEST FALSE IDOLS": {
-      "name": "MANIFEST FALSE IDOLS",
-      "effect": "The Mirage creates three Size 1 data constructs in free spaces within line of sight and range 5. These constructs provide soft cover but can be passed through. When hostile characters pass through a construct, the construct disappears and they must succeed on a Systems save or take 2 heat and become Jammed until the end of their next turn. At any point during the Mirage’s turn, they can teleport an allied character within line of sight to the location of a data construct as a quick action, causing the construct to disappear, as long as there is space to do so."
+      "name": "顯現假偶像",
+      "effect": "幻象在視線和 <b>⌿5</b> 範圍內的三個未被佔據空間各創造出一個<b>大小 1 </b>的數據建構體。這些建構體能提供<b>軟性掩護</b>，但能被角色移動穿過。當敵對角色穿過建構體時，建構體會消失，且目標必須成功通過<b>系統豁免</b>，否則受到 2 熱度並陷入<b>受擾</b>狀況直到其下一回合結束為止。此外，在幻象的回合期間，只要空間足夠，他就能以<b>快速動作</b>將一名視線範圍內的隊友角色透過<b>瞬間轉移</b>移動到一個數據建構物所在的位置，這將會使該建構物消失。"
     },
     "MULTIPLICITY": {
-      "name": "MULTIPLICITY",
-      "trigger": "A allied character in line of sight is hit.",
-      "effect": "The attacker must make a Systems save. On a failure, the Mirage’s ally gains Immunity to the attack’s damage and effects and may teleport up to 5 spaces in the direction of their choice."
+      "name": "多重態",
+      "trigger": "當視線範圍內的隊友角色被攻擊命中時。",
+      "effect": "攻擊者必須進行<b>系統豁免</b>。若豁免失敗，則幻象的隊友將免疫於該攻擊的傷害和效果，並能以<b>瞬間轉移</b>往任意方向移動最多 5 格。"
     },
 
     "OPERATOR": {
@@ -995,26 +995,31 @@
 
     "PYRO": {
       "name": "火焰兵",
-      "flavor": "First popularized in the wake of the Hercynian Crisis by the lancer Flama and their aptly named Devil Corps, Pyro frames are reviled across the galaxy as the embodiment of the pure destructive power held by militarized states and corpro-states. Their use is common within organizations for which the ends justify the means. Pyros are well-armored, and better insulated than most chassis of similar gross weight, designed to manage incredible internal heat while projecting volatile mixes of chemicals and flame toward their enemies. Pyros are often used in urban and jungle warfare, where they can be used to root out entrenched defenders.",
-      "tactics": "Pyros are slow, resilient mechs that are especially potent against characters already suffering from Burn. If players don’t keep their distance, Pyros can use Explosive Vent to dump an enormous amount of heat on right on them. Position Pyros so they can protect allies against incoming fire with Firebreak Shield. Note, however, that players can move around shields to reduce their effectiveness to zero, or they can deactivate them by hitting Pyros with Stunned or Knockback weapons."
+      "flavor": "最初是在海西尼亞危機之後，經由槍騎兵焚焰以及他名符其實的惡魔軍團之手，火焰兵型機甲的存在從此廣為人知，並被視為軍事國家和企業國家純粹破壞力的體現而惡名昭彰。火焰兵機甲經常被為達目的不擇手段的組織所使用。它們擁有厚重的裝甲，以及與同量級機甲相比更加優越的隔熱能力，能在承受內部極端廢熱的同時，朝敵人肆意噴射火焰和劇烈化學物質混合物。這類機甲經常被用在城市戰和叢林戰，徹底剷除牢固防禦陣地中的敵人。",
+      "tactics": "火焰兵是行動緩慢但堅固耐打的機甲，在對付已經受到<b>燃燒</b>影響的角色尤其致命。如果玩家不保持距離，火焰兵將會使用<b>爆炸性排放</b>往他們臉上釋放大量的熱度。讓火焰兵站在合適的位置，好讓他能用<b>防火盾</b>來保護隊友不受敵火侵襲。然而，要注意玩家能透過走位繞開防火盾來使其無效化，或是透過把火焰兵擊退或<b>暈眩</b>來使其失效。"
     },
     "FLAMETHROWER": {
-      "name": "FLAMETHROWER"
+      "name": "火焰噴射器",
+      "effect": "這件武器對已經受到<b>燃燒</b>的角色造成雙倍傷害。"
     },
     "EXPLOSIVE VENT": {
-      "name": "EXPLOSIVE VENT"
+      "name": "爆炸性排放",
+      "effect": "火焰兵清除自己的所有熱度。位於其<b> 爆發 1 </b>範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到等同於火焰兵清除熱度一半的熱度，並被擊倒<b>伏臥</b>。"
     },
     "FIREBREAK SHIELD": {
-      "name": "FIREBREAK SHIELD"
+      "name": "防火盾",
+      "effect": "在火焰兵的回合結束時，他能在視線範圍內與其鄰接的未被佔據空間，創造出一面佔據<b> 線性 4 </b>範圍，4 格高的能量盾牌。這面盾牌不會遮擋視線，但能提供<b>軟性掩護</b>；當受益於這個軟性掩護的角色被攻擊時，擲 1d6，若結果為 4+ 則該攻擊自動失手。這個效果會持續直到火焰兵的下一回合開始、或是火焰兵移動位置或陷入<b>暈眩</b>狀態為止。這個效果不會與<b>隱形</b>狀態的效果疊加。"
     },
     "UNSHIELDED REACTOR": {
-      "name": "UNSHIELDED REACTOR"
+      "name": "無屏蔽反應爐",
+      "effect": "當角色在與火焰兵鄰接時開始其回合，或是在自己回合中第一次與火焰兵鄰接時，該角色都會受到 {2/3/4} 熱度。"
     },
     "NAPALM BOMB": {
-      "name": "NAPALM BOMB"
+      "name": "凝固汽油彈"
     },
     "EXPLOSIVE JET": {
-      "name": "EXPLOSIVE JET"
+      "name": "爆炸噴流",
+      "effect": "位於<b> 爆發 2 </b>範圍內的敵人必須成功通過<b>機體豁免</b>，否則被擊退離開該範圍後倒地<b>伏臥</b>。然後，火焰兵往任意方向以<b>飛行</b>移動 5 格，但必須在該移動結束時著陸。"
     },
 
     "RAINMAKER": {
@@ -1023,28 +1028,36 @@
       "tactics": "Rainmakers are one part artillery and one part controller. Their Javelin Rockets force characters to avoid certain areas or take guaranteed damage. They can also dish out delayed damage through optional systems like Hound Missiles and Atlas Missiles. Like other artillery mechs, Rainmakers are relatively vulnerable on their own."
     },
     "MISSILE PODS": {
-      "name": "MISSILE PODS"
+      "name": "MISSILE PODS",
+      "effect": "This weapon can attack 1-3 characters at a time."
     },
     "JAVELIN ROCKETS": {
-      "name": "JAVELIN ROCKETS"
+      "name": "JAVELIN ROCKETS",
+      "effect": "The Rainmaker chooses 3 free spaces within line of sight and range 20 that are not adjacent to each other. All characters know which spaces have been chosen. The Rainmaker fires a volley of auto-targeting rockets into the air: the next time a hostile character moves through, starts their turn in, or passes above one of the chosen spaces – no more than 10 spaces up – they are hit by a rocket, taking {5/6/7} kinetic damage. Each space can only be triggered once.<br>This effect lasts until the start of the Rainmaker’s next turn."
     },
     "HUNTSMAN": {
-      "name": "HUNTSMAN"
+      "name": "HUNTSMAN",
+      "effect": "Against characters with Lock On, the Rainmaker’s weapons gain Smart, Seeking, and AP."
     },
     "HADES MISSILES": {
-      "name": "HADES MISSILES"
+      "name": "HADES MISSILES",
+      "effect": "All characters in a Cone 3 area starting within range 20 of the Rainmaker take {4/6/8} Energy damage and 2 heat, half if they pass an Agility save. This system doesn’t need line of sight, just a possible route to the target."
     },
     "HOUND MISSILES": {
-      "name": "HOUND MISSILES"
+      "name": "HOUND MISSILES",
+      "effect": "Hound Missile (Size 1/2, HP {10/15/20}, Evasion 10, E-Defense 10, Tags: Drone).<br>The Rainmaker deploys the Hound Missile in an adjacent space and picks a target in range 20 and line of sight. At the start of the Rainmaker’s turns the missile flies 3 spaces towards its target, 6 if the target has Lock On. It moves directly, maneuvering round cover and terrain if needed. When it collides with a character or reaches its target, it creates a Burst 1 explosion. Characters in the affected area take {16/20/24} Energy damage, half if they pass an Agility save."
     },
     "ENDLESS RAIN": {
-      "name": "ENDLESS RAIN"
+      "name": "ENDLESS RAIN",
+      "effect": "The Rainmaker picks 6 spaces for Javelin Rockets, not 3."
     },
     "VOLLEY": {
-      "name": "VOLLEY"
+      "name": "VOLLEY",
+      "effect": "Pick characters in range 20 and line of sight. They take {4/6/8} Explosive damage, half if they pass an Agility save."
     },
     "ATLAS MISSILES": {
-      "name": "ATLAS MISSILES"
+      "name": "ATLAS MISSILES",
+      "effect": "The Rainmaker chooses a space of ground in line of sight and Range 30, obvious to all characters with line of sight to the space. The Rainmaker launches a missile that lands at the end of the next round making a Blast 2 explosion; affected characters take {16/20/24} Explosive damage, half if they pass an Agility save."
     },
 
     "RONIN": {
@@ -1299,8 +1312,8 @@
 
     "WITCH": {
       "name": "女巫",
-      "flavor": "Witch-archetype chassis can always be found in the eye of a systemic storm, where they are adept at generating realspace and legionspace terrors to blanket battlefields. At any given time, they are likely to be operating in both the physical battlefield and the tempest of the omninet. To handle the chaotic swirl of inputs and outputs that results from this split perception, Witches often pair with personality-clone NHPs, splitting tasks along parallel tracks to increase combat efficacy.",
-      "tactics": "Witches are no-nonsense controllers that use Tear Down to inflict heat and Blind to shut down ranged attackers. Predatory Logic gives them a tool to use against characters with heavy weapons, which can also aid their allies. Targets generally have an opportunity to mitigate their heat somewhat, since Witches deal most of their heat on their next turn."
+      "flavor": "女巫型機甲的身影總是活躍於系統風暴的中心，她們擅長在現實和軍團空間中製造能籠罩整個戰場的恐懼之影。任何時候，她們可能都在同時操弄著現實戰場以及蹂躪著萬物網的風暴。為了處理這種分裂感知帶來的輸入輸出錯亂，女巫通常會配備人格備份型 NHP，透過分拆進程以平行處理來提升戰鬥效率。",
+      "tactics": "女巫是直接了當的控制者，她們會使用<b>拆毀</b>來造成熱度，並用<b>盲目</b>來封鎖遠距攻擊手。<b>掠奪邏輯</b>不僅讓她們能對付配備重型武器的敵人，也能用來協助隊友。由於女巫造成的熱度大多會在其下一回合才生效，因此目標通常有機會在這之前用某些方式減輕受到的損害。"
     },
     "TEAR DOWN": {
       "name": "拆毀",
