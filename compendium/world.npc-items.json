@@ -668,8 +668,8 @@
 
     "CATAPHRACT": {
       "name": "重鐵騎",
-      "flavor": "Cataphract squadrons are made up of rapid-strike mechs that emphasize mobility, shock, and tenacity; it follows, then, that Cataphract archetypes are feared across the galaxy for their ability to overwhelm defenses in moments. There are few things more terrifying (or inspiring) than a squadron of Cataphracts punching through a static battle line, heavy cannons and point-defense weapons wiping out previously immovable defenders. The flagship Cataphract-class chassis is the Sine Die Systems END-44, an angular beast of a mech outfitted with SDS’s fearsome Ram Cannon. The enduring popularity of the chassis can be attributed to the success of Catherine “C-80” Need, who made their name piloting an END-44 to victory in the defense of Carina-Proximal.",
-      "tactics": "Cataphracts are mobile strikers. Trample allows them to move through enemies and get them to the rear lines, where they can use Impale to force vulnerable targets into disadvantageous positions. Position Cataphracts so that they are closer to individual hostile characters, as Point-Defense Shield doesn’t work if several enemies are an equal distance away. Note that Cataphracts still provoke reactions when they move, so use their abilities carefully."
+      "flavor": "重鐵騎中隊由強調機動性、衝擊力與頑強性的高速突擊機甲組成。重鐵騎型機甲也因此以他們瞬間輾壓防線的能力名揚整個銀河系。當重鐵騎中隊勢不可當地衝破防線，用重型火炮和定點防禦武器掃蕩原本堅不可摧的防禦部隊——還有什麼場面能比這更令人恐懼（或雀躍）呢？重鐵騎型機甲中的旗艦型號，首推「後會無期系統」生產的 END-44：這是一款外型稜角分明的機械巨獸，搭載著同公司出品的可怕攻城炮。這款機體之所以能有這麼歷久不衰的人氣，很大程度要歸功於那位駕駛著 END-44 在天舟座毗鄰星防禦戰中凱旋而歸的傳奇駕駛員，凱瑟琳．「C-80」．尼德。",
+      "tactics": "重鐵騎是機動型的突擊者。<b>踐踏</b>讓他們能穿過敵陣抵達戰線後方，並使用<b>穿刺</b>來迫使脆弱的目標移動到不利位置。調整重鐵騎的位置，讓他能與單個敵人維持最靠近的距離，避免<b>定點防禦護盾</b>因為與多個敵人維持同距離而失效。要注意的是，重鐵騎在移動時仍然會觸發反應，所以請謹慎使用他的能力。"
     },
     "RAM CANNON": {
       "name": "攻城炮",
@@ -847,8 +847,8 @@
 
     "HORNET": {
       "name": "胡蜂",
-      "flavor": "SatriaBarong’s Espada range of half-frame mechs has long been a popular choice in the chassis racing circuit; notably, Espadas are the mechs of choice for the vaunted SatriaBarong–ShimanoLUX chassis racing team. Recently, SatriaBarong – with the blessing of SSC – has moved to create a mil-spec, de-licensed variant of the Espada without the ShimanoLUX branding, giving rise to the Hornet archetype, a platform open for other companies to adapt and improve. The most notable of these competitors is Chandrasekhar & Herschel, the primary sponsor of the new Blueshift Grand Prix racing circuit.",
-      "tactics": "Hornets are small, fast controllers that are extremely hard to hit and incredibly annoying. They deal limited damage, but their ability to inflict mobility-reducing conditions is great for locking down enemy strikers. Fortunately for their enemies, Hornets have a low E-Defense that makes them vulnerable to smart weaponry and tech attacks."
+      "flavor": "薩翠里巴隆出品的半身機甲「劍花」系列，長期以來一直都是機甲競速賽事的熱門選擇；值得注意的是，劍花同時也是備受盛讚的薩翠里巴隆－島野奢華機隊的首選機體。近年來，在 SSC 的授權下，薩翠里巴隆推出了一款以劍花為原型，去除島野奢華品牌的無牌照軍規機甲，而這具機甲也成為了胡蜂型機體的原型，開放了一個可供其他公司進行改造和適配的平台。在這些競爭者之中，最引人注目的便是錢德拉塞卡—海瑟社，新的藍移國際大獎賽道的主要贊助商。",
+      "tactics": "胡蜂是小型且快速的控制者，極難命中且異常惱人。他們能造成的傷害有限，但其阻礙敵方機動性的能力非常適合用來封鎖敵方的突擊者單位。幸運的是，胡蜂低落的電子防禦能力讓其在面對智慧武器和科技攻擊時顯得特別脆弱。"
     },
     "STINGER PISTOL": {
       "name": "螫針手槍",
@@ -966,8 +966,8 @@
 
     "PRIEST": {
       "name": "祭司",
-      "flavor": "Priest-archetype mechs are found among the ranks of technozealot cults, transhumanist movements, and states or corporations that prioritize technological supremacy. These frames are configured to network their sensitive core systems with sympathetic mechs, creating digital super-constructs in order to establish and maintain total theater control. The use of Priest-archetype chassis and strategies were pioneered by a small, esoteric group known as the Messengers of MAIA. Ostensibly a courier group, the Messengers push all systems – synthetic and organic – to their theoretical limits. They even go so far as to share sensory input between linked pilots – an experience known to produce hyper-perception fugues and other ascendant mental states.",
-      "tactics": "Priests are powerful support mechs that function best when partnered with another character they can empower with Investiture. Use their Dispersal Shield to protect vulnerable targets and Investiture to empower an allied striker or defender. Enemies can disarm Investiture by separating Priests from their partners, at which point both become vulnerable to conditions."
+      "flavor": "祭司型機甲常見於科技狂信者教派、超人類主義運動、以及崇尚科技至上的國家和企業中。這些機甲被設計成能將其敏感的核心系統與其他機甲連接組成共感網路，從而建構出數位超構體來實現並維持對戰場的全面控制。祭司型機甲的使用和戰術運用，最初是由一群自稱為摩耶信使的小型密教組織所開創。儘管表面上是郵政團隊，他們致力於將所有系統推向理論極限──無論合成或有機系統──甚至到了會讓連線駕駛員之間共享感官輸入的地步，這種體驗已知會產生超感知神遊以及其他超然精神狀態。",
+      "tactics": "祭司是強大的支援者機甲，在與其他能用<b>授職</b>能力強化的角色搭配時能發揮出最大功能。他們能利用<b>分散護盾</b>來保護脆弱的目標，並使用<b>授職</b>來強化友方的突擊手或防禦手。然而，敵人也可以透過將祭司和它的隊友分開來解除<b>授職</b>的效果，從而讓兩者都更容易受到負面狀態的影響。"
     },
     "ABJURE": {
       "name": "戒棄",
@@ -1068,8 +1068,8 @@
 
     "RONIN": {
       "name": "浪人",
-      "flavor": "Ronin frames differ from those favored by Berserkers and Demolishers in that they aren’t retrofitted or improvised for creative tactical applications – they are purpose-built to excel in melee combat by boutique fabricators. Although they are seen as somewhat antique by many commentators, the rise of stasis- and mag-based defensive technologies has made Ronins more viable in modern combat.<br>Ronin are common among both martial cultures and performance-combat firms, where their superb melee abilities elevate them above the competition. They see less use in cultures that have a preference for ranged combat, but there is a certain prestige accorded to pilots who adopt ancient weapons and survive to do it again. The mythic lancer Susanoo elevated this archetype to legendary status when she endorsed the GRAMtech Strike-1 chassis, which she piloted alongside numerous Albatross wings during the Neo-Celestine Disappointment.",
-      "tactics": "Ronins are no-nonsense, high-damage melee strikers. Rebound makes it dangerous for enemies to attack Ronins with ranged weapons, but they tend to suffer against armored enemies and are heavily reliant on Accuracy."
+      "flavor": "浪人型機甲與狂戰士型和終結者型不同，並非經過改裝或即興創造以適應戰場需求，而是由精品製造商專門打造，為了在肉搏戰中大放異彩而設計的。儘管許多評論家認為這類機甲已經有些過時，但靜滯與磁能防禦科技的興起，使得浪人型機甲在現代戰場上仍然頗具競爭力。<br>浪人卓越的近戰能力使其能在一眾競爭對手中脫穎而出，因此相當常見於崇尚武道的文化和戰鬥表現的企業中。儘管他們在偏好遠距戰鬥的文化中較少被使用，但那些選擇了古典武器又能在戰場上屢次倖存的駕駛員，通常能為自己贏來一定程度的威望。在新天青失落時期，傳奇槍騎兵虛佐之男駕駛著她鍾愛的格蘭姆科技突擊一號機甲與信天翁連隊並肩作戰的事蹟，也將這款機甲的原型昇華到傳說的地位。",
+      "tactics": "浪人是直接了當，能造成高額傷害的肉搏型突擊者。<b>反彈</b>讓使用遠距武器攻擊浪人的敵人必須背負一定風險，但他們在對付裝甲敵人時的表現差強人意，且需要高度仰賴準度才能發揮最大效益。"
     },
     "CARBON FIBER SWORD": {
       "name": "碳纖維劍",
