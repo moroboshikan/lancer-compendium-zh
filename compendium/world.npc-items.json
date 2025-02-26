@@ -340,7 +340,7 @@
     "AEGIS": {
       "name": "神盾",
       "flavor": "神盾型機甲設計用於固守陣地、支援隊友，以及壓制敵人。在科莫蘭行動中，它們在卡拉金駕駛，貴族瑪克倫南家族的葛洛莉雅女士的操作下首次嶄露頭角，從此以極為驚人的防禦能力廣為人知。其駕駛員擅長利用一切可用資源，從傳統工事到最尖端科技，將哪怕是最微小的掩體變成堅不可摧的堡壘。",
-      "tactics": "神盾是強韌的防禦支援單位。由於他們的低機動性使其難以重新調整站位佈局，因此最佳的戰術策略是把他們佈署在<b>防衛網</b>能夠覆蓋最多的隊友的位置，從而發揮最大效益。<b>再生屏障</b>同時能保護神盾不受到進一步降低機動性的負面效果影響。"
+      "tactics": "神盾是強韌的防禦者。由於他們的低機動性使其難以重新調整站位佈局，因此最佳的戰術策略是把他們佈署在<b>防衛網</b>能夠覆蓋最多的隊友的位置，從而發揮最大效益。<b>再生屏障</b>同時能保護神盾不受到進一步降低機動性的負面效果影響。"
     },
     "LIGHT LASER": {
       "name": "輕型雷射"
@@ -412,7 +412,7 @@
     "ASSASSIN": {
       "name": "刺客",
       "flavor": "刺客型機甲通常專注於敏捷、傷害和速度。這些駕駛員犧牲了舒適性以換取最極限的效率，他們將機甲的維生系統、通訊系統等設備拆除，改為安裝更強大的處理器和隱形能力。刺客通常單獨行動或被編入小隊，駕駛著這些小巧靈活的機甲穿過近乎無法穿越的陣線，殺個目標措手不及。",
-      "tactics": "刺客在殲滅單一目標的領域中是真正的專家。使用<b>刺客印記</b>來標記獵物，然後盡可能利用刺客的高額速度和<b>跳躍</b>能力來接近目標。讓刺客與其它能造成像<b>暈眩</b>或<b>伏臥</b>狀況的 NPC 一起出現，將能構成特別噁心的組合。假如沒有裝載「魔咳」散彈槍這個額外系統，刺客就只能使用肉搏攻擊，並在面對連續火力攻擊的壓制下顯得特別脆弱。"
+      "tactics": "刺客在殲滅單一目標的領域中是真正的專家。使用<b>刺客印記</b>來標記獵物，然後盡可能利用刺客的高額速度和<b>跳躍</b>能力來接近目標。讓刺客與其它能造成像<b>暈眩</b>或<b>伏臥</b>狀況的 NPC 一起出現，將能構成特別噁心的組合。假如沒有裝載「魔咳」霰彈槍這個額外系統，刺客就只能使用肉搏攻擊，並在面對連續火力攻擊的壓制下顯得特別脆弱。"
     },
     "KAI BIOPLATING": {
       "name": "快式生物裝甲",
@@ -431,7 +431,7 @@
       "effect": "刺客向任意方向<b>飛行</b> 6 格，但必須降落在表面上。在刺客降落時，與刺客鄰接的所有角色必須通過<b>敏捷豁免</b>，否則被擊倒<b>伏臥</b>。"
     },
     "“DEVIL’S COUGH” SHOTGUN": {
-      "name": "「魔吠」散彈槍"
+      "name": "「魔吠」霰彈槍"
     },
     "SPINNING KICK": {
       "name": "迴旋踢",
@@ -439,7 +439,7 @@
     },
     "CLOUD PROJECTOR": {
       "name": "雲煙投射器",
-      "effect": "刺客引爆炸藥，創造出一團籠罩<b> 爆發 3 </b>範圍的濃煙、霧霾、或其它會遮蔽視線的遮幕。刺客在影響範圍內時得到<b>軟性掩護</b>，且除了刺客以外的角色在完全處於範圍內或外時，其視線將無法穿過影響範圍。部份處於範圍內的角色不受這個效果影響。這個效果會持續直到刺客的下一回合結束、或直到刺客再次使用這個系統為止。"
+      "effect": "刺客引爆炸藥，創造出一團籠罩<b> 爆發 3 </b>範圍的濃煙、霧霾、或其它會遮蔽視線的遮幕。刺客在影響範圍內時得到<b>軟性掩護</b>，且當除了刺客以外的角色完全處於範圍內或外時，其視線將無法穿過影響範圍。部份處於範圍內的角色不受這個效果影響。這個效果會持續直到刺客的下一回合結束、或直到刺客再次使用這個系統為止。"
     },
     "EXPLOSIVE KNIVES": {
       "name": "爆炸匕首",
@@ -595,7 +595,7 @@
     "BOMBARD": {
       "name": "炮兵",
       "flavor": "在銀河系各處的衝突熱點中，由阿爾塔全戰場彈道開發的原型炮兵機甲，以及其授權製造的仿製品可說是相當常見的存在。炮兵型機甲專門為了在長時間交戰中保持輸出火力而製造，為想要將炮兵部隊迅速投放到戰場的武裝勢力提供了一個相對便捷的方案。這種類型的機甲通常會被部署在距離戰線數哩外的防禦工事中；而其中一種特別不對稱的戰術部署策略，甚至會把炮兵配置在作戰區域的上方──例如當地的天然或人工衛星、或是特製的軌道平台上。這麼一來，炮兵隊就能遠離戰火的威脅，從優勢位置單方面朝地表傾瀉毀滅性的炮火轟炸。",
-      "tactics": "炮兵是超長程的炮擊型機甲，專門用來懲罰那些為了獲取鄰接加值而擠在一起的角色。他們在接近戰中相當脆弱，但在遠距離作戰時則擁有相當的韌性，因此盡可能地把他們配置在大後方，發揮出他們的最大效益。炮兵的<b>地震彈</b>能有效限制敵人的移動並提供掩護，但同時也可能對友軍造成傷害。"
+      "tactics": "炮兵是超長程的炮擊手機甲，專門用來懲罰那些為了獲取鄰接加值而擠在一起的角色。他們在接近戰中相當脆弱，但在遠距離作戰時則擁有相當的韌性，因此盡可能地把他們配置在大後方，發揮出他們的最大效益。炮兵的<b>地震彈</b>能有效限制敵人的移動並提供掩護，但同時也可能對友軍造成傷害。"
     },
     "BOMBARD CANNON": {
       "name": "轟擊火炮"
@@ -783,7 +783,7 @@
       "tactics": "巨人是擁有較高機動性的防禦者，能主動讓敵人面對他們。透過<b>威懾目標</b>，巨人能迫使強敵把攻擊集中在自己身上；而這一切只需要巨人看見對方，讓巨人甚至能輕易指定行動快速或難以命中的角色為目標。巨人的龐大體型還能讓其為隊友們提供掩護。"
     },
     "DRUM SHOTGUN": {
-      "name": "彈鼓散彈槍",
+      "name": "彈鼓霰彈槍",
       "effect": "在等級 2 時，這件武器能同時進行二次攻擊，選擇同一個或兩個不同角色為目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
     },
     "CRUSH TARGETING": {
@@ -1009,7 +1009,7 @@
       "effect": "這件武器對已經受到<b>燃燒</b>的角色造成雙倍傷害。"
     },
     "EXPLOSIVE VENT": {
-      "name": "爆炸性排放",
+      "name": "爆炸性排熱",
       "effect": "火焰兵清除自己的所有熱度。位於其<b> 爆發 1 </b>範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到等同於火焰兵清除熱度一半的熱度，並被擊倒<b>伏臥</b>。"
     },
     "FIREBREAK SHIELD": {
@@ -1029,41 +1029,41 @@
     },
 
     "RAINMAKER": {
-      "name": "求雨者",
-      "flavor": "The tongue-in-cheek “Rainmaker” nickname describes mechs and pilots that specialize in the use of rockets and missiles. Favored by flexible combat units, Rainmakers are mobile platforms loaded with ordnance and capable of handling engagements at any range, against any target.",
-      "tactics": "Rainmakers are one part artillery and one part controller. Their Javelin Rockets force characters to avoid certain areas or take guaranteed damage. They can also dish out delayed damage through optional systems like Hound Missiles and Atlas Missiles. Like other artillery mechs, Rainmakers are relatively vulnerable on their own."
+      "name": "造雨者",
+      "flavor": "「造雨者」這個帶有戲謔意味的綽號，被用來形容專精於運用火箭和飛彈的機甲和駕駛員。造雨者深受靈活戰鬥單位的青睞，作為裝滿了彈藥的機動平台，他們能在任何距離下應付任何目標。",
+      "tactics": "造雨者同時兼備炮擊手與控制者的身分。他們的<b>標槍火箭</b>能強迫其他角色主動避開特定區域，否則就必須承受無法迴避傷害。他們也能透過像<b>獵犬飛彈</b>和<b>擎天神飛彈</b>這類可選系統來造成延遲傷害。跟其他炮擊手機甲一樣，造雨者本身相對脆弱。"
     },
     "MISSILE PODS": {
-      "name": "MISSILE PODS",
-      "effect": "This weapon can attack 1-3 characters at a time."
+      "name": "飛彈莢艙",
+      "effect": "這件武器可以同時對 1~3 名角色進行攻擊。"
     },
     "JAVELIN ROCKETS": {
-      "name": "JAVELIN ROCKETS",
-      "effect": "The Rainmaker chooses 3 free spaces within line of sight and range 20 that are not adjacent to each other. All characters know which spaces have been chosen. The Rainmaker fires a volley of auto-targeting rockets into the air: the next time a hostile character moves through, starts their turn in, or passes above one of the chosen spaces – no more than 10 spaces up – they are hit by a rocket, taking {5/6/7} kinetic damage. Each space can only be triggered once.<br>This effect lasts until the start of the Rainmaker’s next turn."
+      "name": "標槍火箭",
+      "effect": "造雨者選擇在<b> ⌿20 </b>範圍和視線範圍內的 3 格互不鄰接的未佔據空間；所有角色都會知道該空間被選中。造雨者對空發射一輪自動瞄準的火箭彈幕：當下一次有敵對角色移動經過、在其中開始其回合、或是從所選空格上方 10 格內的高度經過時，該角色就會被火箭擊中，受到 {5/6/7} 動能傷害。每個所選空格只會被觸發一次。<br><br>這個效果會持續直到造雨者的下一回合開始為止。"
     },
     "HUNTSMAN": {
-      "name": "HUNTSMAN",
-      "effect": "Against characters with Lock On, the Rainmaker’s weapons gain Smart, Seeking, and AP."
+      "name": "獵手",
+      "effect": "在攻擊被<b>鎖定</b>的角色時，造雨者的武器得到<b>智慧</b>、<b>導引</b>、和<b>穿甲(AP)</b>標籤。"
     },
     "HADES MISSILES": {
-      "name": "HADES MISSILES",
-      "effect": "All characters in a Cone 3 area starting within range 20 of the Rainmaker take {4/6/8} Energy damage and 2 heat, half if they pass an Agility save. This system doesn’t need line of sight, just a possible route to the target."
+      "name": "冥王飛彈",
+      "effect": "在造雨者<b> ⌿20 </b>範圍內一點為源點的<b> 錐形 3 </b>範圍區域內，所有角色都必須成功通過<b>敏捷豁免</b>，否則受到 {4/6/8} 能量傷害和 2 熱度，豁免成功則只受到一半的傷害和熱度。這個系統不需要造雨者看見目標範圍，只需要有能夠到達目標範圍的路徑即可。"
     },
     "HOUND MISSILES": {
-      "name": "HOUND MISSILES",
-      "effect": "Hound Missile (Size 1/2, HP {10/15/20}, Evasion 10, E-Defense 10, Tags: Drone).<br>The Rainmaker deploys the Hound Missile in an adjacent space and picks a target in range 20 and line of sight. At the start of the Rainmaker’s turns the missile flies 3 spaces towards its target, 6 if the target has Lock On. It moves directly, maneuvering round cover and terrain if needed. When it collides with a character or reaches its target, it creates a Burst 1 explosion. Characters in the affected area take {16/20/24} Energy damage, half if they pass an Agility save."
+      "name": "獵犬導彈",
+      "effect": "<b>獵犬導彈（大小 1/2、HP {10/15/20}、迴避 10、電子防禦 10、標籤：無人機）</b><br><br>造雨者在鄰接空間展開獵犬導彈，並選擇一名位於<b>⌿20 範圍</b>和視線範圍內的目標。在造雨者的每個回合開始時，獵犬導彈都會朝著目標<b>飛行</b>移動 3 格，若目標被<b>鎖定</b>則改為 6 格。獵犬導彈會盡可能以直線朝目標飛行，但會在有需要時繞過掩護和障礙物。導彈會在與其他角色相撞或抵達目標時引爆，產生 <b>爆發 1 </b>範圍的爆炸，影響範圍內的角色必須進行<b>敏捷豁免</b>。豁免失敗會受到 {16/20/24} 能量傷害；成功則只受到一半的傷害。"
     },
     "ENDLESS RAIN": {
-      "name": "ENDLESS RAIN",
-      "effect": "The Rainmaker picks 6 spaces for Javelin Rockets, not 3."
+      "name": "無盡之雨",
+      "effect": "造雨者的<b>標槍飛彈</b>改為選擇 6 格，而非原本的 3 格。"
     },
     "VOLLEY": {
-      "name": "VOLLEY",
-      "effect": "Pick characters in range 20 and line of sight. They take {4/6/8} Explosive damage, half if they pass an Agility save."
+      "name": "齊射",
+      "effect": "選擇位於<b>⌿20 範圍</b>和視線範圍內的任意角色，目標進行<b>敏捷豁免</b>。若豁免失敗則受到 {4/6/8} 爆炸傷害，成功則只受到一半傷害。"
     },
     "ATLAS MISSILES": {
-      "name": "ATLAS MISSILES",
-      "effect": "The Rainmaker chooses a space of ground in line of sight and Range 30, obvious to all characters with line of sight to the space. The Rainmaker launches a missile that lands at the end of the next round making a Blast 2 explosion; affected characters take {16/20/24} Explosive damage, half if they pass an Agility save."
+      "name": "擎天神飛彈",
+      "effect": "造雨者選擇在<b> ⌿30 </b>範圍和視線範圍內的 1 格地面空間，所有角色都會知道該空間被選中。造雨者對空發射一枚飛彈，這枚飛彈會在下一輪結束時於該空間著陸，引發<b> 爆發 2 </b>範圍的爆炸；影響範圍內的角色都必須進行<b>敏捷豁免</b>，豁免失敗則受到 {16/20/24} 爆炸傷害，成功則只受到一半傷害。"
     },
 
     "RONIN": {
@@ -1098,44 +1098,44 @@
     },
 
     "SCOURER": {
-      "name": "淨化者",
-      "flavor": "Scourer-class mechs are distinctive for carrying deadly Energy damage weapons powered by massive-output recursive power plants. These mechs are found across the galaxy in specialist roles, supporting conventional ground troops with powerful beam attacks that stop electronic threats as easily as they stop enemy soldiers.",
-      "tactics": "Scourers deal a great deal of damage when they focus on single targets, attacking them multiple times. They can be used to crack tough or slow moving opponents very easily. However, they are much less effective when forced to switch targets, and need to stay still to make the most of their weapons."
+      "name": "凈化者",
+      "flavor": "凈化者型機甲最大的特徵，就在於他們搭載著以高輸出遞迴式反應爐驅動的致命能量武器。這些機甲以特種職位出現在銀河各地，透過強力光束攻擊支援常規地面部隊，輕而易舉的殲滅電子威脅和敵對士兵。",
+      "tactics": "淨化者在集中攻擊單一目標時，能透過重複多次的攻擊來造成極高的傷害。他們能輕易瓦解堅固或移動緩慢的敵人。不過，他們的攻擊效率會在被迫更換目標時大打折扣，且需要滯留在原地才能發揮其武器的最大威力。"
     },
     "THERMAL LANCE": {
-      "name": "THERMAL LANCE"
+      "name": "高熱長槍"
     },
     "FOCUS DOWN": {
-      "name": "FOCUS DOWN",
-      "effect": "When the Scourer hits with the Thermal Lance, targets take {5/7/8} Burn if they were also successfully hit with the Thermal Lance in the previous round."
+      "name": "聚焦",
+      "effect": "當淨化者使用<b>高熱長槍</b>攻擊並命中時，如果目標在上一輪也被<b>高熱長槍</b>命中過，則目標會受到 {5/7/8} 燃燒。"
     },
     "COOLING MODULE": {
-      "name": "COOLING MODULE",
-      "effect": "At the start of their turn, the Scourer clears all heat if they haven’t moved – including involuntary movement – since the end of their previous turn."
+      "name": "冷卻模組",
+      "effect": "在淨化者的回合開始時，如果其從上一輪結束起到現在都還沒移動過（包含非自願移動），則淨化者清除所有自己的熱度。"
     },
     "ABLATIVE SHIELDING": {
-      "name": "ABLATIVE SHIELDING",
-      "effect": "The Scourer has Resistance to Energy damage."
+      "name": "燒蝕防護",
+      "effect": "淨化者對能量傷害具有<b>抗性</b>。"
     },
     "SUPERCHARGED": {
-      "name": "SUPERCHARGED",
-      "effect": "Characters affected by Focus Down are also Shredded and Slowed until the end of their next turn."
+      "name": "超增壓",
+      "effect": "受到<b>聚焦</b>效果影響的角色，同時也會陷入<b>離散</b>和<b>緩慢</b>狀況，持續直到其下一回合結束為止。"
     },
     "EMERGENCY VENT": {
-      "name": "EMERGENCY VENT",
-      "effect": "When the Scourer exceeds their Heat Cap or becomes Stunned, they become Invisible until the start of their next turn."
+      "name": "緊急排熱",
+      "effect": "當淨化者的熱度超過其<b>熱度上限</b>，或陷入<b>暈眩</b>狀況時，他將得到<b>隱形</b>狀態直到其下一回合開始為止。"
     },
     "PULSE LASER": {
-      "name": "PULSE LASER",
-      "effect": "At T2–3 this weapon can make two attacks at a time, targeting the same character or two different ones."
+      "name": "脈衝雷射",
+      "effect": "在等級 2~3 時，這件武器能同時進行二次攻擊，選擇同一個或兩個不同角色為目標。"
     },
     "FLASH LENS": {
-      "name": "FLASH LENS",
-      "effect": "All characters in a Cone 5 area drawn from the Scourer must pass a Systems save or become Jammed until the start of the Scourer’s next turn."
+      "name": "快閃透鏡",
+      "effect": "所有位於以淨化者為源點的<b> 錐形 5 </b>範圍內的角色都必須成功通過<b>系統豁免</b>，否則陷入<b>受擾</b>狀況直到淨化者的下一回合開始為止。"
     },
     "MELT": {
-      "name": "MELT",
-      "effect": "The Scourer makes a ranged attack against an object, deployable or Drone within Range 10, dealing 20 AP Energy damage on a success."
+      "name": "熔解",
+      "effect": "淨化者對<b> ⌿10 </b>範圍內的一個物件、可展開物、或無人機進行一次遠距攻擊，並在命中時造成帶有穿甲(AP)效果的 20 能量傷害。"
     },
 
     "SCOUT": {
@@ -1207,83 +1207,83 @@
 
     "SENTINEL": {
       "name": "哨兵",
-      "flavor": "Sentinel archetypes are typically employed as guards and escorts, often in the retinues of commanders or posted in defense of artillery. These mechs and their pilots employ advanced suites of technology to ensure their wards stay alive and operational, even if that costs their own chassis – or lives. Unlike the heavier Bastion archetypes, Sentinels are quick and light: they practice active defense, preemptively striking with suites of advanced technical, systemic, and direct weaponry to protect their charges.",
-      "tactics": "Sentinels are fast defenders that focus on protecting their allies with Overwatch. They are fairly short-range attackers, relying on positioning to get the most from their kit, and aren’t as resilient as other defenders."
+      "flavor": "哨兵型機甲通常擔任著護衛和保鑣的職務，隨侍在指揮官身邊、或部署在炮兵防線之中。這些機甲和駕駛員運用先進科技套裝來確保護衛對象的存續和運作狀況，即使犧牲自己也在所不惜。與更重型的堡壘型不同，哨兵型機甲輕裝靈活：他們更傾向實踐主動式防禦，結合先進科技、系統、和直接火力搶先一步擊倒敵人，從而保護其守衛對象。",
+      "tactics": "哨兵行動迅速的防禦者，專精於利用守望反應來保護隊友。他們的攻擊射程偏短，需要依靠正確的布局走位才能發揮其最大效益。跟其他防禦者相比，哨兵也相對脆弱不少。"
     },
     "COMBAT SHOTGUN": {
-      "name": "COMBAT SHOTGUN"
+      "name": "戰鬥霰彈槍"
     },
     "RETRACTABLE SWORD": {
-      "name": "RETRACTABLE SWORD"
+      "name": "伸縮劍"
     },
     "EYE OF MIDNIGHT": {
-      "name": "EYE OF MIDNIGHT",
-      "effect": "The Sentinel becomes Slowed but can take Overwatch 1/turn, instead of 1/round. Once activated, this effect lasts until it is deactivated as a quick action."
+      "name": "午夜之眼",
+      "effect": "哨兵陷入<b>緩慢</b>狀況，但變得能每回合進行一次<b>守望</b>反應，而非原本的每輪一次。在啟動此系統後，這個效果會持續直到哨兵以<b>快速動作</b>將其解除為止。"
     },
     "PUNISHER AMMUNITION": {
-      "name": "PUNISHER AMMUNITION",
-      "effect": "Characters damaged by the Sentinel’s Overwatch attacks also become Slowed until the end of their next turn."
+      "name": "制裁者彈藥",
+      "effect": "被哨兵以<b>守望</b>攻擊傷害的角色，同時也會陷入<b>緩慢</b>狀況直到其下一回合結束為止。"
     },
     "WRATH-LOCK": {
-      "name": "WRATH-LOCK",
-      "effect": "The Sentinel arms this system. Once armed, the Sentinel attacks twice the next time they attack with their Combat Shotgun, instead of one."
+      "name": "怒火閘",
+      "effect": "哨兵啟動這個系統。當這個系統被啟動，哨兵下一次使用<b>戰鬥霰彈槍</b>攻擊時可以攻擊二次，而非原本的一次。"
     },
     "IMPALER": {
-      "name": "IMPALER",
-      "effect": "When the Sentinel hits with Overwatch, their target must pass a Hull save or become Immobilized and Jammed until the end of their next turn."
+      "name": "穿刺者",
+      "effect": "當哨兵以<b>守望</b>反應進行攻擊並命中時，目標必須成功通過<b>機體豁免</b>，否則陷入<b>固定</b>和<b>受擾</b>狀況，直到其下一回合結束為止。"
     },
     "BODYGUARD": {
-      "name": "BODYGUARD",
-      "effect": "The Sentinel chooses an allied character within range 5 as their ward and gains the Reflexive Blow reaction."
+      "name": "保鑣",
+      "effect": "哨兵選擇一名位於<b> ⌿5 </b>範圍內的隊友角色作為其<b>護衛要員</b>，並得到<b>反射打擊</b>反應。"
     },
     "REFLEXIVE BLOW": {
-      "name": "REFLEXIVE BLOW",
-      "trigger": "Someone attacks the Sentinel’s ward.",
-      "effect": "The Sentinel first attacks the inciting character with Overwatch."
+      "name": "反射打擊",
+      "trigger": "當任何人攻擊哨兵的護衛要員時。",
+      "effect": "哨兵搶先對攻擊者以<b>守望</b>進行攻擊。"
     },
 
     "SNIPER": {
       "name": "狙擊手",
-      "flavor": "The reason some pilots haven’t seen a Sniper on the battlefield is that those pilots are dead. These mechs are built for stability, targeting, and extremely long-range  kinetic damage weapons at the cost of mobility, and they tend to operate in small, self-sufficient teams far removed from direct combat. Sniper pilots are a proud breed, emphasizing economy and elegance over destructive power.",
-      "tactics": "Rightly feared, Snipers are devastating when it comes to dealing focused damage. Using Sniper’s Mark, they can deal direct structure damage, making short work of almost any character. Opponents can avoid this with clever use of cover, or by dropping Prone. Snipers’ main downside is that they need to be fairly stationary to do their best work, as their rifle requires a full action to fire."
+      "flavor": "有些駕駛員之所以從未在戰場上看過狙擊手型機甲，是因為他們已經因此命喪黃泉。這些機甲的設計犧牲了機動性，換來了穩定性、精密的瞄準能力、以及超長程的動能武器。他們通常以獨立小隊的形式部署在遠離戰場的位置。狙擊手機甲的駕駛員心懷驕傲，強調效率和優雅更勝於純粹的破壞力。",
+      "tactics": "理應受人畏懼，狙擊手在精準造成高額傷害的領域中無人能及。透過<b>狙擊印記</b>，他們能直接造成結構傷害，迅速解決幾乎所有角色。對手必須善用掩護或是<b>伏臥</b>才能避免被狙殺。狙擊手的主要缺點在於他們的<b>反物資步槍</b>必須使用完整動作來開火，因此得維持相對固定的站位才能發揮最大效益。"
     },
     "ANTI-MATERIEL RIFLE": {
       "name": "反物資步槍"
     },
     "SNIPER’S MARK": {
-      "name": "SNIPER’S MARK",
-      "effect": "A character within line of sight and range 25 gains the Sniper’s Mark. Against targets with the Sniper’s Mark, the Anti-Materiel Rifle deals 1 structure damage instead of its usual damage.<br>Characters know when they have the Sniper’s Mark. They ignore it and take damage normally if they are in cover or Prone. On their turn, characters with the Sniper’s Mark may drop Prone as a free action.<br>The Sniper can only mark one character at a time but can transfer the Sniper’s Mark to another character as a full action."
+      "name": "狙擊印記",
+      "effect": "位於 ⌿25 範圍和視線範圍內的一名角色將得到<b>狙擊印記</b>。<b>反物資步槍</b>對擁有<b>狙擊印記</b>的目標會造成 1 結構傷害，而非其原本的傷害。<br>角色會知道自己得到了<b>狙擊印記</b>，且當角色受益於<b>掩護</b>或處於<b>伏臥</b>狀況時，能夠忽略<b>狙擊印記</b>的效果並如常受到傷害。在其回合中，擁有<b>狙擊印記</b>的角色能以<b>自由動作</b>讓自己<b>伏臥</b>在地。<br><br>狙擊手同時只能讓一個角色擁有<b>狙擊印記</b>，但能以<b>完整動作</b>把<b>狙擊印記</b>轉移給另一個角色。"
     },
     "CLIMBER": {
-      "name": "CLIMBER",
-      "effect": "The Sniper can climb and remain stationary on any surface without penalty, including overhanging and vertical surfaces."
+      "name": "攀爬者",
+      "effect": "狙擊手能夠攀爬並停留在任何表面上（包括倒懸和垂直表面）而不受任何懲罰。"
     },
     "SELECTIVE LOADER": {
-      "name": "SELECTIVE LOADER",
-      "effect": "The Sniper can choose a special ammunition type before attacking with the Anti-Materiel Rifle. Attacks made with this ammunition function as usual, with an additional effect on a successful attack.<br>The Sniper may choose from the following:<ul><li>Electromagnetic: Targets must must pass an Systems save or become Jammed until the end of their next turn.</li><li>Flare: Targets lose Hide or Invisible and cannot gain those statuses until the end of their next turn.</li><li>Impact: Targets must pass an Hull save or be knocked Prone.</li><li>Molten: Targets must pass an Engineering save or become Shredded until the end of their next turn.</li></ul>"
+      "name": "選擇裝彈",
+      "effect": "狙擊手在使用<b>反物資步槍</b>進行攻擊之前可以選擇一種特殊彈藥。使用該彈藥的攻擊會如常進行，並在成功命中時造成額外效果。<br>狙擊手可以從以下選項中選擇一項：<ul><li><b>電磁</b>：目標必須成功通過<b>系統豁免</b>，否則陷入<b>受擾</b>狀況直到其下一回合結束為止。</li><li><b>發焰</b>：目標失去<b>匿跡</b>和<b>隱形</b>狀態，且直到其下一回合結束為止都不能再得到這兩個狀態。</li><li><b>衝擊</b>：目標必須成功通過<b>機體豁免</b>，否則被擊倒<b>伏臥</b>。</li><li><b>熔融</b>：目標必須成功通過<b>工程豁免</b>，否則陷入<b>離散</b>狀況直到其下一回合結束為止。</li></ul>"
     },
     "DEFENSIVE GRAPPLE": {
-      "name": "DEFENSIVE GRAPPLE",
-      "effect": "The Sniper pulls themselves to any point within range 5 with a grappling hook as though they are flying. The Sniper also has the Relocation reaction."
+      "name": "防禦鈎索",
+      "effect": "狙擊手使用鈎索把自己拉動到 ⌿5 範圍內的任意一處，以視同<b>飛行</b>的方式移動。狙擊手也得到<b>再調動</b>反應。"
     },
     "RELOCATION": {
-      "name": "RELOCATION",
-      "trigger": "An enemy character in line of sight moves.",
-      "effect": "The Sniper uses Defensive Grapple."
+      "name": "再調動",
+      "trigger": "當視線範圍內的敵對角色進行移動。",
+      "effect": "狙擊手立即使用<b>防禦鈎索</b>系統。"
     },
     "SHROUD CHARGE": {
-      "name": "SHROUD CHARGE",
-      "effect": "The Sniper sets off a charge, creating a Burst 3 area of smoke, haze, or some other kind of concealing shroud. The Sniper gains soft cover within the affected area, and characters other than the Sniper cannot draw line of sight into or out of the area. Characters partially within the area have line of sight to characters within and outside the area.<br>This effect lasts until the end of the Sniper’s next turn, or until the Sniper uses this system again."
+      "name": "蔽幕炸彈",
+      "effect": "狙擊手引爆炸彈，創造出一團籠罩<b> 爆發 3 </b>範圍的濃煙、霧霾、或其它會遮蔽視線的遮幕。狙擊手在影響範圍內時得到<b>軟性掩護</b>，且當除了狙擊手以外的角色完全處於範圍內或外時，其視線將無法穿過影響範圍。部份處於範圍內的角色不受這個效果影響。這個效果會持續直到狙擊手的下一回合結束、或直到狙擊手再次使用這個系統為止。"
     },
     "DEADMETAL ROUNDS": {
-      "name": "DEADMETAL ROUNDS",
-      "effect": "The Sniper loads the Anti-Materiel Rifle with a special, over-penetrating round: the next attack they make with it becomes line 20."
+      "name": "死金彈",
+      "effect": "狙擊手使用一種擁有超強穿透性能的特殊子彈裝填<b>反物資步槍</b>：他使用該武器進行的下一次攻擊將變為<b> 線性 20 </b>範圍。"
     },
 
     "SPECTER": {
       "name": "幽靈",
-      "flavor": "The principle behind the development of Specter-archetype mechs is a simple one: not being hit is better than the strongest armor. Specters employ cutting-edge optical-electronic camouflage to vanish from the battlefield and enemy scans. They flicker in and out of vision, confusing the eye and the radar. That’s what makes them so deadly, though their weapons certainly help.",
-      "tactics": "Specters are mobile strikers that shine against foes that make the mistake of being caught alone. Use Prowl along with their high Threat and Speed to get them across the front lines so they can find vulnerable solo targets, like snipers and artillery. Specters are permanently Invisible, which is key to their survivability; they aren’t very resilient, but they can Hide any time."
+      "flavor": "幽靈型機甲背後的開發理念相當單純：比起搭載最強最厚的裝甲，不如從一開始就不要被擊中。幽靈型機甲運用最先進的光學電子迷彩技術，使其能從戰場和敵人的掃描中消失無蹤。他們在視野和雷達中忽隱忽現，徹底錯亂敵人的判斷──這使他們無比致命，當然，他們的武器也同樣可怕。",
+      "tactics": "幽靈是擁有高機動性能的突擊手，在獵殺那些膽敢落單的敵人時表現尤其出色。利用<b>潛行</b>系統以及其廣闊的威脅範圍和高額速度，幽靈能穿梭在戰場前線，捕捉狙擊手和炮兵這類脆弱的落單目標。幽靈始終處於<b>隱形</b>狀態，這也是他們生存的關鍵；儘管他們並不特別耐打，但他們隨時都能<b>躲藏</b>，從戰場上消失不見。"
     },
     "MONOWIRE SWORD": {
       "name": "單分子劍",
