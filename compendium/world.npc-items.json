@@ -809,8 +809,8 @@
 
     "HIVE": {
       "name": "蟲巢",
-      "flavor": "In theory, drones and drone swarms developed after the Deimos Event are not too different from their older cousins: they establish a local omninetwork; fabricate and deploy a century or half-century of drones; and then coordinate them to achieve their objectives. Still, the complex handler–trainer relationships that allow pilots to segue between direct control and autonomous operation cause psychological trauma after a month of continuous drone operation. It is recommended that they cycle their paired hive nexus every two weeks.",
-      "tactics": "Hives use Razor Swarm to control the battlefield, granting soft cover to their allies and denying areas to their enemies. Deploy swarms and use Drone Barrage to lock down enemies, or move them into the range of swarms and allies."
+      "flavor": "理論上，在火衛二事件之後開發的無人機和無人機蟲群，與它們的老前輩並沒有什麼不同：它們同樣會建立區域萬有網路，組裝並部署數十到近百架無人機，並協調它們的行動以達成目標。然而，雖然駕駛員能流暢地讓無人機群在直接控制和自律運行間切換，但這複雜的操控-訓練關係也會讓駕駛員在連續一個月的無人機操作後產生心理創傷。因此建議以每兩周一次的頻率更換與之配對的巢房。",
+      "tactics": "蟲巢能透過<b>剃刀蟲群</b>來控制戰場，為隊友提供軟性掩護，並阻止敵人進入特定區域。在展開蟲群後，使用<b>無人機火網</b>來封鎖敵人，或將其移動到蟲群或隊友的射程範圍內。"
     },
     "HUNTER-KILLER NEXUS": {
       "name": "獵殺巢房",
