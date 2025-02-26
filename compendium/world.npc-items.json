@@ -933,35 +933,35 @@
 
     "OPERATOR": {
       "name": "操作者",
-      "flavor": "Operators are known-unknowns, rarely encountered on the front lines, but this should not be mistaken for fragility. Operators are dangerous and deadly in every way. Like their mechs, Operators’ bodies are loaded with the most advanced tech available. When they die in combat, it’s not unknown for their bodies – and their mechs — to self-immolate, rendering any technology and data into ash.",
-      "tactics": "Operators are elite and extremely mobile artillery mechs. They aren’t particularly hardy, but can use Trace Drive to teleport around the battlefield and put themselves in advantageous positions: on top of obstructions or terrain, or in cover – anywhere they can snipe at enemies with their highly accurate Raptor Plasma Rifles."
+      "flavor": "操作者型機甲是人盡皆知的未知之物，儘管鮮少直接出現在戰場前線，但這並不代表它們有多脆弱。相反的，操作者型機甲在各個方面都極度危險而致命。和其機甲一樣，操作者的身上裝載了最先進的科技。當他們在戰鬥中陣亡時，其身體和機甲也經常會自我焚毀，將所有技術和數據化為灰燼。",
+      "tactics": "操作者是具有超高機動性能的精銳炮擊手機甲。儘管他們的耐久度並不突出，淡能利用<b>跡線驅動</b>在戰場上四處瞬間轉移，讓自己處在最佳的戰略位置：像是佔據障礙物或是地形上方，或是躲在掩護後方，並以其高度精準的<b>猛禽電漿步槍</b>狙擊敵人的所在位置。"
     },
     "RAPTOR PLASMA RIFLE": {
-      "name": "RAPTOR PLASMA RIFLE",
-      "effect": "At T2, this weapon can make two attacks at a time, targeting either the same character or two different ones. At T3, it can make three attacks at a time."
+      "name": "猛禽電漿步槍",
+      "effect": "在等級 2 時，這件武器能同時進行二次攻擊，選擇同一個或兩個不同角色為目標；在等級 3 時，這件武器可以同時進行三次攻擊。"
     },
     "TRACE DRIVE": {
-      "name": "TRACE DRIVE",
-      "effect": "The Operator teleports when they make their standard move."
+      "name": "跡線驅動",
+      "effect": "操作者以<b>瞬間轉移</b>的形式進行普通移動。"
     },
     "SELF-ERASURE": {
-      "name": "SELF-ERASURE",
-      "effect": "When the Operator’s mech is destroyed, it immediately self-immolates in a wave of superheated plasma. All characters adjacent to the Operator when this takes place must succeed on an Agility save or take {4/6/8} Energy damage. On a success, they take half damage. This mech is then removed from the battlefield – it is utterly annihilated."
+      "name": "自我抹消",
+      "effect": "當操作者的機甲被毀時，他會立即爆發出一波高熱電漿並自我焚毀。所有在這件事發生時與操作者鄰接的角色必須成功通過<b>敏捷豁免</b>，否則受到 {4/6/8} 能量傷害。若豁免成功則只受到一半的傷害。然後，這個機甲會從戰場上被移除──徹底灰飛煙滅。"
     },
     "FADE GENERATOR": {
-      "name": "FADE GENERATOR",
-      "effect": "At the end of the Operator’s turn, they become Invisible until the start of their next turn. This immediately ceases if they take damage or make a reaction."
+      "name": "漸隱發生裝置",
+      "effect": "操作者在自己的回合結束時得到<b>隱形</b>狀態，持續直到其下一回合開始為止。這個狀態會在其受到傷害或進行反應時立即解除。"
     },
     "TELEFRAG": {
-      "name": "TELEFRAG",
-      "effect": "The Operator teleports into a space occupied by another character within line of sight and range 15. The target must succeed on an Agility save or take {4/8/12} AP Energy damage and become Jammed until the end of their next turn. On a successful save, they take half damage and aren’t Jammed. Succeed or fail, the Operator takes 1d6 AP Energy damage and is placed into a free space next to the target."
+      "name": "傳送殺法",
+      "effect": "操作者以<b>瞬間轉移</b>移動到<b> ⌿15 </b>範圍和視線範圍內一處被其他角色佔據的空間。目標必須成功通過<b>敏捷豁免</b>，否則受到帶有穿甲(AP)效果的 {4/8/12} 能量傷害，且陷入<b>受擾</b>狀況直到其下一回合結束為止。若豁免成功，則目標只受到一半傷害，且不會陷入<b>受擾</b>狀況。無論豁免成功與否，操作者都會受到帶有穿甲(AP)效果的 1d6 能量傷害，並被置於鄰接目標的一處未被佔據空間。"
     },
     "SKIRMISHER": {
-      "name": "SKIRMISHER",
-      "effect": "Once per turn, at any point during the Operator’s turn, they may Boost as a free action."
+      "name": "散兵",
+      "effect": "每回合一次，操作者能在自己的回合期間以<b>免費動作</b>進行<b>推進</b>。"
     },
     "NOVA MISSILES": {
-      "name": "NOVA MISSILES"
+      "name": "新星導彈"
     },
 
     "PRIEST": {
@@ -1086,7 +1086,7 @@
     },
     "ECHO EDGE": {
       "name": "回音刀鋒",
-      "effect": "受到浪人造成的傷害的角色將獲得<b>浪人印記</b>。在浪人的回合開始時，浪人能以一個<b>自由動作</b>清除所有<b>浪人印記</b>，並自動對所有擁有<b>浪人印記</b>的角色造成 1d6 帶有穿甲(AP)效果的動能傷害。"
+      "effect": "受到浪人造成的傷害的角色將獲得<b>浪人印記</b>。在浪人的回合開始時，浪人能以一個<b>免費動作</b>清除所有<b>浪人印記</b>，並自動對所有擁有<b>浪人印記</b>的角色造成 1d6 帶有穿甲(AP)效果的動能傷害。"
     },
     "INSTINCT MODE": {
       "name": "本能模式",
@@ -1174,35 +1174,35 @@
 
     "SEEDER": {
       "name": "播種者",
-      "flavor": "Seeder-archetype mechs are sappers, adept at deploying defensive nets of mines and traps. Laden with ordnance and bristling with sensor suites, Seeders operate in small teams: together, they blanket battlefields in traps and pitfalls, planting mines and other area-denial systems to guide the enemy into kill-boxes.",
-      "tactics": "Seeders specialize in area denial, controlling enemy movement with their mines. Since Seeders can place a mine each turn, they can quickly turn part of the battlefield into a mess when left to their own devices. Allied characters don’t trigger Seeders’ mines, but are affected by them if they’re caught in the explosion. Seeders can take optional systems that force characters to spread out or take additional damage."
+      "flavor": "播種者型機甲是戰鬥工兵，擅長透過部署地雷和陷阱展開防禦網。裝載著大量的軍械和感應設備，播種者型機甲通常以小隊形式採取行動：當他們同心協力，能迅速在整個戰場上佈滿陷阱和地洞，並透過埋藏地雷和其他區域封鎖系統來將敵人引導到精心設計的殲滅區域中。",
+      "tactics": "播種者專精於區域封鎖，透過佈設地雷來控制敵方的移動。由於播種者每回合都能部署一顆地雷，放著不管的話，它們很快就能把戰場搞得亂七八糟。儘管隊友角色不會觸發播種者的地雷，但仍會在地雷引爆時被波及。此外，播種者的可選系統能迫使其他角色分散或是承受額外傷害。"
     },
     "LAY MINES": {
-      "name": "LAY MINES",
-      "effect": "The Seeder deploys one of the mines below in a free space within range 3. Once deployed, the Seeder’s mines detonate when a hostile character moves over them, creating a Blast 1 explosion that affects both allied and hostile characters.<ul><li>Stun Mine: Characters in the area that fail an Engineering save become Stunned until the end of their next turn.</li><li>Explosive Mine: Characters in the area take {8/12/16} Explosive damage, or half if they pass an Agility save.</li><li>Sealant Mine: Characters in the area that fail a Hull save become Immobilized until the end of their next turn, then Slowed until the end of their subsequent turn.</li><li>Shock Mine: Characters in the area that fail a Systems save become Jammed until the end of their next turn, then Impaired until the end of their subsequent turn.</li></ul><br>The Seeder’s mines are Invisible and cannot be targeted, but hostile characters within Sensors can reveal them by succeeding on a Systems check. Characters can disarm them by succeeding on a Systems check as a quick action while in the same space; however, on a failure, the mine detonates."
+      "name": "佈雷",
+      "effect": "播種者在 ⌿3 範圍內的一個未佔據空間部署以下其中一種地雷。在部署後，這個地雷將會在敵對角色移動到其位置時引爆，製造出<b> 爆發 1 </b>範圍的爆炸，並同時影響範圍內的所有隊友和敵對角色。<ul><li><b>暈眩地雷</b>：影響範圍內的角色必須通過<b>工程豁免</b>，否則陷入<b>暈眩</b>狀況直到其下一回合結束為止。</li><li><b>爆裂地雷</b>：影響範圍內的角色必須通過<b>敏捷豁免</b>，否則受到 {8/12/16} 爆炸傷害，成功則傷害減半。</li><li><b>封膠地雷</b>：影響範圍內的角色必須通過<b>機體豁免</b>，否則陷入<b>固定</b>狀況直到其下一回合結束，並接著陷入<b>緩慢</b>狀況直到其再下一回合結束為止。</li><li><b>電擊地雷</b>：影響範圍內的角色必須通過<b>系統豁免</b>，否則陷入<b>受擾</b>狀況直到其下一回合結束，並接著陷入<b>受損</b>狀況直到其再下一回合結束為止。</li></ul><br>播種者的地雷處於<b>隱形</b>狀態，且無法被指定為目標。但敵對角色能夠透過一次成功的系統判定來揭露其感應範圍內的地雷位置。當與地雷處於相同位置時，角色能以<b>快速動作</b>進行<b>系統判定</b>來嘗試將其解除；但若判定失敗，則地雷會立刻被引爆。"
     },
     "GRAV-GRENADE LAUNCHER": {
-      "name": "GRAV-GRENADE LAUNCHER"
+      "name": "重力榴彈發射器"
     },
     "HOPPING MINES": {
-      "name": "HOPPING MINES",
-      "effect": "Mines deployed with Lay Mines also activate when hostile characters fly or move up to 10 spaces above them, jumping up to 10 spaces high to detonate next to the first character they run into."
+      "name": "跳躍式地雷",
+      "effect": "透過<b>佈雷</b>部署的地雷，也會在敵對角色以<b>飛行</b>或其他方式移動到其上方 10 格內的高度時，跳躍最高 10 格，並在撞上第一個碰到的角色時引爆。"
     },
     "TRIPWIRES": {
-      "name": "TRIPWIRES",
-      "effect": "Lay Mines gains Recharge 5+. Mines deployed with Lay Mines now occupy a line3 area and detonate from the closest space when hostile characters move into or across the affected area."
+      "name": "絆索",
+      "effect": "<b>佈雷</b>得到<b> 充能 5+ </b>標籤。現在<b>佈雷</b>部署的地雷會佔據<b> 線性 3 </b>範圍的區域，並會在角色移動進入或穿過範圍區域時，在最靠近該角色的位置引爆。"
     },
     "SPEED DEPLOYER": {
-      "name": "SPEED DEPLOYER",
-      "effect": "Lay Mines deploys two mines at a time, not one."
+      "name": "快速佈雷器",
+      "effect": "<b>佈雷</b>改為同時部署二個地雷，而非原本的一個。"
     },
     "GRAV SPIKE": {
-      "name": "GRAV SPIKE",
-      "effect": "A character within line of sight and range 5 must succeed on a Systems save, or a grav spike attaches itself to them. The Seeder can detonate all grav spikes as a protocol, causing targets to automatically take {4/6/8} AP Explosive damage and be pulled 3 spaces in a direction chosen by the Seeder. A quick action and passed Systems save removes a grav spike."
+      "name": "重力尖刺",
+      "effect": "一名位於<b> ⌿5 </b>範圍和視線範圍內的角色必須成功通過<b>系統豁免</b>，否則重力尖刺將會附著到其身上。播種者能以一個<b>協定</b>動作同時引爆所有的重力尖刺，使所有目標自動受到帶有穿甲(AP)效果的 {4/6/8} 爆炸傷害，並被往播種者所選的方向拉動 3 格。角色能以<b>快速動作</b>進行一次<b>系統豁免</b>來解除一根重力尖刺。"
     },
     "DET SPIKE": {
-      "name": "DET SPIKE",
-      "effect": "Up to three characters in line of sight and range 5 must succeed on an Systems save, or a det spike attaches itself to them. At the start of the Seeder’s next turn, all det spikes detonate, creating Burst 1 explosions that deals {3/5/7} Explosive damage to all affected characters. Characters can take damage from more than one spike if the affected areas overlap."
+      "name": "起爆尖刺",
+      "effect": "最多三名位於<b> ⌿5 </b>範圍和視線範圍內的角色必須成功通過<b>系統豁免</b>，否則起爆尖刺將會附著到其身上。在播種者的下一回合開始時，所有起爆尖刺都會同時被引爆，造成<b> 爆發 1 </b>範圍的爆炸，並對所有影響範圍內的角色造成 {3/5/7} 爆炸傷害。如果角色位於多個爆炸範圍的重疊區域，則其也會多刺受到起爆尖刺造成的傷害。"
     },
 
     "SENTINEL": {
@@ -1252,7 +1252,7 @@
     },
     "SNIPER’S MARK": {
       "name": "狙擊印記",
-      "effect": "位於 ⌿25 範圍和視線範圍內的一名角色將得到<b>狙擊印記</b>。<b>反物資步槍</b>對擁有<b>狙擊印記</b>的目標會造成 1 結構傷害，而非其原本的傷害。<br>角色會知道自己得到了<b>狙擊印記</b>，且當角色受益於<b>掩護</b>或處於<b>伏臥</b>狀況時，能夠忽略<b>狙擊印記</b>的效果並如常受到傷害。在其回合中，擁有<b>狙擊印記</b>的角色能以<b>自由動作</b>讓自己<b>伏臥</b>在地。<br><br>狙擊手同時只能讓一個角色擁有<b>狙擊印記</b>，但能以<b>完整動作</b>把<b>狙擊印記</b>轉移給另一個角色。"
+      "effect": "位於 ⌿25 範圍和視線範圍內的一名角色將得到<b>狙擊印記</b>。<b>反物資步槍</b>對擁有<b>狙擊印記</b>的目標會造成 1 結構傷害，而非其原本的傷害。<br>角色會知道自己得到了<b>狙擊印記</b>，且當角色受益於<b>掩護</b>或處於<b>伏臥</b>狀況時，能夠忽略<b>狙擊印記</b>的效果並如常受到傷害。在其回合中，擁有<b>狙擊印記</b>的角色能以<b>免費動作</b>讓自己<b>伏臥</b>在地。<br><br>狙擊手同時只能讓一個角色擁有<b>狙擊印記</b>，但能以<b>完整動作</b>把<b>狙擊印記</b>轉移給另一個角色。"
     },
     "CLIMBER": {
       "name": "攀爬者",
