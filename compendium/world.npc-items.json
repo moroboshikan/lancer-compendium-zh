@@ -710,8 +710,8 @@
 
     "DEMOLISHER": {
       "name": "終結者",
-      "flavor": "The lengthy siege of Jadigmora City saw the development of the first true Demolisher frames. Based on antique Berserker mechs, Demolishers swapped dramatic heat flows for more sustainable systems, improved hydraulic strength, and stabilizers for supermassive melee weapons. Demolisher pilots soon discovered a range of new applications for their concussion-wave ordnance. A lancer named Hayes Rothford and their NHP, Clarke, were the first pilot/co-pilot team to truly show the power of the platform, singlehandedly bringing down a siege frigate in low orbit.",
-      "tactics": "Demolishers are slow, resilient defenders that dish out plenty of damage and stuns when they get close to the enemy. Use their size and power in melee combat to force enemy characters to move away instead of fighting them, and Dig In to shrug off heavy hits."
+      "flavor": "在雅迪摩拉城攻城戰的漫長戰鬥中，誕生了第一批真正意義上的終結者型機甲。這些機甲基於老舊的狂戰士型機甲設計，捨棄了極端的熱流輸出，改為換上續航力更高的系統，並增強了液壓施力和穩定裝置以揮舞超重型機甲武器。很快的，終結者型機甲的駕駛員發現了他們的衝震波武器能應用在各種戰術用途上。其中，海斯．羅斯福德與其 NHP 搭檔克拉克成為了首隊真正發揮出該機體潛能的駕駛員組合：他們憑一己之力擊墜了一艘在低軌道飛行的攻城巡防艦，震撼了整個戰場。",
+      "tactics": "終結者是緩慢但堅固耐打的防禦者，能在貼近敵人時造成大量傷害和暈眩效果。善用他們的龐大體型和肉搏戰實力來迫使敵人撤退，而非正面交戰，並使用<b>掘建掩體</b>來抵抗來襲的沉重打擊。"
     },
     "DEMOLITION HAMMER": {
       "name": "爆破鎚",
@@ -1316,8 +1316,8 @@
 
     "SUPPORT": {
       "name": "援助者",
-      "flavor": "Support-archetype mechs keep their allies alive and operational with a broad library of immediate triage systems, from basic flash-weld plating through to shallow–medium structural reinforcement packs and whitewash nanite slurry. From the famed Laughter of a Solemn God, working the front lines of Boundary Garden’s battlefields, to the precision actions undertaken by the rogue-world hunters of ExtraSolar Acquisitions, Inc., the efficacy of Support-archetype mechs is unparalleled when mech teams need to stay alive longer than deployment.",
-      "tactics": "Supports are bulky mechs that can’t deal any damage but have access to powerful healing and condition-clearing effects. Despite their resilience, they have no way to defend themselves and need to get close to their allies in order to be effective. Savvy players will shoot and destroy their Restock Drones before they are activated, denying an opportunity for healing."
+      "flavor": "援助者型機甲透過其即時救護系統中的廣泛函式庫來確保隊友的存續以及作戰能力，最基礎的瞬焊裝甲，到淺中層結構強化套件，甚至是白蠱奈米機器漿料等，應有盡有。無論是在邊界花園戰場前線奮戰的著名小隊「嚴神之笑」，還是外陽系收購公司那些執行精準獵殺任務的流浪星球獵人，當機甲小隊需要在持續作戰中活得更久一些，援助者型機甲的貢獻可謂無人能及。",
+      "tactics": "援助者機甲的體型龐大，雖無法造成任何傷害，卻擁有強大的治療和狀態解除能力。儘管他們相當耐打，但缺乏保護自己的手段，且必須靠近隊友才能發揮功效。精明的敵人會在其啟動<b>補給無人機</b>前優先將其摧毀，阻止其提供任何治療。"
     },
     "SEALANT GUN": {
       "name": "封膠槍",
