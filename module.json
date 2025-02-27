@@ -2,8 +2,12 @@
   "id": "lancer-compendium-zhtw",
   "title": "Lancer Compendium 繁體中文化",
   "description": "《槍騎兵 Lancer》的中文化套件，需搭配 Babele 套件使用。",
-  "author": "Hazmole",
-  "version": "0.0.6",
+  "authors": [{
+		"name": "Hazmole",
+		"email": "buzzfirefox@gmail.com",
+		"discord": "hazmole#6672"
+	}],
+  "version": "0.0.7",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -32,5 +36,5 @@
 
   "url": "https://github.com/hazmole/lancer-compendium-zhtw",
   "manifest": "https://github.com/hazmole/lancer-compendium-zhtw/releases/latest/download/module.json",
-  "download": "https://github.com/hazmole/lancer-compendium-zhtw/releases/latest/download/lancer-compendium-zhtw-v0.06.zip"
+  "download": "https://github.com/hazmole/lancer-compendium-zhtw/releases/latest/download/lancer-compendium-zhtw.zip"
 }
