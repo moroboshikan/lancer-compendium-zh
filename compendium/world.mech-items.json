@@ -279,7 +279,7 @@
       "core_system": {
         "name": "突擊擒拿",
         "description": "IPS-N 品牌的突擊擒拿系統是引領市場的技術，能用於拖行、支撐和固定體型最高 4 級的機甲骨架。其末端抓鈎可以替換，根據需求針對軟目標或硬目標進行切換──搭載電流或釘刺代碼系統來達成遠距離癱瘓的成效。",
-        "passive_name": "突擊擒拿（被動）",
+        "passive_name": "被動",
         "active_name": "萬用魚叉",
         "active_effect": "此系統對 ⌿5 範圍和視線範圍內任意數量的目標發射擒拿魚叉。目標必須成功通過<b>機體豁免</b>，否則受到 2d6 動能傷害，並被擊倒<b>伏臥</b>，被盡可能拉到與你鄰接的空間，並陷入<b>固定</b>狀況直到其下一回合結束為止。若豁免成功，則目標只受到一半傷害，且不受到其他效果影響。"
       }
@@ -348,111 +348,112 @@
       "description": "The Drake, IPS-N’s first foray into military-grade mech design, is the backbone of any proactive trade-security or anti-piracy force. Its massive, simian frame is built around a single-cast bulkhead, sloped and reinforced to handle sustained fire and the vagaries of vessel-proximal hardvac travel. The Drake is an imposing chassis, its frame evoking the might of ancient armored infantry from a time when greater numbers guaranteed victory.<br>The standard fleet license for the IPS-N Drake outfits each chassis with IPS-N’s high-velocity, high–projectile fragment assault cannon for suppressing and overwhelming targets, and a heavy kinetic–ablative shield for defense. Advanced models feature upgraded weapons and armor including the formidable Leviathan Heavy Assault Cannon, a high-rpm anti-materiel weapon.",
       "traits": {
         "Heavy Frame": {
-          "name": "Heavy Frame",
-          "description": "The Drake can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters."
+          "name": "重型骨架",
+          "description": "德瑞克不會被比它更小的角色給推動、拉動、擊倒<b>伏臥</b>或是擊退。"
         },
         "Blast Plating": {
-          "name": "Blast Plating",
-          "description": "The Drake has Resistance to damage, burn and heat from blast, burst, line, and cone attacks."
+          "name": "防爆鍍層",
+          "description": "德瑞克對來自 <b>爆發、濺射、線性、和錐形</b> 攻擊造成的傷害、燃燒、和熱度具有抗性。"
         },
         "Slow": {
-          "name": "Slow",
-          "description": "The Drake receives +1 difficulty on Agility checks and saves."
+          "name": "緩慢",
+          "description": "德瑞克在進行<b>敏捷判定和豁免</b>時會得到 +1 難度。"
         },
         "Guardian": {
-          "name": "Guardian",
-          "description": "Adjacent allied characters can use the Drake for hard cover."
+          "name": "守護者",
+          "description": "鄰接的隊友角色可以把德瑞克當成<b>硬性掩護</b>。"
         }
       },
       "core_system": {
-        "name": "Fortress",
-        "description": "",
-        "passive_name": "PASSIVE",
-        "active_name": "Fortress Protocol",
-        "active_effect": "You deploy heavy stabilizers and your mech becomes more like a fortified emplacement than a vehicle. When activated, two sections of hard cover (line 2, Size 1) unfold from your mech, drawn in any direction. These cover sections have Immunity to all damage.<br>Additionally, the following effects apply while active:<ul><li>You become Immobilized.</li><li>You benefit from hard cover, even in the open, and gain Immunity to Knockback, Prone, and all involuntary movement.</li><li>When you Brace, you may take a full action on your next turn instead of just a quick action.</li><li>Any character that gains hard cover from you or your cover sections gains Immunity to Knockback, Prone, and all involuntary movement, and gains the benefits of Blast Plating.</li></ul>This system can be deactivated as a protocol. Otherwise, it lasts until the end of the current scene."
+        "name": "要塞",
+        "passive_name": "被動",
+        "active_name": "要塞協定",
+        "active_effect": "你展開機甲的重型穩定裝置，讓機甲從載具變成固定要塞。在啟動時，從你的機甲往任意方向展開二個<b>硬性掩護</b>區塊（線性 2 範圍、大小 1）。這些掩護區塊免疫於所有傷害。<br><br>此外，在這個系統啟動期間，你得到以下效果：<ul><li>你陷入<b>固定</b>狀況。</li><li>即使身處開闊地形，你也能得到<b>硬性掩護</b>的好處，並免疫於擊退、<b>伏臥</b>、和所有強制移動的效果。</li><li>當你進行<b>受身</b>時，你在你的下一回合將能採取完整動作，而不只是一個快速動作。</li><li>任何受益於你或你掩護的<b>硬性掩護</b>的角色同樣免疫於擊退、<b>伏臥</b>、和所有強制移動的效果，並能受益於<b>防爆鍍層</b>的好處。</li></ul>這個系統能以<b>協定</b>動作解除。除此之外的情況，其效果將持續直到該場景結束。"
       }
     },
     "Assault Cannon": {
-      "name": "Assault Cannon",
+      "name": "突擊火炮",
       "profiles": {
         "Standard": {
-          "name": "Standard",
-          "description": "IPS-N’s assault cannon of choice is a deep-cooled autocannon, fieldable as a mounted weapon or manipulator-operated platform. The cannon, simple in its functionality, can be fed by either box magazine or belt and is a standard inclusion in almost any among IPS-N fleet orders. In micro and zero-gravity environments, Drake pilots commonly employ the assault cannon as an additional propulsion system.",
-          "effect": "You can spin up this weapon’s barrels as a quick action.",
+          "name": "標準模式",
+          "description": "IPS-N 首選的突擊火炮是一款附有深度冷卻系統的自動火炮，能作為固定裝載式武器或被安裝在機械臂操作平台上。這款火炮的設計簡潔，能使用盒式彈匣或彈鏈來供彈，並作為幾乎所有 IPS-N 艦隊訂單中的標準配備。在微重力和無重力環境下，德瑞克的駕駛員也經常把這款突擊火炮當作額外的推進系統來使用。",
+          "effect": "你能以<b>快速動作</b>轉動這件武器的炮管。",
           "actions": {
             "Spin Up Assault Cannon": {
-              "name": "Spin Up Assault Cannon",
-              "detail": "Spin up the barrels of the Assault Cannon, Slowing your mech and allowing use of its \"Spin-Up Mode\" profile."
+              "name": "轉動突擊火炮",
+              "detail": "高速轉動突擊火炮的炮管，減緩你機甲的速度，並讓你以「高轉速模式」使用該武器。"
             }
           }
         },
         "Spin-Up Mode": {
-          "name": "Spin-Up Mode",
-          "description": "IPS-N’s assault cannon of choice is a deep-cooled autocannon, fieldable as a mounted weapon or manipulator-operated platform. The cannon, simple in its functionality, can be fed by either box magazine or belt and is a standard inclusion in almost any among IPS-N fleet orders. In micro and zero-gravity environments, Drake pilots commonly employ the assault cannon as an additional propulsion system.",
-          "effect": "While spinning, this weapon gains Reliable 3, but you become Slowed.<br>You can end this effect as a protocol.",
+          "name": "高轉速模式",
+          "description": "IPS-N 首選的突擊火炮是一款附有深度冷卻系統的自動火炮，能作為固定裝載式武器或被安裝在機械臂操作平台上。這款火炮的設計簡潔，能使用盒式彈匣或彈鏈來供彈，並作為幾乎所有 IPS-N 艦隊訂單中的標準配備。在微重力和無重力環境下，德瑞克的駕駛員也經常把這款突擊火炮當作額外的推進系統來使用。",
+          "effect": "在高速轉動期間，這件武器得到<b> 可靠 3 </b>標籤，但你陷入<b>緩慢</b>狀況。<br>你能以<b>協定</b>動作結束這個效果。",
           "actions": {
             "Cease Spin-Up": {
-              "name": "Cease Spin-Up",
-              "detail": "End the Assault Cannon's \"Spin-Up Mode\", ending the Slowed condition and allowing the Assault Cannon to be used with its \"Standard\" profile."
+              "name": "停止轉動",
+              "detail": "結束突擊火炮的「高轉速模式」，解除<b>緩慢</b>狀況，並讓你以「標準模式」使用該武器。"
             }
           }
         }
       }
     },
     "Argonaut Shield": {
-      "name": "Argonaut Shield",
-      "description": "In space, simplicity in form and function guarantees reliability and promotes trust. The Argonaut is one of IPS-N’s oldest designs, hailing from the pre-merger days of Northstar’s Deep Black security teams. It’s a simple slab of metal carried in hand or mounted on a chassis’ brachial superstructure; the only option a pilot has for customizing this shield is a choice of size.",
+      "name": "阿爾戈大盾",
+      "description": "在太空中，簡單的設計和功能可以確保其可靠性，增進信任度。而阿爾戈大盾正是 IPS-N 歷史最悠久的設計之一，其起源可追溯至極星公司合併前的深黑安保部隊。這款盾牌基本上就是一塊堅固的金屬板，既可手持，也能安裝在機甲前臂的超結構上；駕駛員唯一的客製化選項就只有這面盾牌的大小。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "You use the heavy overarm Argonaut Shield to provide cover for an adjacent character as a quick action, giving them Resistance to all damage; however, you take half of the damage your target would take before calculating Armor and Resistance. This effect lasts until your target breaks adjacency, at which point this effect ceases until you repeat this action."
+          "name": "啟動阿爾戈大盾",
+          "detail": "你以<b>快速動作</b>使用這件重型舉臂式大盾來為一名鄰接角色提供掩護，讓其得到對所有傷害的<b>抗性</b>；然而，你也會受到目標在適用裝甲和抗性之前受到的傷害的一半。這個效果會持續直到你與目標不再鄰接，然後這個效果就會結束，直到你再次使用這個動作。"
         }
       }
     },
     "Concussion Missiles": {
-      "name": "Concussion Missiles",
+      "name": "震盪飛彈",
       "profiles": {
         "Concussion Missiles": {
-          "name": "Concussion Missiles",
-          "description": "Concussion missiles are fitted with overpressure-generating charges with low shatter and low incandescence – they’re meant to stun, deter, push back, and disorient, usually in tandem with a larger, more lethal attack.",
-          "on_hit": "The target must succeed on a Hull save or become Impaired until the end of their next turn."
+          "name": "震盪飛彈",
+          "description": "震盪飛彈配備著低破片和低白熾性的和超壓產生炸藥，用以造成暈眩、威懾、擊退、和擾亂，通常會配合更致命的重型武器一起使用。",
+          "on_hit": "目標必須成功通過<b>機體豁免</b>，否則陷入<b>受損</b>狀況直到其下一回合結束為止。"
         }
       }
     },
     "Aegis Shield Generator": {
-      "name": "Aegis Shield Generator",
-      "description": "The Aegis is a portable electromagnetic shield generator: a powerful and reliable method – if crude by modern standards – for establishing kinetic and coherent-particle deterrence over a wide area."
+      "name": "神盾護盾產生器",
+      "description": "神盾是可攜式的電磁護盾產生器：一種即使與現代手段相比較為粗糙，但仍然強大且可靠的範圍動能阻抗和粒子干涉系統。",
+      "effect": "消耗一發在鄰接的未佔據空間中展開一個大小 1 的<b>神盾護盾產生器</b>。它會在該處產生一個<b> 爆發 1 </b>範圍的護盾。"
     },
     "Leviathan Heavy Assault Cannon": {
-      "name": "Leviathan Heavy Assault Cannon",
+      "name": "利維坦重型突擊火炮",
       "profiles": {
         "Standard": {
-          "name": "Standard",
-          "description": "The Leviathan Heavy Assault Cannon (HAC) is a massive, multi-barrel rotary cannon fed by an external reservoir, usually dorsally mounted on the chassis carrying it. Unmodified, the Leviathan should only be fired within the recommended burst timing specifications to prevent percussive trauma to joints and pilots.<br>In partnership with Harrison Armory’s Think Tank, IPS-N is currently investigating remote solutions for the cannon’s ammunition consumption demands.",
-          "effect": "Unlike other Superheavy weapons, the Leviathan can be used with Skirmish. You can spin up this weapon’s barrels as a quick action.",
+          "name": "標準模式",
+          "description": "利維坦重突擊火炮，簡稱 HAC，是一款體型龐大的多管轉輪式火炮，由外部彈藥庫供彈，通常安裝在機甲背部。在未經改造的情況下，利維坦只應在建議的點射時機開火，避免對機體關節和駕駛員造成衝擊性傷害。<br><br>IPS-N 目前正與哈里遜兵工廠的智囊團合作，研究透過遙距供彈方式來解決這款大炮的高額彈藥需求。",
+          "effect": "與其他超重型武器不同，此武器能被用來進行<b>交火</b>。你能以<b>快速動作</b>轉動這件武器的炮管。",
           "actions": {
             "Spin Up Leviathan": {
-              "name": "Spin Up Leviathan",
-              "detail": "Spin up the barrels of the Leviathan Heavy Assault Cannon, Slowing your mech and allowing use of its \"Spin-Up Mode\" profile."
+              "name": "轉動利維坦",
+              "detail": "高速轉動利維坦重型突擊火炮的炮管，減緩你機甲的速度，並讓你以「高轉速模式」使用該武器。"
             }
           }
         },
         "Spin-Up Mode": {
-          "name": "Spin-Up Mode",
-          "description": "The Leviathan Heavy Assault Cannon (HAC) is a massive, multi-barrel rotary cannon fed by an external reservoir, usually dorsally mounted on the chassis carrying it. Unmodified, the Leviathan should only be fired within the recommended burst timing specifications to prevent percussive trauma to joints and pilots.<br>In partnership with Harrison Armory’s Think Tank, IPS-N is currently investigating remote solutions for the cannon’s ammunition consumption demands.",
-          "effect": "While spinning, you are Slowed and can no longer use the Leviathan with Skirmish.<br>You can cease this effect as a protocol.",
+          "name": "高轉速模式",
+          "description": "利維坦重突擊火炮，簡稱 HAC，是一款體型龐大的多管轉輪式火炮，由外部彈藥庫供彈，通常安裝在機甲背部。在未經改造的情況下，利維坦只應在建議的點射時機開火，避免對機體關節和駕駛員造成衝擊性傷害。<br><br>IPS-N 目前正與哈里遜兵工廠的智囊團合作，研究透過遙距供彈方式來解決這款大炮的高額彈藥需求。",
+          "effect": "在高速轉動期間，你陷入<b>緩慢</b>狀況，且無法再使用此武器進行<b>交火</b>。<br>你能以<b>協定</b>動作結束這個效果。",
           "actions": {
             "Cease Spin-Up": {
-              "name": "Cease Spin-Up",
-              "detail": "End the Leviathan Heavy Assault Cannon's \"Spin-Up Mode\", ending the Slowed condition and allowing the Leviathan to be used with its \"Standard\" profile."
+              "name": "停止轉動",
+              "detail": "結束利維坦重型突擊火炮的「高轉速模式」，解除<b>緩慢</b>狀況，並讓你以「標準模式」使用該武器。"
             }
           }
         }
       }
     },
     "Portable Bunker": {
-      "name": "Portable Bunker",
-      "description": "IPS-N’s “Portable Bunker” is actually a series of single-use expanding printer sheets: flat-pack pouches of inert non-Newtonian fluid that, when deployed, become a rigid structure capable of withstanding incredible force."
+      "name": "流動碉堡",
+      "description": "IPS-N 的「流動碉堡」實際上是一系統的一次性延展列印用材：一種裝在扁平包裹中的非牛頓流體，在展開後會迅速硬化成能抵禦強大衝擊力的堅固結構。",
+      "effect": "消耗一發在鄰接 4x4 範圍的未佔據空間中展開一個<b>流動碉堡</b>。在你的下一回合開始時，它會展開成具有高度防禦性能的碉堡。"
     },
 
     "Lancaster": {

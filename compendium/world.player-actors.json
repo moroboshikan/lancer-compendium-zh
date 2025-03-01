@@ -8,9 +8,9 @@
   },
   "entries": {
     "Aegis Shield Generator": {
-      "name": "Aegis Shield Generator",
-      "tokenName": "Aegis Shield Generator",
-      "detail": "Set out three d6s to represent the generator’s remaining power. As a reaction when any character or object of your choice at least partly in the area takes damage, you may roll one of the d6s to reduce the damage by the amount rolled.<br>This effect lasts for the rest of the scene, until all dice have been rolled and the generator loses power, or the generator is destroyed."
+      "name": "神盾護盾產生器",
+      "tokenName": "神盾護盾產生器",
+      "detail": "擺放三顆 d6 骰來表示這個護盾產生器的剩餘能源。當任何至少有一部分位於該區域內的角色或物件受到傷害時，你能以<b>反應</b>擲其中一顆 d6 來使該傷害減少等同擲骰結果的數值。<br><br>這個效果會持續直到該場景結束，所有骰子都被消耗導致護盾產生器失去動力、或護盾產生器被毀為止。"
     },
     "Armor Pack": {
       "name": "Armor Pack",
@@ -133,9 +133,9 @@
       "detail": "The plate activates for a character the first time that character enters its space during a round, or if they end their turn there.<br>Upon printing, choose a setting:<ul><li><b>Repulse:</b> Hostile characters that move onto the PCP must succeed on a Hull save or be pushed 3 spaces in the direction of your choice. If this causes them to collide with an obstruction, they are knocked Prone. Allied characters that enter the space may immediately fly 3 spaces in any direction as a free action.</li><li><b>Attract:</b> Characters that move onto the PCP must succeed on a Hull save or become Immobilized. They can clear Immobilized by successfully repeating the save as a quick action; it is also cleared if the PCP is destroyed."
     },
     "Portable Bunker": {
-      "name": "Portable Bunker",
-      "tokenName": "Portable Bunker",
-      "detail": "All characters completely within the bunker's 4x4 area gain hard cover against all attacks from outside the bunker from all directions and Resistance to damage from Blast, Line, Burst, and Cone attacks that originate outside the bunker.<br>The bunker is open topped, and characters may enter or exit at will. It can’t be moved or deactivated once deployed."
+      "name": "流動碉堡",
+      "tokenName": "流動碉堡",
+      "detail": "所有完全處於碉堡的 4x4 範圍區域內的角色，對於來自碉堡外的任何攻擊都會受益於<b>硬性掩護</b>，並對源自碉堡外的 <b>濺射</b>、<b>線性</b>、<b>爆發</b>和<b>錐形</b>攻擊造成的傷害具有<b>抗性</b>。<br><br>這座碉堡是露天的，且所有角色都能夠自由進出。一旦被展開，這座碉堡就不能被移動或回收。"
     },
     "Restock Drone": {
       "name": "Restock Drone",
