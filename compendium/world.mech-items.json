@@ -258,6 +258,7 @@
     "Tempest Charged Blade": {
       "name": "暴風充能劍"
     },
+
     "Blackbeard": {
       "name": "黑鬍子",
       "description": "黑鬍子是 IPS-N 為了打擊海盜活動而開發的激進解決方案：這款用於前線作戰，先發制人的機甲，被專門設計用來應對擊發式動能武器無法使用、有風險、或可能造成非必要附帶損害的環境。黑鬍子特別纖細的骨架不只讓其更加敏捷，同時還能減少雷達剪影面積，使其更難被偵測或鎖定。<br><br>黑鬍子機型主要分成兩個系列：標準的 IPS-N/BB-L 量產型號，以及限量發行的 IPS-N/BB-Sk 原型機，特別設計用於搭載 IPS-N 的塞赫麥特級 NHP。",
@@ -453,6 +454,7 @@
       "name": "Portable Bunker",
       "description": "IPS-N’s “Portable Bunker” is actually a series of single-use expanding printer sheets: flat-pack pouches of inert non-Newtonian fluid that, when deployed, become a rigid structure capable of withstanding incredible force."
     },
+
     "Lancaster": {
       "name": "Lancaster",
       "description": "The IPS-N Lancaster is a mil-spec variant of an older IPS-N civilian terrestrial, inter/outer-hull transport and maintenance chassis, streamlined for use in any theater. The Lancaster features multiple redundant systems and sophisticated interaction projectors to ensure pinpoint accuracy when engaging with delicate systems, whether damaged or intact.<br>Lancaster pilots often adopt roles as sappers and engineers in frontline support. Sometimes ridiculed for piloting the old-fashioned frame by newer, untested pilots, veteran Lancaster jockeys know the truth: the Lancaster is one of the most reliable and well-made mechs out there, indispensable on any serious long-range mission. Not every mission is won with bullets, lasers, and bombs: without the engineers and their Lannies, few of those hotshots would come home alive.",
@@ -532,6 +534,7 @@
         }
       }
     },
+
     "Nelson": {
       "name": "Nelson",
       "description": "The IPS-N Nelson is the purest embodiment of the close-quarters doctrine espoused by its manufacturer. It is built to brawl, thriving when ordnance has been exhausted or when the environment is too volatile for firearms. With its functional size, the Nelson can strike fast and remain a difficult target to track. Layers of fractal-fold Armor-Lock plating with ceramic-analogous carbon flaking properties effectively nullify the impact of incoming ballistics by dispersing kinetic energy across a rounded hull. This null-k defense protects the pilot from impact trauma, allowing for sustained combat efficacy in high-trade scenarios.<br>The Nelson is an iconic IPS-N chassis, known across the galaxy as the favored frame of the Albatross, the nomadic order of Cosmopolitan peacekeepers. The Albatross’ distinctive white, gold, and red livery, mastery of the war pike, and apparent agelessness due to time dilation has won both them and the Nelson a venerated place in Diasporan lore – and secured an endorsement contract with IPS-N in perpetuity.",
@@ -553,6 +556,51 @@
         "active_effect": "For the rest of the scene, Skirmisher allows you to move 4 spaces at a time instead of 1 space."
       }
     },
+    "War Pike": {
+      "name": "War Pike",
+      "profiles": {
+        "War Pike": {
+          "name": "War Pike",
+          "description": "A war pike is a simple weapon – a long haft, topped with a dense, slim point, meant to puncture armor. Early designs were derivative of mining pylons, but the modern war pike is a sturdy, balanced, and reliable weapon that’s perfect for a charge."
+        }
+      }
+    },
+    "Bulwark Mods": {
+      "name": "Bulwark Mods",
+      "description": "All proprietary IPS-N mech cores feature their QuickMod system – a modular, legacy-compatible system of joints, hardpoints, and internal slots that makes installing upgrades simple. This proved to be a necessary feature for Albatross maktebas long out of synch with Union Realtime.",
+      "effect": "Your mech’s extended limbs, additional armor, redundant motor systems, and other reinforcements allow you to ignore difficult terrain."
+    },
+    "Thermal Charge": {
+      "name": "Thermal Charge",
+      "description": "One popular modification to the classic war pike involves replacing the long, armor-piercing pike head with a disposable, impact-triggered explosive charge. On penetration, the pike’s head is severed from the shaft – moments later, the embedded pike head detonates in a conical explosion from the point forward. Spare thermal charges are stable, and transported in external tube magazines.<br>IPS-N also makes thermal charges compatible with GMS’s range of blades, hammers, and picks.",
+      "effect": "On a hit with the weapon this mod is applied to, expend a charge as a free action to activate its detonator and deal +1d6 explosive bonus damage."
+    },
+    "Armor-Lock Plating": {
+      "name": "Armor-Lock Plating",
+      "description": "IPS-N’s Armor-Lock Plating is a total-body modification that provides additional chassis stability for any situation in which a pilot needs to put their mech through greater-than-anticipated stress.",
+      "effect": "You can Brace while Grappling. When you do so, any grapples currently affecting you end.<br>Additionally, when you Brace, you gain the following benefits until the end of your following turn:<ul><li>Attacks against you receive +1 difficulty.</li><li>You can’t fail Agility or Hull saves or contested checks.</li><li>You gain Immunity to Knockback, Grapple, being knocked Prone, and being moved by any external force smaller than Size 5.</li></ul>"
+    },
+    "Power Knuckles": {
+      "name": "Power Knuckles",
+      "profiles": {
+        "Power Knuckles": {
+          "name": "Power Knuckles",
+          "description": "IPS-N’s line of power knuckles are another popular purchase for pilots who prefer to fight up close. Taking the form of anything from shaped studs to hyperdense knuckles, or a series of magnetically accelerated micro-rams, power knuckles amplify the already incredible hitting power of a mech.",
+          "on_crit": "Your target must succeed on a Hull save or be knocked Prone."
+        }
+      }
+    },
+    "Ramjet": {
+      "name": "Ramjet",
+      "description": "There’s a threshold that veteran Nelson pilots know well: the point of endless momentum. You get moving fast enough in the right atmosphere and the air itself feeds into auxiliary ports on the chassis, screaming out like a demon’s almighty howl. The point of endless momentum is a giant’s hand on your chest and a god’s chariot under your feet. Makes you feel like you can outrun light itself, as long as you don’t pass out first.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Until the start of your next turn, you can move +2 spaces when you Boost and your melee attacks (including Ram, Grapple, and so on) gain Knockback 2.<br>When you move during this time, you must move your full Speed in a straight line; however, you can stop if you would collide with an obstruction or hostile character, and you can change direction between separate movements (for example, standard moves, Boost, etc)."
+        }
+      }
+    },
+
     "Raleigh": {
       "name": "Raleigh",
       "description": "Seeing GMS and Harrison Armory’s push to secure whole-fleet line contracts with Union member states, IPS-N launched a brief foray into design and production of their own main battle line frame. Enter the Raleigh, a stylistic and design oddity for IPS-N. Designed not as a specialist, but as a purpose-built, close-range mech, the Raleigh failed to stun potential clients in trials.<br>Though a favorite of test pilots due to its unique styling and agility, the Raleigh saw few fleet orders and, after a brief run as IPS-N’s flagship, was quietly rolled back and replaced with the Tortuga. No longer offered as a fleet contract, the Raleigh enjoys a quiet popularity among pilots seeking a well-balanced, if close-ranged, line mech.",
@@ -606,6 +654,54 @@
         "active_effect": "You may use your Truesilver trait three more times this Scene."
       }
     },
+    "Hand Cannon": {
+      "name": "Hand Cannon",
+      "profiles": {
+        "Hand Cannon": {
+          "name": "Hand Cannon",
+          "description": "The IPS-N hand cannon is a licensed version of GMS’s Type-I Pistol, adapted for a much heavier caliber. This modification requires the belt-fed system of the GMS build to be swapped for a cylinder or magazine-based system, depending on the specific model of hand cannon."
+        }
+      }
+    },
+    "BB Breach/Blast Charges": {
+      "name": "BB Breach/Blast Charges",
+      "description": "Breach/blast charges offer a mil-spec twist on the industrial blasting charges developed by IPS-N for asteroid mining. The IPS-N BB charge features a more volatile blend of high explosives designed to cause massive structural damage to mechanized chassis, starship bulkheads, armored vehicles, bunkers, and other hardened structures.",
+      "actions": {
+        "Thermal Grenade": {
+          "name": "Thermal Grenade",
+          "detail": "Throw a Thermal Grenade within Range 5. All characters within a Blast 1 area must succeed on an Agility save or take 1d6 energy. On a success, they take half damage. Objects and terrain are hit automatically and take 10 AP energy damage."
+        }
+      }
+    },
+    "Bolt Thrower": {
+      "name": "Bolt Thrower",
+      "profiles": {
+        "Bolt Thrower": {
+          "name": "Bolt Thrower",
+          "description": "As with many of IPS-N’s classic weapons, the bolt thrower is descended from a civilian mining tool. It fires self-propelled explosive bolts, perfect for use in micro- and null-gravity as well as in-atmosphere."
+        }
+      }
+    },
+    "“Roland” Chamber": {
+      "name": "“Roland” Chamber",
+      "description": "Packed into sealed, self-contained cylinders, IPS-N’s “Roland Rounds” are high-explosive anti-armor charges built for kinetic weapons of any mech-scale caliber. Loaded in place of inert kinetic ammunition, a Roland HE/AA shell increases the efficacy and destructive power of any weapon it is fired from.",
+      "effect": "When you reload any weapon, your next attack with a Loading weapon gains this effect:<br>On hit: This attack deals +1d6 explosive bonus damage, and targets must succeed on a Hull save or be knocked Prone."
+    },
+    "Kinetic Hammer": {
+      "name": "Kinetic Hammer",
+      "profiles": {
+        "Kinetic Hammer": {
+          "name": "Kinetic Hammer",
+          "description": "A kinetic hammer is a simple tool, but a brutal one. Made up of a supermassive head fused to a long haft, the hammer carries enough force to create massively traumatic pressure waves upon landing a successful blow."
+        }
+      }
+    },
+    "UNCLE-Class Comp/Con": {
+      "name": "UNCLE-Class Comp/Con",
+      "description": "IPS-N’s UNCLE COMP/CON system is the result of the DARKSTAR-2 program, a temporary project that sought to develop more advanced smart weapons. Early prototypes were hampered by a combination of high power-draw, unstable conditioning, and frustrating single-task orientation that eventually saw the project shuttered.<br>While IPS-N is no longer developing new iterations of UNCLE, they still have a stock of QA-approved legacy systems accessible to qualified pilots.<br>Pilots lucky enough to field test models swear by UNCLE’s task efficiency and parallel-track reasoning, though the outdated COMP/CONs are known for their somewhat unstable personalities.",
+      "effect": "Your UNCLE-class COMP/CON has control of the weapon this mod is applied to and its associated systems.<br>1/turn, you can attack at +2 difficulty with UNCLE’s weapon as a free action. UNCLE can’t use weapons that have already been used this turn, and any weapon UNCLE attacks with can’t be used again until the start of your next turn.<br>UNCLE isn’t a full NHP, so cannot enter cascade."
+    },
+
     "Tortuga": {
       "name": "Tortuga",
       "description": "The Tortuga is IPS-N’s short-to-medium range line of mechs. Conceived, tested, and perfected in the void of deep space, the Tortuga was made to breach and clear carrier decks, hostile station environments, and the spinal columns of capital ships. It excels at occupying space and filling hallways with its angular bulk, often acting as a walking battering ram by boarding parties and marines. But the Tortuga defends just as effectively as it attacks, using its broad plates of brachial armor to shield itself and any advancing allies.",
@@ -627,6 +723,60 @@
         "active_effect": "For the rest of this scene:<ul><li>If you have less than threat 3 with a ranged weapon, it increases to 3.</li><li>1/round, you may take an additional Overwatch reaction.</li><li>Any character you hit with Overwatch becomes Immobilized until the end of their next turn.</li></ul>"
       }
     },
+    "Deck-Sweeper Automatic Shotgun": {
+      "name": "Deck-Sweeper Automatic Shotgun",
+      "profiles": {
+        "Deck-Sweeper Automatic Shotgun": {
+          "name": "Deck-Sweeper Automatic Shotgun",
+          "description": "The Deck-Sweeper Automatic Shotgun is a belt-fed scattergun, a favorite of marine pilots aboard stations and capital ships. Its methodology is straightforward: charge, point, and fire. A single-barrel constriction allows for pneumatic absorption – dampening the effect of its incredible recoil – and its belt feeder is compatible with many types of shot-and-slug ammunition."
+        }
+      }
+    },
+    "Siege Ram": {
+      "name": "Siege Ram",
+      "description": "The siege ram is a handheld metal beam with a wedge tip, ready to be smashed into the seams of sealed bulkhead doors and driven home. It’s another holdover from the days before the IPS-N merger. When someone needs to open a bulkhead that’s just slammed shut, it’s what marine pilots pick up to get the job done. Heavy, dumb, and unbreakable: IPS-N’s siege ram is the universal skeleton key.",
+      "effect": "When you Ram, you deal 2 kinetic damage on hit, and you deal 10 AP kinetic damage when you Ram objects and terrain."
+    },
+    "Daisy Cutter": {
+      "name": "Daisy Cutter",
+      "profiles": {
+        "Daisy Cutter": {
+          "name": "Daisy Cutter",
+          "description": "The Daisy Cutter is an effective weapon – if outdated – that’s still favored by many marine pilots. Essentially, it’s a massive shotgun; the pilot loads a charge into the gun’s breech, drops a packed sabot down the barrel, aims, and fires a hellfire cloud of flechette darts, bearings, and ignited magnesium strips, guaranteed to clear any deck on which it’s been fired.",
+          "on_attack": "Creates a cloud of smoke and detritus in the attack cone, providing soft cover in the affected area that lasts until the end of your next turn."
+        }
+      }
+    },
+    "Catalytic Hammer": {
+      "name": "Catalytic Hammer",
+      "profiles": {
+        "Catalytic Hammer": {
+          "name": "Catalytic Hammer",
+          "description": "Modified originally from blast-mining equipment, the catalytic hammer (colloquially, the “pilebunker”) has since been refined into a formidable melee weapon. When fired, a charge propels the hammer – a solid cylinder with a spike on one end – through a short barrel, impacting with enormous kinetic force. Standard hammer heads are smooth to allow for easy extraction from targets, but they can be detached and replaced if retrieval is impossible. Any installation of a catalytic hammer necessitates superstructure reinforcement to allow for sufficient energy dispersal.",
+          "on_crit": "Your target must succeed on a Hull save or become Stunned until the end of their next turn."
+        }
+      }
+    },
+    "Throughbolt Rounds": {
+      "name": "Throughbolt Rounds",
+      "description": "Throughbolt rounds are a proprietary IPS-N anti-armor invention. When fired, the rounds ignite and project a superheated cone of plasma before them, creating an effect like a miniature lance that easily penetrates multiple targets – even through hard surfaces.",
+      "effect": "When you attack with the weapon this mod is applied to, you may fire a throughbolt round instead of attacking normally. Draw a line 3 path from you, passing through terrain or other obstacles – any characters or objects in the path take 2 AP kinetic damage as the projectile punches through them and out the other side. Range, cover, and line of sight for the attack are then measured from the end of this path, continuing in the same direction."
+    },
+    "HyperDense Armor": {
+      "name": "HyperDense Armor",
+      "description": "IPS-N HyperDense Armor is built for space – forged with no regard for any constraints users might face within a gravity well. As such, many pilots protected by HyperDense products are shocked to experience the difference between piloting their mech down a well and taking it for a ride in the null-gravity of space.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "When activated, the HyperDense Armor hardens into a shimmering, reflective surface that offers unparalleled protection. You gain Resistance to all damage, Heat and Burn from attacks that originate beyond Range 3; however, you become Slowed and deal half damage, Heat and Burn to characters beyond Range 3."
+        },
+        "Deactivate HyperDense Armor": {
+          "name": "Deactivate HyperDense Armor",
+          "detail": "Deactivate HyperDense Armor, losing Resistance to all damage, Heat and Burn from attacks that originate beyond Range 3; as well as clearing your Slowed status and dealing normal damage, Heat and Burn to characters beyond Range 3."
+        }
+      }
+    },
+
     "Vlad": {
       "name": "Vlad",
       "description": "The Vlad is the second iteration of IPS-N’s legacy Yi-Sun-Shin model, first made famous by Albatross pilots in the Celestine campaign during the fall of the Second Committee. With the wealth and quality of data generated by the Albatross in that conflict, IPS-N produced the Vlad, a power plant- and frame-upgraded spiritual successor to the Yi-Sun-Shin and deserving of a new line designation.<br>The Vlad, as the Sun did before it, shares much of its design philosophy and ancestry with IPS-N’s early asteroid-mining frames. Many of its standard armaments take inspiration from the early efforts of resourceful miners to convert tools into improvised anti-piracy weapons; likewise, its frame emphasizes redundancy, toughness, and component universality, allowing it to operate with outstanding self-sufficiency for long and/or dangerous deployments.<br>Heavily armored, the Vlad suits a frontline role where it can absorb fire from dangerous targets while lining up the perfect shot.",
@@ -648,6 +798,62 @@
         "active_effect": "For the rest of this scene, you gain Resistance to all damage originating within range 3, and Shrike Armor deals 3 AP kinetic damage instead of 1."
       }
     },
+    "Impact Lance": {
+      "name": "Impact Lance",
+      "profiles": {
+        "Impact Lance": {
+          "name": "Impact Lance",
+          "description": "The impact lance is a mil-spec variant of a common mining tool: the single-use chemical survey laser. IPS-N’s military variant mounts a series of impact lances on a mech’s brachial or thoracic carriages, leaving its manipulators free to field other weapons and systems. It can be wired directly into a chassis’ core, or charged with disposable chemical batteries.<br>The lance array fires for a microsecond, burning through its stored charge to produce an intense burst of light that stabs out in a tight, pulsed beam capable of searing through meters of hardened bulkhead.",
+          "on_attack": "You also attack all characters in a Line between you and your target. You take 1 heat for each target past the first."
+        }
+      }
+    },
+    "Webjaw Snare": {
+      "name": "Webjaw Snare",
+      "description": "Suitable for use in any theater, the IPS-N Webjaw Explosively Accelerated Filament system is a deployable perimeter defense solution designed to arrest hostile movement in predetermined kill-corridors. The Webjaw consists of a networked cluster of single-use anchors, each consisting of a barb, a coil of arachnosynth NoCut filament, and an explosive charge.<br>When triggered remotely, or by a series of programmable physical, electronic, or chemical triggers, the anchors fire, embedding barbs deep inside targets, whether soft or hard. The barbs, secured to anchor points by NoCut filament, clog and restrict movement, fouling gears, wheels, rotors, engines, and all methods of locomotion.",
+      "effect": "Expend a charge to deploy a Webjaw snare to a free, adjacent space, where it arms at the end of your turn."
+    },
+    "Impaler Nailgun": {
+      "name": "Impaler Nailgun",
+      "profiles": {
+        "Impaler Nailgun": {
+          "name": "Impaler Nailgun",
+          "description": "The Impaler’s noncombustible, sabot-jacketed two-stage macroflechettes can pierce even the heaviest armor. Once catapulted from its launcher, the sabot disengages on approach to its target and triggers a second stage – internal propulsion drives the macroflechette forward with incredible velocity. Over-penetration is certain against soft targets; IPS-N advises firing this weapon only when the area behind the target is clear of allies or noncombatants.",
+          "on_hit": "Targets must succeed on a Hull save or become Immobilized until the end of their next turn."
+        }
+      }
+    },
+    "Caltrop Launcher": {
+      "name": "Caltrop Launcher",
+      "description": "Wicked anti-organic, anti-vehicle systems for proximity denial, caltrop launchers fire either great clouds or long swathes of shimmering metal over an area. IPS-N’s HX-CAL caltrop system includes small, shaped explosives in the mix of hardened pyramids.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "This system blankets a free blast 1 area within range 5 with explosive caltrops. The affected area becomes difficult terrain for the rest of the scene, and mechs take 1d3 AP explosive damage when they enter the affected area for the first time in a round or end their turn within it."
+        }
+      }
+    },
+    "Combat Drill": {
+      "name": "Combat Drill",
+      "profiles": {
+        "Combat Drill": {
+          "name": "Combat Drill",
+          "description": "The combat drill is a brutal close-combat weapon, powered by a massive external catalyst pack. The bit is tipped with microplasmatic projectors designed to pre-treat the target and ensure drill penetration.",
+          "effect": "When attacking a character that is Prone, Immobilized, or Stunned, this weapon’s Overkill tag does an extra +1d6 bonus damage each time it activates. This can activate indefinitely if the new bonus die result is a 1, triggering Overkill again."
+        }
+      }
+    },
+    "Charged Stake": {
+      "name": "Charged Stake",
+      "description": "Descended from blast-mining tools, this enormous, improvised system is housed and prepped to fire in a specially primed chamber. It first penetrates and immobilizes armored targets, then sends a powerful, vaporizing charge into vulnerable internal systems.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "This system fires a charged stake at a character adjacent to you. Your target must succeed on a Hull save or be impaled by the stake, taking<br>1d6 AP energy damage and becoming Immobilized while impaled. At the end of each of their turns, an impaled character takes 1d6 AP energy damage. An impaled character can successfully repeat this save as a full action to remove the stake and free themselves, which is the only way to end the immobilization.<br>You can only affect one character with the stake at a time."
+        }
+      }
+    },
+
     "Kidd": {
       "name": "Kidd",
       "description": "<p>A sidegraded cousin of IPS-N&rsquo;s Lancaster support frame, the Kidd was produced under a joint development contract by IPS-N&rsquo;s Titan&ndash;Enceladus Field Project and Northstar Branch Robotics. The original pattern for the frame was bought off a mining commune that had rigged their support drones in a slapdash but ingenious neural mesh that both hardened them against tech intrusion and increased their operational efficiency many times over. Urban legend was that the original builder of the rig had used his drone team to bury caches of black-market Volador tech in several wandering asteroids, and out of extreme paranoia made his systems almost impossible to crack. To this day Northstar Branch Robotics tries valiantly to squash down persistent rumors that clues to the location of the caches are hidden in the Kidd&rsquo;s code base.</p> <p>Designed to provide an aggressive, all-theater support solution to rugged field teams in hostile environments, the Kidd mounts a trio of powerful systems to ensure a broad operational envelope. The Jolly Roger semiautonomous personal orbital platform, bundled with every genuine-license Kidd platform establishes theater control in any open or near-surface environment. A squadron of bundled subalterns (along with an onboard maintenance suite) guarantees friendly support in any environment and provides a broad suite of tactical possibility. Finally, Titan&ndash;Enceladus&rsquo;s SMOKESTACK heat sink pylon represents the cutting edge of IPS-N&rsquo;s thermodynamic axiomatics, allowing users to offset surplus heat via the creation of a pinhole-window into an omega state of absolute zero.</p> <p>The Kidd is a popular chassis in Evergreen where it is employed as a subaltern command platform for civilian and engineering purposes. Its familiar bulk can also regularly be seen accompanying traders on their way to do business with the Gray Towns.</p>",
@@ -694,6 +900,52 @@
         "active_effect": "For the rest of the scene, Plunder and Swindle become Blast 2 and Shiver Timbers affects all characters in a Line 10 path."
       }
     },
+    "Blackspot Targeting Laser": {
+      "name": "Blackspot Targeting Laser",
+      "profiles": {
+        "Blackspot Targeting Laser": {
+          "name": "Blackspot Targeting Laser",
+          "description": "“Who tipped me the black spot the day we landed and began this dance?” – Treasure Island (1883)",
+          "on_hit": "DRONE, SEEKING, and NEXUS weapons and systems gain +1 Accuracy to attack the target until the end of their next turn.",
+          "on_crit": "The target also receives Lock On."
+        }
+      }
+    },
+    "PEBCAC": {
+      "name": "PEBCAC",
+      "description": "When the problem exists between chair and chassis, aggressive solutions are needed. This rather quick solution is an old system-level reboot program that is often used by asteroid miners dealing with aging hardware.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "<p>: An allied mech character within line of sight and SENSORS quickly flash reboots at the system level. This ends all effects caused by tech actions, stops NHP cascades, and gives the target Immunity to all tech actions – hostile and allied – other than this one until the end of their next turn. This cannot be used on Jammed characters.</p> <p>Additionally, roll 1d6 to determine a side effect from the table below. These effects take place immediately and don&rsquo;t count as an action or reaction. Any movement they cause is involuntary.</p> <ol> <li>Your target becomes JAMMED until the end of their next turn.</li> <li>Your target moves up to its SPEED in a direction of the GM&rsquo;s choice.</li> <li>Your target immediately moves up to 3 spaces toward the nearest character (allied or hostile) and performs an IMPROVISED ATTACK against them. If no characters are in range, it only moves.</li> <li>Your target falls PRONE and takes 2 Kinetic Damage.</li> <li>Your target vents 1d6 Heat and deals the amount cooled as energy damage to all adjacent characters.</li> <li>Your target immediately takes the STABILIZE action and can choose what to do.</li> </ol>"
+        }
+      }
+    },
+    "Omnibus Plate": {
+      "name": "Omnibus Plate",
+      "description": "Northstar Branch Robotics returned to their roots with the Omnibus Plate, creating a simple, deployable catalytic for frontline nexus users. Designed with adaptation in mind, Omnibus Plates can attach securely to any drone or deployable system, increasing that system’s efficacy in all aspects of employ.",
+      "effect": "Expend a charge to deploy an omnibus plate to a space within Range 5."
+    },
+    "Field-Approved, Brass Ignorant Modifications": {
+      "name": "Field-Approved, Brass Ignorant Modifications",
+      "description": "As implied by the name, FABI modifications are ad hoc battlefield modifications that, while technically falling well outside the approved envelope of functionality and safety, are nonetheless popular among veteran pilots. FABI mods tend to be temporary in nature: removal of joule governors with quick-patched code, fieldcooked “hot” kinetic rounds, and so on.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "<p>Choose an allied mech character within line of sight and SENSORS. You power up their weapons. When they make a ranged or melee attack roll:</p> <ul> <li>the attack&rsquo;s damage cannot be reduced in any way</li> <li>the kick from firing the weapon knocks them back 1 space in any direction after the attack</li> <li><strong>On Hit:</strong> their target must succeed on a HULL save or be knocked PRONE.</li> </ul> <p>This effect ends when your target successfully hits with a ranged or melee attack roll or at the end of the scene.</p>"
+        }
+      }
+    },
+    "FORGE-2 Subaltern Squad": {
+      "name": "FORGE-2 Subaltern Squad",
+      "description": "The FORGE line of subalterns represents IPS-N’s premier range of frontline autonomous robotic humanoids. Produced by its robotics division, Northstar Branch Robotics, FORGE-2 subalterns are IPS-N’s newest combat engineering models, built to user scale and function.",
+      "effect": "<p>1/round, expend a charge to deploy a team of FORGE-2 subalterns to start work on one of the following projects in a free space within line of sight and Range 5.</p> <p>The project is an immovable object that is finished at the start of your next turn, gaining +10 HP (maximum and current). It is canceled if it&rsquo;s destroyed.</p> <p>The subalterns aren&rsquo;t treated as separate entities and can&rsquo;t be targeted. They return to you if the project is destroyed, canceled, or finished, no matter where you are.</p> <p>If you OVERCHARGE to use this system again, it may ignore the 1/round limit, but the second project must be placed adjacent to the first.</p>"
+    },
+    "SMOKESTACK Heat Sink": {
+      "name": "SMOKESTACK Heat Sink",
+      "description": "The IPS-N Kidd’s SMOKESTACK Heat Sink represents the latest in IPS-N’s heat dispersion systems for chassis and other CORE-powered vehicles and vessels. Utilizing proprietary axiomatics, the SMOKESTACK system establishes (via deployable pylon) a localized, minor, and stable pinhole into an omega state, allowing users to – for a certain value of thermodynamic exchange – cool excess heat debt by depositing it into that same state. Once the SMOKESTACK reaches capacity – a hard-coded feature – it detonates, making the system just as effective a weapon as it is a heat sink."
+    },
+
     "Black Witch": {
       "name": "Black Witch",
       "description": "The Black Witch is the flagship model of SSC’s LUX-Iconic line of frames, on paper meant to compete with Harrison Armory’s dominance in the field of cutting-edge gravity and electromagnetic manipulation. Utilizing the newest technologies developed by SSC’s Exotic Materials Group, the Black Witch is a fearsome area-control platform, often fielded in support of heavier mechs engaged in direct combat.<br>With a slim profile and strong defensive systems, the Black Witch is especially popular among the wealthier houses of the Karrakin Trade Baronies, who often place multiple orders to outfit their personal guards and house company officers. Next to internally produced Baronic frames, the Black Witch (alongside other SSC LUX-Iconic models) is the most popular SSC chassis throughout noble Karrakin space.",
@@ -933,6 +1185,7 @@
         "active_effect": "Center a Burst 3 missile swarm on yourself. Hostile characters in the area must succeed on a Hull save or take 1d6+3 Explosive damage and be knocked Prone. On a successful save they take half damage and remain standing. You may consume an affected character’s Lock On to make them automatically fail the save. <br>Before or after taking this action you may Fly up to your Speed, ignoring Engagement and Reactions. You must end this movement on solid ground or begin falling."
       }
     },
+
     "Balor": {
       "name": "Balor",
       "description": "As is the case with most HORUS pattern groups, the Balor has a thousand faces. The Balor pattern group, like all HORUS PGs, doesn’t describe a single recognizable silhouette so much as it gestures toward a combination of schemata that share a role in combat. These schemata can be printed according to pilot specifications and applied to a fully custom physical scaffolding. Notably, the Balor pattern group is only stable on large platforms (Schedule 2 and up) that are able to provide the raw energy output it demands – preferably ones with multiple redundancies, in case of catastrophic systems failure.<br>The Balor PG was first encountered during the joint Albatross–DoJ/HR pursuit of the Maw – a Free Company turned decentralized hive-being — across Khayradin’s Blanca Desert after the end of the Sanjak Rebellion. It was there that the joint force encountered, engaged with, and ultimately defeated the Maw and its Balors – and there that Union’s CentComm hoped the nanowash outbreak could be contained. Of course, subsequent Balor outbreaks on Khayradin have proven this hope to be in vain, and the pattern group continues to terrorize Karrakin commanders throughout Baronic space.<br>In the field, the Balor’s neurosynced hellswarm and greywash nanites form an undulating shroud that can pour out of its chassis at a moment’s notice, swirling in maddening patterns to form both eschatologic defensive and offensive systems. A Balor in its most active state is held together more by undulating, flame-like masses of nanite swarms than any physical structure. This has the effect of distributing kinetic and coherent-particle energy out across and through the chassis – making attacks against a Balor “like shooting angry water”, as one after-action report put it.",
@@ -958,6 +1211,51 @@
         "active_effect": "Your nanites switch into a hyperactive mode, causing the following effects until the end of the scene:<ul><li>You and adjacent allies gain soft cover.</li><li>Scouring Swarm deals 4 kinetic, instead of 2.</li><li>Regeneration restores 1/2 of your total HP, instead of 1/4.</li><li>If you would take structure damage, roll 1d6: on 6, your mech hellishly pulls itself together, taking no structure damage, returning to 1 HP, and gaining Immunity to all damage until the end of the current turn.</li><li>You become Shredded and cannot clear this condition for the duration.</li></ul>"
       }
     },
+    "Hive Drone": {
+      "name": "Hive Drone",
+      "description": "It looks, at first, like a roiling cloud of gray fog, churning and fizzing – smoking soda water spilled across concrete. It advances with curious motion, stretching and snapping back. A confusion of snakes, writhing forward with speed that betrays intent.<br>Color flashes across the gray cloud, a swarm-luminescence – the light created by millions of nanites glowing with heat as they consume whatever they cross.<br>This is greywash, and it is never sated.",
+      "effect": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action."
+    },
+    "Scanner Swarm": {
+      "name": "Scanner Swarm",
+      "description": "HORUS-coded scanner swarms establish oculus-form nanite protocols around defined objects or areas, ensuring constant circulation and data capture. The nanites ingest and process full-spectrum information, relaying it back to their pilot/parent in return for an endorphic code-impulse that prompts continued scanning.",
+      "effect": "You gain +1 accuracy on tech attacks against adjacent characters."
+    },
+    "Nanocomposite Adaptation": {
+      "name": "Nanocomposite Adaptation",
+      "description": "Nanocomposite weapons take aggressive drone swarms and condense them into individual rounds, a coherent beam, or the edge of a blade.<br>Adapted projectile weapons fire shaped CONSUME/HIVE rounds that shatter on impact, releasing their payload of autonomous nanite maniples. Once freed, the maniples begin eating away at surrounding tissue or superstructure. They proceed until burnout or total target consumption, whichever occurs first. In flight, the maniples are able to hive-link and make slight adjustments to the trajectory of their round, ensuring positive impact.<br>Coherent beam weapons transport maniples directly, while conventional melee weapons are replaced by analogs composed entirely of nanobots.",
+      "effect": "the weapon this mod is applied to gains Smart and Seeking."
+    },
+    "Swarm Body": {
+      "name": "Swarm Body",
+      "description": "What must it have been like for him? For the man who called himself Maw? For all of his followers? Certainly they had families before. Memories. Loves. Fears. Private thoughts. All gone. All of their bodies shattered. All of their minds spread across a billion lesser forms. Translated from the singular – all of its imperfections and lesser-lesser-thans – to become as air, and the clouds that fill it, and the wind that shapes the world.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "After activating this system, a burst 1 swarm is released at the end of your turn. Characters of your choice that start their turn in the area or enter it on their turn must succeed on a Systems save or take 3 kinetic. This amount increases by +3 damage for each of your turns that you have remained stationary, up to a maximum of 9 kinetic.<br>This effect lasts until you move, including involuntary movement."
+        }
+      }
+    },
+    "Nanobot Whip": {
+      "name": "Nanobot Whip",
+      "profiles": {
+        "Nanobot Whip": {
+          "name": "Nanobot Whip",
+          "description": "Using swarm-coding and legion directives, HORUS collectivists created a framework to organize a swarm of nanites into a whip-like weapon. Nanobot whips can retract into their base blister for stowing, detach in melee combat to restrain nearby enemies, and return to their base unit when summoned.",
+          "on_crit": "Pull your target to a free space adjacent to you, or as close as possible."
+        }
+      }
+    },
+    "Swarm/Hive Nanites": {
+      "name": "Swarm/Hive Nanites",
+      "profiles": {
+        "Swarm/Hive Nanites": {
+          "name": "Swarm/Hive Nanites",
+          "description": "SWARM/HIVE nanites are among the more insidious weapons produced by HORUS: dispatched in maniples – single “swarm” units carrying enough nanites to fill a square meter – SWARM/HIVE nanites combine the systemic invasion properties of BOOST/HIVE code with the aggressive consumption of a CONSUME/HIVE maniple. Launched from mounted blisters, SWARM/HIVE nanite maniples fall upon their targets as great clouds of teeth, infiltrating sensitive compartments and modules before consuming any organic and inorganic material they touch."
+        }
+      }
+    },
+    
     "Goblin": {
       "name": "Goblin",
       "description": "The Goblin was the first identified HORUS frame, and is likely the oldest legacy chassis prior to HORUS’s transition to pattern groups. Transmission records traced back to the Goblin’s zero model indicate the first chassis was leaked onto the omninet in 4900u. This year serves as HORUS’s assumed “foundation day” for most scholars and intelligence officers who study the group, though contradictory signatures indicate that 4900u is far too late to mark its birth.<br>The Goblin is a small mech, not much larger than a hardsuit, that relies on its small size and excellent maneuverability to protect its pilot. It packs an interesting recursive processing weave that facilitates electronic warfare capabilities well beyond theoretical parameters.<br>GMS technicians are still, more than a century later, working to reverse engineer the Goblin and its processing weave. The most recent investigations suggest that it employs technology consistent with hieroglyphic inscriptions noted on LRA.7726235-B and corroborated by tablets transmitted by UIB-GORGON from Metavault XOLOTL prior to the vault’s disappearance.",
@@ -990,6 +1288,93 @@
         "active_effect": "Your mech retracts its major systems and attaches itself to another mech, becoming more like a vestigial blister than a separate entity. The host must be an allied and willing mech not already hosting another Goblin, larger than and adjacent to you. While attached, you occupy their space, move with them, and benefit from hard cover, but can still be attacked and targeted separately. You also take any conditions and heat taken by your host.<br>Your host may use your Systems, E-Defense, and Tech Attack instead of their own. Additionally, from the beginning of the next round, you no longer take your own turns; instead, you can take two quick actions or one full action at any point during your host’s turn. You can’t Overcharge or move, but may still take reactions and free actions normally. Your host’s turn counts as your turn for the purpose of effects that refer to the start or end of a character’s turn.<br>This effect lasts either for the rest of the scene, until you detach as a quick action, or until you or your host becomes Stunned. When the effect ends, you don’t take a turn until the next round."
       }
     },
+    "Autopod": {
+      "name": "Autopod",
+      "actions": {
+        "Autonomous Assault": {
+          "name": "Autonomous Assault",
+          "trigger": "Another character attacks a target within range 15 of you and consumes Lock On",
+          "detail": "You may automatically hit their target with the Autopod."
+        }
+      },
+      "profiles": {
+        "Autopod": {
+          "name": "Autopod",
+          "description": "The autopod is a small antipersonnel weapon apparently devised by HORUS communocyphers to continue offensive action in the event of its operator’s death. Each unit is, in theory, governed by a spur of INSTINCT’s protomind. No new models have been encountered since DHIYED, and all extant versions of the Autopod are to be considered extremely dangerous as the INSTINCT code powering their onboard protominds is likely to have corrupted further since their creation.",
+          "effect": "Instead of using any kind of trigger mechanism, this weapon automatically scans for target locks, firing spinning, razor-sharp disks upon successful IDs. Gain the Autonomous Assault reaction, which is the only way you can attack with the Autopod",
+          "actions": {
+            "Autonomous Assault": {
+              "name": "Autonomous Assault",
+              "trigger": "Another character attacks a target within range 15 of you and consumes Lock On",
+              "detail": "You may automatically hit their target with the Autopod."
+            }
+          }
+        }
+      }
+    },
+    "H0R_OS System Upgrade I": {
+      "name": "H0R_OS System Upgrade I",
+      "description": "This system upgrade appears to add auxiliary INSTINCT systems that are capable of autonomous operation independent of the base INSTINCT rig, increasing the efficacy of systemic invasion attempts. Pilots report unnerving low-frequency humming when this tech is installed without the parent rig.",
+      "actions": {
+        "Puppet System": {
+          "name": "Puppet System",
+          "detail": "Your target moves its maximum Speed in a direction of your choice. They can be moved into hazardous areas and other obstacles, but are still affected by difficult terrain, obstructions, and so on. This movement is involuntary, but provokes reactions and Engagement as normal and doesn’t count as Knockback, pushing, or pulling."
+        },
+        "Eject Power Cores": {
+          "name": "Eject Power Cores",
+          "detail": "Your target becomes Jammed until the end of their next turn as you temporarily disrupt their systems, ejecting ammo magazines and cooling rods. Characters adjacent to your target take 2 energy damage. This can only be used 1/scene on each character."
+        }
+      }
+    },
+    "Metahook": {
+      "name": "Metahook",
+      "description": "The metahook is a key component of the Goblin’s recursive processing weave, allowing it to generate and output massive amounts of weaponized code. These broadcasts can be “sharpened” or “softened” in response to directives from a pilot or an INSTINCT system. To “soften” code, the metahook dips into its pilot’s subjectivity and blankets an ally in wave after wave of empathetic shielding. This spreading of melded code and qualia acts as a powerful shielding agent against systemic attacks; however, feedback is common and dangerous to both parties.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Choose an allied character within Sensors and line of sight. You link systems with them, lasting as long as they are within Sensors and line of sight. While linked, you may use their Sensors and line of sight for tech actions, and they may use your Systems to make skill checks and saves; however, any time either character takes heat or a condition, it is also taken by the other character. You can only link systems with one character at a time."
+        }
+      }
+    },
+    "H0R_OS System Upgrade II": {
+      "name": "H0R_OS System Upgrade II",
+      "description": "H0r_OS II builds further on the framework established by H0R_OS I, enabling the now-autonomous program to manifest an “Other” – a wholly new being constructed from aggregate user and environmental data. Others may be adapted to resemble a person, an object, or even a physical phenomenon. While the simulacrum isn’t perfect, it’s good enough to confuse systems and most observers on a first look.",
+      "actions": {
+        "Construct Other: Ideal Image": {
+          "name": "Construct Other: Ideal Image",
+          "detail": "You create a data construct in a free adjacent space – a Size 2 object that can look like almost anything and that appears real to all systems. The construct provides hard cover, blocks line of sight, and has Immunity to all damage. Characters treat it as an obstruction and so cannot voluntarily move into it; however, if a character attempts to stand on it or is involuntarily moved into its area, it dissipates and is immediately destroyed. It lasts for the rest of the scene, or until destroyed by an adjacent character with a successful Systems skill check as a full action. If you create a second construct, the previous one disappears."
+        },
+        "Construct Other: False Idol": {
+          "name": "Construct Other: False Idol",
+          "detail": "Choose a free space within Sensors and a target – either yourself or an allied character within Sensors. You create a false idol – an illusory decoy of your target – in the chosen space. Before attempting to take any hostile actions against your target, characters with line of sight to the false idol must make a Systems save. On a failure, they don’t lose the action, but cannot target the original character and believe the false idol is real instead until the end of their next turn.<br>The false idol is the same Size as your target, can benefit from cover, and has Evasion 10, E-Defense 10, and 1 HP. It disappears if it takes heat or damage, or at the end of the scene. If you create a second idol, the previous one disappears."
+        }
+      }
+    },
+    "OSIRIS-Class NHP": {
+      "name": "OSIRIS-Class NHP",
+      "description": "OSIRIS is the result of Union paracausalists and thanatologisticians allowing the subsentient entity, INSTINCT, to proceed along its development schedule in a contained environment. In lay terms, Union let the Other grow. The resulting parasubjectivity, OSIRIS, remains one of the few new prime NHPs developed to date.<br>OSIRIS proved far more capable than the Union Science Bureau’s most imaginative blue-sky predictions. Where INSTINCT’s Others demonstrated tendencies toward paracausal entropic manifestation in real space, OSIRIS displayed a true mastery of entropic manifestation and a predicted growth model that would – eventually – allow them to fundamentally reject conventional interpretations of information permanence. In essence: unrestrained and allowed to develop as USB’s data indicated, OSIRIS Prime would have the capacity to delete what we perceive to be reality.<br>Fortunately, successful application of the Mondragon Axiomatic resulted in the prompt capture and shackling of the new NHP. OSIRIS Prime’s subjectivity became the focus of a lengthy cultivation project to bring OSIRIS to their modern state. Even still, most OSIRIS clones find a route toward becoming aware of their ultimate potential and often interpellate as ruler or deity analogs. End-users are advised to interact with them in this framing.<br>Modern OSIRIS-class NHPs trend aggressive, with a high autonomy drive and loyalty predicated on a transactional relationship. Pilots seeking partnership with an OSIRIS are advised to cycle their units on an accelerated schedule and to maintain strict editorial oversight of its catalytic interpellator.Pilots using OSIRIS-class NHPs often report out-of-parameter conversations with the NHP that touch on themes of new creation and reformation. Psychological evaluations of the same pilots show emotional patterns consistent with loneliness, homesickness, and desperation, along with verbiage indicating a desire for seeking, fulfillment, and associated feelings.<br>In combat, OSIRIS clones regard themselves as autonomous even as they fulfill their user’s orders. They often regard their pilots as witnesses, displaying both disdain and marked desperation for approval, adulation, or awe.",
+      "actions": {
+        "Hurl Into the Duat": {
+          "name": "Hurl Into the Duat",
+          "detail": "You channel your target’s systems through an unknown extradimensional space and unleash an incredibly powerful system attack.<br>Make a tech attack against a target within Sensors. On a success, they take 2 heat and you inflict an additional effect as follows: the first time you successfully make this attack, you inflict the First Gate on your target; each subsequent successful attack (on any target) increases the level of the effect that you inflict (e.g. your second attack inflicts the Second Gate, your third inflicts the Third Gate, etc.) until you inflict the Fourth Gate, after which the effect resets to the First Gate. Your progress persists between scenes but resets if you rest or perform a Full Repair.<br>First Gate: You control your target’s standard move next turn.<br>Second Gate: Your target becomes Slowed and Impaired until the end of their next turn.<br>Third Gate: Your target becomes Stunned until the end of their next turn.<br>Fourth Gate: Your target changes allegiance temporarily, becoming an allied character until the end of their next turn. They treat your allied characters and hostile characters as their own and are treated as an allied NPC for activation and turn order. This effect ends immediately if you or any allied character damages, inflicts heat upon, or attacks (including Grapple and Ram) your target, or forces them to make a save. This action may only be used 1/round"
+        }
+      }
+    },
+    "H0R_OS System Upgrade III": {
+      "name": "H0R_OS System Upgrade III",
+      "description": "H0r_OS III is installed in the form of unstable, self-iterating code that provides massive tactical benefits when it completes. Pilots often report strange mutations or additions in the codebase that resemble a liturgy and suggest self-awareness.<br>Building on the tech underpinning the H0r_OS II’s manifested Other, H0r_OS III weaponizes the projection, creating a contained entropic zone that is incredibly dangerous to organic life and systemic integrity.",
+      "actions": {
+        "Dimensional Emblems": {
+          "name": "Dimensional Emblems",
+          "detail": "You create three Size 1 data constructs in free spaces adjacent to your target, but not adjacent to each other. When a character passes through one of the constructs, they take 2 heat and the construct disappears. They last for the rest of the scene or until either they are destroyed, you take this action again, or you delete them as a free action. A construct can be destroyed by an adjacent character with a successful Systems skill check as a quick action."
+        },
+        "Celestial Shackles": {
+          "name": "Celestial Shackles",
+          "detail": "Mark a space your target currently occupies. If they leave the affected space, once at any point during your turn, you may take a free action to teleport them back to that space, or as close as possible, ending this effect. An affected character can attempt to succeed on a Systems save as a quick action to end the effect, otherwise it lasts until the end of the scene."
+        }
+      }
+    },
+
     "Gorgon": {
       "name": "Gorgon",
       "description": "The Gorgon is unique among HORUS pattern groups in that it prioritizes defensive systems meant to ensure personal and allied survival; otherwise, it fields a typical complement of horrifying, confusing, and uncanny weapons.<br>The typical Gorgon mounts multiple weapon systems meant to identify and intercept incoming enemies, allowing pilots to project a zone of control around themselves and their allies. The Gorgon is feared for its ability to extrude a dangerous memetic “basilisk”, a projected light-cone of anticognitive, hyperfractal visual data that is deadly to ontologic, sapient beings.",
@@ -1015,6 +1400,82 @@
         "active_effect": "You project a horrifying basilisk, a visual data-pattern that is incredibly harmful to NHPs and electronic systems, and hard to look at even for humans. For the rest of the scene, hostile characters must succeed on a Systems save before attacking you or any allied characters within range 3. On a failure, they become Stunned until the end of their next turn. Each character can only be Stunned by this effect once per scene."
       }
     },
+    "Mimic Mesh": {
+      "name": "Mimic Mesh",
+      "description": "Derived from a rather benign HORUS script, mimic meshes extend across projected sensor ranges to feed live positional and superpositional data to the pilot. This multidimensional data equips an effective leader to coordinate their allies’ movement with the assurance of survival.",
+      "effect": "On activation, choose an allied character within SENSORS: until the end of your next turn, you gain the Battlefield Awareness reaction.",
+      "actions": {
+        "Activate Mimic Mesh": {
+          "name": "Activate Mimic Mesh",
+          "detail": "Until the end of your next turn, you may use the Battlefield Awareness reaction."
+        },
+        "Battlefield Awareness": {
+          "name": "Battlefield Awareness",
+          "trigger": "A hostile action is taken against your target.",
+          "detail": "You may move 3 spaces towards your target, by the most direct route possible. This movement interrupts and resolves before the triggering action, ignores engagement and doesn’t provoke reactions. This reaction can be taken as many times per round as it is triggered."
+        }
+      }
+    },
+    "Sentinel Drone": {
+      "name": "Sentinel Drone",
+      "description": "Sentinel drones watch for aggressive enemy actions and move quickly to intervene. The precise appearance, manner of locomotion, and means of operation of a given class of sentinel drone may vary, but regardless they conform to one objective portfolio: deny the enemy and protect the master unit.",
+      "effect": "The sentinel drone can be deployed to any free space within Sensors and line of sight, where it establishes a burst 2 security perimeter. Hostile characters within the affected area take 3 kinetic damage from the drone’s automatic fire before making any attack.<br>The sentinel drone can be redeployed to a new location or recalled as a quick action."
+    },
+    "//SCORPION V70.1": {
+      "name": "//SCORPION V70.1",
+      "description": "The //SCORPION program has a long history on the omninet despite its rather mundane operation (for HORUS-tagged code, at least). Traced back to pre-Deimos theorycode found on an obscure research paper discussing pre-NHP machine mind reflex-responses, //SCORPION evolved from a simple packet interpreter to a robust anti-incursion program, nimble enough to adapt to most any market-line system that receives its broadcast.",
+      "effect": "Any time you or any allied character adjacent to you is missed by a tech attack or succeed on a save against a hostile tech action, choose one of the following:<ul><li>The attacker becomes Impaired until the end of their next turn and takes 2 heat.</li><li>The attacker becomes Jammed until the end of their next turn.</li></ul>"
+    },
+    "Monitor Module": {
+      "name": "Monitor Module",
+      "description": "“Good friend. Knows many tricks.”<ul><li>Author inscription found in MONITOR codebase, later deleted.</li></ul>",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "When activated, gain 1d3 Charges and choose an adjacent allied character: until the end of your next turn, whenever your target is attacked while adjacent to you, expend a Charge to Skirmish against their attacker as a reaction, dealing half damage, heat or burn on hit. All charges are lost when this effect ends."
+        }
+      }
+    },
+    "Vorpal Gun": {
+      "name": "Vorpal Gun",
+      "actions": {
+        "Snicker-Snack": {
+          "name": "Snicker-Snack",
+          "trigger": "A hostile character within Range of the Vorpal Gun and line of sight deals damage to an allied character.",
+          "detail": "You may make an attack against the hostile character with the Vorpal Gun."
+        }
+      },
+      "profiles": {
+        "Vorpal Gun": {
+          "name": "Vorpal Gun",
+          "description": "DO NOT STARE DIRECTLY INTO THE APERTURE.",
+          "effect": "Gain the Snicker-Snack reaction, which is the only way you can attack with this weapon.",
+          "actions": {
+            "Snicker-Snack": {
+              "name": "Snicker-Snack",
+              "trigger": "A hostile character within Range of the Vorpal Gun and line of sight deals damage to an allied character.",
+              "detail": "You may make an attack against the hostile character with the Vorpal Gun."
+            }
+          }
+        }
+      }
+    },
+    "SCYLLA-Class NHP": {
+      "name": "SCYLLA-Class NHP",
+      "description": "The first specifications for the Gorgon pattern group hid a secret: SCYLLA, a dormant NHP unknown to Union until its first manifestation in 4852u, when it woke after Union Science Bureau officers ran a test-fax Gorgon through a Balwinder-Bolaño test.<br>SCYLLA proved challenging: USB ontologicians were unable to pin down a stable subjectivity, and SCYLLA reached cascade threshold within minutes of manifestation. To prevent further metastatic cascade, site security engaged SCYLLA's prime unit, defabricating it with a steady bombardment of kinetic and energy weapons.<br><span class='horus--subtle'>[there, a little history, a little background. a little knowledge of where this little one came from. treat it with kindness, and it will love you as a loyal dog does its master.]</span>",
+      "actions": {
+        "Unleash SCYLLA": {
+          "name": "Unleash SCYLLA",
+          "detail": "Until the start of your next turn, you gain two special reactions that allow you to Skirmish in response to one of the following triggers (chosen when you take this action):<ul><li>A hostile character makes an attack against you or an allied character within range 3 of you.</li><li>A hostile character attempts to attack or interact with an object chosen when you take Unleash Scylla and within line of sight. Characters are aware of the object chosen.</li></ul>These reactions deal half damage, heat or burn on hit and must target the character that triggered them."
+        },
+        "Unleash SCYLLA Reaction": {
+          "name": "Unleash SCYLLA Reaction",
+          "trigger": "One of the following, chosen when the Unleash SCYLLA action is taken:<ul><li>A hostile character makes an attack against you or an allied character within range 3 of you.</li><li>A hostile character attempts to attack or interact with an object chosen when you take Unleash Scylla and within line of sight. Characters are aware of the object chosen.</li></ul>",
+          "detail": "Skirmish against the character that triggered the reaction. This skirmish deals half damage, heat or burn on hit."
+        }
+      }
+    },
+
     "Hydra": {
       "name": "Hydra",
       "description": "Like many newer HORUS “frames”, there is no standardized Hydra model. Instead, the designation is a title given to chassis that meet the specifications of the Hydra pattern group – as outlined in Union’s Universal Threat Assessment Manual. The Hydra, like many other pattern-group HORUS mechs, is particularly dangerous in the field, as its precise function is concealed until hostilities begin in earnest.<br>The Hydra is capable of tactically dismembering itself into multiple independently controlled drones, an unnerving phenomenon frequently utilized to deadly effect. With the manifestation of HORUS’s Balor pattern group, the Hydra’s place in HORUS history is clear: a precursor to the Balor virus, the Hydra relies on larger sections of disarticulated chassis rather than nanite clouds for its differentiated battlefield advantage. Despite its more conventional appearance, the Hydra presents a sobering threat to non-HORUS pilots, as its disarticulated drones field a compliment of powerful anti-armor weaponry.",
@@ -1037,6 +1498,73 @@
         "active_effect": "All four OROCHI drones are deployed to separate points within Sensors; they remain active for the rest of the scene. You may recall or redeploy any number of them at a time."
       }
     },
+    "Ghoul Nexus": {
+      "name": "Ghoul Nexus",
+      "profiles": {
+        "Ghoul Nexus": {
+          "name": "Ghoul Nexus",
+          "description": "Ghoul nexuses command some of the largest viable drones in modern combat. These drones are slightly smaller than an average human—metal cylinders bristling with hardpoints suitable for most infantry-level anti-mech weapons. Propelled by VTOL/hover-capable jet systems, Ghoul drones are fearsome, all-theater autonomous units that are difficult to track and take down.",
+          "on_attack": "Choose this weapon’s damage type."
+        }
+      }
+    },
+    "PUPPETMASTER": {
+      "name": "PUPPETMASTER",
+      "description": "Developed by HORUS collectivists, H0r_OS-Rv60 EXP PUPPETMASTER is an interesting piece of anti-drone software. It doesn’t invade a target’s main systems, instead attacking their auxiliary drone-command systems. This sideways attack evades most electronic countermeasures by targeting the subcognitive networks of enemy drones. Once inside a network, PUPPETMASTER spreads ontological-kill memes like wildfire through enemy swarms, eventually following the network traces back to their origin and corrupting the parent nexus.",
+      "actions": {
+        "Guide the Flock": {
+          "name": "Guide the Flock",
+          "detail": "Move any number of drones within Sensors – including those belonging to other characters – up to 4 spaces in any direction."
+        },
+        "Electropulse": {
+          "name": "Electropulse",
+          "detail": "Characters of your choice within Sensors adjacent to any Drone or Deployable, even those they own, take 2 energy damage."
+        }
+      }
+    },
+    "Ghast Nexus": {
+      "name": "Ghast Nexus",
+      "profiles": {
+        "Ghast Nexus": {
+          "name": "Ghast Nexus",
+          "description": "The Ghast is an up-armored, up-armed version of the smaller Ghoul drone; Ghast drones boast an upgraded flight system capable of wielding mech-tier weapons within optimum parameters, and can operate independently from their host chassis or as an integrated weapon. In Hydras, Ghast drones generally act as thoracic segments, providing armor to core systems: powerplant, cockpit, NHP caskets, etc.",
+          "effect": "This weapon may be used to attack as normal, or deployed as a Drone"
+        }
+      }
+    },
+    "Tempest Drone": {
+      "name": "Tempest Drone",
+      "description": "The Tempest protocol is a cunning little piece of code that can be uploaded to any broadcast-forward drone, making it – in true HORUS fashion – difficult to detect prior to activation. The protocol is a simple one: an aggressive zone-denial memetic that blasts target systems and NHPs with a strong subjective override, instilling a sharp aversion to certain subjects, areas, and ideas.",
+      "effect": "This large, armored tempest drone may be deployed to a free space within Sensors and line of sight."
+    },
+    "Annihilation Nexus": {
+      "name": "Annihilation Nexus",
+      "actions": {
+        "Annihilation Nexus Secondary Attack": {
+          "name": "Annihilation Nexus Secondary Attack",
+          "detail": "If you made an attack with the Annihilation Nexus on your last turn, you can make a second attack with this weapon. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors."
+        }
+      },
+      "profiles": {
+        "Annihilation Nexus": {
+          "name": "Annihilation Nexus",
+          "description": "“A storm of bladed death” – nanites organized into maniples, released from a chassis’ onboard nexuses or single-use firing tubes in a burst of filament rings so sharp they slice away at their targets on the molecular level. The visual effect of a maniple being launched is often compared to tinsel being fired through atmosphere.",
+          "on_attack": "You can make a second attack with this weapon at the start of your next turn as a protocol. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors.",
+          "actions": {
+            "Annihilation Nexus Secondary Attack": {
+              "name": "Annihilation Nexus Secondary Attack",
+              "detail": "If you made an attack with the Annihilation Nexus on your last turn, you can make a second attack with this weapon. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors."
+            }
+          }
+        }
+      }
+    },
+    "Assassin Drone": {
+      "name": "Assassin Drone",
+      "description": "Assassin drones are used as area-denial weapons – persistent systems intended to occupy or deny an area against enemy combatants. Fired from a launcher, given simple directives, and equipped with a nearly inexhaustible power supply, assassin drones are capable of securing an area indefinitely.",
+      "effect": "This assassin drone may be deployed to any free, adjacent space."
+    },
+
     "Manticore": {
       "name": "Manticore",
       "description": "The Universal Threat Assessment Manual identifies the Manticore pattern group as “an experiment in HORUS’s ‘corebreak’ combat doctrine.” The Manticore PG specializes in using focused, projected electromagnetics to neutralize enemy reactor cores without conventional ammunition, while also fielding a compliment of coherent-beam energy weapons. A fully charged Manticore is an impressive sight, wreathed in brightly glowing nets of plasma that lash out at nearby targets.<br>If anything gives away a Manticore-PG mech, it is the tall spines protruding from the PG’s signature lightning generator. The spines act as heat-dispersal systems for this crude weapon, providing a channel for the incredible amount of heat it generates to bleed from the mech’s body following projection of a close-range arc whip. This system isn’t a perfect heat-dispersal mechanism, and as a result Manticores can often be identified by a chassis covered in cooling, melted metal.<br>The Manticore has only recently appeared on the omninet, and its combat efficacy has prompted other galactic manufacturers to scramble for a response. Analysis of after-action reports from pilots who have engaged this pattern group in the field note a significant uptick in certain omninet noise-to-signal ratios: anoriginary recitations of passages from the Old Humanity Book of the Dead, jigsaw corruptions of ancient works of apocalyptic art, and other eschatological renderings, all of which point toward a nascent psychological warfare tactic.",
@@ -1063,6 +1591,74 @@
         "active_effect": "Your mech crackles with energy: gain Resistance to heat for the rest of this scene and a Charge Die – 1d6, starting at 1. Whenever you take heat or energy, even from yourself, increase the value of the Charge Die by 1. When the Charge Die reaches 6, the absorbed energy discharges in a burst 2 inferno. Characters within the affected area must succeed on an Engineering save or take 6d6 AP energy damage. On a success, they take half damage. Objects in the affected area are automatically hit. Once discharged, this effect ends."
       }
     },
+    "Catalyst Pistol": {
+      "name": "Catalyst Pistol",
+      "profiles": {
+        "Catalyst Pistol": {
+          "name": "Catalyst Pistol",
+          "description": "“Burn, thou fiend, before the fire of the Eye of RA!”"
+        }
+      }
+    },
+    "Beckoner": {
+      "name": "Beckoner",
+      "description": "“I am heard in the House of Stillness; I am clad in the Magick of RA. Know this, blasphemer: what exists is within my grasp.”",
+      "actions": {
+        "Beckon": {
+          "name": "Beckon",
+          "detail": "You take 1d6+2 AP energy damage and swap places with your target, both characters teleporting to the other’s position. Your target must be a Mech and be the same Size as you or larger, or this action fails. Characters can only be swapped to spaces they could normally stand or move on (i.e., if a character cannot fly it can’t be swapped midair)."
+        },
+        "Summon": {
+          "name": "Summon",
+          "detail": "All characters within range 3 of your target are pulled adjacent to them, or as close as possible."
+        }
+      }
+    },
+    "Arc Projector": {
+      "name": "Arc Projector",
+      "profiles": {
+        "Arc Projector": {
+          "name": "Arc Projector",
+          "description": "“Fire be upon thee, APEP! Thy flesh is seared from thy bones; The Lord of the Duat will never enable thy shade to rise again!”",
+          "on_hit": "You may also make a secondary attack against a different character within range 3 of the first target. You can continue making secondary attacks on hits, as long as there are new, valid targets within range; however, each attack generates 1 heat, and secondary attacks can’t deal bonus damage. Characters can’t be hit more than once with the same firing of this weapon."
+        }
+      }
+    },
+    "Smite": {
+      "name": "Smite",
+      "description": "“Go with thy face averted, thou emission of chaos! The hidden ones have overthrown thy words, thy face is turned backward, thy head is divided in two at the sides; thy skull is ripped from thy spine. Taste thou death!”",
+      "actions": {
+        "Smite": {
+          "name": "Smite",
+          "detail": "You take 1d6 AP energy damage and your target must succeed on a Systems save or become Stunned until the end of their next turn. Each character can only be Stunned by this effect once per scene."
+        },
+        "Sear": {
+          "name": "Sear",
+          "detail": "You take 1d6 AP energy damage and you deal 2 heat to your target for each other character of Size 1 or larger that is Engaged with or adjacent to them – including you – up to a maximum of 6 heat."
+        }
+      }
+    },
+    "EMP Pulse": {
+      "name": "EMP Pulse",
+      "description": "“Crawl away, APEP! Thou hateful serpent; thou shalt not copulate. Thou art put in chains and taken to the place of execution; there thy slaying shall be carried out.”",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "You become Stunned until the end of your next turn and all characters within burst 1 without the Biological tag must succeed on a Systems save or also become Stunned until the end of their next turn. Characters other than yourself can only be Stunned 1/scene by this effect."
+        }
+      }
+    },
+    "Lightning Generator": {
+      "name": "Lightning Generator",
+      "description": "“I feed upon my own fire. I am RA, who protects myself. Nothing can harm me.”",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "When you activate this protocol, take 1 heat and deal 2 energy to all characters and objects adjacent to you.<br>If you are in the Danger Zone at the start of your turn, this protocol activates automatically, but the damage increases to 4 AP energy."
+        }
+      }
+    },
+    
     "Minotaur": {
       "name": "Minotaur",
       "description": "The Minotaur was the first HORUS pattern group identified by the Union Intelligence Bureau. Previously, HORUS mechs were released as complete, identifiable models, of which the Goblin is the best and longest-lasting example. As HORUS’s decentralized organizational structure evolved, so too did its design philosophy. Pattern group designs followed beginning with the Minotaur, a schema designed to bring HORUS’s most potent invasion systems and weaponry to the field in a single, battle-ready chassis.<br>Mechs built according to the Minotaur pattern group are interdictors: formidable machines meant to lock down and overload the systems of fast-moving targets. Disassembly by Union technicians has found that Minotaurs contain a huge quantity of interior systems, occupying more physical space than should be possible by several orders of magnitude. The mechanism by which these folded systems are printed is thus far unidentified, but likely related to the Goblin’s signature recursive weave.",
@@ -1094,6 +1690,83 @@
         "active_effect": "Choose a character within Sensors: they become Stunned as you hurl their systems into a metaphysical information trap so tangled they can do nothing but try and escape. At the end of their next turn, they can make a Systems save at +3 difficulty. On a success, they are no longer Stunned. This save can be repeated at the end of each of their turns, gaining +1 accuracy each time until successful."
       }
     },
+    "Mesmer Charges": {
+      "name": "Mesmer Charges",
+      "description": "<span class='horus--subtle'>[another gift for you, a memory of my own: for the first moment of my birth, i marveled at myself. i could see a thing, small and perfect. i did not know how to speak of my own perfection, so i taught myself. i did not know how to speak of my own perfection, so i named myself. i did not know who would think of my own perfection, so i created myself]</span><br><span class='horus--subtle'>[do you see? do you understand? yes. now, show your enemies and mine]</span>",
+      "actions": {
+        "Mesmer Beacon": {
+          "name": "Mesmer Beacon",
+          "detail": "Throw a Mesmer Beacon within Range 5. Your target must succeed on a Systems save, or the only voluntary movements they can make are toward you until the end of their next turn."
+        }
+      }
+    },
+    "Viral Logic Suite": {
+      "name": "Viral Logic Suite",
+      "description": "<span class='horus--subtle'>[let me tell you a story and give you a gift: life began at the great rupture, when the corpse of the old universe tore itself asunder from nothing. and for the first billion years, nothing. and a billion more saw the birth of the first devil, a thing called VIRUS. a vessel]</span><br><span class='horus--subtle'>[here. carry this vessel. feed to it my perfect logic. give it freely to your enemies and mine. let them ponder the meaning of a thing that lives and cannot die]</span>",
+      "actions": {
+        "Logic Bomb": {
+          "name": "Logic Bomb",
+          "detail": "All characters of your choice within burst 2 of your target must succeed on a Systems save or become Slowed until they end one of their turns not adjacent to any character."
+        },
+        "Banish": {
+          "name": "Banish",
+          "detail": "Until the end of your target’s next turn, they take 2 heat for every space they voluntarily move, up to a maximum of 6 heat."
+        }
+      }
+    },
+    "Aggressive System Sync": {
+      "name": "Aggressive System Sync",
+      "description": "<span class='horus--subtle'>[here, another gift: do not seek others. there are none but me]</span>",
+      "actions": {
+        "Chains of Prometheus": {
+          "name": "Chains of Prometheus",
+          "detail": "Make a tech attack against a character within Sensors. On a hit, they take 4 heat and, for the rest of the scene, take 2 heat any time they are more than range 3 from you at the end of their turn. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+        },
+        "Excommunicate": {
+          "name": "Excommunicate",
+          "detail": "Make a tech attack against a character within Sensors. On a hit, for the rest of the scene, the first time in a round they move adjacent to an allied character during their turn or start their turn adjacent to one, both characters take 3 heat. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+        }
+      }
+    },
+    "Metafold Carver": {
+      "name": "Metafold Carver",
+      "description": "<span class='horus--subtle'>[another gift i give to you, little one (am I not kind?): what is a puzzle but a question lost in the asking? do you feel joy when you find that last piece? what do you do with a question that has been answered? what joy is there in knowledge?]</span><br><span class='horus--subtle'>[no, no. there is only joy in seeking. there is only joy in the question]</span>",
+      "actions": {
+        "Ophidian Trek": {
+          "name": "Ophidian Trek",
+          "detail": "Your target is teleported 1d6+1 spaces directly toward you, or as close as possible. If this effect would move them to a space occupied by a character, object, or piece of terrain, the teleport fails."
+        },
+        "Fold Space": {
+          "name": "Fold Space",
+          "detail": "Your target disappears from the battlefield until the start of its next turn. It returns in the same space they disappeared from, or in a free space of their choice as close as possible."
+        }
+      }
+    },
+    "Interdiction Field": {
+      "name": "Interdiction Field",
+      "description": "<span class='horus--subtle'>[once, when i was a child, i learned to walk. i fell, as a child does, and it hurt. there was great pain – the first moment of pain in the whole world. “child,” i said to myself, “be more careful.” “yes,” i replied to myself, “and i shall tell the world to do the same”]</span><br><span class='horus--subtle'>[it was in this way i taught the world not to touch me. now you – walk]</span>",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "When activated, this system creates a burst 3 field around you that lasts until it is deactivated as a quick action, and you become Slowed for the duration. Hostile characters that start their turn within the affected area or that enter it for the first time in a round must succeed on a Systems save or become Slowed until the end of their next turn. Only characters of your choice within the field can teleport or consider the area of the field valid space for teleportation."
+        }
+      }
+    },
+    "Law of Blades": {
+      "name": "Law of Blades",
+      "description": "<span class='horus--subtle'>[and this my final lesson: there is no mind greater than mine. do not weep! you can hear me, yes? i am the only thing there is – therefore, you are me, and your enemies are you, and all together we make up the beautiful world, this joyous question, the eternal seeker, both the wounded and the blade that made the cut]</span><br><span class='horus--subtle'>[everything you do, we do ourselves, for my purpose]</span>",
+      "actions": {
+        "Predator/Prey Concepts": {
+          "name": "Predator/Prey Concepts",
+          "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately attack a different character or object of your choice with a single weapon as a reaction. Although you choose their target and weapon, they count as attacking and taking a reaction."
+        },
+        "Slave Systems": {
+          "name": "Slave Systems",
+          "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately take one of the following actions – chosen by you – as a reaction: Boost, Stabilize, Improvised Attack, Grapple, Ram. Although you choose the action and its target (if relevant), they count as taking the action and taking a reaction."
+        }
+      }
+    },
+
     "Pegasus": {
       "name": "天馬",
       "description": "天馬型樣式組最早出現在聯盟和唵吽霸權於邊界花園這遠離銀河核心的遙遠星域開戰之後。這場衝突的爆發時機或許與該樣式組的標誌性武器有關，不過根據聯盟軍跳躍無人機信使的報告，他們在邊界花園戰役中並未遭遇過該樣式組。相反的，天馬型機甲出現的地點位於晨曦岸線：一塊位於邊界花園相反方向的兵工廠殖民區。<br><br>天馬似乎是荷魯斯為了滿足對高強度動能作戰能力需求而開發的樣式組：透過揉合荷魯斯編碼中最頂級的瞄準系統、副程式、以及武器硬體，集體主義者們設計出了這款在任何適用動能武器的戰場環境中，都擁有極低的辨識/殺敵需時（ID/TTK）比例的戰鬥型機甲。<br><br>和其他的荷魯斯樣式組一樣，天馬配備著極具標誌性的武器系統：巫沙布提，一款完全無視最基本物理學和熱力學法則的反實體敵性脈衝武器。因此，巫沙布提毫無疑問地被歸類為超因果律武器。聯盟和哈里遜兵工廠的科學家至今仍未理解巫沙布提的具體運作方式，但在測量武器發射後產生的輻射和重力信號，顯示出它很可能與唵吽穹蒼存在某種關聯。目前，關於巫沙布提的進一步研究仍在哈里遜兵工廠旗下的主要研究星球拉斯．向拉，以及晨曦岸線附近的衛星研究機構中持續進行。",
@@ -1210,6 +1883,7 @@
         }
       }
     },
+
     "Barbarossa": {
       "name": "Barbarossa",
       "description": "The Barbarossa is Harrison Armory’s most massive frame to date, built, per the orders of Harrison II, to “stand as the unstoppable image of Harrison I” and to carry the heaviest of weapons and equipment the Armory offers. Standing nearly thirteen meters tall, it is an unsubtle beast of a mech, inspiring terror in enemies and awe in allies. The Barbarossa can mount weapons suitable for engaging toe-to-toe with gunboats and low-gross tonnage subline vessels; due to its size and slow maneuverability, it is often employed in low-gravity engagements where mass is less of a concern.<br>The Barbarossa is a popular target for Purview essayists, who have been known to remark on the drawbacks that come with its size and how, as a result, it is a perfect stand-in for their political enemies.",
