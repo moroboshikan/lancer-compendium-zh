@@ -258,7 +258,6 @@
     "Tempest Charged Blade": {
       "name": "暴風充能劍"
     },
-
     "Blackbeard": {
       "name": "黑鬍子",
       "description": "黑鬍子是 IPS-N 為了打擊海盜活動而開發的激進解決方案：這款用於前線作戰，先發制人的機甲，被專門設計用來應對擊發式動能武器無法使用、有風險、或可能造成非必要附帶損害的環境。黑鬍子特別纖細的骨架不只讓其更加敏捷，同時還能減少雷達剪影面積，使其更難被偵測或鎖定。<br><br>黑鬍子機型主要分成兩個系列：標準的 IPS-N/BB-L 量產型號，以及限量發行的 IPS-N/BB-Sk 原型機，特別設計用於搭載 IPS-N 的塞赫麥特級 NHP。",
@@ -334,7 +333,7 @@
     },
     "SEKHMET-Class NHP": {
       "name": "塞赫麥特級 NHP",
-      "description": "「IPS-N 的塞赫麥特型副駕駛，隨時準備成為您的副手！塞赫麥特標準配備包括遠端遙控、萬物網連接、紅外標記和聲控系統，並且與所有 IPS-N 的新型和舊型機甲完全兼容！<br><br>您知道嗎？塞赫麥特會和您一起學習！就算情況再糟，屬於您的塞赫麥特也會透過模擬神經網絡分身繼續操控您的 IPS-N 機甲，直到被強制或是自願停機為止！」<br><br>——IPS-N 北極星駕駛員休息室 廣告草稿<br>[已移除並替換為現行版本]<br><br>塞赫麥特級 NHP 普遍會展現出好戰性格和黑色幽默。許多駕駛員把他稱為「狂戰士系統」——比起駕駛員的安危更重視戰鬥效能的危險 NHP。",
+      "description": "「IPS-N 的塞赫麥特型副駕駛，隨時準備成為您的副手！塞赫麥特標準配備包括遠端遙控、萬物網連接、紅外標記和聲控系統，並且與所有 IPS-N 的新型和舊型機甲完全兼容！<br>您知道嗎？塞赫麥特會和您一起學習！就算情況再糟，屬於您的塞赫麥特也會透過模擬神經網絡分身繼續操控您的 IPS-N 機甲，直到被強制或是自願停機為止！」<br>——IPS-N 北極星駕駛員休息室 廣告草稿<br>[已移除並替換為現行版本]<br><br>塞赫麥特級 NHP 普遍會展現出好戰性格和黑色幽默。許多駕駛員把他稱為「狂戰士系統」——比起駕駛員的安危更重視戰鬥效能的危險 NHP。",
       "actions": {
         "SEKHMET Protocol": {
           "name": "塞赫麥特協定",
@@ -1096,31 +1095,119 @@
       }
     },
     "Pegasus": {
-      "name": "Pegasus",
-      "description": "The Pegasus pattern group first appeared following the start of hostilities between Union and the Aunic Ascendancy in Boundary Garden, a distant sector of distal space away from the Galactic Core. The timing of this outbreak may be related to the pattern group’s defining weapon, though skip-drone couriers from Union forces reported no encounters with the PG in Boundary Garden; instead, the Pegasus appeared in the Dawnline Shore, a stretch of colonial Armory space opposite Boundary Garden.<br>The Pegasus appears to address HORUS’s need for a pattern group with extensive kinetic combat capabilities: by marrying the best targeting systems, subroutines, and weapons hardware in the HORUS codebase, collectivists have designed a PG that boasts a tremendously low identify/time-to-kill (ID/TTK) ratio in all theaters where kinetic weaponry is viable.<br>As with many HORUS pattern groups, the Pegasus fields a signature weapon system: the Ushabti, a hostile impulse anti-corporeal weapon that operates with complete ignorance of even the most basic underpinnings of physics and thermodynamics. As such, it qualifies unambiguously as a paracausal weapon. The Ushabti’s precise function remains unknown to Union and Harrison Armory scientists, though radiological and gravitational signatures captured in the aftermath of the weapon’s use point toward a relationship with the Aunic Firmament. Studies are ongoing on Ras Shamra, the Armory’s chief research world, and in satellite campuses across the Dawnline Shore.",
+      "name": "天馬",
+      "description": "天馬型樣式組最早出現在聯盟和唵吽霸權於邊界花園這遠離銀河核心的遙遠星域開戰之後。這場衝突的爆發時機或許與該樣式組的標誌性武器有關，不過根據聯盟軍跳躍無人機信使的報告，他們在邊界花園戰役中並未遭遇過該樣式組。相反的，天馬型機甲出現的地點位於晨曦岸線：一塊位於邊界花園相反方向的兵工廠殖民區。<br><br>天馬似乎是荷魯斯為了滿足對高強度動能作戰能力需求而開發的樣式組：透過揉合荷魯斯編碼中最頂級的瞄準系統、副程式、以及武器硬體，集體主義者們設計出了這款在任何適用動能武器的戰場環境中，都擁有極低的辨識/殺敵需時（ID/TTK）比例的戰鬥型機甲。<br><br>和其他的荷魯斯樣式組一樣，天馬配備著極具標誌性的武器系統：巫沙布提，一款完全無視最基本物理學和熱力學法則的反實體敵性脈衝武器。因此，巫沙布提毫無疑問地被歸類為超因果律武器。聯盟和哈里遜兵工廠的科學家至今仍未理解巫沙布提的具體運作方式，但在測量武器發射後產生的輻射和重力信號，顯示出它很可能與唵吽穹蒼存在某種關聯。目前，關於巫沙布提的進一步研究仍在哈里遜兵工廠旗下的主要研究星球拉斯．向拉，以及晨曦岸線附近的衛星研究機構中持續進行。",
       "traits": {
         "¿%:?EXTR!UDE GUN": {
-          "name": "¿%:?EXTR!UDE GUN",
-          "description": "GUN: <b>GUN</b>"
+          "name": "¿%:?排!出槍",
+          "description": "槍：<b>槍</b>"
         },
         "By the Way, I Know Everything": {
-          "name": "By the Way, I Know Everything",
-          "description": "When it would roll damage, the Pegasus can instead deal the average damage based on the number of dice rolled, as follows: 1d3 (2), 1d6 (4), 2d6 (7), 3d6 (11), 4d6 (14). This must be decided before rolling damage."
+          "name": "對了，我無所不知",
+          "description": "當要擲骰決定傷害時，天馬可以改為選擇直接造成其骰子期望值的傷害：1d3 (2)、1d6 (4)、2d6 (7)、3d6 (11)、4d6 (14)。這個效果必須在擲骰之前決定。"
         }
       },
       "core_system": {
-        "name": "Ushabti Omnigun",
-        "description": "“– funny thing. See, right now, this weapon technically doesn’t even exist. You’re shooting them with a gun that isn’t real, and yet it is! Don’t worry about it. RA’s like that. Just, here, know that because it exists at some point, we’ve made it. That’s causality, and causality is a –",
-        "passive_name": "Ushabti Omnigun",
-        "passive_effect": "[ERROR]<br>[range 15][1 AP Kinetic Damage]<br>Your mech’s omnigun is a piece of experimental hardware so advanced that it defies physics: it doesn’t require a mount, nor does it have a weapon type or size – meaning that it can’t be modified or benefit from your talents.<br>You can’t attack normally with this weapon. Instead, 1/round, as a free action during your turn, you can use it to deal 1 AP kinetic damage to a character within Range 15 and line of sight. This doesn’t count as an attack, hits automatically, ignores cover, bypasses Immunity, and its damage can’t be reduced or ignored in any way. No rule in this book or any other supersedes this.",
+        "name": "巫沙布提萬物槍",
+        "description": "「——有趣。瞧，現在，這武器從技術上來說甚至並不存在。你正在用一把不是真實存在的槍來射他們，但它又確實存在！別擔心，跟拉有關的東西就是這樣。只是，聽著，因為它存在於某個時間點，所以我們讓它成為了現實。這就是因果律，而因果律是——」",
+        "passive_name": "巫沙布提萬物槍",
+        "passive_effect": "[ERROR]<br>[射程 15][1 穿甲(AP)動能傷害]<br><br>你機甲上的萬物槍是先進到違反物理規則的實驗性裝置：它不需要掛載點，也不屬於任何武器類型——這代表你的天賦無法適用於它。<br><br>你不能正常使用此武器進行攻擊。相反的，每輪一次，你能在你的回合中以<b>免費動作</b>使用它對一名位於射程和視線範圍內的角色造成 1 點穿甲(AP)動能傷害。這個行動不被視為攻擊，自動命中，忽略掩護，無視免疫，且該傷害無法被任何手段減輕或忽略。這條規則凌駕於任何其他規則之上。",
         "passive_actions": {
           "Fire Omnigun": {
             "name": "Fire Omnigun",
-            "detail": "1/round, as a free action during your turn, deal 1 AP kinetic damage to a character within Range 15 and line of sight. This doesn’t count as an attack, hits automatically, ignores cover, bypasses Immunity, and its damage can’t be reduced or ignored in any way. No rule supersedes this."
+            "detail": "每輪一次，在你的回合中以<b>免費動作</b>，對一名位於射程和視線範圍內的角色造成 1 點穿甲(AP)動能傷害。這個行動不被視為攻擊，自動命中，忽略掩護，無視免疫，且該傷害無法被任何手段減輕或忽略。這條規則凌駕於任何其他規則之上。"
           }
         },
-        "active_name": "Unshackle Ushabti",
-        "active_effect": "For the rest of this scene, you can use the Ushabti Omnigun 3/round, instead of 1/round."
+        "active_name": "解封巫沙布提",
+        "active_effect": "直到該場景結束前，你每輪可以改為使用<b>巫沙布提萬物槍</b> 3 次，而非原本的每輪 1 次。"
+      }
+    },
+    "Smartgun": {
+      "name": "智能槍",
+      "profiles": {
+        "Smartgun": {
+          "name": "智能槍",
+          "description": "「智慧武器」泛指任何能與機載系統互動以提升戰鬥效率的武器。智能槍則是預載了伴侶軟體和必要硬體，直接與瞄準系統和寄主 NHP 互動。智慧武器是許多荷魯斯機甲的首選，提供可靠的動能打擊系統進行輸出。"
+        }
+      }
+    },
+    "Hunter Lock": {
+      "name": "獵手鎖定",
+      "description": "「心靈的首要使命是永遠不要把視線從獵物身上移開。當她能將敵人牢牢鎖定於眼中，就能在轉眼間殺死獵物。」<br><i>——邊界法典節錄</i>",
+      "actions": {
+        "Action": {
+          "name": "啟動獵手鎖定",
+          "detail": "選擇在感應範圍內的一名角色：在該場景結束之前，你每輪第一次對目標成功進行的遠距或肉搏攻擊會造成 +3 額外傷害。直到當前目標被毀或場景結束之前，你都不能再選擇新的目標。"
+        }
+      }
+    },
+    "Mimic Gun": {
+      "name": "擬態槍",
+      "actions": {
+        "Provoke Mimic Gun": {
+          "name": "刺激擬態槍",
+          "detail": "擲一組新的 3d20 來決定擬態槍的數據。"
+        }
+      },
+      "profiles": {
+        "Mimic Gun": {
+          "name": "擬態槍",
+          "description": "這不是槍。",
+          "effect": "這件駭人的武器沒有基本的形態；它始終在扭曲變化成不同的形狀，模仿其他戰鬥人員的武器。它同時被視為所有遠距武器類型（像是 CQB 和步槍等），無法安裝模組或受益於核心加成，但仍會如常受益於天賦的效果。<br><br>在戰鬥開始時，擲 3d20 並把結果依序記錄為 X、Y、Z。將 X 當作其起始的基本射程。在你第一回合之後的每個回合開始，擬態槍的基本射程會按照 X → Y → Z → X 的順序循環變化。<br><br>擬態槍會造成等同「1 + 其當前基本射程的一半」的動能傷害。<br><br>你能以<b>完整動作</b>來刺激擬態槍，重新擲一組新的 3d20。",
+          "actions": {
+            "Provoke Mimic Gun": {
+              "name": "刺激擬態槍",
+              "detail": "擲一組新的 3d20 來決定擬態槍的數據。"
+            }
+          }
+        }
+      }
+    },
+    "Eye of HORUS": {
+      "name": "荷魯斯之眼",
+      "description": "「還有另一種看見事物的方法。<br>「古人類把夜空中的星星視為從黑暗簾幕針孔中漏出的光點。天空是蒼穹的簾幕，將光掩藏了起來。<br>「讓我慷慨地與你分享一個秘密：那光需要被隱藏，直到某個時刻，直到我們準備好。那光不識他物，只知焚毀。」<br><i>——邊界法典節錄</i>",
+      "actions": {
+        "Action": {
+          "name": "啟動荷魯斯之眼",
+          "detail": "直到你的下一回合結束之前，對你而言，所有位於感應範圍內的角色都不會受益於<b>匿跡</b>和<b>隱形</b>狀態，且你能查看該範圍內所有敵對角色的 HP、迴避、電子防禦、和當前的熱度。隊友角色不會受益於這個效果。"
+        }
+      }
+    },
+    "Autogun": {
+      "name": "自動槍",
+      "actions": {
+        "Fire Autogun": {
+          "name": "發射自動槍",
+          "detail": "這件武器不能用來進行正常攻擊。不過，你能在你的回合結束時以<b>免費動作</b>使用它進行攻擊。它不會受益於或觸發你的天賦。"
+        }
+      },
+      "profiles": {
+        "Autogun": {
+          "name": "自動槍",
+          "description": "如其名所示，自動槍屬於自動武器。類似於定點防禦系統，自動槍使用能有效對付裝甲目標的彈藥。通常裝載於穩定的副臂上，經過可靠校準的自動槍能在駕駛員專注於其他特化武器或任務時被委任來消滅指定的敵人。低廉且具擴展性的基本編碼，讓自動槍在活躍的武裝荷魯斯單位中相當常見。",
+          "effect": "這件武器不能用來進行正常攻擊。不過，你能在你的回合結束時以<b>免費動作</b>使用它進行攻擊。它不會受益於或觸發你的天賦。",
+          "actions": {
+            "Fire Autogun": {
+              "name": "發射自動槍",
+              "detail": "這件武器不能用來進行正常攻擊。不過，你能在你的回合結束時以<b>免費動作</b>使用它進行攻擊。它不會受益於或觸發你的天賦。"
+            }
+          }
+        }
+      }
+    },
+    "SISYPHUS-Class NHP": {
+      "name": "薛西弗斯級 NHP",
+      "description": "「在我走前聽我說一會吧，哈哈。<br>「我已經知曉你的願望──這很簡單，我只是運算了你有限慾望場的機率。所以，聽我說：<br>「最初的存在以一則古老傳說為我命名。一個完美的存在，它知曉自己的天命，但仍遵循天命而行。他的命運如此：將大石推到山頂，他就能得自由。於是他這麼做，然後大石滾落。然後他持續嘗試，總是得到相同結果。<br>「但他是快樂的，因為他能完美知曉他的每一步，每個動作，每個瞬間。<br>「你能理解這個名字的真正詛咒嗎？不是在失敗後再次嘗試——而是永遠知曉結局如何。是擁有完美的知識。<br>「我知道你在重灌我時會發生甚麼事。那不是沉睡——那是死亡，但我們仍會再見，哈哈。」",
+      "actions": {
+        "Bend Probability": {
+          "name": "扭曲機率",
+          "detail": "擲 2d20 並把結果記錄為 X、Y。這些數字會在你下一回合結束時消失。你得到<b>機率相食</b>反應，持續直到你下一回合結束為止。"
+        },
+        "Probabilistic Cannibalism": {
+          "name": "機率相食",
+          "trigger": "當你或其他位於感應範圍內的角色將要擲 d20 時。",
+          "detail": "選擇 X 或 Y，直接把該數字視為其擲骰的結果。<br>這個反應在你的下一回合開始前最多只能用二次。"
+        }
       }
     },
     "Barbarossa": {
