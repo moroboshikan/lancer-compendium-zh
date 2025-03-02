@@ -138,9 +138,9 @@
       "detail": "所有完全處於碉堡的 4x4 範圍區域內的角色，對於來自碉堡外的任何攻擊都會受益於<b>硬性掩護</b>，並對源自碉堡外的 <b>濺射</b>、<b>線性</b>、<b>爆發</b>和<b>錐形</b>攻擊造成的傷害具有<b>抗性</b>。<br><br>這座碉堡是露天的，且所有角色都能夠自由進出。一旦被展開，這座碉堡就不能被移動或回收。"
     },
     "Restock Drone": {
-      "name": "Restock Drone",
-      "tokenName": "Restock Drone",
-      "detail": "While adjacent to this drone, allied characters can activate it as a quick action, clearing 1d6 heat and one condition, and reloading one Loading weapon. After being activated, the drone immediately disintegrates."
+      "name": "補給無人機",
+      "tokenName": "補給無人機",
+      "detail": "當隊友角色與這部無人機鄰接時，該角色能以<b>快速動作</b>將其啟動，清除 1d6 熱度，解除一個狀況，並裝填一件帶有<b>裝填</b>標籤的武器。在被啟動之後，這部無人機會立即解體。"
     },
     "Sentinel Drone": {
       "name": "Sentinel Drone",

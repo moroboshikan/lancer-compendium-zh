@@ -344,8 +344,8 @@
     },
     
     "Drake": {
-      "name": "Drake",
-      "description": "The Drake, IPS-N’s first foray into military-grade mech design, is the backbone of any proactive trade-security or anti-piracy force. Its massive, simian frame is built around a single-cast bulkhead, sloped and reinforced to handle sustained fire and the vagaries of vessel-proximal hardvac travel. The Drake is an imposing chassis, its frame evoking the might of ancient armored infantry from a time when greater numbers guaranteed victory.<br>The standard fleet license for the IPS-N Drake outfits each chassis with IPS-N’s high-velocity, high–projectile fragment assault cannon for suppressing and overwhelming targets, and a heavy kinetic–ablative shield for defense. Advanced models feature upgraded weapons and armor including the formidable Leviathan Heavy Assault Cannon, a high-rpm anti-materiel weapon.",
+      "name": "德瑞克",
+      "description": "德瑞克是 IPS-N 首次嘗試軍規機甲設計的代表作，也是所有前瞻性貿易保安和反海盜部隊的核心主幹。它擁有巨大的類人型骨架，核心由整體鑄造的艙室構成，外部的強化傾斜裝甲能夠抵禦長時間炮火以及近艦真空作戰中的惡劣環境。德瑞克是一款氣宇軒昂的機甲，其身影能讓人聯想到在那兵力優勢能決定一切的時代中，靠著霸道力量支配戰場的古代重裝步兵。<br>標準艦隊牌照的每一台 IPS-N 德瑞克都配備有高射速、高破片的突擊火炮，用於壓制與殲滅敵方目標，並搭載重型動能燒蝕塔盾作防衛之用。進階型號則會配備升級版的武器和裝甲，包括惡名昭彰的利維坦重型突擊火炮這種高射速反物資武器。",
       "traits": {
         "Heavy Frame": {
           "name": "重型骨架",
@@ -488,50 +488,52 @@
       }
     },
     "Cable Winch System": {
-      "name": "Cable Winch System",
-      "description": "A winch system consists of an externally mounted spool of nanocarbon-weave cable and a recovery subroutine installed on the mech.",
+      "name": "絞纜盤系統",
+      "description": "這個絞纜盤系統是由外置的奈米碳纖維纜線軸以及安裝於機甲的回收副程式構成。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "These cables can be attached to an adjacent character. If the target is Stunned or willing, you automatically succeed; otherwise, they can resist with a successful Hull save. Once attached, you and the target may not move more than 5 spaces away from each other. Either character can tow the other, obeying the normal rules for lifting and dragging, and becoming Slowed while doing so.<br>Any character can remove the cables on a hit with a melee attack or Improvised Attack against Evasion 10.<br>These cables can also be used to drag, pull, or otherwise interact with objects and the environment. They are 5 spaces long and can support a combined Size 6 before they break. Characters can use them to climb surfaces, allowing them to climb without a Speed penalty."
+          "name": "啟動絞纜盤系統",
+          "detail": "這些纜索可以被附著在一名鄰接角色身上。如果目標同意或處於<b>暈眩</b>狀況，則這個行動將自動成功，否則，目標能夠進行<b>機體豁免</b>來嘗試抵抗這個效果。一旦纜索成功附著，你和目標將無法移動到距離彼此 5 格外的位置。你和目標都能遵循舉重和拖行規則來拖動對方，並在這麼做時陷入<b>緩慢</b>狀況。<br><br>任何角色都能使用<b>肉搏</b>或<b>權宜攻擊</b>攻擊纜索（迴避 10），並在命中時解除纜索的附著狀態。<br><br>這些纜索同樣能拿來拖行、拉動、或其他方式與環境和物件互動。纜索擁有 5 格的長度，且能夠支撐最多等同於大小 6 的重量而不會斷裂。角色能利用它來攀爬表面，讓其忽略攀爬時的速度懲罰。"
         }
       }
     },
     "Restock Drone": {
-      "name": "Restock Drone",
-      "description": "Reliable and sturdy drones carrying integrated printers, restock drones allow for limited logistical flexibility via autosalvage. The bulk of a restock drone is made of RawMat, a blend of silicates and metallic materials that the drone processes into replacement parts and repair kits. This is why pilots often joke that restock drones are, simply put, “mech snacks”."
+      "name": "補給無人機",
+      "description": "補給無人機是搭載內建列印機，可靠且堅韌無比的無人機，能透過自動回收功能來提供有限的後勤彈性。補給無人機內的大部分空間都裝滿 RawMat，一種矽酸鹽和金屬材料的混合物，讓無人機能用來加工成替換零件或維修工具。這也是為什麼駕駛員經常開玩笑地把這種無人機暱稱為「機甲零食」。",
+      "effect": "消耗一發在任何鄰接的未佔據空間展開一部<b>補給無人機</b>，它會在你的回合結束時完成展開。"
     },
     "MULE Harness": {
-      "name": "MULE Harness",
-      "description": "The Multiple User, Light Entanglement (MULE) Harness is a mass-produced version of a common battlefield modification that allows friendly soldiers to ride along on a chassis. Some systems are large enough to allow smaller chassis to accompany larger chassis; typically, these variants are employed in high altitude, low orbit insertions where reduced radar presence is required."
+      "name": "驢騾挽具",
+      "description": "多使用者輕型纏結（Multiple User, Light Entanglement，簡稱驢騾）挽具是量產型的常見戰場改裝設備，讓友軍士兵能夠騎乘在機甲上跟著移動。部分這類系統大到足夠讓小型機甲附載於大型機甲上；這種變體通常被用於高空或低軌道投放這類需要降低雷達投影的面積的行動中。",
+      "effect": "這個系統包含額外的掛載點、繫帶和結構點，讓其他角色能夠爬上並騎乘你的機甲。任何與你鄰接，且不處於<b>固定</b>狀況的角色能夠以<b>快速動作</b>爬上你的機甲。在騎乘期間，該角色會與你佔據相同的空間，跟著你一起移動（即使其處於<b>緩慢</b>狀況也一樣），並受益於<b>軟性掩護</b>。如果你或騎乘者被擊倒<b>伏臥</b>、陷入<b>暈眩</b>、<b>固定</b>狀況或被毀，則騎乘者會跌落到鄰接空間並摔倒<b>伏臥</b>。騎乘者能在進行任何形式移動的同時爬下機甲，但只能透過<b>快速動作</b>來爬上你的機甲。<br><br>你可以承載大小總和最多等同於「你的大小 - 1/2」的騎乘者（舉例來說，如果你機甲的大小為 1，則你只能承載一個大小為 1/2 的角色；如果你的機甲大小為 2，則你可以承載一個大小為 1 和一個大小 1/2 的角色）。"
     },
     "Whitewash Sealant Spray": {
-      "name": "Whitewash Sealant Spray",
-      "description": "For fire suppression and fast, temporary seals in punctured starship bulkheads, IPS-N offers a range of single-use, single objective nanites – “whitewash”. This sealant spray can also be used to restrain noncompliant actors when the correct spray heads and catalytic formulations are installed to the applicator.",
+      "name": "白蠱封膠噴霧",
+      "description": "為了撲滅火焰和臨時快速封堵破開的星艦艙壁，IPS-N 提供了一系列單一功能的一次性奈米機械──「白蠱」。透過安裝適當的噴嘴和催化配方，這種封膠噴劑也能用來拘束反抗目標的行動。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "This sealant can be sprayed on characters or free spaces within range 5 and line of sight. It has different effects depending on the target:<ul><li><b>Hostile Characters:</b> Your target must succeed on an Agility save or they become Slowed until the end of their next turn and clear all burn.</li><li><b>Allied Characters:</b> Your target clears all burn but they become Slowed until the end of their next turn.</li><li><b>Free Space:</b> Any fires within blast 1 are extinguished and the area becomes difficult terrain for the rest of the scene.</li></ul>"
+          "name": "啟動白蠱封膠噴霧",
+          "detail": "這個封膠噴劑能被噴在位於 ⌿5 範圍和視線範圍內的一名角色或未佔據空間上。它會根據目標的類型造成不同的效果：<ul><li><b>敵對角色</b>：目標必須成功通過<b>敏捷豁免</b>，否則陷入<b>緩慢</b>狀況直到其下一回合結束為止，然後清除其身上的所有燃燒。</li><li><b>隊友角色</b>：目標清除身上所有燃燒，但陷入<b>緩慢</b>狀況直到其下一回合結束為止。</li><li><b>未佔據空間</b>：熄滅<b> 濺射 1 </b>範圍內的火焰，且該範圍區域變為困難地形，持續直到該場景結束。</li></ul>"
         }
       }
     },
     "Cutter MkII Plasma Torch": {
-      "name": "Cutter MkII Plasma Torch",
+      "name": "切割器二式電漿氣炬",
       "profiles": {
         "Cutter MkII Plasma Torch": {
-          "name": "Cutter MkII Plasma Torch",
-          "description": "Plasma cutters were tools first: simple blades built to toggle and sustain a plasma sheath, making it easier to cut metal. Repeated ad hoc use of cutters as personal defense weapons against pirate boarding parties convinced IPS-N of the need for a mil-spec variant of the civilian tool – the Cutter, now in its second generation. The Cutter MkII feeds directly from the mech’s power core, with a port to attach power packs in case of cord severance. Although the cutting edge can be shortened to a knife length, its most popular setting is the “cutlass”, a medium-length option perfect for balancing reach and maneuverability in close quarters.",
-          "effect": "This weapon deals 10AP energy to objects, cover, terrain, and the environment."
+          "name": "切割器二式電漿氣炬",
+          "description": "電漿切割器原本只是一種工具：其簡單的刀刃設計，以及能切換並維持的電漿套層使切割金屬變得更加輕鬆。然而，由於切割器經常在對抗海盜的登艦部隊時被作為臨時防身武器使用，IPS-N 終於意識到為這把民用工具開發其軍規版本的必要性，並推出了第二代切割器。切割器二式直接汲取機甲動力核心為其供能，並配備額外接口以避免在纜線斷裂時無法使用的窘境。儘管切割器刀刃能被縮短至匕首尺寸，其最受歡迎的設置為「彎刀」：其中等長度的刀刃完美平衡了攻擊範圍和近距離戰鬥中的靈活性。",
+          "effect": "這件武器對物件、掩護、地形和環境會造成 10 穿甲能量傷害。"
         }
       }
     },
     "Aceso Stabilizer": {
-      "name": "Aceso Stabilizer",
-      "description": "The IPS-N Aceso Stabilizer is a useful triage measure for any scoring and minor mechanical damage that is sustained in the course of combat engagement or negative environmental interaction. Thanks to its negligible processor demand, Aceso Stabilizers can even be controlled by COMP/CON units – this allows the pilot to concentrate on complex repairs or immediate threat neutralization.",
+      "name": "阿刻索穩定器",
+      "description": "IPS-N 阿刻索穩定器是一種實用的急救手段，可以用來應對任何戰鬥和惡劣環境影響造成的磨損和輕度機械損害。由於其極低的處理器需求，阿刻索穩定器甚至可以由助理伴侶單元代為操作，讓駕駛員能夠集中種神處理更複雜的維修工作和解決更迫切的威脅。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Expend a charge to fire this small, self-arming system onto an allied mech within range 5. They gain Overshield equal to your Grit +4. While they have this Overshield they gain Immunity to Impaired and Jammed."
+          "name": "啟動阿刻索穩定器",
+          "detail": "消耗一發，對位於 ⌿5 範圍內的一名隊友機甲發射這枚小型自我裝載系統。該機甲會得到等同「你的毅力 + 4」的護盾。在該機甲擁有該護盾期間，其免疫於<b>受損</b>和<b>受擾</b>狀況。"
         }
       }
     },
