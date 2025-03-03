@@ -457,34 +457,43 @@
     },
 
     "Lancaster": {
-      "name": "Lancaster",
-      "description": "The IPS-N Lancaster is a mil-spec variant of an older IPS-N civilian terrestrial, inter/outer-hull transport and maintenance chassis, streamlined for use in any theater. The Lancaster features multiple redundant systems and sophisticated interaction projectors to ensure pinpoint accuracy when engaging with delicate systems, whether damaged or intact.<br>Lancaster pilots often adopt roles as sappers and engineers in frontline support. Sometimes ridiculed for piloting the old-fashioned frame by newer, untested pilots, veteran Lancaster jockeys know the truth: the Lancaster is one of the most reliable and well-made mechs out there, indispensable on any serious long-range mission. Not every mission is won with bullets, lasers, and bombs: without the engineers and their Lannies, few of those hotshots would come home alive.",
+      "name": "蘭開斯特",
+      "description": "IPS-N 蘭開斯特是一款軍規版本的機甲，源自於舊型 IPS-N 民用內外艙地面運輸與和維修用骨架，在經過精簡後能適用於各種戰場環境。蘭開斯特配備了多重備援系統和先進的交互投影裝置，確保其在處理精密系統（無論受損與否）時都能維持極致的精密度。<br><br>蘭開斯特的駕駛員通常會在前線擔任工兵或工程師的支援角色。儘管有些未經世事的年輕駕駛員會嘲笑蘭開斯特過於老派，但資深駕駛員很清楚：蘭開斯特是最可靠與精良的機甲之一，在任何嚴苛的長期作戰中都不可或缺。並非每場戰鬥都能靠子彈、雷射、和炸彈分出勝負──少了工程師和他們的「蘭妮保母」，這些驕傲的王牌駕駛員中恐怕很少有幾個能活著回家。",
       "traits": {
         "Insulated": {
-          "name": "Insulated",
-          "description": "The Lancaster has Immunity to burn."
+          "name": "隔熱",
+          "description": "蘭開斯特免疫於<b>燃燒</b>。"
         },
         "Combat Repair": {
-          "name": "Combat Repair",
-          "description": "In combat, the Lancaster can use 4 Repairs to repair a destroyed mech as a full action, returning it to 1 Structure, 1 Stress, and 1 HP.",
+          "name": "戰地維修",
+          "description": "在戰鬥中，蘭開斯特能以<b>完整動作</b>使用 4 維修來修復一個被毀的機甲，將其回復到 1 結構，1 壓力，和 1 HP。",
           "actions": {
             "Combat Repair": {
-              "name": "Combat Repair",
-              "detail": "Use 4 Repairs to repair a destroyed mech as a full action, returning it to 1 Structure, 1 Stress, and 1 HP."
+              "name": "戰地維修",
+              "detail": "以<b>完整動作</b>使用 4 維修來修復一個被毀的機甲，將其回復到 1 結構，1 壓力，和 1 HP。"
             }
           }
         },
         "Redundant Systems": {
-          "name": "Redundant Systems",
-          "description": "At your discretion, other characters adjacent to the Lancaster can spend its Repairs as their own."
+          "name": "備援系統",
+          "description": "在你的同意之下，與蘭開斯特鄰接的其他角色能夠把蘭開斯特的<b>維修</b>當作自己的來使用。"
         }
       },
       "core_system": {
-        "name": "Latch Drone",
-        "description": "Known colloquially as a “Wingman”, latch drones are companion drones carried by and deployed from a chassis. Pilots are recommended not to develop emotional attachments to these drones due to their high casualty rate.",
-        "passive_name": "PASSIVE",
-        "active_name": "Supercharger",
-        "active_effect": "Your Latch Drone clamps onto an allied mech within its Range. For the rest of the scene you take 1 heat at the start of each of your turns, but your target gains +1 accuracy on all attacks, checks, and saves, and Immunity to the Impaired, Jammed, Slowed, Shredded, and Immobilized conditions from characters other than itself. This effect ends if either character becomes Stunned.<br>While this system is active, you cannot use the Latch Drone for any other purpose."
+        "name": "拴鎖無人機",
+        "description": "俗稱「僚機」的拴鎖無人機是機甲攜帶並部署展開的伴侶級無人機。鑒於其高折損率，建議駕駛員不要對它們產生情感依附。",
+        "passive_name": "被動",
+        "active_name": "增壓器",
+        "active_effect": "你的<b>拴鎖無人機</b>附著在其射程內的一名隊友機甲上。直到該場景結束之前，你在自己的每個回合開始時都會受到 1 熱度，但你的目標在所有攻擊、豁免和判定中都會得到<b> +1 準度</b>，且免疫於他人造成的<b>受損</b>、<b>受擾</b>、<b>緩慢</b>、<b>離散</b>、和<b>固定</b>狀況。這個效果會持續直到你或目標中的任何一人陷入<b>暈眩</b>狀況為止。<br><br>當這個系統被啟動，你將無法使用<b>拴鎖無人機</b>進行其他用途。"
+      }
+    },
+    "Latch Drone": {
+      "name": "拴鎖無人機",
+      "profiles": {
+        "Latch Drone": {
+          "name": "拴鎖無人機",
+          "effect": "這件武器不能用來進行正常攻擊。取而代之，選擇位於射程和視線範圍內的一名隊友機甲，並進行一次遠距攻擊（目標視為<b>迴避 8</b>）。若命中，則你或你的目標可以消耗 1 維修來使目標回復一半的 HP。"
+        }
       }
     },
     "Cable Winch System": {
@@ -539,24 +548,24 @@
     },
 
     "Nelson": {
-      "name": "Nelson",
-      "description": "The IPS-N Nelson is the purest embodiment of the close-quarters doctrine espoused by its manufacturer. It is built to brawl, thriving when ordnance has been exhausted or when the environment is too volatile for firearms. With its functional size, the Nelson can strike fast and remain a difficult target to track. Layers of fractal-fold Armor-Lock plating with ceramic-analogous carbon flaking properties effectively nullify the impact of incoming ballistics by dispersing kinetic energy across a rounded hull. This null-k defense protects the pilot from impact trauma, allowing for sustained combat efficacy in high-trade scenarios.<br>The Nelson is an iconic IPS-N chassis, known across the galaxy as the favored frame of the Albatross, the nomadic order of Cosmopolitan peacekeepers. The Albatross’ distinctive white, gold, and red livery, mastery of the war pike, and apparent agelessness due to time dilation has won both them and the Nelson a venerated place in Diasporan lore – and secured an endorsement contract with IPS-N in perpetuity.",
+      "name": "納爾遜",
+      "description": "IPS-N 納爾遜這款機甲將其生產商崇尚的白刃戰原則發揮得淋漓盡致。它專為肉搏戰而設計，能在彈盡援絕或者不適合使用熱兵器的惡劣環境中嶄露鋒芒。憑藉其適中的尺寸，納爾遜能夠迅速出擊，並始終讓自己難以被敵方鎖定。層層覆蓋的碎形摺疊鎖甲配合其類陶瓷碳片化特性，能有效利用其圓滑的外殼分散動能，消除來襲炮彈的衝擊力。這種「零動能」防禦機制能保護駕駛員不受衝擊傷害，確保其能在高強度交火中維持戰鬥效率。<br><br>納爾遜是 IPS-N 旗下的經典機甲，作為信天翁的標誌性機甲而名震整個銀河系。信天翁是一支由寰宇公民組成的遊牧騎士團，其獨特的白、金、紅三色塗裝，出神入化的刺槍術，以及因時間膨脹效應而顯得永生不老的形象，不僅使信天翁和納爾遜機甲在散居者的心目中佔有一席之地——也為他們贏得了與 IPS-N 之間永久性的合作契約。",
       "traits": {
         "Momentum": {
-          "name": "Momentum",
-          "description": "1/round, after you Boost, the Nelson’s next melee attack deals +1d6 bonus damage on hit."
+          "name": "勁勢",
+          "description": "每輪一次，在你進行<b>推進</b>後，納爾遜的下一次肉搏攻擊會在命中時造成 +1d6 額外傷害。"
         },
         "Skirmisher": {
-          "name": "Skirmisher",
-          "description": "After attacking, the Nelson can immediately move 1 space in any direction as long as it isn’t Immobilize or Slowed. This movement ignores engagement and doesn’t provoke reactions."
+          "name": "散兵",
+          "description": "只要納爾遜不處於<b>固定</b>或<b>緩慢</b>狀況，納爾遜就能在攻擊之後，立即朝任意方向移動 1 格。這個移動忽略交戰且不會觸發反應。"
         }
       },
       "core_system": {
-        "name": "Perpetual Momentum Drive",
-        "description": "IPS-N’s Perpetual Momentum Drive exploits fighter-tier nearlight spooling to capture and sustain a passive .000001 ls charge, able to be dumped into boost systems upon command. Chassis equipped with this drive require heavy reinforcement, including strengthened joints and limbs, and installation of a k-comp crash couch to protect the pilot from sudden g-force and shear.",
-        "passive_name": "PASSIVE",
-        "active_name": "Engage Drive",
-        "active_effect": "For the rest of the scene, Skirmisher allows you to move 4 spaces at a time instead of 1 space."
+        "name": "永動動量驅動器",
+        "description": "IPS-N 的永動動量驅動器利用戰機級的近光速周邊並行技術來收集並維持被動的 0.000001 光速電荷，並能在指示下釋放至推進系統中。配備此驅動器的機甲需要經過重度強化，包括強化關節和肢體結構，並安裝動能補償耐衝擊座椅來保護駕駛員不受突發重力加速度和剪切力所傷。",
+        "passive_name": "被動",
+        "active_name": "啟動驅動器",
+        "active_effect": "在該場景中，<b>散兵</b>能讓你一次移動 4 格，而非原本的 1 格。"
       }
     },
     "War Pike": {
@@ -609,20 +618,20 @@
       "description": "Seeing GMS and Harrison Armory’s push to secure whole-fleet line contracts with Union member states, IPS-N launched a brief foray into design and production of their own main battle line frame. Enter the Raleigh, a stylistic and design oddity for IPS-N. Designed not as a specialist, but as a purpose-built, close-range mech, the Raleigh failed to stun potential clients in trials.<br>Though a favorite of test pilots due to its unique styling and agility, the Raleigh saw few fleet orders and, after a brief run as IPS-N’s flagship, was quietly rolled back and replaced with the Tortuga. No longer offered as a fleet contract, the Raleigh enjoys a quiet popularity among pilots seeking a well-balanced, if close-ranged, line mech.",
       "traits": {
         "Full Metal Jacket": {
-          "name": "Full Metal Jacket",
-          "description": "At the end of its turn, if the Raleigh hasn’t made any attacks or forced any saves, it can reload all Loading weapons as a free action."
+          "name": "全金屬外殼",
+          "description": "在雷利的回合結束時，如果其在該回合期間沒有進行任何攻擊或迫使他人進行豁免，則其能以<b>免費動作</b>裝填所有帶有<b>裝填</b>標籤的武器。"
         },
         "Shielded Magazines": {
-          "name": "Shielded Magazines",
-          "description": "The Raleigh can make ranged attacks when Jammed."
+          "name": "隔離彈匣",
+          "description": "雷利在處於<b>受擾</b>狀況時仍然可以進行遠距攻擊。"
         }
       },
       "core_system": {
-        "name": "M35 Mjolnir Cannon",
+        "name": "M35-雷神之鎚大炮",
         "description": "IPS-N’s M35 Mjolnir cannon is a carryover from Northstar’s Watchman line of defensive weapons, reworked for frontline combat. The Mjolnir is a hard-mounted, multi-barrel auxiliary cannon that uses magnetic acceleration to fire stacks of airburst projectiles at its target. It’s an impulse weapon, tied to the pilot’s second-tier neural processes with mediation from a COMP/CON or NHP; even in death, a pilot’s Mjolnir will continue to identify and attack hostile targets until reaching total systemic failure. For this reason, the Mjolnir is often referred to as a deadgun – one of many such weapons to be found among CQB-oriented pilots.",
-        "passive_name": "PASSIVE",
-        "active_name": "Thunder God",
-        "active_effect": "You start to spin your M35 Mjolnir up, beginning with no chambered rounds. For the rest of the scene, you load two rounds into chambers at the end of any of your turns in which you haven’t fired the M35 Mjolnir . It can hold a maximum of six rounds.<br>When you fire the M35 Mjolnir, all chambers fire simultaneously, dealing 4 kinetic damage per loaded round. If you fire four or more rounds at once, the attack gains AP and, on a hit, your target becomes Shredded until the end of their next turn."
+        "passive_name": "被動",
+        "active_name": "雷神",
+        "active_effect": "你開始高速轉動你 <b>M35-雷神之鎚</b>的炮管，以未裝彈的形式開始。在該場景期間，如果你在自己回合中沒有使用 <b>M35-雷神之鎚</b>開火的話，則你在該回合結束時能為其裝填 2 發彈藥，最多裝填 6 發。<br><br>當你使用 <b>M35-雷神之鎚</b>開火時，所有裝填的彈藥都會被同時射出，造成每發彈藥 4 動能傷害。如果你同時發射 4 發或以上的彈藥，則該攻擊得到穿甲(AP)效果，並在命中時讓你的目標陷入<b>離散</b>狀況直到其下一回合結束為止。"
       }
     },
     "Störtebeker": {
