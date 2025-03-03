@@ -614,8 +614,8 @@
     },
 
     "Raleigh": {
-      "name": "Raleigh",
-      "description": "Seeing GMS and Harrison Armory’s push to secure whole-fleet line contracts with Union member states, IPS-N launched a brief foray into design and production of their own main battle line frame. Enter the Raleigh, a stylistic and design oddity for IPS-N. Designed not as a specialist, but as a purpose-built, close-range mech, the Raleigh failed to stun potential clients in trials.<br>Though a favorite of test pilots due to its unique styling and agility, the Raleigh saw few fleet orders and, after a brief run as IPS-N’s flagship, was quietly rolled back and replaced with the Tortuga. No longer offered as a fleet contract, the Raleigh enjoys a quiet popularity among pilots seeking a well-balanced, if close-ranged, line mech.",
+      "name": "雷利",
+      "description": "看見 GMS 與哈里遜兵工廠積極向聯盟成員國推銷全艦隊生產訂單，IPS-N 也開始短暫涉足主戰線機甲的設計和生產。其結果就是雷利，一款無論風格和設計上對 IPS-N 而言都極具特色的機甲。雷利並非專業特化，而是瞄準了近距離戰鬥而打造的通用型機甲。然而不幸的是，在試驗階段中，雷利並未能贏得潛在客戶的青睞。<br><br>儘管其獨特的風格和敏捷性深受測試駕駛員的喜愛，雷利卻沒能得到大量艦隊訂單，在短暫作為 IPS-N 的旗艦機體後，便被悄然回收．並被托爾蒂取而代之。雖然不再提供艦隊訂單，雷利仍然在追求均衡性能的前線近戰機甲駕駛員中保有一份低調的歡迎。",
       "traits": {
         "Full Metal Jacket": {
           "name": "全金屬外殼",
@@ -628,10 +628,10 @@
       },
       "core_system": {
         "name": "M35-雷神之鎚大炮",
-        "description": "IPS-N’s M35 Mjolnir cannon is a carryover from Northstar’s Watchman line of defensive weapons, reworked for frontline combat. The Mjolnir is a hard-mounted, multi-barrel auxiliary cannon that uses magnetic acceleration to fire stacks of airburst projectiles at its target. It’s an impulse weapon, tied to the pilot’s second-tier neural processes with mediation from a COMP/CON or NHP; even in death, a pilot’s Mjolnir will continue to identify and attack hostile targets until reaching total systemic failure. For this reason, the Mjolnir is often referred to as a deadgun – one of many such weapons to be found among CQB-oriented pilots.",
+        "description": "IPS-N 的 M35-雷神之鎚大炮起源自極星公司「守望者」系列防衛武器，並經過改造以適用於前線戰鬥使用。雷神之鎚是一款固定型的多砲管轉輪副炮，採用磁力加速技術來對目標發射大量空爆彈藥。雷神之鎚屬於脈衝武器，與駕駛員的次級神經處理系統相連，並透過助理伴侶或 NHP 進行調節：即使駕駛員陣亡，雷神之鎚仍會持續識別並攻擊敵對目標，直至整個系統徹底癱瘓為止。因為這樣，雷神之鎚也經常被稱為「死神炮」，是偏好 CQB 駕駛員經常使用的武裝之一。",
         "passive_name": "被動",
         "active_name": "雷神",
-        "active_effect": "你開始高速轉動你 <b>M35-雷神之鎚</b>的炮管，以未裝彈的形式開始。在該場景期間，如果你在自己回合中沒有使用 <b>M35-雷神之鎚</b>開火的話，則你在該回合結束時能為其裝填 2 發彈藥，最多裝填 6 發。<br><br>當你使用 <b>M35-雷神之鎚</b>開火時，所有裝填的彈藥都會被同時射出，造成每發彈藥 4 動能傷害。如果你同時發射 4 發或以上的彈藥，則該攻擊得到穿甲(AP)效果，並在命中時讓你的目標陷入<b>離散</b>狀況直到其下一回合結束為止。"
+        "active_effect": "你開始高速轉動你 <b>M35-雷神之鎚大炮</b>的炮管，以未裝彈的形式開始。在該場景期間，如果你在自己回合中沒有使用 <b>M35-雷神之鎚大炮</b>開火的話，則你在該回合結束時能為其裝填 2 發彈藥，最多裝填 6 發。<br><br>當你使用 <b>M35-雷神之鎚大炮</b>開火時，所有裝填的彈藥都會被同時射出，造成每發彈藥 4 動能傷害。如果你同時發射 4 發或以上的彈藥，則該攻擊得到穿甲(AP)效果，並在命中時讓你的目標陷入<b>離散</b>狀況直到其下一回合結束為止。"
       }
     },
     "Störtebeker": {
@@ -715,24 +715,24 @@
     },
 
     "Tortuga": {
-      "name": "Tortuga",
-      "description": "The Tortuga is IPS-N’s short-to-medium range line of mechs. Conceived, tested, and perfected in the void of deep space, the Tortuga was made to breach and clear carrier decks, hostile station environments, and the spinal columns of capital ships. It excels at occupying space and filling hallways with its angular bulk, often acting as a walking battering ram by boarding parties and marines. But the Tortuga defends just as effectively as it attacks, using its broad plates of brachial armor to shield itself and any advancing allies.",
+      "name": "托爾蒂",
+      "description": "托爾蒂是 IPS-N 的短至中程戰線機甲。在深空環境中構思，測試，並加以完善，托爾蒂是專為突破和清剿敵方航母甲板、敵對太空站環境、和主力艦內部核心結構而誕生的。它擅長憑藉其厚重的稜角化機體佔領空間和狹窄的通道走廊，並經常充當登艦部隊和海軍陸戰隊中的行走攻城鎚。除此之外，托爾蒂的防禦能力跟攻擊能力相比也毫不遜色，能利用安裝在手臂的裝甲板，為自己和推進中的隊友抵禦猛烈的炮火。",
       "traits": {
         "Sentinel": {
-          "name": "Sentinel",
-          "description": "The Tortuga gains +1 accuracy on all attacks made as reactions (e.g. Overwatch)."
+          "name": "哨兵",
+          "description": "托爾蒂以<b>反應</b>進行的所有攻擊（例如<b>守望</b>）都會得到<b> +1 準度</b>。"
         },
         "Guardian": {
-          "name": "Guardian",
-          "description": "Adjacent allied characters can use the Tortuga for hard cover."
+          "name": "守護者",
+          "description": "鄰接的隊友角色可以把托爾蒂當成<b>硬性掩護</b>。"
         }
       },
       "core_system": {
-        "name": "WATCHDOG Co-Pilot",
-        "description": "IPS-N security teams are no strangers to the dangers of ship-to-ship or ship-to-station boarding actions. Tight corridors, unstable gravity, dark environments, hard vacuum, and the potential dual threat of both organic and inorganic opposition make boarding actions some of the most statistically deadly engagement – according to IPS-N’s internal metrics, even the winning side should expect at least 30% casualties. Hoping to lessen the cognitive burden on pilots and any NHPs or COMP/CONs installed in their chassis, IPS-N developed the WATCHDOG co-pilot. The WATCHDOG is a simple subsentient partition: a flash-homunculus of aggregated intelligence generated from thousands of after-action reports from boarding actions, debriefings, and volunteer donors. Not an NHP, nor even a COMP/CON, the WATCHDOG is a robust tactical program similar to a smart weapon. That said, its ability to operate without cycling presents certain advantages: namely, these co-pilots have some capacity to learn and make best-guess predictions based on analysis of their pilots. WATCHDOGs tend to have plain personalities – to whatever extend they can be said to have one – and are a favorite of pilots looking for a no-nonsense attitude and crisp, efficient counsel.<br>The WATCHDOG system is currently under review by a joint USB/UDoJ-HR commission, but there has been no formal stay on production yet issued.",
-        "passive_name": "PASSIVE",
-        "active_name": "Hyper-Reflex Mode",
-        "active_effect": "For the rest of this scene:<ul><li>If you have less than threat 3 with a ranged weapon, it increases to 3.</li><li>1/round, you may take an additional Overwatch reaction.</li><li>Any character you hit with Overwatch becomes Immobilized until the end of their next turn.</li></ul>"
+        "name": "看門犬副駕駛系統",
+        "description": "IPS-N 安保部隊早已習慣於艦對艦、或是艦對太空站的登陸作戰。狹窄的通道、不穩定的重力、昏暗環境、真空狀態、以及來自有機或無機敵對勢力的雙重威脅，都讓登艦戰成為了統計上最致命的交戰方式之一：根據 IPS-N 的內部數據，即使勝利方也通常會遭受至少 30% 的傷亡率。<br><br>為了減輕駕駛員或機載 NHP 和助理伴侶的精神負擔，IPS-N 開發了看門犬副駕駛系統。看門犬是一個簡單的次感知分割系統：透過彙集分析數以千計登艦作戰的戰後紀錄、簡報、和志願捐贈者的數據後，集結情報形成的快閃人工智慧。看門犬系統既不是 NHP，也不屬於助理伴侶，而是類似於智慧武器的強大戰術程式。儘管如此，其毋須重灌就能運作的能力帶來了一些優勢：這些副駕駛擁有一定程度的學習能力，並能根據分析駕駛員來計算最佳預測。看門犬系統的性格通常比較乏味──甚至很難把其稱為擁有性格──但這種嚴謹、精確且不拖泥帶水的特質，也深受講究效率的駕駛員喜愛。<br><br>目前，看門犬系統正由聯盟科學局（USB）和聯盟司法人權部（UDoJ-HR）聯設委員會進行審查，但尚未發布正式的停產通知。",
+        "passive_name": "被動",
+        "active_name": "超反射模式",
+        "active_effect": "直到該場景結束前：<ul><li>如果你的遠距武器帶有<b>威脅X</b>標籤，且 X 低於 3，則其變為<b>威脅 3</b>。</li><li>每輪一次，你能進行一次額外的<b>守望</b>反應。</li><li>任何你使用<b>守望</b>反應擊中的目標都會陷入<b>固定</b>狀況，持續直到其下一回合結束為止。</li></ul>"
       }
     },
     "Deck-Sweeper Automatic Shotgun": {
