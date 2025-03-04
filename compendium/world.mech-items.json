@@ -1050,23 +1050,23 @@
     },
     "Metalmark": {
       "name": "蜆蝶",
-      "description": "The Metalmark is the backbone of SSC’s BELLA CIAO mil-spec chassis line, fully equipped with a comprehensive suite of proprietary design and engineering hallmarks to ensure its survivability, deadliness, and agility. Under the increasingly militaristic reign of Union’s Second Committee, SSC’s corporate board pushed to develop the company’s mil-spec supply, logistics, and personal defense divisions; following the advent of the mechanized chassis, the budding SSC SupLogDef division was restructured and refocused to concentrate on chassis development. The first iterations of the Metalmark were designed for the Second Committee’s WARRIOR NEXT program: however, before the chassis could be tested, the Hercynian Crisis spiraled out of control, toppling the Second Committee.<br>The Metalmark was retired in the wake of the Crisis and the restructuring of Union’s Central Committee, deemed too time consuming to produce as a mass-market chassis. SSC reworked the frame, tapped it to lead their new BELLA CIAO line, and concentrated on small-market, exclusive security contracts. The Metalmark is now a valued model among security forces. Its form reflects SSC’s deep-space and long-patrol heritage, blending anthropomorphic and aquiline design elements, sturdy construction, and multiple redundant systems. Leaning fully into their operator-specific marketing, all Metalmark models come standard with a Smith Custom Leather gimbaled pilot seat to ensure comfort on long deployments.",
+      "description": "蜆蝶是 SSC 旗下 Bella Ciao 軍規機甲系列的核心機種，配備了完整的專利設計與工程技術標誌套裝，確保其具備強大的生存能力、致命性和機動性。在聯盟第二中央委員會時期日益軍事化的統治下，SSC 企業董事會推動公司成立軍規補給後勤及自衛部門。而隨著機械化骨架的出現，新興的　SSC 補給後勤自衛部門被重組，重新專注於機甲骨架的開發。第一代蜆蝶原本是為了第二中央委員會的次世代戰士計劃而設計開發，不過，在這款機甲進入測試階段前，迅速失控的海西危機也導致第二中央委員會就此垮台。<br><br>海西危機過後，隨著聯盟中央委員會的重組，蜆蝶也因為生產過於耗時，無法量產以迎合大規模市場的理由而退役。然而，SSC 將其重新設計，將其作為嶄新 Bella Ciao 系列的領銜機種，轉而集中爭取小規模的專屬安保合約市場。如今，蜆蝶是許多安保部隊中的重要機種，其設計反映了 SSC 在深空探索和長距離巡航的歷史，結合了擬人和鷹型的設計美學，並以穩固的結構造工和多重冗餘系統確保了其可靠性。為了進一步推動其以駕駛員為本的市場定位，所有蜆蝶型機甲也都統一配備了「史密斯特製皮革」品牌的萬向駕駛座椅，確保長時間執勤的舒適度。",
       "traits": {
         "Flash Cloak": {
-          "name": "Flash Cloak",
-          "description": "The Metalmark is Invisible while moving, but reappears when stationary."
+          "name": "閃光斗篷",
+          "description": "蜆蝶在移動時處於<b>隱形</b>狀態，但會在停下來時重新現形。"
         },
         "Carapace Adaptation": {
-          "name": "Carapace Adaptation",
-          "description": "When the Metalmark is in soft cover, ranged attackers receive +2 difficulty instead of +1 difficulty."
+          "name": "適應性甲殼",
+          "description": "當蜆蝶受益於<b>軟性掩護</b>時，對其進行的遠距攻擊會得到 +2 難度，而非原本的 +1 難度。"
         }
       },
       "core_system": {
-        "name": "Tactical Cloak",
-        "description": "Tactical cloaks are tight-knit, tight-bind weaves of reactive fabric – high-license tech restricted to pilots of Metalmark Classification II or higher. The weave covers roughly 80% of a mech’s surface area, giving it a dull quality when viewed through optics or with the naked eye. Beyond their use as regular camouflage, activated tactical cloaks bend light in a way that makes their wearers nearly impossible to see.",
-        "passive_name": "PASSIVE",
-        "active_name": "Tactical Cloak",
-        "active_effect": "You are Invisible for the rest of the scene."
+        "name": "戰術斗篷",
+        "description": "戰術斗篷是由高度緊密編織的反應布料製成，是僅限二級蜆蝶牌照以上的駕駛員才能使用的高許可級限制科技。這種織物覆蓋了機甲約八成的表面，使其在光學設備或裸眼觀察下呈現出黯淡的視覺效果。除了作為一般的偽裝使用外，戰術斗篷在起動時還會以特殊方式折射光線，讓穿戴者幾乎無法被看見。",
+        "passive_name": "被動",
+        "active_name": "戰術斗篷",
+        "active_effect": "直到該場景結束為止，你都處於<b>隱形</b>狀態。"
       }
     },
     "Monarch": {
