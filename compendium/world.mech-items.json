@@ -569,46 +569,46 @@
       }
     },
     "War Pike": {
-      "name": "War Pike",
+      "name": "刺槍",
       "profiles": {
         "War Pike": {
-          "name": "War Pike",
-          "description": "A war pike is a simple weapon – a long haft, topped with a dense, slim point, meant to puncture armor. Early designs were derivative of mining pylons, but the modern war pike is a sturdy, balanced, and reliable weapon that’s perfect for a charge."
+          "name": "刺槍",
+          "description": "戰鬥刺槍是一種相當簡單的武器——長柄末端裝有一個堅固而細長的尖端，專門用來刺穿裝甲。儘管其早期設計源於採礦用的支柱，現代刺槍是一種堅固、平衡且可靠的武器，非常適合用於衝鋒作戰。"
         }
       }
     },
     "Bulwark Mods": {
-      "name": "Bulwark Mods",
-      "description": "All proprietary IPS-N mech cores feature their QuickMod system – a modular, legacy-compatible system of joints, hardpoints, and internal slots that makes installing upgrades simple. This proved to be a necessary feature for Albatross maktebas long out of synch with Union Realtime.",
-      "effect": "Your mech’s extended limbs, additional armor, redundant motor systems, and other reinforcements allow you to ignore difficult terrain."
+      "name": "壁壘改造",
+      "description": "所有 IPS-N 專屬的機甲核心都配有其 QuickMod 系統——一種兼容舊規格的模組化關節、硬點和內部掛載點系統，讓安裝升級變得更簡單便捷。對於與聯盟真實時間長期脫節的信天翁駕駛員而言，這個功能已被證實不可或缺。",
+      "effect": "你機甲的延長肢體、額外裝甲、備援機動系統和其他強化，讓你能夠忽略<b>困難地形</b>的影響。"
     },
     "Thermal Charge": {
-      "name": "Thermal Charge",
-      "description": "One popular modification to the classic war pike involves replacing the long, armor-piercing pike head with a disposable, impact-triggered explosive charge. On penetration, the pike’s head is severed from the shaft – moments later, the embedded pike head detonates in a conical explosion from the point forward. Spare thermal charges are stable, and transported in external tube magazines.<br>IPS-N also makes thermal charges compatible with GMS’s range of blades, hammers, and picks.",
-      "effect": "On a hit with the weapon this mod is applied to, expend a charge as a free action to activate its detonator and deal +1d6 explosive bonus damage."
+      "name": "高熱刀尖",
+      "description": "其中一種對經典刺槍的熱門改造，就是把原本細長的穿甲槍尖替換成一次性的衝擊觸發炸藥槍頭。在刺穿目標時，刺槍的槍頭會與槍柄分離──隨後，嵌入目標的槍頭便會向前方引發錐形爆炸。備用的高熱炸藥性質穩定，並會存放在外置的管狀彈匣中。<br><br>IPS-N 也有生產能兼容於 GMS 系列刀劍鎚槍的高熱炸藥。",
+      "effect": "選擇一件<b>肉搏武器</b>來應用這個改造：在應用此改造的武器攻擊並命中時，以<b>免費動作</b>消耗一發，觸發引爆器並造成 +1d6 額外爆炸傷害。"
     },
     "Armor-Lock Plating": {
-      "name": "Armor-Lock Plating",
-      "description": "IPS-N’s Armor-Lock Plating is a total-body modification that provides additional chassis stability for any situation in which a pilot needs to put their mech through greater-than-anticipated stress.",
-      "effect": "You can Brace while Grappling. When you do so, any grapples currently affecting you end.<br>Additionally, when you Brace, you gain the following benefits until the end of your following turn:<ul><li>Attacks against you receive +1 difficulty.</li><li>You can’t fail Agility or Hull saves or contested checks.</li><li>You gain Immunity to Knockback, Grapple, being knocked Prone, and being moved by any external force smaller than Size 5.</li></ul>"
+      "name": "裝甲鎖定鍍層",
+      "description": "IPS-N 的裝甲鎖定鍍層是一套全身性的機體改造，能讓駕駛員在需要讓機甲承受超出預期壓力的情況下，提供額外的機體穩定性。",
+      "effect": "你可以在<b>擒拿</b>期間進行<b>受身</b>。當你這麼做時，任何正在影響你的擒拿都會因此結束。<br><br>此外，當你<b>受身</b>時，你直到你的下一回合結束前都會得到以下好處：<ul><li>對你進行的攻擊將得到 +1 難度。</li><li>你的<b>敏捷和機體豁免和對抗判定</b>不會失敗。</li><li>你免疫於大小 5 以下的外力造成的擊退、擒拿、擊倒<b>伏臥</b>，和強制移動效果。</li></ul>"
     },
     "Power Knuckles": {
-      "name": "Power Knuckles",
+      "name": "動力指虎",
       "profiles": {
         "Power Knuckles": {
-          "name": "Power Knuckles",
-          "description": "IPS-N’s line of power knuckles are another popular purchase for pilots who prefer to fight up close. Taking the form of anything from shaped studs to hyperdense knuckles, or a series of magnetically accelerated micro-rams, power knuckles amplify the already incredible hitting power of a mech.",
-          "on_crit": "Your target must succeed on a Hull save or be knocked Prone."
+          "name": "動力指虎",
+          "description": "IPS-N 的動力指虎系列是另一款受偏好肉搏戰的駕駛員喜愛的裝備。動力指虎的形態五花八門，從普通的突起釘頭、超高密度拳套、到一系列以電磁加速的微型攻城鎚都有，動力指虎能夠有效增幅機甲原本就相當驚人的打擊力。",
+          "on_crit": "你的目標必須成功通過<b>機體豁免</b>，否則被擊倒<b>伏臥</b>。"
         }
       }
     },
     "Ramjet": {
-      "name": "Ramjet",
-      "description": "There’s a threshold that veteran Nelson pilots know well: the point of endless momentum. You get moving fast enough in the right atmosphere and the air itself feeds into auxiliary ports on the chassis, screaming out like a demon’s almighty howl. The point of endless momentum is a giant’s hand on your chest and a god’s chariot under your feet. Makes you feel like you can outrun light itself, as long as you don’t pass out first.",
+      "name": "衝壓噴射器",
+      "description": "資深的納爾遜駕駛員都知道這台機體存在一個臨界點：一個無盡動量的臨界點。當你在合適的大氣中加速到足夠的速度時，空氣本身會竄入機甲的副進氣口，發出如同惡魔的恐怖嚎叫聲。無盡動量的臨界點就像是巨人之手壓在你的胸口，彷彿神之戰車在你腳下疾馳，讓你覺得自己甚至能超越光速──只要你不要先昏過去的話。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Until the start of your next turn, you can move +2 spaces when you Boost and your melee attacks (including Ram, Grapple, and so on) gain Knockback 2.<br>When you move during this time, you must move your full Speed in a straight line; however, you can stop if you would collide with an obstruction or hostile character, and you can change direction between separate movements (for example, standard moves, Boost, etc)."
+          "name": "啟動衝壓噴射器",
+          "detail": "直到你的下一回合開始之前，你在進行<b>推進</b>時可以移動 +2 格距離，且你的肉搏攻擊（包括<b>衝撞</b>和<b>擒拿</b>等動作）得到<b> 擊退 2 </b>效果。<br><br>當你在這期間內移動時，你必須沿著直線以最大速度進行移動；你可以在將要撞到障礙物或敵對角色時停下來，且你可以在不同的移動動作（像是普通移動、推進等）之間改變方向。"
         }
       }
     },
