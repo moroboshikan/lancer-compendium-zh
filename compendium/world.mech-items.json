@@ -1071,105 +1071,105 @@
     },
     "Monarch": {
       "name": "金斑蝶",
-      "description": "The Monarch is SSC’s groundbreaking lesson in how to design a fast platform for the delivery of missiles and other self-propelled ordnance. Ready to mount ground-to-ground, ground-to-air, ground-to-orbit, and all-theater missiles and guidance systems, the Monarch can be customized for any payload and any target distance.<br>The Monarch’s large size often leads pilots to underestimate its agility. SSC's rigorous design requirement of one designer per 10 Monarch printings is a mark of luxury in Union’s Core world post-scarcity environment. This emphasis on purposeful scarcity is all that prevents the Monarch from achieving total battlefield dominance. The Monarch is commonly deployed in mixed line and fire-support roles, though field tests of a less resource-taxing MicroMonarch mid- to close-range model is underway. The Monarch is part of SSC’s BELLA CIAO line of combat chassis.",
+      "description": "金斑蝶是 SSC 在高速導彈和自推進火器發射平台設計上的劃時代成果。隨時準備掛載地對地、地對空、地對軌道等全戰場導彈和導引系統，金斑蝶可以根據需求，任意調整其導彈彈頭和目標距離。<br><br>金斑蝶的龐大體型經常讓駕駛員低估其靈敏性。SSC 制定了嚴苛的設計標準，要求每生產 10 台金斑蝶就必須有一名專屬設計師監管，這在已經達成後匱乏社會的聯盟中核世界中也是相當奢侈的證明。而這種刻意為之的稀缺性，也是金斑蝶無法完全稱霸戰場的唯一阻礙。金斑蝶通常被部署在混合戰線與火力支援任務，另一款資源需求較低，專注於中近程戰鬥的小金斑蝶，其戰地測試也正如火如荼地進行中。金斑蝶是 SSC 旗下 Bella Ciao 系列戰鬥機甲之一。",
       "traits": {
         "Avenger Silos": {
-          "name": "Avenger Silos",
-          "description": "1/round, on a critical hit with any ranged weapon, the Monarch may deal 3 explosive to a different character of your choice within range 15 and line of sight."
+          "name": "復仇者飛彈發射井",
+          "description": "每輪一次，當使用任何遠距武器造成<b>會心一擊</b>時，金斑蝶可以對位於 ⌿15 範圍和視線範圍內的任意一個其他角色造成 3 爆炸傷害。"
         },
         "Seeking Payload": {
-          "name": "Seeking Payload",
-          "description": "The Monarch can use a Launcher weapon to attack a character with the Lock On condition as if its weapon had Seeking, but must consume the Lock On during the attack. When it does so, the attack’s damage cannot be reduced in any way."
+          "name": "追蹤彈頭",
+          "description": "當金斑蝶使用發射器武器對被<b>鎖定</b>的角色進行攻擊時，可以消耗該<b>鎖定</b>，在該次攻擊期間把該武器視為擁有<b>導引</b>標籤。當這麼做時，該攻擊造成的傷害無法透過任何方式被減輕。"
         }
       },
       "core_system": {
-        "name": "SSC-30 High-Penetration Missile System",
-        "description": "The SSC-30 High-Penetration Missile System (SSC-30 HPMS) is a mech-mounted micro-missile delivery system capable of tremendous combat output. Using the SSC-30 HPMS, the Monarch can carry – and deliver – its payload of 60 or more deadly, miniaturized Avenger warheads in a single volley.",
-        "passive_name": "PASSIVE",
-        "active_name": "Divine Punishment",
-        "active_effect": "Choose any number of characters within range 50: your targets must each succeed on an Agility save or take 1d6+4 explosive. On a success, they take half damage. These self-guiding missiles can reach any target as long as there is a path to do so."
+        "name": "SSC-30 高穿透飛彈系統",
+        "description": "SSC-30 高穿透飛彈系統（簡稱 SSC-30 HPMS）是擁有驚人火力輸出的機載微型飛彈發射系統。靠著 SSC-30 HPMS，金斑蝶可以在一輪齊射中發射超過 60 枚致命的微型復仇者彈頭。",
+        "passive_name": "被動",
+        "active_name": "天罰",
+        "active_effect": "選擇位於 ⌿50 範圍內任意數量的角色：每個目標必須成功通過<b>敏捷豁免</b>，否則受到 1d6+4 爆炸傷害。若豁免成功，則只受到一半的傷害。這些自律型導彈能命中任何目標，只要你與目標之間存在一條可能的路徑即可。"
       }
     },
     "Mourning Cloak": {
       "name": "黃蛺蝶",
-      "description": "The Mourning Cloak is a brand-new model from SSC’s LUX-Iconic line, and the manufacturer’s newest close-quarters combat and melee specialist frame. The Mourning Cloak emphasizes precision melee combat and is commonly outfitted with a complement of shielded microfilament wires designed to act as an anti-armor slashing weapon.<br>Designed by SSC’s Exotic Materials Group based on data from early engagements against the Ascendant Aun in Boundary Garden, the Mourning Cloak combines SSC’s harvested excerpts of DHIYED paracode with adapted Aunic Firmament-manipulation technology. The Mourning Cloak provides a prestigious and tactical option for situations where firearms are impractical and ordnance is unavailable. As part of the LUX-Iconic line, the Mourning Cloak is a popular order in the Baronies and among various high-manna VIP security firms.",
+      "description": "黃蛺蝶是 SSC 奢華系列中全新型號，也是該生產商最新型的近戰與肉搏戰專精機甲。黃蛺蝶強調精準的近身戰鬥，通常搭載防禦微絲纖維切割器用以作為反裝甲切割武器使用。<br><br>由 SSC 異類材料集團根據在邊界花園與昂星霸權的早期交戰數據而設計，黃蛺蝶結合了 SSC 收集的砥耶德超編碼以及昂星的蒼穹操縱科技，為不適用槍械火炮等熱兵器的戰場情境提供了一個極佳的戰術選項。作為奢華系列的一員，黃蛺蝶在卡拉金男爵領和其他高階安保企業中相當受歡迎。",
       "traits": {
         "Hunter": {
-          "name": "Hunter",
-          "description": "1/round, the Mourning Cloak may deal +1d6 bonus damage on hit with a melee attack if its target has no adjacent characters, or if the Mourning Cloak is the only character adjacent to the target."
+          "name": "獵人",
+          "description": "每輪一次，黃蛺蝶在進行肉搏攻擊並命中時，若目標沒有與除了黃蛺蝶以外的任何角色鄰接，則該攻擊可以造成 +1d6 額外傷害。"
         },
         "Biotic Components": {
-          "name": "Biotic Components",
-          "description": "The Mourning Cloak gains +1 accuracy on Agility checks and saves."
+          "name": "生物部件",
+          "description": "黃蛺蝶在進行<b>敏捷判定和豁免</b>時會得到 +1 準度。"
         }
       },
       "core_system": {
-        "name": "EX Slipstream Module",
-        "description": "Open only to highly licensed pilots, the EX Slipstream program is a uniquely SSC innovation. The Ex Slipstream module itself is a miniaturized near-lightspeed drive capable of transporting the user through blinkspace with acceptable accuracy. The technology is temperamental, at best: nothing smaller than a mech can survive the stress of exposed blink travel, and the experience is traumatic to both the user and anyone in close proximity.",
-        "passive_name": "Blinkspace Jump",
-        "passive_effect": "Gain the Blinkspace Jump Full Action.",
+        "name": "EX 超流模組",
+        "description": "僅開放給高階牌照的駕駛員使用，EX 超流模組是 SSC 獨有的創新技術。EX 超流模組本身是一種微型化的近光速引擎，能讓使用者以可接受的精度穿過霎間。不過，這項技術的穩定性相當糟糕：任何體積小於機甲的物體都無法承受暴露於霎間的壓力，而其傳送經歷對於使用者本人和任何附近的人來說也都會造成相當的創傷。",
+        "passive_name": "霎間跳躍",
+        "passive_effect": "得到<b>霎間跳躍</b>完整動作。",
         "passive_actions": {
           "Blinkspace Jump": {
-            "name": "Blinkspace Jump",
-            "detail": "Teleport to a space within range 3d6. You don’t require line of sight, but attempts to teleport to occupied spaces cause you to remain stationary and lose this action. If you roll the same number on all three dice, you disappear until your group rests, at which point you reappear nearby."
+            "name": "霎間跳躍",
+            "detail": "瞬間轉移到<b> ⌿3d6 </b>範圍內的空間。該空間不需要在你的視線範圍內，但嘗試轉移到已佔據的空間將會使你停留在原地，並浪費這個動作。如果這三顆骰子都擲出了相同的數字，則你會消失不見，持續直到你的團隊進行休息，你將在那時重新出現在附近的位置。"
           }
         },
-        "active_name": "Stabilize Singularity",
-        "active_effect": "For the rest of the scene, you teleport when you Boost or make a standard move."
+        "active_name": "穩定奇異點",
+        "active_effect": "在該場景期間，你會以<b>瞬間轉移</b>的形式進行<b>推進</b>和普通移動。"
       }
     },
     "Swallowtail": {
       "name": "鳳蝶",
-      "description": "The Swallowtail is Smith-Shimano’s primary long-range scouting and fire-support platform, built for rapid and sustained ranging across hostile, volatile environments. Built for long-term sustainability, it can operate in unstable environs for months and maximize its survivability by adjusting its operating efficiency on the fly. Each unit has an integrated cloak and a suite of predictive choral intelligences that coordinate its highly developed sensor systems to rapidly simulate and predict tactical developments – sometimes before they even occur.<br>The Swallowtail’s base model, the SW-01, is one of SSC’s few mass-produced lines – the entry-level BELLA CIAO model. Built without a cloaking field and up-armored to address direct security requirements, the SW-01 is especially popular among the rank and file troopers of Constellar Security forces.",
+      "description": "鳳蝶是史密斯—島野的主力遠距偵察與火力支援平台，專為在敵對與劇變環境中長時間執行任務而設計。為了確保長期運作的持續性，它能夠在不穩定環境中運作數個月，並透過實時調整運作效率來最大化其生存能力。每台機體都有內建隱形斗篷系統和一組預測型和聲智能套組，能夠協調其高度發達的感應系統，迅速模擬和預測戰場發展——甚至在事情發生前便加以預知。<br><br>鳳蝶的基礎型號 SW-01 是 SSC 的少數量產機型之一，屬於入門級的 Bella Ciao 型號。該型號未配備隱形力場，而是強化裝甲來滿足直接的安全需求，因此特別受到星際安保部隊基層士兵的歡迎。",
       "traits": {
         "Integrated Cloak": {
-          "name": "Integrated Cloak",
-          "description": "At the end of its turn, the Swallowtail becomes Invisible if it hasn’t moved that turn. This lasts until it moves or takes a reaction, or until the start of its next turn."
+          "name": "內建隱形斗篷",
+          "description": "在鳳蝶的回合結束時，如果其在該回合期間沒有移動過，則其得到<b>隱形</b>狀態。這個狀態會持續直到它移動、進行反應、或直到其下一回合開始為止。"
         },
         "Prophetic Scanners": {
-          "name": "Prophetic Scanners",
-          "description": "1/round, when the Swallowtail inflicts Lock On, its target also becomes Shredded until the end of its next turn."
+          "name": "先知掃描",
+          "description": "每輪一次，當鳳蝶造成<b>鎖定</b>時，其目標也會陷入<b>離散</b>狀況，持續直到其下一回合結束為止。"
         }
       },
       "core_system": {
-        "name": "Cloudscout TACSIM Swarms",
-        "description": "Cloudscout TACSIM Swarms are packets of networked microsensors, launched in nonlethal mortar canisters that detonate high above the battlefield. Once seeded, the swarm generates a TACSIM program that begins to run brevity cycles: tight, contained simulations of tactical possibility. Probability results are then fed to the Swallowtail’s choir processors, which in turn feed it to the pilot and networked squad members, ensuring a high probability of successful outcomes.",
-        "passive_name": "PASSIVE",
-        "active_name": "Prophetic Interjection",
-        "active_effect": "Gain the Tactical Simulation reaction for the rest of the scene.",
+        "name": "雲偵戰術模擬蟲群",
+        "description": "雲偵戰術模擬蟲群是一種網路化微型感應器構成的模組，透過非致命迫擊炮彈發射，在戰場上空引爆並部署。在部署之後，該蟲群便會生成戰術模擬程式開始執行簡短的週期指令：一系列緊湊完備的戰術可能性模擬。模擬得出的概率結果會被傳回鳳蝶的和聲處理器，並進一步轉發給駕駛員和網絡上的隊友，從而提高戰術決策的成功機率。",
+        "passive_name": "被動",
+        "active_name": "先知介入",
+        "active_effect": "在該場景期間，你得到<b>戰術模擬</b>反應。",
         "active_actions": {
           "Tactical Simulation": {
-            "name": "Tactical Simulation",
-            "trigger": "An allied character in line of sight takes damage from another character in line of sight.",
-            "detail": "Effect: Roll 1d6. On 4+, the attack was actually a simulation predicted by your processor - your ally gains Resistance to all damage dealt by the attack and may teleport up to 3 spaces, representing their “true” location. On 3 or less, there’s a glitch – your allied doesn’t gain Resistance, but can teleport up to 6 spaces."
+            "name": "戰術模擬",
+            "trigger": "當視線範圍內的一名隊友角色受到來自視線範圍內另一名角色造成的傷害時。",
+            "detail": "效果：擲 1d6。若骰出 4+ 的結果，則該攻擊實際上只是你處理器預知的模擬結果──你的隊友得到對該攻擊造成所有傷害的<b>抗性</b>，並可以<b>瞬間轉移</b>最多 3 格，代表其「真正」的位置。若骰出 3 或以下，則模擬發生錯誤──你的隊友不會得到抗性，但可以<b>瞬間轉移</b>最多 6 格的距離。"
           }
         }
       }
     },
     "Swallowtail (Ranger Variant)": {
-      "name": "Swallowtail (Ranger Variant)",
-      "description": "<p>This variant can be taken at rank II of the SWALLOWTAIL license instead of the base FRAME, or gained as EXOTIC GEAR by aiding Dthall Ordo during the campaign.</p><p>This Swallowtail variant is common among HUC ranger forces. It was adopted and reverse-engineered from the material remains of early, abandoned SSC survey expeditions. With no ability to print-replicate the mech, the rangers painstakingly manufactured and assembled each unit to high specifications. Unlike the sleek luxury of other SSC frames, this Swallowtail is a rugged affair. Each one has a suite of marks left by its previous owners – livery, battle paint, custom gear, camouflage, and weathering. They have been repaired and maintained for two generations and each one is precious to the United Cities.</p>",
+      "name": "鳳蝶（遊騎兵改型）",
+      "description": "<p>這個變體型號可以藉由取代鳳蝶二級牌照的基本骨架而獲得，或在《壁花無處容身》戰役中透過援助劇情角色而作為異類裝備獲得。</p><p>這種鳳蝶變體型號常見於海西城邦聯盟（Hercynian United Cities，HUC）的遊騎兵部隊中。它是從早期廢棄在此地的 SSC 勘測遠征隊的物資殘骸中回收，並透過逆向工程改造而來的結果。由於無法以列印技術複製機甲，遊騎兵們只能辛苦地精心生產和組裝每一架機體，確保其達到高規格標準。與其他 SSC 骨架的流線奢華風格不同，這種鳳蝶型機甲看起來相當粗獷。每一駕機甲都保留著前任駕駛留下的痕跡——塗裝、戰鬥彩繪、特製裝備、迷彩和歲月留下的戰損。它們經過了兩個世代的修復和維護，每一架對城邦聯盟而言都彌足珍貴。</p>",
       "traits": {
         "Scout Battlefield": {
-          "name": "Scout Battlefield",
-          "description": "<p>Before the first round of any combat and before any deployment takes place, place up to two of the following in free spaces anywhere on the battlefield:</p> <ul> <li>A 2 x 2 zone that does not impede movement and grants soft cover to characters at least partly within it.</li> <li>A 2 x 2 zone that is difficult terrain.</li> <li>A SIZE 1 piece of hard cover.</li> </ul> <p>They can&rsquo;t be placed within 4 spaces of each other. The same option can be chosen more than once. These objects and zones represent naturally occurring terrain on the battlefield, and you can work with the GM to decide what they are.</p>"
+          "name": "偵查戰場",
+          "description": "在任何戰鬥的第一輪開始前且任何人開始部署之前，在戰場上的任意未佔據空間放置以下最多兩項：<ul><li>一個佔據 2x2 範圍，不會阻礙移動，並會為至少一部分在其範圍內的角色提供<b>軟性掩護</b>的區域。</li><li>一個佔據 2x2 範圍的困難地形區域。</li><li>一塊大小 1 的<b>硬性掩護</b>。</li> </ul><p>它們不能被放置在距離彼此 4 格內的位置。同一個選項可以被選擇超過一次。這些物件和區域代表著戰場上的自然環境地形，你可以和 GM 一起決定它們具體是什麼。</p>"
         },
         "Invigorating Scanners": {
-          "name": "Invigorating Scanners",
-          "description": "1/round when the Swallowtail inflicts Lock On, an allied character in its sensor range and line of sight can move up to its speed as a reaction."
+          "name": "鼓舞掃描",
+          "description": "每輪一次，當鳳蝶造成<b>鎖定</b>時，一名在視線範圍和感應範圍內的隊友角色能以<b>反應</b>移動最多等同其速度的距離。"
         },
         "Weathering": {
-          "name": "Weathering",
-          "description": "The Swallowtail ignores difficult terrain."
+          "name": "久經風霜",
+          "description": "鳳蝶能忽略<b>困難地形</b>。"
         }
       },
       "core_system": {
-        "name": "Gaia Inheritance",
-        "description": "Outnumbered, outgunned, and lacking the ability to mass-produce mechs, the rangers have had to rely on the legacy of Hercynia itself to protect them. Each of their Swallowtails is an ingenious, fast-moving suite of meshed software and gear, uniquely tweaked by generations of hardened warriors – imperfect in a way that would make any SSC smith shiver. Each wears its own unique name, has its own unique ballad, and is recorded in the osteomemetics of its home city.",
-        "passive_name": "Grounded",
-        "passive_effect": "When you end your turn in a zone that grants soft cover, you become INVISIBLE until you leave that cover, take damage, attack, force a save, or take any other hostile action that affects another character.",
-        "active_name": "Guerrilla Warfare",
-        "active_effect": "<p>You create three Burst 1 patches of smoke in spaces within line of sight and Range 5. These patches grant soft cover to characters at least partly within them. They last for the rest of the scene.</p> <p>Additionally, for the rest of the scene, allied characters within SENSORS gain the benefits of GROUNDED.</p>"
+        "name": "地母的遺產",
+        "description": "寡不敵眾、火力不足，缺乏大規模生產機甲的能力，游騎兵們只能依靠海西星本身的遺產來保護自己。他們的每一架鳳蝶都是一整套巧妙結合了軟硬體，迅捷靈活的機甲套裝，經過世世代代千錘百煉的戰士們獨特調校─其不完美的工藝表現能讓任何 SSC 的技師顫抖。每一架機體都擁有自己獨特的名字，專屬的戰歌，並被銘刻在其家鄉城市的傳承記憶之中。",
+        "passive_name": "接地",
+        "passive_effect": "當你在會提供<b>軟性掩護</b>的區域內結束自己的回合時，你得到<b>隱形</b>狀態，持續直到你離開該掩護、受到傷害、攻擊、迫使他人進行豁免、或採取了任何會影響其他角色的敵意動作。",
+        "active_name": "游擊陣線",
+        "active_effect": "<p>你在 ⌿5 範圍和視線範圍內創造出三個<b> 爆發 1 </b>範圍的煙幕團。這些煙幕會為至少一部分在其中的角色提供<b>軟性掩護</b>，並會維持直到該場景結束。</p> <p>此外，直到該場景結束前，所有位於感應範圍內的隊友角色也都會受益於<b>接地</b>的效果。</p>"
       }
     },
     "Viceroy": {
@@ -1781,7 +1781,7 @@
 
     "Pegasus": {
       "name": "天馬",
-      "description": "天馬型樣式組最早出現在聯盟和唵吽霸權於邊界花園這遠離銀河核心的遙遠星域開戰之後。這場衝突的爆發時機或許與該樣式組的標誌性武器有關，不過根據聯盟軍跳躍無人機信使的報告，他們在邊界花園戰役中並未遭遇過該樣式組。相反的，天馬型機甲出現的地點位於晨曦岸線：一塊位於邊界花園相反方向的兵工廠殖民區。<br><br>天馬似乎是荷魯斯為了滿足對高強度動能作戰能力需求而開發的樣式組：透過揉合荷魯斯編碼中最頂級的瞄準系統、副程式、以及武器硬體，集體主義者們設計出了這款在任何適用動能武器的戰場環境中，都擁有極低的辨識/殺敵需時（ID/TTK）比例的戰鬥型機甲。<br><br>和其他的荷魯斯樣式組一樣，天馬配備著極具標誌性的武器系統：巫沙布提，一款完全無視最基本物理學和熱力學法則的反實體敵性脈衝武器。因此，巫沙布提毫無疑問地被歸類為超因果律武器。聯盟和哈里遜兵工廠的科學家至今仍未理解巫沙布提的具體運作方式，但在測量武器發射後產生的輻射和重力信號，顯示出它很可能與唵吽穹蒼存在某種關聯。目前，關於巫沙布提的進一步研究仍在哈里遜兵工廠旗下的主要研究星球拉斯．向拉，以及晨曦岸線附近的衛星研究機構中持續進行。",
+      "description": "天馬型樣式組最早出現在聯盟和昂星霸權於邊界花園這遠離銀河核心的遙遠星域開戰之後。這場衝突的爆發時機或許與該樣式組的標誌性武器有關，不過根據聯盟軍跳躍無人機信使的報告，他們在邊界花園戰役中並未遭遇過該樣式組。相反的，天馬型機甲出現的地點位於晨曦岸線：一塊位於邊界花園相反方向的兵工廠殖民區。<br><br>天馬似乎是荷魯斯為了滿足對高強度動能作戰能力需求而開發的樣式組：透過揉合荷魯斯編碼中最頂級的瞄準系統、副程式、以及武器硬體，集體主義者們設計出了這款在任何適用動能武器的戰場環境中，都擁有極低的辨識/殺敵需時（ID/TTK）比例的戰鬥型機甲。<br><br>和其他的荷魯斯樣式組一樣，天馬配備著極具標誌性的武器系統：巫沙布提，一款完全無視最基本物理學和熱力學法則的反實體敵性脈衝武器。因此，巫沙布提毫無疑問地被歸類為超因果律武器。聯盟和哈里遜兵工廠的科學家至今仍未理解巫沙布提的具體運作方式，但在測量武器發射後產生的輻射和重力信號，顯示出它很可能與唵吽穹蒼存在某種關聯。目前，關於巫沙布提的進一步研究仍在哈里遜兵工廠旗下的主要研究星球拉斯．向拉，以及晨曦岸線附近的衛星研究機構中持續進行。",
       "traits": {
         "¿%:?EXTR!UDE GUN": {
           "name": "¿%:?排!出槍",
