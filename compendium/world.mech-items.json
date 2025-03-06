@@ -532,7 +532,7 @@
         "Cutter MkII Plasma Torch": {
           "name": "切割器二式電漿氣炬",
           "description": "電漿切割器原本只是一種工具：其簡單的刀刃設計，以及能切換並維持的電漿套層使切割金屬變得更加輕鬆。然而，由於切割器經常在對抗海盜的登艦部隊時被作為臨時防身武器使用，IPS-N 終於意識到為這把民用工具開發其軍規版本的必要性，並推出了第二代切割器。切割器二式直接汲取機甲動力核心為其供能，並配備額外接口以避免在纜線斷裂時無法使用的窘境。儘管切割器刀刃能被縮短至匕首尺寸，其最受歡迎的設置為「彎刀」：其中等長度的刀刃完美平衡了攻擊範圍和近距離戰鬥中的靈活性。",
-          "effect": "這件武器對物件、掩護、地形和環境會造成 10 穿甲能量傷害。"
+          "effect": "這件武器對物件、掩護、地形和環境會造成 10 穿甲(AP)能量傷害。"
         }
       }
     },
@@ -635,83 +635,83 @@
       }
     },
     "Störtebeker": {
-      "name": "Störtebeker",
-      "description": "Following the commercial failure of the Raleigh, several third parties found themselves with the opportunity of buying out development rights for the license as IPS-N sought to recoup initial costs. One of the companies that found itself in this position, Anton Industries, had fallen on hard times after its CEO vanished in mysterious circumstances, leading to plummeting stocks. <br>Chasing a lucky break and seizing the opportunity, Anton Industries began work on what would ultimately be the last frame ever to be developed under its name. Basing the modifications to the Raleigh on one of its own mechs – the Hades Mk3 – Anton Industries quickly developed the frame into a capable combined-arms platform emphasizing speed and rapid deployment. Instead of the Raleigh’s integrated Mjolnir, a weapon far too heavy for the new doctrinal approach, the modified chassis sports an internal reservoir of TRUESILVER nanites, a proprietary whitewash product capable of enhancing a weapon’s destructive power on a strike-to-strike basis. <br>The resulting mech was named “Störtebeker” after an old Cradle legend in a fit of gallows humor regarding the company’s less than ideal position. The frame, just like its namesake, ultimately spelled doom for the company, despite its relative success. <br>Quickly gaining popularity among mercenaries, black-ops units, and bounty hunters alike, the Störtebeker became the frame of choice for those requiring speed and maneuverability out of an IPS-N base but who preferred a solid ranged component over the Nelson’s dedicated close-combat focus. <br>IPS-N itself, interested in the Störtebeker, eventually decided to buy out the smaller company and, indifferent to Anton Industries’ other projects and subsidiaries, cannibalized the company in its entirety. Thus, the Störtebeker, now licensed fully as a Raleigh variant-frame under the IPS-N label, stands as a testament to a company’s destruction and how sometimes, one can do well and fail because of it.",
+      "name": "史托特貝克",
+      "description": "在雷利機甲在商業上的失敗後，IPS-N 為了回收初期成本，開放數家第三方公司收購該機體的開發授權。而其中一家公司正是安東工業：這家公司在遭遇執行長神秘失蹤的事件後股價暴跌，身陷泥淖。<br><br>為了尋求轉機，安東工業沒有放過機會，著手開發該公司名下的最後一款機體。使用其自家的哈帝斯三式機型作為改造雷利的基礎，安東工業迅速將該機甲開發成一款強調高速和快速部署的聯合作戰平台。原本雷利內建的雷神之錘因為過於沉重而不符合新設計理念，因此新機甲將其取代為「真銀」奈米儲槽──一種獨門白蠱技術製品，能夠在一次次攻擊中逐步強化武器的破壞力。<br><br>最終誕生的機甲被命名為「史托特貝克」，這個名字取自一則古老的地球傳說，並隱含著對公司困境的黑色幽默。然而就如同其名字所暗示的，這款機甲儘管相對了成功，卻最終導致了安東工業的覆滅。<br><br>迅速在傭兵、黑色行動部隊和賞金獵人之間收穫了許多人氣，史托特貝克成為了那些需要 IPS-N 機甲的高速機動性，卻更偏好遠程戰鬥而非納爾遜那種特化近身戰性質的駕駛員的首選。<br><br>IPS-N 也因此對史托特貝克展現了濃厚的興趣，並在最終決定收購這家小型公司，漠視了安東工業的其他計畫和子公司，徹底將整家公司吞食殆盡。如今，史托特貝克以雷利衍生機型的身分被正式歸屬於 IPS-N 旗下，成為了一間企業滅亡的見證──有時候，即使表現良好，最終也可能因而失敗。",
       "traits": {
         "Dynamic Reload": {
-          "name": "Dynamic Reload",
-          "description": "The Störtebeker’s non-Auxiliary weapons gain the following effects: <br><ul><li><b>Melee weapons</b> gain: “On critical hit: Reload all ranged weapons not used to attack this turn.”</li><li><b>Ranged weapons</b> gain: “On critical hit: Reload all melee weapons not used to attack this turn.”</li></ul>"
+          "name": "動態裝填",
+          "description": "史托特貝克除了副武器以外的所有武器得到以下效果：<br><ul><li><b>肉搏武器</b>：會心一擊時：裝填所有在該回合中沒有被用來攻擊的遠距武器。</li><li><b>遠距武器</b>：會心一擊時：裝填所有在該回合中沒有被用來攻擊的肉搏武器。</li></ul>"
         },
         "Truesilver": {
-          "name": "Truesilver",
-          "description": "1/Scene, after hitting with a weapon, the Störtebeker may apply one of the following effects depending on the weapon’s type. <br><ul><li><b>Non-Loading weapon:</b> The hit is treated as a Critical Hit. Resulting damage is not rolled twice.</li><li><b>Loading weapon:</b> Resulting damage can’t be reduced.</li></ul>"
+          "name": "真銀",
+          "description": "每個場景一次，在使用武器攻擊並命中後，史托特貝克可以根據該武器的類型適用以下效果：<br><ul><li><b>非裝填武器</b>：該攻擊被視為會心一擊，但造成的傷害不會骰二次取高。</li><li><b>裝填武器</b>：該攻擊造成的傷害不會被減輕。</li></ul>"
         }
       },
       "core_system": {
-        "name": "Truesilver Weaponry",
-        "description": "Project TRUESILVER was an attempt to improve the destructive capabilities of whitewash nano-machines. The hyper-specialized nanites manifest themselves as a mirror-sheen silver coating that can spread over ammunition and melee weapons alike. This coating gives armaments a striking appearance and is the source of the system’s unique name. Thus enhanced, weapons can deliver a destructive nanite payload that compounds any damage done by the initial strike exponentially, eating away at a target from the inside. <br>TRUESILVER nanites are internally printed and held in a specialized shielded reservoir before being fed to a mech’s weapons systems. Slow to be replenished by the frame’s internal printers, pilots must manage their use with care.",
-        "passive_name": "Hopkins Doctrine",
-        "passive_effect": "You may only take this action if you took the skirmish action this turn. Pick one of the following effects:",
+        "name": "真銀武器",
+        "description": "「真銀」計畫的目的是嘗試提升白蠱奈米機械的破壞能力。這些高度特化的奈米機械會形成鏡面般的銀光塗層，並傳播到火器彈藥和肉搏武器上。這層塗層不僅賦予武器驚豔的外觀，同時也是這個系統名稱的由來。經過強化的武器能夠釋放具有破壞性的奈米載荷，使初擊造成的傷害以指數級成長，並從內部侵蝕目標。<br><br>真銀納米機械透過機體內部列印產生，儲存在專門的屏蔽槽內，然後輸送至機甲的武器系統。由於機體內部印表機的補充速度較慢，請駕駛員務必謹慎管理使用。",
+        "passive_name": "霍普金斯準則",
+        "passive_effect": "你只能在該回合進行過<b>交戰</b>動作後才能採取這個動作。選擇以下其中一個效果：",
         "passive_actions": {
           "Reprise": {
-            "name": "Reprise",
-            "detail": "Skirmish with a weapon that was reloaded via DYNAMIC RELOAD this turn."
+            "name": "重演",
+            "detail": "使用該回合因為<b>動態裝填</b>而被裝填的武器再次進行<b>交火</b>。"
           },
           "Renewal": {
-            "name": "Renewal",
-            "detail": "All weapons not used to attack this turn are reloaded at the end of the turn."
+            "name": "更新",
+            "detail": "在該回合結束時，<b>裝填</b>所有該回合期間沒有被用來攻擊的武器。"
           }
         },
-        "active_name": "Truesilver Arsenal",
-        "active_effect": "You may use your Truesilver trait three more times this Scene."
+        "active_name": "真銀軍械庫",
+        "active_effect": "在該場景中，你的<b>真銀</b>特徵可以再額外使用 3 次。"
       }
     },
     "Hand Cannon": {
-      "name": "Hand Cannon",
+      "name": "掌心雷",
       "profiles": {
         "Hand Cannon": {
-          "name": "Hand Cannon",
-          "description": "The IPS-N hand cannon is a licensed version of GMS’s Type-I Pistol, adapted for a much heavier caliber. This modification requires the belt-fed system of the GMS build to be swapped for a cylinder or magazine-based system, depending on the specific model of hand cannon."
+          "name": "掌心雷",
+          "description": "IPS-N 掌心雷是 GMS 一式手槍的授權生產版本，經改造後德以裝填更大口徑的彈藥。視型號不同，這項改造能把 GMS 原版的彈鍊供彈系統替換成彈匣或輪轉系統。"
         }
       }
     },
     "BB Breach/Blast Charges": {
-      "name": "BB Breach/Blast Charges",
-      "description": "Breach/blast charges offer a mil-spec twist on the industrial blasting charges developed by IPS-N for asteroid mining. The IPS-N BB charge features a more volatile blend of high explosives designed to cause massive structural damage to mechanized chassis, starship bulkheads, armored vehicles, bunkers, and other hardened structures.",
+      "name": "BB 突破/爆破炸藥",
+      "description": "突破/爆破炸藥為 IPS-N 開發的小行星礦業用炸藥的軍規版本。IPS-N BB 炸藥使用了更劇烈的高強度炸藥，用以對機甲骨架、星艦隔艙板、裝甲載具、碉堡和其他強化結構造成嚴重的結構傷害。",
       "actions": {
         "Thermal Grenade": {
-          "name": "Thermal Grenade",
-          "detail": "Throw a Thermal Grenade within Range 5. All characters within a Blast 1 area must succeed on an Agility save or take 1d6 energy. On a success, they take half damage. Objects and terrain are hit automatically and take 10 AP energy damage."
+          "name": "高熱手榴彈",
+          "detail": "對 ⌿5 範圍內的一處投擲高熱手榴彈。所有位於<b> 濺射 1 </b>範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 1d6 能量傷害。豁免成功則只受到一半的傷害。物件和地形會被自動命中並受到 10 穿甲(AP)能量傷害。"
         }
       }
     },
     "Bolt Thrower": {
-      "name": "Bolt Thrower",
+      "name": "螺栓投射器",
       "profiles": {
         "Bolt Thrower": {
-          "name": "Bolt Thrower",
-          "description": "As with many of IPS-N’s classic weapons, the bolt thrower is descended from a civilian mining tool. It fires self-propelled explosive bolts, perfect for use in micro- and null-gravity as well as in-atmosphere."
+          "name": "螺栓投射器",
+          "description": "和 IPS-N 的許多經典武器一樣，螺栓投射器同樣源自於民用的採礦工具。它能發射自推進式爆炸螺栓，相當適合在微重力、無重力、以及大氣環境中使用。"
         }
       }
     },
     "“Roland” Chamber": {
-      "name": "“Roland” Chamber",
-      "description": "Packed into sealed, self-contained cylinders, IPS-N’s “Roland Rounds” are high-explosive anti-armor charges built for kinetic weapons of any mech-scale caliber. Loaded in place of inert kinetic ammunition, a Roland HE/AA shell increases the efficacy and destructive power of any weapon it is fired from.",
-      "effect": "When you reload any weapon, your next attack with a Loading weapon gains this effect:<br>On hit: This attack deals +1d6 explosive bonus damage, and targets must succeed on a Hull save or be knocked Prone."
+      "name": "「羅蘭」彈倉",
+      "description": "封裝在密封的自給式彈筒內，IPS-N 的「羅蘭彈」是專為任何機甲級口徑動能武器設計的高爆穿甲彈。在取代惰性動能彈藥後，羅蘭 HE/AA 彈殼能顯著提升武器的效能和破壞力。",
+      "effect": "當你裝填任何武器時，你下一次使用裝填武器進行的攻擊得到這個效果：<br>命中時：該攻擊造成 +1d6 額外爆炸傷害，且目標必須成功通過<b>機體豁免</b>，否則被擊倒<b>伏臥</b>。"
     },
     "Kinetic Hammer": {
-      "name": "Kinetic Hammer",
+      "name": "動能鎚",
       "profiles": {
         "Kinetic Hammer": {
-          "name": "Kinetic Hammer",
-          "description": "A kinetic hammer is a simple tool, but a brutal one. Made up of a supermassive head fused to a long haft, the hammer carries enough force to create massively traumatic pressure waves upon landing a successful blow."
+          "name": "動能鎚",
+          "description": "動能鎚是個簡單而暴力的工具。這個將超重型錘頭裝在長柄上的大鎚，在成功命中目標時能造成重大的創傷性衝擊波。"
         }
       }
     },
     "UNCLE-Class Comp/Con": {
-      "name": "UNCLE-Class Comp/Con",
-      "description": "IPS-N’s UNCLE COMP/CON system is the result of the DARKSTAR-2 program, a temporary project that sought to develop more advanced smart weapons. Early prototypes were hampered by a combination of high power-draw, unstable conditioning, and frustrating single-task orientation that eventually saw the project shuttered.<br>While IPS-N is no longer developing new iterations of UNCLE, they still have a stock of QA-approved legacy systems accessible to qualified pilots.<br>Pilots lucky enough to field test models swear by UNCLE’s task efficiency and parallel-track reasoning, though the outdated COMP/CONs are known for their somewhat unstable personalities.",
-      "effect": "Your UNCLE-class COMP/CON has control of the weapon this mod is applied to and its associated systems.<br>1/turn, you can attack at +2 difficulty with UNCLE’s weapon as a free action. UNCLE can’t use weapons that have already been used this turn, and any weapon UNCLE attacks with can’t be used again until the start of your next turn.<br>UNCLE isn’t a full NHP, so cannot enter cascade."
+      "name": "UNCLE 級助理伴侶",
+      "description": "IPS-N 的 UNCLE 級助理伴侶是 DARKSTAR-2 研發計劃的產物，這個臨時計畫旨在發展更先進的智慧武器。早期原型因為其高功耗、不穩定的適應性、和讓人沮喪的單任務導向限制而最終導致開發終止。<br>雖然 IPS-N 不再開發新版本的 UNCLE，但仍然部分通過了品質驗證的舊型系統可供符合資格的駕駛員使用。<br>儘管這些過時的助理伴侶以稍微不穩定的性格而享有一定的惡名，有幸參與戰地實測的駕駛員仍對 UNCLE 的工作效率和平行處理能力讚譽有加。",
+      "effect": "選擇一件<b>副武器</b>、<b>主武器</b>或<b>重型武器</b>：你的 UNCLE 級助理伴侶將控制該武器和其相應系統。<br><br>每回合一次，你能以<b>免費動作</b>使用 UNCLE 控制的武器進行帶有 +2 難度的攻擊。UNCLE 不能使用該回合已經使用過的武器，且任何被 UNCLE 用來進行攻擊的武器，直到你下一回合開始前也都不能再被使用。<br><br>UNCLE 不是 NHP，因此不會崩潰。"
     },
 
     "Tortuga": {
@@ -736,55 +736,55 @@
       }
     },
     "Deck-Sweeper Automatic Shotgun": {
-      "name": "Deck-Sweeper Automatic Shotgun",
+      "name": "「甲板掃蕩者」自動霰彈槍",
       "profiles": {
         "Deck-Sweeper Automatic Shotgun": {
-          "name": "Deck-Sweeper Automatic Shotgun",
-          "description": "The Deck-Sweeper Automatic Shotgun is a belt-fed scattergun, a favorite of marine pilots aboard stations and capital ships. Its methodology is straightforward: charge, point, and fire. A single-barrel constriction allows for pneumatic absorption – dampening the effect of its incredible recoil – and its belt feeder is compatible with many types of shot-and-slug ammunition."
+          "name": "「甲板掃蕩者」自動霰彈槍",
+          "description": "「甲板掃蕩者」自動霰彈槍是一款由彈鍊供彈的霰彈槍，深受駐紮於太空站和主力艦上海陸駕駛員的喜愛。它的設計哲學簡單易懂——衝鋒、瞄準、射擊。單槍管設計提供了氣動緩衝功能以減緩其強大的後座力，彈鍊供彈系統則能讓它兼容各種不同種類的霰彈和獨頭彈藥。"
         }
       }
     },
     "Siege Ram": {
-      "name": "Siege Ram",
-      "description": "The siege ram is a handheld metal beam with a wedge tip, ready to be smashed into the seams of sealed bulkhead doors and driven home. It’s another holdover from the days before the IPS-N merger. When someone needs to open a bulkhead that’s just slammed shut, it’s what marine pilots pick up to get the job done. Heavy, dumb, and unbreakable: IPS-N’s siege ram is the universal skeleton key.",
-      "effect": "When you Ram, you deal 2 kinetic damage on hit, and you deal 10 AP kinetic damage when you Ram objects and terrain."
+      "name": "攻城鎚",
+      "description": "攻城鎚是個末端裝有楔形尖頭的手持型金屬樑柱，隨時準備要猛擊密封艙門的接縫並將其強行撬開。這是 IPS-N 合併前的舊時代遺產之一。當有人需要打開被突然封閉的艙門時，它就是海陸駕駛員會拿來完成任務的道具。沉重、笨拙、牢不可破：IPS-N 攻城鎚，是放諸宇宙四海皆準的萬能鑰匙。",
+      "effect": "當你進行<b>衝撞</b>時，你在命中時造成 2 動能傷害。若<b>衝撞</b>的目標為物件或地形，則改為對其造成 10 穿甲(AP)動能傷害。"
     },
     "Daisy Cutter": {
-      "name": "Daisy Cutter",
+      "name": "除草槍",
       "profiles": {
         "Daisy Cutter": {
-          "name": "Daisy Cutter",
-          "description": "The Daisy Cutter is an effective weapon – if outdated – that’s still favored by many marine pilots. Essentially, it’s a massive shotgun; the pilot loads a charge into the gun’s breech, drops a packed sabot down the barrel, aims, and fires a hellfire cloud of flechette darts, bearings, and ignited magnesium strips, guaranteed to clear any deck on which it’s been fired.",
-          "on_attack": "Creates a cloud of smoke and detritus in the attack cone, providing soft cover in the affected area that lasts until the end of your next turn."
+          "name": "除草槍",
+          "description": "除草槍是一款性能優秀的武器，儘管有些過時，仍受到不少海陸駕駛員的喜愛。本質上，它就是一把巨型的霰彈槍；駕駛員將彈藥裝進槍膛，把脫殼彈投入槍管，瞄準，開火，發射出一片由破片飛鏢、鋼珠和燃燒鎂片構成的地獄火雲，保證能將槍管前的甲板空間徹底淨空。",
+          "on_attack": "在錐形攻擊範圍內產生一片被瓦礫和煙霧籠罩的區域，使範圍區域提供<b>軟性掩護</b>，持續直到你的下一回合結束為止。"
         }
       }
     },
     "Catalytic Hammer": {
-      "name": "Catalytic Hammer",
+      "name": "催化鎚",
       "profiles": {
         "Catalytic Hammer": {
-          "name": "Catalytic Hammer",
-          "description": "Modified originally from blast-mining equipment, the catalytic hammer (colloquially, the “pilebunker”) has since been refined into a formidable melee weapon. When fired, a charge propels the hammer – a solid cylinder with a spike on one end – through a short barrel, impacting with enormous kinetic force. Standard hammer heads are smooth to allow for easy extraction from targets, but they can be detached and replaced if retrieval is impossible. Any installation of a catalytic hammer necessitates superstructure reinforcement to allow for sufficient energy dispersal.",
-          "on_crit": "Your target must succeed on a Hull save or become Stunned until the end of their next turn."
+          "name": "催化鎚",
+          "description": "最初改裝自爆破採礦設備，催化鎚（俗稱貫釘）已經演變成了強大的肉搏武器。內部裝填的火藥會在開火時推動鎚頭，讓單邊削尖的鐵棒穿過短槍管，帶著龐大的動能猛擊目標。標準鎚頭的表面光華，以便從目標身上拔除，但在無法將其回收的情況，也可以將鎚頭另外拆卸並替換。任何催化鎚的安裝都需要事前強化機體的結構，確保衝擊能量能被分散。",
+          "on_crit": "你的目標必須成功通過<b>機體豁免</b>，否則陷入<b>暈眩</b>狀況直到其下一回合結束為止。"
         }
       }
     },
     "Throughbolt Rounds": {
-      "name": "Throughbolt Rounds",
-      "description": "Throughbolt rounds are a proprietary IPS-N anti-armor invention. When fired, the rounds ignite and project a superheated cone of plasma before them, creating an effect like a miniature lance that easily penetrates multiple targets – even through hard surfaces.",
-      "effect": "When you attack with the weapon this mod is applied to, you may fire a throughbolt round instead of attacking normally. Draw a line 3 path from you, passing through terrain or other obstacles – any characters or objects in the path take 2 AP kinetic damage as the projectile punches through them and out the other side. Range, cover, and line of sight for the attack are then measured from the end of this path, continuing in the same direction."
+      "name": "穿雲彈",
+      "description": "穿雲彈是 IPS-N 發明的專利反裝甲技術。在開火時，其彈頭會被點燃並產生高熱電漿圓錐，形成類似微型長槍一樣的效果，輕易穿透多個目標甚至是堅硬表面。",
+      "effect": "選擇一件 <b>CQB</b>、<b>大炮</b>或<b>步槍</b>武器：當你使用該武器攻擊時，你可以改為發射穿雲彈，而非進行原本的正常攻擊。以你為起點畫出<b> 線性 3 </b>範圍，這條直線可以穿過地型或其他障礙物。每個位於直線上的角色或物件都會因為被穿雲彈貫穿而受到 2 穿甲(AP)動能傷害，然後，使用該武器進行一次攻擊，從該直線的末端計算該攻擊的射程、掩護、視線範圍，並維持同一方向。"
     },
     "HyperDense Armor": {
-      "name": "HyperDense Armor",
-      "description": "IPS-N HyperDense Armor is built for space – forged with no regard for any constraints users might face within a gravity well. As such, many pilots protected by HyperDense products are shocked to experience the difference between piloting their mech down a well and taking it for a ride in the null-gravity of space.",
+      "name": "超密度裝甲",
+      "description": "IPS-N 的超密度裝甲專為太空環境而打造──從未考慮過使用者在重力井內可能面臨的限制。因此，很多受到超密度產品保護的駕駛員在駕駛機甲進入重力井時，往往會對於其在無重力太空環境的操控差異而感到震驚。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "When activated, the HyperDense Armor hardens into a shimmering, reflective surface that offers unparalleled protection. You gain Resistance to all damage, Heat and Burn from attacks that originate beyond Range 3; however, you become Slowed and deal half damage, Heat and Burn to characters beyond Range 3."
+          "name": "啟動超密度裝甲",
+          "detail": "當被啟動，這套超密度裝甲會硬化成閃亮的反光表面，提供無人能及的防護效果。你得到對所有源自<b> ⌿3 </b>範圍外攻擊造成的傷害、熱度、和燃燒的<b>抗性</b>；然而，你也會陷入<b>緩慢</b>狀況，且你對位於<b> ⌿3 </b>範圍外的角色造成的傷害、熱度、和燃燒也會被減半。"
         },
         "Deactivate HyperDense Armor": {
-          "name": "Deactivate HyperDense Armor",
-          "detail": "Deactivate HyperDense Armor, losing Resistance to all damage, Heat and Burn from attacks that originate beyond Range 3; as well as clearing your Slowed status and dealing normal damage, Heat and Burn to characters beyond Range 3."
+          "name": "停用超密度裝甲",
+          "detail": "停止超密度裝甲，失去對源自<b> ⌿3 </b>範圍外攻擊造成的所有傷害、熱度、和燃燒的<b>抗性</b>；解除你的<b>緩慢</b>狀況，並對位於<b> ⌿3 </b>範圍外的角色造成正常的傷害、熱度、和燃燒。"
         }
       }
     },

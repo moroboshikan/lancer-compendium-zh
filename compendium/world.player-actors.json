@@ -33,9 +33,9 @@
       "detail": "This mine detonates when a flying character passes over or adjacent to it, up to 10 spaces high. The mine launches itself upwards and detonates: all characters within the affected area must succeed on a Systems save or take 2d6 explosive damage and immediately land (this counts as falling without any damage); additionally, they can’t fly until the end of their next turn. On a success, they take half damage and are otherwise unaffected."
     },
     "Breaching Charge": {
-      "name": "Breaching Charge",
-      "tokenName": "Breaching Charge",
-      "detail": "In addition to adjacent free spaces, this mine can also be planted on adjacent walls, pieces of cover, and terrain. Once armed, this mine must be detonated with a quick action. Characters within the affected area must succeed on an Agility save or take 2d6 AP explosive damage. On a success, they take half damage. Objects and terrain are hit automatically and take 30 AP explosive damage."
+      "name": "突破炸藥",
+      "tokenName": "突破炸藥",
+      "detail": "除了鄰接的未佔據空間外，這個地雷也可以被安裝在鄰接的牆壁、掩護、或地形上。在設置後，這個地雷必須以<b>快速動作</b>來引爆。影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 2d6 穿甲(AP)爆炸傷害。豁免成功則只受到一半的傷害。物件和地形會被自動命中並受到 30 穿甲(AP)爆炸傷害。"
     },
     "Damping Station": {
       "name": "Damping Station",
