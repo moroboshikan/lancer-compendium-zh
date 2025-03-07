@@ -206,9 +206,9 @@
       }
     },
     "Webjaw Snare": {
-      "name": "Webjaw Snare",
-      "tokenName": "Webjaw Snare",
-      "detail": "The Webjaw Snare does not obstruct movement, and can’t be attacked until it is triggered.<br>The snare is triggered when any character moves over it. They must succeed on a Hull save or take 1d6 AP kinetic damage and become Immobilized. This effect lasts until the snare is destroyed."
+      "name": "網顎陷阱",
+      "tokenName": "網顎陷阱",
+      "detail": "網顎陷阱不會阻礙移動，且直到被觸發前都不能被攻擊。<br>網顎陷阱會在任何角色移動到其所在位置時被觸發。目標必須成功通過<b>機體豁免</b>，否則受到 1d6 穿甲(AP)動能傷害，並陷入<b>固定</b>狀況。這個效果會持續直到網顎陷阱被毀為止。"
     }
   }
 }
