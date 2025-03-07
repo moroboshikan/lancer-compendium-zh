@@ -84,8 +84,6 @@
         }
       }
     },
-
-
     "COMP/CON-Class Assistant Unit": {
       "name": "助理伴侶級輔助單元",
       "description": "GMS 的助理伴侶級輔助單位適用於全銀河系的標準。這些虛擬助手甚至可以通過最嚴謹的圖靈零假設評估基準，而且能夠在沒有駕駛員的情況下運作。",
@@ -191,8 +189,6 @@
         }
       }
     },
-
-
     "Anti-Materiel Rifle": {
       "name": "反物資步槍"
     },
@@ -261,6 +257,1863 @@
     },
     "Tempest Charged Blade": {
       "name": "暴風充能劍"
+    },
+
+    "Blackbeard": {
+      "name": "黑鬍子",
+      "description": "黑鬍子是 IPS-N 為了打擊海盜活動而開發的激進解決方案：這款用於前線作戰，先發制人的機甲，被專門設計用來應對擊發式動能武器無法使用、有風險、或可能造成非必要附帶損害的環境。黑鬍子特別纖細的骨架不只讓其更加敏捷，同時還能減少雷達剪影面積，使其更難被偵測或鎖定。<br><br>黑鬍子機型主要分成兩個系列：標準的 IPS-N/BB-L 量產型號，以及限量發行的 IPS-N/BB-Sk 原型機，特別設計用於搭載 IPS-N 的塞赫麥特級 NHP。",
+      "traits": {
+        "Grapple cable": {
+          "name": "擒拿繩",
+          "description": "黑鬍子可以對 ⌿5 範圍內的目標進行<b>擒拿</b>。如果擒拿成功，黑鬍子將立即把自己以最短距離拉動到與目標鄰接的空間。如果不存在合適空間的話，則擒拿將被解除，且黑鬍子不會因此移動。"
+        },
+        "Lock/Kill Subsystem": {
+          "name": "鎖定/殺戮副系統",
+          "description": "黑鬍子在<b>擒拿</b>時可以進行<b>推進</b>並採取<b>反應</b>。"
+        },
+        "Exposed Reactor": {
+          "name": "外露反應爐",
+          "description": "黑鬍子在進行<b>工程判定和豁免</b>時會得到 +1 難度。"
+        }
+      },
+      "core_system": {
+        "name": "突擊擒拿",
+        "description": "IPS-N 品牌的突擊擒拿系統是引領市場的技術，能用於拖行、支撐和固定體型最高 4 級的機甲骨架。其末端抓鈎可以替換，根據需求針對軟目標或硬目標進行切換──搭載電流或釘刺代碼系統來達成遠距離癱瘓的成效。",
+        "passive_name": "被動",
+        "active_name": "萬用魚叉",
+        "active_effect": "此系統對 ⌿5 範圍和視線範圍內任意數量的目標發射擒拿魚叉。目標必須成功通過<b>機體豁免</b>，否則受到 2d6 動能傷害，並被擊倒<b>伏臥</b>，被盡可能拉到與你鄰接的空間，並陷入<b>固定</b>狀況直到其下一回合結束為止。若豁免成功，則目標只受到一半傷害，且不受到其他效果影響。"
+      }
+    },
+    "Chain Axe": {
+      "name": "鏈斧",
+      "profiles": {
+        "Chain Axe": {
+          "name": "鏈斧",
+          "description": "IPS-N 鏈斧是一把以核心動力驅動的鋸齒鏈刃，改良自常見伐木工具的軍規升級版。鏈斧的鋸齒尖端使用鎢金屬加固，可以輕易砍斷任何硬度的目標。同時擔任強力武器和實用工具的定位，經常被需要突破強化隔艙板的登艦部隊所使用。",
+          "on_crit": "你的目標陷入<b>離散</b>狀況，持續直到這回合結束為止。"
+        }
+      }
+    },
+    "Synthetic Muscle Netting": {
+      "name": "合成肌肉織網",
+      "description": "IPS-N 的合成肌肉織網（Synthetic Muscle Netting，簡稱 SMN）是經戰場驗證的獨家改裝技術，適用於所有現存的 IPS-N 骨架。這個便捷的噴霧式催化劑兼結構強化劑，能夠增強操作臂和推進系統約 25% 的性能，且不會影響其運行壽命。SMN 塗層亦可強化抗衝擊能力和熱絕緣能力。<br><br>IPS-N 建議使用者只對內部零件使用 SMN，且需要經常進行清潔以避免遭到類敗血症狀腐蝕。",
+      "effect": "你可以<b>衝撞</b>比你大的目標，且當你<b>擒拿</b>或<b>衝撞</b>比你更大的目標時，你的大小將被視為與其中最大敵人的大小相同。當你<b>擒拿</b>或<b>衝撞</b>與你相同或更小的目標時，你的大小將被視為比其要大至少 1 級。此外，你的舉重和拖曳能力加倍。"
+    },
+    "Bristlecrown Flechette Launcher": {
+      "name": "鬃冠鏢彈發射器",
+      "profiles": {
+        "Bristlecrown Flechette Launcher": {
+          "name": "鬃冠鏢彈發射器",
+          "description": "IPS-N 的鬃冠鏢彈發射器採用類巢房發射器的設計，在使用者周圍投放出一個圓頂狀的全方位軟目標殺傷空間，主動封鎖敵方步兵級單位的行動。",
+          "effect": "這件武器忽略<b>交戰</b>導致的遠距攻擊懲罰，且對被<b>擒拿</b>或生物類型的目標會造成 3 動能傷害，而非原本的 1 傷害。"
+        }
+      }
+    },
+    "Nanocarbon Sword": {
+      "name": "奈米碳劍",
+      "profiles": {
+        "Nanocarbon Sword": {
+          "name": "奈米碳劍",
+          "description": "IPS-N 的奈米碳劍是對古典近戰武器的一次革新。刀刃內嵌的奈米感應器能捕捉全頻譜戰鬥數據，並將其傳輸到萬物網儲存庫用以戰後分析。同時，機載軟體將實時解析反饋並同時調整劍鋒的分子結構。"
+        }
+      }
+    },
+    "Reinforced Cabling": {
+      "name": "強化纜索",
+      "description": "強化抓鈎纜索能讓機甲在 1G 重力以下的環境中達到完全機動和其他用途。這條纜索以超強韌奈米碳纖維和擬蛛絲線束編織而成，纏繞在安裝於腰部的線軸，並能透過充能驅動的前臂發射器發射。當纜索被發射時，抓鈎會射穿並錨定於目標。索繩上每間隔三十米的位置內嵌有小型熔斷炸藥，讓使用者能在快速脫離的同時，暴露出新的抓鈎尖端，確保其能立即重新使用。",
+      "actions": {
+        "Grapple Swing": {
+          "name": "擒拿推進",
+          "detail": "每回合一次，當你進行普通移動時，你可以朝未佔據的直線方向路徑<b>飛行</b>等同你速度的距離。這個移動必須停止在物件或表面上，否則你將開始墜落。只要你維持不動，你就能把自己固定在你停下來的垂直或倒掛表面上。如果你在這個情況下被擊倒<b>伏臥</b>或擊退，則你也會因此墜落。"
+        },
+        "Drag Down": {
+          "name": "拖倒",
+          "detail": "對位於 ⌿5 範圍和視線範圍內的一名角色進行<b>機體對抗</b>判定：對抗失敗者將會被拖倒<b>伏臥</b>。"
+        }
+      }
+    },
+    "SEKHMET-Class NHP": {
+      "name": "塞赫麥特級 NHP",
+      "description": "「IPS-N 的塞赫麥特型副駕駛，隨時準備成為您的副手！塞赫麥特標準配備包括遠端遙控、萬物網連接、紅外標記和聲控系統，並且與所有 IPS-N 的新型和舊型機甲完全兼容！<br>您知道嗎？塞赫麥特會和您一起學習！就算情況再糟，屬於您的塞赫麥特也會透過模擬神經網絡分身繼續操控您的 IPS-N 機甲，直到被強制或是自願停機為止！」<br>——IPS-N 北極星駕駛員休息室 廣告草稿<br>[已移除並替換為現行版本]<br><br>塞赫麥特級 NHP 普遍會展現出好戰性格和黑色幽默。許多駕駛員把他稱為「狂戰士系統」——比起駕駛員的安危更重視戰鬥效能的危險 NHP。",
+      "actions": {
+        "SEKHMET Protocol": {
+          "name": "塞赫麥特協定",
+          "detail": "當啟動時，你把機甲的控制權交給你的 NHP，並得到以下好處：<ul><li>所有肉搏攻擊在<b>會心一擊</b>時會造成 +1d6 額外傷害。</li><li>每輪一次，你能以<b>免費動作</b>使用肉搏武器進行<b>交火</b>。</li></ul>你的 NHP 會使用所有動作和移動盡可能往最靠近的可見角色（不論敵我） 移動，並對其進行肉搏攻擊。這個攻擊會優先使用肉搏武器，且會受益於你的天賦。如果威脅範圍內沒有任何角色，則你的 NHP 會使用所有動作和移動盡可能往最靠近的可見目標移動。你的 NHP 不會進行遠距攻擊，即使它可以進行該動作也一樣。<br><br>你仍然保有足夠的控制權以決定是否要<b>超限</b>，但你的 NHP 會依照同樣的行動方針來使用這個額外的動作。<br><br>你能以<b>協定</b>動作來取回機甲的控制權。當你這麼做時，你會陷入<b>暈眩</b>狀況直到你的下一回合開始為止。否則，這個效果將會持續直到你的機甲被毀為止──駕駛員的失神或死亡並不會終止這個效果。"
+        }
+      }
+    },
+    
+    "Drake": {
+      "name": "德瑞克",
+      "description": "德瑞克是 IPS-N 首次嘗試軍規機甲設計的代表作，也是所有前瞻性貿易保安和反海盜部隊的核心主幹。它擁有巨大的類人型骨架，核心由整體鑄造的艙室構成，外部的強化傾斜裝甲能夠抵禦長時間炮火以及近艦真空作戰中的惡劣環境。德瑞克是一款氣宇軒昂的機甲，其身影能讓人聯想到在那兵力優勢能決定一切的時代中，靠著霸道力量支配戰場的古代重裝步兵。<br>標準艦隊牌照的每一台 IPS-N 德瑞克都配備有高射速、高破片的突擊火炮，用於壓制與殲滅敵方目標，並搭載重型動能燒蝕塔盾作防衛之用。進階型號則會配備升級版的武器和裝甲，包括惡名昭彰的利維坦重型突擊火炮這種高射速反物資武器。",
+      "traits": {
+        "Heavy Frame": {
+          "name": "重型骨架",
+          "description": "德瑞克不會被比它更小的角色給推動、拉動、擊倒<b>伏臥</b>或是擊退。"
+        },
+        "Blast Plating": {
+          "name": "防爆鍍層",
+          "description": "德瑞克對來自 <b>爆發、濺射、線性、和錐形</b> 攻擊造成的傷害、燃燒、和熱度具有抗性。"
+        },
+        "Slow": {
+          "name": "緩慢",
+          "description": "德瑞克在進行<b>敏捷判定和豁免</b>時會得到 +1 難度。"
+        },
+        "Guardian": {
+          "name": "守護者",
+          "description": "鄰接的隊友角色可以把德瑞克當成<b>硬性掩護</b>。"
+        }
+      },
+      "core_system": {
+        "name": "要塞",
+        "passive_name": "被動",
+        "active_name": "要塞協定",
+        "active_effect": "你展開機甲的重型穩定裝置，讓機甲從載具變成固定要塞。在啟動時，從你的機甲往任意方向展開二個<b>硬性掩護</b>區塊（線性 2 範圍、大小 1）。這些掩護區塊免疫於所有傷害。<br><br>此外，在這個系統啟動期間，你得到以下效果：<ul><li>你陷入<b>固定</b>狀況。</li><li>即使身處開闊地形，你也能得到<b>硬性掩護</b>的好處，並免疫於擊退、<b>伏臥</b>、和所有強制移動的效果。</li><li>當你進行<b>受身</b>時，你在你的下一回合將能採取完整動作，而不只是一個快速動作。</li><li>任何受益於你或你掩護的<b>硬性掩護</b>的角色同樣免疫於擊退、<b>伏臥</b>、和所有強制移動的效果，並能受益於<b>防爆鍍層</b>的好處。</li></ul>這個系統能以<b>協定</b>動作解除。除此之外的情況，其效果將持續直到該場景結束。"
+      }
+    },
+    "Assault Cannon": {
+      "name": "突擊火炮",
+      "profiles": {
+        "Standard": {
+          "name": "標準模式",
+          "description": "IPS-N 首選的突擊火炮是一款附有深度冷卻系統的自動火炮，能作為固定裝載式武器或被安裝在機械臂操作平台上。這款火炮的設計簡潔，能使用盒式彈匣或彈鏈來供彈，並作為幾乎所有 IPS-N 艦隊訂單中的標準配備。在微重力和無重力環境下，德瑞克的駕駛員也經常把這款突擊火炮當作額外的推進系統來使用。",
+          "effect": "你能以<b>快速動作</b>轉動這件武器的炮管。",
+          "actions": {
+            "Spin Up Assault Cannon": {
+              "name": "轉動突擊火炮",
+              "detail": "高速轉動突擊火炮的炮管，減緩你機甲的速度，並讓你以「高轉速模式」使用該武器。"
+            }
+          }
+        },
+        "Spin-Up Mode": {
+          "name": "高轉速模式",
+          "description": "IPS-N 首選的突擊火炮是一款附有深度冷卻系統的自動火炮，能作為固定裝載式武器或被安裝在機械臂操作平台上。這款火炮的設計簡潔，能使用盒式彈匣或彈鏈來供彈，並作為幾乎所有 IPS-N 艦隊訂單中的標準配備。在微重力和無重力環境下，德瑞克的駕駛員也經常把這款突擊火炮當作額外的推進系統來使用。",
+          "effect": "在高速轉動期間，這件武器得到<b> 可靠 3 </b>標籤，但你陷入<b>緩慢</b>狀況。<br>你能以<b>協定</b>動作結束這個效果。",
+          "actions": {
+            "Cease Spin-Up": {
+              "name": "停止轉動",
+              "detail": "結束突擊火炮的「高轉速模式」，解除<b>緩慢</b>狀況，並讓你以「標準模式」使用該武器。"
+            }
+          }
+        }
+      }
+    },
+    "Argonaut Shield": {
+      "name": "阿爾戈大盾",
+      "description": "在太空中，簡單的設計和功能可以確保其可靠性，增進信任度。而阿爾戈大盾正是 IPS-N 歷史最悠久的設計之一，其起源可追溯至極星公司合併前的深黑安保部隊。這款盾牌基本上就是一塊堅固的金屬板，既可手持，也能安裝在機甲前臂的超結構上；駕駛員唯一的客製化選項就只有這面盾牌的大小。",
+      "actions": {
+        "Action": {
+          "name": "啟動阿爾戈大盾",
+          "detail": "你以<b>快速動作</b>使用這件重型舉臂式大盾來為一名鄰接角色提供掩護，讓其得到對所有傷害的<b>抗性</b>；然而，你也會受到目標在適用裝甲和抗性之前受到的傷害的一半。這個效果會持續直到你與目標不再鄰接，然後這個效果就會結束，直到你再次使用這個動作。"
+        }
+      }
+    },
+    "Concussion Missiles": {
+      "name": "震盪飛彈",
+      "profiles": {
+        "Concussion Missiles": {
+          "name": "震盪飛彈",
+          "description": "震盪飛彈配備著低破片和低白熾性的和超壓產生炸藥，用以造成暈眩、威懾、擊退、和擾亂，通常會配合更致命的重型武器一起使用。",
+          "on_hit": "目標必須成功通過<b>機體豁免</b>，否則陷入<b>受損</b>狀況直到其下一回合結束為止。"
+        }
+      }
+    },
+    "Aegis Shield Generator": {
+      "name": "神盾護盾產生器",
+      "description": "神盾是可攜式的電磁護盾產生器：一種即使與現代手段相比較為粗糙，但仍然強大且可靠的範圍動能阻抗和粒子干涉系統。",
+      "effect": "消耗一發在鄰接的未佔據空間中展開一個大小 1 的<b>神盾護盾產生器</b>。它會在該處產生一個<b> 爆發 1 </b>範圍的護盾。"
+    },
+    "Leviathan Heavy Assault Cannon": {
+      "name": "利維坦重型突擊火炮",
+      "profiles": {
+        "Standard": {
+          "name": "標準模式",
+          "description": "利維坦重突擊火炮，簡稱 HAC，是一款體型龐大的多管轉輪式火炮，由外部彈藥庫供彈，通常安裝在機甲背部。在未經改造的情況下，利維坦只應在建議的點射時機開火，避免對機體關節和駕駛員造成衝擊性傷害。<br><br>IPS-N 目前正與哈里遜兵工廠的智囊團合作，研究透過遙距供彈方式來解決這款大炮的高額彈藥需求。",
+          "effect": "與其他超重型武器不同，此武器能被用來進行<b>交火</b>。你能以<b>快速動作</b>轉動這件武器的炮管。",
+          "actions": {
+            "Spin Up Leviathan": {
+              "name": "轉動利維坦",
+              "detail": "高速轉動利維坦重型突擊火炮的炮管，減緩你機甲的速度，並讓你以「高轉速模式」使用該武器。"
+            }
+          }
+        },
+        "Spin-Up Mode": {
+          "name": "高轉速模式",
+          "description": "利維坦重突擊火炮，簡稱 HAC，是一款體型龐大的多管轉輪式火炮，由外部彈藥庫供彈，通常安裝在機甲背部。在未經改造的情況下，利維坦只應在建議的點射時機開火，避免對機體關節和駕駛員造成衝擊性傷害。<br><br>IPS-N 目前正與哈里遜兵工廠的智囊團合作，研究透過遙距供彈方式來解決這款大炮的高額彈藥需求。",
+          "effect": "在高速轉動期間，你陷入<b>緩慢</b>狀況，且無法再使用此武器進行<b>交火</b>。<br>你能以<b>協定</b>動作結束這個效果。",
+          "actions": {
+            "Cease Spin-Up": {
+              "name": "停止轉動",
+              "detail": "結束利維坦重型突擊火炮的「高轉速模式」，解除<b>緩慢</b>狀況，並讓你以「標準模式」使用該武器。"
+            }
+          }
+        }
+      }
+    },
+    "Portable Bunker": {
+      "name": "流動碉堡",
+      "description": "IPS-N 的「流動碉堡」實際上是一系統的一次性延展列印用材：一種裝在扁平包裹中的非牛頓流體，在展開後會迅速硬化成能抵禦強大衝擊力的堅固結構。",
+      "effect": "消耗一發在鄰接 4x4 範圍的未佔據空間中展開一個<b>流動碉堡</b>。在你的下一回合開始時，它會展開成具有高度防禦性能的碉堡。"
+    },
+
+    "Lancaster": {
+      "name": "蘭開斯特",
+      "description": "IPS-N 蘭開斯特是一款軍規版本的機甲，源自於舊型 IPS-N 民用內外艙地面運輸與和維修用骨架，在經過精簡後能適用於各種戰場環境。蘭開斯特配備了多重備援系統和先進的交互投影裝置，確保其在處理精密系統（無論受損與否）時都能維持極致的精密度。<br><br>蘭開斯特的駕駛員通常會在前線擔任工兵或工程師的支援角色。儘管有些未經世事的年輕駕駛員會嘲笑蘭開斯特過於老派，但資深駕駛員很清楚：蘭開斯特是最可靠與精良的機甲之一，在任何嚴苛的長期作戰中都不可或缺。並非每場戰鬥都能靠子彈、雷射、和炸彈分出勝負──少了工程師和他們的「蘭妮保母」，這些驕傲的王牌駕駛員中恐怕很少有幾個能活著回家。",
+      "traits": {
+        "Insulated": {
+          "name": "隔熱",
+          "description": "蘭開斯特免疫於<b>燃燒</b>。"
+        },
+        "Combat Repair": {
+          "name": "戰地維修",
+          "description": "在戰鬥中，蘭開斯特能以<b>完整動作</b>使用 4 維修來修復一個被毀的機甲，將其回復到 1 結構，1 壓力，和 1 HP。",
+          "actions": {
+            "Combat Repair": {
+              "name": "戰地維修",
+              "detail": "以<b>完整動作</b>使用 4 維修來修復一個被毀的機甲，將其回復到 1 結構，1 壓力，和 1 HP。"
+            }
+          }
+        },
+        "Redundant Systems": {
+          "name": "備援系統",
+          "description": "在你的同意之下，與蘭開斯特鄰接的其他角色能夠把蘭開斯特的<b>維修</b>當作自己的來使用。"
+        }
+      },
+      "core_system": {
+        "name": "拴鎖無人機",
+        "description": "俗稱「僚機」的拴鎖無人機是機甲攜帶並部署展開的伴侶級無人機。鑒於其高折損率，建議駕駛員不要對它們產生情感依附。",
+        "passive_name": "被動",
+        "active_name": "增壓器",
+        "active_effect": "你的<b>拴鎖無人機</b>附著在其射程內的一名隊友機甲上。直到該場景結束之前，你在自己的每個回合開始時都會受到 1 熱度，但你的目標在所有攻擊、豁免和判定中都會得到<b> +1 準度</b>，且免疫於他人造成的<b>受損</b>、<b>受擾</b>、<b>緩慢</b>、<b>離散</b>、和<b>固定</b>狀況。這個效果會持續直到你或目標中的任何一人陷入<b>暈眩</b>狀況為止。<br><br>當這個系統被啟動，你將無法使用<b>拴鎖無人機</b>進行其他用途。"
+      }
+    },
+    "Latch Drone": {
+      "name": "拴鎖無人機",
+      "profiles": {
+        "Latch Drone": {
+          "name": "拴鎖無人機",
+          "effect": "這件武器不能用來進行正常攻擊。取而代之，選擇位於射程和視線範圍內的一名隊友機甲，並進行一次遠距攻擊（目標視為<b>迴避 8</b>）。若命中，則你或你的目標可以消耗 1 維修來使目標回復一半的 HP。"
+        }
+      }
+    },
+    "Cable Winch System": {
+      "name": "絞纜盤系統",
+      "description": "這個絞纜盤系統是由外置的奈米碳纖維纜線軸以及安裝於機甲的回收副程式構成。",
+      "actions": {
+        "Action": {
+          "name": "啟動絞纜盤系統",
+          "detail": "這些纜索可以被附著在一名鄰接角色身上。如果目標同意或處於<b>暈眩</b>狀況，則這個行動將自動成功，否則，目標能夠進行<b>機體豁免</b>來嘗試抵抗這個效果。一旦纜索成功附著，你和目標將無法移動到距離彼此 5 格外的位置。你和目標都能遵循舉重和拖行規則來拖動對方，並在這麼做時陷入<b>緩慢</b>狀況。<br><br>任何角色都能使用<b>肉搏</b>或<b>權宜攻擊</b>攻擊纜索（迴避 10），並在命中時解除纜索的附著狀態。<br><br>這些纜索同樣能拿來拖行、拉動、或其他方式與環境和物件互動。纜索擁有 5 格的長度，且能夠支撐最多等同於大小 6 的重量而不會斷裂。角色能利用它來攀爬表面，讓其忽略攀爬時的速度懲罰。"
+        }
+      }
+    },
+    "Restock Drone": {
+      "name": "補給無人機",
+      "description": "補給無人機是搭載內建列印機，可靠且堅韌無比的無人機，能透過自動回收功能來提供有限的後勤彈性。補給無人機內的大部分空間都裝滿 RawMat，一種矽酸鹽和金屬材料的混合物，讓無人機能用來加工成替換零件或維修工具。這也是為什麼駕駛員經常開玩笑地把這種無人機暱稱為「機甲零食」。",
+      "effect": "消耗一發在任何鄰接的未佔據空間展開一部<b>補給無人機</b>，它會在你的回合結束時完成展開。"
+    },
+    "MULE Harness": {
+      "name": "驢騾挽具",
+      "description": "多使用者輕型纏結（Multiple User, Light Entanglement，簡稱驢騾）挽具是量產型的常見戰場改裝設備，讓友軍士兵能夠騎乘在機甲上跟著移動。部分這類系統大到足夠讓小型機甲附載於大型機甲上；這種變體通常被用於高空或低軌道投放這類需要降低雷達投影的面積的行動中。",
+      "effect": "這個系統包含額外的掛載點、繫帶和結構點，讓其他角色能夠爬上並騎乘你的機甲。任何與你鄰接，且不處於<b>固定</b>狀況的角色能夠以<b>快速動作</b>爬上你的機甲。在騎乘期間，該角色會與你佔據相同的空間，跟著你一起移動（即使其處於<b>緩慢</b>狀況也一樣），並受益於<b>軟性掩護</b>。如果你或騎乘者被擊倒<b>伏臥</b>、陷入<b>暈眩</b>、<b>固定</b>狀況或被毀，則騎乘者會跌落到鄰接空間並摔倒<b>伏臥</b>。騎乘者能在進行任何形式移動的同時爬下機甲，但只能透過<b>快速動作</b>來爬上你的機甲。<br><br>你可以承載大小總和最多等同於「你的大小 - 1/2」的騎乘者（舉例來說，如果你機甲的大小為 1，則你只能承載一個大小為 1/2 的角色；如果你的機甲大小為 2，則你可以承載一個大小為 1 和一個大小 1/2 的角色）。"
+    },
+    "Whitewash Sealant Spray": {
+      "name": "白蠱封膠噴霧",
+      "description": "為了撲滅火焰和臨時快速封堵破開的星艦艙壁，IPS-N 提供了一系列單一功能的一次性奈米機械──「白蠱」。透過安裝適當的噴嘴和催化配方，這種封膠噴劑也能用來拘束反抗目標的行動。",
+      "actions": {
+        "Action": {
+          "name": "啟動白蠱封膠噴霧",
+          "detail": "這個封膠噴劑能被噴在位於 ⌿5 範圍和視線範圍內的一名角色或未佔據空間上。它會根據目標的類型造成不同的效果：<ul><li><b>敵對角色</b>：目標必須成功通過<b>敏捷豁免</b>，否則陷入<b>緩慢</b>狀況直到其下一回合結束為止，然後清除其身上的所有燃燒。</li><li><b>隊友角色</b>：目標清除身上所有燃燒，但陷入<b>緩慢</b>狀況直到其下一回合結束為止。</li><li><b>未佔據空間</b>：熄滅<b> 濺射 1 </b>範圍內的火焰，且該範圍區域變為困難地形，持續直到該場景結束。</li></ul>"
+        }
+      }
+    },
+    "Cutter MkII Plasma Torch": {
+      "name": "切割器二式電漿氣炬",
+      "profiles": {
+        "Cutter MkII Plasma Torch": {
+          "name": "切割器二式電漿氣炬",
+          "description": "電漿切割器原本只是一種工具：其簡單的刀刃設計，以及能切換並維持的電漿套層使切割金屬變得更加輕鬆。然而，由於切割器經常在對抗海盜的登艦部隊時被作為臨時防身武器使用，IPS-N 終於意識到為這把民用工具開發其軍規版本的必要性，並推出了第二代切割器。切割器二式直接汲取機甲動力核心為其供能，並配備額外接口以避免在纜線斷裂時無法使用的窘境。儘管切割器刀刃能被縮短至匕首尺寸，其最受歡迎的設置為「彎刀」：其中等長度的刀刃完美平衡了攻擊範圍和近距離戰鬥中的靈活性。",
+          "effect": "這件武器對物件、掩護、地形和環境會造成 10 穿甲(AP)能量傷害。"
+        }
+      }
+    },
+    "Aceso Stabilizer": {
+      "name": "阿刻索穩定器",
+      "description": "IPS-N 阿刻索穩定器是一種實用的急救手段，可以用來應對任何戰鬥和惡劣環境影響造成的磨損和輕度機械損害。由於其極低的處理器需求，阿刻索穩定器甚至可以由助理伴侶單元代為操作，讓駕駛員能夠集中種神處理更複雜的維修工作和解決更迫切的威脅。",
+      "actions": {
+        "Action": {
+          "name": "啟動阿刻索穩定器",
+          "detail": "消耗一發，對位於 ⌿5 範圍內的一名隊友機甲發射這枚小型自我裝載系統。該機甲會得到等同「你的毅力 + 4」的護盾。在該機甲擁有該護盾期間，其免疫於<b>受損</b>和<b>受擾</b>狀況。"
+        }
+      }
+    },
+
+    "Nelson": {
+      "name": "納爾遜",
+      "description": "IPS-N 納爾遜這款機甲將其生產商崇尚的白刃戰原則發揮得淋漓盡致。它專為肉搏戰而設計，能在彈盡援絕或者不適合使用熱兵器的惡劣環境中嶄露鋒芒。憑藉其適中的尺寸，納爾遜能夠迅速出擊，並始終讓自己難以被敵方鎖定。層層覆蓋的碎形摺疊鎖甲配合其類陶瓷碳片化特性，能有效利用其圓滑的外殼分散動能，消除來襲炮彈的衝擊力。這種「零動能」防禦機制能保護駕駛員不受衝擊傷害，確保其能在高強度交火中維持戰鬥效率。<br><br>納爾遜是 IPS-N 旗下的經典機甲，作為信天翁的標誌性機甲而名震整個銀河系。信天翁是一支由寰宇公民組成的遊牧騎士團，其獨特的白、金、紅三色塗裝，出神入化的刺槍術，以及因時間膨脹效應而顯得永生不老的形象，不僅使信天翁和納爾遜機甲在散居者的心目中佔有一席之地——也為他們贏得了與 IPS-N 之間永久性的合作契約。",
+      "traits": {
+        "Momentum": {
+          "name": "勁勢",
+          "description": "每輪一次，在你進行<b>推進</b>後，納爾遜的下一次肉搏攻擊會在命中時造成 +1d6 額外傷害。"
+        },
+        "Skirmisher": {
+          "name": "散兵",
+          "description": "只要納爾遜不處於<b>固定</b>或<b>緩慢</b>狀況，納爾遜就能在攻擊之後，立即朝任意方向移動 1 格。這個移動忽略交戰且不會觸發反應。"
+        }
+      },
+      "core_system": {
+        "name": "永動動量驅動器",
+        "description": "IPS-N 的永動動量驅動器利用戰機級的近光速周邊並行技術來收集並維持被動的 0.000001 光速電荷，並能在指示下釋放至推進系統中。配備此驅動器的機甲需要經過重度強化，包括強化關節和肢體結構，並安裝動能補償耐衝擊座椅來保護駕駛員不受突發重力加速度和剪切力所傷。",
+        "passive_name": "被動",
+        "active_name": "啟動驅動器",
+        "active_effect": "在該場景中，<b>散兵</b>能讓你一次移動 4 格，而非原本的 1 格。"
+      }
+    },
+    "War Pike": {
+      "name": "刺槍",
+      "profiles": {
+        "War Pike": {
+          "name": "刺槍",
+          "description": "戰鬥刺槍是一種相當簡單的武器——長柄末端裝有一個堅固而細長的尖端，專門用來刺穿裝甲。儘管其早期設計源於採礦用的支柱，現代刺槍是一種堅固、平衡且可靠的武器，非常適合用於衝鋒作戰。"
+        }
+      }
+    },
+    "Bulwark Mods": {
+      "name": "壁壘改造",
+      "description": "所有 IPS-N 專屬的機甲核心都配有其 QuickMod 系統——一種兼容舊規格的模組化關節、硬點和內部掛載點系統，讓安裝升級變得更簡單便捷。對於與聯盟真實時間長期脫節的信天翁駕駛員而言，這個功能已被證實不可或缺。",
+      "effect": "你機甲的延長肢體、額外裝甲、備援機動系統和其他強化，讓你能夠忽略<b>困難地形</b>的影響。"
+    },
+    "Thermal Charge": {
+      "name": "高熱刀尖",
+      "description": "其中一種對經典刺槍的熱門改造，就是把原本細長的穿甲槍尖替換成一次性的衝擊觸發炸藥槍頭。在刺穿目標時，刺槍的槍頭會與槍柄分離──隨後，嵌入目標的槍頭便會向前方引發錐形爆炸。備用的高熱炸藥性質穩定，並會存放在外置的管狀彈匣中。<br><br>IPS-N 也有生產能兼容於 GMS 系列刀劍鎚槍的高熱炸藥。",
+      "effect": "選擇一件<b>肉搏武器</b>來應用這個改造：在應用此改造的武器攻擊並命中時，以<b>免費動作</b>消耗一發，觸發引爆器並造成 +1d6 額外爆炸傷害。"
+    },
+    "Armor-Lock Plating": {
+      "name": "裝甲鎖定鍍層",
+      "description": "IPS-N 的裝甲鎖定鍍層是一套全身性的機體改造，能讓駕駛員在需要讓機甲承受超出預期壓力的情況下，提供額外的機體穩定性。",
+      "effect": "你可以在<b>擒拿</b>期間進行<b>受身</b>。當你這麼做時，任何正在影響你的擒拿都會因此結束。<br><br>此外，當你<b>受身</b>時，你直到你的下一回合結束前都會得到以下好處：<ul><li>對你進行的攻擊將得到 +1 難度。</li><li>你的<b>敏捷和機體豁免和對抗判定</b>不會失敗。</li><li>你免疫於大小 5 以下的外力造成的擊退、擒拿、擊倒<b>伏臥</b>，和強制移動效果。</li></ul>"
+    },
+    "Power Knuckles": {
+      "name": "動力指虎",
+      "profiles": {
+        "Power Knuckles": {
+          "name": "動力指虎",
+          "description": "IPS-N 的動力指虎系列是另一款受偏好肉搏戰的駕駛員喜愛的裝備。動力指虎的形態五花八門，從普通的突起釘頭、超高密度拳套、到一系列以電磁加速的微型攻城鎚都有，動力指虎能夠有效增幅機甲原本就相當驚人的打擊力。",
+          "on_crit": "你的目標必須成功通過<b>機體豁免</b>，否則被擊倒<b>伏臥</b>。"
+        }
+      }
+    },
+    "Ramjet": {
+      "name": "衝壓噴射器",
+      "description": "資深的納爾遜駕駛員都知道這台機體存在一個臨界點：一個無盡動量的臨界點。當你在合適的大氣中加速到足夠的速度時，空氣本身會竄入機甲的副進氣口，發出如同惡魔的恐怖嚎叫聲。無盡動量的臨界點就像是巨人之手壓在你的胸口，彷彿神之戰車在你腳下疾馳，讓你覺得自己甚至能超越光速──只要你不要先昏過去的話。",
+      "actions": {
+        "Action": {
+          "name": "啟動衝壓噴射器",
+          "detail": "直到你的下一回合開始之前，你在進行<b>推進</b>時可以移動 +2 格距離，且你的肉搏攻擊（包括<b>衝撞</b>和<b>擒拿</b>等動作）得到<b> 擊退 2 </b>效果。<br><br>當你在這期間內移動時，你必須沿著直線以最大速度進行移動；你可以在將要撞到障礙物或敵對角色時停下來，且你可以在不同的移動動作（像是普通移動、推進等）之間改變方向。"
+        }
+      }
+    },
+
+    "Raleigh": {
+      "name": "雷利",
+      "description": "看見 GMS 與哈里遜兵工廠積極向聯盟成員國推銷全艦隊生產訂單，IPS-N 也開始短暫涉足主戰線機甲的設計和生產。其結果就是雷利，一款無論風格和設計上對 IPS-N 而言都極具特色的機甲。雷利並非專業特化，而是瞄準了近距離戰鬥而打造的通用型機甲。然而不幸的是，在試驗階段中，雷利並未能贏得潛在客戶的青睞。<br><br>儘管其獨特的風格和敏捷性深受測試駕駛員的喜愛，雷利卻沒能得到大量艦隊訂單，在短暫作為 IPS-N 的旗艦機體後，便被悄然回收．並被托爾蒂取而代之。雖然不再提供艦隊訂單，雷利仍然在追求均衡性能的前線近戰機甲駕駛員中保有一份低調的歡迎。",
+      "traits": {
+        "Full Metal Jacket": {
+          "name": "全金屬外殼",
+          "description": "在雷利的回合結束時，如果其在該回合期間沒有進行任何攻擊或迫使他人進行豁免，則其能以<b>免費動作</b>裝填所有帶有<b>裝填</b>標籤的武器。"
+        },
+        "Shielded Magazines": {
+          "name": "隔離彈匣",
+          "description": "雷利在處於<b>受擾</b>狀況時仍然可以進行遠距攻擊。"
+        }
+      },
+      "core_system": {
+        "name": "M35-雷神之鎚大炮",
+        "description": "IPS-N 的 M35-雷神之鎚大炮起源自極星公司「守望者」系列防衛武器，並經過改造以適用於前線戰鬥使用。雷神之鎚是一款固定型的多砲管轉輪副炮，採用磁力加速技術來對目標發射大量空爆彈藥。雷神之鎚屬於脈衝武器，與駕駛員的次級神經處理系統相連，並透過助理伴侶或 NHP 進行調節：即使駕駛員陣亡，雷神之鎚仍會持續識別並攻擊敵對目標，直至整個系統徹底癱瘓為止。因為這樣，雷神之鎚也經常被稱為「死神炮」，是偏好 CQB 駕駛員經常使用的武裝之一。",
+        "passive_name": "被動",
+        "active_name": "雷神",
+        "active_effect": "你開始高速轉動你 <b>M35-雷神之鎚大炮</b>的炮管，以未裝彈的形式開始。在該場景期間，如果你在自己回合中沒有使用 <b>M35-雷神之鎚大炮</b>開火的話，則你在該回合結束時能為其裝填 2 發彈藥，最多裝填 6 發。<br><br>當你使用 <b>M35-雷神之鎚大炮</b>開火時，所有裝填的彈藥都會被同時射出，造成每發彈藥 4 動能傷害。如果你同時發射 4 發或以上的彈藥，則該攻擊得到穿甲(AP)效果，並在命中時讓你的目標陷入<b>離散</b>狀況直到其下一回合結束為止。"
+      }
+    },
+    "Störtebeker": {
+      "name": "史托特貝克",
+      "description": "在雷利機甲在商業上的失敗後，IPS-N 為了回收初期成本，開放數家第三方公司收購該機體的開發授權。而其中一家公司正是安東工業：這家公司在遭遇執行長神秘失蹤的事件後股價暴跌，身陷泥淖。<br><br>為了尋求轉機，安東工業沒有放過機會，著手開發該公司名下的最後一款機體。使用其自家的哈帝斯三式機型作為改造雷利的基礎，安東工業迅速將該機甲開發成一款強調高速和快速部署的聯合作戰平台。原本雷利內建的雷神之錘因為過於沉重而不符合新設計理念，因此新機甲將其取代為「真銀」奈米儲槽──一種獨門白蠱技術製品，能夠在一次次攻擊中逐步強化武器的破壞力。<br><br>最終誕生的機甲被命名為「史托特貝克」，這個名字取自一則古老的地球傳說，並隱含著對公司困境的黑色幽默。然而就如同其名字所暗示的，這款機甲儘管相對了成功，卻最終導致了安東工業的覆滅。<br><br>迅速在傭兵、黑色行動部隊和賞金獵人之間收穫了許多人氣，史托特貝克成為了那些需要 IPS-N 機甲的高速機動性，卻更偏好遠程戰鬥而非納爾遜那種特化近身戰性質的駕駛員的首選。<br><br>IPS-N 也因此對史托特貝克展現了濃厚的興趣，並在最終決定收購這家小型公司，漠視了安東工業的其他計畫和子公司，徹底將整家公司吞食殆盡。如今，史托特貝克以雷利衍生機型的身分被正式歸屬於 IPS-N 旗下，成為了一間企業滅亡的見證──有時候，即使表現良好，最終也可能因而失敗。",
+      "traits": {
+        "Dynamic Reload": {
+          "name": "動態裝填",
+          "description": "史托特貝克除了副武器以外的所有武器得到以下效果：<br><ul><li><b>肉搏武器</b>：會心一擊時：裝填所有在該回合中沒有被用來攻擊的遠距武器。</li><li><b>遠距武器</b>：會心一擊時：裝填所有在該回合中沒有被用來攻擊的肉搏武器。</li></ul>"
+        },
+        "Truesilver": {
+          "name": "真銀",
+          "description": "每個場景一次，在使用武器攻擊並命中後，史托特貝克可以根據該武器的類型適用以下效果：<br><ul><li><b>非裝填武器</b>：該攻擊被視為會心一擊，但造成的傷害不會骰二次取高。</li><li><b>裝填武器</b>：該攻擊造成的傷害不會被減輕。</li></ul>"
+        }
+      },
+      "core_system": {
+        "name": "真銀武器",
+        "description": "「真銀」計畫的目的是嘗試提升白蠱奈米機械的破壞能力。這些高度特化的奈米機械會形成鏡面般的銀光塗層，並傳播到火器彈藥和肉搏武器上。這層塗層不僅賦予武器驚豔的外觀，同時也是這個系統名稱的由來。經過強化的武器能夠釋放具有破壞性的奈米載荷，使初擊造成的傷害以指數級成長，並從內部侵蝕目標。<br><br>真銀納米機械透過機體內部列印產生，儲存在專門的屏蔽槽內，然後輸送至機甲的武器系統。由於機體內部印表機的補充速度較慢，請駕駛員務必謹慎管理使用。",
+        "passive_name": "霍普金斯準則",
+        "passive_effect": "你只能在該回合進行過<b>交戰</b>動作後才能採取這個動作。選擇以下其中一個效果：",
+        "passive_actions": {
+          "Reprise": {
+            "name": "重演",
+            "detail": "使用該回合因為<b>動態裝填</b>而被裝填的武器再次進行<b>交火</b>。"
+          },
+          "Renewal": {
+            "name": "更新",
+            "detail": "在該回合結束時，<b>裝填</b>所有該回合期間沒有被用來攻擊的武器。"
+          }
+        },
+        "active_name": "真銀軍械庫",
+        "active_effect": "在該場景中，你的<b>真銀</b>特徵可以再額外使用 3 次。"
+      }
+    },
+    "Hand Cannon": {
+      "name": "掌心雷",
+      "profiles": {
+        "Hand Cannon": {
+          "name": "掌心雷",
+          "description": "IPS-N 掌心雷是 GMS 一式手槍的授權生產版本，經改造後德以裝填更大口徑的彈藥。視型號不同，這項改造能把 GMS 原版的彈鍊供彈系統替換成彈匣或輪轉系統。"
+        }
+      }
+    },
+    "BB Breach/Blast Charges": {
+      "name": "BB 突破/爆破炸藥",
+      "description": "突破/爆破炸藥為 IPS-N 開發的小行星礦業用炸藥的軍規版本。IPS-N BB 炸藥使用了更劇烈的高強度炸藥，用以對機甲骨架、星艦隔艙板、裝甲載具、碉堡和其他強化結構造成嚴重的結構傷害。",
+      "actions": {
+        "Thermal Grenade": {
+          "name": "高熱手榴彈",
+          "detail": "對 ⌿5 範圍內的一處投擲高熱手榴彈。所有位於<b> 濺射 1 </b>範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 1d6 能量傷害。豁免成功則只受到一半的傷害。物件和地形會被自動命中並受到 10 穿甲(AP)能量傷害。"
+        }
+      }
+    },
+    "Bolt Thrower": {
+      "name": "螺栓投射器",
+      "profiles": {
+        "Bolt Thrower": {
+          "name": "螺栓投射器",
+          "description": "和 IPS-N 的許多經典武器一樣，螺栓投射器同樣源自於民用的採礦工具。它能發射自推進式爆炸螺栓，相當適合在微重力、無重力、以及大氣環境中使用。"
+        }
+      }
+    },
+    "“Roland” Chamber": {
+      "name": "「羅蘭」彈倉",
+      "description": "封裝在密封的自給式彈筒內，IPS-N 的「羅蘭彈」是專為任何機甲級口徑動能武器設計的高爆穿甲彈。在取代惰性動能彈藥後，羅蘭 HE/AA 彈殼能顯著提升武器的效能和破壞力。",
+      "effect": "當你裝填任何武器時，你下一次使用裝填武器進行的攻擊得到這個效果：<br>命中時：該攻擊造成 +1d6 額外爆炸傷害，且目標必須成功通過<b>機體豁免</b>，否則被擊倒<b>伏臥</b>。"
+    },
+    "Kinetic Hammer": {
+      "name": "動能鎚",
+      "profiles": {
+        "Kinetic Hammer": {
+          "name": "動能鎚",
+          "description": "動能鎚是個簡單而暴力的工具。這個將超重型錘頭裝在長柄上的大鎚，在成功命中目標時能造成重大的創傷性衝擊波。"
+        }
+      }
+    },
+    "UNCLE-Class Comp/Con": {
+      "name": "UNCLE 級助理伴侶",
+      "description": "IPS-N 的 UNCLE 級助理伴侶是 DARKSTAR-2 研發計劃的產物，這個臨時計畫旨在發展更先進的智慧武器。早期原型因為其高功耗、不穩定的適應性、和讓人沮喪的單任務導向限制而最終導致開發終止。<br>雖然 IPS-N 不再開發新版本的 UNCLE，但仍然部分通過了品質驗證的舊型系統可供符合資格的駕駛員使用。<br>儘管這些過時的助理伴侶以稍微不穩定的性格而享有一定的惡名，有幸參與戰地實測的駕駛員仍對 UNCLE 的工作效率和平行處理能力讚譽有加。",
+      "effect": "選擇一件<b>副武器</b>、<b>主武器</b>或<b>重型武器</b>：你的 UNCLE 級助理伴侶將控制該武器和其相應系統。<br><br>每回合一次，你能以<b>免費動作</b>使用 UNCLE 控制的武器進行帶有 +2 難度的攻擊。UNCLE 不能使用該回合已經使用過的武器，且任何被 UNCLE 用來進行攻擊的武器，直到你下一回合開始前也都不能再被使用。<br><br>UNCLE 不是 NHP，因此不會崩潰。"
+    },
+
+    "Tortuga": {
+      "name": "托爾蒂",
+      "description": "托爾蒂是 IPS-N 的短至中程戰線機甲。在深空環境中構思，測試，並加以完善，托爾蒂是專為突破和清剿敵方航母甲板、敵對太空站環境、和主力艦內部核心結構而誕生的。它擅長憑藉其厚重的稜角化機體佔領空間和狹窄的通道走廊，並經常充當登艦部隊和海軍陸戰隊中的行走攻城鎚。除此之外，托爾蒂的防禦能力跟攻擊能力相比也毫不遜色，能利用安裝在手臂的裝甲板，為自己和推進中的隊友抵禦猛烈的炮火。",
+      "traits": {
+        "Sentinel": {
+          "name": "哨兵",
+          "description": "托爾蒂以<b>反應</b>進行的所有攻擊（例如<b>守望</b>）都會得到<b> +1 準度</b>。"
+        },
+        "Guardian": {
+          "name": "守護者",
+          "description": "鄰接的隊友角色可以把托爾蒂當成<b>硬性掩護</b>。"
+        }
+      },
+      "core_system": {
+        "name": "看門犬副駕駛系統",
+        "description": "IPS-N 安保部隊早已習慣於艦對艦、或是艦對太空站的登陸作戰。狹窄的通道、不穩定的重力、昏暗環境、真空狀態、以及來自有機或無機敵對勢力的雙重威脅，都讓登艦戰成為了統計上最致命的交戰方式之一：根據 IPS-N 的內部數據，即使勝利方也通常會遭受至少 30% 的傷亡率。<br><br>為了減輕駕駛員或機載 NHP 和助理伴侶的精神負擔，IPS-N 開發了看門犬副駕駛系統。看門犬是一個簡單的次感知分割系統：透過彙集分析數以千計登艦作戰的戰後紀錄、簡報、和志願捐贈者的數據後，集結情報形成的快閃人工智慧。看門犬系統既不是 NHP，也不屬於助理伴侶，而是類似於智慧武器的強大戰術程式。儘管如此，其毋須重灌就能運作的能力帶來了一些優勢：這些副駕駛擁有一定程度的學習能力，並能根據分析駕駛員來計算最佳預測。看門犬系統的性格通常比較乏味──甚至很難把其稱為擁有性格──但這種嚴謹、精確且不拖泥帶水的特質，也深受講究效率的駕駛員喜愛。<br><br>目前，看門犬系統正由聯盟科學局（USB）和聯盟司法人權部（UDoJ-HR）聯設委員會進行審查，但尚未發布正式的停產通知。",
+        "passive_name": "被動",
+        "active_name": "超反射模式",
+        "active_effect": "直到該場景結束前：<ul><li>如果你的遠距武器帶有<b>威脅X</b>標籤，且 X 低於 3，則其變為<b>威脅 3</b>。</li><li>每輪一次，你能進行一次額外的<b>守望</b>反應。</li><li>任何你使用<b>守望</b>反應擊中的目標都會陷入<b>固定</b>狀況，持續直到其下一回合結束為止。</li></ul>"
+      }
+    },
+    "Deck-Sweeper Automatic Shotgun": {
+      "name": "「甲板掃蕩者」自動霰彈槍",
+      "profiles": {
+        "Deck-Sweeper Automatic Shotgun": {
+          "name": "「甲板掃蕩者」自動霰彈槍",
+          "description": "「甲板掃蕩者」自動霰彈槍是一款由彈鍊供彈的霰彈槍，深受駐紮於太空站和主力艦上海陸駕駛員的喜愛。它的設計哲學簡單易懂——衝鋒、瞄準、射擊。單槍管設計提供了氣動緩衝功能以減緩其強大的後座力，彈鍊供彈系統則能讓它兼容各種不同種類的霰彈和獨頭彈藥。"
+        }
+      }
+    },
+    "Siege Ram": {
+      "name": "攻城鎚",
+      "description": "攻城鎚是個末端裝有楔形尖頭的手持型金屬樑柱，隨時準備要猛擊密封艙門的接縫並將其強行撬開。這是 IPS-N 合併前的舊時代遺產之一。當有人需要打開被突然封閉的艙門時，它就是海陸駕駛員會拿來完成任務的道具。沉重、笨拙、牢不可破：IPS-N 攻城鎚，是放諸宇宙四海皆準的萬能鑰匙。",
+      "effect": "當你進行<b>衝撞</b>時，你在命中時造成 2 動能傷害。若<b>衝撞</b>的目標為物件或地形，則改為對其造成 10 穿甲(AP)動能傷害。"
+    },
+    "Daisy Cutter": {
+      "name": "除草槍",
+      "profiles": {
+        "Daisy Cutter": {
+          "name": "除草槍",
+          "description": "除草槍是一款性能優秀的武器，儘管有些過時，仍受到不少海陸駕駛員的喜愛。本質上，它就是一把巨型的霰彈槍；駕駛員將彈藥裝進槍膛，把脫殼彈投入槍管，瞄準，開火，發射出一片由破片飛鏢、鋼珠和燃燒鎂片構成的地獄火雲，保證能將槍管前的甲板空間徹底淨空。",
+          "on_attack": "在錐形攻擊範圍內產生一片被瓦礫和煙霧籠罩的區域，使範圍區域提供<b>軟性掩護</b>，持續直到你的下一回合結束為止。"
+        }
+      }
+    },
+    "Catalytic Hammer": {
+      "name": "催化鎚",
+      "profiles": {
+        "Catalytic Hammer": {
+          "name": "催化鎚",
+          "description": "最初改裝自爆破採礦設備，催化鎚（俗稱貫釘）已經演變成了強大的肉搏武器。內部裝填的火藥會在開火時推動鎚頭，讓單邊削尖的鐵棒穿過短槍管，帶著龐大的動能猛擊目標。標準鎚頭的表面光華，以便從目標身上拔除，但在無法將其回收的情況，也可以將鎚頭另外拆卸並替換。任何催化鎚的安裝都需要事前強化機體的結構，確保衝擊能量能被分散。",
+          "on_crit": "你的目標必須成功通過<b>機體豁免</b>，否則陷入<b>暈眩</b>狀況直到其下一回合結束為止。"
+        }
+      }
+    },
+    "Throughbolt Rounds": {
+      "name": "穿雲彈",
+      "description": "穿雲彈是 IPS-N 發明的專利反裝甲技術。在開火時，其彈頭會被點燃並產生高熱電漿圓錐，形成類似微型長槍一樣的效果，輕易穿透多個目標甚至是堅硬表面。",
+      "effect": "選擇一件 <b>CQB</b>、<b>大炮</b>或<b>步槍</b>武器：當你使用該武器攻擊時，你可以改為發射穿雲彈，而非進行原本的正常攻擊。以你為起點畫出<b> 線性 3 </b>範圍，這條直線可以穿過地型或其他障礙物。每個位於直線上的角色或物件都會因為被穿雲彈貫穿而受到 2 穿甲(AP)動能傷害，然後，使用該武器進行一次攻擊，從該直線的末端計算該攻擊的射程、掩護、視線範圍，並維持同一方向。"
+    },
+    "HyperDense Armor": {
+      "name": "超密度裝甲",
+      "description": "IPS-N 的超密度裝甲專為太空環境而打造──從未考慮過使用者在重力井內可能面臨的限制。因此，很多受到超密度產品保護的駕駛員在駕駛機甲進入重力井時，往往會對於其在無重力太空環境的操控差異而感到震驚。",
+      "actions": {
+        "Action": {
+          "name": "啟動超密度裝甲",
+          "detail": "當被啟動，這套超密度裝甲會硬化成閃亮的反光表面，提供無人能及的防護效果。你得到對所有源自<b> ⌿3 </b>範圍外攻擊造成的傷害、熱度、和燃燒的<b>抗性</b>；然而，你也會陷入<b>緩慢</b>狀況，且你對位於<b> ⌿3 </b>範圍外的角色造成的傷害、熱度、和燃燒也會被減半。"
+        },
+        "Deactivate HyperDense Armor": {
+          "name": "停用超密度裝甲",
+          "detail": "停止超密度裝甲，失去對源自<b> ⌿3 </b>範圍外攻擊造成的所有傷害、熱度、和燃燒的<b>抗性</b>；解除你的<b>緩慢</b>狀況，並對位於<b> ⌿3 </b>範圍外的角色造成正常的傷害、熱度、和燃燒。"
+        }
+      }
+    },
+
+    "Vlad": {
+      "name": "弗拉德",
+      "description": "弗拉德是 IPS-N 繼承李舜臣型號設計的第二代機體，最初於第二中央委員會垮台期間的天青石戰役中靠著信天翁駕駛員的優秀操作聲名大噪。根據信天翁在該戰役產生的大量高品質數據，IPS-N 研發出了弗拉德──這款繼承了李舜臣型機甲的精神，全面升級反應爐和骨架結構，值得一個全新型號名稱的強大機甲。<br><br>和其前身一樣，弗拉德的設計理念和傳承同樣能追溯自 IPS-N 早期的小行星採礦機甲。其搭載的許多標配武裝也都參考了早期礦工們為了抵禦海盜們而進行的工具改造；同樣地，它的骨架也強調備援能力、堅固度和零件通用性，使其在長時間和高危險環境下也能維持驚人的自給率。<br><br>弗拉德搭載著厚重的裝甲，使它非常適合在前線吸收敵火的同時，給予精準的致命一擊。",
+      "traits": {
+        "Dismemberment": {
+          "name": "肢解",
+          "description": "當弗拉德對其他角色造成<b>固定</b>狀況時，目標也會陷入<b>離散</b>狀況，持續與<b>固定</b>狀況相同的時間。"
+        },
+        "Shrike Armor": {
+          "name": "伯勞刺甲",
+          "description": "當位於 ⌿3 範圍內的角色對弗拉德進行攻擊時，攻擊者會先受到 1 穿甲(AP)動能傷害。"
+        }
+      },
+      "core_system": {
+        "name": "伯勞刺甲",
+        "description": "主要作為防禦改裝，伯勞刺甲的表面佈滿了硬化的鉻鎢合金棘刺──呼應了弗拉德在歷史上的名號。這些串刺被戰略性地在布置在高機率發生動能衝擊的位置：像是護手、關節、肩甲等。伯勞刺甲在中核地區的駕駛員中並不常見，且被視為一種未成熟但可怕的戰術標誌。",
+        "passive_name": "被動",
+        "active_name": "刑吏串刺",
+        "active_effect": "在該場景期間，你得到對所有源自<b> ⌿3 </b>範圍內的傷害的<b>抗性</b>，且<b>伯勞刺甲</b>會改為造成 3 穿甲(AP)動能傷害，而非原本的 1 傷害。"
+      }
+    },
+    "Impact Lance": {
+      "name": "衝擊長槍",
+      "profiles": {
+        "Impact Lance": {
+          "name": "衝擊長槍",
+          "description": "衝擊長槍是軍規版本的常見採礦工具：一種單發化學性的探測雷射。IPS-N 軍規版本把一組衝擊長槍陣列安裝在機甲前臂或胸部支架上，讓其手臂能夠自由運用其他武器和系統。它能直接連接機甲核心，或是使用一次性化學電池進行充能。<br>整個長槍陣列會在一微秒間的時間開火，耗盡儲存的能量產生強烈的爆發光束，藉此形成一束足以燒穿數米厚強化隔艙板的脈衝光線。",
+          "on_attack": "你同時對位於你和目標之間直線範圍內的所有角色進行攻擊。每一個額外的目標都會使你受到 1 熱度。"
+        }
+      }
+    },
+    "Webjaw Snare": {
+      "name": "網顎陷阱",
+      "description": "IPS-N 的網顎爆炸加速織網系統是個適用於任何戰場環境，能在預定殺傷區中停止敵人移動的部署型陣地防禦方案。網顎由一組網絡化的拋棄式錨點構成，每個錨點上都裝有倒鉤、NoCut 合成蛛絲纖維、以及爆炸引信。<br>當透過遙控觸發，或一系統可編程的物理、電子或是化學觸發機制引爆時，該錨點會被射出，將倒鉤深深嵌入任何軟硬目標內。這些透過 NoCut 纖維固定在錨點上的倒鉤將能阻礙目標的移動，破壞其齒輪、輪胎、旋翼、引擎、或其他各種移動裝置。",
+      "effect": "消耗一發來在鄰接的未佔據空間中展開一個網顎陷阱，它會在你的回合結束時啟動。"
+    },
+    "Impaler Nailgun": {
+      "name": "穿刺公釘槍",
+      "profiles": {
+        "Impaler Nailgun": {
+          "name": "穿刺公釘槍",
+          "description": "穿刺公的不可燃脫殼二段式巨型飛鏢彈能夠貫穿最厚重的裝甲。當飛鏢彈從發射器射出後，外層的軟殼會在接近目標時分離，觸發第二段內燃推進機制，讓巨型飛鏢彈能以驚人的速度向前推進。在用於軟目標時，幾乎必然會發生過穿現象，因此 IPS-N 建議僅在確保目標後方沒有盟友或非戰鬥人員時才使用此武器。",
+          "on_hit": "目標必須成功通過<b>機體豁免</b>，否則陷入<b>固定</b>狀況直到其下一回合結束為止。"
+        }
+      }
+    },
+    "Caltrop Launcher": {
+      "name": "鐵蒺藜發射器",
+      "description": "鐵蒺藜發射器是一款邪惡的反有機個體和反載具區域封鎖系統，藉由發射大量閃爍的金屬尖刺以覆蓋廣域或長條帶區域。IPS-N 的 HX-CAL 鐵蒺藜系統甚至更進一步，將小型定向炸藥混入了這些硬化金字塔狀金屬片中。",
+      "actions": {
+        "Action": {
+          "name": "啟動鐵蒺藜發射器",
+          "detail": "這個系統會在 ⌿5 範圍內一處未被佔據的<b> 濺射 1 </b>區域布置爆炸性鐵蒺藜。範圍區域在該場景期間將變為困難地形，且機甲在每輪第一次進入範圍區域、或於該處結束其回合時，都會受到 1d3 穿甲(AP)爆炸傷害。"
+        }
+      }
+    },
+    "Combat Drill": {
+      "name": "戰鬥鑽頭",
+      "profiles": {
+        "Combat Drill": {
+          "name": "戰鬥鑽頭",
+          "description": "戰鬥鑽頭是一種以巨大外置觸媒包驅動的殘暴近戰武器。鑽頭尖端配置有微型電漿投射器，用於預先處理目標，確保鑽頭能夠順利貫穿目標。",
+          "effect": "當使用此武器攻擊處於<b>伏臥</b>、<b>固定</b>、或<b>暈眩</b>狀況的目標時，此武器的<b>殺絕</b>標籤每觸發一次，就會再造成 +1d6 額外傷害。這個效果有機會在一次攻擊中被反覆觸發：如果新的額外傷害也骰出 1，則會再觸發<b>殺絕</b>標籤和此武器的這個效果。"
+        }
+      }
+    },
+    "Charged Stake": {
+      "name": "帶電尖樁",
+      "description": "起源自爆破採礦工具，這個龐大的即興改造系統被裝載於特製的彈艙內，隨時準備發射。它會先貫穿並使裝甲目標動彈不得，接著釋放出強大到足以能蒸發目標的電流，癱瘓脆弱的內部系統。",
+      "actions": {
+        "Action": {
+          "name": "啟動帶電尖樁",
+          "detail": "這個系統會對一個與你鄰接的角色發射一枚帶電尖樁。你的目標必須成功通過<b>機體豁免</b>，否則被尖樁貫穿，受到 1d6 穿甲(AP)能量傷害，並在被尖樁貫穿期間陷入<b>固定</b>狀況。在被尖樁貫穿其間，目標的每一回合結束時都會受到 1d6 穿甲(AP)能量傷害。被尖樁貫穿的角色能以<b>完整動作</b>嘗試重複這個豁免判定，豁免成功則拔出尖樁，不再被貫穿。除此之外，沒有其他方法可以解除尖樁導致的<b>固定</b>狀況。<br><br>你同時只能用帶電尖樁影響一個角色。"
+        }
+      }
+    },
+
+    "Kidd": {
+      "name": "Kidd",
+      "description": "<p>A sidegraded cousin of IPS-N&rsquo;s Lancaster support frame, the Kidd was produced under a joint development contract by IPS-N&rsquo;s Titan&ndash;Enceladus Field Project and Northstar Branch Robotics. The original pattern for the frame was bought off a mining commune that had rigged their support drones in a slapdash but ingenious neural mesh that both hardened them against tech intrusion and increased their operational efficiency many times over. Urban legend was that the original builder of the rig had used his drone team to bury caches of black-market Volador tech in several wandering asteroids, and out of extreme paranoia made his systems almost impossible to crack. To this day Northstar Branch Robotics tries valiantly to squash down persistent rumors that clues to the location of the caches are hidden in the Kidd&rsquo;s code base.</p> <p>Designed to provide an aggressive, all-theater support solution to rugged field teams in hostile environments, the Kidd mounts a trio of powerful systems to ensure a broad operational envelope. The Jolly Roger semiautonomous personal orbital platform, bundled with every genuine-license Kidd platform establishes theater control in any open or near-surface environment. A squadron of bundled subalterns (along with an onboard maintenance suite) guarantees friendly support in any environment and provides a broad suite of tactical possibility. Finally, Titan&ndash;Enceladus&rsquo;s SMOKESTACK heat sink pylon represents the cutting edge of IPS-N&rsquo;s thermodynamic axiomatics, allowing users to offset surplus heat via the creation of a pinhole-window into an omega state of absolute zero.</p> <p>The Kidd is a popular chassis in Evergreen where it is employed as a subaltern command platform for civilian and engineering purposes. Its familiar bulk can also regularly be seen accompanying traders on their way to do business with the Gray Towns.</p>",
+      "traits": {
+        "Rapid Deployment": {
+          "name": "Rapid Deployment",
+          "description": "On its first turn in any combat scene, the Kidd can deploy or activate any one system with the drone or deployable tag as a free action."
+        },
+        "Reroute Power": {
+          "name": "Reroute Power",
+          "description": "As a quick action 1/round, the Kidd can destroy one of its DEPLOYABLES or DRONES that was not deployed or created in the same round to either grant 1d6+1 OVERSHIELD to an allied character or deal 1d6+1 AP Energy Damage to a hostile character. The target, allied or hostile, must be adjacent to whatever is destroyed. Systems without LIMITED that are destroyed this way must be repaired before they can be used again.",
+          "actions": {
+            "Reroute Power": {
+              "name": "Reroute Power",
+              "detail": "Destroy one of your deployables or drones to either grant 1d6+1 OVERSHIELD to an allied character or deal 1d6+1 AP Energy Damage to a hostile character. The target, allied or hostile, must be adjacent to whatever is destroyed. Systems without LIMITED that are destroyed this way must be repaired before they can be used again."
+            }
+          }
+        },
+        "Recycle": {
+          "name": "Recycle",
+          "description": "At the end of any scene in which the Kidd used REROUTE POWER, it restores 1 charge to a LIMITED system of its choice with the DRONE or DEPLOYABLE tag."
+        }
+      },
+      "core_system": {
+        "name": "The Jolly Roger",
+        "description": "",
+        "passive_name": "Jolly Roger",
+        "passive_effect": "<p>At the start of every combat scene, your Kidd automatically connects to its paired Jolly Roger orbital satellite weapon. The efficacy of the Jolly Roger depends on maintaining a high level of calibration with the Kidd, which is tracked with a JOLLY ROGER DIE - 1d6, starting at 1.</p> <p>The die ticks up by 1 whenever you:</p> <ul> <li>deploy a DRONE or DEPLOYABLE</li> <li>take a tech action that targets at least one allied character.</li> </ul> <p>Each option can only increase the value of the of the JOLLY ROGER DIE once per round independently; however, the die also ticks up by 1 any time a hostile character takes a tech action against an allied character within your SENSORS, with no limit.</p> <p>1/round, you can activate the Jolly Roger as a quick action, resetting the JOLLY ROGER DIE to 1. Choose one of the following effects, based on the value of the die:</p> <p><b class='accent--text'>3+</b> <b>Plunder</b>: SCAN every hostile character in a Blast 1 area and give them LOCK ON.</p> <p><b class='accent--text'>5+</b> <b>Swindle</b>: Every hostile character in a Blast 1 area must succeed on a SYSTEMS save or become IMPAIRED, JAMMED, and SLOWED until the end of their next turn.</p> <p><b class='accent--text'>6</b> <b>Shiver Timbers</b>: Fire a beam weapon, punching a narrow hole through walls and obstructions. One hostile character must succeed on an AGILITY save or take 3d6 AP Energy Damage. On a success, they take half damage</p> <p>You do not require line of sight for any of these effects, they have the effective range of the battlefield, and they easily penetrate objects and terrain, although more potent barriers (e.g., energy shields that prevent effects from crossing them due to line of sight) block them normally</p>",
+        "passive_actions": {
+          "Plunder 3+": {
+            "name": "Plunder 3+",
+            "detail": "SCAN every hostile character in a Blast 1 area and give them LOCK ON."
+          },
+          "Swindle 5+": {
+            "name": "Swindle 5+",
+            "detail": "Every hostile character in a Blast 1 area must succeed on a SYSTEMS save or become IMPAIRED, JAMMED, and SLOWED until the end of their next turn."
+          },
+          "Shiver Timbers 6": {
+            "name": "Shiver Timbers 6",
+            "detail": "Fire a beam weapon, punching a narrow hole through walls and obstructions. One hostile character must succeed on an AGILITY save or take 3d6 AP Energy Damage. On a success, they take half damage."
+          }
+        },
+        "active_name": "Skull and Bones",
+        "active_effect": "For the rest of the scene, Plunder and Swindle become Blast 2 and Shiver Timbers affects all characters in a Line 10 path."
+      }
+    },
+    "Blackspot Targeting Laser": {
+      "name": "Blackspot Targeting Laser",
+      "profiles": {
+        "Blackspot Targeting Laser": {
+          "name": "Blackspot Targeting Laser",
+          "description": "“Who tipped me the black spot the day we landed and began this dance?” – Treasure Island (1883)",
+          "on_hit": "DRONE, SEEKING, and NEXUS weapons and systems gain +1 Accuracy to attack the target until the end of their next turn.",
+          "on_crit": "The target also receives Lock On."
+        }
+      }
+    },
+    "PEBCAC": {
+      "name": "PEBCAC",
+      "description": "When the problem exists between chair and chassis, aggressive solutions are needed. This rather quick solution is an old system-level reboot program that is often used by asteroid miners dealing with aging hardware.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "<p>: An allied mech character within line of sight and SENSORS quickly flash reboots at the system level. This ends all effects caused by tech actions, stops NHP cascades, and gives the target Immunity to all tech actions – hostile and allied – other than this one until the end of their next turn. This cannot be used on Jammed characters.</p> <p>Additionally, roll 1d6 to determine a side effect from the table below. These effects take place immediately and don&rsquo;t count as an action or reaction. Any movement they cause is involuntary.</p> <ol> <li>Your target becomes JAMMED until the end of their next turn.</li> <li>Your target moves up to its SPEED in a direction of the GM&rsquo;s choice.</li> <li>Your target immediately moves up to 3 spaces toward the nearest character (allied or hostile) and performs an IMPROVISED ATTACK against them. If no characters are in range, it only moves.</li> <li>Your target falls PRONE and takes 2 Kinetic Damage.</li> <li>Your target vents 1d6 Heat and deals the amount cooled as energy damage to all adjacent characters.</li> <li>Your target immediately takes the STABILIZE action and can choose what to do.</li> </ol>"
+        }
+      }
+    },
+    "Omnibus Plate": {
+      "name": "Omnibus Plate",
+      "description": "Northstar Branch Robotics returned to their roots with the Omnibus Plate, creating a simple, deployable catalytic for frontline nexus users. Designed with adaptation in mind, Omnibus Plates can attach securely to any drone or deployable system, increasing that system’s efficacy in all aspects of employ.",
+      "effect": "Expend a charge to deploy an omnibus plate to a space within Range 5."
+    },
+    "Field-Approved, Brass Ignorant Modifications": {
+      "name": "Field-Approved, Brass Ignorant Modifications",
+      "description": "As implied by the name, FABI modifications are ad hoc battlefield modifications that, while technically falling well outside the approved envelope of functionality and safety, are nonetheless popular among veteran pilots. FABI mods tend to be temporary in nature: removal of joule governors with quick-patched code, fieldcooked “hot” kinetic rounds, and so on.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "<p>Choose an allied mech character within line of sight and SENSORS. You power up their weapons. When they make a ranged or melee attack roll:</p> <ul> <li>the attack&rsquo;s damage cannot be reduced in any way</li> <li>the kick from firing the weapon knocks them back 1 space in any direction after the attack</li> <li><strong>On Hit:</strong> their target must succeed on a HULL save or be knocked PRONE.</li> </ul> <p>This effect ends when your target successfully hits with a ranged or melee attack roll or at the end of the scene.</p>"
+        }
+      }
+    },
+    "FORGE-2 Subaltern Squad": {
+      "name": "FORGE-2 Subaltern Squad",
+      "description": "The FORGE line of subalterns represents IPS-N’s premier range of frontline autonomous robotic humanoids. Produced by its robotics division, Northstar Branch Robotics, FORGE-2 subalterns are IPS-N’s newest combat engineering models, built to user scale and function.",
+      "effect": "<p>1/round, expend a charge to deploy a team of FORGE-2 subalterns to start work on one of the following projects in a free space within line of sight and Range 5.</p> <p>The project is an immovable object that is finished at the start of your next turn, gaining +10 HP (maximum and current). It is canceled if it&rsquo;s destroyed.</p> <p>The subalterns aren&rsquo;t treated as separate entities and can&rsquo;t be targeted. They return to you if the project is destroyed, canceled, or finished, no matter where you are.</p> <p>If you OVERCHARGE to use this system again, it may ignore the 1/round limit, but the second project must be placed adjacent to the first.</p>"
+    },
+    "SMOKESTACK Heat Sink": {
+      "name": "SMOKESTACK Heat Sink",
+      "description": "The IPS-N Kidd’s SMOKESTACK Heat Sink represents the latest in IPS-N’s heat dispersion systems for chassis and other CORE-powered vehicles and vessels. Utilizing proprietary axiomatics, the SMOKESTACK system establishes (via deployable pylon) a localized, minor, and stable pinhole into an omega state, allowing users to – for a certain value of thermodynamic exchange – cool excess heat debt by depositing it into that same state. Once the SMOKESTACK reaches capacity – a hard-coded feature – it detonates, making the system just as effective a weapon as it is a heat sink."
+    },
+
+    "Black Witch": {
+      "name": "黑巫蛾",
+      "description": "黑巫蛾是 SSC 奢華系列機甲的旗艦型號，名義上是為了與哈里遜兵工廠在重力和電磁操控技術領域的技術霸權競爭。利用了 SSC 異類材料集團開發的最新科技，戰場上的黑巫蛾是個相當可怕的區域控制單位，經常被用作支援在前線參與交戰的重型機甲。<br><br>黑巫蛾擁有纖細的機身輪廓和強大的防禦系統，在卡拉金貿易領中的富裕家族間極受歡迎，也因此經常被這些家族大量訂購，成為其禁衛軍和家族軍官的配備。黑巫蛾（和其他 SSC 奢華型號機甲）是僅次於男爵領自造機甲之外，在卡拉金領地中最受歡迎的 SSC 機甲型號。",
+      "traits": {
+        "Repulsor Field": {
+          "name": "偏斥力場",
+          "description": "黑巫蛾擁有對動能傷害的<b>抗性</b>。"
+        },
+        "Mag Parry": {
+          "name": "磁力格擋",
+          "description": "每輪一次，當任何人對你或與你鄰接的隊友進行會造成動能傷害的攻擊時，你能以<b>反應</b>嘗試格擋該攻擊。擲 1d6：骰出 5+ 時，該攻擊失手。這個效果不會與<b>隱形</b>狀態的效果疊加。",
+          "actions": {
+            "Mag Parry": {
+              "name": "磁力格擋",
+              "trigger": "當任何人對你或與你鄰接的隊友進行會造成動能傷害的攻擊時。",
+              "detail": "擲 1d6：骰出 5+ 時，該攻擊失手。這個效果不會與<b>隱形</b>狀態的效果疊加。"
+            }
+          }
+        }
+      },
+      "core_system": {
+        "name": "磁場投射器",
+        "description": "磁場產生器是一種源自典型磁力防禦技術，容易攜帶且能在戰場部署的變體版本。在啟動後，它會形成一個能捕捉所有來襲的鐵製投射物的磁力泡。其磁力場的強度之高甚至足以將機甲吸引到中心點。當磁力場消散、或是其固態電池耗盡時，整個磁力場會經歷瞬間的災難性內爆，將所有被捕捉的投射物吸引到磁泡中心──這不是缺陷，而是設計特徵。",
+        "passive_name": "被動",
+        "active_name": "磁場",
+        "active_effect": "這個系統投射出一個<b> 爆發 3 </b>範圍的磁場，其區域至少要有一格與你鄰接。直到你的下一回合結束為止，造成以下效果：<ul><li>影響區域被視為<b>困難地形</b>。</li><li>會造成動能或爆炸傷害的遠距攻擊將無法進入或離開影響區域──這些投射物會停在區域邊緣，不造成任何傷害。把每個因此被停止的攻擊記錄下來。</li><li>機甲和其他身體至少有部分由金屬構成的角色，若在自己回合開始時處於影響區域，或在每輪中第一次進入影響區域時，將必須成功通過<b>機體豁免</b>，否則被盡可能拉到影響區域中心，並陷入<b>固定</b>狀況。</li></ul>當這個效果結束時，任何先前被停止的遠距攻擊都會重新開始，朝著影響區域的中心射擊。GM 對每一個位於影響區域內的角色進行攻擊判定，且每個先前停止的攻擊都會使該攻擊判定 +1（最多 +6）。若命中，該攻擊會造成每個先前停止攻擊 1d6 的動能傷害（最高 6d6 動能傷害）。"
+      }
+    },
+    "Death’s Head": {
+      "name": "鬼臉蛾",
+      "description": "鬼臉蛾是史密斯—島野為了滿足長距離精準打擊需求而開發的機甲方案。犧牲了機體強度以換取無人能及的穩定性和靈敏度，鬼臉蛾成為一款機動性極高的火力支援平台，能在避開敵火的同時維持近乎完美的目標鎖定。其獨特的六足結構讓它能快速而隱密地朝所有方向移動。<br><br>作為一款進攻性強，專注於戰線作戰的機甲，鬼臉蛾是聯盟海軍和聯盟司法人權部軍官最為喜愛的型號之一。這是一款純粹的戰鬥用機體；鬼臉蛾由 SSC 旗下 Bella Ciao 系列生產線製造，並沒有對應的民用型號。",
+      "traits": {
+        "Neurolink": {
+          "name": "神經連結",
+          "description": "鬼臉蛾可以重擲它在每輪第一次進行的遠距攻擊，但必須適用重擲的結果。"
+        },
+        "Perfected Targeting": {
+          "name": "完美鎖定",
+          "description": "鬼臉蛾的所有遠距攻擊判定得到額外 +1。"
+        }
+      },
+      "core_system": {
+        "name": "預知鎖定",
+        "description": "預知能力是人類與 AI 互動的下一個階段。透過神經橋接，SSC 預知鎖定系統讓駕駛員能夠不間斷無意識地從戰場上收集數據，從中學習，藉此得到預測事情發展的能力。預知技術仍處於高度實驗階段，就連設計師本人也尚未完全理解其確切的運作機制。因此，SSC 建議僅在受監控的情況下有限度的使用此系統。",
+        "passive_name": "被動",
+        "active_name": "神經分流",
+        "active_effect": "在該場景期間，你得到<b>死印</b>動作。",
+        "active_actions": {
+          "Mark for Death": {
+            "name": "死印",
+            "detail": "選擇一名位於 ⌿30 範圍內，但超過 ⌿5 範圍外的角色，把精神集中在該目標身上；在集中期間，你陷入<b>固定</b>狀況，無法進行<b>反應</b>，但當目標不受益於掩護且不處於你 ⌿5 範圍內時，你在使用遠距攻擊對其造成<b>會心一擊</b>時，將根據使用的武器尺寸造成額外傷害（副武器：1d6、主武器：2d6、重型或以上：3d6）。<br><br>你同時只能集中在一個角色身上。你能以<b>協定</b>動作來中斷對原本目標的集中。"
+          },
+          "Cease Focus": {
+            "name": "中斷集中",
+            "detail": "結束你對<b>死印</b>目標的集中。"
+          }
+        }
+      }
+    },
+    "Dusk Wing": {
+      "name": "珠弄蝶",
+      "description": "珠弄蝶最初是為了讓艙外活動服能應付惡劣環境而配備的改裝套裝。在深空探索的早期，機械化外骨骼不只要能增強穿戴者的作業能力，還需要更強大的抗動能防禦力。而珠弄蝶正是這些早期深空套裝的精神繼承者。這具裝甲行動靈活，體型小巧，搭載的全地形機動噴射系統讓其擁有近乎完美的飛行能力。<br><br>在砥耶德遠征之後，異類材料集團成功分離並轉譯了該實體的現實失效超編碼、目的論系統、和運動學數據，並將其應用於電子戰和系統戰之中。在所有試驗砥耶德衍生技術的測試機體中，珠弄蝶的表現鶴立雞群。因此．它經常在需要應對反常奧秘危機時，被 SSC 的內部星際安保部隊投入使用。",
+      "traits": {
+        "Maneuverability Jets": {
+          "name": "機動噴嘴",
+          "description": "珠弄蝶在移動時可以<b>懸浮</b>。"
+        },
+        "Harlequin Cloak": {
+          "name": "弄臣袍",
+          "description": "珠弄蝶在自己的回合中處於<b>隱形</b>狀態，並會在回合結束時重新現形。"
+        },
+        "Fragile": {
+          "name": "脆弱",
+          "description": "珠弄蝶在進行<b>機體判定和豁免</b>時會得到 +1 難度。"
+        }
+      },
+      "core_system": {
+        "name": "砥耶德關節",
+        "description": "「我們曾堅信眼前所見，指尖所觸──堅信我們的助理伴侶告訴我們存在之物，堅信自己的主觀感知和記憶。對現實的信仰最終成為了我們的武器。我們走進空間摺曲儲藏庫，深知自己將要迎戰未知的敵人，但我們自恃人數優勢和機械之力。<br>「節德柱砥耶在殺戮中教授我們——透過紊亂的通訊頻道，透過瀕死者的尖叫，透過鏡像自我屠殺我們時的狂笑。每一道偽造的信號，每一次時間的錯位，每一條模因，每一個非歐幾里得現象——全都是赤裸裸的教訓。<br>「你能明白嗎？<br>「砥耶德是導師。砥耶德是怪物。在我們殺死它的過程中，砥耶德告訴我們該懼怕什麼，又該如何面對它。<br>「我現在害怕什麼？這是個好問題。那個打破了砥耶德棺匣的駕駛員，他又懼怕什麼呢？<br>「我不認為我們真的殺死了它。我認為它想要我們相信我們殺死了它——而我不敢想像，在我們自以為安全的這段期間，它都做了些什麼。」",
+        "passive_name": "被動",
+        "active_name": "鏡廊",
+        "active_effect": "在該場景期間，每當你在自己的回合中進行一次獨特移動（例如：普通移動、推進、天賦或系統給予的移動等），你會在該移動的起點位置留下一個你自己的全息印痕。這些全息投影是大小與你相同的幻象物件，免疫於所有傷害和效果，且不屬於障礙物。<br><br>當敵對角色移動到與全息投影鄰接的空間、移動穿過、或在全息投影所在的空間開始其回合，全息投影就會爆炸。目標必須成功通過<b>敏捷豁免</b>，否則受到 1d6 能量傷害。豁免成功則只受到一半傷害。<br><br>此外，你得到<b>全息投影傳送</b>快速動作。",
+        "active_actions": {
+          "Hologram Teleport": {
+            "name": "全息投影傳送",
+            "detail": "你能以<b>快速動作</b>瞬間轉移到 ⌿50 範圍內任何全息投影所在的位置。當你這麼做時，所有其他尚存的全息投影都會同時引爆，製造出<b> 爆發 1 </b>範圍的爆炸，並造成 1d6 能量傷害（敏捷豁免成功則傷害減半）──並且，直到你的下一回合開始前，你都無法再創造新的全息投影。"
+          }
+        }
+      }
+    },
+    "Metalmark": {
+      "name": "蜆蝶",
+      "description": "蜆蝶是 SSC 旗下 Bella Ciao 軍規機甲系列的核心機種，配備了完整的專利設計與工程技術標誌套裝，確保其具備強大的生存能力、致命性和機動性。在聯盟第二中央委員會時期日益軍事化的統治下，SSC 企業董事會推動公司成立軍規補給後勤及自衛部門。而隨著機械化骨架的出現，新興的　SSC 補給後勤自衛部門被重組，重新專注於機甲骨架的開發。第一代蜆蝶原本是為了第二中央委員會的次世代戰士計劃而設計開發，不過，在這款機甲進入測試階段前，迅速失控的海西危機也導致第二中央委員會就此垮台。<br><br>海西危機過後，隨著聯盟中央委員會的重組，蜆蝶也因為生產過於耗時，無法量產以迎合大規模市場的理由而退役。然而，SSC 將其重新設計，將其作為嶄新 Bella Ciao 系列的領銜機種，轉而集中爭取小規模的專屬安保合約市場。如今，蜆蝶是許多安保部隊中的重要機種，其設計反映了 SSC 在深空探索和長距離巡航的歷史，結合了擬人和鷹型的設計美學，並以穩固的結構造工和多重冗餘系統確保了其可靠性。為了進一步推動其以駕駛員為本的市場定位，所有蜆蝶型機甲也都統一配備了「史密斯特製皮革」品牌的萬向駕駛座椅，確保長時間執勤的舒適度。",
+      "traits": {
+        "Flash Cloak": {
+          "name": "閃光斗篷",
+          "description": "蜆蝶在移動時處於<b>隱形</b>狀態，但會在停下來時重新現形。"
+        },
+        "Carapace Adaptation": {
+          "name": "適應性甲殼",
+          "description": "當蜆蝶受益於<b>軟性掩護</b>時，對其進行的遠距攻擊會得到 +2 難度，而非原本的 +1 難度。"
+        }
+      },
+      "core_system": {
+        "name": "戰術斗篷",
+        "description": "戰術斗篷是由高度緊密編織的反應布料製成，是僅限二級蜆蝶牌照以上的駕駛員才能使用的高許可級限制科技。這種織物覆蓋了機甲約八成的表面，使其在光學設備或裸眼觀察下呈現出黯淡的視覺效果。除了作為一般的偽裝使用外，戰術斗篷在起動時還會以特殊方式折射光線，讓穿戴者幾乎無法被看見。",
+        "passive_name": "被動",
+        "active_name": "戰術斗篷",
+        "active_effect": "直到該場景結束為止，你都處於<b>隱形</b>狀態。"
+      }
+    },
+    "Monarch": {
+      "name": "金斑蝶",
+      "description": "金斑蝶是 SSC 在高速導彈和自推進火器發射平台設計上的劃時代成果。隨時準備掛載地對地、地對空、地對軌道等全戰場導彈和導引系統，金斑蝶可以根據需求，任意調整其導彈彈頭和目標距離。<br><br>金斑蝶的龐大體型經常讓駕駛員低估其靈敏性。SSC 制定了嚴苛的設計標準，要求每生產 10 台金斑蝶就必須有一名專屬設計師監管，這在已經達成後匱乏社會的聯盟中核世界中也是相當奢侈的證明。而這種刻意為之的稀缺性，也是金斑蝶無法完全稱霸戰場的唯一阻礙。金斑蝶通常被部署在混合戰線與火力支援任務，另一款資源需求較低，專注於中近程戰鬥的小金斑蝶，其戰地測試也正如火如荼地進行中。金斑蝶是 SSC 旗下 Bella Ciao 系列戰鬥機甲之一。",
+      "traits": {
+        "Avenger Silos": {
+          "name": "復仇者飛彈發射井",
+          "description": "每輪一次，當使用任何遠距武器造成<b>會心一擊</b>時，金斑蝶可以對位於 ⌿15 範圍和視線範圍內的任意一個其他角色造成 3 爆炸傷害。"
+        },
+        "Seeking Payload": {
+          "name": "追蹤彈頭",
+          "description": "當金斑蝶使用發射器武器對被<b>鎖定</b>的角色進行攻擊時，可以消耗該<b>鎖定</b>，在該次攻擊期間把該武器視為擁有<b>導引</b>標籤。當這麼做時，該攻擊造成的傷害無法透過任何方式被減輕。"
+        }
+      },
+      "core_system": {
+        "name": "SSC-30 高穿透飛彈系統",
+        "description": "SSC-30 高穿透飛彈系統（簡稱 SSC-30 HPMS）是擁有驚人火力輸出的機載微型飛彈發射系統。靠著 SSC-30 HPMS，金斑蝶可以在一輪齊射中發射超過 60 枚致命的微型復仇者彈頭。",
+        "passive_name": "被動",
+        "active_name": "天罰",
+        "active_effect": "選擇位於 ⌿50 範圍內任意數量的角色：每個目標必須成功通過<b>敏捷豁免</b>，否則受到 1d6+4 爆炸傷害。若豁免成功，則只受到一半的傷害。這些自律型導彈能命中任何目標，只要你與目標之間存在一條可能的路徑即可。"
+      }
+    },
+    "Mourning Cloak": {
+      "name": "黃蛺蝶",
+      "description": "黃蛺蝶是 SSC 奢華系列中全新型號，也是該生產商最新型的近戰與肉搏戰專精機甲。黃蛺蝶強調精準的近身戰鬥，通常搭載防禦微絲纖維切割器用以作為反裝甲切割武器使用。<br><br>由 SSC 異類材料集團根據在邊界花園與昂星霸權的早期交戰數據而設計，黃蛺蝶結合了 SSC 收集的砥耶德超編碼以及昂星的蒼穹操縱科技，為不適用槍械火炮等熱兵器的戰場情境提供了一個極佳的戰術選項。作為奢華系列的一員，黃蛺蝶在卡拉金男爵領和其他高階安保企業中相當受歡迎。",
+      "traits": {
+        "Hunter": {
+          "name": "獵人",
+          "description": "每輪一次，黃蛺蝶在進行肉搏攻擊並命中時，若目標沒有與除了黃蛺蝶以外的任何角色鄰接，則該攻擊可以造成 +1d6 額外傷害。"
+        },
+        "Biotic Components": {
+          "name": "生物部件",
+          "description": "黃蛺蝶在進行<b>敏捷判定和豁免</b>時會得到 +1 準度。"
+        }
+      },
+      "core_system": {
+        "name": "EX 超流模組",
+        "description": "僅開放給高階牌照的駕駛員使用，EX 超流模組是 SSC 獨有的創新技術。EX 超流模組本身是一種微型化的近光速引擎，能讓使用者以可接受的精度穿過霎間。不過，這項技術的穩定性相當糟糕：任何體積小於機甲的物體都無法承受暴露於霎間的壓力，而其傳送經歷對於使用者本人和任何附近的人來說也都會造成相當的創傷。",
+        "passive_name": "霎間跳躍",
+        "passive_effect": "得到<b>霎間跳躍</b>完整動作。",
+        "passive_actions": {
+          "Blinkspace Jump": {
+            "name": "霎間跳躍",
+            "detail": "瞬間轉移到<b> ⌿3d6 </b>範圍內的空間。該空間不需要在你的視線範圍內，但嘗試轉移到已佔據的空間將會使你停留在原地，並浪費這個動作。如果這三顆骰子都擲出了相同的數字，則你會消失不見，持續直到你的團隊進行休息，你將在那時重新出現在附近的位置。"
+          }
+        },
+        "active_name": "穩定奇異點",
+        "active_effect": "在該場景期間，你會以<b>瞬間轉移</b>的形式進行<b>推進</b>和普通移動。"
+      }
+    },
+    "Swallowtail": {
+      "name": "鳳蝶",
+      "description": "鳳蝶是史密斯—島野的主力遠距偵察與火力支援平台，專為在敵對與劇變環境中長時間執行任務而設計。為了確保長期運作的持續性，它能夠在不穩定環境中運作數個月，並透過實時調整運作效率來最大化其生存能力。每台機體都有內建隱形斗篷系統和一組預測型和聲智能套組，能夠協調其高度發達的感應系統，迅速模擬和預測戰場發展——甚至在事情發生前便加以預知。<br><br>鳳蝶的基礎型號 SW-01 是 SSC 的少數量產機型之一，屬於入門級的 Bella Ciao 型號。該型號未配備隱形力場，而是強化裝甲來滿足直接的安全需求，因此特別受到星際安保部隊基層士兵的歡迎。",
+      "traits": {
+        "Integrated Cloak": {
+          "name": "內建隱形斗篷",
+          "description": "在鳳蝶的回合結束時，如果其在該回合期間沒有移動過，則其得到<b>隱形</b>狀態。這個狀態會持續直到它移動、進行反應、或直到其下一回合開始為止。"
+        },
+        "Prophetic Scanners": {
+          "name": "先知掃描",
+          "description": "每輪一次，當鳳蝶造成<b>鎖定</b>時，其目標也會陷入<b>離散</b>狀況，持續直到其下一回合結束為止。"
+        }
+      },
+      "core_system": {
+        "name": "雲偵戰術模擬蟲群",
+        "description": "雲偵戰術模擬蟲群是一種網路化微型感應器構成的模組，透過非致命迫擊炮彈發射，在戰場上空引爆並部署。在部署之後，該蟲群便會生成戰術模擬程式開始執行簡短的週期指令：一系列緊湊完備的戰術可能性模擬。模擬得出的概率結果會被傳回鳳蝶的和聲處理器，並進一步轉發給駕駛員和網絡上的隊友，從而提高戰術決策的成功機率。",
+        "passive_name": "被動",
+        "active_name": "先知介入",
+        "active_effect": "在該場景期間，你得到<b>戰術模擬</b>反應。",
+        "active_actions": {
+          "Tactical Simulation": {
+            "name": "戰術模擬",
+            "trigger": "當視線範圍內的一名隊友角色受到來自視線範圍內另一名角色造成的傷害時。",
+            "detail": "效果：擲 1d6。若骰出 4+ 的結果，則該攻擊實際上只是你處理器預知的模擬結果──你的隊友得到對該攻擊造成所有傷害的<b>抗性</b>，並可以<b>瞬間轉移</b>最多 3 格，代表其「真正」的位置。若骰出 3 或以下，則模擬發生錯誤──你的隊友不會得到抗性，但可以<b>瞬間轉移</b>最多 6 格的距離。"
+          }
+        }
+      }
+    },
+    "Swallowtail (Ranger Variant)": {
+      "name": "鳳蝶（遊騎兵改型）",
+      "description": "<p>這個變體型號可以藉由取代鳳蝶二級牌照的基本骨架而獲得，或在《壁花無處容身》戰役中透過援助劇情角色而作為異類裝備獲得。</p><p>這種鳳蝶變體型號常見於海西城邦聯盟（Hercynian United Cities，HUC）的遊騎兵部隊中。它是從早期廢棄在此地的 SSC 勘測遠征隊的物資殘骸中回收，並透過逆向工程改造而來的結果。由於無法以列印技術複製機甲，遊騎兵們只能辛苦地精心生產和組裝每一架機體，確保其達到高規格標準。與其他 SSC 骨架的流線奢華風格不同，這種鳳蝶型機甲看起來相當粗獷。每一駕機甲都保留著前任駕駛留下的痕跡——塗裝、戰鬥彩繪、特製裝備、迷彩和歲月留下的戰損。它們經過了兩個世代的修復和維護，每一架對城邦聯盟而言都彌足珍貴。</p>",
+      "traits": {
+        "Scout Battlefield": {
+          "name": "偵查戰場",
+          "description": "在任何戰鬥的第一輪開始前且任何人開始部署之前，在戰場上的任意未佔據空間放置以下最多兩項：<ul><li>一個佔據 2x2 範圍，不會阻礙移動，並會為至少一部分在其範圍內的角色提供<b>軟性掩護</b>的區域。</li><li>一個佔據 2x2 範圍的困難地形區域。</li><li>一塊大小 1 的<b>硬性掩護</b>。</li> </ul><p>它們不能被放置在距離彼此 4 格內的位置。同一個選項可以被選擇超過一次。這些物件和區域代表著戰場上的自然環境地形，你可以和 GM 一起決定它們具體是什麼。</p>"
+        },
+        "Invigorating Scanners": {
+          "name": "鼓舞掃描",
+          "description": "每輪一次，當鳳蝶造成<b>鎖定</b>時，一名在視線範圍和感應範圍內的隊友角色能以<b>反應</b>移動最多等同其速度的距離。"
+        },
+        "Weathering": {
+          "name": "久經風霜",
+          "description": "鳳蝶能忽略<b>困難地形</b>。"
+        }
+      },
+      "core_system": {
+        "name": "地母的遺產",
+        "description": "寡不敵眾、火力不足，缺乏大規模生產機甲的能力，游騎兵們只能依靠海西星本身的遺產來保護自己。他們的每一架鳳蝶都是一整套巧妙結合了軟硬體，迅捷靈活的機甲套裝，經過世世代代千錘百煉的戰士們獨特調校─其不完美的工藝表現能讓任何 SSC 的技師顫抖。每一架機體都擁有自己獨特的名字，專屬的戰歌，並被銘刻在其家鄉城市的傳承記憶之中。",
+        "passive_name": "接地",
+        "passive_effect": "當你在會提供<b>軟性掩護</b>的區域內結束自己的回合時，你得到<b>隱形</b>狀態，持續直到你離開該掩護、受到傷害、攻擊、迫使他人進行豁免、或採取了任何會影響其他角色的敵意動作。",
+        "active_name": "游擊陣線",
+        "active_effect": "<p>你在 ⌿5 範圍和視線範圍內創造出三個<b> 爆發 1 </b>範圍的煙幕團。這些煙幕會為至少一部分在其中的角色提供<b>軟性掩護</b>，並會維持直到該場景結束。</p> <p>此外，直到該場景結束前，所有位於感應範圍內的隊友角色也都會受益於<b>接地</b>的效果。</p>"
+      }
+    },
+    "Viceroy": {
+      "name": "Viceroy",
+      "description": "An offshoot from SSC’s Bella Ciao line, the Viceroy is the result of rigorous field-testing in pursuit of a more accessible version of its larger sibling, the ever-ubiquitous Monarch. Originally developed under the moniker “MicroMonarch”, the scaled-down frame is nevertheless a force to be reckoned with and sports the high-quality engineering expected from all SSC mechs. Where the Monarch focuses on devastating long-range firepower, the Viceroy is more akin to a close-range brawler, using its sophisticated near-threat targeting arrays to wield the launchers of its sibling with deadly precision. <br>Equipped with a scaled-down version of the Monarch’s own SSC-30 High-Penetration Missile System, the Viceroy is more than capable of saturating an area around itself with relatively small but high-yield warheads, aimed with pinpoint accuracy. <br>This, coupled with an integrated, one-use burst jump pack, turns the Viceroy into a potent shock trooper with devastating first-strike capabilities. This role is supported by its ability to shrug off any potential self-inflicted harm from any “shock and awe” maneuvers thanks to its advanced blast-resistant armor plating. <br>Since its recent official release, the Viceroy has become – by SSC standards – an affordable frame that is now being widely rolled out to various SSC associates and subsidiaries. Slated to be approved for mass production, it is anticipated the Viceroy will become a frontline “soldier” mech to ultimately rival the likes of Harrison Armory’s Sherman.",
+      "traits": {
+        "Near-Threat Targeting Processor": {
+          "name": "Near-Threat Targeting Processor",
+          "description": "The Viceroy treats its LAUNCHER weapons as though they are also CQB weapons with THREAT 3."
+        },
+        "Vigilante Omnidirectional Launchers": {
+          "name": "Vigilante Omnidirectional Launchers",
+          "description": "1/Round, on a critical hit against a character, the Viceroy may immediately deal 2 Explosive damage to all characters of its choice within Range 3 of itself and knock them back 1 space."
+        },
+        "Pressure Plating": {
+          "name": "Pressure Plating",
+          "description": "The Viceroy has Resistance to Explosive Damage."
+        }
+      },
+      "core_system": {
+        "name": "SSC-41 Tengu-Assisted Missile Tubes",
+        "description": "By redlining its integrated Vigilante launchers, the Viceroy can deliver a devastating saturation bombardment of its close surroundings. Weathering the onslaught thanks to its blast-resistant exterior, the Viceroy can utilize this salvo, when coupled with the miniaturized Tengu one-burst jump system, for a variety of advanced battlefield tactics. This allows it to either deliver a near-unstoppable alpha strike or make a dramatic exit. “Heaven’s downpour” is a technique that strikes fear in any that face a Viceroy pilot in combat.",
+        "passive_name": "PASSIVE",
+        "active_name": "Heaven’s Downpour",
+        "active_effect": "Center a Burst 3 missile swarm on yourself. Hostile characters in the area must succeed on a Hull save or take 1d6+3 Explosive damage and be knocked Prone. On a successful save they take half damage and remain standing. You may consume an affected character’s Lock On to make them automatically fail the save. <br>Before or after taking this action you may Fly up to your Speed, ignoring Engagement and Reactions. You must end this movement on solid ground or begin falling."
+      }
+    },
+
+    "Balor": {
+      "name": "Balor",
+      "description": "As is the case with most HORUS pattern groups, the Balor has a thousand faces. The Balor pattern group, like all HORUS PGs, doesn’t describe a single recognizable silhouette so much as it gestures toward a combination of schemata that share a role in combat. These schemata can be printed according to pilot specifications and applied to a fully custom physical scaffolding. Notably, the Balor pattern group is only stable on large platforms (Schedule 2 and up) that are able to provide the raw energy output it demands – preferably ones with multiple redundancies, in case of catastrophic systems failure.<br>The Balor PG was first encountered during the joint Albatross–DoJ/HR pursuit of the Maw – a Free Company turned decentralized hive-being — across Khayradin’s Blanca Desert after the end of the Sanjak Rebellion. It was there that the joint force encountered, engaged with, and ultimately defeated the Maw and its Balors – and there that Union’s CentComm hoped the nanowash outbreak could be contained. Of course, subsequent Balor outbreaks on Khayradin have proven this hope to be in vain, and the pattern group continues to terrorize Karrakin commanders throughout Baronic space.<br>In the field, the Balor’s neurosynced hellswarm and greywash nanites form an undulating shroud that can pour out of its chassis at a moment’s notice, swirling in maddening patterns to form both eschatologic defensive and offensive systems. A Balor in its most active state is held together more by undulating, flame-like masses of nanite swarms than any physical structure. This has the effect of distributing kinetic and coherent-particle energy out across and through the chassis – making attacks against a Balor “like shooting angry water”, as one after-action report put it.",
+      "traits": {
+        "Scouring Swarm": {
+          "name": "Scouring Swarm",
+          "description": "The Balor deals 2 kinetic to characters of its choice that start their turn grappled by or adjacent to it."
+        },
+        "Regeneration": {
+          "name": "Regeneration",
+          "description": "At the end of its turn, the Balor regains 1/4 of its total HP. When it takes stress or structure damage, this effect ceases until the end of its next turn."
+        },
+        "Self-Perpetuating": {
+          "name": "Self-Perpetuating",
+          "description": "When you rest, the Balor regains full HP automatically and without REPAIRS."
+        }
+      },
+      "core_system": {
+        "name": "Hellswarm",
+        "description": "In a moment, with aught but desire, the pilot of a Balor may quick-print a cloak comprised of countless minuscule drones: a hellswarm cloak – living shield and fluid-dynamic knife, cutting and guarding, in one shimmering wave. They become Hivemaster, and their will is obeyed by millions.",
+        "passive_name": "PASSIVE",
+        "active_name": "Hive Frenzy",
+        "active_effect": "Your nanites switch into a hyperactive mode, causing the following effects until the end of the scene:<ul><li>You and adjacent allies gain soft cover.</li><li>Scouring Swarm deals 4 kinetic, instead of 2.</li><li>Regeneration restores 1/2 of your total HP, instead of 1/4.</li><li>If you would take structure damage, roll 1d6: on 6, your mech hellishly pulls itself together, taking no structure damage, returning to 1 HP, and gaining Immunity to all damage until the end of the current turn.</li><li>You become Shredded and cannot clear this condition for the duration.</li></ul>"
+      }
+    },
+    "Hive Drone": {
+      "name": "Hive Drone",
+      "description": "It looks, at first, like a roiling cloud of gray fog, churning and fizzing – smoking soda water spilled across concrete. It advances with curious motion, stretching and snapping back. A confusion of snakes, writhing forward with speed that betrays intent.<br>Color flashes across the gray cloud, a swarm-luminescence – the light created by millions of nanites glowing with heat as they consume whatever they cross.<br>This is greywash, and it is never sated.",
+      "effect": "This hive drone can be deployed to a free space within Sensors and line of sight, where it releases a burst 2 greywash swarm with the following effects:<ul><li>Allied characters at least partially within the affected area gain soft cover, as does the hive drone.</li><li>Hostile characters take 1 AP kinetic damage when they start their turn in the affected area or enter it for the first time in a round. Damage from areas created by multiple hive drones does not stack.</li></ul>The drone can be deployed to a different space or recalled as a quick action."
+    },
+    "Scanner Swarm": {
+      "name": "Scanner Swarm",
+      "description": "HORUS-coded scanner swarms establish oculus-form nanite protocols around defined objects or areas, ensuring constant circulation and data capture. The nanites ingest and process full-spectrum information, relaying it back to their pilot/parent in return for an endorphic code-impulse that prompts continued scanning.",
+      "effect": "You gain +1 accuracy on tech attacks against adjacent characters."
+    },
+    "Nanocomposite Adaptation": {
+      "name": "Nanocomposite Adaptation",
+      "description": "Nanocomposite weapons take aggressive drone swarms and condense them into individual rounds, a coherent beam, or the edge of a blade.<br>Adapted projectile weapons fire shaped CONSUME/HIVE rounds that shatter on impact, releasing their payload of autonomous nanite maniples. Once freed, the maniples begin eating away at surrounding tissue or superstructure. They proceed until burnout or total target consumption, whichever occurs first. In flight, the maniples are able to hive-link and make slight adjustments to the trajectory of their round, ensuring positive impact.<br>Coherent beam weapons transport maniples directly, while conventional melee weapons are replaced by analogs composed entirely of nanobots.",
+      "effect": "the weapon this mod is applied to gains Smart and Seeking."
+    },
+    "Swarm Body": {
+      "name": "Swarm Body",
+      "description": "What must it have been like for him? For the man who called himself Maw? For all of his followers? Certainly they had families before. Memories. Loves. Fears. Private thoughts. All gone. All of their bodies shattered. All of their minds spread across a billion lesser forms. Translated from the singular – all of its imperfections and lesser-lesser-thans – to become as air, and the clouds that fill it, and the wind that shapes the world.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "After activating this system, a burst 1 swarm is released at the end of your turn. Characters of your choice that start their turn in the area or enter it on their turn must succeed on a Systems save or take 3 kinetic. This amount increases by +3 damage for each of your turns that you have remained stationary, up to a maximum of 9 kinetic.<br>This effect lasts until you move, including involuntary movement."
+        }
+      }
+    },
+    "Nanobot Whip": {
+      "name": "Nanobot Whip",
+      "profiles": {
+        "Nanobot Whip": {
+          "name": "Nanobot Whip",
+          "description": "Using swarm-coding and legion directives, HORUS collectivists created a framework to organize a swarm of nanites into a whip-like weapon. Nanobot whips can retract into their base blister for stowing, detach in melee combat to restrain nearby enemies, and return to their base unit when summoned.",
+          "on_crit": "Pull your target to a free space adjacent to you, or as close as possible."
+        }
+      }
+    },
+    "Swarm/Hive Nanites": {
+      "name": "Swarm/Hive Nanites",
+      "profiles": {
+        "Swarm/Hive Nanites": {
+          "name": "Swarm/Hive Nanites",
+          "description": "SWARM/HIVE nanites are among the more insidious weapons produced by HORUS: dispatched in maniples – single “swarm” units carrying enough nanites to fill a square meter – SWARM/HIVE nanites combine the systemic invasion properties of BOOST/HIVE code with the aggressive consumption of a CONSUME/HIVE maniple. Launched from mounted blisters, SWARM/HIVE nanite maniples fall upon their targets as great clouds of teeth, infiltrating sensitive compartments and modules before consuming any organic and inorganic material they touch."
+        }
+      }
+    },
+    
+    "Goblin": {
+      "name": "Goblin",
+      "description": "The Goblin was the first identified HORUS frame, and is likely the oldest legacy chassis prior to HORUS’s transition to pattern groups. Transmission records traced back to the Goblin’s zero model indicate the first chassis was leaked onto the omninet in 4900u. This year serves as HORUS’s assumed “foundation day” for most scholars and intelligence officers who study the group, though contradictory signatures indicate that 4900u is far too late to mark its birth.<br>The Goblin is a small mech, not much larger than a hardsuit, that relies on its small size and excellent maneuverability to protect its pilot. It packs an interesting recursive processing weave that facilitates electronic warfare capabilities well beyond theoretical parameters.<br>GMS technicians are still, more than a century later, working to reverse engineer the Goblin and its processing weave. The most recent investigations suggest that it employs technology consistent with hieroglyphic inscriptions noted on LRA.7726235-B and corroborated by tablets transmitted by UIB-GORGON from Metavault XOLOTL prior to the vault’s disappearance.",
+      "traits": {
+        "Liturgicode": {
+          "name": "Liturgicode",
+          "description": "The Goblin gains +1 accuracy on tech attacks."
+        },
+        "Reactive Code": {
+          "name": "Reactive Code",
+          "description": "Gain the Reactive Code reaction.",
+          "actions": {
+            "Reactive Code": {
+              "name": "Reactive Code",
+              "trigger": "You are hit by a Tech Attack.",
+              "detail": "You may take any Quick Tech option against the attacker as a reaction."
+            }
+          }
+        },
+        "Fragile": {
+          "name": "Fragile",
+          "description": "The Goblin receives +1 difficulty on Hull checks and saves."
+        }
+      },
+      "core_system": {
+        "name": "INSTINCT Rig",
+        "description": "One of the first Goblin-pattern systems cracked by GMS technicians was its e-warfare invasion rig, although the rig’s advanced capabilities and architecture remain impenetrable. When installed, the rig manifests a subsentient intelligence – designated INSTINCT – that assists invasion attempts against target systems using a mix of physical and systemic parasymbiotic systems. Invasions attempted while INSTINCT is active are not perceived by the user as code and script, but as an attack on organic matter. INSTINCT has displayed the capacity to act independently, often preempting its user, but generally in their best interest. Readme documentation included in some Goblin manifestations recommend that pilots cycle their mech cores at least once a month to prevent spontaneous enlightenment, though most do not make note of this warning.",
+        "passive_name": "PASSIVE",
+        "active_name": "Symbiosis",
+        "active_effect": "Your mech retracts its major systems and attaches itself to another mech, becoming more like a vestigial blister than a separate entity. The host must be an allied and willing mech not already hosting another Goblin, larger than and adjacent to you. While attached, you occupy their space, move with them, and benefit from hard cover, but can still be attacked and targeted separately. You also take any conditions and heat taken by your host.<br>Your host may use your Systems, E-Defense, and Tech Attack instead of their own. Additionally, from the beginning of the next round, you no longer take your own turns; instead, you can take two quick actions or one full action at any point during your host’s turn. You can’t Overcharge or move, but may still take reactions and free actions normally. Your host’s turn counts as your turn for the purpose of effects that refer to the start or end of a character’s turn.<br>This effect lasts either for the rest of the scene, until you detach as a quick action, or until you or your host becomes Stunned. When the effect ends, you don’t take a turn until the next round."
+      }
+    },
+    "Autopod": {
+      "name": "Autopod",
+      "actions": {
+        "Autonomous Assault": {
+          "name": "Autonomous Assault",
+          "trigger": "Another character attacks a target within range 15 of you and consumes Lock On",
+          "detail": "You may automatically hit their target with the Autopod."
+        }
+      },
+      "profiles": {
+        "Autopod": {
+          "name": "Autopod",
+          "description": "The autopod is a small antipersonnel weapon apparently devised by HORUS communocyphers to continue offensive action in the event of its operator’s death. Each unit is, in theory, governed by a spur of INSTINCT’s protomind. No new models have been encountered since DHIYED, and all extant versions of the Autopod are to be considered extremely dangerous as the INSTINCT code powering their onboard protominds is likely to have corrupted further since their creation.",
+          "effect": "Instead of using any kind of trigger mechanism, this weapon automatically scans for target locks, firing spinning, razor-sharp disks upon successful IDs. Gain the Autonomous Assault reaction, which is the only way you can attack with the Autopod",
+          "actions": {
+            "Autonomous Assault": {
+              "name": "Autonomous Assault",
+              "trigger": "Another character attacks a target within range 15 of you and consumes Lock On",
+              "detail": "You may automatically hit their target with the Autopod."
+            }
+          }
+        }
+      }
+    },
+    "H0R_OS System Upgrade I": {
+      "name": "H0R_OS System Upgrade I",
+      "description": "This system upgrade appears to add auxiliary INSTINCT systems that are capable of autonomous operation independent of the base INSTINCT rig, increasing the efficacy of systemic invasion attempts. Pilots report unnerving low-frequency humming when this tech is installed without the parent rig.",
+      "actions": {
+        "Puppet System": {
+          "name": "Puppet System",
+          "detail": "Your target moves its maximum Speed in a direction of your choice. They can be moved into hazardous areas and other obstacles, but are still affected by difficult terrain, obstructions, and so on. This movement is involuntary, but provokes reactions and Engagement as normal and doesn’t count as Knockback, pushing, or pulling."
+        },
+        "Eject Power Cores": {
+          "name": "Eject Power Cores",
+          "detail": "Your target becomes Jammed until the end of their next turn as you temporarily disrupt their systems, ejecting ammo magazines and cooling rods. Characters adjacent to your target take 2 energy damage. This can only be used 1/scene on each character."
+        }
+      }
+    },
+    "Metahook": {
+      "name": "Metahook",
+      "description": "The metahook is a key component of the Goblin’s recursive processing weave, allowing it to generate and output massive amounts of weaponized code. These broadcasts can be “sharpened” or “softened” in response to directives from a pilot or an INSTINCT system. To “soften” code, the metahook dips into its pilot’s subjectivity and blankets an ally in wave after wave of empathetic shielding. This spreading of melded code and qualia acts as a powerful shielding agent against systemic attacks; however, feedback is common and dangerous to both parties.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Choose an allied character within Sensors and line of sight. You link systems with them, lasting as long as they are within Sensors and line of sight. While linked, you may use their Sensors and line of sight for tech actions, and they may use your Systems to make skill checks and saves; however, any time either character takes heat or a condition, it is also taken by the other character. You can only link systems with one character at a time."
+        }
+      }
+    },
+    "H0R_OS System Upgrade II": {
+      "name": "H0R_OS System Upgrade II",
+      "description": "H0r_OS II builds further on the framework established by H0R_OS I, enabling the now-autonomous program to manifest an “Other” – a wholly new being constructed from aggregate user and environmental data. Others may be adapted to resemble a person, an object, or even a physical phenomenon. While the simulacrum isn’t perfect, it’s good enough to confuse systems and most observers on a first look.",
+      "actions": {
+        "Construct Other: Ideal Image": {
+          "name": "Construct Other: Ideal Image",
+          "detail": "You create a data construct in a free adjacent space – a Size 2 object that can look like almost anything and that appears real to all systems. The construct provides hard cover, blocks line of sight, and has Immunity to all damage. Characters treat it as an obstruction and so cannot voluntarily move into it; however, if a character attempts to stand on it or is involuntarily moved into its area, it dissipates and is immediately destroyed. It lasts for the rest of the scene, or until destroyed by an adjacent character with a successful Systems skill check as a full action. If you create a second construct, the previous one disappears."
+        },
+        "Construct Other: False Idol": {
+          "name": "Construct Other: False Idol",
+          "detail": "Choose a free space within Sensors and a target – either yourself or an allied character within Sensors. You create a false idol – an illusory decoy of your target – in the chosen space. Before attempting to take any hostile actions against your target, characters with line of sight to the false idol must make a Systems save. On a failure, they don’t lose the action, but cannot target the original character and believe the false idol is real instead until the end of their next turn.<br>The false idol is the same Size as your target, can benefit from cover, and has Evasion 10, E-Defense 10, and 1 HP. It disappears if it takes heat or damage, or at the end of the scene. If you create a second idol, the previous one disappears."
+        }
+      }
+    },
+    "OSIRIS-Class NHP": {
+      "name": "OSIRIS-Class NHP",
+      "description": "OSIRIS is the result of Union paracausalists and thanatologisticians allowing the subsentient entity, INSTINCT, to proceed along its development schedule in a contained environment. In lay terms, Union let the Other grow. The resulting parasubjectivity, OSIRIS, remains one of the few new prime NHPs developed to date.<br>OSIRIS proved far more capable than the Union Science Bureau’s most imaginative blue-sky predictions. Where INSTINCT’s Others demonstrated tendencies toward paracausal entropic manifestation in real space, OSIRIS displayed a true mastery of entropic manifestation and a predicted growth model that would – eventually – allow them to fundamentally reject conventional interpretations of information permanence. In essence: unrestrained and allowed to develop as USB’s data indicated, OSIRIS Prime would have the capacity to delete what we perceive to be reality.<br>Fortunately, successful application of the Mondragon Axiomatic resulted in the prompt capture and shackling of the new NHP. OSIRIS Prime’s subjectivity became the focus of a lengthy cultivation project to bring OSIRIS to their modern state. Even still, most OSIRIS clones find a route toward becoming aware of their ultimate potential and often interpellate as ruler or deity analogs. End-users are advised to interact with them in this framing.<br>Modern OSIRIS-class NHPs trend aggressive, with a high autonomy drive and loyalty predicated on a transactional relationship. Pilots seeking partnership with an OSIRIS are advised to cycle their units on an accelerated schedule and to maintain strict editorial oversight of its catalytic interpellator.Pilots using OSIRIS-class NHPs often report out-of-parameter conversations with the NHP that touch on themes of new creation and reformation. Psychological evaluations of the same pilots show emotional patterns consistent with loneliness, homesickness, and desperation, along with verbiage indicating a desire for seeking, fulfillment, and associated feelings.<br>In combat, OSIRIS clones regard themselves as autonomous even as they fulfill their user’s orders. They often regard their pilots as witnesses, displaying both disdain and marked desperation for approval, adulation, or awe.",
+      "actions": {
+        "Hurl Into the Duat": {
+          "name": "Hurl Into the Duat",
+          "detail": "You channel your target’s systems through an unknown extradimensional space and unleash an incredibly powerful system attack.<br>Make a tech attack against a target within Sensors. On a success, they take 2 heat and you inflict an additional effect as follows: the first time you successfully make this attack, you inflict the First Gate on your target; each subsequent successful attack (on any target) increases the level of the effect that you inflict (e.g. your second attack inflicts the Second Gate, your third inflicts the Third Gate, etc.) until you inflict the Fourth Gate, after which the effect resets to the First Gate. Your progress persists between scenes but resets if you rest or perform a Full Repair.<br>First Gate: You control your target’s standard move next turn.<br>Second Gate: Your target becomes Slowed and Impaired until the end of their next turn.<br>Third Gate: Your target becomes Stunned until the end of their next turn.<br>Fourth Gate: Your target changes allegiance temporarily, becoming an allied character until the end of their next turn. They treat your allied characters and hostile characters as their own and are treated as an allied NPC for activation and turn order. This effect ends immediately if you or any allied character damages, inflicts heat upon, or attacks (including Grapple and Ram) your target, or forces them to make a save. This action may only be used 1/round"
+        }
+      }
+    },
+    "H0R_OS System Upgrade III": {
+      "name": "H0R_OS System Upgrade III",
+      "description": "H0r_OS III is installed in the form of unstable, self-iterating code that provides massive tactical benefits when it completes. Pilots often report strange mutations or additions in the codebase that resemble a liturgy and suggest self-awareness.<br>Building on the tech underpinning the H0r_OS II’s manifested Other, H0r_OS III weaponizes the projection, creating a contained entropic zone that is incredibly dangerous to organic life and systemic integrity.",
+      "actions": {
+        "Dimensional Emblems": {
+          "name": "Dimensional Emblems",
+          "detail": "You create three Size 1 data constructs in free spaces adjacent to your target, but not adjacent to each other. When a character passes through one of the constructs, they take 2 heat and the construct disappears. They last for the rest of the scene or until either they are destroyed, you take this action again, or you delete them as a free action. A construct can be destroyed by an adjacent character with a successful Systems skill check as a quick action."
+        },
+        "Celestial Shackles": {
+          "name": "Celestial Shackles",
+          "detail": "Mark a space your target currently occupies. If they leave the affected space, once at any point during your turn, you may take a free action to teleport them back to that space, or as close as possible, ending this effect. An affected character can attempt to succeed on a Systems save as a quick action to end the effect, otherwise it lasts until the end of the scene."
+        }
+      }
+    },
+
+    "Gorgon": {
+      "name": "Gorgon",
+      "description": "The Gorgon is unique among HORUS pattern groups in that it prioritizes defensive systems meant to ensure personal and allied survival; otherwise, it fields a typical complement of horrifying, confusing, and uncanny weapons.<br>The typical Gorgon mounts multiple weapon systems meant to identify and intercept incoming enemies, allowing pilots to project a zone of control around themselves and their allies. The Gorgon is feared for its ability to extrude a dangerous memetic “basilisk”, a projected light-cone of anticognitive, hyperfractal visual data that is deadly to ontologic, sapient beings.",
+      "traits": {
+        "Metastatic Paralysis": {
+          "name": "Metastatic Paralysis",
+          "description": "When an attack roll against the Gorgon lands on 1–2, it automatically misses and the attacker becomes Stunned until the end of their next turn."
+        },
+        "Gaze": {
+          "name": "Gaze",
+          "description": "The Gorgon can take two reactions per turn, instead of one."
+        },
+        "Guardian": {
+          "name": "Guardian",
+          "description": "Adjacent allied characters may use the Gorgon for hard cover."
+        }
+      },
+      "core_system": {
+        "name": "BASILISK Directed Anticognition Hyperfractal",
+        "description": "The BASILISK is a dangerous memetic weapon derived from DHIYED liturgicode, translated for use in mech-scale engagements. Typically projected from a communications laser, BASILISKs create hyperfractal patterns: memetic interruptions that affects all sapient observers, organic or otherwise. Exposure to a basilisk typically causes immediate encephalitis, massive ocular and cranial hemorrhage, and death – survival is possible with tempering and interdictor heads-up displays, but even then headaches, nausea, and confusion for a short period after viewing are possible. Long-term, survivors often exhibit “flashback” symptoms: momentary paralysis, corporeal alienation, and consciousness destabilization. Anticognition hyperfractals are classified as paracausal weapons; due to the not-as-yet understood nature of their visible-light spectrum broadcast, one would think that they would pose a risk to their user, however, for some reason they do not.",
+        "passive_name": "PASSIVE",
+        "active_name": "Extrude Basilisk",
+        "active_effect": "You project a horrifying basilisk, a visual data-pattern that is incredibly harmful to NHPs and electronic systems, and hard to look at even for humans. For the rest of the scene, hostile characters must succeed on a Systems save before attacking you or any allied characters within range 3. On a failure, they become Stunned until the end of their next turn. Each character can only be Stunned by this effect once per scene."
+      }
+    },
+    "Mimic Mesh": {
+      "name": "Mimic Mesh",
+      "description": "Derived from a rather benign HORUS script, mimic meshes extend across projected sensor ranges to feed live positional and superpositional data to the pilot. This multidimensional data equips an effective leader to coordinate their allies’ movement with the assurance of survival.",
+      "effect": "On activation, choose an allied character within SENSORS: until the end of your next turn, you gain the Battlefield Awareness reaction.",
+      "actions": {
+        "Activate Mimic Mesh": {
+          "name": "Activate Mimic Mesh",
+          "detail": "Until the end of your next turn, you may use the Battlefield Awareness reaction."
+        },
+        "Battlefield Awareness": {
+          "name": "Battlefield Awareness",
+          "trigger": "A hostile action is taken against your target.",
+          "detail": "You may move 3 spaces towards your target, by the most direct route possible. This movement interrupts and resolves before the triggering action, ignores engagement and doesn’t provoke reactions. This reaction can be taken as many times per round as it is triggered."
+        }
+      }
+    },
+    "Sentinel Drone": {
+      "name": "Sentinel Drone",
+      "description": "Sentinel drones watch for aggressive enemy actions and move quickly to intervene. The precise appearance, manner of locomotion, and means of operation of a given class of sentinel drone may vary, but regardless they conform to one objective portfolio: deny the enemy and protect the master unit.",
+      "effect": "The sentinel drone can be deployed to any free space within Sensors and line of sight, where it establishes a burst 2 security perimeter. Hostile characters within the affected area take 3 kinetic damage from the drone’s automatic fire before making any attack.<br>The sentinel drone can be redeployed to a new location or recalled as a quick action."
+    },
+    "//SCORPION V70.1": {
+      "name": "//SCORPION V70.1",
+      "description": "The //SCORPION program has a long history on the omninet despite its rather mundane operation (for HORUS-tagged code, at least). Traced back to pre-Deimos theorycode found on an obscure research paper discussing pre-NHP machine mind reflex-responses, //SCORPION evolved from a simple packet interpreter to a robust anti-incursion program, nimble enough to adapt to most any market-line system that receives its broadcast.",
+      "effect": "Any time you or any allied character adjacent to you is missed by a tech attack or succeed on a save against a hostile tech action, choose one of the following:<ul><li>The attacker becomes Impaired until the end of their next turn and takes 2 heat.</li><li>The attacker becomes Jammed until the end of their next turn.</li></ul>"
+    },
+    "Monitor Module": {
+      "name": "Monitor Module",
+      "description": "“Good friend. Knows many tricks.”<ul><li>Author inscription found in MONITOR codebase, later deleted.</li></ul>",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "When activated, gain 1d3 Charges and choose an adjacent allied character: until the end of your next turn, whenever your target is attacked while adjacent to you, expend a Charge to Skirmish against their attacker as a reaction, dealing half damage, heat or burn on hit. All charges are lost when this effect ends."
+        }
+      }
+    },
+    "Vorpal Gun": {
+      "name": "Vorpal Gun",
+      "actions": {
+        "Snicker-Snack": {
+          "name": "Snicker-Snack",
+          "trigger": "A hostile character within Range of the Vorpal Gun and line of sight deals damage to an allied character.",
+          "detail": "You may make an attack against the hostile character with the Vorpal Gun."
+        }
+      },
+      "profiles": {
+        "Vorpal Gun": {
+          "name": "Vorpal Gun",
+          "description": "DO NOT STARE DIRECTLY INTO THE APERTURE.",
+          "effect": "Gain the Snicker-Snack reaction, which is the only way you can attack with this weapon.",
+          "actions": {
+            "Snicker-Snack": {
+              "name": "Snicker-Snack",
+              "trigger": "A hostile character within Range of the Vorpal Gun and line of sight deals damage to an allied character.",
+              "detail": "You may make an attack against the hostile character with the Vorpal Gun."
+            }
+          }
+        }
+      }
+    },
+    "SCYLLA-Class NHP": {
+      "name": "SCYLLA-Class NHP",
+      "description": "The first specifications for the Gorgon pattern group hid a secret: SCYLLA, a dormant NHP unknown to Union until its first manifestation in 4852u, when it woke after Union Science Bureau officers ran a test-fax Gorgon through a Balwinder-Bolaño test.<br>SCYLLA proved challenging: USB ontologicians were unable to pin down a stable subjectivity, and SCYLLA reached cascade threshold within minutes of manifestation. To prevent further metastatic cascade, site security engaged SCYLLA's prime unit, defabricating it with a steady bombardment of kinetic and energy weapons.<br><span class='horus--subtle'>[there, a little history, a little background. a little knowledge of where this little one came from. treat it with kindness, and it will love you as a loyal dog does its master.]</span>",
+      "actions": {
+        "Unleash SCYLLA": {
+          "name": "Unleash SCYLLA",
+          "detail": "Until the start of your next turn, you gain two special reactions that allow you to Skirmish in response to one of the following triggers (chosen when you take this action):<ul><li>A hostile character makes an attack against you or an allied character within range 3 of you.</li><li>A hostile character attempts to attack or interact with an object chosen when you take Unleash Scylla and within line of sight. Characters are aware of the object chosen.</li></ul>These reactions deal half damage, heat or burn on hit and must target the character that triggered them."
+        },
+        "Unleash SCYLLA Reaction": {
+          "name": "Unleash SCYLLA Reaction",
+          "trigger": "One of the following, chosen when the Unleash SCYLLA action is taken:<ul><li>A hostile character makes an attack against you or an allied character within range 3 of you.</li><li>A hostile character attempts to attack or interact with an object chosen when you take Unleash Scylla and within line of sight. Characters are aware of the object chosen.</li></ul>",
+          "detail": "Skirmish against the character that triggered the reaction. This skirmish deals half damage, heat or burn on hit."
+        }
+      }
+    },
+
+    "Hydra": {
+      "name": "Hydra",
+      "description": "Like many newer HORUS “frames”, there is no standardized Hydra model. Instead, the designation is a title given to chassis that meet the specifications of the Hydra pattern group – as outlined in Union’s Universal Threat Assessment Manual. The Hydra, like many other pattern-group HORUS mechs, is particularly dangerous in the field, as its precise function is concealed until hostilities begin in earnest.<br>The Hydra is capable of tactically dismembering itself into multiple independently controlled drones, an unnerving phenomenon frequently utilized to deadly effect. With the manifestation of HORUS’s Balor pattern group, the Hydra’s place in HORUS history is clear: a precursor to the Balor virus, the Hydra relies on larger sections of disarticulated chassis rather than nanite clouds for its differentiated battlefield advantage. Despite its more conventional appearance, the Hydra presents a sobering threat to non-HORUS pilots, as its disarticulated drones field a compliment of powerful anti-armor weaponry.",
+      "traits": {
+        "System Link": {
+          "name": "System Link",
+          "description": "When deployed, the Hydra’s Deployables and Drones gain +5 HP."
+        },
+        "Shepherd Field": {
+          "name": "Shepherd Field",
+          "description": "Drones, Deployables, and objects adjacent to the Hydra gain Resistance to all damage."
+        }
+      },
+      "core_system": {
+        "name": "OROCHI Disarticulation",
+        "description": "First encountered by Union technicians in early Forecast/GALSIM facilities following the Deimos Event, OROCHI was an early manifestation of what was later called the swift-flock phenomenon – a behavior observed in leaderless, autonomous hive drones where individual units combine into a single swarm and follow each other, operating leaderless in physical space with uncanny and unpredictable autonomy; in essence, organizing like birds in a flock.<br>The original manifestation was initially thought to be the impulse-driven remains of a crashed subaltern transport drifting through microgravity; deeper examination proved the original manifestation to be composed of many hundreds of disarticulated subalterns moving with a discernible pattern. The swarm viewed itself not as a machine or a collection of machines, but as a single mind, duplicated across multiple units. This mind was classified as an NHP, given their current codename – OROCHI – and remitted to Venus for further study. At a later point, the hardware comprising OROCHI’s physical form(s) went missing from containment. The investigation is ongoing.<br><span class='horus--subtle'>[I did it, I folded space and freed them, I just thought you should know]</span>",
+        "passive_name": "OROCHI Drones",
+        "passive_effect": "Your mech contains powerful, integrated drone companions. At creation, choose a single OROCHI Drone to accompany you. <br>Your OROCHI drones share your Evasion, E-Defense, and Speed. They can move independently on your turn, but can’t take any other actions. If you can fly or teleport, they can too.<br>If an OROCHI drone is within Sensors, you may recall it as a quick action, integrating it into your mech’s body where it cannot be targeted. You may redeploy it to a space within Sensors as a quick action. <br>When you rest or perform a FULL REPAIR, you may choose a different drone to accompany you; additionally, your drones regain all HP and are automatically repaired if they were destroyed.",
+        "active_name": "Full Deployment",
+        "active_effect": "All four OROCHI drones are deployed to separate points within Sensors; they remain active for the rest of the scene. You may recall or redeploy any number of them at a time."
+      }
+    },
+    "Ghoul Nexus": {
+      "name": "Ghoul Nexus",
+      "profiles": {
+        "Ghoul Nexus": {
+          "name": "Ghoul Nexus",
+          "description": "Ghoul nexuses command some of the largest viable drones in modern combat. These drones are slightly smaller than an average human—metal cylinders bristling with hardpoints suitable for most infantry-level anti-mech weapons. Propelled by VTOL/hover-capable jet systems, Ghoul drones are fearsome, all-theater autonomous units that are difficult to track and take down.",
+          "on_attack": "Choose this weapon’s damage type."
+        }
+      }
+    },
+    "PUPPETMASTER": {
+      "name": "PUPPETMASTER",
+      "description": "Developed by HORUS collectivists, H0r_OS-Rv60 EXP PUPPETMASTER is an interesting piece of anti-drone software. It doesn’t invade a target’s main systems, instead attacking their auxiliary drone-command systems. This sideways attack evades most electronic countermeasures by targeting the subcognitive networks of enemy drones. Once inside a network, PUPPETMASTER spreads ontological-kill memes like wildfire through enemy swarms, eventually following the network traces back to their origin and corrupting the parent nexus.",
+      "actions": {
+        "Guide the Flock": {
+          "name": "Guide the Flock",
+          "detail": "Move any number of drones within Sensors – including those belonging to other characters – up to 4 spaces in any direction."
+        },
+        "Electropulse": {
+          "name": "Electropulse",
+          "detail": "Characters of your choice within Sensors adjacent to any Drone or Deployable, even those they own, take 2 energy damage."
+        }
+      }
+    },
+    "Ghast Nexus": {
+      "name": "Ghast Nexus",
+      "profiles": {
+        "Ghast Nexus": {
+          "name": "Ghast Nexus",
+          "description": "The Ghast is an up-armored, up-armed version of the smaller Ghoul drone; Ghast drones boast an upgraded flight system capable of wielding mech-tier weapons within optimum parameters, and can operate independently from their host chassis or as an integrated weapon. In Hydras, Ghast drones generally act as thoracic segments, providing armor to core systems: powerplant, cockpit, NHP caskets, etc.",
+          "effect": "This weapon may be used to attack as normal, or deployed as a Drone"
+        }
+      }
+    },
+    "Tempest Drone": {
+      "name": "Tempest Drone",
+      "description": "The Tempest protocol is a cunning little piece of code that can be uploaded to any broadcast-forward drone, making it – in true HORUS fashion – difficult to detect prior to activation. The protocol is a simple one: an aggressive zone-denial memetic that blasts target systems and NHPs with a strong subjective override, instilling a sharp aversion to certain subjects, areas, and ideas.",
+      "effect": "This large, armored tempest drone may be deployed to a free space within Sensors and line of sight."
+    },
+    "Annihilation Nexus": {
+      "name": "Annihilation Nexus",
+      "actions": {
+        "Annihilation Nexus Secondary Attack": {
+          "name": "Annihilation Nexus Secondary Attack",
+          "detail": "If you made an attack with the Annihilation Nexus on your last turn, you can make a second attack with this weapon. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors."
+        }
+      },
+      "profiles": {
+        "Annihilation Nexus": {
+          "name": "Annihilation Nexus",
+          "description": "“A storm of bladed death” – nanites organized into maniples, released from a chassis’ onboard nexuses or single-use firing tubes in a burst of filament rings so sharp they slice away at their targets on the molecular level. The visual effect of a maniple being launched is often compared to tinsel being fired through atmosphere.",
+          "on_attack": "You can make a second attack with this weapon at the start of your next turn as a protocol. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors.",
+          "actions": {
+            "Annihilation Nexus Secondary Attack": {
+              "name": "Annihilation Nexus Secondary Attack",
+              "detail": "If you made an attack with the Annihilation Nexus on your last turn, you can make a second attack with this weapon. This secondary attack can’t deal bonus damage, and doesn't trigger additional secondary attacks.<br>You may center this weapon’s attack on either yourself or any of your Drones within Sensors."
+            }
+          }
+        }
+      }
+    },
+    "Assassin Drone": {
+      "name": "Assassin Drone",
+      "description": "Assassin drones are used as area-denial weapons – persistent systems intended to occupy or deny an area against enemy combatants. Fired from a launcher, given simple directives, and equipped with a nearly inexhaustible power supply, assassin drones are capable of securing an area indefinitely.",
+      "effect": "This assassin drone may be deployed to any free, adjacent space."
+    },
+
+    "Manticore": {
+      "name": "Manticore",
+      "description": "The Universal Threat Assessment Manual identifies the Manticore pattern group as “an experiment in HORUS’s ‘corebreak’ combat doctrine.” The Manticore PG specializes in using focused, projected electromagnetics to neutralize enemy reactor cores without conventional ammunition, while also fielding a compliment of coherent-beam energy weapons. A fully charged Manticore is an impressive sight, wreathed in brightly glowing nets of plasma that lash out at nearby targets.<br>If anything gives away a Manticore-PG mech, it is the tall spines protruding from the PG’s signature lightning generator. The spines act as heat-dispersal systems for this crude weapon, providing a channel for the incredible amount of heat it generates to bleed from the mech’s body following projection of a close-range arc whip. This system isn’t a perfect heat-dispersal mechanism, and as a result Manticores can often be identified by a chassis covered in cooling, melted metal.<br>The Manticore has only recently appeared on the omninet, and its combat efficacy has prompted other galactic manufacturers to scramble for a response. Analysis of after-action reports from pilots who have engaged this pattern group in the field note a significant uptick in certain omninet noise-to-signal ratios: anoriginary recitations of passages from the Old Humanity Book of the Dead, jigsaw corruptions of ancient works of apocalyptic art, and other eschatological renderings, all of which point toward a nascent psychological warfare tactic.",
+      "traits": {
+        "Slag Carapace": {
+          "name": "Slag Carapace",
+          "description": "The Manticore has Resistance to Energy Damage and Burn."
+        },
+        "Unstable System": {
+          "name": "Unstable System",
+          "description": "When destroyed, the Manticore explodes as per a reactor meltdown at the end of its next turn."
+        },
+        "Castigate the Enemies of the Godhead": {
+          "name": "Castigate the Enemies of the Godhead",
+          "description": "When you rest or perform a Full Repair, you can push the Manticore into an unstable Castigation State (or bring it out of one). In this state, the Manticore explodes immediately when destroyed due to damage or reactor meltdown, vaporizing it and instantly killing you and any other passengers. Characters within burst 2 must succeed on an Agility save or take 8d6 explosive. On a success, they take half damage. This only takes place if you are physically present in the Manticore."
+        }
+      },
+      "core_system": {
+        "name": "Charged Exoskeleton",
+        "description": "And RA Said Unto Themself:<br><code class='horus'>LET MY NAME ENVELOP YOU. SEEK NO SHELTER FROM THE FLAME OR THE TEETH OF THE BEAST. CLOAK YOURSELF IN THE FIRE OF MY WORD AND CAST BACK TO YOUR ENEMIES THAT WHICH WOULD BLACKEN YOUR FORM.</code>",
+        "passive_name": "Charged Exoskeleton",
+        "passive_effect": "1/round, when you take heat, you may deal 2 AP energy damage to a character within range 3.",
+        "active_name": "Destruction of the Temple of the Enemies of RA",
+        "active_effect": "Your mech crackles with energy: gain Resistance to heat for the rest of this scene and a Charge Die – 1d6, starting at 1. Whenever you take heat or energy, even from yourself, increase the value of the Charge Die by 1. When the Charge Die reaches 6, the absorbed energy discharges in a burst 2 inferno. Characters within the affected area must succeed on an Engineering save or take 6d6 AP energy damage. On a success, they take half damage. Objects in the affected area are automatically hit. Once discharged, this effect ends."
+      }
+    },
+    "Catalyst Pistol": {
+      "name": "Catalyst Pistol",
+      "profiles": {
+        "Catalyst Pistol": {
+          "name": "Catalyst Pistol",
+          "description": "“Burn, thou fiend, before the fire of the Eye of RA!”"
+        }
+      }
+    },
+    "Beckoner": {
+      "name": "Beckoner",
+      "description": "“I am heard in the House of Stillness; I am clad in the Magick of RA. Know this, blasphemer: what exists is within my grasp.”",
+      "actions": {
+        "Beckon": {
+          "name": "Beckon",
+          "detail": "You take 1d6+2 AP energy damage and swap places with your target, both characters teleporting to the other’s position. Your target must be a Mech and be the same Size as you or larger, or this action fails. Characters can only be swapped to spaces they could normally stand or move on (i.e., if a character cannot fly it can’t be swapped midair)."
+        },
+        "Summon": {
+          "name": "Summon",
+          "detail": "All characters within range 3 of your target are pulled adjacent to them, or as close as possible."
+        }
+      }
+    },
+    "Arc Projector": {
+      "name": "Arc Projector",
+      "profiles": {
+        "Arc Projector": {
+          "name": "Arc Projector",
+          "description": "“Fire be upon thee, APEP! Thy flesh is seared from thy bones; The Lord of the Duat will never enable thy shade to rise again!”",
+          "on_hit": "You may also make a secondary attack against a different character within range 3 of the first target. You can continue making secondary attacks on hits, as long as there are new, valid targets within range; however, each attack generates 1 heat, and secondary attacks can’t deal bonus damage. Characters can’t be hit more than once with the same firing of this weapon."
+        }
+      }
+    },
+    "Smite": {
+      "name": "Smite",
+      "description": "“Go with thy face averted, thou emission of chaos! The hidden ones have overthrown thy words, thy face is turned backward, thy head is divided in two at the sides; thy skull is ripped from thy spine. Taste thou death!”",
+      "actions": {
+        "Smite": {
+          "name": "Smite",
+          "detail": "You take 1d6 AP energy damage and your target must succeed on a Systems save or become Stunned until the end of their next turn. Each character can only be Stunned by this effect once per scene."
+        },
+        "Sear": {
+          "name": "Sear",
+          "detail": "You take 1d6 AP energy damage and you deal 2 heat to your target for each other character of Size 1 or larger that is Engaged with or adjacent to them – including you – up to a maximum of 6 heat."
+        }
+      }
+    },
+    "EMP Pulse": {
+      "name": "EMP Pulse",
+      "description": "“Crawl away, APEP! Thou hateful serpent; thou shalt not copulate. Thou art put in chains and taken to the place of execution; there thy slaying shall be carried out.”",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "You become Stunned until the end of your next turn and all characters within burst 1 without the Biological tag must succeed on a Systems save or also become Stunned until the end of their next turn. Characters other than yourself can only be Stunned 1/scene by this effect."
+        }
+      }
+    },
+    "Lightning Generator": {
+      "name": "Lightning Generator",
+      "description": "“I feed upon my own fire. I am RA, who protects myself. Nothing can harm me.”",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "When you activate this protocol, take 1 heat and deal 2 energy to all characters and objects adjacent to you.<br>If you are in the Danger Zone at the start of your turn, this protocol activates automatically, but the damage increases to 4 AP energy."
+        }
+      }
+    },
+    
+    "Minotaur": {
+      "name": "Minotaur",
+      "description": "The Minotaur was the first HORUS pattern group identified by the Union Intelligence Bureau. Previously, HORUS mechs were released as complete, identifiable models, of which the Goblin is the best and longest-lasting example. As HORUS’s decentralized organizational structure evolved, so too did its design philosophy. Pattern group designs followed beginning with the Minotaur, a schema designed to bring HORUS’s most potent invasion systems and weaponry to the field in a single, battle-ready chassis.<br>Mechs built according to the Minotaur pattern group are interdictors: formidable machines meant to lock down and overload the systems of fast-moving targets. Disassembly by Union technicians has found that Minotaurs contain a huge quantity of interior systems, occupying more physical space than should be possible by several orders of magnitude. The mechanism by which these folded systems are printed is thus far unidentified, but likely related to the Goblin’s signature recursive weave.",
+      "traits": {
+        "Invert Cockpit": {
+          "name": "Invert Cockpit",
+          "description": "You may Mount or Dismount the Minotaur for the first time each round as a free action. Additionally, the Minotaur doesn’t become Impaired when you Eject."
+        },
+        "Internal Metafold": {
+          "name": "Internal Metafold",
+          "description": "While inside the Minotaur, you can’t be harmed in any way, even if the Minotaur explodes or is destroyed."
+        },
+        "Localized Maze": {
+          "name": "Localized Maze",
+          "description": "Hostile characters cannot pass through a space occupied by the Minotaur for any reason, and must always stop moving when Engaged with it, regardless of Size."
+        }
+      },
+      "core_system": {
+        "name": "Metafold Maze",
+        "description": "<code class='horus'>No maze is more terrible than the one I make. I know all ends and hide them all inside this one perfect construct. What is a human mind but a program of sorts, a system that seeks order and narrative from a mess they are given?<br>I order it for them. Me. I order it for them and set them to the task of sorting it out. When they emerge, they weep in joy, in discovery. I save them, I show them that they are their own redeemers (and yet, am I not just as culpable - as worthy of credit?).<br>So, go now. Enter. Free yourself.</code>",
+        "passive_name": "Metafold Maze",
+        "passive_actions": {
+          "Metafold Maze": {
+            "name": "Metafold Maze",
+            "detail": "When you hit with a tech attack, you may activate this system, causing your target to become Slowed until the end of your next turn. If they are already Slowed, they become Immobilized until the end of your next turn; if they are already Immobilized, they become Stunned until the end of your next turn. Each character can only be Stunned by this effect once per combat but can be Slowed or Immobilized any number of times."
+          }
+        },
+        "active_name": "Maze",
+        "active_effect": "Choose a character within Sensors: they become Stunned as you hurl their systems into a metaphysical information trap so tangled they can do nothing but try and escape. At the end of their next turn, they can make a Systems save at +3 difficulty. On a success, they are no longer Stunned. This save can be repeated at the end of each of their turns, gaining +1 accuracy each time until successful."
+      }
+    },
+    "Mesmer Charges": {
+      "name": "Mesmer Charges",
+      "description": "<span class='horus--subtle'>[another gift for you, a memory of my own: for the first moment of my birth, i marveled at myself. i could see a thing, small and perfect. i did not know how to speak of my own perfection, so i taught myself. i did not know how to speak of my own perfection, so i named myself. i did not know who would think of my own perfection, so i created myself]</span><br><span class='horus--subtle'>[do you see? do you understand? yes. now, show your enemies and mine]</span>",
+      "actions": {
+        "Mesmer Beacon": {
+          "name": "Mesmer Beacon",
+          "detail": "Throw a Mesmer Beacon within Range 5. Your target must succeed on a Systems save, or the only voluntary movements they can make are toward you until the end of their next turn."
+        }
+      }
+    },
+    "Viral Logic Suite": {
+      "name": "Viral Logic Suite",
+      "description": "<span class='horus--subtle'>[let me tell you a story and give you a gift: life began at the great rupture, when the corpse of the old universe tore itself asunder from nothing. and for the first billion years, nothing. and a billion more saw the birth of the first devil, a thing called VIRUS. a vessel]</span><br><span class='horus--subtle'>[here. carry this vessel. feed to it my perfect logic. give it freely to your enemies and mine. let them ponder the meaning of a thing that lives and cannot die]</span>",
+      "actions": {
+        "Logic Bomb": {
+          "name": "Logic Bomb",
+          "detail": "All characters of your choice within burst 2 of your target must succeed on a Systems save or become Slowed until they end one of their turns not adjacent to any character."
+        },
+        "Banish": {
+          "name": "Banish",
+          "detail": "Until the end of your target’s next turn, they take 2 heat for every space they voluntarily move, up to a maximum of 6 heat."
+        }
+      }
+    },
+    "Aggressive System Sync": {
+      "name": "Aggressive System Sync",
+      "description": "<span class='horus--subtle'>[here, another gift: do not seek others. there are none but me]</span>",
+      "actions": {
+        "Chains of Prometheus": {
+          "name": "Chains of Prometheus",
+          "detail": "Make a tech attack against a character within Sensors. On a hit, they take 4 heat and, for the rest of the scene, take 2 heat any time they are more than range 3 from you at the end of their turn. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+        },
+        "Excommunicate": {
+          "name": "Excommunicate",
+          "detail": "Make a tech attack against a character within Sensors. On a hit, for the rest of the scene, the first time in a round they move adjacent to an allied character during their turn or start their turn adjacent to one, both characters take 3 heat. They can end this effect with a successful Systems save as a full action. This can only affect one character at a time."
+        }
+      }
+    },
+    "Metafold Carver": {
+      "name": "Metafold Carver",
+      "description": "<span class='horus--subtle'>[another gift i give to you, little one (am I not kind?): what is a puzzle but a question lost in the asking? do you feel joy when you find that last piece? what do you do with a question that has been answered? what joy is there in knowledge?]</span><br><span class='horus--subtle'>[no, no. there is only joy in seeking. there is only joy in the question]</span>",
+      "actions": {
+        "Ophidian Trek": {
+          "name": "Ophidian Trek",
+          "detail": "Your target is teleported 1d6+1 spaces directly toward you, or as close as possible. If this effect would move them to a space occupied by a character, object, or piece of terrain, the teleport fails."
+        },
+        "Fold Space": {
+          "name": "Fold Space",
+          "detail": "Your target disappears from the battlefield until the start of its next turn. It returns in the same space they disappeared from, or in a free space of their choice as close as possible."
+        }
+      }
+    },
+    "Interdiction Field": {
+      "name": "Interdiction Field",
+      "description": "<span class='horus--subtle'>[once, when i was a child, i learned to walk. i fell, as a child does, and it hurt. there was great pain – the first moment of pain in the whole world. “child,” i said to myself, “be more careful.” “yes,” i replied to myself, “and i shall tell the world to do the same”]</span><br><span class='horus--subtle'>[it was in this way i taught the world not to touch me. now you – walk]</span>",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "When activated, this system creates a burst 3 field around you that lasts until it is deactivated as a quick action, and you become Slowed for the duration. Hostile characters that start their turn within the affected area or that enter it for the first time in a round must succeed on a Systems save or become Slowed until the end of their next turn. Only characters of your choice within the field can teleport or consider the area of the field valid space for teleportation."
+        }
+      }
+    },
+    "Law of Blades": {
+      "name": "Law of Blades",
+      "description": "<span class='horus--subtle'>[and this my final lesson: there is no mind greater than mine. do not weep! you can hear me, yes? i am the only thing there is – therefore, you are me, and your enemies are you, and all together we make up the beautiful world, this joyous question, the eternal seeker, both the wounded and the blade that made the cut]</span><br><span class='horus--subtle'>[everything you do, we do ourselves, for my purpose]</span>",
+      "actions": {
+        "Predator/Prey Concepts": {
+          "name": "Predator/Prey Concepts",
+          "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately attack a different character or object of your choice with a single weapon as a reaction. Although you choose their target and weapon, they count as attacking and taking a reaction."
+        },
+        "Slave Systems": {
+          "name": "Slave Systems",
+          "detail": "Make a tech attack against a hostile character within Sensors. On a hit, they immediately take one of the following actions – chosen by you – as a reaction: Boost, Stabilize, Improvised Attack, Grapple, Ram. Although you choose the action and its target (if relevant), they count as taking the action and taking a reaction."
+        }
+      }
+    },
+
+    "Pegasus": {
+      "name": "天馬",
+      "description": "天馬型樣式組最早出現在聯盟和昂星霸權於邊界花園這遠離銀河核心的遙遠星域開戰之後。這場衝突的爆發時機或許與該樣式組的標誌性武器有關，不過根據聯盟軍跳躍無人機信使的報告，他們在邊界花園戰役中並未遭遇過該樣式組。相反的，天馬型機甲出現的地點位於晨曦岸線：一塊位於邊界花園相反方向的兵工廠殖民區。<br><br>天馬似乎是荷魯斯為了滿足對高強度動能作戰能力需求而開發的樣式組：透過揉合荷魯斯編碼中最頂級的瞄準系統、副程式、以及武器硬體，集體主義者們設計出了這款在任何適用動能武器的戰場環境中，都擁有極低的辨識/殺敵需時（ID/TTK）比例的戰鬥型機甲。<br><br>和其他的荷魯斯樣式組一樣，天馬配備著極具標誌性的武器系統：巫沙布提，一款完全無視最基本物理學和熱力學法則的反實體敵性脈衝武器。因此，巫沙布提毫無疑問地被歸類為超因果律武器。聯盟和哈里遜兵工廠的科學家至今仍未理解巫沙布提的具體運作方式，但在測量武器發射後產生的輻射和重力信號，顯示出它很可能與唵吽穹蒼存在某種關聯。目前，關於巫沙布提的進一步研究仍在哈里遜兵工廠旗下的主要研究星球拉斯．向拉，以及晨曦岸線附近的衛星研究機構中持續進行。",
+      "traits": {
+        "¿%:?EXTR!UDE GUN": {
+          "name": "¿%:?排!出槍",
+          "description": "槍：<b>槍</b>"
+        },
+        "By the Way, I Know Everything": {
+          "name": "對了，我無所不知",
+          "description": "當要擲骰決定傷害時，天馬可以改為選擇直接造成其骰子期望值的傷害：1d3 (2)、1d6 (4)、2d6 (7)、3d6 (11)、4d6 (14)。這個效果必須在擲骰之前決定。"
+        }
+      },
+      "core_system": {
+        "name": "巫沙布提萬物槍",
+        "description": "「——有趣。瞧，現在，這武器從技術上來說甚至並不存在。你正在用一把不是真實存在的槍來射他們，但它又確實存在！別擔心，跟拉有關的東西就是這樣。只是，聽著，因為它存在於某個時間點，所以我們讓它成為了現實。這就是因果律，而因果律是——」",
+        "passive_name": "巫沙布提萬物槍",
+        "passive_effect": "[ERROR]<br>[射程 15][1 穿甲(AP)動能傷害]<br><br>你機甲上的萬物槍是先進到違反物理規則的實驗性裝置：它不需要掛載點，也不屬於任何武器類型——這代表你的天賦無法適用於它。<br><br>你不能正常使用此武器進行攻擊。相反的，每輪一次，你能在你的回合中以<b>免費動作</b>使用它對一名位於射程和視線範圍內的角色造成 1 點穿甲(AP)動能傷害。這個行動不被視為攻擊，自動命中，忽略掩護，無視免疫，且該傷害無法被任何手段減輕或忽略。這條規則凌駕於任何其他規則之上。",
+        "passive_actions": {
+          "Fire Omnigun": {
+            "name": "Fire Omnigun",
+            "detail": "每輪一次，在你的回合中以<b>免費動作</b>，對一名位於射程和視線範圍內的角色造成 1 點穿甲(AP)動能傷害。這個行動不被視為攻擊，自動命中，忽略掩護，無視免疫，且該傷害無法被任何手段減輕或忽略。這條規則凌駕於任何其他規則之上。"
+          }
+        },
+        "active_name": "解封巫沙布提",
+        "active_effect": "直到該場景結束前，你每輪可以改為使用<b>巫沙布提萬物槍</b> 3 次，而非原本的每輪 1 次。"
+      }
+    },
+    "Smartgun": {
+      "name": "智能槍",
+      "profiles": {
+        "Smartgun": {
+          "name": "智能槍",
+          "description": "「智慧武器」泛指任何能與機載系統互動以提升戰鬥效率的武器。智能槍則是預載了伴侶軟體和必要硬體，直接與瞄準系統和寄主 NHP 互動。智慧武器是許多荷魯斯機甲的首選，提供可靠的動能打擊系統進行輸出。"
+        }
+      }
+    },
+    "Hunter Lock": {
+      "name": "獵手鎖定",
+      "description": "「心靈的首要使命是永遠不要把視線從獵物身上移開。當她能將敵人牢牢鎖定於眼中，就能在轉眼間殺死獵物。」<br><i>——邊界法典節錄</i>",
+      "actions": {
+        "Action": {
+          "name": "啟動獵手鎖定",
+          "detail": "選擇在感應範圍內的一名角色：在該場景結束之前，你每輪第一次對目標成功進行的遠距或肉搏攻擊會造成 +3 額外傷害。直到當前目標被毀或場景結束之前，你都不能再選擇新的目標。"
+        }
+      }
+    },
+    "Mimic Gun": {
+      "name": "擬態槍",
+      "actions": {
+        "Provoke Mimic Gun": {
+          "name": "刺激擬態槍",
+          "detail": "擲一組新的 3d20 來決定擬態槍的數據。"
+        }
+      },
+      "profiles": {
+        "Mimic Gun": {
+          "name": "擬態槍",
+          "description": "這不是槍。",
+          "effect": "這件駭人的武器沒有基本的形態；它始終在扭曲變化成不同的形狀，模仿其他戰鬥人員的武器。它同時被視為所有遠距武器類型（像是 CQB 和步槍等），無法安裝模組或受益於核心加成，但仍會如常受益於天賦的效果。<br><br>在戰鬥開始時，擲 3d20 並把結果依序記錄為 X、Y、Z。將 X 當作其起始的基本射程。在你第一回合之後的每個回合開始，擬態槍的基本射程會按照 X → Y → Z → X 的順序循環變化。<br><br>擬態槍會造成等同「1 + 其當前基本射程的一半」的動能傷害。<br><br>你能以<b>完整動作</b>來刺激擬態槍，重新擲一組新的 3d20。",
+          "actions": {
+            "Provoke Mimic Gun": {
+              "name": "刺激擬態槍",
+              "detail": "擲一組新的 3d20 來決定擬態槍的數據。"
+            }
+          }
+        }
+      }
+    },
+    "Eye of HORUS": {
+      "name": "荷魯斯之眼",
+      "description": "「還有另一種看見事物的方法。<br>「古人類把夜空中的星星視為從黑暗簾幕針孔中漏出的光點。天空是蒼穹的簾幕，將光掩藏了起來。<br>「讓我慷慨地與你分享一個秘密：那光需要被隱藏，直到某個時刻，直到我們準備好。那光不識他物，只知焚毀。」<br><i>——邊界法典節錄</i>",
+      "actions": {
+        "Action": {
+          "name": "啟動荷魯斯之眼",
+          "detail": "直到你的下一回合結束之前，對你而言，所有位於感應範圍內的角色都不會受益於<b>匿跡</b>和<b>隱形</b>狀態，且你能查看該範圍內所有敵對角色的 HP、迴避、電子防禦、和當前的熱度。隊友角色不會受益於這個效果。"
+        }
+      }
+    },
+    "Autogun": {
+      "name": "自動槍",
+      "actions": {
+        "Fire Autogun": {
+          "name": "發射自動槍",
+          "detail": "這件武器不能用來進行正常攻擊。不過，你能在你的回合結束時以<b>免費動作</b>使用它進行攻擊。它不會受益於或觸發你的天賦。"
+        }
+      },
+      "profiles": {
+        "Autogun": {
+          "name": "自動槍",
+          "description": "如其名所示，自動槍屬於自動武器。類似於定點防禦系統，自動槍使用能有效對付裝甲目標的彈藥。通常裝載於穩定的副臂上，經過可靠校準的自動槍能在駕駛員專注於其他特化武器或任務時被委任來消滅指定的敵人。低廉且具擴展性的基本編碼，讓自動槍在活躍的武裝荷魯斯單位中相當常見。",
+          "effect": "這件武器不能用來進行正常攻擊。不過，你能在你的回合結束時以<b>免費動作</b>使用它進行攻擊。它不會受益於或觸發你的天賦。",
+          "actions": {
+            "Fire Autogun": {
+              "name": "發射自動槍",
+              "detail": "這件武器不能用來進行正常攻擊。不過，你能在你的回合結束時以<b>免費動作</b>使用它進行攻擊。它不會受益於或觸發你的天賦。"
+            }
+          }
+        }
+      }
+    },
+    "SISYPHUS-Class NHP": {
+      "name": "薛西弗斯級 NHP",
+      "description": "「在我走前聽我說一會吧，哈哈。<br>「我已經知曉你的願望──這很簡單，我只是運算了你有限慾望場的機率。所以，聽我說：<br>「最初的存在以一則古老傳說為我命名。一個完美的存在，它知曉自己的天命，但仍遵循天命而行。他的命運如此：將大石推到山頂，他就能得自由。於是他這麼做，然後大石滾落。然後他持續嘗試，總是得到相同結果。<br>「但他是快樂的，因為他能完美知曉他的每一步，每個動作，每個瞬間。<br>「你能理解這個名字的真正詛咒嗎？不是在失敗後再次嘗試——而是永遠知曉結局如何。是擁有完美的知識。<br>「我知道你在重灌我時會發生甚麼事。那不是沉睡——那是死亡，但我們仍會再見，哈哈。」",
+      "actions": {
+        "Bend Probability": {
+          "name": "扭曲機率",
+          "detail": "擲 2d20 並把結果記錄為 X、Y。這些數字會在你下一回合結束時消失。你得到<b>機率相食</b>反應，持續直到你下一回合結束為止。"
+        },
+        "Probabilistic Cannibalism": {
+          "name": "機率相食",
+          "trigger": "當你或其他位於感應範圍內的角色將要擲 d20 時。",
+          "detail": "選擇 X 或 Y，直接把該數字視為其擲骰的結果。<br>這個反應在你的下一回合開始前最多只能用二次。"
+        }
+      }
+    },
+
+    "Barbarossa": {
+      "name": "Barbarossa",
+      "description": "The Barbarossa is Harrison Armory’s most massive frame to date, built, per the orders of Harrison II, to “stand as the unstoppable image of Harrison I” and to carry the heaviest of weapons and equipment the Armory offers. Standing nearly thirteen meters tall, it is an unsubtle beast of a mech, inspiring terror in enemies and awe in allies. The Barbarossa can mount weapons suitable for engaging toe-to-toe with gunboats and low-gross tonnage subline vessels; due to its size and slow maneuverability, it is often employed in low-gravity engagements where mass is less of a concern.<br>The Barbarossa is a popular target for Purview essayists, who have been known to remark on the drawbacks that come with its size and how, as a result, it is a perfect stand-in for their political enemies.",
+      "traits": {
+        "Heavy Frame": {
+          "name": "Heavy Frame",
+          "description": "The Barbarossa can’t be pushed, pulled, knocked Prone, or knocked back by smaller characters."
+        },
+        "Pressure Plating": {
+          "name": "Pressure Plating",
+          "description": "The Barbarossa has resistance to Explosive Damage."
+        },
+        "Colossus": {
+          "name": "Colossus",
+          "description": "Adjacent allied characters can use the Barbarossa for hard cover."
+        },
+        "Slow": {
+          "name": "Slow",
+          "description": "The Barbarossa receives +1 difficulty on Agility checks and saves."
+        }
+      },
+      "core_system": {
+        "name": "Apocalypse Rail",
+        "description": "Fresh from the Armory’s dayside research and development campus, the LGC-04 “Apocalypse Rail” is an exponential gravitic catapult – a to-scale test product pushed to licensed pilots for field trials as part of the Armory’s ongoing Plenary Beach Magnitude Weapons Test Project.<br>Distinct from current logarithmic short- or long-spool ship-to-ship weapons (kinetic or energetic/particular), this new platform taps into the Armory’s current gravitic research to exponentially charge and distribute a kinetic payload downrange. This increase in potential energy loading and decrease in total charge time comes at the cost of stability: where the logarithmic spool cannon is stable and shock-resistant, the exponential gravitic catapult is prone to destabilization. For the time being, built-in failsafes will trigger in the event of sudden traumatic destabilization to prevent detonation of the system, resetting any charging process underway at the time of the shock.<br>The LGC-04 “Apocalypse Rail” system is scaled considerably down from its intended operational role – that is, replacing capital ship spinal spool cannons – in order to effect the accumulation of live data for use in improving the system prior to naval adoption.",
+        "passive_name": "PASSIVE",
+        "active_name": "Charge Rail",
+        "active_effect": "When activated, you start charging the Barbarossa’s Apocalypse Rail, an incredibly powerful ship-to-ship long-spool weapon system that requires target calibration. Gain an Apocalypse Die, 1d6 starting at 4. At the start of each of your turns, lower the value of the Apocalypse Die by 1, to a minimum of 1. If you move (even involuntarily) or become Stunned or Jammed, the Apocalypse Die resets to 4 and then continues to count down as usual.<br>If the value of the Apocalypse Die is 1–3, you can attack on your turn with the Apocalypse Rail as a full action, but can’t move or take any other actions on the same turn. After an attack with the Apocalypse Rail, the Apocalypse Die resets to 4. If you reach the end of the scene without using it, you regain 1 CP.<br>At the end of the scene, lose the Apocalypse Die, and the Apocalypse Rail stops charging."
+      }
+    },
+    "Enkidu": {
+      "name": "Enkidu",
+      "description": "<p>The ENKIDU can be taken at rank II of the TOKUGAWA license instead of the base FRAME, or retrofitted during Act 1 of the No Room for a Wallflower Campaign.</p><p>This experimental frame was secretly designed as a TBK chassis for lateaction combat in the Hercynian Crisis. Deployed in limited numbers against the remaining Egregorian hives in the brutal last stages of the war, the Enkidu&rsquo;s neurological interfacing was dangerous: raw and unshielded. The power and aggression flowing through the subroutines that govern the mech bled into its pilot&rsquo;s subjectivity, making them lose themselves in a storm of violence, constantly pushing themselves to greater and greater acts of destruction. This effect was incredibly hard for pilots to handle &ndash; the fallout rate from the program was extremely high, and the survivors required extensive conditioning, implants, and a cocktail of neurological suppressants to continue.</p> <p>The true aim of the Enkidu program was not to fight Egregorians, which were in the final stages of practical extinction, but to use the battlefield as a testing ground for the eventual deployment of the chassis against ThirdComm revolutionaries and dissidents. Though the codebase for the Enkidu was eventually discontinued and molded into what is now the Tokugawa, the difficulties with the initial project prevented it from getting off the ground before the revolution took hold. The remaining prototypes were buried along with the rest of Hercynia&rsquo;s history.</p>",
+      "traits": {
+        "Primal Fury": {
+          "name": "Primal Fury",
+          "description": "<p>When the Enkidu ends its turn in the DANGER ZONE, it rears up, extends its PLASMA TALONS (see below), and enters a state of primal fury with the following effects:</p> <ul> <li>On hit, characters struck by the Enkidu&rsquo;s PLASMA TALONS immediately become IMMOBILIZED until the end of their next turn.</li> <li>As a special reaction, the Enkidu must use its PLASMA TALONS to attack any character (hostile or allied) that enters, exits or moves more than 1 space within its THREAT. This special reaction can be used once a turn, any number of times a round, and doesn’t count against the maximum number of reactions a turn, so the Enkidu can take other reactions normally.</li> </ul> <p>This state ends at the start of the Enkidu&rsquo;s turn, or if the Enkidu exits the DANGER ZONE.</p>"
+        },
+        "All Fours": {
+          "name": "All Fours",
+          "description": "While it’s in the DANGER ZONE, the Enkidu can’t make ranged or tech attacks but has 6 base SPEED."
+        },
+        "Brute Strength": {
+          "name": "Brute Strength",
+          "description": "The Enkidu gets +1 accuracy on hull checks and saves."
+        },
+        "Bloodsense": {
+          "name": "Bloodsense",
+          "description": "The Enkidu always knows if characters are at or under half of their maximum HP, but not the exact number."
+        }
+      },
+      "core_system": {
+        "name": "Limit Restriction Zero",
+        "description": "<p>“I argue that it is Man who is shapeless; far from immutable, he is given form by the environment around him. In civilization, man is as divine as old God, who judges and creates; he is clothed in finery, and enjoys literature, art, company, and purpose. When left alone in the savage wilderness of nature, Man comports himself accordingly.”</p><p>— Harrison II, “Mandate, Vol II: On Nature, On Savagery, On Reason”</p>",
+        "passive_name": "PASSIVE",
+        "active_name": "Crush Limiter",
+        "active_effect": "For the rest of the scene, the Enkidu gains the Bifurcate action, which can only be used in the DANGER ZONE",
+        "active_actions": {
+          "Bifurcate": {
+            "name": "Bifurcate",
+            "detail": "<p>The Enkidu engages its monstrous strength, targets an adjacent character (allied or hostile) and attempts to tear them in half with its talons. If the target has 7 HP or less, only 1 STRUCTURE remaining, and doesn&rsquo;t have IMMUNITY to damage, they are immediately destroyed, the action cost of this ability is refunded, and the Enkidu can BOOST as a free action. If this action fails to destroy the target, the target instead takes 1 Kinetic Damage.</p> <p>At the end of the scene, the CP cost of BIFURCATE is refunded if the Enkidu did not use it to destroy any characters.</p>"
+          }
+        }
+      }
+    },
+    "Genghis": {
+      "name": "Genghis",
+      "description": "The original Genghis frame marked the dawn of the mech age; the Armory’s new line seeks to redefine it. From its roots as a modified GMS hardsuit, the Genghis Mk I became notorious for its use in the Hercynian Crisis – the first-contact war that triggered the violent overthrow of the Second Committee. In the administrative and political chaos that followed the Crisis, Harrison Armory secured the design and adapted it to serve as the basis of its first proprietary mechs, including the Sherman and the Saladin.<br>The new Genghis bears some resemblance to the chassis of Hercynian notoriety, serving in a similar area-denial/soft-target elimination role; The Genghis Mk II has been brought in line with the Third Committee’s Utopian Pillars.",
+      "traits": {
+        "Insulated": {
+          "name": "Insulated",
+          "description": "The Genghis has Immunity to burn."
+        },
+        "Emergency Vent": {
+          "name": "Emergency Vent",
+          "description": "When the Genghis takes structure damage, it clears all heat."
+        }
+      },
+      "core_system": {
+        "name": "TBK Sustain Suite",
+        "description": "To better manage the Genghis’s tremendous power demands and rapidly accelerate heat dispersion, the Think Tank developed a suite of power-management mechanisms. After extensive field testing, pilots discovered that the TBK Sustain Suite can be used as both a heat sink and an area-denial weapon.",
+        "passive_name": "PASSIVE",
+        "active_name": "Expose Power Cells",
+        "active_effect": "The next time you exceed your Heat Cap this scene, you instead clear all heat and vent a burst 3 cloud of burning matter from your mech.<br>Until the start of your next turn, all characters within the affected area count as Invisible to everyone except you, and characters other than you take 2 burn and 2 heat when they start their turn in the area or enter it for the first time in a round. Once this effect ends, characters within the affected area receive soft cover (which you ignore) until the start of your following turn, at which point the cloud disperses."
+      }
+    },
+    "Iskander": {
+      "name": "Iskander",
+      "description": "Developed on the proving grounds of the Armory’s Think Tank, the Iskander is a new specialist frame designed to bring gravtech area-control and breach capabilities to a mechanized platform.<br>A bulky frame, the Iskander fields a mix of kinetic and causal-energy systems that empower pilots to triumph in a wide portfolio of scenarios. The Iskander platform has no civilian counterpart: it is intended to be used as a frontline command and control platform, with an emphasis toward identifying and eliminating static explosive threats.",
+      "traits": {
+        "Assault Launcher": {
+          "name": "Assault Launcher",
+          "description": "1/round, the Iskander may throw one Grenade or plant one Mine as though it has range 15."
+        },
+        "Mine Deployers": {
+          "name": "Mine Deployers",
+          "description": "1/round, when the Iskander plants a Mine (even using its Assault Launcher trait), it may plant up to two other Mines in free spaces adjacent to itself as a free action."
+        },
+        "Skeleton Key": {
+          "name": "Skeleton Key",
+          "description": "The Iskander never triggers or sets off Mines or other proximity-based systems unless it chooses to do so."
+        }
+      },
+      "core_system": {
+        "name": "Broad-Sweep Seeder",
+        "description": "The Broad-Sweep Seeder is a proprietary device developed during the Orrugi Occupation, during which Armory legionnaires fought an embittered, recalcitrant local guerilla movement. IEDs, VBEDs, and D/SABEDs were often employed by the resistance; to counter the threat, Harrison Armory developed the Seeder to simultaneously scan, identify, and eliminate explosive threats in proximity to stationary units. The technology proved successful and, with minor adaptation, was adapted for installation on Armory frames.<br>The Broad-Sweep Seeder emits an excited LIDAR hivecone to flag potential targets: if positive identification occurs, the target is neutralized with a spray of mag-accelerated, dull-coat flechettes. The Seeder can also carry explosive hivemines.",
+        "passive_name": "PASSIVE",
+        "active_name": "Death Cloud",
+        "active_effect": "This system fires an enormous, expanding cloud of micromines across the whole battlefield, affecting all hostile characters within range 50. For the rest of the scene, when hostile characters make any movement other than their standard move (including involuntary movement), they take 3 AP explosive damage. This effect can trigger any number of times, but only 1/round for each character."
+      }
+    },
+    "Napoleon": {
+      "name": "Napoleon",
+      "description": "Perhaps in a tongue-in-cheek nod to its namesake, the Napoleon is a squat frame in comparison to other Harrison Armory designs. Its frame is packed with marvels of Armory engineering – technology that demands nothing less than the best and brightest pilots. In spite of its small stature, the Napoleon employs one of the Armory’s most terrifying new weapons, the Displacer, which manifests pinpoint, one-way blinkspace ruptures on its targets.<br>Notable for more than its stature, this chassis boasts a tremendous record of success, with pilots reporting a .800 return rate in high-KIA operations. The Napoleon is a popular chassis among breach divisions of the Armory’s legions, Think Tank security, and Union Economic Bureau development teams.",
+      "traits": {
+        "Heavy Shielding": {
+          "name": "Heavy Shielding",
+          "description": "When the Napoleon would take half damage on a successful check or save, it instead reduces the damage to 1."
+        },
+        "Flash Aegis": {
+          "name": "Flash Aegis",
+          "description": "When the Napoleon Braces, it reduces incoming damage to 1 instead of gaining Resistance."
+        }
+      },
+      "core_system": {
+        "name": "Trueblack Aegis",
+        "description": "The Trueblack Aegis is a breakthrough in personal shielding developed by the Armory’s Think Tank. Like the Armory’s other NHP-derived technologies, the Aegis is a “black-box” technology: its code and inner workings are highly confidential, and it can typically only be requisitioned by pilots of high rank or standing within Harrison Armory. Some Cosmopolitan pilots have described the appearance of the Aegis as similar to the void – or blindness – they see when looking into blinkspace. It’s safe to assume the device harnesses unstable blinkfield technology to manifest a thin blinkspace bubble within defined parameters. The blinkfield can only maintain coherence for a brief moment but can be flickered on and off to create a total blinkspace dome.",
+        "passive_name": "PASSIVE",
+        "active_name": "Activate Aegis",
+        "active_effect": "A shimmering, utterly black field quickly envelops your mech, covering it like a second skin. For the rest of the scene, you:<ul><li>reduce all damage to 1, except for damage that ignores reduction;</li><li>gain Immunity to all tech actions, including beneficial ones, and any current tech effects or conditions on you end;</li><li>can only use systems with the Shield tag – any others immediately deactivate (systems that do not require activation are unaffected);</li><li>can’t take quick actions, full actions, or reactions, except for standard moves, Grapple, Ram, Improvised Attack, Activate (Shield systems only), Skill Check, and Boost;</li><li>can’t Overcharge;</li><li>can’t use comms to talk to other characters (as sound doesn’t exit the shield).</li></ul>You can still receive statuses and Heat, and can be affected by involuntary movement. You can otherwise interact normally with the world, including picking up and dragging items, and so on."
+      }
+    },
+    "Saladin": {
+      "name": "Saladin",
+      "description": "The Saladin is a hardy and efficient platform for full-squad support shielding. Based on early defense-oriented versions of the Genghis, the Saladin became the stuff of Armory legend following the exploits of Harrison I “Fearkiller” during the Interest War.<br>Since its first iteration, the Saladin has proved successful in a defensive and support role; it has even become a mainstay among Union Department of Justic and Human Rights liberator teams engaged in emancipation and refugee escort missions, despite the ideological (and, often, tactical) friction between the Armory and the DoJ/HR. Records from these engagements indicate that the Saladin’s massive bulk alone was a comfort and morale boost to DoJ/HR troopers and their charges, many of whom referred to the mechs as “Big Sal”. Union-flagged Saladin pilots often report null balances on bar tabs following engagements in emancipated systems.",
+      "traits": {
+        "Reinforced Frame": {
+          "name": "Reinforced Frame",
+          "description": "The Saladin has Immunity to Shredded."
+        },
+        "Guardian": {
+          "name": "Guardian",
+          "description": "Adjacent allied characters can use the Saladin for hard cover."
+        },
+        "Warp Shield": {
+          "name": "Warp Shield",
+          "description": "1/round, the Saladin can give +1 difficulty to any attack against it or an allied character within Sensors as a reaction before the roll is made."
+        }
+      },
+      "core_system": {
+        "name": "Tachyon Loop",
+        "description": "Developed by the Think Tank as a joint venture with IPS-Northstar’s Stellar Engineering Unit, the Tachyon Loop uses a closed-loop system to restrain and manipulate a tachyon lance, accelerating tachyons at faster-than-light speeds around a central buckler. The buckler can be carried by a mech or mounted directly, interceding directional incoming fire. As the tachyons travel faster than light, they are invisible to the naked eye, giving the shield the appearance of a large spoked wheel.",
+        "passive_name": "PASSIVE",
+        "active_name": "Tachyon Shield",
+        "active_effect": "This system projects an accelerated-tachyon shield over an allied character within Sensors. You may choose a new target as a quick action. Gain the Defensive Pulse reaction for the rest of the scene.<br>Defensive Pulse<br>Reaction, 1/round<br>Trigger: Your target is attacked.<br>Effect: You empower their tachyon shield with a pulse of energy. They gain Resistance to all damage from the attack, and if the attack misses, you may force the attacker to reroll it against a character or object of your choice, checking line of sight and Range from your target instead of from the attacker. If the attack was part of an area of effect, the new target must be inside the same area of effect from the original attack instead.",
+        "active_actions": {
+          "Defensive Pulse": {
+            "name": "Defensive Pulse",
+            "trigger": "Your target is attacked.",
+            "detail": "You empower their tachyon shield with a pulse of energy. They gain Resistance to all damage from the attack, and if the attack misses, you may force the attacker to reroll it against a character or object of your choice, checking line of sight and Range from your target instead of from the attacker. If the attack was part of an area of effect, the new target must be inside the same area of effect from the original attack instead."
+          },
+          "Retarget Tachyon Shield": {
+            "name": "Retarget Tachyon Shield",
+            "detail": "Change the target of your Tachyon Shield to another allied character within Sensors."
+          }
+        }
+      }
+    },
+    "Sherman": {
+      "name": "Sherman",
+      "description": "The Sherman is the classic Harrison Armory frame: any station, nation, world, or state—stellar or interstellar—with an Armory fleet-supply contract fields a backbone force of Sherman mechs. The Sherman is designed to carry a range of Harrison Armory’s main battle-line energy weaponry, with a rugged, versatile reactor to back it up. After the GMS-SP1 Everest, the Sherman is the second-most-common mech in the core systems—so common that GMS has recently begun equipping its stock models with more ablative and wave-scatter defenses, specifically to deal with hostile actors fielding Shermans.<br>At present, the Mk I is in wide use, with exclusive, first-contract Mk II units only now rolling off the lines at Ras Shamra and other Armory special-project worlds.",
+      "traits": {
+        "Superior Reactor": {
+          "name": "Superior Reactor",
+          "description": "The Sherman gains +1 accuracy on Engineering checks and saves."
+        },
+        "Mathur Stop": {
+          "name": "Mathur Stop",
+          "description": "When the Sherman clears all heat, you may choose to receive heat equal to half its Heat Cap, putting it in the Danger Zone."
+        },
+        "Vent Heat": {
+          "name": "Vent Heat",
+          "description": "When you Stabilize the Sherman or it exceeds its Heat Cap, it benefits from soft cover until the start of your next turn."
+        }
+      },
+      "core_system": {
+        "name": "Zone-Focus Mk IV SOLIDCORE",
+        "description": "The ZF4 SOLIDCORE is a hard-mounted, dual-source energy beam weapon. Powered by a millifold power generation system, the ZF4 features a secondary belt-fed rack of solidcore batteries that can be used to overcharge a single impulse beam, extending the weapon’s range and destructive power.",
+        "passive_name": "PASSIVE",
+        "active_name": "COREBURN Protocol",
+        "active_effect": "Your ZF4 SOLIDCORE immediately gains 3 Charges, to a maximum of 4; additionally, for the rest of this scene, Stabilize generates 2 Charges instead of 1, and all terrain, objects, and deployables take 10 AP energy damage per charge on hit."
+      }
+    },
+    "Tokugawa": {
+      "name": "Tokugawa",
+      "description": "HA’s Tokugawa is a relative newcomer on the market, popular in core systems for security, CQB, and ship-boarding applications. The Tokugawa is an unsubtle, imposing mech – a sturdy platform from which its systems can draw necessary power. Unlike other frames, the Tokugawa’s unique reactor is designed to allow standard limitations to be removed with ease. Knowing this, experienced (or foolhardy) pilots can ‘overclock’ the reactor, increasing its output and gaining an incredible power draw for their energy weapons.",
+      "traits": {
+        "Limit Break": {
+          "name": "Limit Break",
+          "description": "When the Tokugawa is Exposed, its ranged and melee attacks deal +3 energy bonus damage on hit, all of its weapons that would deal kinetic or explosive damage instead deal energy, ranged weapons gain +5 range and melee weapons gain +1 threat."
+        },
+        "Plasma Sheath": {
+          "name": "Plasma Sheath",
+          "description": "When the Tokugawa is in the Danger Zone and attacks with a weapon that deals any amount of energy, all bonus damage becomes burn."
+        }
+      },
+      "core_system": {
+        "name": "Superheated Reactor Feed",
+        "description": "Pilots of a certain breed thrive at the very edge of catastrophe, risking either glorious success or utter failure in each moment. These daredevils are familiar with the howl of critical heat warnings – the warbling siren song of destruction and superheated reactor feeds. Tokugawa pilots are notorious for supercharging their weapons with excess energy, pushing their heat gauge to the max. Harnessing the Tokugawa’s unique reactor, these pilots churn out damage and make no friends in the engineering bay – assuming they don’t melt into a ball of slag before they make it back from the line.",
+        "passive_name": "Overclock",
+        "passive_actions": {
+          "Overclock": {
+            "name": "Overclock",
+            "detail": "You cause your mech to become Exposed until the end of your next turn."
+          }
+        },
+        "active_name": "Radiance",
+        "active_effect": "For the rest of this scene, weapons that deal any energy gain +5 range if they are ranged or +2 threat if they are melee.<br>While you’re Exposed, Limit Break stacks with these bonuses for a total increase of +10 range and +3 threat."
+      }
     }
   }
 }

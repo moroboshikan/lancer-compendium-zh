@@ -8,9 +8,9 @@
   },
   "entries": {
     "Aegis Shield Generator": {
-      "name": "Aegis Shield Generator",
-      "tokenName": "Aegis Shield Generator",
-      "detail": "Set out three d6s to represent the generator’s remaining power. As a reaction when any character or object of your choice at least partly in the area takes damage, you may roll one of the d6s to reduce the damage by the amount rolled.<br>This effect lasts for the rest of the scene, until all dice have been rolled and the generator loses power, or the generator is destroyed."
+      "name": "神盾護盾產生器",
+      "tokenName": "神盾護盾產生器",
+      "detail": "擺放三顆 d6 骰來表示這個護盾產生器的剩餘能源。當任何至少有一部分位於該區域內的角色或物件受到傷害時，你能以<b>反應</b>擲其中一顆 d6 來使該傷害減少等同擲骰結果的數值。<br><br>這個效果會持續直到該場景結束，所有骰子都被消耗導致護盾產生器失去動力、或護盾產生器被毀為止。"
     },
     "Armor Pack": {
       "name": "Armor Pack",
@@ -33,9 +33,9 @@
       "detail": "This mine detonates when a flying character passes over or adjacent to it, up to 10 spaces high. The mine launches itself upwards and detonates: all characters within the affected area must succeed on a Systems save or take 2d6 explosive damage and immediately land (this counts as falling without any damage); additionally, they can’t fly until the end of their next turn. On a success, they take half damage and are otherwise unaffected."
     },
     "Breaching Charge": {
-      "name": "Breaching Charge",
-      "tokenName": "Breaching Charge",
-      "detail": "In addition to adjacent free spaces, this mine can also be planted on adjacent walls, pieces of cover, and terrain. Once armed, this mine must be detonated with a quick action. Characters within the affected area must succeed on an Agility save or take 2d6 AP explosive damage. On a success, they take half damage. Objects and terrain are hit automatically and take 30 AP explosive damage."
+      "name": "突破炸藥",
+      "tokenName": "突破炸藥",
+      "detail": "除了鄰接的未佔據空間外，這個地雷也可以被安裝在鄰接的牆壁、掩護、或地形上。在設置後，這個地雷必須以<b>快速動作</b>來引爆。影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 2d6 穿甲(AP)爆炸傷害。豁免成功則只受到一半的傷害。物件和地形會被自動命中並受到 30 穿甲(AP)爆炸傷害。"
     },
     "Damping Station": {
       "name": "Damping Station",
@@ -133,14 +133,14 @@
       "detail": "The plate activates for a character the first time that character enters its space during a round, or if they end their turn there.<br>Upon printing, choose a setting:<ul><li><b>Repulse:</b> Hostile characters that move onto the PCP must succeed on a Hull save or be pushed 3 spaces in the direction of your choice. If this causes them to collide with an obstruction, they are knocked Prone. Allied characters that enter the space may immediately fly 3 spaces in any direction as a free action.</li><li><b>Attract:</b> Characters that move onto the PCP must succeed on a Hull save or become Immobilized. They can clear Immobilized by successfully repeating the save as a quick action; it is also cleared if the PCP is destroyed."
     },
     "Portable Bunker": {
-      "name": "Portable Bunker",
-      "tokenName": "Portable Bunker",
-      "detail": "All characters completely within the bunker's 4x4 area gain hard cover against all attacks from outside the bunker from all directions and Resistance to damage from Blast, Line, Burst, and Cone attacks that originate outside the bunker.<br>The bunker is open topped, and characters may enter or exit at will. It can’t be moved or deactivated once deployed."
+      "name": "流動碉堡",
+      "tokenName": "流動碉堡",
+      "detail": "所有完全處於碉堡的 4x4 範圍區域內的角色，對於來自碉堡外的任何攻擊都會受益於<b>硬性掩護</b>，並對源自碉堡外的 <b>濺射</b>、<b>線性</b>、<b>爆發</b>和<b>錐形</b>攻擊造成的傷害具有<b>抗性</b>。<br><br>這座碉堡是露天的，且所有角色都能夠自由進出。一旦被展開，這座碉堡就不能被移動或回收。"
     },
     "Restock Drone": {
-      "name": "Restock Drone",
-      "tokenName": "Restock Drone",
-      "detail": "While adjacent to this drone, allied characters can activate it as a quick action, clearing 1d6 heat and one condition, and reloading one Loading weapon. After being activated, the drone immediately disintegrates."
+      "name": "補給無人機",
+      "tokenName": "補給無人機",
+      "detail": "當隊友角色與這部無人機鄰接時，該角色能以<b>快速動作</b>將其啟動，清除 1d6 熱度，解除一個狀況，並裝填一件帶有<b>裝填</b>標籤的武器。在被啟動之後，這部無人機會立即解體。"
     },
     "Sentinel Drone": {
       "name": "Sentinel Drone",
@@ -206,9 +206,9 @@
       }
     },
     "Webjaw Snare": {
-      "name": "Webjaw Snare",
-      "tokenName": "Webjaw Snare",
-      "detail": "The Webjaw Snare does not obstruct movement, and can’t be attacked until it is triggered.<br>The snare is triggered when any character moves over it. They must succeed on a Hull save or take 1d6 AP kinetic damage and become Immobilized. This effect lasts until the snare is destroyed."
+      "name": "網顎陷阱",
+      "tokenName": "網顎陷阱",
+      "detail": "網顎陷阱不會阻礙移動，且直到被觸發前都不能被攻擊。<br>網顎陷阱會在任何角色移動到其所在位置時被觸發。目標必須成功通過<b>機體豁免</b>，否則受到 1d6 穿甲(AP)動能傷害，並陷入<b>固定</b>狀況。這個效果會持續直到網顎陷阱被毀為止。"
     }
   }
 }
