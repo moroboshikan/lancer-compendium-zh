@@ -986,6 +986,52 @@
         "active_effect": "這個系統投射出一個<b> 爆發 3 </b>範圍的磁場，其區域至少要有一格與你鄰接。直到你的下一回合結束為止，造成以下效果：<ul><li>影響區域被視為<b>困難地形</b>。</li><li>會造成動能或爆炸傷害的遠距攻擊將無法進入或離開影響區域──這些投射物會停在區域邊緣，不造成任何傷害。把每個因此被停止的攻擊記錄下來。</li><li>機甲和其他身體至少有部分由金屬構成的角色，若在自己回合開始時處於影響區域，或在每輪中第一次進入影響區域時，將必須成功通過<b>機體豁免</b>，否則被盡可能拉到影響區域中心，並陷入<b>固定</b>狀況。</li></ul>當這個效果結束時，任何先前被停止的遠距攻擊都會重新開始，朝著影響區域的中心射擊。GM 對每一個位於影響區域內的角色進行攻擊判定，且每個先前停止的攻擊都會使該攻擊判定 +1（最多 +6）。若命中，該攻擊會造成每個先前停止攻擊 1d6 的動能傷害（最高 6d6 動能傷害）。"
       }
     },
+    "Magnetic Cannon": {
+      "name": "磁能炮",
+      "profiles": {
+        "Magnetic Cannon": {
+          "name": "磁能炮",
+          "description": "SSC 磁能炮是異類材料集團的首項創作：一種採用光圈聚焦的電磁投射光束，透過強烈的磁能脈衝來干擾並破壞硬體。被磁能炮光束捕捉的目標，其軟體也會因為其敏感零件承受極大的系統壓力而遭受額外的傷害。",
+          "on_hit": "所有影響範圍內的角色必須成功通過<b>機體豁免</b>，否則會被往你的方向盡可能拉動 1d3+1 格。"
+        }
+      }
+    },
+    "Ferrous Lash": {
+      "name": "鐵鞭",
+      "description": "最初被作為非致命群眾鎮壓裝置而開發，鐵鞭在合適的駕駛員手中將搖身一變成為更為複雜且危險的武裝。鐵鞭由一系列內置發射器構成，會在觸發後會射出快速凝結的鐵磁流體以束縛目標。當調整到特定頻率時，這些專利鐵磁流體混合物將形成簡單的可動結構，將獵物拖向持鞭者。",
+      "actions": {
+        "Action": {
+          "name": "啟動鐵鞭",
+          "detail": "選擇一名在 ⌿8 範圍和視線範圍內的角色。若其為隊友角色，則你可以將其往任意方向拉動 5 格；若其為敵人角色，則目標必須成功通過<b>敏捷豁免</b>，否則被往任意方向拉動 5 格。這個移動忽略交戰，且不會觸發反應。<br><br>如果敵人目標因為這個系統的強迫移動而與障礙物和其他機甲相撞，則它會停止移動並被撞倒<b>伏臥</b>。"
+        }
+      }
+    },
+    "ICEOUT Drone": {
+      "name": "ICEOUT Drone",
+      "description": "SSC’s ICEOUT drone is a response to increasing reliance on hostile system scans for accurate targeting. By blanketing a mech’s systems in layers of digital defilade, mirroring, spoofing, and redirection, an ICEOUT drone can effectively disappear or disincorporate it from hostile scans. ICEOUT drones only make their operator system-invisible, however; they remain visible with optics.",
+      "effect": "Expend a charge to deploy an ICEOUT drone to a free space within Sensors and line of sight, where it hovers in place and generates a burst 1 field."
+    },
+    "Perimeter Command Plate": {
+      "name": "Perimeter Command Plate",
+      "description": "The Exotic Materials Group developed the Perimeter Command Plate to extend the area of the Black Witch’s zone of control. Utilizing single-pattern flash printers, the Black Witch prints a broad, circular plate seeded with electromagnetic projectors. Although the plates are intended to be disposable, Black Witch pilots often grow attached to their “familiars” and request their flash-printers create personalized plates.",
+      "effect": "This heavy metal Perimeter Command Plate (PCP) can be flash-printed and deployed to a free 2x2 space within range 5. The PCP is flat, doesn’t obstruct movement, and lasts for the rest of the scene. If you create a new PCP, the old one disintegrates."
+    },
+    "Black ICE Module": {
+      "name": "Black ICE Module",
+      "description": "Black ICE modules are defensive systems packaged standard with the Black Witch fleets used by SSC's own internal security forces. They project a bubble of WHITECELL code that analyzes incoming hostile script and structures inoculants for friendly systems on the fly.",
+      "effect": "Tech attacks against you or adjacent allied characters receive +1 difficulty. Each subsequent tech attack against you or an adjacent allied character receives an additional +1 difficulty, to a maximum of +3 difficulty.<br>Your Black ICE definitions roll over – resetting to +1 difficulty – when it would increase to +4 difficulty or at the end of the scene. Allied characters lose this benefit when they break adjacency."
+    },
+    "Magnetic Shield": {
+      "name": "Magnetic Shield",
+      "description": "SSC’s magnetic shield takes the same technology as their proprietary magnetic buckler and applies it to a massive field-projection system.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "This system creates a line 4 forcefield, 4 spaces high – with at least 1 space adjacent to you – that is an obstruction for mechs and characters made at least partly of metal. It lasts for the rest of the scene and if a new one is placed, the old one deactivates.<br>The forcefield doesn’t block line of sight, but it provides soft cover. Characters gain Resistance to kinetic and explosive damage while benefiting from this cover."
+        }
+      }
+    },
+
     "Death’s Head": {
       "name": "鬼臉蛾",
       "description": "鬼臉蛾是史密斯—島野為了滿足長距離精準打擊需求而開發的機甲方案。犧牲了機體強度以換取無人能及的穩定性和靈敏度，鬼臉蛾成為一款機動性極高的火力支援平台，能在避開敵火的同時維持近乎完美的目標鎖定。其獨特的六足結構讓它能快速而隱密地朝所有方向移動。<br><br>作為一款進攻性強，專注於戰線作戰的機甲，鬼臉蛾是聯盟海軍和聯盟司法人權部軍官最為喜愛的型號之一。這是一款純粹的戰鬥用機體；鬼臉蛾由 SSC 旗下 Bella Ciao 系列生產線製造，並沒有對應的民用型號。",
@@ -1017,6 +1063,55 @@
         }
       }
     },
+    "High-Stress Mag Clamps": {
+      "name": "High-Stress Mag Clamps",
+      "description": "A simple, reliable set of toggleable mag clamps built into a mech’s locomotive system can vastly increase the tactical possibilities open to its pilot. When switched on, these clamps allow a mech to cling to ferrous surfaces, which is especially useful in low- and zero-gravity environments.",
+      "effect": "You treat all solid surfaces as flat ground for the purposes of movement; you can move across them normally instead of climbing, although you begin to fall if you are knocked Prone."
+    },
+    "Tracking Bug": {
+      "name": "Tracking Bug",
+      "description": "Tracking bugs are specialized tracer rounds – essentially, drones too large to be classified as nanites, and far too small to fit the Union-standard parameters of a drone. Fired from dedicated launchers, tracking bugs guide themselves toward their designated target. Following successful penetration of the target, they surreptitiously and continuously feed live data back to their registered user.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Make a tech attack against a character within Sensors. On a hit, you know their exact location, HP, Structure, and Speed for the duration. They can’t Hide and you ignore their Invisible status. To remove the tracking drone, they must succeed on an Engineering check as a quick action; otherwise it deactivates at the end of the scene."
+        }
+      }
+    },
+    "Vulture DMR": {
+      "name": "Vulture DMR",
+      "profiles": {
+        "Vulture DMR": {
+          "name": "Vulture DMR",
+          "description": "The Vulture Designated Marksman Rifle (DMR) is SSC’s core battle rifle. Reliable, available in dozens of configurations and calibers, and fed by box, drum, or belt, the Vulture is a popular armament across a wide range of mechs."
+        }
+      }
+    },
+    "Core Siphon": {
+      "name": "Core Siphon",
+      "description": "By shunting excess heat to offensive systems, core siphons allow pilots to overclock the targeting, catalytic, and processing capabilities of their weapons. This comes at a cost, however – reliance on overclocking without sufficient cooling can damage systems not built to handle the influx of power.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "When you activate this protocol, you gain +1 accuracy on your first attack roll this turn, but receive +1 difficulty on all other attack rolls until the end of the turn."
+        }
+      }
+    },
+    "Railgun": {
+      "name": "Railgun",
+      "profiles": {
+        "Railgun": {
+          "name": "Railgun",
+          "description": "Railguns are simple, elegant weapons. With magnetically accelerated projectiles and no moving parts, they are effective in any theater and entirely self-contained within disposable units. This efficacy comes at a cost: railguns have massive power draw, making it necessary for wielders to carry core-charged auxiliary power translation packs."
+        }
+      }
+    },
+    "Kinetic Compensator": {
+      "name": "Kinetic Compensator",
+      "description": "Kinetic compensators are popular enhancements, providing a subsurface framework of electronically modulated gyroscopes and hydraulic compensators that work in concert to absorb and disperse recoil caused by firing heavy weapons.",
+      "effect": "When you miss with a ranged attack roll, your next ranged attack roll gains +1 accuracy."
+    },
+
     "Dusk Wing": {
       "name": "珠弄蝶",
       "description": "珠弄蝶最初是為了讓艙外活動服能應付惡劣環境而配備的改裝套裝。在深空探索的早期，機械化外骨骼不只要能增強穿戴者的作業能力，還需要更強大的抗動能防禦力。而珠弄蝶正是這些早期深空套裝的精神繼承者。這具裝甲行動靈活，體型小巧，搭載的全地形機動噴射系統讓其擁有近乎完美的飛行能力。<br><br>在砥耶德遠征之後，異類材料集團成功分離並轉譯了該實體的現實失效超編碼、目的論系統、和運動學數據，並將其應用於電子戰和系統戰之中。在所有試驗砥耶德衍生技術的測試機體中，珠弄蝶的表現鶴立雞群。因此．它經常在需要應對反常奧秘危機時，被 SSC 的內部星際安保部隊投入使用。",
@@ -1048,6 +1143,66 @@
         }
       }
     },
+    "Veil Rifle": {
+      "name": "Veil Rifle",
+      "profiles": {
+        "Veil Rifle": {
+          "name": "Veil Rifle",
+          "description": "“We made first contact maybe an hour after breaching the vault. I remember nothing of it. I’m told most of my squad was killed outright; all I remember is light – brilliant – and a lightness in my own being.<br>“I do believe that I died in that moment, and yet I’m here, and I can’t square these two realities. Something has gone wrong, something has gone wrong, something has gone–”",
+          "effect": "This weapon does not attack allied characters caught in its area of effect; instead, it shrouds them in a field of coruscating energy that throws off targeting systems, giving them soft cover until the end of their next turn."
+        }
+      }
+    },
+    "Neurospike": {
+      "name": "Neurospike",
+      "description": "“Somehow it got inside my cockpit. There were hands – cold hands – around my neck, fingers in my mouth, worming under my hardsuit. No one else could have been in there with me and yet, someone was. I couldn't even scream, it held my tongue in a fist and it squeezed, and it whispered its name to me, and it said nothing I could understand. I have never felt more alone – it was just me and… it. Alone in the universe, forever.”",
+      "actions": {
+        "Shrike Code": {
+          "name": "Shrike Code",
+          "detail": "Until the end of the target’s next turn, they first take 2 heat whenever they attack."
+        },
+        "Mirage": {
+          "name": "Mirage",
+          "detail": "Choose yourself or an allied character: your systems relay blurred, illusory images over their actual silhouette. Your target treats you, or the character you chose, as Invisible until the end of their next turn."
+        }
+      }
+    },
+    "Burst Launcher": {
+      "name": "Burst Launcher",
+      "profiles": {
+        "Burst Launcher": {
+          "name": "Burst Launcher",
+          "description": "“Yes, they could die. We killed many of them – blew them away with burst launchers and cannons. I don’t think they mattered to it. Not like insects; not like that… there’s still a use for insects: as food, as necessary components in an ecosystem. Their deaths slowed us, but it didn’t command them to slow us. Even when we breached the last chamber and saw it, I don’t even think it recognized we were there.”",
+          "on_crit": "Target becomes Impaired until the end of their next turn."
+        }
+      }
+    },
+    "Flicker Field Projector": {
+      "name": "Flicker Field Projector",
+      "description": "“I saw myself over and over and over and over and over and over and over and–”",
+      "effect": "Whenever you Boost or make a standard move, you project a holographic pattern around you, leaving dazzling afterimages that make it hard to discern your precise location: you count as Invisible the next time you’re attacked. You can only benefit from one instance of this effect at a time."
+    },
+    "StunCrown": {
+      "name": "StunCrown",
+      "description": "“Many things happened the moment I think I died.”",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Expend a charge to create a burst 3 flash of light. All hostile characters within the affected area that have line of sight to you must succeed on an Agility save or become Jammed, and a Systems save or become Impaired. These effects last until the end of their next turn.<br>Characters in cover from you are not affected by this system."
+        }
+      }
+    },
+    "OASIS Wall": {
+      "name": "OASIS Wall",
+      "description": "“Inside? What did I see inside? You think I escaped? That this is all real? No, I– I never left. I’m still there. Something is wrong. Something is not right.”",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Until the start of your next turn, you can only move in straight lines; however, you create a holographic trail behind you as you move, creating a light barrier made of contiguous sections the same Size as your mech (Size 1 for Size 0.5 Mechs) in each space you move through. This barrier grants hard cover to adjacent characters, and characters that benefit from this cover also gain Resistance to energy.<br>The barrier doesn’t count as an obstruction and has Immunity to all damage. Characters may freely pass through it but not end their turns inside it, and any character that would be involuntarily moved inside the barrier stops moving if they would end their movement inside it. It lasts for the rest of the scene or until you next use this system."
+        }
+      }
+    },
+
     "Metalmark": {
       "name": "蜆蝶",
       "description": "蜆蝶是 SSC 旗下 Bella Ciao 軍規機甲系列的核心機種，配備了完整的專利設計與工程技術標誌套裝，確保其具備強大的生存能力、致命性和機動性。在聯盟第二中央委員會時期日益軍事化的統治下，SSC 企業董事會推動公司成立軍規補給後勤及自衛部門。而隨著機械化骨架的出現，新興的　SSC 補給後勤自衛部門被重組，重新專注於機甲骨架的開發。第一代蜆蝶原本是為了第二中央委員會的次世代戰士計劃而設計開發，不過，在這款機甲進入測試階段前，迅速失控的海西危機也導致第二中央委員會就此垮台。<br><br>海西危機過後，隨著聯盟中央委員會的重組，蜆蝶也因為生產過於耗時，無法量產以迎合大規模市場的理由而退役。然而，SSC 將其重新設計，將其作為嶄新 Bella Ciao 系列的領銜機種，轉而集中爭取小規模的專屬安保合約市場。如今，蜆蝶是許多安保部隊中的重要機種，其設計反映了 SSC 在深空探索和長距離巡航的歷史，結合了擬人和鷹型的設計美學，並以穩固的結構造工和多重冗餘系統確保了其可靠性。為了進一步推動其以駕駛員為本的市場定位，所有蜆蝶型機甲也都統一配備了「史密斯特製皮革」品牌的萬向駕駛座椅，確保長時間執勤的舒適度。",
@@ -1069,6 +1224,61 @@
         "active_effect": "直到該場景結束為止，你都處於<b>隱形</b>狀態。"
       }
     },
+    "Flash Charges": {
+      "name": "Flash Charges",
+      "description": "Produced by Smith-Shimano’s BELLA CIAO workshop, Flash Charges are popular advantage multipliers, their flash bright enough to destabilize visible-light optics, laser communications, and infra-red sensor suites.",
+      "actions": {
+        "Flash Grenade": {
+          "name": "Flash Grenade",
+          "detail": "Throw a Flash Grenade within Range 5. Until the end of your next turn, this grenade creates a Blast 3 zone of blinding light and sparks. While characters other than you are at least partly inside the area, they can’t draw line of sight out of the area. Characters fully outside of the area or that exit the area are unaffected unless they move into it."
+        }
+      }
+    },
+    "Reactive Weave": {
+      "name": "Reactive Weave",
+      "description": "Composed of woven covers for critical joints and systems, reactive weave not only protects these sensitive components from fouling and poor weather, but provides a surface for the application of SSC’s unique loomware technology. Reactive weave is powered, making it capable of free-flexing to augment mobility and reduce the stress placed on a mech’s joints.",
+      "effect": "When you Brace, you become Invisible until the end of your next turn and may immediately move spaces equal to your Speed."
+    },
+    "Rail Rifle": {
+      "name": "Rail Rifle",
+      "profiles": {
+        "Rail Rifle": {
+          "name": "Rail Rifle",
+          "description": "Rail rifles are popular weapons for use in all theaters, but they are the only choice for pilots operating in atmospheres made up of highly combustible gases. They use a line of cascading electromagnets to accelerate small projectiles at tremendous speeds, firing without the need for combustion.<br>Like other rail weapons, rail rifles are quiet in comparison to their traditional counterparts, although massive power requirements make it difficult to mask their energy signatures."
+        }
+      }
+    },
+    "Shock Knife": {
+      "name": "Shock Knife",
+      "profiles": {
+        "Shock Knife": {
+          "name": "Shock Knife",
+          "description": "Shock knives are short, powered blades designed for integration with Shock Wreaths, a popular post-fab modification. The knives are custom-sculpted by SSC’s Terashima artisan enclave, each one bearing the unique hash-stamp of its designer. Part of SSC’s LUX-Iconic line – a civilian-accessible track of the BELLA CIAO line – each shock knife print code allows only a single use. If lost, pilots must submit an apology and request in writing explaining the circumstances of the loss in order to receive another code."
+        }
+      }
+    },
+    "Shock Wreath": {
+      "name": "Shock Wreath",
+      "description": "A post-fab modification popular among melee combat specialists, Shock Wreathes integrate a bundle of conductive filaments within the blade, point, tip, or surface of a close combat weapon. Paired with a power source – typically in the hilt or lower half of a weapon, but sometimes external – Shock Wreathes give kinetic weapons a thermal edge and a distinctive visual marker: fine lines of white-hot light like filigree, shrouding the modified weapon in shimmering heat.",
+      "actions": [
+        {
+          "name": "Activate Shock Wreath",
+          "detail": "1/round you may activate your equipped Shock Wreath as a quick action when you hit a character with the weapon it is applied to to cause it to take 1d6 burn. If it already is suffering from burn, it can additionally only draw line of sight to adjacent spaces until the end of its next turn."
+        }
+      ],
+      "effect": "In addition to its usual damage, 1/round you may activate the wreath as a quick action when you hit a character with the weapon this mod is applied to to cause it to take 1d6 burn. If it already is suffering from burn, it can additionally only draw line of sight to adjacent spaces until the end of its next turn."
+    },
+    "Active Camouflage": {
+      "name": "Active Camouflage",
+      "description": "Active camouflage is the pinnacle of counter-optic defense systems. Active camouflage systems continuously interpret incoming visible-light data, allowing them to project light-bending fields around their user and effectively hiding them in plain sight.",
+      "actions": [
+        {
+          "activation": "Protocol",
+          "detail": "You become Invisible until you take damage, or until the end of your next turn."
+        }
+      ]
+    },
+    
     "Monarch": {
       "name": "金斑蝶",
       "description": "金斑蝶是 SSC 在高速導彈和自推進火器發射平台設計上的劃時代成果。隨時準備掛載地對地、地對空、地對軌道等全戰場導彈和導引系統，金斑蝶可以根據需求，任意調整其導彈彈頭和目標距離。<br><br>金斑蝶的龐大體型經常讓駕駛員低估其靈敏性。SSC 制定了嚴苛的設計標準，要求每生產 10 台金斑蝶就必須有一名專屬設計師監管，這在已經達成後匱乏社會的聯盟中核世界中也是相當奢侈的證明。而這種刻意為之的稀缺性，也是金斑蝶無法完全稱霸戰場的唯一阻礙。金斑蝶通常被部署在混合戰線與火力支援任務，另一款資源需求較低，專注於中近程戰鬥的小金斑蝶，其戰地測試也正如火如荼地進行中。金斑蝶是 SSC 旗下 Bella Ciao 系列戰鬥機甲之一。",
@@ -1090,6 +1300,61 @@
         "active_effect": "選擇位於 ⌿50 範圍內任意數量的角色：每個目標必須成功通過<b>敏捷豁免</b>，否則受到 1d6+4 爆炸傷害。若豁免成功，則只受到一半的傷害。這些自律型導彈能命中任何目標，只要你與目標之間存在一條可能的路徑即可。"
       }
     },
+    "Sharanga Missiles": {
+      "name": "Sharanga Missiles",
+      "profiles": {
+        "Sharanga Missiles": {
+          "name": "Sharanga Missiles",
+          "description": "“It was a duel. This is why they were made: to duel, and in that combat, to shake the pillars of the universe.” — “Notes for Young John”,  Ministrations of the Master Teacher",
+          "effect": "This weapon can attack two targets at a time."
+        }
+      }
+    },
+    "Javelin Rockets": {
+      "name": "Javelin Rockets",
+      "description": "“Pralaya was the name of your mother. She who would see the dawn-at-the-end. Her beauty was terrible, and her wrath, and I see it in all of you. My sons, when you hear the sound of thunder – that is your mother’s voice, and the rain of missiles her gift.” — “Notes for Young John”, Ministrations of the Master Teacher",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Choose 3 free spaces within range 15 and line of sight that aren’t adjacent to each other. All characters know which spaces you have chosen. You fire a volley of auto-targeting rockets into the air: until the start of your next turn, when a character moves into or passes above a chosen space – no more than 10 spaces up – they are hit by a rocket, taking 3 kinetic damage. Each space can be triggered once and then the effect disappears on that space."
+        }
+      }
+    },
+    "Gandiva Missiles": {
+      "name": "Gandiva Missiles",
+      "profiles": {
+        "Gandiva Missiles": {
+          "name": "Gandiva Missiles",
+          "description": "Gandiva missiles are a reliable mainstay from Smith-Shimano’s BELLA CIAO line. Like the heavier Pinaka, the Gandiva is equipped with jet-assisted midflight repositioning systems, enhancing target navigation in rapidly changing battlefield environments. The Gandiva’s delivery platform is administered by a hivemind COMP/CON drone AI, giving it the capacity to learn from each right-of-launch experience."
+        }
+      }
+    },
+    "Stabilizer Mod": {
+      "name": "Stabilizer Mod",
+      "description": "Stabilizer mods enhance physical mounts and targeting software, ensuring weapons remain level, steady, and at an appropriate angle regardless of terrain or pilot maneuvers.",
+      "effect": "the weapon this mod is applied to gains +5 range and the Ordnance tag."
+    },
+    "Pinaka Missiles": {
+      "name": "Pinaka Missiles",
+      "profiles": {
+        "Pinaka Missiles": {
+          "name": "Pinaka Missiles",
+          "description": "Pinaka missiles are massive, two-stage missiles typically mounted along a mech’s spine or carried, disassembled, to be launched from a brachial mount. The Pinaka was originally adapted from ship-to-ship missiles; as such, their second stage uses jet-assist repositioning for midflight orientation.",
+          "effect": "Attacks with this weapon create up to two blast 1 areas, which cannot overlap.<br>You may also delay the impact of attacks made with this weapon. Choose the target area(s), which become visible to all characters: the missiles land at the end of the next round, after all characters have acted, and deal 3d6 explosive damage instead of 2d6, but you become Slowed until the end of your next turn."
+        }
+      }
+    },
+    "TLALOC-Class NHP": {
+      "name": "TLALOC-Class NHP",
+      "description": "TLALOC-Class NHPs provide advanced multi-system targeting and co-pilot functions, taking over subroutine control to ensure persistent lock-on and engagement. With TLALOC installed and operational, a pilot can trust that their back is always covered, and every possible advantage exploited.<br>TLALOC clones are often stereotyped as hasty and impetuous, and they are well-known for having superiority complexes. Despite this, they are some of the most stable NHP clones. Leading subjectivity theorists suggest that the wide portfolio of control and sense of domination given to TLALOC units encourages a sense of contentment with their work and subjectivity parameters – as a result, they have a much longer cascade window. Thus far, this theory is consistently reproducible across all TLALOC units, although there is no similar correlation among other mil-spec NHP lines.",
+      "actions": {
+        "TLALOC Protocol": {
+          "name": "TLALOC Protocol",
+          "detail": "Your NHP can rapidly fire and retarget your weapons – far faster than thought. You become Immobilized until the start of your next turn; however, during this time, you may reroll each missed melee or ranged attack roll once, choosing a new target within the attack’s Range. If the attack was part of an area of effect, it must target a character in the same area. Any given target can't be hit more than once as part of the same action."
+        }
+      }
+    },
+
     "Mourning Cloak": {
       "name": "黃蛺蝶",
       "description": "黃蛺蝶是 SSC 奢華系列中全新型號，也是該生產商最新型的近戰與肉搏戰專精機甲。黃蛺蝶強調精準的近身戰鬥，通常搭載防禦微絲纖維切割器用以作為反裝甲切割武器使用。<br><br>由 SSC 異類材料集團根據在邊界花園與昂星霸權的早期交戰數據而設計，黃蛺蝶結合了 SSC 收集的砥耶德超編碼以及昂星的蒼穹操縱科技，為不適用槍械火炮等熱兵器的戰場情境提供了一個極佳的戰術選項。作為奢華系列的一員，黃蛺蝶在卡拉金男爵領和其他高階安保企業中相當受歡迎。",
@@ -1118,6 +1383,71 @@
         "active_effect": "在該場景期間，你會以<b>瞬間轉移</b>的形式進行<b>推進</b>和普通移動。"
       }
     },
+    "Fold Knife": {
+      "name": "Fold Knife",
+      "profiles": {
+        "Fold Knife": {
+          "name": "Fold Knife",
+          "description": ">//[Am I alone here?]<br>>//[[No. There is only an absence of you. It is very busy here, but you cannot see it]]<br>— DHIYED fragment tablet 1.3",
+          "on_crit": "You may teleport 2 spaces in any direction after the attack resolves."
+        }
+      }
+    },
+    "Vijaya Rockets": {
+      "name": "Vijaya Rockets",
+      "profiles": {
+        "Vijaya Rockets": {
+          "name": "Vijaya Rockets",
+          "description": "Intended for use as force multipliers in close-range engagements, Vijaya rockets are miniaturized rockets launched from a drum-fed launcher. On detonation, the rockets’ shaped charges project the blast forward, away from the user."
+        }
+      }
+    },
+    "Hunter Logic Suite": {
+      "name": "Hunter Logic Suite",
+      "description": "Built from interpreted strands of DHIYED paracode, SSC’s Hunter Logic is an agile computational memetic: a dual synthetic/VLS-vector systemic weapon capable of interfering with both a target’s computer and its crew.",
+      "actions": {
+        "Stalk Prey": {
+          "name": "Stalk Prey",
+          "detail": "You infect the target with a viral logic that wipes your image from their sensors. They treat you as Invisible until you next take damage from them. This can only affect one target at a time."
+        },
+        "Terrify": {
+          "name": "Terrify",
+          "detail": "You infect the target with a viral logic that makes your mech appear horrifying. Until the end of their next turn, they become Impaired and cannot make any voluntary movements that bring them closer to you."
+        }
+      }
+    },
+    "Singularity Motivator": {
+      "name": "Singularity Motivator",
+      "description": "This unique gravitic power plant was first developed by SSC’s Exotic Materials Group for the first-generation Mourning Cloak. For subsequent models, engineers devised a system that allows pilots to – for a moment – open the grav containment system’s aperture, exposing a slice of naked singularity to realspace.<br>A naked singularity is difficult to perceive for both organics and synthetics, being similar to the heart of a black hole. The sudden exposure essentially removes the mech and its pilot from realtime. The user experiences around 10 seconds of subjective time – a brief window, in which they can act independently of local realtime.<br>SSC recommends against abuse of this system, as the effects of long-term exposure to local sidereal time are still unknown.",
+      "actions": {
+        "Exposed Singularity": {
+          "name": "Exposed Singularity",
+          "trigger": "Your mech takes damage.",
+          "detail": "You may immediately teleport to a free space within 1d6 spaces."
+        }
+      }
+    },
+    "Variable Sword": {
+      "name": "Variable Sword",
+      "profiles": {
+        "Variable Sword": {
+          "name": "Variable Sword",
+          "description": "The variable sword is a Smith-Shimano hallmark: a length of razor-sharp molecular wire attached to a handle and locked in place by a magnetic field, variable swords are invisible to the naked eye until they cut into their target. Designed in the early days of interstellar travel, variable swords were meant to allow for the precise gathering of samples, while also reducing the overall burden on a mech’s core.",
+          "on_crit": "Deal +1d6 bonus damage."
+        }
+      }
+    },
+    "FADE Cloak": {
+      "name": "FADE Cloak",
+      "description": "Representing SSC’s first successful manipulation of the “Firmament”, Firmament Affinity/Directed Entropy (FADE) cloaks must be fabricated according to the unique affinity signature of requisitioning pilots. They are rough tools: artificial affinity amplifiers that allow operators to access shallow layers of the Firmament, and thus “shimmer” – nudging their physical bodies between the causal and paracausal. The cloak enhances this effect by extruding a semiorganic membrane that wraps around the mech to provide an additional layer of protection.<br>At present, the long-term effects of affinity amplification on organic matter are unknown; before receiving clearance to operate a FADE cloak, pilots must agree to check in with their SSC personal concierge on a regular schedule. These check-ins include regular deposits of genetic material.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "When activated, you immediately move out of phase with realspace, becoming intangible. While intangible, you may move through obstructions, but not end your turn within them. You cannot interact with any other object or character or be interacted with in any way (e.g., taking or dealing damage).<br>Roll 1d6 at the start of each of your turns: on 3 or less, you return to realspace until the start of your next turn; on 4+, you remain intangible.<br>This system remains active for the rest of the scene, or until you deactivate it as a quick action."
+        }
+      }
+    },
+
     "Swallowtail": {
       "name": "鳳蝶",
       "description": "鳳蝶是史密斯—島野的主力遠距偵察與火力支援平台，專為在敵對與劇變環境中長時間執行任務而設計。為了確保長期運作的持續性，它能夠在不穩定環境中運作數個月，並透過實時調整運作效率來最大化其生存能力。每台機體都有內建隱形斗篷系統和一組預測型和聲智能套組，能夠協調其高度發達的感應系統，迅速模擬和預測戰場發展——甚至在事情發生前便加以預知。<br><br>鳳蝶的基礎型號 SW-01 是 SSC 的少數量產機型之一，屬於入門級的 Bella Ciao 型號。該型號未配備隱形力場，而是強化裝甲來滿足直接的安全需求，因此特別受到星際安保部隊基層士兵的歡迎。",
@@ -1172,6 +1502,62 @@
         "active_effect": "<p>你在 ⌿5 範圍和視線範圍內創造出三個<b> 爆發 1 </b>範圍的煙幕團。這些煙幕會為至少一部分在其中的角色提供<b>軟性掩護</b>，並會維持直到該場景結束。</p> <p>此外，直到該場景結束前，所有位於感應範圍內的隊友角色也都會受益於<b>接地</b>的效果。</p>"
       }
     },
+    "Lotus Projector": {
+      "name": "Lotus Projector",
+      "description": "Mech-mounted Lotus Projectors are designed to launch small, actively camouflaged scout drones. The projector fires the single-use drones at subsonic speeds in bursts of ten, blanketing a wide area in order to relay information about terrain and targets within.",
+      "effect": "This scout drone can be deployed to a space within Sensors and line of sight, where it emits a Burst 2 field with the following effects:<ul><li>You know the current location, HP, Evasion, E-Defense, and Heat of all characters within the affected area.</li><li>Hostile characters cannot Hide in the area, and if they end their turn in the affected area they cease to be Hidden.</li><li>Hostile characters can’t benefit from being Invisible while in the affected area.</li></ul>You can recall and redeploy your scout drone as a quick action."
+    },
+    "Markerlight": {
+      "name": "Markerlight",
+      "description": "“Out, damned spot! Out, I say! – One, two. Why, then, ‘tis time to do’t. Hell is murky! – Fie, my lord, fie! A soldier, and afeard? What need we fear who knows it, when none can call our power to account?”<ul><li>Shakespeare, Macbeth, act 5, sc. 1.</li></ul>",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Make a tech attack against a character within Sensors and line of sight. On a success, they take 2 heat, Lock On, and cannot benefit from soft cover until the Lock On is cleared; additionally, once before the start of your next turn, when an allied character hits your target, you may declare as a reaction that they have hit a weak spot. If it wasn’t already, the attack becomes a critical hit."
+        }
+      }
+    },
+    "Oracle LMG-I": {
+      "name": "Oracle LMG-I",
+      "profiles": {
+        "Oracle LMG-I": {
+          "name": "Oracle LMG-I",
+          "description": "The Oracle Indirect Light Machine Gun (designated O/LMG-I) packs a subsentient, high-volume DOWNPOUR static quad-barrel system into a single cylinder typically installed on the dorsal panel of a chassis. Paired with a firing system, the Oracle is capable of directing persistent defilade-ignorant kinetic fire at targets."
+        }
+      }
+    },
+    "Retractable Profile": {
+      "name": "Retractable Profile",
+      "description": "The hallmark of a well thought out mech frame is the opportunity for pilots to adapt their stock models to the specifications of the environments in which they operate. A retractable profile enables on-the-fly removal of extraneous protrusions, tuning of broadcast software, and masking of heat signatures – all serving to reduce optical and scanner signatures.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "Your mech can retract its major systems to reduce its profile. While active:<ul><li>rolls to locate you receive +1 difficulty while you are Hidden;</li><li>ranged and tech attacks against you receive +1 difficulty;</li><li>you become Slowed and can’t make attacks of any kind;</li><li>you may take other actions (e.g., Hide, Activate, and so on).</li></ul>You may end this effect as a quick action."
+        }
+      }
+    },
+    "ATHENA-Class NHP": {
+      "name": "ATHENA-Class NHP",
+      "description": "Smith-Shimano’s ATHENA is the pinnacle of total hyperspectral environmental facsimiles. Through a combination of unfettered omninet access, hyperspectral relays fired out from a Cloudscout TACSIM projector, sub-networked squadmates, and active/hostile intrusion protocols, ATHENA bootstraps a near-flawless reconstruction of the immediate environment around its host core. ATHENA is unparalleled in its processing power, and with this reconstructed environment, it provides trustworthy, accurate advice to pilots in need of strategic counsel.<br>ATHENA clones tend to be patient, cautious, and measured in their relations with their pilots.",
+      "effect": "Your mech gains the AI tag and Simulacrum.",
+      "actions": {
+        "Simulacrum": {
+          "name": "Simulacrum",
+          "detail": "ATHENA constructs a perfect, real-time, and fully interactive 3D model of a blast 3 area within range 50, including moving characters, all rendered in lovingly extreme detail. The following effects apply:<ul><li>You have full visibility within the affected area, but it doesn’t count as line of sight.</li><li>You know all statistics, weapons, and systems of characters within the affected area.</li><li>Hostile characters within the affected area don’t benefit from cover and can’t Hide or become Invisible.</li><li>Hostile characters that end their turn in the affected area receive Lock On and cease to be Invisible or Hidden.</li></ul>ATHENA’s simulation lasts until the end of the scene, or about 30 minutes within the narrative. You may target a new area as a quick action."
+        }
+      }
+    },
+    "LB/OC Cloaking Field": {
+      "name": "LB/OC Cloaking Field",
+      "description": "SSC’s mil-spec cloaking field is the result of extensive experimentation in cooling and light-reflecting sciences. Born from a need to reflect harmful radiation away from ships and EVA modules in deep space, the Lightbend/Overcloak (LB/OC) cloaking field is often used by rangers and long-patrol scout pilots to ensure not only radiation protection, but optical concealment as well. The light- and radiation-bending properties of the LB/OC conceals anything inside of its projected bubble from sensor suites and optical spotting.",
+      "actions": {
+        "Action": {
+          "name": "Action",
+          "detail": "You become Slowed, but your Mech and all allied characters within a burst 2 area become Invisible as long as they remain completely inside the area. This effect lasts until the end of your next turn, or until you are Stunned, take damage, or deactivate it as a quick action."
+        }
+      }
+    },
+
     "Viceroy": {
       "name": "Viceroy",
       "description": "An offshoot from SSC’s Bella Ciao line, the Viceroy is the result of rigorous field-testing in pursuit of a more accessible version of its larger sibling, the ever-ubiquitous Monarch. Originally developed under the moniker “MicroMonarch”, the scaled-down frame is nevertheless a force to be reckoned with and sports the high-quality engineering expected from all SSC mechs. Where the Monarch focuses on devastating long-range firepower, the Viceroy is more akin to a close-range brawler, using its sophisticated near-threat targeting arrays to wield the launchers of its sibling with deadly precision. <br>Equipped with a scaled-down version of the Monarch’s own SSC-30 High-Penetration Missile System, the Viceroy is more than capable of saturating an area around itself with relatively small but high-yield warheads, aimed with pinpoint accuracy. <br>This, coupled with an integrated, one-use burst jump pack, turns the Viceroy into a potent shock trooper with devastating first-strike capabilities. This role is supported by its ability to shrug off any potential self-inflicted harm from any “shock and awe” maneuvers thanks to its advanced blast-resistant armor plating. <br>Since its recent official release, the Viceroy has become – by SSC standards – an affordable frame that is now being widely rolled out to various SSC associates and subsidiaries. Slated to be approved for mass production, it is anticipated the Viceroy will become a frontline “soldier” mech to ultimately rival the likes of Harrison Armory’s Sherman.",
