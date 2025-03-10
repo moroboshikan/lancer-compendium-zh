@@ -1007,27 +1007,27 @@
       }
     },
     "ICEOUT Drone": {
-      "name": "ICEOUT Drone",
-      "description": "SSC’s ICEOUT drone is a response to increasing reliance on hostile system scans for accurate targeting. By blanketing a mech’s systems in layers of digital defilade, mirroring, spoofing, and redirection, an ICEOUT drone can effectively disappear or disincorporate it from hostile scans. ICEOUT drones only make their operator system-invisible, however; they remain visible with optics.",
-      "effect": "Expend a charge to deploy an ICEOUT drone to a free space within Sensors and line of sight, where it hovers in place and generates a burst 1 field."
+      "name": "冷遇無人機",
+      "description": "SSC 冷遇無人機是針對敵方越來越依賴系統掃描以進行精準瞄準而開發的應對措施。透過為機甲系統覆蓋多層層的數位掩蔽、鏡像、欺敵和訊號重導，冷遇無人機能有效地讓機甲從敵方掃描中消失或移除。不過，冷遇無人機只能讓其操作者在系統層面上隱形，但仍能被光學裝置觀測。",
+      "effect": "消耗一發來在感應和視線範圍內的一個未佔據空間展開一架冰鎮無人機。它會懸浮在該處，並產生一個 爆發 1 範圍的力場。"
     },
     "Perimeter Command Plate": {
-      "name": "Perimeter Command Plate",
-      "description": "The Exotic Materials Group developed the Perimeter Command Plate to extend the area of the Black Witch’s zone of control. Utilizing single-pattern flash printers, the Black Witch prints a broad, circular plate seeded with electromagnetic projectors. Although the plates are intended to be disposable, Black Witch pilots often grow attached to their “familiars” and request their flash-printers create personalized plates.",
-      "effect": "This heavy metal Perimeter Command Plate (PCP) can be flash-printed and deployed to a free 2x2 space within range 5. The PCP is flat, doesn’t obstruct movement, and lasts for the rest of the scene. If you create a new PCP, the old one disintegrates."
+      "name": "周界指揮板",
+      "description": "異類材料集團研發出的周界指揮板，旨在擴展黑巫蛾的控制範圍。利用單樣式快閃列印機，黑巫蛾能列印出一張嵌有電磁投射器的寬闊圓盤。儘管這些圓盤在設計上僅供一次性使用，但黑巫蛾駕駛員經常會對他們的這些「使魔」產生感情，並要求他們的快閃列印機創造出個人化的指揮板。",
+      "effect": "這塊重金屬製周界指揮板（Perimeter Command Plate, PCP）能被快速列印，並在 ⌿5 範圍內的 2x2 範圍的未佔據空間中展開。PCP 表面平坦，不會阻礙移動，且會持續直到該場景結束。如果你創造出新的 PCP，則舊的 PCP 會分解消失。"
     },
     "Black ICE Module": {
-      "name": "Black ICE Module",
-      "description": "Black ICE modules are defensive systems packaged standard with the Black Witch fleets used by SSC's own internal security forces. They project a bubble of WHITECELL code that analyzes incoming hostile script and structures inoculants for friendly systems on the fly.",
-      "effect": "Tech attacks against you or adjacent allied characters receive +1 difficulty. Each subsequent tech attack against you or an adjacent allied character receives an additional +1 difficulty, to a maximum of +3 difficulty.<br>Your Black ICE definitions roll over – resetting to +1 difficulty – when it would increase to +4 difficulty or at the end of the scene. Allied characters lose this benefit when they break adjacency."
+      "name": "黑冰模組",
+      "description": "黑冰模組是 SSC 內部安保部隊所用黑巫蛾機甲標配的防禦系統。該模組能產生出由白細胞代碼構成的防護泡，即時分析來襲的敵意程式碼，並為友方系統生成免疫程式。",
+      "effect": "對你或與你鄰接的隊友角色進行的科技攻擊得到<b> +1 難度</b>。在這之後，每一次對你或與你鄰接的隊友角色進行的科技攻擊都會再額外得到<b> +1 難度</b>，最高累積到 +3 難度。<br><br>你的黑冰模組定義檔會重置──當其將要增加到 +4 難度，或該場景結束時，這個效果會被重置回 +1 難度。隊友角色會在不與你鄰接時失去這個好處。"
     },
     "Magnetic Shield": {
-      "name": "Magnetic Shield",
-      "description": "SSC’s magnetic shield takes the same technology as their proprietary magnetic buckler and applies it to a massive field-projection system.",
+      "name": "磁能盾",
+      "description": "SSC 的磁能盾採用了與其專利磁能圓盾相同的技術，並將其應用於大範圍的場域投射系統上。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "This system creates a line 4 forcefield, 4 spaces high – with at least 1 space adjacent to you – that is an obstruction for mechs and characters made at least partly of metal. It lasts for the rest of the scene and if a new one is placed, the old one deactivates.<br>The forcefield doesn’t block line of sight, but it provides soft cover. Characters gain Resistance to kinetic and explosive damage while benefiting from this cover."
+          "name": "啟動磁能盾",
+          "detail": "這個系統會產生一個<b> 線性 4 </b>範圍，4 格高，且至少有一格與你鄰接的力場牆。這個力場牆對於機甲和至少有部分由金屬構成的角色而言視為障礙物。它會持續直到該場景結束為止，且如果新的力場牆被設置，則舊的將會隨即失效。<br><br>這個力場牆不會阻擋視線，但仍能提供<b>軟性掩護</b>。當受益於此掩護時，角色得到對<b>動能傷害</b>和<b>爆炸傷害</b>的抗性。"
         }
       }
     },
@@ -1064,52 +1064,52 @@
       }
     },
     "High-Stress Mag Clamps": {
-      "name": "High-Stress Mag Clamps",
-      "description": "A simple, reliable set of toggleable mag clamps built into a mech’s locomotive system can vastly increase the tactical possibilities open to its pilot. When switched on, these clamps allow a mech to cling to ferrous surfaces, which is especially useful in low- and zero-gravity environments.",
-      "effect": "You treat all solid surfaces as flat ground for the purposes of movement; you can move across them normally instead of climbing, although you begin to fall if you are knocked Prone."
+      "name": "高壓磁能夾鉗",
+      "description": "這款簡單而可靠的切換式磁能夾鉗內建於機甲的移動系統中，能夠大幅提升駕駛員的戰術選擇可能性。在啟動後，這組夾鉗能讓機甲附著在任何鐵製表面，在低重力和無重力環境中特別實用。",
+      "effect": "你在移動時能把任何堅固表面視為平地；你能如常移動穿過它們，無須攀爬，但你會在被擊倒<b>伏臥</b>時開始墜落。"
     },
     "Tracking Bug": {
-      "name": "Tracking Bug",
-      "description": "Tracking bugs are specialized tracer rounds – essentially, drones too large to be classified as nanites, and far too small to fit the Union-standard parameters of a drone. Fired from dedicated launchers, tracking bugs guide themselves toward their designated target. Following successful penetration of the target, they surreptitiously and continuously feed live data back to their registered user.",
+      "name": "追蹤蟲",
+      "description": "追蹤蟲是一種特製的追蹤彈，其實際上是體積過大而無法歸類為奈米機器的無人機，卻又小到不符合聯盟標準的無人機規格。追蹤蟲透過專用的發射器射出，並自動導引到指定目標上。在成功貫穿目標後，它們會悄悄地持續向登記使用者回傳目標的實時數據。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Make a tech attack against a character within Sensors. On a hit, you know their exact location, HP, Structure, and Speed for the duration. They can’t Hide and you ignore their Invisible status. To remove the tracking drone, they must succeed on an Engineering check as a quick action; otherwise it deactivates at the end of the scene."
+          "name": "啟動追蹤蟲",
+          "detail": "對感應範圍內的一名角色進行科技攻擊。若命中，則你在追蹤蟲運作期間將會知道目標的確切位置、HP、結構值、和速度。目標無法進行<b>躲藏</b>，且你忽略目標的<b>隱形</b>狀態。目標能以<b>快速動作</b>進行<b>工程豁免</b>來嘗試移除追蹤蟲；否則，追蹤蟲會維持運作直到該場景結束為止。"
         }
       }
     },
     "Vulture DMR": {
-      "name": "Vulture DMR",
+      "name": "禿鷲 DMR",
       "profiles": {
         "Vulture DMR": {
-          "name": "Vulture DMR",
-          "description": "The Vulture Designated Marksman Rifle (DMR) is SSC’s core battle rifle. Reliable, available in dozens of configurations and calibers, and fed by box, drum, or belt, the Vulture is a popular armament across a wide range of mechs."
+          "name": "禿鷲 DMR",
+          "description": "禿鷲精確射手步槍（Designated Marksman Rifle, DMR）是 SSC 的主力戰鬥步槍。可靠性高，擁有數十種配置和口徑選項，並可使用彈匣、彈鼓或彈鍊進行供彈，是在各種不同機甲中被廣泛使用的武器。"
         }
       }
     },
     "Core Siphon": {
-      "name": "Core Siphon",
-      "description": "By shunting excess heat to offensive systems, core siphons allow pilots to overclock the targeting, catalytic, and processing capabilities of their weapons. This comes at a cost, however – reliance on overclocking without sufficient cooling can damage systems not built to handle the influx of power.",
+      "name": "核心虹吸",
+      "description": "透過將餘熱分流導向到攻擊系統，核心虹吸能夠讓武器的瞄準、催化和處理系統超頻。然而，這個操作伴隨著代價──倘若缺乏足夠的冷卻，這種依賴超頻的操作可能會損壞那些不是設計來承受高功率輸入的系統。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "When you activate this protocol, you gain +1 accuracy on your first attack roll this turn, but receive +1 difficulty on all other attack rolls until the end of the turn."
+          "name": "啟動抽用核心",
+          "detail": "當你啟動這個協定時，你在該回合的第一次攻擊判定會得到<b> +1 準度</b>，但所有其他攻擊判定都會得到<b> +1 難度</b>，持續直到該回合結束為止。"
         }
       }
     },
     "Railgun": {
-      "name": "Railgun",
+      "name": "磁軌炮",
       "profiles": {
         "Railgun": {
-          "name": "Railgun",
-          "description": "Railguns are simple, elegant weapons. With magnetically accelerated projectiles and no moving parts, they are effective in any theater and entirely self-contained within disposable units. This efficacy comes at a cost: railguns have massive power draw, making it necessary for wielders to carry core-charged auxiliary power translation packs."
+          "name": "磁軌炮",
+          "description": "磁軌炮是一種簡單而優雅的武器。這款武器不使用可動部件，而是透過磁力加速投射物，不僅能在各種戰場環境上發揮效能，更能完整封裝於可替換單元中。然而，這種高效能伴隨著代價：磁軌炮的能量消耗極大，讓使用者不得不攜帶核心充能的輔助能量轉換模組。"
         }
       }
     },
     "Kinetic Compensator": {
-      "name": "Kinetic Compensator",
-      "description": "Kinetic compensators are popular enhancements, providing a subsurface framework of electronically modulated gyroscopes and hydraulic compensators that work in concert to absorb and disperse recoil caused by firing heavy weapons.",
-      "effect": "When you miss with a ranged attack roll, your next ranged attack roll gains +1 accuracy."
+      "name": "動能補償器",
+      "description": "動能補償器是一款廣受歡迎的強化系統，透過電磁調節陀螺儀和液壓補償器架構構成的內部框架，能夠共同協作，吸收並分散重武器開火時產生的後座力。",
+      "effect": "當你在遠距攻擊判定中失手時，你的下一次遠距攻擊判定得到<b> +1 準度</b>。"
     },
 
     "Dusk Wing": {
@@ -1144,61 +1144,61 @@
       }
     },
     "Veil Rifle": {
-      "name": "Veil Rifle",
+      "name": "面紗步槍",
       "profiles": {
         "Veil Rifle": {
-          "name": "Veil Rifle",
-          "description": "“We made first contact maybe an hour after breaching the vault. I remember nothing of it. I’m told most of my squad was killed outright; all I remember is light – brilliant – and a lightness in my own being.<br>“I do believe that I died in that moment, and yet I’m here, and I can’t square these two realities. Something has gone wrong, something has gone wrong, something has gone–”",
-          "effect": "This weapon does not attack allied characters caught in its area of effect; instead, it shrouds them in a field of coruscating energy that throws off targeting systems, giving them soft cover until the end of their next turn."
+          "name": "面紗步槍",
+          "description": "「我們在突入儲藏庫後約一小時發生第一次接觸。我不記得那時發生了什麼事。我被告知我的大部分隊員在那時當場喪命；但我唯一記得的只有那道光──燦爛奪目──以及那空靈的輕盈感。<br>「我相信我已經死在了那一刻，但我卻在這裡，我無法把這兩個現實連結在一起。有哪裡出了問題，出了問題，有哪裡──」",
+          "effect": "這件武器不會攻擊位於其影響範圍內的隊友角色；相反的，他們會被籠罩在一片閃爍的能量力場中，干擾敵方的瞄準系統，使他們得到<b>軟性掩護</b>，持續直到其下一回合結束為止。"
         }
       }
     },
     "Neurospike": {
-      "name": "Neurospike",
-      "description": "“Somehow it got inside my cockpit. There were hands – cold hands – around my neck, fingers in my mouth, worming under my hardsuit. No one else could have been in there with me and yet, someone was. I couldn't even scream, it held my tongue in a fist and it squeezed, and it whispered its name to me, and it said nothing I could understand. I have never felt more alone – it was just me and… it. Alone in the universe, forever.”",
+      "name": "神經刺",
+      "description": "「不知怎的，它進入了我的駕駛艙。手──冰冷的手──勒住我的脖頸，手指探進我的口中，在我的衛士服下蠕動。這裡除了我之外不可能有其他人，但是，有人在這裡，跟我一起。我甚至無法尖叫，它握住了我的舌頭，緊緊拉扯。它對我低語著它的名諱，它說著我無法理解之事。我從未感覺如此孤立──這裡就只有我……和它。孤立於宇宙中，直到永遠。」",
       "actions": {
         "Shrike Code": {
-          "name": "Shrike Code",
-          "detail": "Until the end of the target’s next turn, they first take 2 heat whenever they attack."
+          "name": "鵙碼",
+          "detail": "直到目標的下一回合結束之前，每當目標進行攻擊時，它都會先受到 2 熱度。"
         },
         "Mirage": {
-          "name": "Mirage",
-          "detail": "Choose yourself or an allied character: your systems relay blurred, illusory images over their actual silhouette. Your target treats you, or the character you chose, as Invisible until the end of their next turn."
+          "name": "幻影",
+          "detail": "選擇自己或一個隊友角色：你的系統會發送出朦朧幻象來遮蔽其真正的輪廓。對你的目標而言，你或你所選擇的角色將被視為處於<b>隱形</b>狀態，持續直到其下一回合結束為止。"
         }
       }
     },
     "Burst Launcher": {
-      "name": "Burst Launcher",
+      "name": "爆裂發射器",
       "profiles": {
         "Burst Launcher": {
-          "name": "Burst Launcher",
-          "description": "“Yes, they could die. We killed many of them – blew them away with burst launchers and cannons. I don’t think they mattered to it. Not like insects; not like that… there’s still a use for insects: as food, as necessary components in an ecosystem. Their deaths slowed us, but it didn’t command them to slow us. Even when we breached the last chamber and saw it, I don’t even think it recognized we were there.”",
-          "on_crit": "Target becomes Impaired until the end of their next turn."
+          "name": "爆裂發射器",
+          "description": "「是的，它們會死。我們殺死了許多──用爆裂發射器和大炮，將它們轟散粉碎。但我不覺得它們在乎。不像蟲群；不是那樣……昆蟲還是有用的，作為食物，作為生態系統中的必要環節。它們的死亡減緩了我們的步伐，但它並沒有指示它們讓我們慢下來。即使我們突破了最後的房間，看到它，我甚至覺得它根本沒意識到我們的存在。」",
+          "on_crit": "目標陷入<b>受損</b>狀況，持續直到其下一回合結束為止。"
         }
       }
     },
     "Flicker Field Projector": {
-      "name": "Flicker Field Projector",
-      "description": "“I saw myself over and over and over and over and over and over and over and–”",
-      "effect": "Whenever you Boost or make a standard move, you project a holographic pattern around you, leaving dazzling afterimages that make it hard to discern your precise location: you count as Invisible the next time you’re attacked. You can only benefit from one instance of this effect at a time."
+      "name": "搖曳投影器",
+      "description": "「我看到自己一次又一次又一次又一次又一次又一次又一次又──」",
+      "effect": "每當你進行<b>推進</b>或普通移動時，你會在自己身邊投射出一道全息影像，留下眼花撩亂的殘像，讓人難以判斷你的確切位置：你在下一次被攻擊時視為處於<b>隱形</b>狀態。你同時只能從這個效果中受益一次。"
     },
     "StunCrown": {
-      "name": "StunCrown",
-      "description": "“Many things happened the moment I think I died.”",
+      "name": "眩冕",
+      "description": "「在我覺得我死亡的那一刻，許多事情發生了。」",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Expend a charge to create a burst 3 flash of light. All hostile characters within the affected area that have line of sight to you must succeed on an Agility save or become Jammed, and a Systems save or become Impaired. These effects last until the end of their next turn.<br>Characters in cover from you are not affected by this system."
+          "name": "啟動眩冕",
+          "detail": "消耗一發來產生一個覆蓋<b> 爆發 3 </b>範圍的強烈閃光。所有位於影響範圍內，且其視線範圍內有你的敵對角色，必須成功通過<b>敏捷豁免</b>否則陷入<b>受擾</b>狀況，同時還需要通過<b>系統豁免</b>否則陷入<b>受損</b>狀況。這些效果會持續直到其下一回合結束為止。<br><br>對你而言處於掩護後方的角色不會受到這個系統的影響。"
         }
       }
     },
     "OASIS Wall": {
-      "name": "OASIS Wall",
-      "description": "“Inside? What did I see inside? You think I escaped? That this is all real? No, I– I never left. I’m still there. Something is wrong. Something is not right.”",
+      "name": "綠洲浮牆",
+      "description": "「裡面？我在裡面看到什麼？你覺得我逃掉了？這裡是現實？不，我──我從未離開。我仍然在那裡。有點不對勁，有什麼出了問題──」",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Until the start of your next turn, you can only move in straight lines; however, you create a holographic trail behind you as you move, creating a light barrier made of contiguous sections the same Size as your mech (Size 1 for Size 0.5 Mechs) in each space you move through. This barrier grants hard cover to adjacent characters, and characters that benefit from this cover also gain Resistance to energy.<br>The barrier doesn’t count as an obstruction and has Immunity to all damage. Characters may freely pass through it but not end their turns inside it, and any character that would be involuntarily moved inside the barrier stops moving if they would end their movement inside it. It lasts for the rest of the scene or until you next use this system."
+          "name": "啟動綠洲浮牆",
+          "detail": "直到你的下一回合開始之前，你只能沿著直線路徑移動；不過，你在移動時會在身後留下全息影像尾跡，構成一面與你機甲大小相同（大小 1/2 的機甲則為大小 1）的連續光牆，佔據在你移動經過的每一格上。這道光牆會為與其鄰接的角色提供<b>硬性掩護</b>，且受益於這個掩護的角色同時會得到對能量傷害的<b>抗性</b>。<br><br>這道光牆不被視為障礙物，且免疫於所有傷害。角色可以隨意穿過它，但不能在光牆的位置結束自己的回合。如果任何角色因為強制移動而將要停在光牆的位置，則它會改為在光牆外停止移動。這道光牆會持續直到該場景結束，或直到你再次使用這個系統為止。"
         }
       }
     },
