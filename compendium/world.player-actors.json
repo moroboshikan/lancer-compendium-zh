@@ -58,9 +58,9 @@
       "detail": "所有位於其<b> 爆發 1 </b>範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 2d6 爆炸傷害。豁免成功則只受到一半的傷害。"
     },
     "Flash Mine": {
-      "name": "Flash Mine",
-      "tokenName": "Flash Mine",
-      "detail": "This mine detonates in a Burst 1 area when a character moves adjacent to or over it. Characters within the affected area must succeed on an Agility save or they only have line of sight to adjacent spaces until the end of their next turn."
+      "name": "閃光地雷",
+      "tokenName": "閃光地雷",
+      "detail": "這個地雷會在任何角色移動到它所在或與其鄰接的空間時引爆，產生一個 爆發 1 範圍的閃光區域。位於影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則視線範圍被縮減到只剩下其鄰接空間的距離，持續直到其下一回合結束為止。"
     },
     "Ghast Drone": {
       "name": "Ghast Drone",
@@ -155,7 +155,7 @@
     "Smoke Mine": {
       "name": "煙霧地雷",
       "tokenName": "煙霧地雷",
-      "detail": "這個地雷會在任何隊友角色移動到它所在或鄰接空間時引爆。所有處於其<b> 爆發 3 </b>範圍內的角色和物件都會得到<b>軟性掩護</b>，持續直到將其引爆的角色的下一回合結束為止。"
+      "detail": "這個地雷會在任何隊友角色移動到它所在或與其鄰接的空間時引爆。所有處於其<b> 爆發 3 </b>範圍內的角色和物件都會得到<b>軟性掩護</b>，持續直到將其引爆的角色的下一回合結束為止。"
     },
     "SMOKESTACK Heat Sink": {
       "name": "SMOKESTACK Heat Sink",

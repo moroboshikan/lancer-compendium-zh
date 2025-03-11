@@ -1225,56 +1225,55 @@
       }
     },
     "Flash Charges": {
-      "name": "Flash Charges",
-      "description": "Produced by Smith-Shimano’s BELLA CIAO workshop, Flash Charges are popular advantage multipliers, their flash bright enough to destabilize visible-light optics, laser communications, and infra-red sensor suites.",
+      "name": "閃光炸藥",
+      "description": "由史密斯—島野的 Bella Ciao 工坊生產製造，閃光炸藥是相當受歡迎的優勢倍增裝置，其閃光強度足以讓可見光光學儀器、雷射通訊、和紅外線感應器系統失靈。",
       "actions": {
         "Flash Grenade": {
-          "name": "Flash Grenade",
-          "detail": "Throw a Flash Grenade within Range 5. Until the end of your next turn, this grenade creates a Blast 3 zone of blinding light and sparks. While characters other than you are at least partly inside the area, they can’t draw line of sight out of the area. Characters fully outside of the area or that exit the area are unaffected unless they move into it."
+          "name": "閃光手榴彈",
+          "detail": "往 ⌿5 射程範圍內投擲一顆閃光手榴彈。直到你的下一回合結束前，手榴彈會產生一個<b> 爆發 3 </b>範圍區域的致盲閃光。當除了你以外的角色有至少一部份處於該區域，其視線範圍將無法看見該區域以外的範圍。完全離開該區域的角色只要不移動進到區域內，就不會受到這個效果影響。"
         }
       }
     },
     "Reactive Weave": {
-      "name": "Reactive Weave",
-      "description": "Composed of woven covers for critical joints and systems, reactive weave not only protects these sensitive components from fouling and poor weather, but provides a surface for the application of SSC’s unique loomware technology. Reactive weave is powered, making it capable of free-flexing to augment mobility and reduce the stress placed on a mech’s joints.",
-      "effect": "When you Brace, you become Invisible until the end of your next turn and may immediately move spaces equal to your Speed."
+      "name": "反應織布",
+      "description": "由覆蓋重要關節和系統的編織材料製成，反應織布不僅能保護這些敏感部件不受惡劣天氣和汙損所害，同時能為 SSC 獨特織物科技提供作用表面。反應織布透過動力驅動，使其能夠自由彈性伸縮以強化機動力並減輕機甲關節的受力。",
+      "effect": "當你進行<b>受身</b>時，你得到<b>隱形</b>狀態，持續直到你的下一回合結束為止，並能夠立即移動等同於你速度的距離。"
     },
     "Rail Rifle": {
-      "name": "Rail Rifle",
+      "name": "磁軌步槍",
       "profiles": {
         "Rail Rifle": {
-          "name": "Rail Rifle",
-          "description": "Rail rifles are popular weapons for use in all theaters, but they are the only choice for pilots operating in atmospheres made up of highly combustible gases. They use a line of cascading electromagnets to accelerate small projectiles at tremendous speeds, firing without the need for combustion.<br>Like other rail weapons, rail rifles are quiet in comparison to their traditional counterparts, although massive power requirements make it difficult to mask their energy signatures."
+          "name": "磁軌步槍",
+          "description": "磁軌步槍是在各種戰場環境中都廣受歡迎的武器，而對於在高可燃氣體環境下作戰的駕駛員而言，它則是不二之選。這種武器利用一系列串聯的電磁體將小型投射物加速到驚人的高速，無須點燃就能開火。<br><br>和其他磁軌武器一樣，儘管磁軌步槍相較於傳統步槍而言更加安靜，但其龐大的能量需求仍然讓它難以掩蓋其明顯的能量特徵。"
         }
       }
     },
     "Shock Knife": {
-      "name": "Shock Knife",
+      "name": "電擊匕首",
       "profiles": {
         "Shock Knife": {
-          "name": "Shock Knife",
-          "description": "Shock knives are short, powered blades designed for integration with Shock Wreaths, a popular post-fab modification. The knives are custom-sculpted by SSC’s Terashima artisan enclave, each one bearing the unique hash-stamp of its designer. Part of SSC’s LUX-Iconic line – a civilian-accessible track of the BELLA CIAO line – each shock knife print code allows only a single use. If lost, pilots must submit an apology and request in writing explaining the circumstances of the loss in order to receive another code."
+          "name": "電擊匕首",
+          "description": "電擊匕首是一種短小的動力刀刃，專門為和電擊圈環這款廣受歡迎的後製改裝整合而設計。這款匕首由 SSC 的寺島工匠聯合體訂製雕琢而成，每一把都刻有設計師獨一無二的電子簽署。作為 SSC 奢華系列──Bella Ciao 系列的民用版本──的一部分，每組電擊匕首的列印編碼只被允許使用一次。如果不幸遺失，駕駛員必須呈交書面道歉並說明遺失匕首的緣由才能獲得新的編碼。"
         }
       }
     },
     "Shock Wreath": {
-      "name": "Shock Wreath",
-      "description": "A post-fab modification popular among melee combat specialists, Shock Wreathes integrate a bundle of conductive filaments within the blade, point, tip, or surface of a close combat weapon. Paired with a power source – typically in the hilt or lower half of a weapon, but sometimes external – Shock Wreathes give kinetic weapons a thermal edge and a distinctive visual marker: fine lines of white-hot light like filigree, shrouding the modified weapon in shimmering heat.",
+      "name": "電擊圈環",
+      "description": "電擊圈環是一種相當受肉搏戰專家喜愛的後製改造，透過將一束導電纖維內嵌於接近戰武器的刃口、劍鋒、尖端或表面，賦予其額外的殺傷力。當連結上能源──通常附於武器握柄或其下半部，有時則為外置電源──電擊圈環將為動能武器賦予可怕的電熱鋒面和顯眼的視覺效果：如同浮雕花絲般細緻的白熾光芒，將改造武器籠罩在耀眼的熱輝之中。",
       "actions": [
         {
-          "name": "Activate Shock Wreath",
-          "detail": "1/round you may activate your equipped Shock Wreath as a quick action when you hit a character with the weapon it is applied to to cause it to take 1d6 burn. If it already is suffering from burn, it can additionally only draw line of sight to adjacent spaces until the end of its next turn."
+          "name": "啟動電擊圈環",
+          "detail": "每輪一次，在你應用此改造的武器攻擊並命中時，你能以<b>快速動作</b>啟動電擊圈環，使目標受到 1d6 燃燒。如果目標已經受到燃燒，則目標的視線範圍會被縮減到只剩下其鄰接空間的距離，持續直至其下一回合結束為止。"
         }
       ],
-      "effect": "In addition to its usual damage, 1/round you may activate the wreath as a quick action when you hit a character with the weapon this mod is applied to to cause it to take 1d6 burn. If it already is suffering from burn, it can additionally only draw line of sight to adjacent spaces until the end of its next turn."
+      "effect": "選擇一件<b>肉搏武器</b>來應用這個改造：每輪一次，在你應用此改造的武器攻擊並命中時，除了造成該武器的正常傷害外，你還能以<b>快速動作</b>啟動電擊圈環，使目標受到 1d6 燃燒。如果目標已經受到燃燒，則目標的視線範圍會被縮減到只剩下其鄰接空間的距離，持續直至其下一回合結束為止。"
     },
     "Active Camouflage": {
-      "name": "Active Camouflage",
-      "description": "Active camouflage is the pinnacle of counter-optic defense systems. Active camouflage systems continuously interpret incoming visible-light data, allowing them to project light-bending fields around their user and effectively hiding them in plain sight.",
+      "name": "主動光學迷彩",
+      "description": "主動光學迷彩是光學防禦系統領域的巔峰之作。這套系統能夠持續解析入射的可見光數據，從而在使用者周圍投射出投射光場，使其在光天化日之下消失不見。",
       "actions": [
         {
-          "activation": "Protocol",
-          "detail": "You become Invisible until you take damage, or until the end of your next turn."
+          "detail": "你得到<b>隱形</b>狀態，持續直到你受到傷害、或直到你的下一回合結束為止。"
         }
       ]
     },
@@ -1301,56 +1300,56 @@
       }
     },
     "Sharanga Missiles": {
-      "name": "Sharanga Missiles",
+      "name": "舍羅伽飛彈",
       "profiles": {
         "Sharanga Missiles": {
-          "name": "Sharanga Missiles",
-          "description": "“It was a duel. This is why they were made: to duel, and in that combat, to shake the pillars of the universe.” — “Notes for Young John”,  Ministrations of the Master Teacher",
-          "effect": "This weapon can attack two targets at a time."
+          "name": "舍羅伽飛彈",
+          "description": "「彼事，鬭也。鬭乃其被造意義也，在鬭中，彼能撼天地之柱。」<br>——大師侍奉書《小約翰雜記》",
+          "effect": "這件武器可以同時攻擊二個目標。"
         }
       }
     },
     "Javelin Rockets": {
-      "name": "Javelin Rockets",
-      "description": "“Pralaya was the name of your mother. She who would see the dawn-at-the-end. Her beauty was terrible, and her wrath, and I see it in all of you. My sons, when you hear the sound of thunder – that is your mother’s voice, and the rain of missiles her gift.” — “Notes for Young John”, Ministrations of the Master Teacher",
+      "name": "標槍火箭",
+      "description": "「菩羅拉耶為汝母之名。其將視終末之晨。其美可懼，而吾能察其怒於汝等中。吾兒，如你能聽響雷之聲，其為汝母之聲，彈雨則為其禮。」<br>—大師侍奉書《小約翰雜記》",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Choose 3 free spaces within range 15 and line of sight that aren’t adjacent to each other. All characters know which spaces you have chosen. You fire a volley of auto-targeting rockets into the air: until the start of your next turn, when a character moves into or passes above a chosen space – no more than 10 spaces up – they are hit by a rocket, taking 3 kinetic damage. Each space can be triggered once and then the effect disappears on that space."
+          "name": "啟動標槍火箭",
+          "detail": "選擇在<b> ⌿15 </b>範圍和視線範圍內的 3 格互不鄰接的未佔據空間；所有角色都會知道該空間被選中。你對空發射一輪自動瞄準的火箭彈幕：直到你的下一回合開始為止，當有角色移動經過所選空間、或是從所選空間上方 10 格內的高度經過時，該角色就會被火箭擊中，受到 3 動能傷害。每個所選空間只會被觸發一次，然後該空間上的這個效果隨即消失。"
         }
       }
     },
     "Gandiva Missiles": {
-      "name": "Gandiva Missiles",
+      "name": "甘提婆導彈",
       "profiles": {
         "Gandiva Missiles": {
-          "name": "Gandiva Missiles",
-          "description": "Gandiva missiles are a reliable mainstay from Smith-Shimano’s BELLA CIAO line. Like the heavier Pinaka, the Gandiva is equipped with jet-assisted midflight repositioning systems, enhancing target navigation in rapidly changing battlefield environments. The Gandiva’s delivery platform is administered by a hivemind COMP/CON drone AI, giving it the capacity to learn from each right-of-launch experience."
+          "name": "甘提婆導彈",
+          "description": "甘提婆導彈是史密斯—島野旗下 Bella Ciao 系列中最可靠的主力武器。與更重型的毗那伽飛彈相同，甘提婆搭載了噴射輔助的中途飛行重定位系統，能在瞬息萬變的戰場中增強目標導引能力。甘提婆的發射平台是由擁有蜂巢意識的助理伴侶無人機 AI 進行管理，使其能夠從每一次發射經驗中不斷學習並進化。"
         }
       }
     },
     "Stabilizer Mod": {
-      "name": "Stabilizer Mod",
-      "description": "Stabilizer mods enhance physical mounts and targeting software, ensuring weapons remain level, steady, and at an appropriate angle regardless of terrain or pilot maneuvers.",
-      "effect": "the weapon this mod is applied to gains +5 range and the Ordnance tag."
+      "name": "穩定器模組",
+      "description": "穩定器模組能強化物理掛載和瞄準軟定，確保武器無論在任何地形或駕駛員操作下，都能維持水平、穩定和適當的射擊角度。",
+      "effect": "選擇一件<b>發射器</b>或<b>大炮</b>武器來應用這個改造：該武器得到 +5 射程和<b>重火器</b>標籤。"
     },
     "Pinaka Missiles": {
-      "name": "Pinaka Missiles",
+      "name": "毗那伽飛彈",
       "profiles": {
         "Pinaka Missiles": {
-          "name": "Pinaka Missiles",
-          "description": "Pinaka missiles are massive, two-stage missiles typically mounted along a mech’s spine or carried, disassembled, to be launched from a brachial mount. The Pinaka was originally adapted from ship-to-ship missiles; as such, their second stage uses jet-assist repositioning for midflight orientation.",
-          "effect": "Attacks with this weapon create up to two blast 1 areas, which cannot overlap.<br>You may also delay the impact of attacks made with this weapon. Choose the target area(s), which become visible to all characters: the missiles land at the end of the next round, after all characters have acted, and deal 3d6 explosive damage instead of 2d6, but you become Slowed until the end of your next turn."
+          "name": "毗那伽飛彈",
+          "description": "毗那伽飛彈是一種大型二階段式飛彈，通常安裝在機甲的脊椎位置，或是被拆解後攜帶並從手臂掛載點發射。毗那伽最初改造自艦對艦飛彈；因此，其第二階段使用了噴射輔助重定位系統以提供飛行途中的彈道調整功能。",
+          "effect": "使用這件武器進行的攻擊會產生最多二個不可互相重疊的<b> 爆發 1 </b>範圍。<br><br>你也可以延遲這件武器的攻擊發生時機。選擇目標區域後，所有角色都會知道該空間被選中：這些飛彈會在下一輪結束時，在所有角色都行動之後著陸，並改為造成 3d6 爆炸傷害而非原本的 2d6 傷害，然而你也會陷入<b>緩慢</b>狀況，持續直到你的下一回合結束為止。"
         }
       }
     },
     "TLALOC-Class NHP": {
-      "name": "TLALOC-Class NHP",
-      "description": "TLALOC-Class NHPs provide advanced multi-system targeting and co-pilot functions, taking over subroutine control to ensure persistent lock-on and engagement. With TLALOC installed and operational, a pilot can trust that their back is always covered, and every possible advantage exploited.<br>TLALOC clones are often stereotyped as hasty and impetuous, and they are well-known for having superiority complexes. Despite this, they are some of the most stable NHP clones. Leading subjectivity theorists suggest that the wide portfolio of control and sense of domination given to TLALOC units encourages a sense of contentment with their work and subjectivity parameters – as a result, they have a much longer cascade window. Thus far, this theory is consistently reproducible across all TLALOC units, although there is no similar correlation among other mil-spec NHP lines.",
+      "name": "特拉洛克級 NHP",
+      "description": "特拉洛克級 NHP 提供了先進的多目標瞄準系統和副駕駛功能，透過讓子程式接管控制來確保持續性的鎖定和交戰表現。在安裝並啟動特拉洛克後，駕駛員可以確保他們的背後永遠有人照應，相信每一分戰術優勢都會被充分利用。<br>特拉洛克複製體在刻板印象中通常有著性急魯莽的個性，且以其高度自我優越感而聞名。儘管如此，他們仍然是最穩定的 NHP 複製體之一。主觀性理論學者認為，特拉洛克單位擁有的廣泛控制權和支配欲會使他們更容易滿足於自身的工作和主觀性參數，從而得到更長崩潰的時間週期。截至目前為止，這套理論在所有特拉洛克單位中都能被重現，但在其他軍規 NHP 型號中並尚未觀測到類似的關聯性。",
       "actions": {
         "TLALOC Protocol": {
-          "name": "TLALOC Protocol",
-          "detail": "Your NHP can rapidly fire and retarget your weapons – far faster than thought. You become Immobilized until the start of your next turn; however, during this time, you may reroll each missed melee or ranged attack roll once, choosing a new target within the attack’s Range. If the attack was part of an area of effect, it must target a character in the same area. Any given target can't be hit more than once as part of the same action."
+          "name": "特拉洛克協定",
+          "detail": "你的 NHP 能夠使用你的武器迅速開火並切換目標──遠比你的思考速度還快。直到你的下一回合開始之前，你陷入<b>固定</b>狀況；然而在這段期間，你在每次進行肉搏或遠距攻擊並失手時都可以重擲一次，選擇一個位於攻擊射程內的新目標。如果該攻擊屬於範圍效果的一部分，則其必須選擇同範圍內的另一個角色。任何目標都不能因為同一個動作而被攻擊命中超過一次。"
         }
       }
     },
