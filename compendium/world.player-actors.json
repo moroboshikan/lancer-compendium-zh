@@ -58,9 +58,9 @@
       "detail": "所有位於其<b> 爆發 1 </b>範圍內的角色必須成功通過<b>敏捷豁免</b>，否則受到 2d6 爆炸傷害。豁免成功則只受到一半的傷害。"
     },
     "Flash Mine": {
-      "name": "Flash Mine",
-      "tokenName": "Flash Mine",
-      "detail": "This mine detonates in a Burst 1 area when a character moves adjacent to or over it. Characters within the affected area must succeed on an Agility save or they only have line of sight to adjacent spaces until the end of their next turn."
+      "name": "閃光地雷",
+      "tokenName": "閃光地雷",
+      "detail": "這個地雷會在任何角色移動到它所在或與其鄰接的空間時引爆，產生一個 爆發 1 範圍的閃光區域。位於影響範圍內的角色必須成功通過<b>敏捷豁免</b>，否則視線範圍被縮減到只剩下其鄰接空間的距離，持續直到其下一回合結束為止。"
     },
     "Ghast Drone": {
       "name": "Ghast Drone",
@@ -93,9 +93,9 @@
       "detail": "As a reaction, you may force characters that start their turn adjacent to this drone or move adjacent to it for the first time in a round to make a Systems save. On a failure, they receive Lock On."
     },
     "ICEOUT Drone": {
-      "name": "ICEOUT Drone",
-      "tokenName": "ICEOUT Drone",
-      "detail": "Characters at least partially within the ICEOUT drone's Burst 1 area gain Immunity to all tech actions, and can’t make tech actions. Existing conditions and effects caused by tech actions are not cleared but characters have Immunity to them while they are in the area, and they can be saved against normally.<br>The ICEOUT drone can be moved to any point within Sensors as a quick action. It cannot be recalled and expires at the end of the scene."
+      "name": "冷遇無人機",
+      "tokenName": "冷遇無人機",
+      "detail": "至少一部份處於冷遇無人機的<b> 爆發 1 </b>範圍區域的角色將免疫於所有科技動作的效果，且無法進行科技動作。因為科技動作而造成的既有狀況和效果不會因此被解除，但角色在處於該區域時將會對其<b>免疫</b>，並能如常進行豁免判定。<br><br>冷遇無人機能以<b>快速動作</b>被移動到感應範圍內的任意位置。它不能被回收，並會在該場景結束時失效。"
     },
     "Jericho Deployable Cover": {
       "name": "耶利哥展開掩體",
@@ -103,9 +103,9 @@
       "detail": "你與你鄰接的兩個未佔據空間中展開兩個<b>大小 1 </b>的<b>硬性掩護</b>。每一個掩體都是<b> 5 迴避 </b>和<b> 10 HP </b>的物件，且能各自被選為目標或被毀。這些掩體可以透過<b>完整動作</b>被撿起。"
     },
     "Lotus Projector": {
-      "name": "Lotus Projector",
-      "tokenName": "Lotus Projector",
-      "detail": "This scout drone can be deployed to a space within Sensors and line of sight, where it emits a Burst 2 field with the following effects:<ul><li>You know the current location, HP, Evasion, E-Defense, and Heat of all characters within the affected area.</li><li>Hostile characters cannot Hide in the area, and if they end their turn in the affected area they cease to be Hidden.</li><li>Hostile characters can’t benefit from being Invisible while in the affected area.</li></ul>You can recall and redeploy your scout drone as a quick action."
+      "name": "蓮花投射器",
+      "tokenName": "蓮花投射器",
+      "detail": "這個偵查無人機可以在感應和視線範圍內的一個空間展開，並會在該處產生<b> 爆發 2 </b>範圍的區域，提供以下效果：<ul><li>你知道影響範圍內所有角色的當前位置、HP、迴避、電子防禦、和熱度。</li><li>影響範圍內的敵對角色無法進行<b>躲藏</b>，且其如果在影響範圍內結束回合的話會失去<b>匿跡</b>狀態。</li><li>敵對角色在影響範圍內期間將無法受益於<b>隱形</b>狀態。</li></ul>你能以<b>快速動作</b>收回或重新展開你的偵查無人機。"
     },
     "Lurker Mine": {
       "name": "Lurker Mine",
@@ -128,9 +128,9 @@
       "detail": "The plate cannot be moved, is flat, and does not block movement. It is large enough to hold a single SIZE 1 or smaller DRONE or DEPLOYABLE at a time. DRONES and DEPLOYABLES placed on the plate gain RESISTANCE to all damage and gain +1 to the size of any BURST or BLAST effects they generate. Additionally, any of their effects that require adjacency can now be activated from within Range 2."
     },
     "Perimeter Command Plate": {
-      "name": "Perimeter Command Plate",
-      "tokenName": "Perimeter Command Plate",
-      "detail": "The plate activates for a character the first time that character enters its space during a round, or if they end their turn there.<br>Upon printing, choose a setting:<ul><li><b>Repulse:</b> Hostile characters that move onto the PCP must succeed on a Hull save or be pushed 3 spaces in the direction of your choice. If this causes them to collide with an obstruction, they are knocked Prone. Allied characters that enter the space may immediately fly 3 spaces in any direction as a free action.</li><li><b>Attract:</b> Characters that move onto the PCP must succeed on a Hull save or become Immobilized. They can clear Immobilized by successfully repeating the save as a quick action; it is also cleared if the PCP is destroyed."
+      "name": "周界指揮板",
+      "tokenName": "周界指揮板",
+      "detail": "當角色在每輪中第一次進入指揮板佔據的空間、或在該處結束其回合時，指揮板就會被啟動。<br><br>在列印周界指揮板時，選擇以下其中一個設定：<ul><li><b>斥力</b>：進入 PCP 的敵對角色必須成功通過<b>機體豁免</b>，否則被往你選擇的任意方向推動 3 格。如果這會使目標與障礙物相撞，則目標將因此被撞倒<b>伏臥</b>。進入 PCP 的隊友角色則能立即以<b>免費動作</b>往任意方向<b>飛行</b> 3 格。</li><li><b>吸引</b>：進入 PCP 的角色必須成功通過<b>機體豁免</b>，否則陷入<b>固定</b>狀況。目標能以<b>快速動作</b>重複進行這個豁免，成功則解除該狀況；這個<b>固定</b>狀況也會在 PCP 被毀時一併解除。"
     },
     "Portable Bunker": {
       "name": "流動碉堡",
@@ -155,7 +155,7 @@
     "Smoke Mine": {
       "name": "煙霧地雷",
       "tokenName": "煙霧地雷",
-      "detail": "這個地雷會在任何隊友角色移動到它所在或鄰接空間時引爆。所有處於其<b> 爆發 3 </b>範圍內的角色和物件都會得到<b>軟性掩護</b>，持續直到將其引爆的角色的下一回合結束為止。"
+      "detail": "這個地雷會在任何隊友角色移動到它所在或與其鄰接的空間時引爆。所有處於其<b> 爆發 3 </b>範圍內的角色和物件都會得到<b>軟性掩護</b>，持續直到將其引爆的角色的下一回合結束為止。"
     },
     "SMOKESTACK Heat Sink": {
       "name": "SMOKESTACK Heat Sink",
