@@ -1131,7 +1131,7 @@
       },
       "core_system": {
         "name": "砥耶德關節",
-        "description": "「我們曾堅信眼前所見，指尖所觸──堅信我們的助理伴侶告訴我們存在之物，堅信自己的主觀感知和記憶。對現實的信仰最終成為了我們的武器。我們走進空間摺曲儲藏庫，深知自己將要迎戰未知的敵人，但我們自恃人數優勢和機械之力。<br>「節德柱砥耶在殺戮中教授我們——透過紊亂的通訊頻道，透過瀕死者的尖叫，透過鏡像自我屠殺我們時的狂笑。每一道偽造的信號，每一次時間的錯位，每一條模因，每一個非歐幾里得現象——全都是赤裸裸的教訓。<br>「你能明白嗎？<br>「砥耶德是導師。砥耶德是怪物。在我們殺死它的過程中，砥耶德告訴我們該懼怕什麼，又該如何面對它。<br>「我現在害怕什麼？這是個好問題。那個打破了砥耶德棺匣的駕駛員，他又懼怕什麼呢？<br>「我不認為我們真的殺死了它。我認為它想要我們相信我們殺死了它——而我不敢想像，在我們自以為安全的這段期間，它都做了些什麼。」",
+        "description": "「我們曾堅信眼前所見，指尖所觸──堅信我們的助理伴侶告訴我們存在之物，堅信自己的主觀感知和記憶。對現實的信仰最終成為了我們的武器。我們走進空間摺曲儲藏庫，深知自己將要迎戰未知的敵人，但我們自恃人數優勢和機械之力。<br>「砥耶德在殺戮中教授我們——透過紊亂的通訊頻道，透過瀕死者的尖叫，透過鏡像自我屠殺我們時的狂笑。每一道偽造的信號，每一次時間的錯位，每一條模因，每一個非歐幾里得現象——全都是赤裸裸的教訓。<br>「你能明白嗎？<br>「砥耶德是導師。砥耶德是怪物。在我們殺死它的過程中，砥耶德告訴我們該懼怕什麼，又該如何面對它。<br>「我現在害怕什麼？這是個好問題。那個打破了砥耶德棺匣的駕駛員，他又懼怕什麼呢？<br>「我不認為我們真的殺死了它。我認為它想要我們相信我們殺死了它——而我不敢想像，在我們自以為安全的這段期間，它都做了些什麼。」",
         "passive_name": "被動",
         "active_name": "鏡廊",
         "active_effect": "在該場景期間，每當你在自己的回合中進行一次獨特移動（例如：普通移動、推進、天賦或系統給予的移動等），你會在該移動的起點位置留下一個你自己的全息印痕。這些全息投影是大小與你相同的幻象物件，免疫於所有傷害和效果，且不屬於障礙物。<br><br>當敵對角色移動到與全息投影鄰接的空間、移動穿過、或在全息投影所在的空間開始其回合，全息投影就會爆炸。目標必須成功通過<b>敏捷豁免</b>，否則受到 1d6 能量傷害。豁免成功則只受到一半傷害。<br><br>此外，你得到<b>全息投影傳送</b>快速動作。",
@@ -1383,66 +1383,66 @@
       }
     },
     "Fold Knife": {
-      "name": "Fold Knife",
+      "name": "摺曲匕首",
       "profiles": {
         "Fold Knife": {
-          "name": "Fold Knife",
-          "description": ">//[Am I alone here?]<br>>//[[No. There is only an absence of you. It is very busy here, but you cannot see it]]<br>— DHIYED fragment tablet 1.3",
-          "on_crit": "You may teleport 2 spaces in any direction after the attack resolves."
+          "name": "摺曲匕首",
+          "description": ">//[只有我在這裡嗎？]<br>>//[[不。只有你不在這裡。這裡人來人往，只是你看不到。]]<br>— 砥耶德碑牌斷章 1.3",
+          "on_crit": "你可以在結算該攻擊之後往任意方向<b>瞬間轉移</b> 2 格距離。"
         }
       }
     },
     "Vijaya Rockets": {
-      "name": "Vijaya Rockets",
+      "name": "毘闍耶火箭",
       "profiles": {
         "Vijaya Rockets": {
-          "name": "Vijaya Rockets",
-          "description": "Intended for use as force multipliers in close-range engagements, Vijaya rockets are miniaturized rockets launched from a drum-fed launcher. On detonation, the rockets’ shaped charges project the blast forward, away from the user."
+          "name": "毘闍耶火箭",
+          "description": "旨在近距離交戰中作為戰力乘數裝備使用，毘闍耶火箭是一種採用彈鼓裝填式發射器射出的微型火箭。當被引爆時，火箭內部的成形裝藥會使爆炸向前方投射，避免波及到使用者。"
         }
       }
     },
     "Hunter Logic Suite": {
-      "name": "Hunter Logic Suite",
-      "description": "Built from interpreted strands of DHIYED paracode, SSC’s Hunter Logic is an agile computational memetic: a dual synthetic/VLS-vector systemic weapon capable of interfering with both a target’s computer and its crew.",
+      "name": "獵人邏輯套裝",
+      "description": "透過解析砥耶德的超編碼構築而成，SSC 的獵人邏輯是一種靈活的電子模因：一種兼具合成智能和 VLS 向量的系統武器，能夠同時干擾目標的電腦和乘員。",
       "actions": {
         "Stalk Prey": {
-          "name": "Stalk Prey",
-          "detail": "You infect the target with a viral logic that wipes your image from their sensors. They treat you as Invisible until you next take damage from them. This can only affect one target at a time."
+          "name": "跟蹤獵物",
+          "detail": "你用病毒邏輯感染目標，把你的影像從其感應器中抹消。目標將視你為處於<b>隱形</b>狀態，持續直到你下一次受到來自目標的傷害為止。這個效果同時只能影響一個目標。"
         },
         "Terrify": {
-          "name": "Terrify",
-          "detail": "You infect the target with a viral logic that makes your mech appear horrifying. Until the end of their next turn, they become Impaired and cannot make any voluntary movements that bring them closer to you."
+          "name": "驚嚇",
+          "detail": "你用病毒邏輯感染目標，使你的機甲看起來更恐怖駭人。直到其下一回合結束為止，目標陷入<b>受損</b>狀況，且無法透過自願移動往你的方向靠近。"
         }
       }
     },
     "Singularity Motivator": {
-      "name": "Singularity Motivator",
-      "description": "This unique gravitic power plant was first developed by SSC’s Exotic Materials Group for the first-generation Mourning Cloak. For subsequent models, engineers devised a system that allows pilots to – for a moment – open the grav containment system’s aperture, exposing a slice of naked singularity to realspace.<br>A naked singularity is difficult to perceive for both organics and synthetics, being similar to the heart of a black hole. The sudden exposure essentially removes the mech and its pilot from realtime. The user experiences around 10 seconds of subjective time – a brief window, in which they can act independently of local realtime.<br>SSC recommends against abuse of this system, as the effects of long-term exposure to local sidereal time are still unknown.",
+      "name": "奇點激發器",
+      "description": "這款獨特的重力反應爐最初是由 SSC 的異類材料集團為第一代黃蛺蝶開發的。在後續型號中，工程師們設計出一套系統，能讓駕駛員在瞬間打開重力約制系統的孔徑，將一部份的裸奇點暴露在現實空間。<br>裸奇點的性質與黑洞核心類似，難以被有機體或合成智能感知和理解。這種突如其來的暴露基本上會使機甲和其駕駛員暫時脫離現實時空。使用者會經歷約莫 10 秒的主觀時間，並能在這短暫的瞬間跳脫出本地時空的束縛採取行動。<br>SSC 建議避免濫用此系統，因為目前仍然無法確定長期暴露於非現實時空會帶來什麼樣的副作用。",
       "actions": {
         "Exposed Singularity": {
-          "name": "Exposed Singularity",
-          "trigger": "Your mech takes damage.",
-          "detail": "You may immediately teleport to a free space within 1d6 spaces."
+          "name": "暴露奇點",
+          "trigger": "當你的機甲受到傷害時。",
+          "detail": "你可以立即<b>瞬間轉移</b>到 1d6 格內的一個未佔據空間。"
         }
       }
     },
     "Variable Sword": {
-      "name": "Variable Sword",
+      "name": "變幻劍",
       "profiles": {
         "Variable Sword": {
-          "name": "Variable Sword",
-          "description": "The variable sword is a Smith-Shimano hallmark: a length of razor-sharp molecular wire attached to a handle and locked in place by a magnetic field, variable swords are invisible to the naked eye until they cut into their target. Designed in the early days of interstellar travel, variable swords were meant to allow for the precise gathering of samples, while also reducing the overall burden on a mech’s core.",
-          "on_crit": "Deal +1d6 bonus damage."
+          "name": "變幻劍",
+          "description": "變幻劍是史密斯—島野的標誌性武器：其握柄上連接著一條鋒利無比的分子細線，透過磁場固定成形，直到切入目標體內之前都無法被肉眼看見。這種武器是在星際旅行的早期被設計，最初的用途是為了能夠準確地採集樣本，同時減低對機甲核心的負擔。",
+          "on_crit": "造成 +1d6 額外傷害。"
         }
       }
     },
     "FADE Cloak": {
-      "name": "FADE Cloak",
-      "description": "Representing SSC’s first successful manipulation of the “Firmament”, Firmament Affinity/Directed Entropy (FADE) cloaks must be fabricated according to the unique affinity signature of requisitioning pilots. They are rough tools: artificial affinity amplifiers that allow operators to access shallow layers of the Firmament, and thus “shimmer” – nudging their physical bodies between the causal and paracausal. The cloak enhances this effect by extruding a semiorganic membrane that wraps around the mech to provide an additional layer of protection.<br>At present, the long-term effects of affinity amplification on organic matter are unknown; before receiving clearance to operate a FADE cloak, pilots must agree to check in with their SSC personal concierge on a regular schedule. These check-ins include regular deposits of genetic material.",
+      "name": "FADE 斗篷",
+      "description": "蒼穹親和/定向熵（Firmament Affinity/Directed Entropy, FADE）斗篷代表著 SSC 首成功操縱「蒼穹」的成果，且必須根據申請這項裝備的駕駛員的個人親和性特徵專門編織製作。這仍然是一種相對粗糙的技術：透過人造親和性增幅器，讓操作者得以接觸到蒼穹的淺層，從而達到「閃現」的效果──讓其肉身在因果和超因果之間偏移擺盪。這個斗篷更進一步強化這種效果，它延展出能將機甲包裹起來的半有機膜，提供了額外的保護層。<br>截至目前為止，尚不清楚長期對有機體使用親和性增幅器的副作用。因此，在獲准使用 FADE 斗篷之前，駕駛員必須同意定期向其 SSC 個人助理報到，其中包括定期提交基因樣本以進行監測。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "When activated, you immediately move out of phase with realspace, becoming intangible. While intangible, you may move through obstructions, but not end your turn within them. You cannot interact with any other object or character or be interacted with in any way (e.g., taking or dealing damage).<br>Roll 1d6 at the start of each of your turns: on 3 or less, you return to realspace until the start of your next turn; on 4+, you remain intangible.<br>This system remains active for the rest of the scene, or until you deactivate it as a quick action."
+          "name": "啟動 FADE 斗篷",
+          "detail": "在啟動後，你立即從現實空間的相位偏離，變成了無形的幻影。當處於幻影狀態時，你可以移動穿過障礙物，但不能在其中結束你的回合。你無法與任何其他物件或角色互動，反之亦然（例如造成或承受傷害）。<br><br>在你的每個回合開始時擲 1d6：骰出 3 或以下時，你返回現實空間，持續直到你的下一回合開始；骰出 4+ 時，你維持幻影狀態。<br><br>這個系統會維持整個場景，或直到你以<b>快速動作</b>將其停止。"
         }
       }
     },
@@ -1502,84 +1502,84 @@
       }
     },
     "Lotus Projector": {
-      "name": "Lotus Projector",
-      "description": "Mech-mounted Lotus Projectors are designed to launch small, actively camouflaged scout drones. The projector fires the single-use drones at subsonic speeds in bursts of ten, blanketing a wide area in order to relay information about terrain and targets within.",
-      "effect": "This scout drone can be deployed to a space within Sensors and line of sight, where it emits a Burst 2 field with the following effects:<ul><li>You know the current location, HP, Evasion, E-Defense, and Heat of all characters within the affected area.</li><li>Hostile characters cannot Hide in the area, and if they end their turn in the affected area they cease to be Hidden.</li><li>Hostile characters can’t benefit from being Invisible while in the affected area.</li></ul>You can recall and redeploy your scout drone as a quick action."
+      "name": "蓮花投射器",
+      "description": "機載式蓮花投射器是專為投放主動迷彩小型偵察無人機而設計的。投射器以亞音速發射這些拋棄式無人機，以十架為一組，覆蓋大範圍區域以傳遞地形和目標的詳細資訊。",
+      "effect": "這個偵查無人機可以在感應和視線範圍內的一個空間展開，並會在該處產生<b> 爆發 2 </b>範圍的區域，提供以下效果：<ul><li>你知道影響範圍內所有角色的當前位置、HP、迴避、電子防禦、和熱度。</li><li>影響範圍內的敵對角色無法進行<b>躲藏</b>，且其如果在影響範圍內結束回合的話會失去<b>匿跡</b>狀態。</li><li>敵對角色在影響範圍內期間將無法受益於<b>隱形</b>狀態。</li></ul>你能以<b>快速動作</b>收回或重新展開你的偵查無人機。"
     },
     "Markerlight": {
-      "name": "Markerlight",
-      "description": "“Out, damned spot! Out, I say! – One, two. Why, then, ‘tis time to do’t. Hell is murky! – Fie, my lord, fie! A soldier, and afeard? What need we fear who knows it, when none can call our power to account?”<ul><li>Shakespeare, Macbeth, act 5, sc. 1.</li></ul>",
+      "name": "標光",
+      "description": "「去，該死的血跡！去吧！一點、兩點，啊，那麼現在可以動手了。地獄裡是這樣幽暗！呸，我的爺，呸！你是一個軍人，也會害怕嗎？既然誰也不能奈何我們，為什麼我們要怕被人知道？」<br><i>——莎士比亞《馬克白》第五幕，第一場</i>",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Make a tech attack against a character within Sensors and line of sight. On a success, they take 2 heat, Lock On, and cannot benefit from soft cover until the Lock On is cleared; additionally, once before the start of your next turn, when an allied character hits your target, you may declare as a reaction that they have hit a weak spot. If it wasn’t already, the attack becomes a critical hit."
+          "name": "啟動標光",
+          "detail": "對在感應和視線範圍內的一名角色進行科技攻擊。若成功，則目標受到<b> 2 熱度 </b>和<b>鎖定</b>，且直到該鎖定被解除前都無法受益於<b>軟性掩護</b>；此外，在你的下一回合開始之前，當隊友角色攻擊並命中你的目標時，你能以<b>反應</b>宣告其擊中了目標的弱點，將該攻擊變為<b>會心一擊</b>。"
         }
       }
     },
     "Oracle LMG-I": {
-      "name": "Oracle LMG-I",
+      "name": "神諭 LMG-I",
       "profiles": {
         "Oracle LMG-I": {
-          "name": "Oracle LMG-I",
-          "description": "The Oracle Indirect Light Machine Gun (designated O/LMG-I) packs a subsentient, high-volume DOWNPOUR static quad-barrel system into a single cylinder typically installed on the dorsal panel of a chassis. Paired with a firing system, the Oracle is capable of directing persistent defilade-ignorant kinetic fire at targets."
+          "name": "神諭 LMG-I",
+          "description": "神諭曲射輕機槍（簡稱 O/LMG-I）整合了一組具備次級智能的高射速「豪雨」靜態四管發射系統，封裝於通常掛載在機甲背部的單管火炮中。當與相應的射擊系統配合，神諭能夠持續把無視掩體的動能炮火往目標身上傾瀉。"
         }
       }
     },
     "Retractable Profile": {
-      "name": "Retractable Profile",
-      "description": "The hallmark of a well thought out mech frame is the opportunity for pilots to adapt their stock models to the specifications of the environments in which they operate. A retractable profile enables on-the-fly removal of extraneous protrusions, tuning of broadcast software, and masking of heat signatures – all serving to reduce optical and scanner signatures.",
+      "name": "縮退機構",
+      "description": "一款精心設計的機甲骨架，應該要能讓駕駛員根據其所處環境需求去調整機甲的體型結構。縮退機構讓機甲能夠動態移除多餘的外部結構，調整廣播軟體，並屏蔽熱能信號——從而減低其在光學和掃描儀器中的可見度。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "Your mech can retract its major systems to reduce its profile. While active:<ul><li>rolls to locate you receive +1 difficulty while you are Hidden;</li><li>ranged and tech attacks against you receive +1 difficulty;</li><li>you become Slowed and can’t make attacks of any kind;</li><li>you may take other actions (e.g., Hide, Activate, and so on).</li></ul>You may end this effect as a quick action."
+          "name": "啟動縮退機構",
+          "detail": "你的機甲可以縮撤其主要系統以減少其機體體積。當這個系統啟動時：<ul><li>當你處於<b>匿跡</b>狀態時，用來搜索你而進行的判定得到<b> +1 難度</b>。</li><li>對你進行的遠距和科技攻擊得到<b> +1 難度</b>。</li><li>你陷入<b>緩慢</b>狀況，且無法進行任何攻擊。</li><li>你仍然可以進行其他動作（像是躲藏、啟動等等）。</li></ul>你能以<b>快速動作</b>結束這個效果。"
         }
       }
     },
     "ATHENA-Class NHP": {
-      "name": "ATHENA-Class NHP",
-      "description": "Smith-Shimano’s ATHENA is the pinnacle of total hyperspectral environmental facsimiles. Through a combination of unfettered omninet access, hyperspectral relays fired out from a Cloudscout TACSIM projector, sub-networked squadmates, and active/hostile intrusion protocols, ATHENA bootstraps a near-flawless reconstruction of the immediate environment around its host core. ATHENA is unparalleled in its processing power, and with this reconstructed environment, it provides trustworthy, accurate advice to pilots in need of strategic counsel.<br>ATHENA clones tend to be patient, cautious, and measured in their relations with their pilots.",
-      "effect": "Your mech gains the AI tag and Simulacrum.",
+      "name": "雅典娜級 NHP",
+      "description": "史密斯—島野的雅典娜是全頻譜環境擬像技術的巔峰之作。透過無限制的萬物網連線、以雲偵戰術模擬投射器發射的高頻譜中繼器、靠著子網絡互相連接的隊友、和主動/敵對入侵協定，雅典娜能夠自力建構出其寄宿核心周圍環境近乎完美的實時模擬影像。雅典娜的運算能力無人能出其右，憑藉這個環境模擬能力，它能為需要戰略指導的駕駛員提供可靠且精準的建議。<br>雅典娜複製體在與其駕駛員的互動中，通常會表現出耐心、謹慎且深思熟慮的態度。",
+      "effect": "你的機甲得到 AI 標籤和<b>擬像</b>快速動作。",
       "actions": {
         "Simulacrum": {
-          "name": "Simulacrum",
-          "detail": "ATHENA constructs a perfect, real-time, and fully interactive 3D model of a blast 3 area within range 50, including moving characters, all rendered in lovingly extreme detail. The following effects apply:<ul><li>You have full visibility within the affected area, but it doesn’t count as line of sight.</li><li>You know all statistics, weapons, and systems of characters within the affected area.</li><li>Hostile characters within the affected area don’t benefit from cover and can’t Hide or become Invisible.</li><li>Hostile characters that end their turn in the affected area receive Lock On and cease to be Invisible or Hidden.</li></ul>ATHENA’s simulation lasts until the end of the scene, or about 30 minutes within the narrative. You may target a new area as a quick action."
+          "name": "擬像",
+          "detail": "雅典娜建構出在<b> ⌿50 </b>內一處<b> 爆發 3 </b>範圍區域的完美實時 3D 互動模型，以極致的精細度呈現區域內的一切，包括在該區域內移動的角色。這個擬像將帶來以下效果：<ul><li>你能清楚看見範圍區域的一切，但這並不會被視為你的視線範圍。</li><li>你知道位於範圍區域內的角色的所有數據、武器、和系統。</li><li>範圍區域內的敵對角色無法受益於<b>掩護</b>，無法進行<b>躲藏</b>，也無法得到<b>隱形</b>狀態。</li><li>在範圍區域內結束其回合的敵對角色會被<b>鎖定</b>，並解除其<b>匿跡</b>和<b>隱形</b>狀態。</li></ul>雅典娜的擬像會持續直到該場景結束，在敘事場景中則持續大約 30 分鐘。你能以<b>快速動作</b>重新選擇一個新的區域。"
         }
       }
     },
     "LB/OC Cloaking Field": {
-      "name": "LB/OC Cloaking Field",
-      "description": "SSC’s mil-spec cloaking field is the result of extensive experimentation in cooling and light-reflecting sciences. Born from a need to reflect harmful radiation away from ships and EVA modules in deep space, the Lightbend/Overcloak (LB/OC) cloaking field is often used by rangers and long-patrol scout pilots to ensure not only radiation protection, but optical concealment as well. The light- and radiation-bending properties of the LB/OC conceals anything inside of its projected bubble from sensor suites and optical spotting.",
+      "name": "LB/OC 隱身力場",
+      "description": "SSC 的軍規隱形力場是經過大量冷卻和光反射科學實驗的結晶。源於在深空環境中反射有害輻射避免影響船隻和艙外活動的需求，屈光/隱身（Lightbend/Overcloak, LB/OC）隱形力場常被遊騎兵和長程巡邏偵察駕駛員使用，不僅能提供幅射保護，還能實現光學層面的隱形效果。LB/OC 曲折光線和輻射的特性，使其能夠讓所有位於其投射範圍內的事物一並從感應器和光學觀察中消失不見。",
       "actions": {
         "Action": {
-          "name": "Action",
-          "detail": "You become Slowed, but your Mech and all allied characters within a burst 2 area become Invisible as long as they remain completely inside the area. This effect lasts until the end of your next turn, or until you are Stunned, take damage, or deactivate it as a quick action."
+          "name": "啟動 LB/OC 隱身力場",
+          "detail": "你陷入<b>緩慢</b>狀況，但你的機甲和位於<b> 爆發 2 </b>範圍內所有隊友角色，只要維持完全處於該範圍內，就能得到<b>隱形</b>狀態。這個效果會持續直到你的下一回合結束為止，或直到你陷入<b>暈眩</b>狀況、受到傷害、或以<b>快速動作</b>解除這個效果為止。"
         }
       }
     },
 
     "Viceroy": {
-      "name": "Viceroy",
-      "description": "An offshoot from SSC’s Bella Ciao line, the Viceroy is the result of rigorous field-testing in pursuit of a more accessible version of its larger sibling, the ever-ubiquitous Monarch. Originally developed under the moniker “MicroMonarch”, the scaled-down frame is nevertheless a force to be reckoned with and sports the high-quality engineering expected from all SSC mechs. Where the Monarch focuses on devastating long-range firepower, the Viceroy is more akin to a close-range brawler, using its sophisticated near-threat targeting arrays to wield the launchers of its sibling with deadly precision. <br>Equipped with a scaled-down version of the Monarch’s own SSC-30 High-Penetration Missile System, the Viceroy is more than capable of saturating an area around itself with relatively small but high-yield warheads, aimed with pinpoint accuracy. <br>This, coupled with an integrated, one-use burst jump pack, turns the Viceroy into a potent shock trooper with devastating first-strike capabilities. This role is supported by its ability to shrug off any potential self-inflicted harm from any “shock and awe” maneuvers thanks to its advanced blast-resistant armor plating. <br>Since its recent official release, the Viceroy has become – by SSC standards – an affordable frame that is now being widely rolled out to various SSC associates and subsidiaries. Slated to be approved for mass production, it is anticipated the Viceroy will become a frontline “soldier” mech to ultimately rival the likes of Harrison Armory’s Sherman.",
+      "name": "總督蛺蝶",
+      "description": "作為 SSC 旗下 Bella Ciao 系列的分支，總督蛺蝶是經過嚴格實地測試後研發出的機體。跟其大型姊妹機：無處不在的金斑蝶相比，總督蛺蝶旨在提供一個更通俗易得的版本。最初以「小金斑蝶」的名義開發，這款機甲儘管體型縮水，實力卻仍然不容小覷，並依舊展現出了 SSC 機甲一貫的高品質工程設計。相較於專注毀滅性遠程炮火的金斑蝶，總督蛺蝶更像是一名近身鬥士，憑藉精密的近威脅瞄準矩陣，以致命精準度揮灑其姊妹機搭載的飛彈發射器。<br><br>搭載著金斑蝶的 SSC-30 高穿透飛彈系統的縮小版本，總督蛺蝶的火力完全足以對其周圍區域實行飽和轟炸，以極高的準確度鎖定目標，並發射小型卻高當量的彈頭。<br><br>這個特性，在配合其內建的單發式跳躍模組，讓總督蛺蝶成為了擁有毀滅性先制打擊能力的強力突擊部隊機種。而其先進的防爆裝甲則能確保它無視其在「震懾打擊」作戰中可能對自己造成的傷害。<br><br>自正式發表以來，總督蛺蝶就成為了以 SSC 標準而言相對低廉的機體，並迅速被廣泛分派到 SSC 的合作夥伴和子公司中使用。隨著即將通過的量產許可，可以預期總督蛺蝶在不久遠的未來成為戰場前線的「士兵級」機甲，與哈里遜兵工廠的薛曼分庭抗禮。",
       "traits": {
         "Near-Threat Targeting Processor": {
-          "name": "Near-Threat Targeting Processor",
-          "description": "The Viceroy treats its LAUNCHER weapons as though they are also CQB weapons with THREAT 3."
+          "name": "近威脅瞄準處理器",
+          "description": "總督蛺蝶可以把其<b>發射器</b>武器視為帶有<b> 威脅 3 </b>標籤的<b> CQB 武器</b>。"
         },
         "Vigilante Omnidirectional Launchers": {
-          "name": "Vigilante Omnidirectional Launchers",
-          "description": "1/Round, on a critical hit against a character, the Viceroy may immediately deal 2 Explosive damage to all characters of its choice within Range 3 of itself and knock them back 1 space."
+          "name": "衛警全向發射器",
+          "description": "每輪一次，當總督蛺蝶對其他角色的攻擊造成<b>會心一擊</b>時，其可以立即對自己<b> ⌿3 </b>範圍內的任意角色造成 2 爆炸傷害，並將它們擊退 1 格。"
         },
         "Pressure Plating": {
-          "name": "Pressure Plating",
-          "description": "The Viceroy has Resistance to Explosive Damage."
+          "name": "壓力板甲",
+          "description": "總督蛺蝶具有對爆炸傷害的抗性。"
         }
       },
       "core_system": {
-        "name": "SSC-41 Tengu-Assisted Missile Tubes",
-        "description": "By redlining its integrated Vigilante launchers, the Viceroy can deliver a devastating saturation bombardment of its close surroundings. Weathering the onslaught thanks to its blast-resistant exterior, the Viceroy can utilize this salvo, when coupled with the miniaturized Tengu one-burst jump system, for a variety of advanced battlefield tactics. This allows it to either deliver a near-unstoppable alpha strike or make a dramatic exit. “Heaven’s downpour” is a technique that strikes fear in any that face a Viceroy pilot in combat.",
-        "passive_name": "PASSIVE",
-        "active_name": "Heaven’s Downpour",
-        "active_effect": "Center a Burst 3 missile swarm on yourself. Hostile characters in the area must succeed on a Hull save or take 1d6+3 Explosive damage and be knocked Prone. On a successful save they take half damage and remain standing. You may consume an affected character’s Lock On to make them automatically fail the save. <br>Before or after taking this action you may Fly up to your Speed, ignoring Engagement and Reactions. You must end this movement on solid ground or begin falling."
+        "name": "SSC-41 天狗輔助導彈管",
+        "description": "透過將其內建的衛警發射器發揮到極限，總督蛺蝶能夠對其周圍環境進行毀滅性的飽和轟炸。憑藉其防爆外裝，總督蛺蝶能夠在承受這場轟炸的同時，結合小型化的天狗單發式跳躍系統，實現各種精湛的高階戰場戰術。這不只能讓它發動幾乎無法阻擋的先制炮擊，也能執行戲劇性的撤退作戰。其中，「天國暴雨」是最為知名的一種可怕戰術，足以讓任何面對總督蛺蝶的敵人聞之膽戰心驚。",
+        "passive_name": "被動",
+        "active_name": "天國暴雨",
+        "active_effect": "以你為中心產生一個<b> 爆發 3 </b>範圍的導彈轟炸。範圍區域內的敵對角色必須成功通過<b>機體豁免</b>，否則受到 1d6+3 爆炸傷害，並被擊倒<b>伏臥</b>。豁免成功則只受到一半傷害，並維持站立。你可以消耗受影響角色身上的<b>鎖定</b>，使其在這個豁免中自動失敗。<br><br>在進行這個動作之前或之後，你可以<b>飛行</b>移動最多等同你速度的距離，忽略交戰，且不會觸發反應。你必須在堅固地表上結束這個移動，否則開始墜落。"
       }
     },
 

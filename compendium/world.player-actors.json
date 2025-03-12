@@ -103,9 +103,9 @@
       "detail": "你與你鄰接的兩個未佔據空間中展開兩個<b>大小 1 </b>的<b>硬性掩護</b>。每一個掩體都是<b> 5 迴避 </b>和<b> 10 HP </b>的物件，且能各自被選為目標或被毀。這些掩體可以透過<b>完整動作</b>被撿起。"
     },
     "Lotus Projector": {
-      "name": "Lotus Projector",
-      "tokenName": "Lotus Projector",
-      "detail": "This scout drone can be deployed to a space within Sensors and line of sight, where it emits a Burst 2 field with the following effects:<ul><li>You know the current location, HP, Evasion, E-Defense, and Heat of all characters within the affected area.</li><li>Hostile characters cannot Hide in the area, and if they end their turn in the affected area they cease to be Hidden.</li><li>Hostile characters can’t benefit from being Invisible while in the affected area.</li></ul>You can recall and redeploy your scout drone as a quick action."
+      "name": "蓮花投射器",
+      "tokenName": "蓮花投射器",
+      "detail": "這個偵查無人機可以在感應和視線範圍內的一個空間展開，並會在該處產生<b> 爆發 2 </b>範圍的區域，提供以下效果：<ul><li>你知道影響範圍內所有角色的當前位置、HP、迴避、電子防禦、和熱度。</li><li>影響範圍內的敵對角色無法進行<b>躲藏</b>，且其如果在影響範圍內結束回合的話會失去<b>匿跡</b>狀態。</li><li>敵對角色在影響範圍內期間將無法受益於<b>隱形</b>狀態。</li></ul>你能以<b>快速動作</b>收回或重新展開你的偵查無人機。"
     },
     "Lurker Mine": {
       "name": "Lurker Mine",
